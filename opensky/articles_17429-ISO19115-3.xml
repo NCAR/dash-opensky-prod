@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2017-10-04T22:40:05.216730</gco:DateTime>
+      <gco:DateTime>2018-01-24T19:45:14.362408</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -171,7 +171,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study describes a freezing drizzle detection algorithm based on the Weather Surveillance Radar-1988 Doppler (WSR-88D) measured radar reflectivity. Although radar returns from freezing drizzle and light snow are similar-&lt;5 dBZ and spatially uniform-freezing drizzle can be identified using feature parameters computed from radar reflectivity, such as local and global standard deviations and reflectivity texture weighted with a fuzzy-logic scheme. Algorithm results agree well with surface precipitation reports. The proposed algorithm can serve as one component of automated decision-support schemes for icing hazard detection and/or hydrometeor identification.</gco:CharacterString>
+            <gco:CharacterString>This study describes a freezing drizzle detection algorithm based on the Weather Surveillance Radar-1988 Doppler (WSR-88D) measured radar reflectivity. Although radar returns from freezing drizzle and light snow are similar-&amp;lt;5 dBZ and spatially uniform-freezing drizzle can be identified using feature parameters computed from radar reflectivity, such as local and global standard deviations and reflectivity texture weighted with a fuzzy-logic scheme. Algorithm results agree well with surface precipitation reports. The proposed algorithm can serve as one component of automated decision-support schemes for icing hazard detection and/or hydrometeor identification.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
