@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2018-01-24T19:42:27.541039</gco:DateTime>
+      <gco:DateTime>2018-11-21T19:12:47.303599</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -80,6 +80,9 @@
    <gmd:metadataStandardVersion>
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://n2t.net/ark:/85065/d7n879x8</gco:CharacterString>
+   </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -107,14 +110,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>doi:10.1029/2008JA013308</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:RS_Identifier>
-               </gmd:identifier>
-               <gmd:identifier>
-                  <gmd:RS_Identifier>
-                     <gmd:code>
-                        <gco:CharacterString>ark:/85065/d7n879x8</gco:CharacterString>
+                        <gco:CharacterString>https://doi.org/10.1029/2008JA013308</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -211,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The six-satellite Constellation Observing System for Meteorology, Ionosphere and Climate (COSMIC) mission makes routine ionospheric measurements over the entire globe using occultation techniques. These observations have been used in this study to develop global-scale climate maps of Nm F&amp;#8322; and hm f&amp;#8322; during the southern (northern) summer (winter). Enhanced electron densities that appear to be associated with the southern, equatorial (Appleton) anomaly are displaced far southward at dusk and, within about an hour, form the Weddell Sea anomaly. Coincidentally, the height of the F&amp;#8322; peak increases on the northern boundary of this anomaly. This height increase is also displaced southward as the enhanced electron densities are displaced southward, suggesting that the electron density increases are associated with the F&amp;#8322; peak rising. As well as being an interesting phenomenon in its own right, this behavior may shed new light on the formation of the Weddell Sea anomaly. No unambiguous explanation for this behavior can be determined from the data presently available, but an examination of some possibilities suggests that an evening downward flux of plasma from the plasmasphere may be at least partly responsible for the phenomenon.</gco:CharacterString>
+            <gco:CharacterString>The six-satellite Constellation Observing System for Meteorology, Ionosphere and Climate (COSMIC) mission makes routine ionospheric measurements over the entire globe using occultation techniques. These observations have been used in this study to develop global-scale climate maps of Nm F&#x2082; and hm f&#x2082; during the southern (northern) summer (winter). Enhanced electron densities that appear to be associated with the southern, equatorial (Appleton) anomaly are displaced far southward at dusk and, within about an hour, form the Weddell Sea anomaly. Coincidentally, the height of the F&#x2082; peak increases on the northern boundary of this anomaly. This height increase is also displaced southward as the enhanced electron densities are displaced southward, suggesting that the electron density increases are associated with the F&#x2082; peak rising. As well as being an interesting phenomenon in its own right, this behavior may shed new light on the formation of the Weddell Sea anomaly. No unambiguous explanation for this behavior can be determined from the data presently available, but an examination of some possibilities suggests that an evening downward flux of plasma from the plasmasphere may be at least partly responsible for the phenomenon.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
