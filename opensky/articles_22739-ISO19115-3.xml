@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:22:52.880012</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:28:19.042494</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41v4p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7h41v4p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7h41v4p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7h41v4p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thayer&#x2010;Calder, Katherine</gco:CharacterString>
+                        <gco:CharacterString>Thayer-Calder, Katherine</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Rimed hydrometeors (graupel or hail) are added to a stratiform cloud scheme for global models and tested in a variety of configurations. Off&#x2010;line tests compare well to other cloud microphysics schemes with rimed ice used in mesoscale models. Tests in single column and climate mode show expected production of small amounts of rimed ice in the middle troposphere and at high latitudes. The overall climate impacts of rimed ice (hail or graupel) at 100&#x2010;km horizontal grid spacing are small. There are some changes to partitioning between cloud ice and snow that affect upper troposphere water budgets and clouds. High&#x2010;resolution simulations are conducted with a global but regionally refined grid at 14 km over the Contiguous United States. High&#x2010;resolution simulations show local production of graupel with realistic size and number concentrations. The maximum graupel frequency at high resolution is over Western U.S. mountain ranges. Differences in total precipitation with the addition of rimed ice in 8&#x2010;year simulations are statistically significant only for orographic precipitation over the Cascade and Rocky mountains, reducing model biases when rimed ice is included. Rimed ice slightly improves summer precipitation intensity relative to observations. Thus, while the global climate impact of rimed ice in stratiform clouds may be negligible, there are potentially important and systematic regional effects, particularly for orographic precipitation. Rimed ice in cumulus clouds is not yet treated but is an important next step.</gco:CharacterString>
+            <gco:CharacterString>Rimed hydrometeors (graupel or hail) are added to a stratiform cloud scheme for global models and tested in a variety of configurations. Off-line tests compare well to other cloud microphysics schemes with rimed ice used in mesoscale models. Tests in single column and climate mode show expected production of small amounts of rimed ice in the middle troposphere and at high latitudes. The overall climate impacts of rimed ice (hail or graupel) at 100-km horizontal grid spacing are small. There are some changes to partitioning between cloud ice and snow that affect upper troposphere water budgets and clouds. High-resolution simulations are conducted with a global but regionally refined grid at 14 km over the Contiguous United States. High-resolution simulations show local production of graupel with realistic size and number concentrations. The maximum graupel frequency at high resolution is over Western U.S. mountain ranges. Differences in total precipitation with the addition of rimed ice in 8-year simulations are statistically significant only for orographic precipitation over the Cascade and Rocky mountains, reducing model biases when rimed ice is included. Rimed ice slightly improves summer precipitation intensity relative to observations. Thus, while the global climate impact of rimed ice in stratiform clouds may be negligible, there are potentially important and systematic regional effects, particularly for orographic precipitation. Rimed ice in cumulus clouds is not yet treated but is an important next step.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:33:47.008940</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:56:45.446207</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,48 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7qr51n2</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7qr51n2</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.3334/ORNLDAAC/1840</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5065/D6SJ1JCH</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>The NA-CORDEX dataset</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7qr51n2</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7qr51n2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McClure, Meredith L.</gco:CharacterString>
+                        <gco:CharacterString>McClure, M. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hranac, Carter R.</gco:CharacterString>
+                        <gco:CharacterString>Hranac, C. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Haase, Catherine G.</gco:CharacterString>
+                        <gco:CharacterString>Haase, C. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McGinnis, Seth</gco:CharacterString>
+                        <gco:CharacterString>McGinnis, Seth A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dickson, Brett G.</gco:CharacterString>
+                        <gco:CharacterString>Dickson, B. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hayman, David T.S.</gco:CharacterString>
+                        <gco:CharacterString>Hayman, D. T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McGuire, Liam P.</gco:CharacterString>
+                        <gco:CharacterString>McGuire, L. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lausen, Cori L.</gco:CharacterString>
+                        <gco:CharacterString>Lausen, C. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Plowright, Raina K.</gco:CharacterString>
+                        <gco:CharacterString>Plowright, R. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Olson, Sarah H.</gco:CharacterString>
+                        <gco:CharacterString>Olson, S. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +277,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate change and disease are threats to biodiversity that may compound and interact with one another in ways that are difficult to predict. White-nose syndrome (WNS), caused by a cold-loving fungus (Pseudogymnoascus destructans), has had devastating impacts on North American hibernating bats, and impact severity has been linked to hibernaculum microclimate conditions. As WNS spreads across the continent and climate conditions change, anticipating these stressors&#x2019; combined impacts may improve conservation outcomes for bats. We build on the recent development of winter species distribution models for five North American bat species, which used a hybrid correlative-mechanistic approach to integrate spatially explicit winter survivorship estimates from a bioenergetic model of hibernation physiology. We apply this bioenergetic model given the presence of P. destructans, including parameters capturing its climate-dependent growth as well as its climate-dependent effects on host physiology, under both current climate conditions and scenarios of future climate change. We then update species distribution models with the resulting survivorship estimates to predict changes in winter hibernacula suitability under future conditions. Exposure to P. destructans is generally projected to decrease bats&#x2019; winter occurrence probability, but in many areas, changes in climate are projected to lessen the detrimental impacts of WNS. This rescue effect is not predicted for all species or geographies and may arrive too late to benefit many hibernacula. However, our findings offer hope that proactive conservation strategies to minimize other sources of mortality could allow bat populations exposed to P. destructans to persist long enough for conditions to improve.</gco:CharacterString>
+            <gco:CharacterString>Climate change and disease are threats to biodiversity that may compound and interact with one another in ways that are difficult to predict. White-nose syndrome (WNS), caused by a cold-loving fungus (Pseudogymnoascus destructans), has had devastating impacts on North American hibernating bats, and impact severity has been linked to hibernaculum microclimate conditions. As WNS spreads across the continent and climate conditions change, anticipating these stressors' combined impacts may improve conservation outcomes for bats. We build on the recent development of winter species distribution models for five North American bat species, which used a hybrid correlative-mechanistic approach to integrate spatially explicit winter survivorship estimates from a bioenergetic model of hibernation physiology. We apply this bioenergetic model given the presence of P. destructans, including parameters capturing its climate-dependent growth as well as its climate-dependent effects on host physiology, under both current climate conditions and scenarios of future climate change. We then update species distribution models with the resulting survivorship estimates to predict changes in winter hibernacula suitability under future conditions. Exposure to P. destructans is generally projected to decrease bats' winter occurrence probability, but in many areas, changes in climate are projected to lessen the detrimental impacts of WNS. This rescue effect is not predicted for all species or geographies and may arrive too late to benefit many hibernacula. However, our findings offer hope that proactive conservation strategies to minimize other sources of mortality could allow bat populations exposed to P. destructans to persist long enough for conditions to improve.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

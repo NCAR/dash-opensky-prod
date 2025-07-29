@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:13:38.274502</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:28:08.701044</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bg2s3p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bg2s3p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.1594/PANGAEA.900979</gmd:URL>
+                  <gmd:URL>https://doi.org/10.1594/PANGAEA.900979</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bg2s3p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bg2s3p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tabor, Clay R.</gco:CharacterString>
+                        <gco:CharacterString>Tabor, C. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Feng, Ran</gco:CharacterString>
+                        <gco:CharacterString>Feng, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto&#x2010;Bliesner, Bette L.</gco:CharacterString>
+                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Reconstructing deep time climate often relies on a limited number of data points, which can hinder inference of the large&#x2010;scale climate state. Here we use an Earth system model with idealized boundary conditions to simulate climate responses to paleogeographic changes associated with the breakup of a supercontinent. After the supercontinent splits, weaker tropical easterlies occur in the larger ocean basin, which dampens the Walker circulation and warms the equatorial ocean through reduced upwelling. Additionally, cloud formation increases across the midlatitude ocean, causing locally cooler sea surface temperatures. Over land, there is dramatic tropical cooling post-breakup due to enhanced moisture and cloud formation. Consequently, the latitudinal temperature gradient responses over land and ocean oppose each other, which makes inferring large scale climate changes from spatially spare proxy records particularly challenging in this scenario. Our findings emphasize the tight coupling between geography and planetary-scale climate dynamics in the tropics and subtropics.</gco:CharacterString>
+            <gco:CharacterString>Reconstructing deep time climate often relies on a limited number of data points, which can hinder inference of the large-scale climate state. Here we use an Earth system model with idealized boundary conditions to simulate climate responses to paleogeographic changes associated with the breakup of a supercontinent. After the supercontinent splits, weaker tropical easterlies occur in the larger ocean basin, which dampens the Walker circulation and warms the equatorial ocean through reduced upwelling. Additionally, cloud formation increases across the midlatitude ocean, causing locally cooler sea surface temperatures. Over land, there is dramatic tropical cooling post-breakup due to enhanced moisture and cloud formation. Consequently, the latitudinal temperature gradient responses over land and ocean oppose each other, which makes inferring large scale climate changes from spatially spare proxy records particularly challenging in this scenario. Our findings emphasize the tight coupling between geography and planetary-scale climate dynamics in the tropics and subtropics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

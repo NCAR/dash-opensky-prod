@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:20.926825</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:54:52.217785</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d73f4tj5</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d73f4tj5</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d73f4tj5</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d73f4tj5</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Salinas, Cornelius Csar Jude H.</gco:CharacterString>
+                        <gco:CharacterString>Salinas, C. C. J. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wu, Dong L.</gco:CharacterString>
+                        <gco:CharacterString>Wu, D. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee, Jae N.</gco:CharacterString>
+                        <gco:CharacterString>Lee, J. N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chang, Loren C.</gco:CharacterString>
+                        <gco:CharacterString>Chang, L. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This work uses the Specified Dynamics-Whole Atmosphere Community Climate Model with Ionosphere/Thermosphere eXtension (SD-WACCM-X) to determine and explain the seasonality of the migrating semidiurnal tide (SW2) components of tropical upper mesosphere and lower thermosphere (UMLT) temperature, zonal wind, and meridional wind. This work also quantifies aliasing due to SW2 in satellite-based tidal estimates. Results show that during equinox seasons, the vertical profiles of tropical UMLT temperature SW2 and zonal-wind SW2's amplitudes have a double-peak structure while they, along with meridional-wind SW2, have a single-peak structure in their amplitudes in June solstice. Hough mode reconstruction reveals that a linear combination of five SW2 Hough modes cannot fully reproduce these features. Tendency analysis reveals that for temperature, the adiabatic term, nonlinear advection term, and linear advection term are important. For the winds, the classical terms, nonlinear advection term, linear advection term, and gravity wave drag are important. Results of our alias analysis then indicate that SW2 can induce an  SIM;60% alias in zonal-mean and DW1 components calculated from sampling like that of the Thermosphere-Ionosphere-Mesosphere Energetics and Dynamics satellite and the Aura satellite. This work concludes that in situ generation by wave-wave interaction and/or by gravity waves plays significant roles in the seasonality of tropical UMLT temperature SW2, zonal-wind SW2, and meridional-wind SW2. The alias analysis further adds that one cannot simply assume that SW2 in the tropical UMLT is negligible.</gco:CharacterString>
+            <gco:CharacterString>This work uses the Specified Dynamics-Whole Atmosphere Community Climate Model with Ionosphere/Thermosphere eXtension (SD-WACCM-X) to determine and explain the seasonality of the migrating semidiurnal tide (SW2) components of tropical upper mesosphere and lower thermosphere (UMLT) temperature, zonal wind, and meridional wind. This work also quantifies aliasing due to SW2 in satellite-based tidal estimates. Results show that during equinox seasons, the vertical profiles of tropical UMLT temperature SW2 and zonal-wind SW2's amplitudes have a double-peak structure while they, along with meridional-wind SW2, have a single-peak structure in their amplitudes in June solstice. Hough mode reconstruction reveals that a linear combination of five SW2 Hough modes cannot fully reproduce these features. Tendency analysis reveals that for temperature, the adiabatic term, nonlinear advection term, and linear advection term are important. For the winds, the classical terms, nonlinear advection term, linear advection term, and gravity wave drag are important. Results of our alias analysis then indicate that SW2 can induce an SIM;60% alias in zonal-mean and DW1 components calculated from sampling like that of the Thermosphere-Ionosphere-Mesosphere Energetics and Dynamics satellite and the Aura satellite. This work concludes that in situ generation by wave-wave interaction and/or by gravity waves plays significant roles in the seasonality of tropical UMLT temperature SW2, zonal-wind SW2, and meridional-wind SW2. The alias analysis further adds that one cannot simply assume that SW2 in the tropical UMLT is negligible.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:51.636895</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:33:18.189444</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78g8pn8</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78g8pn8</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5281/zenodo.45136</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.45136</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5281/zenodo.886621</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.886621</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -143,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78g8pn8</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78g8pn8</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -263,58 +263,55 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; HABITAT CONVERSION/FRAGMENTATION &gt; IRRIGATION</gco:CharacterString>
+                  <gco:CharacterString>Coupled climate models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CONVECTIVE CLOUDS/SYSTEMS (OBSERVED/ANALYZED) &gt; CUMULUS</gco:CharacterString>
+                  <gco:CharacterString>Data visualization</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; MONSOONS</gco:CharacterString>
+                  <gco:CharacterString>Irrigation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; CHLOROPHYLL</gco:CharacterString>
+                  <gco:CharacterString>Compound extreme events</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; WATER QUALITY/WATER CHEMISTRY &gt; WATER CHARACTERISTICS &gt; WATER TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Socioeconomics</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; CRYOSPHERIC INDICATORS &gt; GLACIAL MEASUREMENTS &gt; GLACIER/ICE SHEET TOPOGRAPHY</gco:CharacterString>
+                  <gco:CharacterString>Glacier/ice sheet topography</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; TELECONNECTIONS &gt; EL NINO SOUTHERN OSCILLATION (ENSO)</gco:CharacterString>
+                  <gco:CharacterString>El nino southern oscillation (enso)</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; COUPLED CLIMATE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Global change responses</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; DUST/ASH/SMOKE</gco:CharacterString>
+                  <gco:CharacterString>Monsoons</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; STATISTICAL APPLICATIONS</gco:CharacterString>
+                  <gco:CharacterString>Chlorophyll</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; EXTREME WEATHER</gco:CharacterString>
+                  <gco:CharacterString>Tropical cyclones</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; COMPOUND EXTREME EVENTS</gco:CharacterString>
+                  <gco:CharacterString>Cumulus</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; DATA VISUALIZATION</gco:CharacterString>
+                  <gco:CharacterString>Extreme weather</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; GLOBAL CHANGE RESPONSES</gco:CharacterString>
+                  <gco:CharacterString>Dust/ash/smoke</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; SOCIOECONOMICS</gco:CharacterString>
+                  <gco:CharacterString>Statistical applications</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Water temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Sea surface temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

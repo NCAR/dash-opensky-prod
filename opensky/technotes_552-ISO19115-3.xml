@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:40.627569</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:46:54.399401</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7r78hpk</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7r78hpk</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7r78hpk</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7r78hpk</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rasmussen, Roy</gco:CharacterString>
+                        <gco:CharacterString>Rasmussen, Roy M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gutmann, Ethan</gco:CharacterString>
+                        <gco:CharacterString>Gutmann, Ethan D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Done, James</gco:CharacterString>
+                        <gco:CharacterString>Done, James M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jaye, Abigail</gco:CharacterString>
+                        <gco:CharacterString>Jaye, Abigail B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fredrick, Sherrie</gco:CharacterString>
+                        <gco:CharacterString>Fredrick, Sherrie Mae</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garre, Luca</gco:CharacterString>
+                        <gco:CharacterString>Garre, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Veldore, Vidyunmala</gco:CharacterString>
+                        <gco:CharacterString>Veldore, V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Niesel, Jonathan</gco:CharacterString>
+                        <gco:CharacterString>Niesel, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,8 +267,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A state of the art modeling study was undertaken to estimate the most likely impacts of climate change on Gulf of Mexico hurricane intensity and frequency.  The modeling study entailed the use of two state of the art sets of future climate change simulations.  The first simulation was conducted using a Climate Ensemble approach over a large domain and at relatively high resolution compared to global climate models, and the second simulation was conducted at 4km higher resolution, over a limited domain covering a smaller sub-set of North America.  Both simulations are based on the WRF (Skamarock et al., 2008) model.  The first simulation addresses frequency changes of hurricanes, and to a lesser extent the change in intensity, while the second, addressed mainly changes in intensity of hurricanes in a future climate. The combined results of these two simulations show: * A tendency towards fewer hurricanes in the Gulf of Mexico and a slight reduction in the proportion of Atlantic hurricanes entering the Gulf. * An increased proportion of category 3, 4, and 5 storms in the Gulf of Mexico. * Increased precipitation for all cyclones in the Gulf of Mexico. * The characteristics of future hurricanes in the Gulf of Mexico are projected to be similar in size and track speed to current hurricanes. * These simulations predict a ~10% increase in cyclone damage potential for the most intense hurricanes.  &#xD;
-The prediction for fewer but more damaging hurricanes suggests the potential for substantial impacts on infrastructure and operations in the GOM in the future.</gco:CharacterString>
+            <gco:CharacterString>A state of the art modeling study was undertaken to estimate the most likely impacts of climate change on Gulf of Mexico hurricane intensity and frequency. The modeling study entailed the use of two state of the art sets of future climate change simulations. The first simulation was conducted using a Climate Ensemble approach over a large domain and at relatively high resolution compared to global climate models, and the second simulation was conducted at 4km higher resolution, over a limited domain covering a smaller sub-set of North America. Both simulations are based on the WRF (Skamarock et al., 2008) model. The first simulation addresses frequency changes of hurricanes, and to a lesser extent the change in intensity, while the second, addressed mainly changes in intensity of hurricanes in a future climate. The combined results of these two simulations show: * A tendency towards fewer hurricanes in the Gulf of Mexico and a slight reduction in the proportion of Atlantic hurricanes entering the Gulf. * An increased proportion of category 3, 4, and 5 storms in the Gulf of Mexico. * Increased precipitation for all cyclones in the Gulf of Mexico. * The characteristics of future hurricanes in the Gulf of Mexico are projected to be similar in size and track speed to current hurricanes. * These simulations predict a ~10% increase in cyclone damage potential for the most intense hurricanes. The prediction for fewer but more damaging hurricanes suggests the potential for substantial impacts on infrastructure and operations in the GOM in the future.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -354,19 +353,16 @@ The prediction for fewer but more damaging hurricanes suggests the potential for
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES &gt; PEAK INTENSITY</gco:CharacterString>
+                  <gco:CharacterString>Weather research/forecast models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; EXTREME WEATHER &gt; TROPICAL OR EXTRATROPICAL CYCLONE FREQUENCY/INTENSITY</gco:CharacterString>
+                  <gco:CharacterString>Tropical cyclones</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; WEATHER RESEARCH/FORECAST MODELS</gco:CharacterString>
+                  <gco:CharacterString>Peak intensity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Tropical or extratropical cyclone frequency/intensity</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

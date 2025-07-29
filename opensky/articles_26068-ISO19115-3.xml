@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:19:39.216769</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:55:25.386041</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7fx7fcf</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7fx7fcf</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Spatio-temporal comparisons of the hydrogen-alpha line width and ALMA 3&#xc2;&#xa0;mm brightness temperature in the weak solar network</gco:CharacterString>
+                  <gco:CharacterString>Spatio-temporal comparisons of the hydrogen-alpha line width and ALMA 3&#xa0;mm brightness temperature in the weak solar network</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7fx7fcf</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7fx7fcf</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tarr, Lucas A.</gco:CharacterString>
+                        <gco:CharacterString>Tarr, L. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kobelski, Adam R.</gco:CharacterString>
+                        <gco:CharacterString>Kobelski, A. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jaeggli, Sarah A.</gco:CharacterString>
+                        <gco:CharacterString>Jaeggli, S. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cauzzi, Gianna</gco:CharacterString>
+                        <gco:CharacterString>Cauzzi, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Reardon, Kevin P.</gco:CharacterString>
+                        <gco:CharacterString>Reardon, K. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Comparisons between the Atacama Large Millimeter/sub-millimeter Array (ALMA) 3 mm emission and a range of optical and UV solar observations have found the strongest correspondence between the width of the hydrogen alpha line at 656.3 nm and the 3 mm brightness temperature. Previous studies on the oscillatory power of p-modes using ALMA Band 3 and Band 6 data in the 3-5 min period bandpass have found a confusing mix of results, with many reporting a complete lack of the p-mode enhancement typically found in other chromospheric observables. We study these issues using an extensive, publicly available coordinated data set targeting a region of weak network flux near disk center at time SOL 2017-03-17T15:42-16:45. We focus on the Interferometric Bidimensional Spectropolarimeter (IBIS) H-alpha and ALMA 3 mm data series. We confirm the strong correlation between the H-alpha line width and the 3 mm brightness temperature, but find a bimodal relation between the two diagnostics, with a shallower slope of 7.4e-5  Aring;/K in cooler regions and steeper slope of 1.2e-4  Aring;/K in hotter regions. The origin of the bimodal distribution is unknown, but does hold for the duration of the observations. Both slopes are steeper than a previously reported value, but this is likely due to systematic differences in the analysis. We then calculate the oscillatory power in the H-alpha and 3 mm data. The IBIS data clearly show the p-mode oscillations in spatially averaged power spectra while the ALMA data do not. However, when we remove IBIS data at times corresponding to the ALMA calibration windows, the spatially averaged power spectra for the two data series are nearly identical, with a Pearson correlation coefficient of 0.9895. Further, the power in the two bands remains strongly correlated when the spatial information is retained but the power is integrated over different temporal frequency bands. We therefore argue that the lack of observed p modes in the ALMA data may be predominantly due to spectral windowing induced by the timing and duration of the calibration observations. Finally, we find that spatial maps of oscillatory power at 3 mm display the patternof magnetic shadows and halos typically displayed by other chromospheric diagnostics.</gco:CharacterString>
+            <gco:CharacterString>Comparisons between the Atacama Large Millimeter/sub-millimeter Array (ALMA) 3 mm emission and a range of optical and UV solar observations have found the strongest correspondence between the width of the hydrogen alpha line at 656.3 nm and the 3 mm brightness temperature. Previous studies on the oscillatory power of p-modes using ALMA Band 3 and Band 6 data in the 3-5 min period bandpass have found a confusing mix of results, with many reporting a complete lack of the p-mode enhancement typically found in other chromospheric observables. We study these issues using an extensive, publicly available coordinated data set targeting a region of weak network flux near disk center at time SOL 2017-03-17T15:42-16:45. We focus on the Interferometric Bidimensional Spectropolarimeter (IBIS) H-alpha and ALMA 3 mm data series. We confirm the strong correlation between the H-alpha line width and the 3 mm brightness temperature, but find a bimodal relation between the two diagnostics, with a shallower slope of 7.4e-5 Aring;/K in cooler regions and steeper slope of 1.2e-4 Aring;/K in hotter regions. The origin of the bimodal distribution is unknown, but does hold for the duration of the observations. Both slopes are steeper than a previously reported value, but this is likely due to systematic differences in the analysis. We then calculate the oscillatory power in the H-alpha and 3 mm data. The IBIS data clearly show the p-mode oscillations in spatially averaged power spectra while the ALMA data do not. However, when we remove IBIS data at times corresponding to the ALMA calibration windows, the spatially averaged power spectra for the two data series are nearly identical, with a Pearson correlation coefficient of 0.9895. Further, the power in the two bands remains strongly correlated when the spatial information is retained but the power is integrated over different temporal frequency bands. We therefore argue that the lack of observed p modes in the ALMA data may be predominantly due to spectral windowing induced by the timing and duration of the calibration observations. Finally, we find that spatial maps of oscillatory power at 3 mm display the patternof magnetic shadows and halos typically displayed by other chromospheric diagnostics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

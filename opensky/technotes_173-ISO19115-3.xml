@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:04:46.670487</gco:DateTime>
+      <gco:DateTime>2025-07-17T17:57:59.735326</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7z31z18</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7z31z18</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7z31z18</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7z31z18</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cooper, William</gco:CharacterString>
+                        <gco:CharacterString>Cooper, W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -223,25 +223,22 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; CLOUD CONDENSATION NUCLEI</gco:CharacterString>
+                  <gco:CharacterString>Turbulence</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; SULFUR COMPOUNDS &gt; SULFUR DIOXIDE</gco:CharacterString>
+                  <gco:CharacterString>Sulfur dioxide</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD MICROPHYSICS &gt; CLOUD CONDENSATION NUCLEI</gco:CharacterString>
+                  <gco:CharacterString>Absorption</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ABSORPTION</gco:CharacterString>
+                  <gco:CharacterString>Cloud condensation nuclei</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; ENVIRONMENTAL IMPACTS &gt; FOSSIL FUEL BURNING</gco:CharacterString>
+                  <gco:CharacterString>Dust/ash/smoke</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; WIND DYNAMICS &gt; TURBULENCE</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; DUST/ASH/SMOKE</gco:CharacterString>
+                  <gco:CharacterString>Fossil fuel burning</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

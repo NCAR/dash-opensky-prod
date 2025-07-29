@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:11.390142</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:18:16.976837</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,54 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7zg6x77</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7zg6x77</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.48364/ISIMIP.342217</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>WFDE5 over land merged with ERA5 over the ocean (W5E5 v2.0)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.7646911</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Cover crops effect on global croplands modelled by LPJ-GUESS</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Estimating the global influence of Cover Crops on ecosystem service indicators in croplands with the LPJ&#x2010;GUESS model</gco:CharacterString>
+                  <gco:CharacterString>Estimating the global influence of Cover Crops on ecosystem service indicators in croplands with the LPJ-GUESS model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7zg6x77</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7zg6x77</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ma, Jianyong</gco:CharacterString>
+                        <gco:CharacterString>Ma, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anthoni, Peter</gco:CharacterString>
+                        <gco:CharacterString>Anthoni, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Olin, Stefan</gco:CharacterString>
+                        <gco:CharacterString>Olin, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rabin, Sam S.</gco:CharacterString>
+                        <gco:CharacterString>Rabin, Sam</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bayer, Anita D.</gco:CharacterString>
+                        <gco:CharacterString>Bayer, A. D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xia, Longlong</gco:CharacterString>
+                        <gco:CharacterString>Xia, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Arneth, Almut</gco:CharacterString>
+                        <gco:CharacterString>Arneth, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:14:50.504174</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:40:31.248252</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78918k1</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78918k1</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.1594/PANGAEA.841672</gmd:URL>
+                  <gmd:URL>https://doi.org/10.1594/PANGAEA.841672</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.1594/PANGAEA.733406</gmd:URL>
+                  <gmd:URL>https://doi.org/10.1594/PANGAEA.733406</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -143,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78918k1</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78918k1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kageyama, Masa</gco:CharacterString>
+                        <gco:CharacterString>Kageyama, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Braconnot, Pascale</gco:CharacterString>
+                        <gco:CharacterString>Braconnot, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Harrison, Sandy P.</gco:CharacterString>
+                        <gco:CharacterString>Harrison, S. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Haywood, Alan M.</gco:CharacterString>
+                        <gco:CharacterString>Haywood, A. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jungclaus, Johann H.</gco:CharacterString>
+                        <gco:CharacterString>Jungclaus, J. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette L.</gco:CharacterString>
+                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Peterschmitt, Jean-Yves</gco:CharacterString>
+                        <gco:CharacterString>Peterschmitt, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Abe-Ouchi, Ayako</gco:CharacterString>
+                        <gco:CharacterString>Abe-Ouchi, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Albani, Samuel</gco:CharacterString>
+                        <gco:CharacterString>Albani, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bartlein, Patrick J.</gco:CharacterString>
+                        <gco:CharacterString>Bartlein, P. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brierley, Chris</gco:CharacterString>
+                        <gco:CharacterString>Brierley, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Crucifix, Michel</gco:CharacterString>
+                        <gco:CharacterString>Crucifix, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +277,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dolan, Aisling</gco:CharacterString>
+                        <gco:CharacterString>Dolan, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +287,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fernandez-Donado, Laura</gco:CharacterString>
+                        <gco:CharacterString>Fernandez-Donado, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +297,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fischer, Hubertus</gco:CharacterString>
+                        <gco:CharacterString>Fischer, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +307,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hopcroft, Peter O.</gco:CharacterString>
+                        <gco:CharacterString>Hopcroft, P. O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +317,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ivanovic, Ruza F.</gco:CharacterString>
+                        <gco:CharacterString>Ivanovic, R. F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +327,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lambert, Fabrice</gco:CharacterString>
+                        <gco:CharacterString>Lambert, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +337,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lunt, Daniel J.</gco:CharacterString>
+                        <gco:CharacterString>Lunt, D. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +347,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mahowald, Natalie M.</gco:CharacterString>
+                        <gco:CharacterString>Mahowald, N. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +357,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Peltier, W. Richard</gco:CharacterString>
+                        <gco:CharacterString>Peltier, W. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +367,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Phipps, Steven J.</gco:CharacterString>
+                        <gco:CharacterString>Phipps, S. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +377,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Roche, Didier M.</gco:CharacterString>
+                        <gco:CharacterString>Roche, D. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -387,7 +387,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schmidt, Gavin A.</gco:CharacterString>
+                        <gco:CharacterString>Schmidt, G. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -397,7 +397,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tarasov, Lev</gco:CharacterString>
+                        <gco:CharacterString>Tarasov, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +407,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Valdes, Paul J.</gco:CharacterString>
+                        <gco:CharacterString>Valdes, P. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -417,7 +417,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Qiong</gco:CharacterString>
+                        <gco:CharacterString>Zhang, Q.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -427,7 +427,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhou, Tianjun</gco:CharacterString>
+                        <gco:CharacterString>Zhou, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +447,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper is the first of a series of four GMD papers on the PMIP4-CMIP6 experiments. Part 2 (OttoBliesner et al., 2017) gives details about the two PMIP4-CMIP6 interglacial experiments, Part 3 (Jungclaus et al., 2017) about the last millennium experiment, and Part 4 (Kageyama et al., 2017) about the Last Glacial Maximum experiment. The mid-Pliocene Warm Period experiment is part of the Pliocene Model Intercomparison Project (PlioMIP) Phase 2, detailed in Haywood et al. (2016).  The goal of the Paleoclimate Modelling Intercomparison Project (PMIP) is to understand the response of the climate system to different climate forcings for documented climatic states very different from the present and historical climates. Through comparison with observations of the environmental impact of these climate changes, or with climate reconstructions based on physical, chemical, or biological records, PMIP also addresses the issue of how well state-of-the-art numerical models simulate climate change. Climate models are usually developed using the present and historical climates as references, but climate projections show that future climates will lie well outside these conditions. Palaeoclimates very different from these reference states therefore provide stringent tests for state-of-the-art models and a way to assess whether their sensitivity to forcings is compatible with palaeoclimatic evidence. Simulations of five different periods have been designed to address the objectives of the sixth phase of the Coupled Model Intercomparison Project (CMIP6): the millennium prior to the industrial epoch (CMIP6 name: past1000); the mid-Holocene, 6000 years ago (midHolocene); the Last Glacial Maximum, 2, 000 years ago (lgm); the Last Interglacial, 127,000 years ago (lig127k); and the mid-Pliocene Warm Period, 3.2 million years ago (midPliocene-eoi400). These climatic periods are well documented by palaeoclimatic and palaeoenvironmental records, with climate and environmental changes relevant for the study and projection of future climate changes.This paper describes the motivation for the choice of these periods and the design of the numerical experiments and database requests, with a focus on their novel features compared to the experiments performed in previous phases of PMIP and CMIP. It also outlines the analysis plan that takes advantage of the comparisons of the results across periods and across CMIP6 in collaboration with other MIPs.</gco:CharacterString>
+            <gco:CharacterString>This paper is the first of a series of four GMD papers on the PMIP4-CMIP6 experiments. Part 2 (OttoBliesner et al., 2017) gives details about the two PMIP4-CMIP6 interglacial experiments, Part 3 (Jungclaus et al., 2017) about the last millennium experiment, and Part 4 (Kageyama et al., 2017) about the Last Glacial Maximum experiment. The mid-Pliocene Warm Period experiment is part of the Pliocene Model Intercomparison Project (PlioMIP) Phase 2, detailed in Haywood et al. (2016). The goal of the Paleoclimate Modelling Intercomparison Project (PMIP) is to understand the response of the climate system to different climate forcings for documented climatic states very different from the present and historical climates. Through comparison with observations of the environmental impact of these climate changes, or with climate reconstructions based on physical, chemical, or biological records, PMIP also addresses the issue of how well state-of-the-art numerical models simulate climate change. Climate models are usually developed using the present and historical climates as references, but climate projections show that future climates will lie well outside these conditions. Palaeoclimates very different from these reference states therefore provide stringent tests for state-of-the-art models and a way to assess whether their sensitivity to forcings is compatible with palaeoclimatic evidence. Simulations of five different periods have been designed to address the objectives of the sixth phase of the Coupled Model Intercomparison Project (CMIP6): the millennium prior to the industrial epoch (CMIP6 name: past1000); the mid-Holocene, 6000 years ago (midHolocene); the Last Glacial Maximum, 2, 000 years ago (lgm); the Last Interglacial, 127,000 years ago (lig127k); and the mid-Pliocene Warm Period, 3.2 million years ago (midPliocene-eoi400). These climatic periods are well documented by palaeoclimatic and palaeoenvironmental records, with climate and environmental changes relevant for the study and projection of future climate changes.This paper describes the motivation for the choice of these periods and the design of the numerical experiments and database requests, with a focus on their novel features compared to the experiments performed in previous phases of PMIP and CMIP. It also outlines the analysis plan that takes advantage of the comparisons of the results across periods and across CMIP6 in collaboration with other MIPs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

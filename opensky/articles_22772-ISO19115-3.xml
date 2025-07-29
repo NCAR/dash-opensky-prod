@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:24:42.935306</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:31:20.903453</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7sj1pmh</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7sj1pmh</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7sj1pmh</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7sj1pmh</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vichare, Geeta</gco:CharacterString>
+                        <gco:CharacterString>Vichare, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thomas, Neethal</gco:CharacterString>
+                        <gco:CharacterString>Thomas, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shiokawa, Kazau</gco:CharacterString>
+                        <gco:CharacterString>Shiokawa, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sinha, Ashwini Kumar</gco:CharacterString>
+                        <gco:CharacterString>Sinha, A. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents a comprehensive study of geomagnetic storm time currents using magnetic field recorded by multispacecraft polar&#x2010;orbiting mission, Swarm. During geomagnetic storm period, the magnetic field variations obtained after removing the internal geomagnetic field and quiet time contributions can be considered as a proxy for storm time currents and are found to follow the temporal profile of Dst index very closely. These variations at the equatorial crossings recorded by multiple&#x2010;spacecraft are used to estimate the Dst values and are found to have a good match with the ground&#x2010;based Dst index. The average deviation between these two is around 4&#x2013;13%. We have estimated the asymmetry by taking the difference between the magnetic field variations at two local time sectors separated by 12 hr. The estimated asymmetry shows a good match with the AsyH&#x2010;index, especially when satellite traverses in the dawn&#x2010;dusk sector. In general, the magnetic field variations are stronger in the night&#x2010;to&#x2010;dusk sector than day&#x2010;to&#x2010;dawn sector, which could be due to the larger pressure&#x2010;gradients near night&#x2010;to&#x2010;dusk caused by ion movements. The important advantage of Swarm mission is that it provides an opportunity to investigate the longitudinal gradients in the storm time magnetic fields. It is observed that in general, the gradients are stronger during the main phase of the storm, centered near the equator with a latitudinal width of ~20-30&#xb0; in both the hemispheres, and are supportive to the scenario of particle&#x2010;injection from the magnetotail. The stronger gradients are observed at higher latitudes (~40&#xb0;) during the episodes of substorms and might be associated with the ionospheric/field&#x2010;aligned currents.</gco:CharacterString>
+            <gco:CharacterString>This paper presents a comprehensive study of geomagnetic storm time currents using magnetic field recorded by multispacecraft polar-orbiting mission, Swarm. During geomagnetic storm period, the magnetic field variations obtained after removing the internal geomagnetic field and quiet time contributions can be considered as a proxy for storm time currents and are found to follow the temporal profile of Dst index very closely. These variations at the equatorial crossings recorded by multiple-spacecraft are used to estimate the Dst values and are found to have a good match with the ground-based Dst index. The average deviation between these two is around 4&#x2013;13%. We have estimated the asymmetry by taking the difference between the magnetic field variations at two local time sectors separated by 12 hr. The estimated asymmetry shows a good match with the AsyH-index, especially when satellite traverses in the dawn-dusk sector. In general, the magnetic field variations are stronger in the night-to-dusk sector than day-to-dawn sector, which could be due to the larger pressure-gradients near night-to-dusk caused by ion movements. The important advantage of Swarm mission is that it provides an opportunity to investigate the longitudinal gradients in the storm time magnetic fields. It is observed that in general, the gradients are stronger during the main phase of the storm, centered near the equator with a latitudinal width of ~20-30&#xb0; in both the hemispheres, and are supportive to the scenario of particle-injection from the magnetotail. The stronger gradients are observed at higher latitudes (~40&#xb0;) during the episodes of substorms and might be associated with the ionospheric/field-aligned currents.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

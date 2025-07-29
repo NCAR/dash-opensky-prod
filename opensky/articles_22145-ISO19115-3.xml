@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:19:46.220011</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:33:25.604263</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7pr7zx8</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7pr7zx8</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7pr7zx8</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7pr7zx8</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -257,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew J.</gco:CharacterString>
+                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa L.</gco:CharacterString>
+                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +287,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Digangi, J. P.</gco:CharacterString>
+                        <gco:CharacterString>DiGangi, J. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -397,7 +397,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We examine the distribution and fate of nitrogen oxides (NOx) in the lower troposphere over the Northeast United States (NE US) using aircraft observations from the Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) campaign in February-March 2015, as well as the GEOS&#x2010;Chem chemical transport model and concurrent ground&#x2010;based observations. We find that the National Emission Inventory from the U.S. Environmental Protection Agency is consistent with WINTER observations of total reactive nitrogen (TNOy) to within 10% on average, in contrast to the significant overestimate reported in past studies under warmer conditions. Updates to the dry deposition scheme and dinitrogen pentoxide (N2O5) reactive uptake probability, &#x263;(N2O5), result in an improved simulation of gas&#x2010;phase nitric acid (HNO3) and submicron particulate nitrate (pNO3-), reducing the longstanding factor of 2-3 overestimate in wintertime HNO3 + pNO3- to a 50% positive bias. We find a NOx lifetime against chemical loss and deposition of 22 hr in the lower troposphere over the NE US. Chemical loss of NOx is dominated by N2O5 hydrolysis (58% of loss) and reaction with OH (33%), while 7% of NOx leads to the production of organic nitrates. Wet and dry deposition account for 55% and 45% of TNOy deposition over land, respectively. We estimate that 42% of the NOx emitted is exported from the NE US boundary layer during winter, mostly in the form of HNO3 + pNO3- (40%) and NOx (38%).</gco:CharacterString>
+            <gco:CharacterString>We examine the distribution and fate of nitrogen oxides (NOx) in the lower troposphere over the Northeast United States (NE US) using aircraft observations from the Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) campaign in February-March 2015, as well as the GEOS-Chem chemical transport model and concurrent ground-based observations. We find that the National Emission Inventory from the U.S. Environmental Protection Agency is consistent with WINTER observations of total reactive nitrogen (TNOy) to within 10% on average, in contrast to the significant overestimate reported in past studies under warmer conditions. Updates to the dry deposition scheme and dinitrogen pentoxide (N2O5) reactive uptake probability, &#x263;(N2O5), result in an improved simulation of gas-phase nitric acid (HNO3) and submicron particulate nitrate (pNO3-), reducing the longstanding factor of 2-3 overestimate in wintertime HNO3 + pNO3- to a 50% positive bias. We find a NOx lifetime against chemical loss and deposition of 22 hr in the lower troposphere over the NE US. Chemical loss of NOx is dominated by N2O5 hydrolysis (58% of loss) and reaction with OH (33%), while 7% of NOx leads to the production of organic nitrates. Wet and dry deposition account for 55% and 45% of TNOy deposition over land, respectively. We estimate that 42% of the NOx emitted is exported from the NE US boundary layer during winter, mostly in the form of HNO3 + pNO3- (40%) and NOx (38%).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

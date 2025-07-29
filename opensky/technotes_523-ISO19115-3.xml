@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:07:02.076138</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:04:42.236716</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d73f4p3p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d73f4p3p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d73f4p3p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d73f4p3p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nance, Louisa</gco:CharacterString>
+                        <gco:CharacterString>Nance, Louisa B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, Barbara</gco:CharacterString>
+                        <gco:CharacterString>Brown, Barbara G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fowler, Tressa</gco:CharacterString>
+                        <gco:CharacterString>Fowler Smith, Tressa L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kucera, Paul</gco:CharacterString>
+                        <gco:CharacterString>Kucera, Paul A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Newman, Kathryn</gco:CharacterString>
+                        <gco:CharacterString>Newman, Kathryn M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Williams, Christopher</gco:CharacterString>
+                        <gco:CharacterString>Williams, Christopher L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In January 2013, the Hurricane Forecast Improvement Program (HFIP) established the Reconnaissance Data Impact Tiger Team (RDITT) to conduct a systematic investigation of the impact of aircraft reconnaissance (recon) data from the inner core of tropical cyclones on numerical guidance for track and intensity provided by regional tropical cyclone forecast systems. Three WRF-based forecast systems participated in this exercise by providing retrospective forecasts for select Atlantic basin tropical cyclones from 2008 to 2012. Each modeling group provided retrospective forecasts for at least three configurations of their forecast systems: 1) control (no assimilation of inner-core recon data), 2) standard recon (identical to control except conventional recon data were assimilated), and 3) all recon (identical to control except conventional recon data and tail Doppler radar (TDR) data were assimilated). The Tropical Cyclone Modeling Team (TCMT) at the National Center for Atmospheric Research (NCAR) was tasked with conducting a thorough evaluation of the impact of the recon data on the skill of each of these modeling systems. The impact of the various types of aircraft recon data was evaluated by comparing the errors associated with each modeling system&#x2019;s recon configurations with the errors associated with their corresponding control configuration. This evaluation, which focused on homogeneous samples, considered mean error comparisons, frequency of superior performance, as well as the properties of the full error distributions. All aspects of this evaluation also included an assessment of statistical significance. The aircraft recon data had positive impacts on the track forecasts provided by the three regional tropical cyclone forecast systems, but lacked consistency in the lead times for which improvements were found. In contrast, the impacts on intensity forecasts varied from significant degradations to signatures of improvement, once again varying widely across modeling systems. Two of the forecast systems were also found to have a spin-down issue when recon data was assimilated, with the signature being most prevalent for stronger storms. While the recon data was not able to produce a strong consistent signal across the three modeling systems, the results did suggest that inner core observations offer promise for improving both operational track and intensity guidance, but work still lies ahead to make optimal use of these data. The results also showed hints of TDR data being able to add value to the standard recon data, but regardless of which system was used, the results did not point to a strong positive impact on the forecast guidance connected with assimilating TDR data.</gco:CharacterString>
+            <gco:CharacterString>In January 2013, the Hurricane Forecast Improvement Program (HFIP) established the Reconnaissance Data Impact Tiger Team (RDITT) to conduct a systematic investigation of the impact of aircraft reconnaissance (recon) data from the inner core of tropical cyclones on numerical guidance for track and intensity provided by regional tropical cyclone forecast systems. Three WRF-based forecast systems participated in this exercise by providing retrospective forecasts for select Atlantic basin tropical cyclones from 2008 to 2012. Each modeling group provided retrospective forecasts for at least three configurations of their forecast systems: 1) control (no assimilation of inner-core recon data), 2) standard recon (identical to control except conventional recon data were assimilated), and 3) all recon (identical to control except conventional recon data and tail Doppler radar (TDR) data were assimilated). The Tropical Cyclone Modeling Team (TCMT) at the National Center for Atmospheric Research (NCAR) was tasked with conducting a thorough evaluation of the impact of the recon data on the skill of each of these modeling systems. The impact of the various types of aircraft recon data was evaluated by comparing the errors associated with each modeling system's recon configurations with the errors associated with their corresponding control configuration. This evaluation, which focused on homogeneous samples, considered mean error comparisons, frequency of superior performance, as well as the properties of the full error distributions. All aspects of this evaluation also included an assessment of statistical significance. The aircraft recon data had positive impacts on the track forecasts provided by the three regional tropical cyclone forecast systems, but lacked consistency in the lead times for which improvements were found. In contrast, the impacts on intensity forecasts varied from significant degradations to signatures of improvement, once again varying widely across modeling systems. Two of the forecast systems were also found to have a spin-down issue when recon data was assimilated, with the signature being most prevalent for stronger storms. While the recon data was not able to produce a strong consistent signal across the three modeling systems, the results did suggest that inner core observations offer promise for improving both operational track and intensity guidance, but work still lies ahead to make optimal use of these data. The results also showed hints of TDR data being able to add value to the standard recon data, but regardless of which system was used, the results did not point to a strong positive impact on the forecast guidance connected with assimilating TDR data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -283,13 +283,10 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; WEATHER RESEARCH/FORECAST MODELS</gco:CharacterString>
+                  <gco:CharacterString>Weather research/forecast models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Tropical cyclones</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

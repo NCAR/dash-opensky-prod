@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:15:10.337734</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:12:41.522291</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,48 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7k077qc</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7k077qc</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.3688471</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Data set of airborne and ground-based atmospheric measurements from Hyyti&#xe4;l&#xe4;, Finland</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4660145</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Zeppelin-led study on the onset of new particle formation in the planetary boundary layer: dataset</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7k077qc</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7k077qc</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lampilahti, Janne</gco:CharacterString>
+                        <gco:CharacterString>Lampilahti, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Manninen, Hanna E.</gco:CharacterString>
+                        <gco:CharacterString>Manninen, H. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nieminen, Tuomo</gco:CharacterString>
+                        <gco:CharacterString>Nieminen, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mirme, Sander</gco:CharacterString>
+                        <gco:CharacterString>Mirme, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ehn, Mikael</gco:CharacterString>
+                        <gco:CharacterString>Ehn, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pullinen, Iida</gco:CharacterString>
+                        <gco:CharacterString>Pullinen, I.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Leino, Katri</gco:CharacterString>
+                        <gco:CharacterString>Leino, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schobesberger, Siegfried</gco:CharacterString>
+                        <gco:CharacterString>Schobesberger, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kangasluoma, Juha</gco:CharacterString>
+                        <gco:CharacterString>Kangasluoma, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kontkanen, Jenni</gco:CharacterString>
+                        <gco:CharacterString>Kontkanen, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xe4;&#xe4;n&#xe4;nen, Riikka</gco:CharacterString>
+                        <gco:CharacterString>V&#xe4;&#xe4;n&#xe4;nen, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +277,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yli-Juuti, Taina</gco:CharacterString>
+                        <gco:CharacterString>Yli-Juuti, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +287,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Krejci, Radovan</gco:CharacterString>
+                        <gco:CharacterString>Krejci, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +297,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lehtipalo, Katrianne</gco:CharacterString>
+                        <gco:CharacterString>Lehtipalo, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +307,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Levula, Janne</gco:CharacterString>
+                        <gco:CharacterString>Levula, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +317,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mirme, Aadu</gco:CharacterString>
+                        <gco:CharacterString>Mirme, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +327,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Decesari, Stefano</gco:CharacterString>
+                        <gco:CharacterString>Decesari, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +337,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tillmann, Ralf</gco:CharacterString>
+                        <gco:CharacterString>Tillmann, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +347,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worsnop, Douglas R.</gco:CharacterString>
+                        <gco:CharacterString>Worsnop, D. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +357,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rohrer, Franz</gco:CharacterString>
+                        <gco:CharacterString>Rohrer, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +367,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kiendler-Scharr, Astrid</gco:CharacterString>
+                        <gco:CharacterString>Kiendler-Scharr, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +377,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pet&#xe4;j&#xe4;, Tuukka</gco:CharacterString>
+                        <gco:CharacterString>Pet&#xe4;j&#xe4;, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +387,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kerminen, Veli-Matti</gco:CharacterString>
+                        <gco:CharacterString>Kerminen, V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +397,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mentel, Thomas F.</gco:CharacterString>
+                        <gco:CharacterString>Mentel, T. F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +407,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kulmala, Markku</gco:CharacterString>
+                        <gco:CharacterString>Kulmala, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:58:32.571929</gco:DateTime>
+      <gco:DateTime>2025-07-17T15:27:37.287025</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d77p90n4</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d77p90n4</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d77p90n4</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d77p90n4</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Khain, Alexander</gco:CharacterString>
+                        <gco:CharacterString>Khain, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The evolution of a superhurricane (Katrina, August 2005) was simulated using the Weather Research and Forecasting Model (WRF; version 3.1) with explicit (nonparameterized) spectral bin microphysics (SBM). The new computationally efficient spectral bin microphysical scheme (FAST-SBM) implemented to the WRF calculates at each time step and in each grid point the size distributions of atmospheric aerosols, water drops, cloud ice (ice crystals and aggregates), and graupel/hail. The tropical cyclone (TC) evolution was simulated during 72 h, beginning with its bypassing the Florida coast (27 August 2005) to its landfall just east of New Orleans, Louisiana (near the end of 29 August). The WRF/SBM was used to investigate the potential impact of aerosols ingested into Katrina&#x2019;s circulation during its passage through the Gulf of Mexico on Katrina&#x2019;s structure and intensity. It is shown that continental aerosols invigorated convection largely at TC periphery, which led to its weakening prior to landfall. Maximum weakening took place &#x223c;24 h before landfall, just after its intensity had reached its maximum. The minimum pressure increased by &#x223c;</gco:CharacterString>
+            <gco:CharacterString>The evolution of a superhurricane (Katrina, August 2005) was simulated using the Weather Research and Forecasting Model (WRF; version 3.1) with explicit (nonparameterized) spectral bin microphysics (SBM). The new computationally efficient spectral bin microphysical scheme (FAST-SBM) implemented to the WRF calculates at each time step and in each grid point the size distributions of atmospheric aerosols, water drops, cloud ice (ice crystals and aggregates), and graupel/hail. The tropical cyclone (TC) evolution was simulated during 72 h, beginning with its bypassing the Florida coast (27 August 2005) to its landfall just east of New Orleans, Louisiana (near the end of 29 August). The WRF/SBM was used to investigate the potential impact of aerosols ingested into Katrina's circulation during its passage through the Gulf of Mexico on Katrina's structure and intensity. It is shown that continental aerosols invigorated convection largely at TC periphery, which led to its weakening prior to landfall. Maximum weakening took place &#x223c;24 h before landfall, just after its intensity had reached its maximum. The minimum pressure increased by &#x223c;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

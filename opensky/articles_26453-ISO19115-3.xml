@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:23:29.353118</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:17:32.813926</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7862mfq</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7862mfq</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7862mfq</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7862mfq</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zeng, Xiping</gco:CharacterString>
+                        <gco:CharacterString>Zeng, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ulanowski, Zbigniew</gco:CharacterString>
+                        <gco:CharacterString>Ulanowski, Z.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Yansen</gco:CharacterString>
+                        <gco:CharacterString>Wang, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Xiaowen</gco:CharacterString>
+                        <gco:CharacterString>Li, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The stability of ice crystal orientation is studied by modeling the airflow around ice crystals at moderate Reynolds number, where an ice crystal is approximated by a cylinder with three parameters: diameter D, length L, and zenith angle of the axis O. In this paper, the torque acting on ice crystals is simulated at different O first, and then a special O with zero horizontal torque, denoted as Oe, is sought as an equilibrium of ice crystal orientation. The equilibrium is classified into two kinds: stable and unstable. Ice crystals rotate to Oe of stable equilibriums while deviating from Oe of unstable ones once they are released into quiet air. Multiple equilibriums of ice crystal orientation are found via numerical simulations. A cylinder with D/L close to one has three equilibriums, two of which are stable (i.e., Oe = 0  DEG; and 90  DEG;). A cylinder with D/L away from one has only two equilibriums, one of which is stable (i.e., either Oe = 0  DEG; or 90  DEG;). In addition, an asymmetric cylinder has two, three, or five equilibriums, and their Oe is sensitive to the distance between its geometrical center and its center of gravity. The sensitivity of Oe to crystal asymmetry suggests large symmetric ice crystals tend to become asymmetric (or irregular) and subsequently oriented randomly.</gco:CharacterString>
+            <gco:CharacterString>The stability of ice crystal orientation is studied by modeling the airflow around ice crystals at moderate Reynolds number, where an ice crystal is approximated by a cylinder with three parameters: diameter D, length L, and zenith angle of the axis O. In this paper, the torque acting on ice crystals is simulated at different O first, and then a special O with zero horizontal torque, denoted as Oe, is sought as an equilibrium of ice crystal orientation. The equilibrium is classified into two kinds: stable and unstable. Ice crystals rotate to Oe of stable equilibriums while deviating from Oe of unstable ones once they are released into quiet air. Multiple equilibriums of ice crystal orientation are found via numerical simulations. A cylinder with D/L close to one has three equilibriums, two of which are stable (i.e., Oe = 0 DEG; and 90 DEG;). A cylinder with D/L away from one has only two equilibriums, one of which is stable (i.e., either Oe = 0 DEG; or 90 DEG;). In addition, an asymmetric cylinder has two, three, or five equilibriums, and their Oe is sensitive to the distance between its geometrical center and its center of gravity. The sensitivity of Oe to crystal asymmetry suggests large symmetric ice crystals tend to become asymmetric (or irregular) and subsequently oriented randomly.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

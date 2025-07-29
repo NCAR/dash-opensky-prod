@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:21:06.722577</gco:DateTime>
+      <gco:DateTime>2025-07-17T17:55:16.259699</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74b32n9</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74b32n9</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,14 +103,21 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74b32n9</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74b32n9</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:RS_Identifier>
+               </gmd:identifier>
+               <gmd:identifier>
+                  <gmd:RS_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>https://doi.org/10.1175/1520-0442(2001)014&lt;0656:TROIOI&gt;2.0.CO;2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Holland, Marika</gco:CharacterString>
+                        <gco:CharacterString>Holland, Marika M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -120,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bitz, Cecilia</gco:CharacterString>
+                        <gco:CharacterString>Bitz, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -130,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Eby, Michael</gco:CharacterString>
+                        <gco:CharacterString>Eby, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -140,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weaver, Andrew</gco:CharacterString>
+                        <gco:CharacterString>Weaver, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -160,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This article does not have an abstract or article summary.</gco:CharacterString>
+            <gco:CharacterString>The simulated influence of Arctic sea ice on the variability of the North Atlantic climate is discussed in the context of a global coupled ice&#x2013;ocean&#x2013;atmosphere model. This coupled system incorporates a general circulation ocean model, an atmospheric energy moisture balance model, and a dynamic&#x2013;thermodynamic sea ice model. Under steady seasonal forcing, an equilibrium solution is obtained with very little variability. To induce variability in the model, daily varying stochastic anomalies are applied to the wind forcing of the Northern Hemisphere sea ice cover. These stochastic anomalies have observed spatial patterns but are random in time. Model simulations are run for 1000 yr from an equilibrium state and the variability in the system is analyzed. The sensitivity of the system to the ice&#x2013;ocean coupling of both heat and freshwater is also examined. Under the stochastic forcing conditions, the thermohaline circulation (THC) responds with variability that is approximately 10% of the mean. This variability has enhanced spectral power at interdecadal timescales that is concentrated at approximately 20 yr. It is forced by fluctuations in the export of ice from the Arctic into the North Atlantic. Substantial changes in sea surface temperature and salinity are related to changes in the overturning circulation and the sea ice coverage in the northern North Atlantic. Additionally, the THC variability influences the Arctic Basin through heat transport under the ice pack. Results from sensitivity studies suggest that the freshwater exchange from the variable ice cover is the dominant process for forcing variability in the overturning. The simulated Arctic ice export appears to provide stochastic forcing to the northern North Atlantic that excites a damped oscillatory ocean-only mode. The insulating capacity of the variable sea ice has a negligible effect on the THC. Ice&#x2013;ocean thermal coupling acts to damp THC variability, causing an approximately 25% reduction in the THC standard deviation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

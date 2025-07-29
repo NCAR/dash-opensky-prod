@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:32:52.649484</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:16:11.080059</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,34 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7r215c1</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7r215c1</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5065/png1-de40</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>WACCM-X Simulation Data during November 03-04, 2021</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Investigation of the GOLD observed merged nighttime EIA with WACCM&#x2010;X simulations during the storm of 3 and 4 November 2021</gco:CharacterString>
+                  <gco:CharacterString>Investigation of the GOLD observed merged nighttime EIA with WACCM-X simulations during the storm of 3 and 4 November 2021</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7r215c1</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7r215c1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cai, Xuguang</gco:CharacterString>
+                        <gco:CharacterString>Cai, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mclnerney, Joseph M.</gco:CharacterString>
+                        <gco:CharacterString>McInerney, Joseph</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the storm on 3 and 4 November 2021, the Global-scale Observations of the Limb and Disk (GOLD) mission observed well separated equatorial ionization anomaly (EIA) crests post sunset on 3 November, but merged EIA on 4 November. We used the Whole Atmosphere Community Climate Model-eXtended to simulate the EIA structures during the two nights. The simulations show two separated post sunset EIA crests on 3 November but merged post sunset EIA crests on 4 November, which are qualitatively consistent with the GOLD observations. Numerical simulations and Ionospheric Connection Explorer neutral wind observations illustrate that the formation of merged EIA crests was due to several hours of downward E x ${\times} $ B drifts before and after sunset. Further diagnostic analysis revealed that it was mainly driven by westward electric fields caused by the disturbance dynamo electric field during the recovery phase of the storm.</gco:CharacterString>
+            <gco:CharacterString>During the storm on 3 and 4 November 2021, the Global-scale Observations of the Limb and Disk (GOLD) mission observed well separated equatorial ionization anomaly (EIA) crests post sunset on 3 November, but merged EIA on 4 November. We used the Whole Atmosphere Community Climate Model-eXtended to simulate the EIA structures during the two nights. The simulations show two separated post sunset EIA crests on 3 November but merged post sunset EIA crests on 4 November, which are qualitatively consistent with the GOLD observations. Numerical simulations and Ionospheric Connection Explorer neutral wind observations illustrate that the formation of merged EIA crests was due to several hours of downward E x ${	imes} $ B drifts before and after sunset. Further diagnostic analysis revealed that it was mainly driven by westward electric fields caused by the disturbance dynamo electric field during the recovery phase of the storm.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:23:03.731477</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:38:17.670295</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7n3013t</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7n3013t</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,14 +103,14 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7n3013t</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7n3013t</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>S&#xe1;nchez-Ccoyllo, Od&#xf3;n. R.</gco:CharacterString>
+                        <gco:CharacterString>S&#xe1;nchez-Ccoyllo, O. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -120,7 +120,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ordo&#xf1;ez-Aquino, Carol. G.</gco:CharacterString>
+                        <gco:CharacterString>Ordo&#xf1;ez-Aquino, C. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -130,7 +130,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mu&#xf1;oz, &#xc1;ngel G.</gco:CharacterString>
+                        <gco:CharacterString>Mu&#xf1;oz, &#xc1;. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -140,7 +140,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Llacza, Alan</gco:CharacterString>
+                        <gco:CharacterString>Llacza, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -150,7 +150,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Andrade, Mar&#xed;a F&#xe1;tima</gco:CharacterString>
+                        <gco:CharacterString>Andrade, M. F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -160,7 +160,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Yang</gco:CharacterString>
+                        <gco:CharacterString>Liu, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -170,7 +170,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Re&#xe1;tegui-Romero, Warren</gco:CharacterString>
+                        <gco:CharacterString>Re&#xe1;tegui-Romero, W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -200,11 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Weather Research and Forecasting-Chemistry (WRFChem) model was used to develop an operational air quality&#xD;
-forecast system for the Metropolitan Area of Lima-Callao (MALC), Peru, that is affected by high particulate matter&#xD;
-concentrations episodes. In this work, we describe the implementation of an operational air quality-forecasting&#xD;
-platform to be used in the elaboration of public policies by decision makers, and as a research tool to evaluate the&#xD;
-formation and transport of air pollutants in the MALC. To examine the skills of this new system, an air pollution event in April 2016 exhibiting unusually elevated PM2.5 concentrations was simulated and compared against in situ air quality measurements. In addition, a Model Output Statistic (MOS) algorithm has been developed to improve outputs of inhalable particulate matter (PM10) and fine particulate matter (PM2.5) from the WRF-Chem model. The obtained results showed that MOS increased the accuracy in terms of mean normalized bias for PM10 and PM2.5 from -43.1% and 71.3% to 3.1%, 7.3%, respectively. In addition, the mean normalized gross error for PM10 and PM2.5 were reduced from 48% and 92.3% to 13.4% and 10.1%, respectively. The WRF-Chem Model results showed an appropriate relationship between of temperature and relative humidity with observations during April 2016. Mean normalized bias for temperature and relative humidity were approximately - 0.6% and 1.1% respectively. In addition, the mean normalized gross error for temperature and relative humidity were approximately 4.0% and 0.1% respectively. The results showed that this modelling system can be a useful tool for the analysis of air quality in MALC.</gco:CharacterString>
+            <gco:CharacterString>The Weather Research and Forecasting-Chemistry (WRFChem) model was used to develop an operational air quality forecast system for the Metropolitan Area of Lima-Callao (MALC), Peru, that is affected by high particulate matter concentrations episodes. In this work, we describe the implementation of an operational air quality-forecasting platform to be used in the elaboration of public policies by decision makers, and as a research tool to evaluate the formation and transport of air pollutants in the MALC. To examine the skills of this new system, an air pollution event in April 2016 exhibiting unusually elevated PM2.5 concentrations was simulated and compared against in situ air quality measurements. In addition, a Model Output Statistic (MOS) algorithm has been developed to improve outputs of inhalable particulate matter (PM10) and fine particulate matter (PM2.5) from the WRF-Chem model. The obtained results showed that MOS increased the accuracy in terms of mean normalized bias for PM10 and PM2.5 from -43.1% and 71.3% to 3.1%, 7.3%, respectively. In addition, the mean normalized gross error for PM10 and PM2.5 were reduced from 48% and 92.3% to 13.4% and 10.1%, respectively. The WRF-Chem Model results showed an appropriate relationship between of temperature and relative humidity with observations during April 2016. Mean normalized bias for temperature and relative humidity were approximately - 0.6% and 1.1% respectively. In addition, the mean normalized gross error for temperature and relative humidity were approximately 4.0% and 0.1% respectively. The results showed that this modelling system can be a useful tool for the analysis of air quality in MALC.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

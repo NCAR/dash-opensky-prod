@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:41:18.893623</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:59:52.541102</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2mzf</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7mw2mzf</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2mzf</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7mw2mzf</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anthes, Richard</gco:CharacterString>
+                        <gco:CharacterString>Anthes, Richard A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Random errors (uncertainties) in COSMIC radio occultation (RO) soundings, ERA-Interim (ERAi) reanalyses, and high-resolution radiosondes (RS) are estimated in the northeast Pacific Ocean during the MAGIC campaign in 2012 and 2013 using the three-cornered hat method. Estimated refractivity and bending angle errors peak at similar to 2 km, and have a secondary peak at similar to 15 km. They are related to vertical and horizontal gradients of temperature and water vapor and associated atmospheric variability at these two levels. MAGIC RS refractivity and bending angles obtained from forward models have the largest uncertainties, followed by COSMIC RO soundings. ERAi has the smallest uncertainties. The large RS uncertainties can be primarily attributed to representativeness errors (differences). Differences in space and time of the RO and model datasets from the RS observations, error correlations among datasets, and the small sample size are other possible reasons contributing to these differences of estimated error statistics. RO temperature and humidity are retrieved from refractivity using a one-dimensional variational (1D-Var) method from the COSMIC Data Analysis and Archive Center (CDAAC). The estimated errors for COSMIC temperature are comparable to those of the MAGIC RS except near 1 km, where they are much higher. The estimated errors for COSMIC specific humidity are similar to the MAGIC specific humidity errors below  SIM;5 km and much smaller above this level. Estimates of COSMIC random errors based on ERAi, JRA-55, and MERRA-2 reanalyses in the same region, as well as comparison with estimates from other studies, support the reliability of our estimates.</gco:CharacterString>
+            <gco:CharacterString>Random errors (uncertainties) in COSMIC radio occultation (RO) soundings, ERA-Interim (ERAi) reanalyses, and high-resolution radiosondes (RS) are estimated in the northeast Pacific Ocean during the MAGIC campaign in 2012 and 2013 using the three-cornered hat method. Estimated refractivity and bending angle errors peak at similar to 2 km, and have a secondary peak at similar to 15 km. They are related to vertical and horizontal gradients of temperature and water vapor and associated atmospheric variability at these two levels. MAGIC RS refractivity and bending angles obtained from forward models have the largest uncertainties, followed by COSMIC RO soundings. ERAi has the smallest uncertainties. The large RS uncertainties can be primarily attributed to representativeness errors (differences). Differences in space and time of the RO and model datasets from the RS observations, error correlations among datasets, and the small sample size are other possible reasons contributing to these differences of estimated error statistics. RO temperature and humidity are retrieved from refractivity using a one-dimensional variational (1D-Var) method from the COSMIC Data Analysis and Archive Center (CDAAC). The estimated errors for COSMIC temperature are comparable to those of the MAGIC RS except near 1 km, where they are much higher. The estimated errors for COSMIC specific humidity are similar to the MAGIC specific humidity errors below SIM;5 km and much smaller above this level. Estimates of COSMIC random errors based on ERAi, JRA-55, and MERRA-2 reanalyses in the same region, as well as comparison with estimates from other studies, support the reliability of our estimates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

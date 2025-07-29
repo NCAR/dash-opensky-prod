@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:11:45.603343</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:41.361832</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7kd21xt</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7kd21xt</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Wet scavenging in WRF&#x2010;Chem simulations of parameterized convection for a severe storm during the DC3 Field Campaign</gco:CharacterString>
+                  <gco:CharacterString>Wet scavenging in WRF-Chem simulations of parameterized convection for a severe storm during the DC3 Field Campaign</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7kd21xt</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7kd21xt</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary C.</gco:CharacterString>
+                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Deep convection can transport surface moisture and pollution from the planetary boundary layer to the upper troposphere (UT) within a few minutes. The convective transport of precursors of both ozone and aerosols from the planetary boundary layer affects the concentrations of these constituents in the UT and can influence the Earth's radiation budget and climate. Some precursors of both ozone and aerosols are soluble and reactive in the aqueous phase. This study uses the Weather Research and Forecasting model coupled with Chemistry (WRF&#x2010;Chem) to simulate the wet scavenging of precursors of both ozone and aerosols including CH2O, CH3OOH, H2O2, and SO2 in a supercell system observed on 29 May 2012, during the 2012 Deep Convective Clouds and Chemistry (DC3) field campaign at cloud&#x2010;parameterized resolution. The default WRF&#x2010;Chem simulations underestimate the mixing ratios of soluble ozone precursors in the UT because the dissolved soluble trace gases are not released when the droplets freeze. In order to improve the model simulation of cloud&#x2010;parameterized wet scavenging, we added ice retention factors for various species to the cloud&#x2010;parameterized wet scavenging module and adjusted the conversion rate of cloud water to rainwater at temperatures below freezing in the cloud parameterization as well as in the subgrid&#x2010;scale wet&#x2010;scavenging calculation. The introduction of these model modifications greatly improved the model simulation of less soluble species.</gco:CharacterString>
+            <gco:CharacterString>Deep convection can transport surface moisture and pollution from the planetary boundary layer to the upper troposphere (UT) within a few minutes. The convective transport of precursors of both ozone and aerosols from the planetary boundary layer affects the concentrations of these constituents in the UT and can influence the Earth's radiation budget and climate. Some precursors of both ozone and aerosols are soluble and reactive in the aqueous phase. This study uses the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) to simulate the wet scavenging of precursors of both ozone and aerosols including CH2O, CH3OOH, H2O2, and SO2 in a supercell system observed on 29 May 2012, during the 2012 Deep Convective Clouds and Chemistry (DC3) field campaign at cloud-parameterized resolution. The default WRF-Chem simulations underestimate the mixing ratios of soluble ozone precursors in the UT because the dissolved soluble trace gases are not released when the droplets freeze. In order to improve the model simulation of cloud-parameterized wet scavenging, we added ice retention factors for various species to the cloud-parameterized wet scavenging module and adjusted the conversion rate of cloud water to rainwater at temperatures below freezing in the cloud parameterization as well as in the subgrid-scale wet-scavenging calculation. The introduction of these model modifications greatly improved the model simulation of less soluble species.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:03:40.072651</gco:DateTime>
+      <gco:DateTime>2025-07-17T17:57:18.167738</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7qc02vg</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7qc02vg</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7qc02vg</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7qc02vg</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rosenbloom, Nan</gco:CharacterString>
+                        <gco:CharacterString>Rosenbloom, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kittel, Timothy</gco:CharacterString>
+                        <gco:CharacterString>Kittel, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -293,37 +293,37 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; DYNAMIC VEGETATION/ECOSYSTEM MODELS</gco:CharacterString>
+                  <gco:CharacterString>Relative humidity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; CLIMATE CHANGE IMPACT ASSESSMENT MODELS</gco:CharacterString>
+                  <gco:CharacterString>24 hour maximum temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; GLOBAL CHANGE RESPONSES &gt; SCENARIO PLANNING</gco:CharacterString>
+                  <gco:CharacterString>Vegetation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; VEGETATION</gco:CharacterString>
+                  <gco:CharacterString>Solar radiation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; LAND SURFACE &gt; SOILS</gco:CharacterString>
+                  <gco:CharacterString>Soils</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY &gt; RELATIVE HUMIDITY</gco:CharacterString>
+                  <gco:CharacterString>Climate change impact assessment models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SOLAR RADIATION</gco:CharacterString>
+                  <gco:CharacterString>24 hour precipitation amount</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT &gt; 24 HOUR PRECIPITATION AMOUNT</gco:CharacterString>
+                  <gco:CharacterString>Scenario planning</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; MAXIMUM/MINIMUM TEMPERATURE &gt; 24 HOUR MINIMUM TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>24 hour minimum temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; MAXIMUM/MINIMUM TEMPERATURE &gt; 24 HOUR MAXIMUM TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Data management/data handling</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA MANAGEMENT/DATA HANDLING</gco:CharacterString>
+                  <gco:CharacterString>Dynamic vegetation/ecosystem models</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:22:40.385199</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:36:28.100213</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7c2506t</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7c2506t</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7c2506t</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7c2506t</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shook, Eric</gco:CharacterString>
+                        <gco:CharacterString>Shook, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zonca, Andrea</gco:CharacterString>
+                        <gco:CharacterString>Zonca, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Jun</gco:CharacterString>
+                        <gco:CharacterString>Wang, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Science gateways provide easy access to domain-specific tools and data. The field of Geographic Information Science and Systems (GIS) uses myriad tools and datasets, which raises challenges in designing a science gateway to meet users&#x2019; diverse research and teaching needs. We describe a new science gateway called the GISandbox that is designed meet the needs of researchers and educators leveraging geospatial computing, which is situated at the nexus of GIS and computational science. The GISandbox is built on Jupyter Notebooks to create an easy, open, and flexible platform for geospatial computing. Jupyter Notebooks is a widely used interactive computing environment running in the browser that integrates live code, narrative, equations and images. We extend the Jupyter Notebook platform to enable users to run interactive notebooks on the cloud resource Jetstream or computationally-intensive notebooks on the Bridges supercomputer located at the Pittsburgh Supercomputing Center. A novel Job Management platform allows the user to easily submit a Jupyter Notebook for batch execution on Bridges (and eventually Comet), monitor the SLURM job, and retrieve output files. GISandbox Virtual Machines are created in Jetstream&#x2019;s Atmosphere interface and then deployed and configured using a series of Ansible scripts, which allow us to create an easily reproducible and scalable system. This paper outlines our vision for GISandbox, the current implementation, with a discussion looking toward the future and how the GISandbox could be used in other domains.</gco:CharacterString>
+            <gco:CharacterString>Science gateways provide easy access to domain-specific tools and data. The field of Geographic Information Science and Systems (GIS) uses myriad tools and datasets, which raises challenges in designing a science gateway to meet users' diverse research and teaching needs. We describe a new science gateway called the GISandbox that is designed meet the needs of researchers and educators leveraging geospatial computing, which is situated at the nexus of GIS and computational science. The GISandbox is built on Jupyter Notebooks to create an easy, open, and flexible platform for geospatial computing. Jupyter Notebooks is a widely used interactive computing environment running in the browser that integrates live code, narrative, equations and images. We extend the Jupyter Notebook platform to enable users to run interactive notebooks on the cloud resource Jetstream or computationally-intensive notebooks on the Bridges supercomputer located at the Pittsburgh Supercomputing Center. A novel Job Management platform allows the user to easily submit a Jupyter Notebook for batch execution on Bridges (and eventually Comet), monitor the SLURM job, and retrieve output files. GISandbox Virtual Machines are created in Jetstream's Atmosphere interface and then deployed and configured using a series of Ansible scripts, which allow us to create an easily reproducible and scalable system. This paper outlines our vision for GISandbox, the current implementation, with a discussion looking toward the future and how the GISandbox could be used in other domains.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

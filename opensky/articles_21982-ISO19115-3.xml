@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:20:45.586441</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:33:59.239918</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7hd7zjb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7hd7zjb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7hd7zjb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7hd7zjb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Minda, Thomas T.</gco:CharacterString>
+                        <gco:CharacterString>Minda, T. T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>van der Molen, M.K.</gco:CharacterString>
+                        <gco:CharacterString>van der Molen, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Struik, Paul C.</gco:CharacterString>
+                        <gco:CharacterString>Struik, P. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Combe, Marie</gco:CharacterString>
+                        <gco:CharacterString>Combe, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jim&#xe9;nez, Pedro A.</gco:CharacterString>
+                        <gco:CharacterString>Jim&#xe9;nez Munoz, Pedro A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Khan, Muhammad S.</gco:CharacterString>
+                        <gco:CharacterString>Khan, M. S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>de Arellano, Jordi Vil&#xe0;-Guerau</gco:CharacterString>
+                        <gco:CharacterString>de Arellano, J. V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,8 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Potato (Solanum tuberosum L.) is an important crop in the Gamo Highlands in Ethiopia. The region is characterised by a complex topography with large inter-annual weather variations, where potatoes grow in a range of altitudes between 1,600 and 3,200&#x202f;m above sea level (a.s.l.). Traditional large-scale crop modelling studies only crudely represent the effect of complex topography, misrepresenting spatial variability in meteorology and potato growth in the region. Here, we investigate how weather influenced by topography affects crop growth.&#xD;
-We used the Weather Research and Forecasting (WRF) model to simulate weather in relation to topography in coarse (54&#x202f;km&#x202f;&#xd7;&#x202f;54&#x202f;km) and fine (2&#x202f;km&#x202f;&#xd7;&#x202f;2&#x202f;km) resolution domains. The first has a resolution similar to those used by large-scale crop modelling studies that only crudely resolve the horizontal and vertical spatial effects of topography. The second realistically represents the most important topographical variations. The weather variables modelled in both the coarse and fine resolution domains are given as input to the GECROS model (Genotype-by-Environment interaction on CROp growth Simulator) to simulate the potato growth. We modelled potato growth from 2001 to 2010 and studied its inter-annual variability. This enabled us to determine for the first time in Ethiopia how variations in weather are linked to crop dynamics as a function of elevation at a fine resolution. We found that due to its finer representation of topography, weather and crop growth spatio-temporal variations were better represented in the fine than in the coarse resolution domain. The magnitude of crop growth variables such as Leaf Area Index (LAI) and Length of the Growing Season (LGS) obtained with weather from the coarse resolution domain were unrealistically low, hence unacceptable. Nevertheless, the resulting potato yields in the coarse resolution domain were comparable with the yields from the fine resolution domain. We explain this paradoxical finding in terms of a compensating effect, as the opposite effects of temperature and precipitation on yield compensated for each other along the major potato growing transect in the Gamo Highlands. These offsetting effects were also dependent on the correct estimations of the LGS, LAI. We conclude that a well-resolved representation of complex topography is crucial to realistically model meteorology and crop physiology in tropical mountainous areas.</gco:CharacterString>
+            <gco:CharacterString>Potato (Solanum tuberosum L.) is an important crop in the Gamo Highlands in Ethiopia. The region is characterised by a complex topography with large inter-annual weather variations, where potatoes grow in a range of altitudes between 1,600 and 3,200&#x202f;m above sea level (a.s.l.). Traditional large-scale crop modelling studies only crudely represent the effect of complex topography, misrepresenting spatial variability in meteorology and potato growth in the region. Here, we investigate how weather influenced by topography affects crop growth. We used the Weather Research and Forecasting (WRF) model to simulate weather in relation to topography in coarse (54&#x202f;km&#x202f;&#xd7;&#x202f;54&#x202f;km) and fine (2&#x202f;km&#x202f;&#xd7;&#x202f;2&#x202f;km) resolution domains. The first has a resolution similar to those used by large-scale crop modelling studies that only crudely resolve the horizontal and vertical spatial effects of topography. The second realistically represents the most important topographical variations. The weather variables modelled in both the coarse and fine resolution domains are given as input to the GECROS model (Genotype-by-Environment interaction on CROp growth Simulator) to simulate the potato growth. We modelled potato growth from 2001 to 2010 and studied its inter-annual variability. This enabled us to determine for the first time in Ethiopia how variations in weather are linked to crop dynamics as a function of elevation at a fine resolution. We found that due to its finer representation of topography, weather and crop growth spatio-temporal variations were better represented in the fine than in the coarse resolution domain. The magnitude of crop growth variables such as Leaf Area Index (LAI) and Length of the Growing Season (LGS) obtained with weather from the coarse resolution domain were unrealistically low, hence unacceptable. Nevertheless, the resulting potato yields in the coarse resolution domain were comparable with the yields from the fine resolution domain. We explain this paradoxical finding in terms of a compensating effect, as the opposite effects of temperature and precipitation on yield compensated for each other along the major potato growing transect in the Gamo Highlands. These offsetting effects were also dependent on the correct estimations of the LGS, LAI. We conclude that a well-resolved representation of complex topography is crucial to realistically model meteorology and crop physiology in tropical mountainous areas.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

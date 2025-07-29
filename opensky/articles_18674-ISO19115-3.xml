@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:13:14.983713</gco:DateTime>
+      <gco:DateTime>2025-07-11T20:47:06.259038</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7pk0hsq</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7pk0hsq</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7pk0hsq</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7pk0hsq</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hardy, Adam</gco:CharacterString>
+                        <gco:CharacterString>Hardy, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schreiber, Matthias</gco:CharacterString>
+                        <gco:CharacterString>Schreiber, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Parsons, Steven</gco:CharacterString>
+                        <gco:CharacterString>Parsons, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Caceres, Claudio</gco:CharacterString>
+                        <gco:CharacterString>Caceres, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Veras, Dimitri</gco:CharacterString>
+                        <gco:CharacterString>Veras, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>G&#xe4;nsicke, Boris</gco:CharacterString>
+                        <gco:CharacterString>G&#xe4;nsicke, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Thomas</gco:CharacterString>
+                        <gco:CharacterString>Marsh, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cieza, Lucas</gco:CharacterString>
+                        <gco:CharacterString>Cieza, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Eclipse timing variations observed from the post-common-envelope binary (PCEB) NN Ser offer strong evidence in favour of circumbinary planets existing around PCEBs. If real, these planets may be accompanied by a disc of dust. We here present the ALMA detection of flux at 1.3 mm from NN Ser, which is likely due to thermal emission from a dust disc of mass &#x223c;0.8 &#xb1; 0.2&#x2009;M&#x2295;. We performed simulations of the history of NN Ser to determine possible origins of this dust, and conclude that the most likely origin is, in fact, common-envelope material which was not expelled from the system and instead formed a circumbinary disc. These discs have been predicted by theory but previously remained undetected. While the presence of this dust does not prove the existence of planets around NN Ser, it adds credibility to the possibility of planets forming from common-envelope material in a &#x2018;second-generation&#x2019; scenario.</gco:CharacterString>
+            <gco:CharacterString>Eclipse timing variations observed from the post-common-envelope binary (PCEB) NN Ser offer strong evidence in favour of circumbinary planets existing around PCEBs. If real, these planets may be accompanied by a disc of dust. We here present the ALMA detection of flux at 1.3 mm from NN Ser, which is likely due to thermal emission from a dust disc of mass &#x223c;0.8 &#xb1; 0.2&#x2009;M&#x2295;. We performed simulations of the history of NN Ser to determine possible origins of this dust, and conclude that the most likely origin is, in fact, common-envelope material which was not expelled from the system and instead formed a circumbinary disc. These discs have been predicted by theory but previously remained undetected. While the presence of this dust does not prove the existence of planets around NN Ser, it adds credibility to the possibility of planets forming from common-envelope material in a 'second-generation' scenario.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

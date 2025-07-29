@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:36.976767</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:19:00.786432</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41vpv</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7h41vpv</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.26024/mahn-2660</gmd:URL>
+                  <gmd:URL>https://doi.org/10.26024/mahn-2660</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7h41vpv</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7h41vpv</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pinto, James A.</gco:CharacterString>
+                        <gco:CharacterString>Pinto, James</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Seimon, Anton</gco:CharacterString>
+                        <gco:CharacterString>Seimon, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The East African Great Lake Environments (EAGLE) climate downscaling dataset was created to provide a high-resolution depiction of present and future climate scenarios in the EAGLE region, in order to serve the needs of a wide range of stakeholders who are interested in the potential socio-ecological and socio-economic impacts of climate change.  Due to limited funds and a fixed amount of computational resources, rather than performing continuous century-scale model runs, three decadal time periods were simulated: present day (2009-2018), mid-century (2055-2064), and end-of-century (2090-2099.)  The Weather Research and Forecasting (WRF) model was used to dynamically downscale the National Center for Atmospheric Research&#x2019;s (NCAR&#x2019;s) Community Earth System Model (CESM) input using Representative Concentration Pathways (RCP) 8.5 for future climate, and RCP 4.5 for present day.  A 10 km spatial resolution was used for the outer domain, and convection-permitting resolution of 3.33 km on the inner domain.  The resulting output data set consists of thirty-nine different fields, with hourly resolution on the inner domain, and 6-hourly on the outer.  To optimize the model configuration for this location and climate, before the full simulations were done, a series of 18 sensitivity tests were performed, comparing model output with observations.  The full simulation data files are available to anyone who wants access to them at NCAR&#x2019;s Climate Data Gateway at https://dx.doi.org/10.26024/mahn-2660</gco:CharacterString>
+            <gco:CharacterString>The East African Great Lake Environments (EAGLE) climate downscaling dataset was created to provide a high-resolution depiction of present and future climate scenarios in the EAGLE region, in order to serve the needs of a wide range of stakeholders who are interested in the potential socio-ecological and socio-economic impacts of climate change. Due to limited funds and a fixed amount of computational resources, rather than performing continuous century-scale model runs, three decadal time periods were simulated: present day (2009-2018), mid-century (2055-2064), and end-of-century (2090-2099.) The Weather Research and Forecasting (WRF) model was used to dynamically downscale the National Center for Atmospheric Research's (NCAR's) Community Earth System Model (CESM) input using Representative Concentration Pathways (RCP) 8.5 for future climate, and RCP 4.5 for present day. A 10 km spatial resolution was used for the outer domain, and convection-permitting resolution of 3.33 km on the inner domain. The resulting output data set consists of thirty-nine different fields, with hourly resolution on the inner domain, and 6-hourly on the outer. To optimize the model configuration for this location and climate, before the full simulations were done, a series of 18 sensitivity tests were performed, comparing model output with observations. The full simulation data files are available to anyone who wants access to them at NCAR's Climate Data Gateway at https://dx.doi.org/10.26024/mahn-2660</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -273,55 +273,55 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; TEMPERATURE INDICATORS &gt; TEMPERATURE TRENDS</gco:CharacterString>
+                  <gco:CharacterString>Coupled climate models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; PRECIPITATION INDICATORS &gt; PRECIPITATION TRENDS</gco:CharacterString>
+                  <gco:CharacterString>Socioeconomics</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; SHORTWAVE RADIATION</gco:CharacterString>
+                  <gco:CharacterString>Precipitation amount</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION RATE &gt; CONVECTIVE PRECIPITATION</gco:CharacterString>
+                  <gco:CharacterString>Land surface models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WINDS &gt; SURFACE WINDS &gt; WIND SPEED</gco:CharacterString>
+                  <gco:CharacterString>Convective precipitation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; WATER VAPOR INDICATORS &gt; HUMIDITY &gt; HUMIDITY MIXING RATIO</gco:CharacterString>
+                  <gco:CharacterString>Scenario planning</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC PRESSURE &gt; SURFACE PRESSURE</gco:CharacterString>
+                  <gco:CharacterString>Lakes/reservoirs</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; AIR TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Humidity mixing ratio</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; LAND SURFACE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Surface pressure</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; WATER QUALITY/WATER CHEMISTRY &gt; WATER CHARACTERISTICS &gt; WATER TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Precipitation trends</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT</gco:CharacterString>
+                  <gco:CharacterString>Wind speed</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; SURFACE WATER FEATURES &gt; LAKES/RESERVOIRS</gco:CharacterString>
+                  <gco:CharacterString>Climate adaptation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; GLOBAL CHANGE RESPONSES &gt; CLIMATE ADAPTATION</gco:CharacterString>
+                  <gco:CharacterString>Temperature trends</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; COUPLED CLIMATE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Weather research/forecast models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; WEATHER RESEARCH/FORECAST MODELS</gco:CharacterString>
+                  <gco:CharacterString>Shortwave radiation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; SOCIOECONOMICS</gco:CharacterString>
+                  <gco:CharacterString>Water temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; GLOBAL CHANGE RESPONSES &gt; SCENARIO PLANNING</gco:CharacterString>
+                  <gco:CharacterString>Air temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

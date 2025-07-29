@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:12:58.614249</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:34.806916</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7qr5184</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7qr5184</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Assessment and reduction of the physical parameterization uncertainty for NOAH&#x2010;MP Land Surface Model</gco:CharacterString>
+                  <gco:CharacterString>Assessment and reduction of the physical parameterization uncertainty for NOAH-MP Land Surface Model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7qr5184</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7qr5184</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gan, Yanjun</gco:CharacterString>
+                        <gco:CharacterString>Gan, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liang, Xin&#x2010;Zhong</gco:CharacterString>
+                        <gco:CharacterString>Liang, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Duan, Qingyun</gco:CharacterString>
+                        <gco:CharacterString>Duan, Q.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Jianduo</gco:CharacterString>
+                        <gco:CharacterString>Li, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Yu</gco:CharacterString>
+                        <gco:CharacterString>Zhang, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The community Noah land surface model with multiparameterization options (Noah&#x2010;MP) provides a plethora of model configurations with varying complexity for land surface modeling. The practical application of this model requires a basic understanding of the relative abilities of its various parameterization configurations in representing spatiotemporal variability and hydrologic connectivity. We designed an ensemble of 288 experiments from multiparameterization schemes of six physical processes to assess and reduce the structural uncertainty for land surface modeling over 10 hydrologic regions in China for the period 2001&#x2013;2010. The observed latent heat (LH) was well reproduced by the ensemble. Meanwhile, most experiments underestimated sensible heat (SH) throughout the year and overestimated the cold season but underestimated the warm season terrestrial water storage anomaly (TWSA). The sensitive processes and best&#x2010;performing schemes varied not only with regions but also among variables. The LH and SH were most sensitive to runoff&#x2010;groundwater (RUN), surface heat exchange coefficient (SFC), and radiation transfer (RAD). The TWSA was dominated by RUN and RAD while largely influenced by soil moisture factor for stomatal resistance (BTR) and frozen soil permeability (INF) over some limited regions. By contrast, supercooled liquid water (FRZ) had little influence on all variables. Our optimization for individual variables produced high mean Taylor skill scores that ranged from 0.95&#x2013;0.99 for LH, 0.82&#x2013;0.99 for SH, and 0.63&#x2013;0.95 for TWSA depending on regions. The simultaneous optimization made trade&#x2010;off among the three variables, which improved TWSA performance at the cost of reducing the skill for LH and SH over a few regions.</gco:CharacterString>
+            <gco:CharacterString>The community Noah land surface model with multiparameterization options (Noah-MP) provides a plethora of model configurations with varying complexity for land surface modeling. The practical application of this model requires a basic understanding of the relative abilities of its various parameterization configurations in representing spatiotemporal variability and hydrologic connectivity. We designed an ensemble of 288 experiments from multiparameterization schemes of six physical processes to assess and reduce the structural uncertainty for land surface modeling over 10 hydrologic regions in China for the period 2001&#x2013;2010. The observed latent heat (LH) was well reproduced by the ensemble. Meanwhile, most experiments underestimated sensible heat (SH) throughout the year and overestimated the cold season but underestimated the warm season terrestrial water storage anomaly (TWSA). The sensitive processes and best-performing schemes varied not only with regions but also among variables. The LH and SH were most sensitive to runoff-groundwater (RUN), surface heat exchange coefficient (SFC), and radiation transfer (RAD). The TWSA was dominated by RUN and RAD while largely influenced by soil moisture factor for stomatal resistance (BTR) and frozen soil permeability (INF) over some limited regions. By contrast, supercooled liquid water (FRZ) had little influence on all variables. Our optimization for individual variables produced high mean Taylor skill scores that ranged from 0.95&#x2013;0.99 for LH, 0.82&#x2013;0.99 for SH, and 0.63&#x2013;0.95 for TWSA depending on regions. The simultaneous optimization made trade-off among the three variables, which improved TWSA performance at the cost of reducing the skill for LH and SH over a few regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

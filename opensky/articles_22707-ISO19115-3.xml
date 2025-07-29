@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:10:28.560990</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:26:34.130894</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7br8sjj</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7br8sjj</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7br8sjj</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7br8sjj</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schwartz, Craig Steven</gco:CharacterString>
+                        <gco:CharacterString>Schwartz, Craig S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Two sets of global, 132-h (5.5-day), 10-member ensemble forecasts were produced with the Model for Prediction Across Scales (MPAS) for 35 cases in April and May 2017. One MPAS ensemble had a quasi-uniform 15-km mesh while the other employed a variable-resolution mesh with 3-km cell spacing over the conterminous United States (CONUS) that smoothly relaxed to 15 km over the rest of the globe. Precipitation forecasts from both MPAS ensembles were objectively verified over the central and eastern CONUS to assess the potential benefits of configuring MPAS with a 3-km mesh refinement region for medium-range forecasts. In addition, forecasts from NCEP&#xe2;&#x20ac;&#x2122;s operational Global Ensemble Forecast System were evaluated and served as a baseline against which to compare the experimental MPAS ensembles. The 3-km MPAS ensemble most faithfully reproduced the observed diurnal cycle of precipitation throughout the 132-h forecasts and had superior precipitation skill and reliability over the first 48 h. However, after 48 h, the three ensembles had more similar spread, reliability, and skill, and differences between probabilistic precipitation forecasts derived from the 3- and 15-km MPAS ensembles were typically statistically insignificant. Nonetheless, despite fewer benefits of increased resolution for spatial placement after 48 h, 3-km ensemble members explicitly provided potentially valuable guidance regarding convective mode throughout the 132-h forecasts while the other ensembles did not. Collectively, these results suggest both strengths and limitations of medium-range high-resolution ensemble forecasts and reveal pathways for future investigations to improve understanding of high-resolution global ensembles with variable-resolution meshes.</gco:CharacterString>
+            <gco:CharacterString>Two sets of global, 132-h (5.5-day), 10-member ensemble forecasts were produced with the Model for Prediction Across Scales (MPAS) for 35 cases in April and May 2017. One MPAS ensemble had a quasi-uniform 15-km mesh while the other employed a variable-resolution mesh with 3-km cell spacing over the conterminous United States (CONUS) that smoothly relaxed to 15 km over the rest of the globe. Precipitation forecasts from both MPAS ensembles were objectively verified over the central and eastern CONUS to assess the potential benefits of configuring MPAS with a 3-km mesh refinement region for medium-range forecasts. In addition, forecasts from NCEP's operational Global Ensemble Forecast System were evaluated and served as a baseline against which to compare the experimental MPAS ensembles. The 3-km MPAS ensemble most faithfully reproduced the observed diurnal cycle of precipitation throughout the 132-h forecasts and had superior precipitation skill and reliability over the first 48 h. However, after 48 h, the three ensembles had more similar spread, reliability, and skill, and differences between probabilistic precipitation forecasts derived from the 3- and 15-km MPAS ensembles were typically statistically insignificant. Nonetheless, despite fewer benefits of increased resolution for spatial placement after 48 h, 3-km ensemble members explicitly provided potentially valuable guidance regarding convective mode throughout the 132-h forecasts while the other ensembles did not. Collectively, these results suggest both strengths and limitations of medium-range high-resolution ensemble forecasts and reveal pathways for future investigations to improve understanding of high-resolution global ensembles with variable-resolution meshes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

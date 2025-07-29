@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:04:42.490156</gco:DateTime>
+      <gco:DateTime>2025-07-17T18:02:36.511198</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d71j995b</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d71j995b</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d71j995b</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d71j995b</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -283,19 +283,16 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; SPECTRAL/ENGINEERING &gt; PLATFORM CHARACTERISTICS</gco:CharacterString>
+                  <gco:CharacterString>Platform characteristics</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; SPECTRAL/ENGINEERING &gt; ULTRAVIOLET WAVELENGTHS</gco:CharacterString>
+                  <gco:CharacterString>X-ray</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; SPECTRAL/ENGINEERING &gt; GAMMA RAY</gco:CharacterString>
+                  <gco:CharacterString>Gamma ray</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; SPECTRAL/ENGINEERING &gt; X-RAY</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY</gco:CharacterString>
+                  <gco:CharacterString>Ultraviolet wavelengths</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

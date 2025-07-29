@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:16:15.828302</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:14:40.112288</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,34 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7tx3jsz</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7tx3jsz</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5065/keee-sq53</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>TEC data</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Variations in thermosphere composition and ionosphere total electron content under &#x2018;geomagnetically quiet&#x2019; conditions at solar&#x2010;minimum</gco:CharacterString>
+                  <gco:CharacterString>Variations in thermosphere composition and ionosphere total electron content under 'geomagnetically quiet' conditions at solar-minimum</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7tx3jsz</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7tx3jsz</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan G.</gco:CharacterString>
+                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas</gco:CharacterString>
+                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Coster, Anthea</gco:CharacterString>
+                        <gco:CharacterString>Coster, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Shunrong</gco:CharacterString>
+                        <gco:CharacterString>Zhang, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Eastes, Richard W.</gco:CharacterString>
+                        <gco:CharacterString>Eastes, R. W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Daniell, Robert E.</gco:CharacterString>
+                        <gco:CharacterString>Daniell, R. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McClintock, William E.</gco:CharacterString>
+                        <gco:CharacterString>McClintock, W. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +257,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We conducted observational and modeling studies of thermospheric composition and ionospheric total electron content (TEC) variations during two geomagnetically quiet periods (maximum Kp = 1.7) at solar minimum. Daytime thermospheric O and N2 column density ratio (&#x2211;O/N2) observed by Global-scale Observations of the Limb and Disk and TEC from a network of ground-based Global Navigation Satellites System receivers both exhibited large (&#x223c;30% of reference values) and long-lived (5-11 h) day-to-day variations in roughly the same mid-latitude geographic regions. Numerical simulations replicated the observed variability, though not perfectly. Analysis of the simulations suggested that the variations were mainly generated in the high-latitudes and were subsequently advected equatorward and westward. When high-latitudes input was turned off in simulations, the variations were negligible. This suggested the potentially important role of high-latitude geomagnetic forcing in thermospheric composition and ionospheric density variations at mid-latitudes even during some &#x201c;geomagnetically quiet&#x201d; periods at solar-minimum.</gco:CharacterString>
+            <gco:CharacterString>We conducted observational and modeling studies of thermospheric composition and ionospheric total electron content (TEC) variations during two geomagnetically quiet periods (maximum Kp = 1.7) at solar minimum. Daytime thermospheric O and N2 column density ratio (&#x2211;O/N2) observed by Global-scale Observations of the Limb and Disk and TEC from a network of ground-based Global Navigation Satellites System receivers both exhibited large (&#x223c;30% of reference values) and long-lived (5-11 h) day-to-day variations in roughly the same mid-latitude geographic regions. Numerical simulations replicated the observed variability, though not perfectly. Analysis of the simulations suggested that the variations were mainly generated in the high-latitudes and were subsequently advected equatorward and westward. When high-latitudes input was turned off in simulations, the variations were negligible. This suggested the potentially important role of high-latitude geomagnetic forcing in thermospheric composition and ionospheric density variations at mid-latitudes even during some "geomagnetically quiet" periods at solar-minimum.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

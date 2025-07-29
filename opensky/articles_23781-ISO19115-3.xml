@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:31:39.925622</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:14:40.598423</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7gf0xsf</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7gf0xsf</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7gf0xsf</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7gf0xsf</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rawat, Prajjwal</gco:CharacterString>
+                        <gco:CharacterString>Rawat, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Naja, Manish</gco:CharacterString>
+                        <gco:CharacterString>Naja, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thapliyal, Pradeep K.</gco:CharacterString>
+                        <gco:CharacterString>Thapliyal, P. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Srivastava, Shuchita</gco:CharacterString>
+                        <gco:CharacterString>Srivastava, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bhatacharjee, Samaresh</gco:CharacterString>
+                        <gco:CharacterString>Bhatacharjee, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tiwari, S.N.</gco:CharacterString>
+                        <gco:CharacterString>Tiwari, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lal, Shyam</gco:CharacterString>
+                        <gco:CharacterString>Lal, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,8 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Vertical distribution of ozone has been obtained for the first time using INSAT-3D for the period 2013-2017 over the central Himalaya and validated utilizing balloon-borne observations from a high-altitude site in Nainital (29.4N, 79.5E, 1793 m amsl). The INSAT3D retrieved ozone profiles captured ozone gradient and ozone peak altitude successfully, despite only one IR channel for ozone. This demonstrates the capability of the INSAT-3D Sounder in capturing the observed features, with a smaller bias in the stratosphere and somewhat larger bias in the troposphere. Total ozone column from INSAT-3D showed maximum difference of 8% with ozonesonde-derived total ozone column.&#xD;
-Larger ozone bias in the lower troposphere could be attributed to lower reliability of regression coefficient and INSAT-3D channel constraints itself, whereas high variability near the tropopause is possibly due to low ozone, poor temperature retrieval near the tropopause and stratosphere&#xe2;&#x80;&#x93;troposphere transport process in the Himalayan region.</gco:CharacterString>
+            <gco:CharacterString>Vertical distribution of ozone has been obtained for the first time using INSAT-3D for the period 2013-2017 over the central Himalaya and validated utilizing balloon-borne observations from a high-altitude site in Nainital (29.4N, 79.5E, 1793 m amsl). The INSAT3D retrieved ozone profiles captured ozone gradient and ozone peak altitude successfully, despite only one IR channel for ozone. This demonstrates the capability of the INSAT-3D Sounder in capturing the observed features, with a smaller bias in the stratosphere and somewhat larger bias in the troposphere. Total ozone column from INSAT-3D showed maximum difference of 8% with ozonesonde-derived total ozone column. Larger ozone bias in the lower troposphere could be attributed to lower reliability of regression coefficient and INSAT-3D channel constraints itself, whereas high variability near the tropopause is possibly due to low ozone, poor temperature retrieval near the tropopause and stratosphere&#x2013;troposphere transport process in the Himalayan region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

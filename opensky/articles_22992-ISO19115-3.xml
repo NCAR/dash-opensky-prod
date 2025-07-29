@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:09.986474</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:24:30.772466</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7st7t04</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7st7t04</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7st7t04</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7st7t04</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>van Noort, M.</gco:CharacterString>
+                        <gco:CharacterString>Van Noort, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,9 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Context. Recently, there have been some reports of unusually strong photospheric magnetic fields (which can reach values of over 7 kG) inferred from Hinode SOT/SP sunspot observations within penumbral regions. These superstrong penumbral fields are even larger than the strongest umbral fields on record and appear to be associated with supersonic downflows. The finding of such fields has been controversial since they seem to show up only when spatially coupled inversions are performed.&#xD;
-&#xD;
-Here, we investigate and discuss the reliability of those findings by studying in detail observed spectra associated with particularly strong magnetic fields at the inner edge of the penumbra of active region 10930.</gco:CharacterString>
+            <gco:CharacterString>Context. Recently, there have been some reports of unusually strong photospheric magnetic fields (which can reach values of over 7 kG) inferred from Hinode SOT/SP sunspot observations within penumbral regions. These superstrong penumbral fields are even larger than the strongest umbral fields on record and appear to be associated with supersonic downflows. The finding of such fields has been controversial since they seem to show up only when spatially coupled inversions are performed. Here, we investigate and discuss the reliability of those findings by studying in detail observed spectra associated with particularly strong magnetic fields at the inner edge of the penumbra of active region 10930.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

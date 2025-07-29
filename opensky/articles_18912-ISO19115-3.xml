@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:02:06.556799</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:53:59.659015</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d79z96k3</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d79z96k3</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d79z96k3</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d79z96k3</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Skamarock, William C.</gco:CharacterString>
+                        <gco:CharacterString>Skamarock, William</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As an alternative to traditional precipitation analysis and forecast verification, 1D and 2D spectral decompositions of NCEP/Stage IV and Multi-Radar Multi-Sensor (MRMS) precipitation products and convective-scale model forecasts are examined. Both the stage IV and MRMS analyses and the model forecasts show a similar weak power-law behavior in 1D spectral decompositions, although the MRMS analysis does not drop off in power at wavelengths less than approximately 20 km as found in the stage IV analysis. The convective-scale forecasts produce similar behavior to the MRMS when the forecast model&#x2019;s effective resolution is sufficient. Neither the MRMS analyses nor the forecasts suggest the existence of a break in the spectral slope at the scales for which the analyses and forecasts are valid. The 2D spectra of both observations and forecasts, expressed in terms of an absolute wavenumber and azimuthal angle, show power varying significantly as a function of azimuthal angle for a given wavenumber. This azimuthal anisotropy is significant, and is dominated by the second mode (wavenumber 2). The phase of the mode is the result of the orientation of precipitation features and, hence, convective system orientations and propagation. Observations show a shift in orientation (phase) over May&#x2013;June&#x2013;July. The convective forecasts reproduce this shift in phase, although with a consistent but small phase error.</gco:CharacterString>
+            <gco:CharacterString>As an alternative to traditional precipitation analysis and forecast verification, 1D and 2D spectral decompositions of NCEP/Stage IV and Multi-Radar Multi-Sensor (MRMS) precipitation products and convective-scale model forecasts are examined. Both the stage IV and MRMS analyses and the model forecasts show a similar weak power-law behavior in 1D spectral decompositions, although the MRMS analysis does not drop off in power at wavelengths less than approximately 20 km as found in the stage IV analysis. The convective-scale forecasts produce similar behavior to the MRMS when the forecast model's effective resolution is sufficient. Neither the MRMS analyses nor the forecasts suggest the existence of a break in the spectral slope at the scales for which the analyses and forecasts are valid. The 2D spectra of both observations and forecasts, expressed in terms of an absolute wavenumber and azimuthal angle, show power varying significantly as a function of azimuthal angle for a given wavenumber. This azimuthal anisotropy is significant, and is dominated by the second mode (wavenumber 2). The phase of the mode is the result of the orientation of precipitation features and, hence, convective system orientations and propagation. Observations show a shift in orientation (phase) over May&#x2013;June&#x2013;July. The convective forecasts reproduce this shift in phase, although with a consistent but small phase error.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:37.334204</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:16:27.273247</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7t15715</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7t15715</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5067/LIDAR/OZONE/TOLNET</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Trospheric Ozone Lidar Network (TOLNet) Ozone Observational Data??</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7t15715</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7t15715</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chouza, Fernando</gco:CharacterString>
+                        <gco:CharacterString>Chouza, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Leblanc, Thierry</gco:CharacterString>
+                        <gco:CharacterString>Leblanc, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brewer, Mark</gco:CharacterString>
+                        <gco:CharacterString>Brewer, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Patrick</gco:CharacterString>
+                        <gco:CharacterString>Wang, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Piazzolla, Sabina</gco:CharacterString>
+                        <gco:CharacterString>Piazzolla, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Drews, Carl</gco:CharacterString>
+                        <gco:CharacterString>Drews, Carl W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa</gco:CharacterString>
+                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Johnson, Matthew</gco:CharacterString>
+                        <gco:CharacterString>Johnson, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +257,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this work, the impact of Los Angeles Basin pollution transport and stratospheric intrusions on the surface ozone levels observed in the San Gabriel Mountains is investigated based on a combination of surface and lidar measurements as well as WRF-Chem (Weather Research and Forecasting with Chemistry) and WACCM (Whole Atmosphere Community Climate Model) runs. The number of days with observed surface ozone levels exceeding the National Ambient Air Quality Standards exhibit a clear seasonal pattern, with a maximum during summer, when models suggest a minimum influence of stratospheric intrusions and the largest impact from Los Angeles Basin pollution transport. Additionally, measured and modeled surface ozone and PM10 were analyzed as a function of season, time of the day, and wind direction. Measurements and models are in good qualitative agreement, with maximum surface ozone observed for southwest and west winds. For the prevailing summer wind direction, slightly south of the ozone maximum and corresponding to south-southwest winds, lower ozone levels were observed. Back trajectories suggest that this is associated with transport from the central Los Angeles Basin, where titration limits the amount of surface ozone. A quantitative comparison of the lidar profiles with WRF-Chem and WACCM models revealed good agreement near the surface, with models showing an increasing positive bias as function of altitude, reaching 75&#xe2;&#x80;&#x89;% at 15&#xe2;&#x80;&#x89;km above sea level. Finally, three selected case studies covering the different mechanisms affecting the near-surface ozone concentration over the San Gabriel Mountains, namely stratospheric intrusions and pollution transport, are analyzed based on surface and ozone lidar measurements, as well as co-located ceilometer measurements and models.</gco:CharacterString>
+            <gco:CharacterString>In this work, the impact of Los Angeles Basin pollution transport and stratospheric intrusions on the surface ozone levels observed in the San Gabriel Mountains is investigated based on a combination of surface and lidar measurements as well as WRF-Chem (Weather Research and Forecasting with Chemistry) and WACCM (Whole Atmosphere Community Climate Model) runs. The number of days with observed surface ozone levels exceeding the National Ambient Air Quality Standards exhibit a clear seasonal pattern, with a maximum during summer, when models suggest a minimum influence of stratospheric intrusions and the largest impact from Los Angeles Basin pollution transport. Additionally, measured and modeled surface ozone and PM10 were analyzed as a function of season, time of the day, and wind direction. Measurements and models are in good qualitative agreement, with maximum surface ozone observed for southwest and west winds. For the prevailing summer wind direction, slightly south of the ozone maximum and corresponding to south-southwest winds, lower ozone levels were observed. Back trajectories suggest that this is associated with transport from the central Los Angeles Basin, where titration limits the amount of surface ozone. A quantitative comparison of the lidar profiles with WRF-Chem and WACCM models revealed good agreement near the surface, with models showing an increasing positive bias as function of altitude, reaching 75% at 15km above sea level. Finally, three selected case studies covering the different mechanisms affecting the near-surface ozone concentration over the San Gabriel Mountains, namely stratospheric intrusions and pollution transport, are analyzed based on surface and ozone lidar measurements, as well as co-located ceilometer measurements and models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

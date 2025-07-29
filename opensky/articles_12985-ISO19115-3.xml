@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:07:47.448382</gco:DateTime>
+      <gco:DateTime>2025-07-12T01:15:12.126465</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7zc83rr</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7zc83rr</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7zc83rr</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7zc83rr</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tromel, Silke</gco:CharacterString>
+                        <gco:CharacterString>Tromel, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ryzhkov, Alexander</gco:CharacterString>
+                        <gco:CharacterString>Ryzhkov, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Simmer, Clemens</gco:CharacterString>
+                        <gco:CharacterString>Simmer, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Diederich, Malte</gco:CharacterString>
+                        <gco:CharacterString>Diederich, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>On the basis of simulations and observations made with polarimetric radars operating at X, C, and S bands, the backscatter differential phase &#x3b4; has been explored; &#x3b4; has been identified as an important polarimetric variable that should not be ignored in precipitation estimations that are based on specific differential phase KDP, especially at shorter radar wavelengths. Moreover, &#x3b4; bears important information about the dominant size of raindrops and wet snowflakes in the melting layer. New methods for estimating &#x3b4; in rain and in the melting layer are suggested. The method for estimating &#x3b4; in rain is based on a modified version of the &#x201c;ZPHI&#x201d; algorithm and provides reasonably robust estimates of &#x3b4; and KDP in pure rain except in regions where the total measured differential phase &#x3a6;DP behaves erratically, such as areas affected by nonuniform beam filling or low signal-to-noise ratio. The method for estimating &#x3b4; in the melting layer results in reliable estimates of &#x3b4; in stratiform precipitation and requires azimuthal averaging of radial profiles of &#x3a6;DP at high antenna elevations. Comparisons with large disdrometer datasets collected in Oklahoma and Germany confirm a strong interdependence between &#x3b4; and differential reflectivity ZDR. Because &#x3b4; is immune to attenuation, partial beam blockage, and radar miscalibration, the strong correlation between ZDR and &#x3b4; is of interest for quantitative precipitation estimation: &#x3b4; and ZDR are differently affected by the particle size distribution (PSD) and thus may complement each other for PSD moment estimation. Furthermore, the magnitude of &#x3b4; can be utilized as an important calibration parameter for improving microphysical models of the melting layer.</gco:CharacterString>
+            <gco:CharacterString>On the basis of simulations and observations made with polarimetric radars operating at X, C, and S bands, the backscatter differential phase &#x3b4; has been explored; &#x3b4; has been identified as an important polarimetric variable that should not be ignored in precipitation estimations that are based on specific differential phase KDP, especially at shorter radar wavelengths. Moreover, &#x3b4; bears important information about the dominant size of raindrops and wet snowflakes in the melting layer. New methods for estimating &#x3b4; in rain and in the melting layer are suggested. The method for estimating &#x3b4; in rain is based on a modified version of the "ZPHI" algorithm and provides reasonably robust estimates of &#x3b4; and KDP in pure rain except in regions where the total measured differential phase &#x3a6;DP behaves erratically, such as areas affected by nonuniform beam filling or low signal-to-noise ratio. The method for estimating &#x3b4; in the melting layer results in reliable estimates of &#x3b4; in stratiform precipitation and requires azimuthal averaging of radial profiles of &#x3a6;DP at high antenna elevations. Comparisons with large disdrometer datasets collected in Oklahoma and Germany confirm a strong interdependence between &#x3b4; and differential reflectivity ZDR. Because &#x3b4; is immune to attenuation, partial beam blockage, and radar miscalibration, the strong correlation between ZDR and &#x3b4; is of interest for quantitative precipitation estimation: &#x3b4; and ZDR are differently affected by the particle size distribution (PSD) and thus may complement each other for PSD moment estimation. Furthermore, the magnitude of &#x3b4; can be utilized as an important calibration parameter for improving microphysical models of the melting layer.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

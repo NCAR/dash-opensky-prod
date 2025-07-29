@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:21:51.557565</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:35:59.120779</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7vd72b0</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7vd72b0</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Comment on &#x201c;Surface air relative humidities spuriously exceeding 100% in CMIP5 model output and their impact on future rojections&#x201d; by K. Ruosteenoja et al. (2017)</gco:CharacterString>
+                  <gco:CharacterString>Comment on "Surface air relative humidities spuriously exceeding 100% in CMIP5 model output and their impact on future rojections" by K. Ruosteenoja et al. (2017)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7vd72b0</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7vd72b0</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Genthon, Christophe</gco:CharacterString>
+                        <gco:CharacterString>Genthon, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Forbes, Richard</gco:CharacterString>
+                        <gco:CharacterString>Forbes, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vignon, Etienne</gco:CharacterString>
+                        <gco:CharacterString>Vignon, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Madeleine, Jean-Baptiste</gco:CharacterString>
+                        <gco:CharacterString>Madeleine, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,10 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Key Points:&#xD;
-Ruosteenoja et al.'s (2017) claim that supersaturation in the surface atmosphere is unrealistic and necessarily spurious and incorrect.&#xD;
-Supersaturations are a reality that an increasing number of atmospheric models can reproduce even in the surface atmosphere.&#xD;
-Modelers should not artificially cap relative humidity at 100% when feeding climate model archives.</gco:CharacterString>
+            <gco:CharacterString>Key Points: Ruosteenoja et al.'s (2017) claim that supersaturation in the surface atmosphere is unrealistic and necessarily spurious and incorrect. Supersaturations are a reality that an increasing number of atmospheric models can reproduce even in the surface atmosphere. Modelers should not artificially cap relative humidity at 100% when feeding climate model archives.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

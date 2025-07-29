@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:21:58.615297</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:35:49.086097</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d77947mw</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d77947mw</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6RX99HX</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6RX99HX</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d77947mw</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d77947mw</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yeager, Stephen G.</gco:CharacterString>
+                        <gco:CharacterString>Yeager, Stephen</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rosenbloom, Nan A.</gco:CharacterString>
+                        <gco:CharacterString>Rosenbloom, Nan</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Karspeck, Alicia R.</gco:CharacterString>
+                        <gco:CharacterString>Karspeck, Alicia</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew C.</gco:CharacterString>
+                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +257,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The objective of near-term climate prediction is to improve our fore-knowledge, from years to a decade or more in advance, of impactful climate changes that can in general be attributed to a combination of internal and externally forced variability. Predictions initialized using observations of past climate states are tested by comparing their ability to reproduce past climate evolution with that of uninitialized simulations in which the same radiative forcings are applied. A new set of decadal prediction (DP) simulations has recently been completed using the Community Earth System Model (CESM) and is now available to the community. This new large-ensemble (LE) set (CESM-DPLE) is composed of historical simulations that are integrated forward for 10 years following initialization on 1 November of each year between 1954 and 2015. CESM-DPLE represents the &#x201c;initialized&#x201d; counterpart to the widely studied CESM Large Ensemble (CESM-LE); both simulation sets have 40-member ensembles, and they use identical model code and radiative forcings. Comparing CESM-DPLE to CESM-LE highlights the impacts of initialization on prediction skill and indicates that robust assessment and interpretation of DP skill may require much larger ensembles than current protocols recommend. CESM-DPLE exhibits significant and potentially useful prediction skill for a wide range of fields, regions, and time scales, and it shows widespread improvement over simpler benchmark forecasts as well as over a previous initialized system that was submitted to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The new DP system offers new capabilities that will be of interest to a broad community pursuing Earth system prediction research.</gco:CharacterString>
+            <gco:CharacterString>The objective of near-term climate prediction is to improve our fore-knowledge, from years to a decade or more in advance, of impactful climate changes that can in general be attributed to a combination of internal and externally forced variability. Predictions initialized using observations of past climate states are tested by comparing their ability to reproduce past climate evolution with that of uninitialized simulations in which the same radiative forcings are applied. A new set of decadal prediction (DP) simulations has recently been completed using the Community Earth System Model (CESM) and is now available to the community. This new large-ensemble (LE) set (CESM-DPLE) is composed of historical simulations that are integrated forward for 10 years following initialization on 1 November of each year between 1954 and 2015. CESM-DPLE represents the "initialized" counterpart to the widely studied CESM Large Ensemble (CESM-LE); both simulation sets have 40-member ensembles, and they use identical model code and radiative forcings. Comparing CESM-DPLE to CESM-LE highlights the impacts of initialization on prediction skill and indicates that robust assessment and interpretation of DP skill may require much larger ensembles than current protocols recommend. CESM-DPLE exhibits significant and potentially useful prediction skill for a wide range of fields, regions, and time scales, and it shows widespread improvement over simpler benchmark forecasts as well as over a previous initialized system that was submitted to phase 5 of the Coupled Model Intercomparison Project (CMIP5). The new DP system offers new capabilities that will be of interest to a broad community pursuing Earth system prediction research.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

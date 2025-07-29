@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:19:53.128474</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:34:35.769469</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7rb77j4</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7rb77j4</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.7289/V5D21VHZ</gmd:URL>
+                  <gmd:URL>https://doi.org/10.7289/V5D21VHZ</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7rb77j4</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7rb77j4</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Foster, Adrianna C.</gco:CharacterString>
+                        <gco:CharacterString>Foster, A. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shuman, Jacquelyn K.</gco:CharacterString>
+                        <gco:CharacterString>Shuman, Jacquelyn</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shugart, Herman H.</gco:CharacterString>
+                        <gco:CharacterString>Shugart, H. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Negron, Jose</gco:CharacterString>
+                        <gco:CharacterString>Negron, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In the subalpine zone of the Rocky Mountains, climate change is predicted to result in an increase in the frequency and severity of spruce beetle outbreaks. Climate change itself may affect vegetation, potentially leading to changes in species composition. The direct and indirect effects of climate and disturbances on forest composition, biomass, and dynamics open the possibility for non&#x2010;linear ecosystem responses. Modeling studies allow for the study of the interaction of these effects and their impact on the forest system. University of Virginia Forest Model Enhanced (UVAFME), an individual&#x2010;based gap model that simulates forest dynamics and characteristics, is updated with a spruce beetle subroutine that calculates the probability for beetle infestation and potential mortality of each tree on a plot. The updated model is then run with multiple scenarios that combine beetle infestation with current or altered climate at sites across the southern Rocky Mountains. Results show that spruce beetle infestations acted to facilitate competition with invading lower&#x2010;elevation species, resulting in an increase in the biomass of historically lower&#x2010;elevation species and a further decline in Engelmann spruce biomass than occurred with solely bark beetle disturbance or solely climate change. We also found an initial enhancing effect between spruce beetle infestation and climate change; however, by the end of 100 yr of climate change and potential beetle infestation, climate had a dampening effect on spruce beetle infestation, through loss of host trees. These results are an important step in understanding the possible futures for vegetation of the Rocky Mountains as well as for spruce forests across the western United States and Canada.</gco:CharacterString>
+            <gco:CharacterString>In the subalpine zone of the Rocky Mountains, climate change is predicted to result in an increase in the frequency and severity of spruce beetle outbreaks. Climate change itself may affect vegetation, potentially leading to changes in species composition. The direct and indirect effects of climate and disturbances on forest composition, biomass, and dynamics open the possibility for non-linear ecosystem responses. Modeling studies allow for the study of the interaction of these effects and their impact on the forest system. University of Virginia Forest Model Enhanced (UVAFME), an individual-based gap model that simulates forest dynamics and characteristics, is updated with a spruce beetle subroutine that calculates the probability for beetle infestation and potential mortality of each tree on a plot. The updated model is then run with multiple scenarios that combine beetle infestation with current or altered climate at sites across the southern Rocky Mountains. Results show that spruce beetle infestations acted to facilitate competition with invading lower-elevation species, resulting in an increase in the biomass of historically lower-elevation species and a further decline in Engelmann spruce biomass than occurred with solely bark beetle disturbance or solely climate change. We also found an initial enhancing effect between spruce beetle infestation and climate change; however, by the end of 100 yr of climate change and potential beetle infestation, climate had a dampening effect on spruce beetle infestation, through loss of host trees. These results are an important step in understanding the possible futures for vegetation of the Rocky Mountains as well as for spruce forests across the western United States and Canada.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

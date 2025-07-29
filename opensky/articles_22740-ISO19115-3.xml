@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:22:53.357156</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:00.823357</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7kh0pxz</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7kh0pxz</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Explicit prediction of continental convection in a skillful variable&#x2010;resolution global model</gco:CharacterString>
+                  <gco:CharacterString>Explicit prediction of continental convection in a skillful variable-resolution global model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7kh0pxz</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7kh0pxz</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Harris, Lucas M.</gco:CharacterString>
+                        <gco:CharacterString>Harris, L. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rees, Shannon L.</gco:CharacterString>
+                        <gco:CharacterString>Rees, Shannon</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhou, Linjiong</gco:CharacterString>
+                        <gco:CharacterString>ZHOU, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a new global&#x2010;to&#x2010;regional model, cfvGFS, able to explicitly (without parameterization) represent convection over part of the Earth. This model couples the Geophysical Fluid Dynamics Laboratory Finite&#x2010;Volume Cubed&#x2010;Sphere Dynamical Core (FV3) to the Global Forecast System physics and initial conditions, augmented with a six&#x2010;category microphysics and a modified planetary boundary layer scheme. We examine the characteristics of cfvGFS on a 3&#x2010;km continental U. S. domain nested within a 13&#x2010;km global model. The nested cfvGFS still has good hemispheric skill comparable to or better than the operational Global Forecast System, while supercell thunderstorms, squall lines, and derechos are explicitly represented over the refined region. In particular, cfvGFS has excellent representations of fine&#x2010;scale updraft helicity fields, an important proxy for severe weather forecasting. Precipitation biases are found to be smaller than in uniform&#x2010;resolution global models and competitive with operational regional models; the 3&#x2010;km domain also improves upon the global models in 2&#x2010;m temperature and humidity skill. We discuss further development of cfvGFS and the prospects for a unified global&#x2010;to&#x2010;regional prediction system.</gco:CharacterString>
+            <gco:CharacterString>We present a new global-to-regional model, cfvGFS, able to explicitly (without parameterization) represent convection over part of the Earth. This model couples the Geophysical Fluid Dynamics Laboratory Finite-Volume Cubed-Sphere Dynamical Core (FV3) to the Global Forecast System physics and initial conditions, augmented with a six-category microphysics and a modified planetary boundary layer scheme. We examine the characteristics of cfvGFS on a 3-km continental U. S. domain nested within a 13-km global model. The nested cfvGFS still has good hemispheric skill comparable to or better than the operational Global Forecast System, while supercell thunderstorms, squall lines, and derechos are explicitly represented over the refined region. In particular, cfvGFS has excellent representations of fine-scale updraft helicity fields, an important proxy for severe weather forecasting. Precipitation biases are found to be smaller than in uniform-resolution global models and competitive with operational regional models; the 3-km domain also improves upon the global models in 2-m temperature and humidity skill. We discuss further development of cfvGFS and the prospects for a unified global-to-regional prediction system.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

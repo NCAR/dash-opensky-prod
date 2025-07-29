@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:41.092579</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:36:00.780889</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7p84fqd</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7p84fqd</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7p84fqd</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7p84fqd</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nardi, Joseph</gco:CharacterString>
+                        <gco:CharacterString>Nardi, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Feldman, Noah</gco:CharacterString>
+                        <gco:CharacterString>Feldman, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Poppick, Andrew</gco:CharacterString>
+                        <gco:CharacterString>Poppick, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,8 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>[Note: this Technical Note was updated on 2020-08-17 per the authors' request to correct an error. See the description of the change on page two of the document's front matter.] &#xD; 
- The data storage burden resulting from large climate model experiments only continues to grow. Lossy data compression methods are required to alleviate this burden, but lossy methods introduce the possibility that key climate variable fields could be altered to the point of affecting scientific conclusions. It is therefore important to develop a detailed understanding of how compressed climate model output differs from the original for different compression algorithms and compression rates. In this work, we evaluate the effects of two leading compression algorithms, sz and zfp, on daily average and monthly maximum temperature data, and daily average precipitation rate data, from a historical run of CESM1 CAM5.2. While both algorithms show promising fidelity with the original model output, detectable artifacts are introduced even at relatively low error tolerances. Examples for temperature data include biases in temperature gradient fields, temporal autocorrelation, and seasonal cycles; precipitation data show, for example, biases in the number of rainy days. We highlight the need for evaluation methods that are sensitive to errors at different spatiotemporal scales and specific to the particular climate variable of interest.</gco:CharacterString>
+            <gco:CharacterString>[Note: this Technical Note was updated on 2020-08-17 per the authors' request to correct an error. See the description of the change on page two of the document's front matter.] The data storage burden resulting from large climate model experiments only continues to grow. Lossy data compression methods are required to alleviate this burden, but lossy methods introduce the possibility that key climate variable fields could be altered to the point of affecting scientific conclusions. It is therefore important to develop a detailed understanding of how compressed climate model output differs from the original for different compression algorithms and compression rates. In this work, we evaluate the effects of two leading compression algorithms, sz and zfp, on daily average and monthly maximum temperature data, and daily average precipitation rate data, from a historical run of CESM1 CAM5.2. While both algorithms show promising fidelity with the original model output, detectable artifacts are introduced even at relatively low error tolerances. Examples for temperature data include biases in temperature gradient fields, temporal autocorrelation, and seasonal cycles; precipitation data show, for example, biases in the number of rainy days. We highlight the need for evaluation methods that are sensitive to errors at different spatiotemporal scales and specific to the particular climate variable of interest.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -264,19 +263,19 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT</gco:CharacterString>
+                  <gco:CharacterString>Coupled climate models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; AIR TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Precipitation amount</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; COUPLED CLIMATE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Statistical applications</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA MANAGEMENT/DATA HANDLING &gt; DATA COMPRESSION</gco:CharacterString>
+                  <gco:CharacterString>Data compression</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; STATISTICAL APPLICATIONS</gco:CharacterString>
+                  <gco:CharacterString>Air temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:37.888787</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:09:57.049147</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7s75ksx</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7s75ksx</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5285/76ebdc0b-0eed-4f70-b89e-55e606bcd568</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>VolcanEESM: Global volcanic sulphur dioxide (SO2) emissions database from 1850 to present - Version 1.0</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7s75ksx</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7s75ksx</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Craig, Cheryl</gco:CharacterString>
+                        <gco:CharacterString>Craig, Cheryl A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Eaton, Brian</gco:CharacterString>
+                        <gco:CharacterString>Eaton, Brian E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Goldhaber, Steven N.</gco:CharacterString>
+                        <gco:CharacterString>Goldhaber, Steve</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannay, Cecile</gco:CharacterString>
+                        <gco:CharacterString>Hannay, Cecile E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Herrington, Adam</gco:CharacterString>
+                        <gco:CharacterString>Herrington, Adam R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +317,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Community Atmosphere Model version 6.3 (CAM6.3) is released as the active atmosphere component of the Community Earth System Model version CESM-2.2. It is the latest in a series of global atmosphere models whose development is guided by the Atmosphere Model Working Group (AMWG) of the Community Earth System Model (CESM) project. CAM can be run in many configurations within the CESM; it is the atmosphere component in the B, E, F, Q, and P compsets. The term &#x201c;standalone CAM&#x201d; is often used to refer to a compset which does not include prognostic ocean and sea ice models. When one speaks of "doing CAM simulations" the implication is that it&#x2019;s a standalone configuration that is being used. When CAM is coupled to prognostic land, ocean, and sea ice models then we refer to it as a "fully coupled CESM simulation" which are implemented in the B compsets.</gco:CharacterString>
+            <gco:CharacterString>The Community Atmosphere Model version 6.3 (CAM6.3) is released as the active atmosphere component of the Community Earth System Model version CESM-2.2. It is the latest in a series of global atmosphere models whose development is guided by the Atmosphere Model Working Group (AMWG) of the Community Earth System Model (CESM) project. CAM can be run in many configurations within the CESM; it is the atmosphere component in the B, E, F, Q, and P compsets. The term "standalone CAM" is often used to refer to a compset which does not include prognostic ocean and sea ice models. When one speaks of "doing CAM simulations" the implication is that it's a standalone configuration that is being used. When CAM is coupled to prognostic land, ocean, and sea ice models then we refer to it as a "fully coupled CESM simulation" which are implemented in the B compsets.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

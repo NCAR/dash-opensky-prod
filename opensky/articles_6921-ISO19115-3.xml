@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:39:17.014814</gco:DateTime>
+      <gco:DateTime>2025-07-17T17:01:24.897955</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74t6jn2</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74t6jn2</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74t6jn2</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74t6jn2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mann, Michael</gco:CharacterString>
+                        <gco:CharacterString>Mann, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rutherford, Scott</gco:CharacterString>
+                        <gco:CharacterString>Rutherford, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wahl, Eugene</gco:CharacterString>
+                        <gco:CharacterString>Wahl, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present results from continued investigations into the fidelity of covariance-based climate field reconstruction (CFR) approaches used in proxy-based climate reconstruction. Our experiments employ synthetic &#x201c;pseudoproxy" data derived from simulations of forced climate changes over the past millennium. Using networks of these pseudoproxy data, we investigate the sensitivity of CFR performance to signal-to-noise ratios, the noise spectrum, the spatial sampling of pseudoproxy locations, the statistical representation of predictors used, and the diagnostic used to quantify reconstruction skill. Our results reinforce previous conclusions that CFR methods, correctly implemented and applied to suitable networks of proxy data, should yield reliable reconstructions of past climate histories within estimated uncertainties. Our results also demonstrate the deleterious impact of a linear detrending procedure performed recently in certain CFR studies and illustrate flaws in some previously proposed metrics of reconstruction skill.</gco:CharacterString>
+            <gco:CharacterString>We present results from continued investigations into the fidelity of covariance-based climate field reconstruction (CFR) approaches used in proxy-based climate reconstruction. Our experiments employ synthetic "pseudoproxy" data derived from simulations of forced climate changes over the past millennium. Using networks of these pseudoproxy data, we investigate the sensitivity of CFR performance to signal-to-noise ratios, the noise spectrum, the spatial sampling of pseudoproxy locations, the statistical representation of predictors used, and the diagnostic used to quantify reconstruction skill. Our results reinforce previous conclusions that CFR methods, correctly implemented and applied to suitable networks of proxy data, should yield reliable reconstructions of past climate histories within estimated uncertainties. Our results also demonstrate the deleterious impact of a linear detrending procedure performed recently in certain CFR studies and illustrate flaws in some previously proposed metrics of reconstruction skill.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

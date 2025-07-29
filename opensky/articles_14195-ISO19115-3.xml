@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:23:30.656375</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:07:38.622646</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7xd12mx</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7xd12mx</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7xd12mx</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7xd12mx</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Khain, Alexander</gco:CharacterString>
+                        <gco:CharacterString>Khain, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Benmoshe, Nir</gco:CharacterString>
+                        <gco:CharacterString>Benmoshe, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ilotoviz, Eyal</gco:CharacterString>
+                        <gco:CharacterString>Ilotoviz, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ryzhkov, Alexander</gco:CharacterString>
+                        <gco:CharacterString>Ryzhkov, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Phillips, Vaughan</gco:CharacterString>
+                        <gco:CharacterString>Phillips, V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Polarimetric radar observations of deep convective storms frequently reveal columnar enhancements of differential reflectivity ZDR. Such &#x201c;ZDR columns&#x201d; can extend upward more than 3 km above the environmental 0&#xb0;C level, indicative of supercooled liquid drops being lofted by the updraft. Previous observational and modeling studies of ZDR columns are reviewed. To address remaining questions, the Hebrew University Cloud Model, an advanced spectral bin microphysical model, is coupled with a polarimetric radar operator to simulate the formation and life cycle of ZDR columns in a deep convective continental storm. In doing so, the mechanisms by which ZDR columns are produced are clarified, including the formation of large raindrops in the updraft by recirculation of smaller raindrops formed aloft back into the updraft at low levels. The internal hydrometeor structure of ZDR columns is quantified, revealing the transition from supercooled liquid drops to freezing drops to hail with height in the ZDR column. The life cycle of ZDR columns from early formation, through growth to maturity, to demise is described, showing how hail falling out through the weakening or ascending updraft bubble dominates the reflectivity factor ZH, causing the death of the ZDR column and leaving behind its &#x201c;ghost&#x201d; of supercooled drops. In addition, the practical applications of ZDR columns and their evolution are explored. The height of the ZDR column is correlated with updraft strength, and the evolution of ZDR column height is correlated with increases in ZH and hail mass content at the ground after a lag of 10&#x2013;15 min.</gco:CharacterString>
+            <gco:CharacterString>Polarimetric radar observations of deep convective storms frequently reveal columnar enhancements of differential reflectivity ZDR. Such "ZDR columns" can extend upward more than 3 km above the environmental 0&#xb0;C level, indicative of supercooled liquid drops being lofted by the updraft. Previous observational and modeling studies of ZDR columns are reviewed. To address remaining questions, the Hebrew University Cloud Model, an advanced spectral bin microphysical model, is coupled with a polarimetric radar operator to simulate the formation and life cycle of ZDR columns in a deep convective continental storm. In doing so, the mechanisms by which ZDR columns are produced are clarified, including the formation of large raindrops in the updraft by recirculation of smaller raindrops formed aloft back into the updraft at low levels. The internal hydrometeor structure of ZDR columns is quantified, revealing the transition from supercooled liquid drops to freezing drops to hail with height in the ZDR column. The life cycle of ZDR columns from early formation, through growth to maturity, to demise is described, showing how hail falling out through the weakening or ascending updraft bubble dominates the reflectivity factor ZH, causing the death of the ZDR column and leaving behind its "ghost" of supercooled drops. In addition, the practical applications of ZDR columns and their evolution are explored. The height of the ZDR column is correlated with updraft strength, and the evolution of ZDR column height is correlated with increases in ZH and hail mass content at the ground after a lag of 10&#x2013;15 min.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

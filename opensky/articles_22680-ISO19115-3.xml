@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:53.618877</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:26:48.625358</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7sf2zzn</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7sf2zzn</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7sf2zzn</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7sf2zzn</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clemins, Patrick J.</gco:CharacterString>
+                        <gco:CharacterString>Clemins, P. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bucini, Gabriela</gco:CharacterString>
+                        <gco:CharacterString>Bucini, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Winter, Jonathan M.</gco:CharacterString>
+                        <gco:CharacterString>Winter, J. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Beckage, Brian</gco:CharacterString>
+                        <gco:CharacterString>Beckage, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Towler, Erin</gco:CharacterString>
+                        <gco:CharacterString>Towler, Erin L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Betts, Alan</gco:CharacterString>
+                        <gco:CharacterString>Betts, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cummings, Rory</gco:CharacterString>
+                        <gco:CharacterString>Cummings, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chang Queiroz, Henrique</gco:CharacterString>
+                        <gco:CharacterString>Chang Queiroz, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>General circulation models (GCMs) are essential for projecting future climate; however, despite the rapid advances in their ability to simulate the climate system at increasing spatial resolution, GCMs cannot capture the local and regional weather dynamics necessary for climate impacts assessments. Temperature and precipitation, for which dense observational records are available, can be bias corrected and downscaled, but many climate impacts models require a larger set of variables such as relative humidity, cloud cover, wind speed and direction, and solar radiation. To address this need, we develop and demonstrate an analog-based approach, which we call a &#x201c;weather estimator.&#x201d; The weather estimator employs a highly generalizable structure, utilizing temperature and precipitation from previously downscaled GCMs to select analogs from a reanalysis product, resulting in a complete daily gridded dataset. The resulting dataset, constructed from the selected analogs, contains weather variables needed for impacts modeling that are physically, spatially, and temporally consistent. This approach relies on the weather variables&#x2019; correlation with temperature and precipitation, and our correlation analysis indicates that the weather estimator should best estimate evaporation, relative humidity, and cloud cover and do less well in estimating pressure and wind speed and direction. In addition, while the weather estimator has several user-defined parameters, a sensitivity analysis shows that the method is robust to small variations in important model parameters. The weather estimator recreates the historical distributions of relative humidity, pressure, evaporation, shortwave radiation, cloud cover, and wind speed well and outperforms a multiple linear regression estimator across all predictands.</gco:CharacterString>
+            <gco:CharacterString>General circulation models (GCMs) are essential for projecting future climate; however, despite the rapid advances in their ability to simulate the climate system at increasing spatial resolution, GCMs cannot capture the local and regional weather dynamics necessary for climate impacts assessments. Temperature and precipitation, for which dense observational records are available, can be bias corrected and downscaled, but many climate impacts models require a larger set of variables such as relative humidity, cloud cover, wind speed and direction, and solar radiation. To address this need, we develop and demonstrate an analog-based approach, which we call a "weather estimator." The weather estimator employs a highly generalizable structure, utilizing temperature and precipitation from previously downscaled GCMs to select analogs from a reanalysis product, resulting in a complete daily gridded dataset. The resulting dataset, constructed from the selected analogs, contains weather variables needed for impacts modeling that are physically, spatially, and temporally consistent. This approach relies on the weather variables' correlation with temperature and precipitation, and our correlation analysis indicates that the weather estimator should best estimate evaporation, relative humidity, and cloud cover and do less well in estimating pressure and wind speed and direction. In addition, while the weather estimator has several user-defined parameters, a sensitivity analysis shows that the method is robust to small variations in important model parameters. The weather estimator recreates the historical distributions of relative humidity, pressure, evaporation, shortwave radiation, cloud cover, and wind speed well and outperforms a multiple linear regression estimator across all predictands.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

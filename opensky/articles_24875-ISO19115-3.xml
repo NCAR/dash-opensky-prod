@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:20:01.250344</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:10:16.997144</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,34 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3r1z</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7qv3r1z</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.5120940</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related JournalArticle #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Data for the paper "Impacts of different causes on the inter-hemispheric asymmetry of ionosphere-thermosphere system at mid- and high-latitudes: GITM Simulations"</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Impacts of different causes on the inter&#x2010;hemispheric asymmetry of ionosphere&#x2010;thermosphere system at mid&#x2010; and high&#x2010;latitudes: GITM simulations</gco:CharacterString>
+                  <gco:CharacterString>Impacts of different causes on the inter-hemispheric asymmetry of ionosphere-thermosphere system at mid- and high-latitudes: GITM simulations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3r1z</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7qv3r1z</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hong, Yu</gco:CharacterString>
+                        <gco:CharacterString>Hong, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deng, Yue</gco:CharacterString>
+                        <gco:CharacterString>Deng, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sheng, Cheng</gco:CharacterString>
+                        <gco:CharacterString>Sheng, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Welling, Daniel</gco:CharacterString>
+                        <gco:CharacterString>Welling, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lopez, Ramon</gco:CharacterString>
+                        <gco:CharacterString>Lopez, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study, the Global Ionosphere Thermosphere Model is utilized to investigate the inter-hemispheric asymmetry in the ionosphere-thermosphere (I-T) system at mid- and high-latitudes (|geographic latitude| &gt; 45 degrees) associated with inter-hemispheric differences in (a) the solar irradiance, (b) geomagnetic field, and (c) magnetospheric forcing under moderate geomagnetic conditions. Specifically, we have quantified the relative significance of the above three causes to the inter-hemispheric asymmetries in the spatially weighted averaged E-region electron density, F-region neutral mass density, and horizontal neutral wind along with the hemispheric-integrated Joule heating. Further, an asymmetry index defined as the percentage differences of these four quantities between the northern and southern hemispheres (|geographic latitude| &gt; 45 degrees) was calculated. It is found that: (a) The difference of the solar extreme ulutraviolet (EUV) irradiance plays a dominant role in causing inter-hemispheric asymmetries in the four examined I-T quantities. Typically, the asymmetry index for the E-region electron density and integrated Joule heating at solstices with F10.7 = 150 sfu can reach 92.97% and 38.25%, respectively. (b) The asymmetric geomagnetic field can result in a strong daily variation of inter-hemispheric asymmetries in the F-region neutral wind and hemispheric-integrated Joule heating over geographic coordinates. Their amplitude of asymmetry indices can be as large as 20.81% and 42.52%, which can be comparable to the solar EUV irradiance effect. (c) The contributions of the asymmetric magnetospheric forcing, including particle precipitation and ion convection pattern, can cause the asymmetry of integrated Joule heating as significant as 28.43% and 34.72%, respectively, which can be even stronger than other causes when the geomagnetic activity is intense.</gco:CharacterString>
+            <gco:CharacterString>In this study, the Global Ionosphere Thermosphere Model is utilized to investigate the inter-hemispheric asymmetry in the ionosphere-thermosphere (I-T) system at mid- and high-latitudes (\geographic latitude\ &gt; 45 degrees) associated with inter-hemispheric differences in (a) the solar irradiance, (b) geomagnetic field, and (c) magnetospheric forcing under moderate geomagnetic conditions. Specifically, we have quantified the relative significance of the above three causes to the inter-hemispheric asymmetries in the spatially weighted averaged E-region electron density, F-region neutral mass density, and horizontal neutral wind along with the hemispheric-integrated Joule heating. Further, an asymmetry index defined as the percentage differences of these four quantities between the northern and southern hemispheres (\geographic latitude\ &gt; 45 degrees) was calculated. It is found that: (a) The difference of the solar extreme ulutraviolet (EUV) irradiance plays a dominant role in causing inter-hemispheric asymmetries in the four examined I-T quantities. Typically, the asymmetry index for the E-region electron density and integrated Joule heating at solstices with F10.7 = 150 sfu can reach 92.97% and 38.25%, respectively. (b) The asymmetric geomagnetic field can result in a strong daily variation of inter-hemispheric asymmetries in the F-region neutral wind and hemispheric-integrated Joule heating over geographic coordinates. Their amplitude of asymmetry indices can be as large as 20.81% and 42.52%, which can be comparable to the solar EUV irradiance effect. (c) The contributions of the asymmetric magnetospheric forcing, including particle precipitation and ion convection pattern, can cause the asymmetry of integrated Joule heating as significant as 28.43% and 34.72%, respectively, which can be even stronger than other causes when the geomagnetic activity is intense.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

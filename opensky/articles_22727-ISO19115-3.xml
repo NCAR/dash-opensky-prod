@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:08:00.753442</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:17.237353</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7154kn7</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7154kn7</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7154kn7</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7154kn7</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sun, Qiang</gco:CharacterString>
+                        <gco:CharacterString>Sun, Q.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Whitney, Michael M.</gco:CharacterString>
+                        <gco:CharacterString>Whitney, M. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tseng, Yu&#x2010;heng</gco:CharacterString>
+                        <gco:CharacterString>Tseng, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent studies have explored the sensitivity of global ocean model simulations to the treatment of riverine freshwater and the representation of estuarine processes via an estuary box model applied within the Community Earth System Model (CESM). This study builds on these efforts by assessing the model skill score relative to a new salinity climatology. The new climatology averages the original observational data of the World Ocean Database directly onto the CESM ocean component tracer grid cells without spatial interpolation, smoothing, or other gap&#x2010;filling techniques to mitigate coastal ocean salinity bias present in the World Ocean Atlas. The mean square error for coastal upper ocean salinity relative to climatology is reduced by up to 14%, and the mean square error of near&#x2010;surface salinity stratification is reduced by up to 28% near major river mouths in the simulations with improved treatments of river runoff. The improvement in upper ocean bulk salinity is attributed primarily to focusing runoff as point sources thereby avoiding the artificial horizontal spreading of the control run and to applying a locally varying instead of a global constant reference salinity for riverine virtual salt fluxes. The improvements in near&#x2010;surface salinity stratification are primarily attributed to adding parameterized estuarine mixing with the estuary box model. Salinity and salinity stratification skill improvements are achieved not just near large rivers but also along the global coast and skill improvements extend far offshore. Despite these improvements, many other sources of model&#x2010;climatology mismatch in coastal salinity and stratification remain and merit further attention.</gco:CharacterString>
+            <gco:CharacterString>Recent studies have explored the sensitivity of global ocean model simulations to the treatment of riverine freshwater and the representation of estuarine processes via an estuary box model applied within the Community Earth System Model (CESM). This study builds on these efforts by assessing the model skill score relative to a new salinity climatology. The new climatology averages the original observational data of the World Ocean Database directly onto the CESM ocean component tracer grid cells without spatial interpolation, smoothing, or other gap-filling techniques to mitigate coastal ocean salinity bias present in the World Ocean Atlas. The mean square error for coastal upper ocean salinity relative to climatology is reduced by up to 14%, and the mean square error of near-surface salinity stratification is reduced by up to 28% near major river mouths in the simulations with improved treatments of river runoff. The improvement in upper ocean bulk salinity is attributed primarily to focusing runoff as point sources thereby avoiding the artificial horizontal spreading of the control run and to applying a locally varying instead of a global constant reference salinity for riverine virtual salt fluxes. The improvements in near-surface salinity stratification are primarily attributed to adding parameterized estuarine mixing with the estuary box model. Salinity and salinity stratification skill improvements are achieved not just near large rivers but also along the global coast and skill improvements extend far offshore. Despite these improvements, many other sources of model-climatology mismatch in coastal salinity and stratification remain and merit further attention.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

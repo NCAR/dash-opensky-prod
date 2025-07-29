@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:09:17.003736</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:26.627445</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7r49skw</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7r49skw</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7r49skw</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7r49skw</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Jianduo</gco:CharacterString>
+                        <gco:CharacterString>Li, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Guo</gco:CharacterString>
+                        <gco:CharacterString>Zhang, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Peng, Xindong</gco:CharacterString>
+                        <gco:CharacterString>Peng, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gan, Yanjun</gco:CharacterString>
+                        <gco:CharacterString>Gan, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Study on the uncertainties in land surface models (LSMs) helps us understand the differences and errors in climate models. Meanwhile, uncertainty in model structure derived from the many possible parameterization schemes for the same physical subprocess is a primary source of land model uncertainties. To attribute structural errors and model parameterization scheme uncertainties, it is critical to identify the key subprocesses involved and investigate the interactions of these subprocesses on LSM behavior, which will ultimately help us identify the &#x201c;optimal&#x201d; parameterization schemes for various plant functional types, soil types, and different locations. Here, we conduct physical ensemble simulations for multiple sites from FLUXNET and then apply a variance&#x2010;based sensitivity analysis method to quantitatively assess the impacts of uncertainties in the parameterization schemes of subprocesses in the Noah with multiparameterization (Noah&#x2010;MP) LSM on model performance. The results show that three subprocesses&#x2014;surface exchange coefficient, runoff and groundwater, and surface resistance to evaporation&#x2014;have the most significant impacts on the performance of the simulated sensible heat flux, latent heat flux, and net absorbed radiation in the Noah&#x2010;MP LSM. The interaction between two subprocesses could contribute up to 50% of the variation in model performance for some sites, which highlights the need for taking into consideration the interactions of subprocesses to improve LSMs. Finally, a statistical optimal combination of the parameterization schemes is recommended for global land modeling, although it is noticed that the optimal schemes vary with regions and can be different even for neighboring sites.</gco:CharacterString>
+            <gco:CharacterString>Study on the uncertainties in land surface models (LSMs) helps us understand the differences and errors in climate models. Meanwhile, uncertainty in model structure derived from the many possible parameterization schemes for the same physical subprocess is a primary source of land model uncertainties. To attribute structural errors and model parameterization scheme uncertainties, it is critical to identify the key subprocesses involved and investigate the interactions of these subprocesses on LSM behavior, which will ultimately help us identify the "optimal" parameterization schemes for various plant functional types, soil types, and different locations. Here, we conduct physical ensemble simulations for multiple sites from FLUXNET and then apply a variance-based sensitivity analysis method to quantitatively assess the impacts of uncertainties in the parameterization schemes of subprocesses in the Noah with multiparameterization (Noah-MP) LSM on model performance. The results show that three subprocesses&#x2014;surface exchange coefficient, runoff and groundwater, and surface resistance to evaporation&#x2014;have the most significant impacts on the performance of the simulated sensible heat flux, latent heat flux, and net absorbed radiation in the Noah-MP LSM. The interaction between two subprocesses could contribute up to 50% of the variation in model performance for some sites, which highlights the need for taking into consideration the interactions of subprocesses to improve LSMs. Finally, a statistical optimal combination of the parameterization schemes is recommended for global land modeling, although it is noticed that the optimal schemes vary with regions and can be different even for neighboring sites.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:40:40.285411</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:58:11.898945</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74m98dp</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74m98dp</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74m98dp</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74m98dp</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ho, Shu-peng</gco:CharacterString>
+                        <gco:CharacterString>Ho, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nick</gco:CharacterString>
+                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Foelsche, Ulrich</gco:CharacterString>
+                        <gco:CharacterString>Foelsche, U.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Healy, Sean</gco:CharacterString>
+                        <gco:CharacterString>Healy, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullman, Richard</gco:CharacterString>
+                        <gco:CharacterString>Ullman, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Eighth International Radio Occultation Working Group (IROWG) of the Coordination Group for Meteorological Satellites (CGMS) was held on 15&#x2013;20 April 2021. Owing to the COVID-19 pandemic, the workshop was entirely virtual. Four important RO satellite missions have been launched since the seventh meeting of the IROWG in September 2019 (see appendix for list of acronyms). New missions included the Taiwan&#x2013;U.S. FORMOSAT-7/COSMIC-2 and the ESA&#x2013;EUMETSAT&#x2013;U.S. Sentinel-6. The commercial vendors, GeoOptics, Inc. and Spire Global, Inc., also expanded their RO satellite constellation capability to provide more occultation observations. Each of these missions has different spatial and temporal coverage and tracking systems. With six low inclination (24&#xb0;) orbit satellites, the COSMIC-2 constellation provides around 5,500 neutral atmosphere profiles distributed from 45&#xb0;N to 45&#xb0;S with relatively uniform temporal distribution; both GeoOptics and Spire RO missions provide globally distributed data with their fixed local time coverages. Sentinel-6 provides RO data with global coverage every 10 days. COSMIC-2 is equipped with NASA JPL&#x2019;s TGRS receiver systems, tracking RO signals from the GPS and GLONASS global navigation systems (Galileo is planned in the future). COSMIC-2 signals have a higher SNR with a higher antenna gain, allowing lower penetration. GeoOptics and Spire provide around 500 and 20,000 occultation profiles per day, respectively. The workshop focused on the performance of these missions, the quality of the resulting data, and the development of recommendations for science and operational stakeholders&#x2019; use of radio occultation data.</gco:CharacterString>
+            <gco:CharacterString>The Eighth International Radio Occultation Working Group (IROWG) of the Coordination Group for Meteorological Satellites (CGMS) was held on 15&#x2013;20 April 2021. Owing to the COVID-19 pandemic, the workshop was entirely virtual. Four important RO satellite missions have been launched since the seventh meeting of the IROWG in September 2019 (see appendix for list of acronyms). New missions included the Taiwan&#x2013;U.S. FORMOSAT-7/COSMIC-2 and the ESA&#x2013;EUMETSAT&#x2013;U.S. Sentinel-6. The commercial vendors, GeoOptics, Inc. and Spire Global, Inc., also expanded their RO satellite constellation capability to provide more occultation observations. Each of these missions has different spatial and temporal coverage and tracking systems. With six low inclination (24&#xb0;) orbit satellites, the COSMIC-2 constellation provides around 5,500 neutral atmosphere profiles distributed from 45&#xb0;N to 45&#xb0;S with relatively uniform temporal distribution; both GeoOptics and Spire RO missions provide globally distributed data with their fixed local time coverages. Sentinel-6 provides RO data with global coverage every 10 days. COSMIC-2 is equipped with NASA JPL's TGRS receiver systems, tracking RO signals from the GPS and GLONASS global navigation systems (Galileo is planned in the future). COSMIC-2 signals have a higher SNR with a higher antenna gain, allowing lower penetration. GeoOptics and Spire provide around 500 and 20,000 occultation profiles per day, respectively. The workshop focused on the performance of these missions, the quality of the resulting data, and the development of recommendations for science and operational stakeholders' use of radio occultation data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

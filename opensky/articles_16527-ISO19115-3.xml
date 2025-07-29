@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:06:05.185446</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:03:16.322662</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7416z7q</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7416z7q</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7416z7q</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7416z7q</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clark, Martyn</gco:CharacterString>
+                        <gco:CharacterString>Clark, Martyn P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barlage, Michael</gco:CharacterString>
+                        <gco:CharacterString>Barlage, Michael J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rajagopalan, Balaji</gco:CharacterString>
+                        <gco:CharacterString>Rajagopalan, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Samaniego, Luis</gco:CharacterString>
+                        <gco:CharacterString>Samaniego, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Abramowitz, Gab</gco:CharacterString>
+                        <gco:CharacterString>Abramowitz, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gupta, Hoshin</gco:CharacterString>
+                        <gco:CharacterString>Gupta, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this commentary we suggest that hydrologists and land-surface modelers may be unnecessarily constraining the behavioral agility of very complex physics-based models. We argue that the relatively poor performance of such models can occur due to restrictions on their ability to refine their portrayal of physical processes, in part because of strong a priori constraints in: (i) the representation of spatial variability and hydrologic connectivity, (ii) the choice of model parameterizations, and (iii) the choice of model parameter values. We provide a specific example of problems associated with strong a priori constraints on parameters in a land surface model. Moving forward, we assert that improving hydrological models requires integrating the strengths of the &#x201c;physics-based&#x201d; modeling philosophy (which relies on prior knowledge of hydrologic processes) with the strengths of the &#x201c;conceptual&#x201d; modeling philosophy (which relies on data driven inference). Such integration will accelerate progress on methods to define and discriminate among competing modeling options, which should be ideally incorporated in agile modeling frameworks and tested through a diagnostic evaluation approach.</gco:CharacterString>
+            <gco:CharacterString>In this commentary we suggest that hydrologists and land-surface modelers may be unnecessarily constraining the behavioral agility of very complex physics-based models. We argue that the relatively poor performance of such models can occur due to restrictions on their ability to refine their portrayal of physical processes, in part because of strong a priori constraints in: (i) the representation of spatial variability and hydrologic connectivity, (ii) the choice of model parameterizations, and (iii) the choice of model parameter values. We provide a specific example of problems associated with strong a priori constraints on parameters in a land surface model. Moving forward, we assert that improving hydrological models requires integrating the strengths of the "physics-based" modeling philosophy (which relies on prior knowledge of hydrologic processes) with the strengths of the "conceptual" modeling philosophy (which relies on data driven inference). Such integration will accelerate progress on methods to define and discriminate among competing modeling options, which should be ideally incorporated in agile modeling frameworks and tested through a diagnostic evaluation approach.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

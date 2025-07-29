@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:12:21.151189</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:28:33.483287</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7wd422k</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7wd422k</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Signatures of thermospheric&#x2010;exospheric coupling of hydrogen in observed seasonal trends of H &#x3b1; intensity</gco:CharacterString>
+                  <gco:CharacterString>Signatures of thermospheric-exospheric coupling of hydrogen in observed seasonal trends of H &#x3b1; intensity</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7wd422k</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7wd422k</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan G.</gco:CharacterString>
+                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Analysis of an established geocoronal H &#x3b1; data set indicates a seasonal trend in observed dusk&#x2010;to&#x2010;dawn intensity variation, consistent with a diurnal variation in the underlying thermospheric hydrogen density. Observations were obtained at Pine Bluff Observatory, WI, from 2000 to 2001 using a high spectral resolution (R&#x223c;80,000) Fabry&#x2010;Perot annular summing spectrometer. This dusk&#x2010;to&#x2010;dawn asymmetry in intensity is highest in winter months with a difference of &#x223c;2.7 Rayleighs and smallest in summer months with a difference of &#x223c;0.5 Rayleighs; observations near equinox show a dusk&#x2010;to&#x2010;dawn difference in intensity close to &#x223c;1.3 Rayleighs. Comparisons between modeled and observed dusk&#x2010;to&#x2010;dawn intensity variation show good agreement near the equinoxes. The modeled intensity was generated using the lyao_rt radiative transport code of Bishop (1999, https://doi-org.cuucar.idm.oclc.org/10.1016/S0022-4073(98)00031-4), employing NRLMSISE&#x2010;00 thermospheric hydrogen profiles extended into the exosphere via the evaporative case of the Bishop analytic exosphere. Near the equinoxes and summer solstice, the model tends to agree with observations. Near the winter solstice, the model underestimates the dusk&#x2010;to&#x2010;dawn asymmetry by 1.5&#x2013;2 Rayleighs. Overall, modeled H &#x3b1; intensity generated with NRLMSISE&#x2010;00 as the thermospheric input is shown to be consistently lower than observed intensity by a factor of &#x223c;2.</gco:CharacterString>
+            <gco:CharacterString>Analysis of an established geocoronal H &#x3b1; data set indicates a seasonal trend in observed dusk-to-dawn intensity variation, consistent with a diurnal variation in the underlying thermospheric hydrogen density. Observations were obtained at Pine Bluff Observatory, WI, from 2000 to 2001 using a high spectral resolution (R&#x223c;80,000) Fabry-Perot annular summing spectrometer. This dusk-to-dawn asymmetry in intensity is highest in winter months with a difference of &#x223c;2.7 Rayleighs and smallest in summer months with a difference of &#x223c;0.5 Rayleighs; observations near equinox show a dusk-to-dawn difference in intensity close to &#x223c;1.3 Rayleighs. Comparisons between modeled and observed dusk-to-dawn intensity variation show good agreement near the equinoxes. The modeled intensity was generated using the lyao_rt radiative transport code of Bishop (1999, https://doi-org.cuucar.idm.oclc.org/10.1016/S0022-4073(98)00031-4), employing NRLMSISE-00 thermospheric hydrogen profiles extended into the exosphere via the evaporative case of the Bishop analytic exosphere. Near the equinoxes and summer solstice, the model tends to agree with observations. Near the winter solstice, the model underestimates the dusk-to-dawn asymmetry by 1.5&#x2013;2 Rayleighs. Overall, modeled H &#x3b1; intensity generated with NRLMSISE-00 as the thermospheric input is shown to be consistently lower than observed intensity by a factor of &#x223c;2.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

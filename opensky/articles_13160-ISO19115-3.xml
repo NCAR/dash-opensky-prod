@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:12:39.577159</gco:DateTime>
+      <gco:DateTime>2025-07-12T01:13:53.142229</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bp03pb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bp03pb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bp03pb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bp03pb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dawson, Daniel</gco:CharacterString>
+                        <gco:CharacterString>Dawson, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mansell, Edward</gco:CharacterString>
+                        <gco:CharacterString>Mansell, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jung, Youngsun</gco:CharacterString>
+                        <gco:CharacterString>Jung, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wicker, Louis</gco:CharacterString>
+                        <gco:CharacterString>Wicker, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The low levels of supercell forward flanks commonly exhibit distinct differential reflectivity (ZDR) signatures, including the low-ZDR hail signature and the high-ZDR &#x201c;arc.&#x201d; The ZDR arc has been previously associated with size sorting of raindrops in the presence of vertical wind shear; here this model is extended to include size sorting of hail. Idealized simulations of a supercell storm observed by the Norman, Oklahoma (KOUN), polarimetric radar on 1 June 2008 are performed using a multimoment bulk microphysics scheme, in which size sorting is allowed or disallowed for hydrometeor species. Several velocity&#x2013;diameter relationships for the hail fall speed are considered, as well as fixed or variable bulk densities that span the graupel-to-hail spectrum. A T-matrix-based emulator is used to derive polarimetric fields from the hydrometeor state variables. Size sorting of hail is found to have a dominant impact on ZDR and can result in a ZDR arc from melting hail even when size sorting is disallowed in the rain field. The low-ZDR hail core only appears when size sorting is allowed for hail. The mean storm-relative wind in a deep layer is found to align closely with the gradient in mean mass diameter of both rain and hail, with a slight shift toward the storm-relative mean wind below the melting level in the case of rain. The best comparison with the observed 1 June 2008 supercell is obtained when both rain and hail are allowed to sort, and the bulk density and associated fall-speed curve for hail are predicted by the model microphysics.</gco:CharacterString>
+            <gco:CharacterString>The low levels of supercell forward flanks commonly exhibit distinct differential reflectivity (ZDR) signatures, including the low-ZDR hail signature and the high-ZDR "arc." The ZDR arc has been previously associated with size sorting of raindrops in the presence of vertical wind shear; here this model is extended to include size sorting of hail. Idealized simulations of a supercell storm observed by the Norman, Oklahoma (KOUN), polarimetric radar on 1 June 2008 are performed using a multimoment bulk microphysics scheme, in which size sorting is allowed or disallowed for hydrometeor species. Several velocity&#x2013;diameter relationships for the hail fall speed are considered, as well as fixed or variable bulk densities that span the graupel-to-hail spectrum. A T-matrix-based emulator is used to derive polarimetric fields from the hydrometeor state variables. Size sorting of hail is found to have a dominant impact on ZDR and can result in a ZDR arc from melting hail even when size sorting is disallowed in the rain field. The low-ZDR hail core only appears when size sorting is allowed for hail. The mean storm-relative wind in a deep layer is found to align closely with the gradient in mean mass diameter of both rain and hail, with a slight shift toward the storm-relative mean wind below the melting level in the case of rain. The best comparison with the observed 1 June 2008 supercell is obtained when both rain and hail are allowed to sort, and the bulk density and associated fall-speed curve for hail are predicted by the model microphysics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

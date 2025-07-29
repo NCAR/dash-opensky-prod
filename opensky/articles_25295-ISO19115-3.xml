@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:24:59.458094</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:05:04.935847</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d77d2zrn</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d77d2zrn</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>High&#x2010;fidelity analysis of ULF wave mode structure following interplanetary shock compression of the dayside magnetopause using MMS multi&#x2010;point observations</gco:CharacterString>
+                  <gco:CharacterString>High-fidelity analysis of ULF wave mode structure following interplanetary shock compression of the dayside magnetopause using MMS multi-point observations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d77d2zrn</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d77d2zrn</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tu, Weichao</gco:CharacterString>
+                        <gco:CharacterString>Tu, W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sarris, Theodore</gco:CharacterString>
+                        <gco:CharacterString>Sarris, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the 9 March 2018 event with two consecutive interplanetary shocks compressing the dayside magnetosphere, the azimuthal mode structure and frequency spectrum of ultra low frequency magnetic pulsations are resolved using a cross-spectral analysis based on high-fidelity multi-probe Magnetospheric Multiscale Mission (MMS) magnetometer data. The results based on the MMS 4 and MMS 3 pair of measurements show that shock arrival leads to low mode (|m|&lt;= 3 $\vert m\vert \le 3$) magnetic fluctuations in the Pc4-5 regimes, and smaller spatial scale fluctuations implied by the dominant high mode numbers are observed after both shock signatures hit and passed the magnetosphere. Detailed evolution of the mode structure is also shown for the first shock to reveal the development of high mode structure from a bump-on-tail distribution at m approximate to 20 $m\approx 20$ to a dominant peak at m approximate to 50 $m\approx 50$ in about 10 min. In addition, an interesting change of sign in m $m$ from negative to positive is observed as MMS crosses similar to 11 MLT pre-noon, which is consistent with the picture of wave generation by dayside magnetopause compression and then anti-sunward propagation. For both shocks, the contribution of higher frequency waves (Pc-4 range compared with Pc-5) to the total wave power is found to be negligible before and after the shock impact, but it becomes more significant during the shock impact.</gco:CharacterString>
+            <gco:CharacterString>During the 9 March 2018 event with two consecutive interplanetary shocks compressing the dayside magnetosphere, the azimuthal mode structure and frequency spectrum of ultra low frequency magnetic pulsations are resolved using a cross-spectral analysis based on high-fidelity multi-probe Magnetospheric Multiscale Mission (MMS) magnetometer data. The results based on the MMS 4 and MMS 3 pair of measurements show that shock arrival leads to low mode (\m\&lt;= 3 $\vert m\vert \le 3$) magnetic fluctuations in the Pc4-5 regimes, and smaller spatial scale fluctuations implied by the dominant high mode numbers are observed after both shock signatures hit and passed the magnetosphere. Detailed evolution of the mode structure is also shown for the first shock to reveal the development of high mode structure from a bump-on-tail distribution at m approximate to 20 $m\approx 20$ to a dominant peak at m approximate to 50 $m\approx 50$ in about 10 min. In addition, an interesting change of sign in m $m$ from negative to positive is observed as MMS crosses similar to 11 MLT pre-noon, which is consistent with the picture of wave generation by dayside magnetopause compression and then anti-sunward propagation. For both shocks, the contribution of higher frequency waves (Pc-4 range compared with Pc-5) to the total wave power is found to be negligible before and after the shock impact, but it becomes more significant during the shock impact.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

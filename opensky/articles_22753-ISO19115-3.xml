@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:09:29.042954</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:07.774535</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d70v8gfd</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d70v8gfd</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d70v8gfd</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d70v8gfd</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mu&#xf1;oz&#x2010;Esparza, Domingo</gco:CharacterString>
+                        <gco:CharacterString>Mu&#xf1;oz-Esparza, Domingo</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Coupling between mesoscale and large eddy simulation (LES) is critically important for many atmospheric model applications, from predictions of wind energy to fire propagation. The grid&#x2010;nesting technique enables bridging between vastly different scales without incurring prohibitive computational costs. However, the transition from coarser to finer resolutions often requires a large number of grid points from inflow boundaries for the development of fine&#x2010;scale turbulence features in the LES domain. Recently, the cell perturbation method (CPM) was developed to reduce the turbulence development region with high computational efficiency. Herein, we explore a new method based on the CPM that uses force perturbations in both the horizontal and vertical directions (Force Cell Perturbation Method) instead of the potential temperature perturbations in the original CPM, as an attempt to further explore the performance of the random perturbation techniques. This approach is tested for a neutral and a convective atmospheric boundary layer under idealized conditions. Overall, similar performance is found between the optimal configurations of the CPM and the Force Cell Perturbation Method pointing to the robustness of this family of perturbation methods in accelerating turbulence generation in nested domains. Vertical force perturbations performed better than horizontal force perturbations for both atmospheric stability conditions. The CPM performed best under convective stability conditions. The combination of the force and potential temperature perturbations is found to provide no additional performance improvement over the stand&#x2010;alone application of the individual methods.</gco:CharacterString>
+            <gco:CharacterString>Coupling between mesoscale and large eddy simulation (LES) is critically important for many atmospheric model applications, from predictions of wind energy to fire propagation. The grid-nesting technique enables bridging between vastly different scales without incurring prohibitive computational costs. However, the transition from coarser to finer resolutions often requires a large number of grid points from inflow boundaries for the development of fine-scale turbulence features in the LES domain. Recently, the cell perturbation method (CPM) was developed to reduce the turbulence development region with high computational efficiency. Herein, we explore a new method based on the CPM that uses force perturbations in both the horizontal and vertical directions (Force Cell Perturbation Method) instead of the potential temperature perturbations in the original CPM, as an attempt to further explore the performance of the random perturbation techniques. This approach is tested for a neutral and a convective atmospheric boundary layer under idealized conditions. Overall, similar performance is found between the optimal configurations of the CPM and the Force Cell Perturbation Method pointing to the robustness of this family of perturbation methods in accelerating turbulence generation in nested domains. Vertical force perturbations performed better than horizontal force perturbations for both atmospheric stability conditions. The CPM performed best under convective stability conditions. The combination of the force and potential temperature perturbations is found to provide no additional performance improvement over the stand-alone application of the individual methods.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:24:30.479698</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:31:58.177416</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d79g5qvj</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d79g5qvj</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d79g5qvj</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d79g5qvj</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A bulk three&#x2010;moment representation for rain microphysics is developed and implemented in the Predicted Particle Properties (P3) microphysics scheme. In addition, a new parameterization for rain self&#x2010;collection and collisional breakup (RSCB) is presented using a lookup table approach, based on the Spectral&#x2010;Bin Model (SBM). To quantify the impacts of sedimentation, evaporation, and RSCB on drop size distributions (DSDs), a rain shaft model is applied to a wide range of atmospheric scenarios (i.e., initial conditions and regimes) and compared against results from the SBM. DSD shapes are mainly determined by both sedimentation and evaporation, except in heavy rain where the impact of RSCB on DSD shape becomes more important than evaporation. The new parameterization for RSCB has a considerable impact on the mean drop size, improving the agreement between P3 and SBM. Only 4% of the original two&#x2010;moment rainshaft simulations have mean drop sizes and rain rates within &#xb1;20% of the SBM results, but this increases to more than 95% agreement when the three&#x2010;moment rain representation is used together with the new parameterization for RSCB. Generally, the improvement is more significant for heavy rain than for light drizzle. Remaining differences between bin and bulk model are attributable to treatments of evaporation, and the restriction to gamma DSDs in P3.</gco:CharacterString>
+            <gco:CharacterString>A bulk three-moment representation for rain microphysics is developed and implemented in the Predicted Particle Properties (P3) microphysics scheme. In addition, a new parameterization for rain self-collection and collisional breakup (RSCB) is presented using a lookup table approach, based on the Spectral-Bin Model (SBM). To quantify the impacts of sedimentation, evaporation, and RSCB on drop size distributions (DSDs), a rain shaft model is applied to a wide range of atmospheric scenarios (i.e., initial conditions and regimes) and compared against results from the SBM. DSD shapes are mainly determined by both sedimentation and evaporation, except in heavy rain where the impact of RSCB on DSD shape becomes more important than evaporation. The new parameterization for RSCB has a considerable impact on the mean drop size, improving the agreement between P3 and SBM. Only 4% of the original two-moment rainshaft simulations have mean drop sizes and rain rates within &#xb1;20% of the SBM results, but this increases to more than 95% agreement when the three-moment rain representation is used together with the new parameterization for RSCB. Generally, the improvement is more significant for heavy rain than for light drizzle. Remaining differences between bin and bulk model are attributable to treatments of evaporation, and the restriction to gamma DSDs in P3.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

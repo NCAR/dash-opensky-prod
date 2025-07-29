@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:14:17.523477</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:53:36.311664</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7j104zn</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7j104zn</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Parameterizing total storm conduction currents in the Community Earth System			Model</gco:CharacterString>
+                  <gco:CharacterString>Parameterizing total storm conduction currents in the Community Earth System Model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7j104zn</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7j104zn</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deierling, Wiebke</gco:CharacterString>
+                        <gco:CharacterString>Deierling, W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Baumgaertner, Andreas</gco:CharacterString>
+                        <gco:CharacterString>Baumgaertner, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Chuntao</gco:CharacterString>
+                        <gco:CharacterString>Liu, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mach, Douglas</gco:CharacterString>
+                        <gco:CharacterString>Mach, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Electrified clouds are known to play a major role in the Global Electric Circuit. These clouds produce upward currents which maintain the potential difference between Earth's surface and the upper atmosphere. In this study, model output from two simulations of the Community	Earth System Model (CESM) are compared with conduction currents and other data derived from the Tropical Rainfall Measuring Mission (TRMM) satellite, including both the Lightning Imaging Sensor and Precipitation Radar. The intention is to determine CESM's skill at representing these microphysical and dynamical properties of clouds. Then, these cloud properties are used to develop a model parameterization to compute conduction currents from electrified clouds. Specifically, we evaluate the ability of global mean convective mass flux, ice water path, and convective precipitation to represent conduction current sources. Parameterizations using these variables yield derived global mean currents that agree well with the geographical patterns of TRMM currents. In addition, comparing the diurnal variations of modeled global mean current to the observed diurnal variations of electric potential gradient, root-mean-square (RMS) errors range between 6.5% and 8.1%, but the maximum occurs 4 to 6 h early in all three variables. Output currents derived from the model variables generally match well to the currents derived from TRMM, and the total global current estimates agree well with past studies. This suggests that cloud parameters are well suited for representing the global distribution and strength of currents in a global model framework.</gco:CharacterString>
+            <gco:CharacterString>Electrified clouds are known to play a major role in the Global Electric Circuit. These clouds produce upward currents which maintain the potential difference between Earth's surface and the upper atmosphere. In this study, model output from two simulations of the Community Earth System Model (CESM) are compared with conduction currents and other data derived from the Tropical Rainfall Measuring Mission (TRMM) satellite, including both the Lightning Imaging Sensor and Precipitation Radar. The intention is to determine CESM's skill at representing these microphysical and dynamical properties of clouds. Then, these cloud properties are used to develop a model parameterization to compute conduction currents from electrified clouds. Specifically, we evaluate the ability of global mean convective mass flux, ice water path, and convective precipitation to represent conduction current sources. Parameterizations using these variables yield derived global mean currents that agree well with the geographical patterns of TRMM currents. In addition, comparing the diurnal variations of modeled global mean current to the observed diurnal variations of electric potential gradient, root-mean-square (RMS) errors range between 6.5% and 8.1%, but the maximum occurs 4 to 6 h early in all three variables. Output currents derived from the model variables generally match well to the currents derived from TRMM, and the total global current estimates agree well with past studies. This suggests that cloud parameters are well suited for representing the global distribution and strength of currents in a global model framework.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

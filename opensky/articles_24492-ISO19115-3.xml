@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:14:40.924532</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:14:09.647224</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,128 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d73t9mnq</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d73t9mnq</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.3334/ORNLDAAC/199</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Global River Discharge, 1807-1991, V[ersion]. 1.1 (RivDIS)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4386712</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>uturuncoglu/RegESM: Customized version of 1.2 for ENEA</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4390527</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>uturuncoglu/HD: New version of coupling capable HD model</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4392230</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #3</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>uturuncoglu/WRF: RegESM compatible version of WRF</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4392260</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #4</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>uturuncoglu/MITgcm: RegESM modeling system compatible MITgcm model</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4603556</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #5</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>ictp-esp/RegCM: Paper Release</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +223,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d73t9mnq</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d73t9mnq</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anav, Alessandro</gco:CharacterString>
+                        <gco:CharacterString>Anav, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Carillo, Adriana</gco:CharacterString>
+                        <gco:CharacterString>Carillo, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Palma, Massimiliano</gco:CharacterString>
+                        <gco:CharacterString>Palma, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +267,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Struglia, Maria Vittoria</gco:CharacterString>
+                        <gco:CharacterString>Struglia, M. V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +287,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sannino, Gianmaria</gco:CharacterString>
+                        <gco:CharacterString>Sannino, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +307,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study, a new regional Earth system model is developed and applied to the Med-CORDEX (Coordinated Regional Climate Downscaling Experiment) region. The ENEA-REG system is made up of two interchangeable regional climate models as atmospheric components (RegCM, REGional Climate Model, and WRF, Weather Research and Forecasting), a river model (Hydrological Discharge, HD), and an ocean model (Massachusetts Institute of Technology General Circulation Model, MITgcm); processes taking place at the land surface are represented within the atmospheric models with the possibility to use several land surface schemes of different complexity. The coupling between these components is performed through the RegESM driver. Here, we present and describe our regional Earth system model and evaluate its components using a multidecadal hindcast simulation over the period 1980&#xe2;&#x20ac;&#x201c;2013 driven by ERA-Interim reanalysis. We show that the atmospheric components correctly reproduce both large-scale and local features of the Euro-Mediterranean climate, although we found some remarkable biases: in particular, WRF has a significant cold bias during winter over the northeastern bound of the domain and a warm bias in the whole continental Europe during summer, while RegCM overestimates the wind speed over the Mediterranean Sea. Similarly, the ocean component correctly reproduces the analyzed ocean properties with performances comparable to the state-of-art coupled regional models contributing to the Med-CORDEX initiative. Our regional Earth system model allows studying the Euro-Mediterranean climate system and can be applied to both hindcast and scenario simulations.</gco:CharacterString>
+            <gco:CharacterString>In this study, a new regional Earth system model is developed and applied to the Med-CORDEX (Coordinated Regional Climate Downscaling Experiment) region. The ENEA-REG system is made up of two interchangeable regional climate models as atmospheric components (RegCM, REGional Climate Model, and WRF, Weather Research and Forecasting), a river model (Hydrological Discharge, HD), and an ocean model (Massachusetts Institute of Technology General Circulation Model, MITgcm); processes taking place at the land surface are represented within the atmospheric models with the possibility to use several land surface schemes of different complexity. The coupling between these components is performed through the RegESM driver. Here, we present and describe our regional Earth system model and evaluate its components using a multidecadal hindcast simulation over the period 1980&#x2013;2013 driven by ERA-Interim reanalysis. We show that the atmospheric components correctly reproduce both large-scale and local features of the Euro-Mediterranean climate, although we found some remarkable biases: in particular, WRF has a significant cold bias during winter over the northeastern bound of the domain and a warm bias in the whole continental Europe during summer, while RegCM overestimates the wind speed over the Mediterranean Sea. Similarly, the ocean component correctly reproduces the analyzed ocean properties with performances comparable to the state-of-art coupled regional models contributing to the Med-CORDEX initiative. Our regional Earth system model allows studying the Euro-Mediterranean climate system and can be applied to both hindcast and scenario simulations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

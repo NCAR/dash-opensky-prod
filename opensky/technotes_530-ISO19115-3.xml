@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:49.773181</gco:DateTime>
+      <gco:DateTime>2025-07-11T20:55:24.623838</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7668cn5</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7668cn5</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7668cn5</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7668cn5</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ramakrishnaiah, Vinay</gco:CharacterString>
+                        <gco:CharacterString>Ramakrishnaiah, V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kumar, Raghu</gco:CharacterString>
+                        <gco:CharacterString>Prasanna Kumar, Raghu Raj</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Paige, John</gco:CharacterString>
+                        <gco:CharacterString>Paige, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Geophysical Statistics project group within the Institute for Mathematics Applied to Geosciences (IMAGe) has been making use of Matrix Algebra on GPU and Multicore Architectures (MAGMA) to accelerate the Cholesky decomposition. The acceleration is motivated by a) Its frequent use in key computations in the spatial statistics R &#x2018;fields&#x2019; package, b) Major bottleneck in &#x2018;fields&#x2019; package execution and c) Operations involving big matrices make it suitable for parallelization. The Cholesky Decomposition was accelerated last summer using the MAGMA library. However, the performance of the accelerated version on multiple GPUs was observed to be unconventional - a) Execution time on multiple GPUs was higher in comparison to single GPU execution and b) Deep copy and in-place algorithms had opposite impacts on performance when executed on one and multiple GPUs. Our CPU and GPU profiling, conducted this summer, explains the unconventional behavior observed in the multi-GPU executions. The profiling provided insight to further accelerate the Cholesky Decomposition hierarchically&#x2013; a) accelerating the underlying C function, b) reducing the function call overhead in R and c) optimizing the R environment. We were able to optimize the code and the environment to get a speedup greater than 75x (single precision) and 65x (double precision) for large matrices. We also found a potential way to improve the MAGMA functions by replacing the communications with direct device-to-device calls.</gco:CharacterString>
+            <gco:CharacterString>The Geophysical Statistics project group within the Institute for Mathematics Applied to Geosciences (IMAGe) has been making use of Matrix Algebra on GPU and Multicore Architectures (MAGMA) to accelerate the Cholesky decomposition. The acceleration is motivated by a) Its frequent use in key computations in the spatial statistics R 'fields' package, b) Major bottleneck in 'fields' package execution and c) Operations involving big matrices make it suitable for parallelization. The Cholesky Decomposition was accelerated last summer using the MAGMA library. However, the performance of the accelerated version on multiple GPUs was observed to be unconventional - a) Execution time on multiple GPUs was higher in comparison to single GPU execution and b) Deep copy and in-place algorithms had opposite impacts on performance when executed on one and multiple GPUs. Our CPU and GPU profiling, conducted this summer, explains the unconventional behavior observed in the multi-GPU executions. The profiling provided insight to further accelerate the Cholesky Decomposition hierarchically&#x2013; a) accelerating the underlying C function, b) reducing the function call overhead in R and c) optimizing the R environment. We were able to optimize the code and the environment to get a speedup greater than 75x (single precision) and 65x (double precision) for large matrices. We also found a potential way to improve the MAGMA functions by replacing the communications with direct device-to-device calls.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -253,7 +253,7 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; STATISTICAL APPLICATIONS</gco:CharacterString>
+                  <gco:CharacterString>Statistical applications</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

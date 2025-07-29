@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:48:55.565447</gco:DateTime>
+      <gco:DateTime>2025-07-15T21:32:24.736979</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7df6s04</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7df6s04</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7df6s04</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7df6s04</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hsiao, Ling-Feng</gco:CharacterString>
+                        <gco:CharacterString>Hsiao, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Der-Song</gco:CharacterString>
+                        <gco:CharacterString>Chen, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kuo, Ying</gco:CharacterString>
+                        <gco:CharacterString>Kuo, Ying-Hwa</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guo, Yong-run</gco:CharacterString>
+                        <gco:CharacterString>Guo, Yong-Run</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yeh, Tien-Chiang</gco:CharacterString>
+                        <gco:CharacterString>Yeh, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hong, Jing-Shan</gco:CharacterString>
+                        <gco:CharacterString>Hong, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fong, Chin-Tzu</gco:CharacterString>
+                        <gco:CharacterString>Fong, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee, Cheng-Shang</gco:CharacterString>
+                        <gco:CharacterString>Lee, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this paper, the impact of outer loop and partial cycling with the Weather Research and Forecasting Model&#x2019;s (WRF) three-dimensional variational data assimilation system (3DVAR) is evaluated by analyzing 78 forecasts for three typhoons during 2008 for which Taiwan&#x2019;s Central Weather Bureau (CWB) issued typhoon warnings, including Sinlaku, Hagupit, and Jangmi. The use of both the outer loop and the partial cycling approaches in WRF 3DVAR are found to reduce typhoon track forecast errors by more than 30%, averaged over a 72-h period. The improvement due to the outer loop approach, which can be more than 42%, was particularly significant in the early phase of the forecast. The use of the outer loop allows more observations to be assimilated and produces more accurate analyses. The assimilation of additional nonlinear GPS radio occultation (RO) observations over the western North Pacific Ocean, where traditional observational data are lacking, is particularly useful. With the lack of observations over the tropical and subtropical oceans, the error in the first-guess field (which is based on a 6-h forecast of the previous cycle) will continue to grow in a full-cycling limited-area data assimilation system. Even though the use of partial cycling only shows a slight improvement in typhoon track forecast after 12 h, it has the benefit of suppressing the growth of the systematic model error. A typhoon prediction model using the Advanced Research core of the WRF (WRF-ARW) and the WRF 3DVAR system with outer loop and partial cycling substantially improves the typhoon track forecast. This system, known as Typhoon WRF (TWRF), has been in use by CWB since 2010 for operational typhoon predictions.</gco:CharacterString>
+            <gco:CharacterString>In this paper, the impact of outer loop and partial cycling with the Weather Research and Forecasting Model's (WRF) three-dimensional variational data assimilation system (3DVAR) is evaluated by analyzing 78 forecasts for three typhoons during 2008 for which Taiwan's Central Weather Bureau (CWB) issued typhoon warnings, including Sinlaku, Hagupit, and Jangmi. The use of both the outer loop and the partial cycling approaches in WRF 3DVAR are found to reduce typhoon track forecast errors by more than 30%, averaged over a 72-h period. The improvement due to the outer loop approach, which can be more than 42%, was particularly significant in the early phase of the forecast. The use of the outer loop allows more observations to be assimilated and produces more accurate analyses. The assimilation of additional nonlinear GPS radio occultation (RO) observations over the western North Pacific Ocean, where traditional observational data are lacking, is particularly useful. With the lack of observations over the tropical and subtropical oceans, the error in the first-guess field (which is based on a 6-h forecast of the previous cycle) will continue to grow in a full-cycling limited-area data assimilation system. Even though the use of partial cycling only shows a slight improvement in typhoon track forecast after 12 h, it has the benefit of suppressing the growth of the systematic model error. A typhoon prediction model using the Advanced Research core of the WRF (WRF-ARW) and the WRF 3DVAR system with outer loop and partial cycling substantially improves the typhoon track forecast. This system, known as Typhoon WRF (TWRF), has been in use by CWB since 2010 for operational typhoon predictions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:49.023676</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:26:35.005367</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7h996s3</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7h996s3</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7h996s3</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7h996s3</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Walker, Curtis L.</gco:CharacterString>
+                        <gco:CharacterString>Walker, Curtis</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Steinkruger, Dylan</gco:CharacterString>
+                        <gco:CharacterString>Steinkruger, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gholizadeh, Pouya</gco:CharacterString>
+                        <gco:CharacterString>Gholizadeh, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hasanzedah, Sogand</gco:CharacterString>
+                        <gco:CharacterString>Hasanzedah, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Mark R.</gco:CharacterString>
+                        <gco:CharacterString>Anderson, M. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Esmaeili, Behzad</gco:CharacterString>
+                        <gco:CharacterString>Esmaeili, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Adverse weather conditions are responsible for millions of vehicular crashes, thousands of deaths, and billions of dollars per year in economic and congestion costs. Many transportation agencies utilize a performance or mobility metric to assess how well they maintain road access; however, there is only limited consideration of meteorological impacts to the success of their operations. This research develops the Nebraska winter severity index (NEWINS), which is a daily event-driven index derived for the Nebraska Department of Transportation (NDOT). The NEWINS includes a categorical storm classification framework to capture atmospheric conditions and possible road impacts across diverse spatial regions of Nebraska. A 10-yr (2006&#x2013;16) winter season database of meteorological variables for Nebraska was obtained from the National Centers for Environmental Information. The NEWINS is based on a weighted linear combination applied to the collected storm classification database to measure severity. The NEWINS results were compared to other meteorological variables, many used in other agencies&#x2019; winter severity indices. This comparison verified the NEWINS robustness for the observed events for the 10-yr period. An assessment of the difference between days with observed snow versus days with accumulated snow revealed 39% fewer snow-accumulated days than snow-observed days. Furthermore, the NEWINS results highlighted the greater number of events during the 2009/10 winter season and the lack of events during the 2011/12 winter season. It is expected that the NEWINS could help transportation personnel allocate efficiently resources during adverse weather events. Moreover, the NEWINS framework can be used by other agencies to assess their weather sensitivity.</gco:CharacterString>
+            <gco:CharacterString>Adverse weather conditions are responsible for millions of vehicular crashes, thousands of deaths, and billions of dollars per year in economic and congestion costs. Many transportation agencies utilize a performance or mobility metric to assess how well they maintain road access; however, there is only limited consideration of meteorological impacts to the success of their operations. This research develops the Nebraska winter severity index (NEWINS), which is a daily event-driven index derived for the Nebraska Department of Transportation (NDOT). The NEWINS includes a categorical storm classification framework to capture atmospheric conditions and possible road impacts across diverse spatial regions of Nebraska. A 10-yr (2006&#x2013;16) winter season database of meteorological variables for Nebraska was obtained from the National Centers for Environmental Information. The NEWINS is based on a weighted linear combination applied to the collected storm classification database to measure severity. The NEWINS results were compared to other meteorological variables, many used in other agencies' winter severity indices. This comparison verified the NEWINS robustness for the observed events for the 10-yr period. An assessment of the difference between days with observed snow versus days with accumulated snow revealed 39% fewer snow-accumulated days than snow-observed days. Furthermore, the NEWINS results highlighted the greater number of events during the 2009/10 winter season and the lack of events during the 2011/12 winter season. It is expected that the NEWINS could help transportation personnel allocate efficiently resources during adverse weather events. Moreover, the NEWINS framework can be used by other agencies to assess their weather sensitivity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

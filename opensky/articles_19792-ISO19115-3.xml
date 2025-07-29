@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:13:59.384295</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:48:50.929163</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74b337b</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74b337b</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5063/F19021QT</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5063/F19021QT</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Temperature and rainfall interact to control carbon cycling in tropical            forests</gco:CharacterString>
+                  <gco:CharacterString>Temperature and rainfall interact to control carbon cycling in tropical forests</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74b337b</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74b337b</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Taylor, Philip G.</gco:CharacterString>
+                        <gco:CharacterString>Taylor, P. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cleveland, Cory C.</gco:CharacterString>
+                        <gco:CharacterString>Cleveland, C. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wieder, William R.</gco:CharacterString>
+                        <gco:CharacterString>Wieder, William</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sullivan, Benjamin W.</gco:CharacterString>
+                        <gco:CharacterString>Sullivan, B. W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Doughty, Christopher E.</gco:CharacterString>
+                        <gco:CharacterString>Doughty, C. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dobrowski, Solomon Z.</gco:CharacterString>
+                        <gco:CharacterString>Dobrowski, S. Z.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Townsend, Alan R.</gco:CharacterString>
+                        <gco:CharacterString>Townsend, A. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,22 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Tropical forests dominate global terrestrial carbon (C) exchange, and recent droughts&#xD;
-        in the Amazon Basin have contributed to short-term declines in terrestrial carbon dioxide&#xD;
-        uptake and storage. However, the effects of longer-term climate variability on tropical&#xD;
-        forest carbon dynamics are still not well understood. We synthesised field data from more&#xD;
-        than 150 tropical forest sites to explore how climate regulates tropical forest aboveground&#xD;
-        net primary productivity (ANPP) and organic matter decomposition, and combined those data&#xD;
-        with two existing databases to explore climate - C relationships globally. While previous&#xD;
-        analyses have focused on the effects of either temperature or rainfall on ANPP, our results&#xD;
-        highlight the importance of interactions between temperature and rainfall on the C cycle. In&#xD;
-        cool forests (&lt;20 degrees C), high rainfall slowed rates of C cycling, but in warm&#xD;
-        tropical forests (&gt;20 degrees C) it consistently enhanced both ANPP and decomposition. At&#xD;
-        the global scale, our analysis showed an increase in ANPP with rainfall in relatively warm&#xD;
-        sites, inconsistent with declines in ANPP with rainfall reported previously. Overall, our&#xD;
-        results alter our understanding of climate - C cycle relationships, with high precipitation&#xD;
-        accelerating rates of C exchange with the atmosphere in the most productive biome on&#xD;
-        earth.</gco:CharacterString>
+            <gco:CharacterString>Tropical forests dominate global terrestrial carbon (C) exchange, and recent droughts in the Amazon Basin have contributed to short-term declines in terrestrial carbon dioxide uptake and storage. However, the effects of longer-term climate variability on tropical forest carbon dynamics are still not well understood. We synthesised field data from more than 150 tropical forest sites to explore how climate regulates tropical forest aboveground net primary productivity (ANPP) and organic matter decomposition, and combined those data with two existing databases to explore climate - C relationships globally. While previous analyses have focused on the effects of either temperature or rainfall on ANPP, our results highlight the importance of interactions between temperature and rainfall on the C cycle. In cool forests (&lt;20 degrees C), high rainfall slowed rates of C cycling, but in warm tropical forests (&gt;20 degrees C) it consistently enhanced both ANPP and decomposition. At the global scale, our analysis showed an increase in ANPP with rainfall in relatively warm sites, inconsistent with declines in ANPP with rainfall reported previously. Overall, our results alter our understanding of climate - C cycle relationships, with high precipitation accelerating rates of C exchange with the atmosphere in the most productive biome on earth.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

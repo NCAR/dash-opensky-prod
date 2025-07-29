@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:31:31.191641</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:13:58.936567</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d779481p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d779481p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d779481p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d779481p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper is the sequel to a companion paper on bootstrap resampling that reviews bootstrap methodology for making statistical inferences for atmospheric science applications where the necessary assumptions are often not met for the most commonly used resampling procedures. In particular, this sequel addresses extreme-value analysis applications with discussion on the challenges for finding accurate bootstrap methods in this context. New bootstrap code from the R packages &#x201c;distillery&#x201d; and &#x201c;extRemes&#x201d; is introduced. It is further found that one approach for accurate confidence intervals in this setting is not well suited to the case when the random sample&#x2019;s distribution is not stationary.</gco:CharacterString>
+            <gco:CharacterString>This paper is the sequel to a companion paper on bootstrap resampling that reviews bootstrap methodology for making statistical inferences for atmospheric science applications where the necessary assumptions are often not met for the most commonly used resampling procedures. In particular, this sequel addresses extreme-value analysis applications with discussion on the challenges for finding accurate bootstrap methods in this context. New bootstrap code from the R packages "distillery" and "extRemes" is introduced. It is further found that one approach for accurate confidence intervals in this setting is not well suited to the case when the random sample's distribution is not stationary.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

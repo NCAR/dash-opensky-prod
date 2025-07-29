@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:26:49.160440</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:38.913880</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7zk5kq1</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7zk5kq1</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5067/AMSR-E/AE_OCEAN.002</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5067/AMSR-E/AE_OCEAN.002</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7zk5kq1</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7zk5kq1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gryspeerdt, Edward</gco:CharacterString>
+                        <gco:CharacterString>Gryspeerdt, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Goren, Tom</gco:CharacterString>
+                        <gco:CharacterString>Goren, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sourdeval, Odran</gco:CharacterString>
+                        <gco:CharacterString>Sourdeval, O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Quaas, Johannes</gco:CharacterString>
+                        <gco:CharacterString>Quaas, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xfc;lmenst&#xe4;dt, Johannes</gco:CharacterString>
+                        <gco:CharacterString>M&#xfc;lmenst&#xe4;dt, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dipu, Sudhakar</gco:CharacterString>
+                        <gco:CharacterString>Dipu, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Unglaub, Claudia</gco:CharacterString>
+                        <gco:CharacterString>Unglaub, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Christensen, Matthew</gco:CharacterString>
+                        <gco:CharacterString>Christensen, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,9 +237,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of aerosols on cloud properties is one of the largest uncertainties in the anthropogenic radiative forcing of the climate. Significant progress has been made in constraining this forcing using observations, but uncertainty remains, particularly in the magnitude of cloud rapid adjustments to aerosol perturbations. Cloud liquid water path (LWP) is the leading control on liquid-cloud albedo, making it important to observationally constrain the aerosol impact on LWP.&#xD;
-Previous modelling and observational studies have shown that multiple processes play a role in determining the LWP response to aerosol perturbations, but that the aerosol effect can be difficult to isolate. Following previous studies using mediating variables, this work investigates use of the relationship between cloud droplet number concentration (Nd) and LWP for constraining the role of aerosols. Using joint-probability histograms to account for the non-linear relationship, this work finds a relationship that is broadly consistent with previous studies. There is significant geographical variation in the relationship, partly due to role of meteorological factors (particularly relative humidity). The Nd&#x2013;LWP relationship is negative in the majority of regions, suggesting that aerosol-induced LWP reductions could offset a significant fraction of the instantaneous radiative forcing from aerosol&#x2013;cloud interactions (RFaci).&#xD;
-However, variations in the Nd&#x2013;LWP relationship in response to volcanic and shipping aerosol perturbations indicate that the Nd&#x2013;LWP relationship overestimates the causal Nd impact on LWP due to the role of confounding factors. The weaker LWP reduction implied by these &#x201c;natural experiments&#x201d; means that this work provides an upper bound to the radiative forcing from aerosol-induced changes in the LWP.</gco:CharacterString>
+            <gco:CharacterString>The impact of aerosols on cloud properties is one of the largest uncertainties in the anthropogenic radiative forcing of the climate. Significant progress has been made in constraining this forcing using observations, but uncertainty remains, particularly in the magnitude of cloud rapid adjustments to aerosol perturbations. Cloud liquid water path (LWP) is the leading control on liquid-cloud albedo, making it important to observationally constrain the aerosol impact on LWP. Previous modelling and observational studies have shown that multiple processes play a role in determining the LWP response to aerosol perturbations, but that the aerosol effect can be difficult to isolate. Following previous studies using mediating variables, this work investigates use of the relationship between cloud droplet number concentration (Nd) and LWP for constraining the role of aerosols. Using joint-probability histograms to account for the non-linear relationship, this work finds a relationship that is broadly consistent with previous studies. There is significant geographical variation in the relationship, partly due to role of meteorological factors (particularly relative humidity). The Nd&#x2013;LWP relationship is negative in the majority of regions, suggesting that aerosol-induced LWP reductions could offset a significant fraction of the instantaneous radiative forcing from aerosol&#x2013;cloud interactions (RFaci). However, variations in the Nd&#x2013;LWP relationship in response to volcanic and shipping aerosol perturbations indicate that the Nd&#x2013;LWP relationship overestimates the causal Nd impact on LWP due to the role of confounding factors. The weaker LWP reduction implied by these "natural experiments" means that this work provides an upper bound to the radiative forcing from aerosol-induced changes in the LWP.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

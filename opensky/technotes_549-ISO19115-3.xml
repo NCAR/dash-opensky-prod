@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:48.405376</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:48:10.275320</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7z89fpb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7z89fpb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7z89fpb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7z89fpb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this Technical Note we examine eight schemes for parallelizing Extreme Value Analysis (EVA) on Coupled Model Intercomparison Project data via R foreach, doParallel, and doMPI packages. We perform strong scaling studies to delineate the performance impacts of factors such as R cluster type (TCP/IP sockets and MPI), communication protocol (Ethernet, IP over InfiniBand, and MPI), loop parallelization (outer or inner loop), and approaches to reading data from the NCAR GLADE parallel filesystem. We elucidate  peculiarities of R memory management and overhead associated with interprocess communication and discuss broadcast limitations of Rmpi. The best performing scheme parallelizes the outer EVA loop across latitude and reads only the subset of the data operated on in the inner loop over longitude; the different cluster types and communication protocols all perform about equally for this  scheme. This configuration represents a parallel speedup of 50 with 96 R workers, and is scalable for EVA on larger problem sizes than those presented here.</gco:CharacterString>
+            <gco:CharacterString>In this Technical Note we examine eight schemes for parallelizing Extreme Value Analysis (EVA) on Coupled Model Intercomparison Project data via R foreach, doParallel, and doMPI packages. We perform strong scaling studies to delineate the performance impacts of factors such as R cluster type (TCP/IP sockets and MPI), communication protocol (Ethernet, IP over InfiniBand, and MPI), loop parallelization (outer or inner loop), and approaches to reading data from the NCAR GLADE parallel filesystem. We elucidate peculiarities of R memory management and overhead associated with interprocess communication and discuss broadcast limitations of Rmpi. The best performing scheme parallelizes the outer EVA loop across latitude and reads only the subset of the data operated on in the inner loop over longitude; the different cluster types and communication protocols all perform about equally for this scheme. This configuration represents a parallel speedup of 50 with 96 R workers, and is scalable for EVA on larger problem sizes than those presented here.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -253,10 +253,10 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; STATISTICAL APPLICATIONS</gco:CharacterString>
+                  <gco:CharacterString>Coupled climate models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; COUPLED CLIMATE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Statistical applications</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

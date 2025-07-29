@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:13:27.745904</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:17:00.754991</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,48 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bc42xg</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bc42xg</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5067/MODIS/MYD04_L2.061</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>MYD04_L2 MODIS/Aqua Aerosol 5-Min L2 Swath 10km</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5067/MODIS/MYD06_L2.061</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>MYD06_L2 MYD06_L2 MODIS/Aqua Clouds 5-Min L2 Swath 1km and 5km</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bc42xg</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bc42xg</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Ying-Chieh</gco:CharacterString>
+                        <gco:CharacterString>Chen, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Sheng-Hsiang</gco:CharacterString>
+                        <gco:CharacterString>Wang, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Min, Qilong</gco:CharacterString>
+                        <gco:CharacterString>Min, Q.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lu, Sarah</gco:CharacterString>
+                        <gco:CharacterString>Lu, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lin, Pay-Liam</gco:CharacterString>
+                        <gco:CharacterString>Lin, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lin, Neng-Huei</gco:CharacterString>
+                        <gco:CharacterString>Lin, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chung, Kao-Shan</gco:CharacterString>
+                        <gco:CharacterString>Chung, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +247,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate is critically affected by aerosols, which alter cloud lifecycles and precipitation distribution through radiative and microphysical effects. In this study, aerosol and cloud property datasets from MODIS (Moderate Resolution Imaging Spectroradiometer), onboard the Aqua satellite, and surface observations, including aerosol concentrations, raindrop size distribution, and meteorological parameters, were used to statistically quantify the effects of aerosols on low-level warm-cloud microphysics and drizzle over northern Taiwan during multiple fall seasons (from 15 October to 30 November of 2005-2017). Our results indicated that northwestern Taiwan, which has several densely populated cities, is dominated by low-level clouds (e.g., warm, thin, and broken clouds) during the fall season. The observed effects of aerosols on warm clouds indicated aerosol indirect effects (i.e., increased aerosol loading caused a decrease in cloud effective radius (CER)), an increase in cloud optical thickness, an increase in cloud fraction, and a decrease in cloud-top temperature under a fixed cloud water path. Quantitatively, aerosol-cloud interactions (ACI = partial derivative lnCER/partial derivative ln alpha |(CWP), changes in CER relative to changes in aerosol amounts) were 0.07 for our research domain and varied between 0.09 and 0.06 in the surrounding remote (i.e., ocean) and polluted (i.e., land) areas, respectively, indicating aerosol indirect effects were stronger in the remote area. From the raindrop size distribution analysis, high aerosol loading resulted in a decreased frequency of drizzle events, redistribution of cloud water to more numerous and smaller droplets, and reduced collision-coalescence rates. However, during light rain (&lt;= 1 mm h(-1)), high aerosol concentrations drove raindrops towards smaller droplet sizes and increased the appearance of drizzle drops. This study used long-term surface and satellite data to determine aerosol variations in northern Taiwan, effects on clouds and precipitation, and observational strategies for future research on aerosol-cloud-precipitation interactions.</gco:CharacterString>
+            <gco:CharacterString>Climate is critically affected by aerosols, which alter cloud lifecycles and precipitation distribution through radiative and microphysical effects. In this study, aerosol and cloud property datasets from MODIS (Moderate Resolution Imaging Spectroradiometer), onboard the Aqua satellite, and surface observations, including aerosol concentrations, raindrop size distribution, and meteorological parameters, were used to statistically quantify the effects of aerosols on low-level warm-cloud microphysics and drizzle over northern Taiwan during multiple fall seasons (from 15 October to 30 November of 2005-2017). Our results indicated that northwestern Taiwan, which has several densely populated cities, is dominated by low-level clouds (e.g., warm, thin, and broken clouds) during the fall season. The observed effects of aerosols on warm clouds indicated aerosol indirect effects (i.e., increased aerosol loading caused a decrease in cloud effective radius (CER)), an increase in cloud optical thickness, an increase in cloud fraction, and a decrease in cloud-top temperature under a fixed cloud water path. Quantitatively, aerosol-cloud interactions (ACI = partial derivative lnCER/partial derivative ln alpha \(CWP), changes in CER relative to changes in aerosol amounts) were 0.07 for our research domain and varied between 0.09 and 0.06 in the surrounding remote (i.e., ocean) and polluted (i.e., land) areas, respectively, indicating aerosol indirect effects were stronger in the remote area. From the raindrop size distribution analysis, high aerosol loading resulted in a decreased frequency of drizzle events, redistribution of cloud water to more numerous and smaller droplets, and reduced collision-coalescence rates. However, during light rain (&lt;= 1 mm h(-1)), high aerosol concentrations drove raindrops towards smaller droplet sizes and increased the appearance of drizzle drops. This study used long-term surface and satellite data to determine aerosol variations in northern Taiwan, effects on clouds and precipitation, and observational strategies for future research on aerosol-cloud-precipitation interactions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

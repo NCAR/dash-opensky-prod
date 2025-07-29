@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:33.976408</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:10:54.243701</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7m3304p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7m3304p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7m3304p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7m3304p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stevenson, Samantha</gco:CharacterString>
+                        <gco:CharacterString>Stevenson, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wittenberg, Andrew T.</gco:CharacterString>
+                        <gco:CharacterString>Wittenberg, A. T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John</gco:CharacterString>
+                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Coats, Sloan</gco:CharacterString>
+                        <gco:CharacterString>Coats, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The majority of future projections in the Coupled Model Intercomparison Project (CMIP5) show more frequent exceedances of the 5 mm day&#x2212;1 rainfall threshold in the eastern equatorial Pacific rainfall during El Ni&#xf1;o, previously described in the literature as an increase in &#x201c;extreme El Ni&#xf1;o events&#x201d;; however, these exceedance frequencies vary widely across models, and in some projections actually decrease. Here we combine single-model large ensemble simulations with phase 5 of the Coupled Model Intercomparison Project (CMIP5) to diagnose the mechanisms for these differences. The sensitivity of precipitation to local SST anomalies increases consistently across CMIP-class models, tending to amplify extreme El Ni&#xf1;o occurrence; however, changes to the magnitude of ENSO-related SST variability can drastically influence the results, indicating that understanding changes to SST variability remains imperative. Future El Ni&#xf1;o rainfall intensifies most in models with 1) larger historical cold SST biases in the central equatorial Pacific, which inhibit future increases in local convective cloud shading, enabling more local warming; and 2) smaller historical warm SST biases in the far eastern equatorial Pacific, which enhance future reductions in stratus cloud, enabling more local warming. These competing mechanisms complicate efforts to determine whether CMIP5 models under- or overestimate the future impacts of climate change on El Ni&#xf1;o rainfall and its global impacts. However, the relation between future projections and historical biases suggests the possibility of using observable metrics as &#x201c;emergent constraints&#x201d; on future extreme El Ni&#xf1;o, and a proof of concept using SSTA variance, precipitation sensitivity to SST, and regional SST trends is presented.</gco:CharacterString>
+            <gco:CharacterString>The majority of future projections in the Coupled Model Intercomparison Project (CMIP5) show more frequent exceedances of the 5 mm day&#x2212;1 rainfall threshold in the eastern equatorial Pacific rainfall during El Ni&#xf1;o, previously described in the literature as an increase in "extreme El Ni&#xf1;o events"; however, these exceedance frequencies vary widely across models, and in some projections actually decrease. Here we combine single-model large ensemble simulations with phase 5 of the Coupled Model Intercomparison Project (CMIP5) to diagnose the mechanisms for these differences. The sensitivity of precipitation to local SST anomalies increases consistently across CMIP-class models, tending to amplify extreme El Ni&#xf1;o occurrence; however, changes to the magnitude of ENSO-related SST variability can drastically influence the results, indicating that understanding changes to SST variability remains imperative. Future El Ni&#xf1;o rainfall intensifies most in models with 1) larger historical cold SST biases in the central equatorial Pacific, which inhibit future increases in local convective cloud shading, enabling more local warming; and 2) smaller historical warm SST biases in the far eastern equatorial Pacific, which enhance future reductions in stratus cloud, enabling more local warming. These competing mechanisms complicate efforts to determine whether CMIP5 models under- or overestimate the future impacts of climate change on El Ni&#xf1;o rainfall and its global impacts. However, the relation between future projections and historical biases suggests the possibility of using observable metrics as "emergent constraints" on future extreme El Ni&#xf1;o, and a proof of concept using SSTA variance, precipitation sensitivity to SST, and regional SST trends is presented.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

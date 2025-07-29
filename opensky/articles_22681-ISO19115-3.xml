@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:39.840195</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:05.008282</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7w098m0</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7w098m0</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6ZS2TR3</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6ZS2TR3</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.7289/V5QJ7F8R</gmd:URL>
+                  <gmd:URL>https://doi.org/10.7289/V5QJ7F8R</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -143,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7w098m0</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7w098m0</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Freeman, Eric</gco:CharacterString>
+                        <gco:CharacterString>Freeman, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kent, Elizabeth C.</gco:CharacterString>
+                        <gco:CharacterString>Kent, E. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brohan, Philip</gco:CharacterString>
+                        <gco:CharacterString>Brohan, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cram, Thomas</gco:CharacterString>
+                        <gco:CharacterString>Cram, Thomas A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gates, Lydia</gco:CharacterString>
+                        <gco:CharacterString>Gates, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Huang, Boyin</gco:CharacterString>
+                        <gco:CharacterString>Huang, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Chunying</gco:CharacterString>
+                        <gco:CharacterString>Liu, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Shawn R.</gco:CharacterString>
+                        <gco:CharacterString>Smith, S. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Huai-Min</gco:CharacterString>
+                        <gco:CharacterString>Zhang, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +267,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) is a collection and archive of in situ marine observations, which has been developed over several decades as an international project and recently guided by formal international partnerships and the ICOADS Steering Committee. ICOADS contains observations from many different observing systems encompassing the evolution of measurement technology since the 18th century. ICOADS provides an integrated source of observations for a range of applications including research and climate monitoring, and forms the main marine in situ surface data source, e.g., near-surface ocean observations and lower atmospheric marine-meteorological observations from buoys, ships, coastal stations, and oceanographic sensors, for oceanic and atmospheric research and reanalysis. ICOADS has developed ways to incorporate user and reanalyses feedback information associated with permanent unique identifiers and is also the main repository for data that have been rescued from ships&#x2019; logbooks and other marine data digitization activities. ICOADS has been adopted widely because it provides convenient access to a range of observation types, globally, and through the entire marine instrumental record. ICOADS has provided a secure home for such observations for decades. Because of the increased volume of observations, particularly those available in near-real-time, and an expansion of their diversity, the ICOADS processing system now requires extensive modernization. Based on user feedback, we will outline the improvements that are required, the challenges to their implementation, and the benefits of upgrading this important and diverse marine archive and distribution activity.</gco:CharacterString>
+            <gco:CharacterString>The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) is a collection and archive of in situ marine observations, which has been developed over several decades as an international project and recently guided by formal international partnerships and the ICOADS Steering Committee. ICOADS contains observations from many different observing systems encompassing the evolution of measurement technology since the 18th century. ICOADS provides an integrated source of observations for a range of applications including research and climate monitoring, and forms the main marine in situ surface data source, e.g., near-surface ocean observations and lower atmospheric marine-meteorological observations from buoys, ships, coastal stations, and oceanographic sensors, for oceanic and atmospheric research and reanalysis. ICOADS has developed ways to incorporate user and reanalyses feedback information associated with permanent unique identifiers and is also the main repository for data that have been rescued from ships' logbooks and other marine data digitization activities. ICOADS has been adopted widely because it provides convenient access to a range of observation types, globally, and through the entire marine instrumental record. ICOADS has provided a secure home for such observations for decades. Because of the increased volume of observations, particularly those available in near-real-time, and an expansion of their diversity, the ICOADS processing system now requires extensive modernization. Based on user feedback, we will outline the improvements that are required, the challenges to their implementation, and the benefits of upgrading this important and diverse marine archive and distribution activity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

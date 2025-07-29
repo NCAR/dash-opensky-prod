@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:20:25.029374</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:28:38.806934</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bc42nw</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bc42nw</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Improvement of mountain-wave turbulence forecasts in NOAA&#x2019;s Rapid Refresh (RAP) Model with the hybrid vertical coordinate system</gco:CharacterString>
+                  <gco:CharacterString>Improvement of mountain-wave turbulence forecasts in NOAA's Rapid Refresh (RAP) Model with the hybrid vertical coordinate system</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bc42nw</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bc42nw</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kim, Jung-Hoon</gco:CharacterString>
+                        <gco:CharacterString>Kim, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Benjamin, Stanley G.</gco:CharacterString>
+                        <gco:CharacterString>Benjamin, S. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, John M.</gco:CharacterString>
+                        <gco:CharacterString>Brown, J. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Park, Sang-Hun</gco:CharacterString>
+                        <gco:CharacterString>Park, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Klemp, Joseph B.</gco:CharacterString>
+                        <gco:CharacterString>Klemp, Joseph</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Spurious mountain-wave features have been reported as false alarms of light-or-stronger numerical weather prediction (NWP)-based cruise level turbulence forecasts especially over the western mountainous region of North America. To reduce this problem, a hybrid sigma-pressure vertical coordinate system was implemented in NOAA's operational Rapid Refresh model, version 4 (RAPv4), which has been running in parallel with the conventional terrain-following coordinate system of RAP version 3 (RAPv3). Direct comparison of vertical velocity |w| fields from the RAPv4 and RAPv3 models shows that the new RAPv4 model significantly reduces small-scale spurious vertical velocities induced by the conventional terrain-following coordinate system in the RAPv3. For aircraft-scale turbulence forecasts, |w| and |w|/Richardson number (|w|/Ri) derived from both the RAPv4 and RAPv3 models are converted into energy dissipation rate (EDR) estimates. Then, those EDR-scaled indices are evaluated using more than 1.2 million in situ EDR turbulence reports from commercial aircraft for 4 months (September-December 2017). Scores of the area under receiver operating characteristic curves for the |w|- and |w|/Ri-based EDR forecasts from the RAPv4 are 0.69 and 0.83, which is statistically significantly improved over the RAPv3 of 0.63 and 0.77, respectively. The new RAPv4 became operational on 12 July 2018 and provides better guidance for operational turbulence forecasting over North America.</gco:CharacterString>
+            <gco:CharacterString>Spurious mountain-wave features have been reported as false alarms of light-or-stronger numerical weather prediction (NWP)-based cruise level turbulence forecasts especially over the western mountainous region of North America. To reduce this problem, a hybrid sigma-pressure vertical coordinate system was implemented in NOAA's operational Rapid Refresh model, version 4 (RAPv4), which has been running in parallel with the conventional terrain-following coordinate system of RAP version 3 (RAPv3). Direct comparison of vertical velocity \w\ fields from the RAPv4 and RAPv3 models shows that the new RAPv4 model significantly reduces small-scale spurious vertical velocities induced by the conventional terrain-following coordinate system in the RAPv3. For aircraft-scale turbulence forecasts, \w\ and \w\/Richardson number (\w\/Ri) derived from both the RAPv4 and RAPv3 models are converted into energy dissipation rate (EDR) estimates. Then, those EDR-scaled indices are evaluated using more than 1.2 million in situ EDR turbulence reports from commercial aircraft for 4 months (September-December 2017). Scores of the area under receiver operating characteristic curves for the \w\- and \w\/Ri-based EDR forecasts from the RAPv4 are 0.69 and 0.83, which is statistically significantly improved over the RAPv3 of 0.63 and 0.77, respectively. The new RAPv4 became operational on 12 July 2018 and provides better guidance for operational turbulence forecasting over North America.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:22:16.332427</gco:DateTime>
+      <gco:DateTime>2025-07-17T14:47:38.911739</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7d79c07</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7d79c07</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7d79c07</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7d79c07</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Oberg, Michael</gco:CharacterString>
+                        <gco:CharacterString>Oberg, Michael D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Woitaszek, Matthew</gco:CharacterString>
+                        <gco:CharacterString>Woitaszek, Matthew S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Voran, Theron</gco:CharacterString>
+                        <gco:CharacterString>Voran, Theron R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tufo, Henry</gco:CharacterString>
+                        <gco:CharacterString>Tufo, Henry M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The University of Colorado (CU) and the National Center for Atmospheric Research (NCAR) have been deploying complimentary and federated resources supporting computational science in the Western United States since 2004. This activity has expanded to include other partners in the area, forming the basis for a broader Front Range Computing Consortium (FRCC). This paper describes the development of the Consortium&#x2019;s current architecture for federated high-performance resources, including a new 184 teraflop/s (TF) computational system at CU and prototype data-centric computing resources at NCAR. CU&#x2019;s new Dell-based computational plant is housed in a co-designed pre-fabricated data center facility that allowed the university to install a top-tier academic resource without major capital facility investments or renovations. We describe integration of features such as virtualization, dynamic configuration of high-throughput networks, and Grid and cloud technologies, into an architecture that supports collaboration among regional computational science participants.</gco:CharacterString>
+            <gco:CharacterString>The University of Colorado (CU) and the National Center for Atmospheric Research (NCAR) have been deploying complimentary and federated resources supporting computational science in the Western United States since 2004. This activity has expanded to include other partners in the area, forming the basis for a broader Front Range Computing Consortium (FRCC). This paper describes the development of the Consortium's current architecture for federated high-performance resources, including a new 184 teraflop/s (TF) computational system at CU and prototype data-centric computing resources at NCAR. CU's new Dell-based computational plant is housed in a co-designed pre-fabricated data center facility that allowed the university to install a top-tier academic resource without major capital facility investments or renovations. We describe integration of features such as virtualization, dynamic configuration of high-throughput networks, and Grid and cloud technologies, into an architecture that supports collaboration among regional computational science participants.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

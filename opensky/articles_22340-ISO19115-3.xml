@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:24:30.979376</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:32:13.229396</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d75q504m</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d75q504m</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.18140/FLX/1440189</gmd:URL>
+                  <gmd:URL>https://doi.org/10.18140/FLX/1440189</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.20783/DIAS.501</gmd:URL>
+                  <gmd:URL>https://doi.org/10.20783/DIAS.501</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -128,7 +128,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.17190/AMF/1246088</gmd:URL>
+                  <gmd:URL>https://doi.org/10.17190/AMF/1246088</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -163,7 +163,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d75q504m</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d75q504m</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Swenson, Sean C.</gco:CharacterString>
+                        <gco:CharacterString>Swenson, Sean</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Sean P.</gco:CharacterString>
+                        <gco:CharacterString>Burns, Sean</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric models used for weather prediction and future climate projections rely on landmodels to calculate surface boundary conditions. Observations of near-surface states and fluxes made atflux measurement sites provide valuable data with which to assess the quality of simulated lower boundaryconditions. A previous assessment of the Community Land Model version 4.5 using data from the NiwotRidge Subalpine Forest AmeriFlux tower showed that simulated latent heat fluxes could be improved byadjusting a parameter describing the maximum leaf wetted area, but biases in midday sensible heat fluxand nighttime momentum flux were generally not reduced by model parameter perturbations. Thesebiases are related to the model&#x2019;s lack of heat storage in vegetation biomass. A biomass heat capacity isparameterized in Community Land Model version 5 with measurable quantities such as canopy height,diameter at breast height, and tree number density. After implementing a parameterization describing theheat transfer between the forest biomass and the canopy air space, the biases in the mean midday sensibleheat and mean nighttime momentum fluxes at Niwot Ridge are reduced from 47 to 13 W/m2and from 0.12to&#x2212;0.03 m/s, respectively. The bias in the mean nighttime canopy air temperature was reduced from&#x2212;5.9to 0.4&#x2218;C. Additional simulations at other flux tower sites demonstrate a consistent reduction in middaysensible heat flux, a lower ratio of the sum of sensible andlatent heat flux to net radiation, and an increasein nighttime canopy temperatures</gco:CharacterString>
+            <gco:CharacterString>Atmospheric models used for weather prediction and future climate projections rely on landmodels to calculate surface boundary conditions. Observations of near-surface states and fluxes made atflux measurement sites provide valuable data with which to assess the quality of simulated lower boundaryconditions. A previous assessment of the Community Land Model version 4.5 using data from the NiwotRidge Subalpine Forest AmeriFlux tower showed that simulated latent heat fluxes could be improved byadjusting a parameter describing the maximum leaf wetted area, but biases in midday sensible heat fluxand nighttime momentum flux were generally not reduced by model parameter perturbations. Thesebiases are related to the model's lack of heat storage in vegetation biomass. A biomass heat capacity isparameterized in Community Land Model version 5 with measurable quantities such as canopy height,diameter at breast height, and tree number density. After implementing a parameterization describing theheat transfer between the forest biomass and the canopy air space, the biases in the mean midday sensibleheat and mean nighttime momentum fluxes at Niwot Ridge are reduced from 47 to 13 W/m2and from 0.12to&#x2212;0.03 m/s, respectively. The bias in the mean nighttime canopy air temperature was reduced from&#x2212;5.9to 0.4&#x2218;C. Additional simulations at other flux tower sites demonstrate a consistent reduction in middaysensible heat flux, a lower ratio of the sum of sensible andlatent heat flux to net radiation, and an increasein nighttime canopy temperatures</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

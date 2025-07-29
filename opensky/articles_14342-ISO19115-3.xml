@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:55:59.776874</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:05:45.517700</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7xk8gjc</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7xk8gjc</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7xk8gjc</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7xk8gjc</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Abraham, John</gco:CharacterString>
+                        <gco:CharacterString>Abraham, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kumar, Sameer</gco:CharacterString>
+                        <gco:CharacterString>Kumar, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bickmore, Barry</gco:CharacterString>
+                        <gco:CharacterString>Bickmore, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John</gco:CharacterString>
+                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>While simple models of the Earth&#x2019;s ocean can provide useful information about the sensitivity of the climate to increasing greenhouse gases, it is important to ensure that the models are based on realistic physical processes and are evaluated with an accurate numerical methodology. In this regard, a number of computational issues are identified and addressed to guide the development of simplified models. To illustrate these issues, we examine a previously published one-dimensional diffusion model. Treatment of the boundary conditions, advection, ocean depth, and thermal diffusivity are addressed. Questionable omission of 30% of the Earth&#x2019;s surface and the application of a very local phenomenon as a global process is also discussed. It is shown that incorrect treatment of these issues can give non-physical results and lead to mistaken conclusions about the sensitivity of the Earth to rising greenhouse gas concentrations.</gco:CharacterString>
+            <gco:CharacterString>While simple models of the Earth's ocean can provide useful information about the sensitivity of the climate to increasing greenhouse gases, it is important to ensure that the models are based on realistic physical processes and are evaluated with an accurate numerical methodology. In this regard, a number of computational issues are identified and addressed to guide the development of simplified models. To illustrate these issues, we examine a previously published one-dimensional diffusion model. Treatment of the boundary conditions, advection, ocean depth, and thermal diffusivity are addressed. Questionable omission of 30% of the Earth's surface and the application of a very local phenomenon as a global process is also discussed. It is shown that incorrect treatment of these issues can give non-physical results and lead to mistaken conclusions about the sensitivity of the Earth to rising greenhouse gas concentrations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

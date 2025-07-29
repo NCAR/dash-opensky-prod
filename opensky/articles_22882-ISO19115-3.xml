@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:09:00.624026</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:25:19.127011</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d71839nk</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d71839nk</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d71839nk</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d71839nk</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kurum, Mehmet</gco:CharacterString>
+                        <gco:CharacterString>Kurum, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Boyd, Dylan</gco:CharacterString>
+                        <gco:CharacterString>Boyd, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cafer Gurbuz, Ali</gco:CharacterString>
+                        <gco:CharacterString>Cafer Gurbuz, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents a learning-based, physics-aware soil moisture (SM) retrieval algorithm for NASA&#x2019;s Cyclone Global Navigation Satellite System (CYGNSS) mission. The goal of the proposed novel method is to advance CYGNSS-based SM estimations, exploiting the spatio-temporal resolution of the GNSS reflectometry (GNSS-R) signals to its highest potential within a machine learning framework. The methodology employs a fully connected Artificial Neural Network (ANN) regression model to perform SM predictions through learning the nonlinear relations of SM and other land geophysical parameters to the CYGNSS observables. In situ SM measurements from several International SM Network (ISMN) sites are used as reference labels; CYGNSS incidence angles, derived reflectivity and trailing edge slope (TES) values, as well as ancillary data, are exploited as input features for training and validation of the ANN model. In particular, the utilized ancillary data consist of normalized difference vegetation index (NDVI), vegetation water content (VWC), terrain elevation, terrain slope, and h-parameter (surface roughness). Land cover classification and inland water body masks are also used for the intermediate derivations and quality control purposes. The proposed algorithm assumes uniform SM over a 0.0833 &#x2218;&#xd7; 0.0833 &#x2218; (approximately 9 km &#xd7; 9 km around the equator) lat/lon grid for any CYGNSS observation that falls within this window. The proposed technique is capable of generating sub-daily and high-resolution SM predictions as it does not rely on time-series or spatial averaging of the CYGNSS observations. Once trained on the data from ISMN sites, the model is independent from other SM sources for retrieval. The estimation results obtained over unseen test data are promising: SM predictions with an unbiased root mean squared error of 0.0544 cm 3 /cm 3 and Pearson correlation coefficient of 0.9009 are reported for 2017 and 2018.</gco:CharacterString>
+            <gco:CharacterString>This paper presents a learning-based, physics-aware soil moisture (SM) retrieval algorithm for NASA's Cyclone Global Navigation Satellite System (CYGNSS) mission. The goal of the proposed novel method is to advance CYGNSS-based SM estimations, exploiting the spatio-temporal resolution of the GNSS reflectometry (GNSS-R) signals to its highest potential within a machine learning framework. The methodology employs a fully connected Artificial Neural Network (ANN) regression model to perform SM predictions through learning the nonlinear relations of SM and other land geophysical parameters to the CYGNSS observables. In situ SM measurements from several International SM Network (ISMN) sites are used as reference labels; CYGNSS incidence angles, derived reflectivity and trailing edge slope (TES) values, as well as ancillary data, are exploited as input features for training and validation of the ANN model. In particular, the utilized ancillary data consist of normalized difference vegetation index (NDVI), vegetation water content (VWC), terrain elevation, terrain slope, and h-parameter (surface roughness). Land cover classification and inland water body masks are also used for the intermediate derivations and quality control purposes. The proposed algorithm assumes uniform SM over a 0.0833 &#x2218;&#xd7; 0.0833 &#x2218; (approximately 9 km &#xd7; 9 km around the equator) lat/lon grid for any CYGNSS observation that falls within this window. The proposed technique is capable of generating sub-daily and high-resolution SM predictions as it does not rely on time-series or spatial averaging of the CYGNSS observations. Once trained on the data from ISMN sites, the model is independent from other SM sources for retrieval. The estimation results obtained over unseen test data are promising: SM predictions with an unbiased root mean squared error of 0.0544 cm 3 /cm 3 and Pearson correlation coefficient of 0.9009 are reported for 2017 and 2018.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

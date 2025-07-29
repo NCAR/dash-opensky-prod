@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:36:37.978947</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:01:46.425206</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7gm8c42</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7gm8c42</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7gm8c42</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7gm8c42</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Poterjoy, Jonathan</gco:CharacterString>
+                        <gco:CharacterString>Poterjoy, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Romine, Glen S.</gco:CharacterString>
+                        <gco:CharacterString>Romine, Glen</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dowell, David C.</gco:CharacterString>
+                        <gco:CharacterString>Dowell, D. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Carley, Jacob R.</gco:CharacterString>
+                        <gco:CharacterString>Carley, J. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bresch, Jamie</gco:CharacterString>
+                        <gco:CharacterString>Bresch, James</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,9 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Nine sets of 36-h, 10-member, convection-allowing ensemble (CAE) forecasts with 3-km horizontal grid spacing were produced over the conterminous United States for a 4-week period. These CAEs had identical configurations except for their initial conditions (ICs), which were constructed to isolate CAE forecast sensitivity to resolution of IC perturbations and central initial states about which IC perturbations were centered. The IC perturbations and central initial states were provided by limited-area ensemble Kalman filter (EnKF) analyses with both 15- and 3-km horizontal grid spacings, as well as from NCEP's Global Forecast System (GFS) and Global Ensemble Forecast System. Given fixed-resolution IC perturbations, reducing horizontal grid spacing of central initial states improved similar to 1-12-h precipitation forecasts. Conversely, for constant-resolution central initial states, reducing horizontal grid spacing of IC perturbations led to comparatively smaller short-term forecast improvements or none at all. Overall, all CAEs initially centered on 3-km EnKF mean analyses produced objectively better similar to 1-12-h precipitation forecasts than CAEs initially centered on GFS or 15-km EnKF mean analyses regardless of IC perturbation resolution, strongly suggesting it is more important for central initial states to possess fine-scale structures than IC perturbations for short-term CAE forecasting applications, although fine-scale perturbations could potentially be critical for data assimilation purposes. These findings have important implications for future operational CAE forecast systems and suggest CAE IC development efforts focus on producing the best possible high-resolution deterministic analyses that can serve as central initial states for CAEs. &#xD;
-Significance Statement&#xD;
-Ensembles of weather model forecasts are composed of different "members" that, when combined, can produce probabilities that specific weather events will occur. Ensemble forecasts begin from specified atmospheric states, called initial conditions. For ensembles where initial conditions differ across members, the initial conditions can be viewed as a set of small perturbations added to a central state provided by a single model field. Our study suggests it is more important to increase horizontal resolution of the central state than resolution of the perturbations when initializing ensemble forecasts with 3-km horizontal grid spacing. These findings suggest a potential for computational savings and a streamlined process for improving high-resolution ensemble initial conditions.</gco:CharacterString>
+            <gco:CharacterString>Nine sets of 36-h, 10-member, convection-allowing ensemble (CAE) forecasts with 3-km horizontal grid spacing were produced over the conterminous United States for a 4-week period. These CAEs had identical configurations except for their initial conditions (ICs), which were constructed to isolate CAE forecast sensitivity to resolution of IC perturbations and central initial states about which IC perturbations were centered. The IC perturbations and central initial states were provided by limited-area ensemble Kalman filter (EnKF) analyses with both 15- and 3-km horizontal grid spacings, as well as from NCEP's Global Forecast System (GFS) and Global Ensemble Forecast System. Given fixed-resolution IC perturbations, reducing horizontal grid spacing of central initial states improved similar to 1-12-h precipitation forecasts. Conversely, for constant-resolution central initial states, reducing horizontal grid spacing of IC perturbations led to comparatively smaller short-term forecast improvements or none at all. Overall, all CAEs initially centered on 3-km EnKF mean analyses produced objectively better similar to 1-12-h precipitation forecasts than CAEs initially centered on GFS or 15-km EnKF mean analyses regardless of IC perturbation resolution, strongly suggesting it is more important for central initial states to possess fine-scale structures than IC perturbations for short-term CAE forecasting applications, although fine-scale perturbations could potentially be critical for data assimilation purposes. These findings have important implications for future operational CAE forecast systems and suggest CAE IC development efforts focus on producing the best possible high-resolution deterministic analyses that can serve as central initial states for CAEs. Significance Statement Ensembles of weather model forecasts are composed of different "members" that, when combined, can produce probabilities that specific weather events will occur. Ensemble forecasts begin from specified atmospheric states, called initial conditions. For ensembles where initial conditions differ across members, the initial conditions can be viewed as a set of small perturbations added to a central state provided by a single model field. Our study suggests it is more important to increase horizontal resolution of the central state than resolution of the perturbations when initializing ensemble forecasts with 3-km horizontal grid spacing. These findings suggest a potential for computational savings and a streamlined process for improving high-resolution ensemble initial conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

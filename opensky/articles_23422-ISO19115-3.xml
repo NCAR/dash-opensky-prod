@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:25:25.608442</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:18:04.892916</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78p63sb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78p63sb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78p63sb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78p63sb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Klotzbach, Philip J.</gco:CharacterString>
+                        <gco:CharacterString>Klotzbach, P. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bell, Michael M.</gco:CharacterString>
+                        <gco:CharacterString>Bell, M. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bowen, Steven G.</gco:CharacterString>
+                        <gco:CharacterString>Bowen, S. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gibney, Ethan J.</gco:CharacterString>
+                        <gco:CharacterString>Gibney, Ethan</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Knapp, Kenneth R.</gco:CharacterString>
+                        <gco:CharacterString>Knapp, K. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schreck, Carl J.</gco:CharacterString>
+                        <gco:CharacterString>Schreck, C. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atlantic hurricane seasons have a long history of causing significant financial impacts, with Harvey, Irma, Maria, Florence, and Michael combining to incur more than 345 billion USD in direct economic damage during 2017&#x2013;2018. While Michael&#x2019;s damage was primarily wind and storm surge-driven, Florence&#x2019;s and Harvey&#x2019;s damage was predominantly rainfall and inland flood-driven. Several revised scales have been proposed to replace the Saffir&#x2013;Simpson Hurricane Wind Scale (SSHWS), which currently only categorizes the hurricane wind threat, while not explicitly handling the totality of storm impacts including storm surge and rainfall. However, most of these newly-proposed scales are not easily calculated in real-time, nor can they be reliably calculated historically. In particular, they depend on storm wind radii, which remain very uncertain. Herein, we analyze the relationship between normalized historical damage caused by continental United States (CONUS) landfalling hurricanes from 1900&#x2013;2018 with both maximum sustained wind speed (Vmax) and minimum sea level pressure (MSLP). We show that MSLP is a more skillful predictor of normalized damage than Vmax, with a significantly higher rank correlation between normalized damage and MSLP (rrank = 0.77) than between normalized damage and Vmax (rrank = 0.66) for all CONUS landfalling hurricanes. MSLP has served as a much better predictor of hurricane damage in recent years than Vmax, with large hurricanes such as Ike (2008) and Sandy (2012) causing much more damage than anticipated from their SSHWS ranking. MSLP is also a more accurately-measured quantity than is Vmax, making it an ideal quantity for evaluating a hurricane&#x2019;s potential damage.</gco:CharacterString>
+            <gco:CharacterString>Atlantic hurricane seasons have a long history of causing significant financial impacts, with Harvey, Irma, Maria, Florence, and Michael combining to incur more than 345 billion USD in direct economic damage during 2017&#x2013;2018. While Michael's damage was primarily wind and storm surge-driven, Florence's and Harvey's damage was predominantly rainfall and inland flood-driven. Several revised scales have been proposed to replace the Saffir&#x2013;Simpson Hurricane Wind Scale (SSHWS), which currently only categorizes the hurricane wind threat, while not explicitly handling the totality of storm impacts including storm surge and rainfall. However, most of these newly-proposed scales are not easily calculated in real-time, nor can they be reliably calculated historically. In particular, they depend on storm wind radii, which remain very uncertain. Herein, we analyze the relationship between normalized historical damage caused by continental United States (CONUS) landfalling hurricanes from 1900&#x2013;2018 with both maximum sustained wind speed (Vmax) and minimum sea level pressure (MSLP). We show that MSLP is a more skillful predictor of normalized damage than Vmax, with a significantly higher rank correlation between normalized damage and MSLP (rrank = 0.77) than between normalized damage and Vmax (rrank = 0.66) for all CONUS landfalling hurricanes. MSLP has served as a much better predictor of hurricane damage in recent years than Vmax, with large hurricanes such as Ike (2008) and Sandy (2012) causing much more damage than anticipated from their SSHWS ranking. MSLP is also a more accurately-measured quantity than is Vmax, making it an ideal quantity for evaluating a hurricane's potential damage.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

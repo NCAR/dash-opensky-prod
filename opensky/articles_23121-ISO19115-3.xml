@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:35:36.958810</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:23:29.767510</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7vx0kp6</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7vx0kp6</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.3334/ornldaac/1581</gmd:URL>
+                  <gmd:URL>https://doi.org/10.3334/ornldaac/1581</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7vx0kp6</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7vx0kp6</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas</gco:CharacterString>
+                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Francois</gco:CharacterString>
+                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jimenez, J.L.</gco:CharacterString>
+                        <gco:CharacterString>Jimenez, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +277,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Community Earth System Model version 2 (CESM2) includes three main atmospheric configurations: the Community Atmosphere Model version 6 (CAM6) with simplified chemistry and a simplified organic aerosol (OA) scheme, CAM6 with comprehensive tropospheric and stratospheric chemistry representation (CAM6&#x2010;chem), and the Whole Atmosphere Community Climate Model version 6 (WACCM6). Both, CAM6&#x2010;chem and WACCM6 include a more comprehensive secondary organic aerosols (SOA) approach using the Volatility Basis Set (VBS) scheme and prognostic stratospheric aerosols. This paper describes the different OA schemes available in the different atmospheric configurations of CESM2 and discusses differences in aerosol burden and resulting climate forcings. Derived OA burden and trends differ due to differences in OA formation using the different approaches. Regional differences in Aerosol Optical Depth with larger values using the comprehensive approach occur over SOA source regions. Stronger increasing SOA trends between 1960 and 2015 in WACCM6 compared to CAM6 are due to increasing biogenic emissions aligned with increasing surface temperatures. Using the comprehensive SOA approach further leads to improved comparisons to aircraft observations and SOA formation of &#x2248;143 Tg/yr. We further use WACCM6 to identify source contributions of OA from biogenic, fossil fuel, and biomass burning emissions, to quantify SOA amounts and trends from these sources. Increasing SOA trends between 1960 and 2015 are the result of increasing biogenic emissions aligned with increasing surface temperatures. Biogenic emissions are at least two thirds of the total SOA burden. In addition, SOA source contributions from fossil fuel emissions become more important, with largest values over Southeast Asia. The estimated total anthropogenic forcing of OA in WACCM6 for 1995&#x2013;2010 conditions is &#x2212;0.43 W/m2, mostly from the aerosol direct effect.</gco:CharacterString>
+            <gco:CharacterString>The Community Earth System Model version 2 (CESM2) includes three main atmospheric configurations: the Community Atmosphere Model version 6 (CAM6) with simplified chemistry and a simplified organic aerosol (OA) scheme, CAM6 with comprehensive tropospheric and stratospheric chemistry representation (CAM6-chem), and the Whole Atmosphere Community Climate Model version 6 (WACCM6). Both, CAM6-chem and WACCM6 include a more comprehensive secondary organic aerosols (SOA) approach using the Volatility Basis Set (VBS) scheme and prognostic stratospheric aerosols. This paper describes the different OA schemes available in the different atmospheric configurations of CESM2 and discusses differences in aerosol burden and resulting climate forcings. Derived OA burden and trends differ due to differences in OA formation using the different approaches. Regional differences in Aerosol Optical Depth with larger values using the comprehensive approach occur over SOA source regions. Stronger increasing SOA trends between 1960 and 2015 in WACCM6 compared to CAM6 are due to increasing biogenic emissions aligned with increasing surface temperatures. Using the comprehensive SOA approach further leads to improved comparisons to aircraft observations and SOA formation of &#x2248;143 Tg/yr. We further use WACCM6 to identify source contributions of OA from biogenic, fossil fuel, and biomass burning emissions, to quantify SOA amounts and trends from these sources. Increasing SOA trends between 1960 and 2015 are the result of increasing biogenic emissions aligned with increasing surface temperatures. Biogenic emissions are at least two thirds of the total SOA burden. In addition, SOA source contributions from fossil fuel emissions become more important, with largest values over Southeast Asia. The estimated total anthropogenic forcing of OA in WACCM6 for 1995&#x2013;2010 conditions is &#x2212;0.43 W/m2, mostly from the aerosol direct effect.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

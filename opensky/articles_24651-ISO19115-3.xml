@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:16:39.909623</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:12:18.151127</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7k35z38</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7k35z38</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7k35z38</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7k35z38</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chelpon, Sofia M.</gco:CharacterString>
+                        <gco:CharacterString>Chelpon, S. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Luo, Zhengzhao J.</gco:CharacterString>
+                        <gco:CharacterString>Luo, Z. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Atlas, Elliot L.</gco:CharacterString>
+                        <gco:CharacterString>Atlas, E. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca S.</gco:CharacterString>
+                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +237,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study investigates the use of airborne in situ measurements to derive transit time distributions (TTD) from the boundary layer (BL) to the upper troposphere (UT) over the highly convective tropical western Pacific (TWP). The feasibility of this method is demonstrated using 42 volatile organic compounds (VOCs) measured during the Convective Transport of Active Species in the Tropics (CONTRAST) experiment. Two important approximations necessary for the application are the constant chemical lifetimes for each compound and the representation of the BL source by the local CONTRAST data. To characterize uncertainties associated with the first approximation, we quantify the changes in derived TTDs when chemical lifetimes are estimated using conditions of the BL, UT, and tropospheric average. With the support of a trajectory model study in a companion paper, we characterize the BL source region contributing to the transport to the sampled UT. In addition to the TTDs derived using a regional average, we analyze the potential information content in locally averaged measurements to represent the dynamical variability of the region. Around 150 TTDs, derived using measurements on a &#xe2;&#x2c6;&#xbc;100 km spatial scale, show a distribution of mean and mode transit times consistent with the wide range of convective conditions encountered during the campaign. Two extreme cases, with the shortest and the near-longest TTD, are examined using the dynamical background of the measurements and back trajectory analyses. The result provides physical consistency supporting the hypothesis that sufficient information can be obtained from measurements to resolve dynamical variability of the region.</gco:CharacterString>
+            <gco:CharacterString>This study investigates the use of airborne in situ measurements to derive transit time distributions (TTD) from the boundary layer (BL) to the upper troposphere (UT) over the highly convective tropical western Pacific (TWP). The feasibility of this method is demonstrated using 42 volatile organic compounds (VOCs) measured during the Convective Transport of Active Species in the Tropics (CONTRAST) experiment. Two important approximations necessary for the application are the constant chemical lifetimes for each compound and the representation of the BL source by the local CONTRAST data. To characterize uncertainties associated with the first approximation, we quantify the changes in derived TTDs when chemical lifetimes are estimated using conditions of the BL, UT, and tropospheric average. With the support of a trajectory model study in a companion paper, we characterize the BL source region contributing to the transport to the sampled UT. In addition to the TTDs derived using a regional average, we analyze the potential information content in locally averaged measurements to represent the dynamical variability of the region. Around 150 TTDs, derived using measurements on a &#x223c;100 km spatial scale, show a distribution of mean and mode transit times consistent with the wide range of convective conditions encountered during the campaign. Two extreme cases, with the shortest and the near-longest TTD, are examined using the dynamical background of the measurements and back trajectory analyses. The result provides physical consistency supporting the hypothesis that sufficient information can be obtained from measurements to resolve dynamical variability of the region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

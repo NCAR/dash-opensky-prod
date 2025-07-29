@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:01:57.703080</gco:DateTime>
+      <gco:DateTime>2025-07-11T20:48:55.519545</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d72v2hr6</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d72v2hr6</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d72v2hr6</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d72v2hr6</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Markowski, Paul</gco:CharacterString>
+                        <gco:CharacterString>Markowski, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bryan, George</gco:CharacterString>
+                        <gco:CharacterString>Bryan, George H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In idealized simulations of convective storms, which are almost always run as large-eddy simulations (LES), the planetary boundary layers (PBLs) are typically laminar (i.e., they lack turbulent eddies). When compared with turbulent simulations, theory, or simulations with PBL schemes, the typically laminar LES used in the severe-storms community produce unrealistic near-surface vertical wind profiles containing excessive vertical wind shear when the lower boundary condition is nonfree slip. Such simulations are potentially problematic given the recent interest within the severe storms community in the influence of friction on vorticity generation within tornadic storms. Simulations run as LES that include surface friction but lack well-resolved turbulent eddies thus probably overestimate friction&#x2019;s effects on storms.</gco:CharacterString>
+            <gco:CharacterString>In idealized simulations of convective storms, which are almost always run as large-eddy simulations (LES), the planetary boundary layers (PBLs) are typically laminar (i.e., they lack turbulent eddies). When compared with turbulent simulations, theory, or simulations with PBL schemes, the typically laminar LES used in the severe-storms community produce unrealistic near-surface vertical wind profiles containing excessive vertical wind shear when the lower boundary condition is nonfree slip. Such simulations are potentially problematic given the recent interest within the severe storms community in the influence of friction on vorticity generation within tornadic storms. Simulations run as LES that include surface friction but lack well-resolved turbulent eddies thus probably overestimate friction's effects on storms.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

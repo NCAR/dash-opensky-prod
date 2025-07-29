@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:55:22.866986</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:08:16.927291</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7xp75ws</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7xp75ws</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7xp75ws</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7xp75ws</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Conley, Stephen</gco:CharacterString>
+                        <gco:CharacterString>Conley, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Faloona, Ian</gco:CharacterString>
+                        <gco:CharacterString>Faloona, I.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lenschow, Donald</gco:CharacterString>
+                        <gco:CharacterString>Lenschow, Donald H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Karion, Anna</gco:CharacterString>
+                        <gco:CharacterString>Karion, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sweeney, Colm</gco:CharacterString>
+                        <gco:CharacterString>Sweeney, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The implementation and accuracy of a low-rate (~1 Hz) horizontal wind measurement system is described for a fixed-wing aircraft without modification to the airframe. The system is based on a global positioning system (GPS) compass that provides aircraft heading and a ground-referenced velocity, which, when subtracted from the standard true airspeed, provides estimates of the horizontal wind velocity. A series of tests was performed flying &#x201c;L&#x201d;-shaped patterns above the boundary layer, where the winds were assumed to be horizontally homogeneous over the area bounded by the flight (approximately 25 km&#xb2;). Four headings were flown at each altitude at a constant airspeed. Scaling corrections for both heading and airspeed were found by minimizing the variance in the 1-s wind measurements; an upper limit to the error was then computed by calculating the variance of the corrected wind measurements on each of the four headings. A typical uncertainty found in this manner tends to be less than 0.2 m s&#x207b;&#xb9;. The measurement system described herein is inexpensive and relatively easy to implement on single-engine aircraft.</gco:CharacterString>
+            <gco:CharacterString>The implementation and accuracy of a low-rate (~1 Hz) horizontal wind measurement system is described for a fixed-wing aircraft without modification to the airframe. The system is based on a global positioning system (GPS) compass that provides aircraft heading and a ground-referenced velocity, which, when subtracted from the standard true airspeed, provides estimates of the horizontal wind velocity. A series of tests was performed flying "L"-shaped patterns above the boundary layer, where the winds were assumed to be horizontally homogeneous over the area bounded by the flight (approximately 25 km&#xb2;). Four headings were flown at each altitude at a constant airspeed. Scaling corrections for both heading and airspeed were found by minimizing the variance in the 1-s wind measurements; an upper limit to the error was then computed by calculating the variance of the corrected wind measurements on each of the four headings. A typical uncertainty found in this manner tends to be less than 0.2 m s&#x207b;&#xb9;. The measurement system described herein is inexpensive and relatively easy to implement on single-engine aircraft.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

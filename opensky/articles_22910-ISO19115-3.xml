@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:16.483810</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:24:35.965228</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7h41vkh</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7h41vkh</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7h41vkh</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7h41vkh</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shi, Xiaoming</gco:CharacterString>
+                        <gco:CharacterString>Shi, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Enriquez, Rica Mae</gco:CharacterString>
+                        <gco:CharacterString>Enriquez, R. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Street, Robert L.</gco:CharacterString>
+                        <gco:CharacterString>Street, R. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chow, Fotini Katopodes</gco:CharacterString>
+                        <gco:CharacterString>Chow, F. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Turbulence parameterization plays a critical role in the simulation of many weather regimes. For challenging cases such as the stratocumulus-capped boundary layer (SCBL), traditional schemes can produce unrealistic results even when a fine large-eddy-simulation (LES) resolution is used. Here we present an implicit generalized linear algebraic subfilter-scale model (iGLASS) to better represent unresolved turbulence in the simulation of the atmospheric boundary layer, at both standard LES and so-called terra incognita (TI) resolutions. The latter refers to a range of model resolutions where turbulent eddies are only partially resolved, and therefore the simulated processes are sensitive to the representation of unresolved turbulence. iGLASS is based on the truncated conservation equations of subfilter-scale (SFS) fluxes, but it integrates the full equations of the SFS turbulence kinetic energy and potential energy to retain &#x201c;memory&#x201d; of the SFS turbulence. Our evaluations suggest iGLASS can perform significantly better than traditional eddy-diffusivity models and exhibit skills comparable to the dynamic reconstruction model (DRM). For a neutral boundary layer case run at LES resolution, the simulation using iGLASS exhibits a wind profile that reasonably matches the similarity-theory solution. For an SCBL case with 5-m vertical resolution, iGLASS maintains more realistic cloud water profiles and boundary layer structure than traditional schemes. The SCBL case is also tested at TI resolution, and iGLASS also exhibits superior performance. iGLASS permits significant backscatter, whereas traditional models allow forward scatter (diffusion) only. As a physics-based approach, iGLASS appears to be a viable alternative for turbulence parameterization.</gco:CharacterString>
+            <gco:CharacterString>Turbulence parameterization plays a critical role in the simulation of many weather regimes. For challenging cases such as the stratocumulus-capped boundary layer (SCBL), traditional schemes can produce unrealistic results even when a fine large-eddy-simulation (LES) resolution is used. Here we present an implicit generalized linear algebraic subfilter-scale model (iGLASS) to better represent unresolved turbulence in the simulation of the atmospheric boundary layer, at both standard LES and so-called terra incognita (TI) resolutions. The latter refers to a range of model resolutions where turbulent eddies are only partially resolved, and therefore the simulated processes are sensitive to the representation of unresolved turbulence. iGLASS is based on the truncated conservation equations of subfilter-scale (SFS) fluxes, but it integrates the full equations of the SFS turbulence kinetic energy and potential energy to retain "memory" of the SFS turbulence. Our evaluations suggest iGLASS can perform significantly better than traditional eddy-diffusivity models and exhibit skills comparable to the dynamic reconstruction model (DRM). For a neutral boundary layer case run at LES resolution, the simulation using iGLASS exhibits a wind profile that reasonably matches the similarity-theory solution. For an SCBL case with 5-m vertical resolution, iGLASS maintains more realistic cloud water profiles and boundary layer structure than traditional schemes. The SCBL case is also tested at TI resolution, and iGLASS also exhibits superior performance. iGLASS permits significant backscatter, whereas traditional models allow forward scatter (diffusion) only. As a physics-based approach, iGLASS appears to be a viable alternative for turbulence parameterization.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:59.219236</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:26:31.008780</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78s4t2w</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78s4t2w</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78s4t2w</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78s4t2w</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bailey, David</gco:CharacterString>
+                        <gco:CharacterString>Bailey, David A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette L.</gco:CharacterString>
+                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +247,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Because of the pervasive role of water in the Earth system, the relative abundances of stable isotopologues of water are valuable for understanding atmospheric, oceanic, and biospheric processes, and for interpreting paleoclimate proxy reconstructions. Isotopologues are transported by both large&#x2010;scale and turbulent flows, and the ratio of heavy to light isotopologues changes due to fractionation that can accompany condensation and evaporation processes. Correctly predicting the isotopic distributions requires resolving the relationships between large&#x2010;scale ocean and atmospheric circulation and smaller&#x2010;scale hydrological processes, which can be accomplished within a coupled climate modeling framework. Here we present the water isotope&#x2010;enabled version of the Community Earth System Model version 1 (iCESM1), which simulates global variations in water isotopic ratios in the atmosphere, land, ocean, and sea ice. In a transient Last Millennium simulation covering the 850&#x2013;2005 period, iCESM1 correctly captures the late&#x2010;twentieth&#x2010;century structure of &#x3b4;18O and &#x3b4;D over the global oceans, with more limited accuracy over land. The relationship between salinity and seawater &#x3b4;18O is also well represented over the observational period, including interbasin variations. We illustrate the utility of coupled, isotope&#x2010;enabled simulations using both Last Millennium simulations and freshwater hosing experiments with iCESM1. Closing the isotopic mass balance between all components of the coupled model provides new confidence in the underlying depiction of the water cycle in CESM, while also highlighting areas where the underlying hydrologic balance can be improved. The iCESM1 is poised to be a vital community resource for ongoing model development with both modern and paleoclimate applications.</gco:CharacterString>
+            <gco:CharacterString>Because of the pervasive role of water in the Earth system, the relative abundances of stable isotopologues of water are valuable for understanding atmospheric, oceanic, and biospheric processes, and for interpreting paleoclimate proxy reconstructions. Isotopologues are transported by both large-scale and turbulent flows, and the ratio of heavy to light isotopologues changes due to fractionation that can accompany condensation and evaporation processes. Correctly predicting the isotopic distributions requires resolving the relationships between large-scale ocean and atmospheric circulation and smaller-scale hydrological processes, which can be accomplished within a coupled climate modeling framework. Here we present the water isotope-enabled version of the Community Earth System Model version 1 (iCESM1), which simulates global variations in water isotopic ratios in the atmosphere, land, ocean, and sea ice. In a transient Last Millennium simulation covering the 850&#x2013;2005 period, iCESM1 correctly captures the late-twentieth-century structure of &#x3b4;18O and &#x3b4;D over the global oceans, with more limited accuracy over land. The relationship between salinity and seawater &#x3b4;18O is also well represented over the observational period, including interbasin variations. We illustrate the utility of coupled, isotope-enabled simulations using both Last Millennium simulations and freshwater hosing experiments with iCESM1. Closing the isotopic mass balance between all components of the coupled model provides new confidence in the underlying depiction of the water cycle in CESM, while also highlighting areas where the underlying hydrologic balance can be improved. The iCESM1 is poised to be a vital community resource for ongoing model development with both modern and paleoclimate applications.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

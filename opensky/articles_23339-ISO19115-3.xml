@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:08:38.642747</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:19:34.801259</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7js9sv5</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7js9sv5</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6RX99HX</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6RX99HX</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Dynamics and electrodynamics of an ultra&#x2010;fast kelvin wave (UFKW) packet in the ionosphere&#x2010;thermosphere (IT)</gco:CharacterString>
+                  <gco:CharacterString>Dynamics and electrodynamics of an ultra-fast kelvin wave (UFKW) packet in the ionosphere-thermosphere (IT)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7js9sv5</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7js9sv5</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Forbes, Jeffrey M.</gco:CharacterString>
+                        <gco:CharacterString>Forbes, J. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Xiaoli</gco:CharacterString>
+                        <gco:CharacterString>ZHANG, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Numerical experiments are performed using a suite of general circulation models that enable the interaction between a Kelvin wave packet and the ionosphere&#x2010;thermosphere (IT) to be elucidated. Focus is on an eastward&#x2010;propagating ultra&#x2010;fast Kelvin wave (UFKW) packet with periods between 2 and 4&#x2009;days and zonal wavenumber s =&#x2212;1 during day of year (DOY) 266&#x2013;281, 2009. Dissipative processes modify the classic UFKW dynamics (equatorially trapped, small meridional wind component) in three ways: (1) molecular diffusion acts to spread the UFKW zonal (u ) and meridional (v ) wind fields meridionally, pole to pole, as u and v , respectively, decay and grow with increasing height; (2) due to molecular diffusion, the UFKW spectrum at longer periods and with shorter vertical wavelengths preferentially dissipates with height; and (3) interaction with the diurnally varying IT introduces a westward&#x2010;propagating s =+2 component to the wind field that significantly modifies its longitude&#x2010;UT structure to include a diurnal modulation. The F&#x2010;region ionosphere also responds with s =+2, which originates from the influence of diurnally varying E&#x2010;region conductivity on E &#xd7;B drifts. Additional spectral peaks in v and ionospheric parameters arise due to longitude variations in the magnetic field. Maximum excursions in NmF2 (as compared with those from a simulation without UFKW forcing) achieve values as large as &#xb1;50% but more commonly occur in the range of &#xb1;20-30%. The combination of positive and negative responses, and their relative magnitudes, depends on the phasing of the UFKW as it moves zonally relative to the Sun&#x2010;synchronous diurnal variation of the ionosphere, in addition to its changing amplitude between DOY 266 and 282. Modifications of order 10&#x2009;ms&#x2212;1 and &#x2212;7% to zonal&#x2010;mean zonal winds and NmF2, respectively, also result from dissipation of the UFKW packet.</gco:CharacterString>
+            <gco:CharacterString>Numerical experiments are performed using a suite of general circulation models that enable the interaction between a Kelvin wave packet and the ionosphere-thermosphere (IT) to be elucidated. Focus is on an eastward-propagating ultra-fast Kelvin wave (UFKW) packet with periods between 2 and 4&#x2009;days and zonal wavenumber s =&#x2212;1 during day of year (DOY) 266&#x2013;281, 2009. Dissipative processes modify the classic UFKW dynamics (equatorially trapped, small meridional wind component) in three ways: (1) molecular diffusion acts to spread the UFKW zonal (u ) and meridional (v ) wind fields meridionally, pole to pole, as u and v , respectively, decay and grow with increasing height; (2) due to molecular diffusion, the UFKW spectrum at longer periods and with shorter vertical wavelengths preferentially dissipates with height; and (3) interaction with the diurnally varying IT introduces a westward-propagating s =+2 component to the wind field that significantly modifies its longitude-UT structure to include a diurnal modulation. The F-region ionosphere also responds with s =+2, which originates from the influence of diurnally varying E-region conductivity on E &#xd7;B drifts. Additional spectral peaks in v and ionospheric parameters arise due to longitude variations in the magnetic field. Maximum excursions in NmF2 (as compared with those from a simulation without UFKW forcing) achieve values as large as &#xb1;50% but more commonly occur in the range of &#xb1;20-30%. The combination of positive and negative responses, and their relative magnitudes, depends on the phasing of the UFKW as it moves zonally relative to the Sun-synchronous diurnal variation of the ionosphere, in addition to its changing amplitude between DOY 266 and 282. Modifications of order 10&#x2009;ms&#x2212;1 and &#x2212;7% to zonal-mean zonal winds and NmF2, respectively, also result from dissipation of the UFKW packet.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

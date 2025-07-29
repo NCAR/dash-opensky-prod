@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:18:32.083382</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:37:58.271320</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78c9zzz</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78c9zzz</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78c9zzz</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78c9zzz</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rosenberg, Duane</gco:CharacterString>
+                        <gco:CharacterString>Rosenberg, Duane L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a model for the scaling of mixing in weakly rotating stratified flows characterized by their Rossby, Froude and Reynolds numbers. This model is based on quasi-equipartition between kinetic and potential modes, sub-dominant vertical velocity and lessening of the energy transfer to small scales as measured by a dissipation efficiency with the kinetic energy dissipation and its dimensional expression, with  the vertical and root mean square velocities, and the integral scale. We determine the domains of validity of such laws for a large numerical study of the unforced Boussinesq equations mostly on grids of points; the Prandtl number is one, initial conditions are either isotropic and at large scale for the velocity and zero for the temperature or in geostrophic balance. Three regimes in Froude number, as for stratified flows, are observed: dominant waves, eddy&#x2013;wave interactions and strong turbulence. A wave-turbulence balance for the transfer time with the turnover time and the Brunt-V&#xe4;is&#xe4;l&#xe4; frequency, leads to growing linearly with in the intermediate regime, with a saturation at or more, depending on initial conditions for larger Froude numbers. The Ellison scale is also found to scale linearly with. The flux Richardson number, with the buoyancy flux, transitions for approximately the same parameter values as for. With the mixing efficiency, putting together the three relationships of the model allows for the prediction of the scaling in the low and intermediate regimes for high, whereas for higher Froude numbers, a scaling already found in observations: as turbulence strengthens and smaller buoyancy fluxes together correspond to a decoupling of velocity and temperature fluctuations, the latter becoming passive.</gco:CharacterString>
+            <gco:CharacterString>We present a model for the scaling of mixing in weakly rotating stratified flows characterized by their Rossby, Froude and Reynolds numbers. This model is based on quasi-equipartition between kinetic and potential modes, sub-dominant vertical velocity and lessening of the energy transfer to small scales as measured by a dissipation efficiency with the kinetic energy dissipation and its dimensional expression, with the vertical and root mean square velocities, and the integral scale. We determine the domains of validity of such laws for a large numerical study of the unforced Boussinesq equations mostly on grids of points; the Prandtl number is one, initial conditions are either isotropic and at large scale for the velocity and zero for the temperature or in geostrophic balance. Three regimes in Froude number, as for stratified flows, are observed: dominant waves, eddy&#x2013;wave interactions and strong turbulence. A wave-turbulence balance for the transfer time with the turnover time and the Brunt-V&#xe4;is&#xe4;l&#xe4; frequency, leads to growing linearly with in the intermediate regime, with a saturation at or more, depending on initial conditions for larger Froude numbers. The Ellison scale is also found to scale linearly with. The flux Richardson number, with the buoyancy flux, transitions for approximately the same parameter values as for. With the mixing efficiency, putting together the three relationships of the model allows for the prediction of the scaling in the low and intermediate regimes for high, whereas for higher Froude numbers, a scaling already found in observations: as turbulence strengthens and smaller buoyancy fluxes together correspond to a decoupling of velocity and temperature fluctuations, the latter becoming passive.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

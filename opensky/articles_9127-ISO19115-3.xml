@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:09:30.424085</gco:DateTime>
+      <gco:DateTime>2025-07-17T16:00:58.210368</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7hm5969</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7hm5969</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7hm5969</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7hm5969</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Janse, A.</gco:CharacterString>
+                        <gco:CharacterString>Janse, &#xc5;se</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aims. We model a hydrogen-helium solar wind originating in funnels, regions of rapid flux tube expansion at the base of the solar corona.', Methods. The time-dependent model describes the particle density, flow speed, temperature parallel and perpendicular to the magnetic field, and the heat flow for each ionization state of hydrogen and helium, and for electrons.', Results. For a large range of heating parameters, the funnel has two co-existing solutions: both a slow and a fast solar wind solution result from the same heating parameters, depending on the initial state from which the model was started. Though the fast and the slow solar wind can co-exist it is difficult to change from a fast solar wind to a slow solar wind or vice versa. A significant change in the heating parameters is required to  flip the solution, and it takes a long time, about one month, to reach the other steady state solution. When either the funnel or helium is removed from the model, we no longer have two co-existing states.</gco:CharacterString>
+            <gco:CharacterString>Aims. We model a hydrogen-helium solar wind originating in funnels, regions of rapid flux tube expansion at the base of the solar corona.', Methods. The time-dependent model describes the particle density, flow speed, temperature parallel and perpendicular to the magnetic field, and the heat flow for each ionization state of hydrogen and helium, and for electrons.', Results. For a large range of heating parameters, the funnel has two co-existing solutions: both a slow and a fast solar wind solution result from the same heating parameters, depending on the initial state from which the model was started. Though the fast and the slow solar wind can co-exist it is difficult to change from a fast solar wind to a slow solar wind or vice versa. A significant change in the heating parameters is required to flip the solution, and it takes a long time, about one month, to reach the other steady state solution. When either the funnel or helium is removed from the model, we no longer have two co-existing states.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

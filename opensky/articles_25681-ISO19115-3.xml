@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:37:30.167646</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:59:39.243486</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,128 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7251nz8</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7251nz8</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5067/TRMM/TMPA/3H/7</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>TRMM (TMPA) Rainfall Estimate L3 3 hour 0.25 degree x 0.25 degree V7</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.6988262</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Data used by figures in Zhang et. al. (2022, GMD)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5439/1021460</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #3</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>ARM: Balloon-borne sounding system (BBSS): Vaisala-processed winds, press., temp, and RH</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.7289/V51V5BWQ</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #4</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>NOAA Climate Data Record (CDR) of Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks (PERSIANN-CDR), Version 1 Revision 1</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.7289/V5SJ1HH2</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #5</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>NOAA Climate Data Record (CDR) of Daily Outgoing Longwave Radiation (OLR), Version 1.2</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.11578/E3SM/dc.20180418.36</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Energy Exascale Earth System Model v1.0</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +223,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7251nz8</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7251nz8</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Shixuan</gco:CharacterString>
+                        <gco:CharacterString>Zhang, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Kai</gco:CharacterString>
+                        <gco:CharacterString>Zhang, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +257,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wan, Hui</gco:CharacterString>
+                        <gco:CharacterString>Wan, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,11 +287,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A previous study on the use of nudging in E3SM Atmosphere Model version 1 (EAMv1) had an unresolved issue; i.e., a simulation nudged to EAMv1's own meteorology showed non-negligible deviations from the free-running baseline simulation over some of the subtropical marine stratocumulus and trade cumulus regions. Here, we demonstrate that the deviations can be substantially reduced by (1) changing where the nudging tendency is calculated in the time integration loop of a nudged EAM simulation so as to improve consistency with the free-running baseline and (2) increasing the frequency of the constraining data so as to better capture strong sub-diurnal variations.&#xD;
-&#xD;
-The fact that modification (2) improves the climate representativeness of the nudged simulations has motivated us to investigate whether the use of newer reanalysis products with higher data frequency can help improve nudged hindcast simulations by better capturing the observed weather events. To answer this question, we present simulations conducted at EAMv1's standard horizontal resolution (approximately 1&#x2218;) with nudging towards 6-hourly ERA-Interim reanalysis or 6-hourly, 3-hourly, or hourly ERA5 reanalysis. These simulations are evaluated against the climatology of free-running EAMv1 simulations as well as reanalyses, satellite retrievals, and in situ measurements from the Atmospheric Radiation Measurement user facility. For the 1&#x2218; EAMv1 simulations, we recommend using the relocated nudging tendency calculation and the ERA5 reanalysis at 3-hourly or higher frequency.&#xD;
-&#xD;
-Simulations used for estimating the anthropogenic aerosol effects often use nudging to help discern signal from noise. The sensitivity of such estimates to the configuration of nudging is investigated in EAMv1, again using the standard 1&#x2218; horizontal resolution. We find that, when estimating the global mean effects, the frequency of constraining data has relatively small impacts, while the choice of nudged variables can change the results substantially. The nudging of air temperature (in addition to horizontal winds) has two non-negligible effects. First, when the constraining data come from reanalysis, the nudging-induced mean bias correction can cause significant changes in the simulated clouds and hence substantially different estimates of the aerosol effects. The impact of the mean bias correction on ice cloud formation has been noted in previous studies and is also seen in EAMv1. For applications like ours, where the preferred configurations of nudging are those capable of providing results consistent with the multi-year free-running simulations, the consequence of the mean bias correction is undesirable. The second important impact of temperature nudging is a significant suppression of adjustments to aerosol forcing, which also causes changes in the estimated aerosol effects. This effect can be seen in simulations nudged to either reanalysis or EAM's own meteorology. These results suggest that nudging horizontal winds but not temperature is a better choice for estimating the anthropogenic aerosol effects.</gco:CharacterString>
+            <gco:CharacterString>A previous study on the use of nudging in E3SM Atmosphere Model version 1 (EAMv1) had an unresolved issue; i.e., a simulation nudged to EAMv1's own meteorology showed non-negligible deviations from the free-running baseline simulation over some of the subtropical marine stratocumulus and trade cumulus regions. Here, we demonstrate that the deviations can be substantially reduced by (1) changing where the nudging tendency is calculated in the time integration loop of a nudged EAM simulation so as to improve consistency with the free-running baseline and (2) increasing the frequency of the constraining data so as to better capture strong sub-diurnal variations. The fact that modification (2) improves the climate representativeness of the nudged simulations has motivated us to investigate whether the use of newer reanalysis products with higher data frequency can help improve nudged hindcast simulations by better capturing the observed weather events. To answer this question, we present simulations conducted at EAMv1's standard horizontal resolution (approximately 1&#x2218;) with nudging towards 6-hourly ERA-Interim reanalysis or 6-hourly, 3-hourly, or hourly ERA5 reanalysis. These simulations are evaluated against the climatology of free-running EAMv1 simulations as well as reanalyses, satellite retrievals, and in situ measurements from the Atmospheric Radiation Measurement user facility. For the 1&#x2218; EAMv1 simulations, we recommend using the relocated nudging tendency calculation and the ERA5 reanalysis at 3-hourly or higher frequency. Simulations used for estimating the anthropogenic aerosol effects often use nudging to help discern signal from noise. The sensitivity of such estimates to the configuration of nudging is investigated in EAMv1, again using the standard 1&#x2218; horizontal resolution. We find that, when estimating the global mean effects, the frequency of constraining data has relatively small impacts, while the choice of nudged variables can change the results substantially. The nudging of air temperature (in addition to horizontal winds) has two non-negligible effects. First, when the constraining data come from reanalysis, the nudging-induced mean bias correction can cause significant changes in the simulated clouds and hence substantially different estimates of the aerosol effects. The impact of the mean bias correction on ice cloud formation has been noted in previous studies and is also seen in EAMv1. For applications like ours, where the preferred configurations of nudging are those capable of providing results consistent with the multi-year free-running simulations, the consequence of the mean bias correction is undesirable. The second important impact of temperature nudging is a significant suppression of adjustments to aerosol forcing, which also causes changes in the estimated aerosol effects. This effect can be seen in simulations nudged to either reanalysis or EAM's own meteorology. These results suggest that nudging horizontal winds but not temperature is a better choice for estimating the anthropogenic aerosol effects.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

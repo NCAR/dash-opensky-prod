@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:20:22.594705</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:44.476085</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7862kk3</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7862kk3</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Wind resource assessment for Alaska&#x2019;s offshore regions: Validation of a 14-year high-resolution WRF data set</gco:CharacterString>
+                  <gco:CharacterString>Wind resource assessment for Alaska's offshore regions: Validation of a 14-year high-resolution WRF data set</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7862kk3</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7862kk3</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee, Jared A.</gco:CharacterString>
+                        <gco:CharacterString>Lee, Jared</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Doubrawa, Paula</gco:CharacterString>
+                        <gco:CharacterString>Doubrawa, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Draxl, Caroline</gco:CharacterString>
+                        <gco:CharacterString>Draxl, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Scott, George</gco:CharacterString>
+                        <gco:CharacterString>Scott, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Offshore wind resource assessments for the conterminous U.S. and Hawai&#x2019;i have been developed before, but Alaska&#x2019;s offshore wind resource has never been rigorously assessed. Alaska, with its vast coastline, presents ample potential territory in which to build offshore wind farms, but significant challenges have thus far limited Alaska&#x2019;s deployment of utility-scale wind energy capacity to a modest 62 MW (or approximately 2.7% of the state&#x2019;s electric generation) as of this writing, all in land-based wind farms. This study provides an assessment of Alaska&#x2019;s offshore wind resource, the first such assessment for Alaska, using a 14-year, high-resolution simulation from a numerical weather prediction and regional climate model. This is the longest-known high-resolution model data set to be used in a wind resource assessment. Widespread areas with relatively shallow ocean depth and high long-term average 100-m wind speeds and estimated net capacity factors over 50% were found, including a small area near Alaska&#x2019;s population centers and the largest transmission grid that, if even partially developed, could provide the bulk of the state&#x2019;s energy needs. The regional climate simulations were validated against available radiosonde and surface wind observations to provide the confidence of the model-based assessment. The model-simulated wind speed was found to be skillful and with near-zero average bias (-0.4-0.2 m s-1 ) when averaged over the domain. Small sample sizes made regional validation noisy, however.</gco:CharacterString>
+            <gco:CharacterString>Offshore wind resource assessments for the conterminous U.S. and Hawai'i have been developed before, but Alaska's offshore wind resource has never been rigorously assessed. Alaska, with its vast coastline, presents ample potential territory in which to build offshore wind farms, but significant challenges have thus far limited Alaska's deployment of utility-scale wind energy capacity to a modest 62 MW (or approximately 2.7% of the state's electric generation) as of this writing, all in land-based wind farms. This study provides an assessment of Alaska's offshore wind resource, the first such assessment for Alaska, using a 14-year, high-resolution simulation from a numerical weather prediction and regional climate model. This is the longest-known high-resolution model data set to be used in a wind resource assessment. Widespread areas with relatively shallow ocean depth and high long-term average 100-m wind speeds and estimated net capacity factors over 50% were found, including a small area near Alaska's population centers and the largest transmission grid that, if even partially developed, could provide the bulk of the state's energy needs. The regional climate simulations were validated against available radiosonde and surface wind observations to provide the confidence of the model-based assessment. The model-simulated wind speed was found to be skillful and with near-zero average bias (-0.4-0.2 m s-1 ) when averaged over the domain. Small sample sizes made regional validation noisy, however.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

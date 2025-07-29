@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:37:42.883192</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:02:56.496138</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7jm2fcc</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7jm2fcc</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4749478</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>vprzybylo/IPAS: v2.2.0</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7jm2fcc</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7jm2fcc</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Przybylo, Vanessa M.</gco:CharacterString>
+                        <gco:CharacterString>Przybylo, V. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sulia, Kara J.</gco:CharacterString>
+                        <gco:CharacterString>Sulia, K. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lebo, Zachary J.</gco:CharacterString>
+                        <gco:CharacterString>Lebo, Z. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Ice Particle and Aggregate Simulator (IPAS) is used to theoretically represent the aggregation process of ice crystals. Aggregates have a variety of formations based on initial ice particle size, shape, and falling orientation, all of which influence water phase partitioning. Aggregate dimensional properties and density changes are calculated for monomer-monomer (MON-MON), monomer-aggregate (MON-AGG), and aggregate-aggregate (AGG-AGG) collection to be used by ice-microphysical models for improvement in aggregation parameterizations. Aggregates are chosen from a database of 9 744 000 preformed combinations to be further collected (see Part II). AGG-AGG collection results in more extreme and a smaller range of aggregate aspect ratios than MON-AGG collection. A majority of aggregates are closer to prolate than oblate spheroids, regardless of collection type, except for quasi-horizontally oriented particles that have extreme aspect ratios to begin with. MON-AGG collection frequently results in an increase in density upon collection, whereas MON-MON and AGG-AGG collection almost always result in particle density decreases, with extreme reductions near 99% for MON-MON collection. MON-MON collection results in the greatest decreases in density but then quickly becomes unaffected by the addition of more monomers due to inherent size differences between monomers and aggregates. Finally, a holistic analysis to in situ observations of cloud particle images is presented. IPAS 2D aspect ratios surround a median value of 0.6 and closely follow that of previous studies while varying by no more than  AP;12% on average from observed aggregates.</gco:CharacterString>
+            <gco:CharacterString>The Ice Particle and Aggregate Simulator (IPAS) is used to theoretically represent the aggregation process of ice crystals. Aggregates have a variety of formations based on initial ice particle size, shape, and falling orientation, all of which influence water phase partitioning. Aggregate dimensional properties and density changes are calculated for monomer-monomer (MON-MON), monomer-aggregate (MON-AGG), and aggregate-aggregate (AGG-AGG) collection to be used by ice-microphysical models for improvement in aggregation parameterizations. Aggregates are chosen from a database of 9 744 000 preformed combinations to be further collected (see Part II). AGG-AGG collection results in more extreme and a smaller range of aggregate aspect ratios than MON-AGG collection. A majority of aggregates are closer to prolate than oblate spheroids, regardless of collection type, except for quasi-horizontally oriented particles that have extreme aspect ratios to begin with. MON-AGG collection frequently results in an increase in density upon collection, whereas MON-MON and AGG-AGG collection almost always result in particle density decreases, with extreme reductions near 99% for MON-MON collection. MON-MON collection results in the greatest decreases in density but then quickly becomes unaffected by the addition of more monomers due to inherent size differences between monomers and aggregates. Finally, a holistic analysis to in situ observations of cloud particle images is presented. IPAS 2D aspect ratios surround a median value of 0.6 and closely follow that of previous studies while varying by no more than AP;12% on average from observed aggregates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

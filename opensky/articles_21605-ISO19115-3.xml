@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:18:19.885081</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:39:56.062305</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7k35xcf</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7k35xcf</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7k35xcf</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7k35xcf</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhou, Kai</gco:CharacterString>
+                        <gco:CharacterString>Zhou, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sun, Xiaoyu</gco:CharacterString>
+                        <gco:CharacterString>Sun, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Calhoun, Ronald</gco:CharacterString>
+                        <gco:CharacterString>Calhoun, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Wind gusts on a scale from 100 m to 1000 m are studied due to their significant influence on wind turbine performance. A detecting and tracking algorithm is proposed to extract gusts from a wind field and track their movement. The algorithm utilizes the "peak over threshold method," Moore-Neighbor tracing algorithm, and Taylor&#x2019;s frozen turbulence hypothesis. The algorithm was implemented for a three-hour, two-dimensional wind field retrieved from the measurements of a coherent Doppler lidar. The Gaussian shape distribution of the gust spanwise deviation from the streamline was demonstrated. Size dependency of gust deviations is discussed, and an empirical power function is derived. A prediction model estimating the impact of gusts with respect to arrival time and the probability of arrival locations is introduced, in which the Gaussian plume model and random walk theory including size dependency are applied. The prediction model was tested and the results reveal that the prediction model can represent the spanwise deviation of the gusts and capture the effect of gust size. The prediction model was applied to a virtual wind turbine array, and estimates are given for which wind turbines would be impacted.</gco:CharacterString>
+            <gco:CharacterString>Wind gusts on a scale from 100 m to 1000 m are studied due to their significant influence on wind turbine performance. A detecting and tracking algorithm is proposed to extract gusts from a wind field and track their movement. The algorithm utilizes the "peak over threshold method," Moore-Neighbor tracing algorithm, and Taylor's frozen turbulence hypothesis. The algorithm was implemented for a three-hour, two-dimensional wind field retrieved from the measurements of a coherent Doppler lidar. The Gaussian shape distribution of the gust spanwise deviation from the streamline was demonstrated. Size dependency of gust deviations is discussed, and an empirical power function is derived. A prediction model estimating the impact of gusts with respect to arrival time and the probability of arrival locations is introduced, in which the Gaussian plume model and random walk theory including size dependency are applied. The prediction model was tested and the results reveal that the prediction model can represent the spanwise deviation of the gusts and capture the effect of gust size. The prediction model was applied to a virtual wind turbine array, and estimates are given for which wind turbines would be impacted.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

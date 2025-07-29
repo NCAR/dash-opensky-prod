@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:41:32.405297</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:02:44.400716</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d70005wv</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d70005wv</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.17882/42182</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Argo float data and metadata from Global Data Assembly Centre (Argo GDAC)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d70005wv</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d70005wv</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bishop, Stuart P.</gco:CharacterString>
+                        <gco:CharacterString>Bishop, S. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The water mass transformation (WMT) framework describes how water of one class, such as a discrete interval of density, is converted into another class via air-sea fluxes or interior mixing processes. This paper investigates how this process is modified at the surface when mesoscale ocean eddies are present, using a state-of-the-art high-resolution climate model with reasonable fidelity in the Southern Ocean. The method employed is to coarse-grain the high-resolution model fields to remove eddy signatures, and compare the results with those from the full model fields. This method shows that eddies reduced the WMT by 2-4 Sv (10%-20%; 1 Sv  10(6) m(3) s(-1)) over a wide range of densities, from typical values of 20 Sv in the smoothed case. The corresponding water mass formation was reduced by 40% at one particular density increment, namely, between 1026.4 and 1026.5 kg m(-3), which corresponds to the lighter end of the range of Indian Ocean Mode Water in the model. The effect of eddies on surface WMT is decomposed into three terms: direct modulation of the density outcrops, then indirectly, by modifying the air-sea density flux, and the combined effect of the two, akin to a covariance. It is found that the first and third terms dominate, i.e., smoothing the outcrops alone has a significant effect, as does the combination of smoothing both outcrops and density flux distributions, but smoothing density flux fields alone has little effect. Results from the coarse-graining method are compared to an alternative approach of temporally averaging the data. Implications for climate model resolution are also discussed.</gco:CharacterString>
+            <gco:CharacterString>The water mass transformation (WMT) framework describes how water of one class, such as a discrete interval of density, is converted into another class via air-sea fluxes or interior mixing processes. This paper investigates how this process is modified at the surface when mesoscale ocean eddies are present, using a state-of-the-art high-resolution climate model with reasonable fidelity in the Southern Ocean. The method employed is to coarse-grain the high-resolution model fields to remove eddy signatures, and compare the results with those from the full model fields. This method shows that eddies reduced the WMT by 2-4 Sv (10%-20%; 1 Sv 10(6) m(3) s(-1)) over a wide range of densities, from typical values of 20 Sv in the smoothed case. The corresponding water mass formation was reduced by 40% at one particular density increment, namely, between 1026.4 and 1026.5 kg m(-3), which corresponds to the lighter end of the range of Indian Ocean Mode Water in the model. The effect of eddies on surface WMT is decomposed into three terms: direct modulation of the density outcrops, then indirectly, by modifying the air-sea density flux, and the combined effect of the two, akin to a covariance. It is found that the first and third terms dominate, i.e., smoothing the outcrops alone has a significant effect, as does the combination of smoothing both outcrops and density flux distributions, but smoothing density flux fields alone has little effect. Results from the coarse-graining method are compared to an alternative approach of temporally averaging the data. Implications for climate model resolution are also discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:41:18.368398</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:01:17.796572</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7057krd</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7057krd</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7057krd</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7057krd</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Klemp, Joseph B.</gco:CharacterString>
+                        <gco:CharacterString>Klemp, Joseph</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Skamarock, William C.</gco:CharacterString>
+                        <gco:CharacterString>Skamarock, William</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,10 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For the numerical simulation of atmospheric flows that extend as high as the thermosphere, it is more appropriate to represent the upper boundary of the model domain as a material surface at constant pressure rather than one characterized by a rigid lid. Consequently, in adapting the Model for Prediction Across Scales (MPAS) for geospace applications, a modification of the height-based vertical coordinate is presented that permits the coordinate surfaces at upper levels to transition toward a constant pressure surface at the model's upper boundary. This modification is conceptually similar to a terrain-following coordinate at low levels, but now modifies the coordinate surfaces at upper levels to conform to a constant pressure surface at the model top. Since this surface is evolving in time, the height of the upper boundary is adaptively adjusted to follow a designated constant pressure upper surface. This is accomplished by applying the hydrostatic equation to estimate the change in height along the boundary that is consistent with the vertical pressure gradient at the model top. This alteration in the vertical coordinate requires only minor modifications and little additional computational expense to the original height-based time-invariant terrain-following vertical coordinate employed in MPAS. The viability of this modified vertical coordinate formulation has been verified in a 2D prototype of MPAS for an idealized case of upper-level diurnal heating. &#xD;
-&#xD;
-Significance Statement&#xD;
-Most atmospheric numerical models that use a height-based vertical coordinate employ a rigid lid at the top of the model domain. While a rigid lid works well for applications in the troposphere and stratosphere, it is not well suited for applications extending into the thermosphere where significant vertical expansion/contraction occurs due to deep heating/cooling of the atmosphere. This paper develops and tests a simple modification to the height-based coordinate formulation that allows the height of the upper boundary to adaptively follow a constant pressure surface. This added flexibility in the treatment of the upper domain boundary for height-based models may be particularly beneficial in facilitating their transition to a deep atmosphere configuration without significant retooling of the model numerics.</gco:CharacterString>
+            <gco:CharacterString>For the numerical simulation of atmospheric flows that extend as high as the thermosphere, it is more appropriate to represent the upper boundary of the model domain as a material surface at constant pressure rather than one characterized by a rigid lid. Consequently, in adapting the Model for Prediction Across Scales (MPAS) for geospace applications, a modification of the height-based vertical coordinate is presented that permits the coordinate surfaces at upper levels to transition toward a constant pressure surface at the model's upper boundary. This modification is conceptually similar to a terrain-following coordinate at low levels, but now modifies the coordinate surfaces at upper levels to conform to a constant pressure surface at the model top. Since this surface is evolving in time, the height of the upper boundary is adaptively adjusted to follow a designated constant pressure upper surface. This is accomplished by applying the hydrostatic equation to estimate the change in height along the boundary that is consistent with the vertical pressure gradient at the model top. This alteration in the vertical coordinate requires only minor modifications and little additional computational expense to the original height-based time-invariant terrain-following vertical coordinate employed in MPAS. The viability of this modified vertical coordinate formulation has been verified in a 2D prototype of MPAS for an idealized case of upper-level diurnal heating. Significance Statement Most atmospheric numerical models that use a height-based vertical coordinate employ a rigid lid at the top of the model domain. While a rigid lid works well for applications in the troposphere and stratosphere, it is not well suited for applications extending into the thermosphere where significant vertical expansion/contraction occurs due to deep heating/cooling of the atmosphere. This paper develops and tests a simple modification to the height-based coordinate formulation that allows the height of the upper boundary to adaptively follow a constant pressure surface. This added flexibility in the treatment of the upper domain boundary for height-based models may be particularly beneficial in facilitating their transition to a deep atmosphere configuration without significant retooling of the model numerics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

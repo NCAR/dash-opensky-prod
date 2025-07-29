@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:13:37.246777</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:28:28.259095</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74q7wsb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74q7wsb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5281/zenodo.2637752</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.2637752</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5066/F7542KMD</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5066/F7542KMD</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -143,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74q7wsb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74q7wsb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bennett, Andrew</gco:CharacterString>
+                        <gco:CharacterString>Bennett, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nijssen, Bart</gco:CharacterString>
+                        <gco:CharacterString>Nijssen, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ou, Gengxin</gco:CharacterString>
+                        <gco:CharacterString>Ou, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clark, Martyn</gco:CharacterString>
+                        <gco:CharacterString>Clark, Martyn P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nearing, Grey</gco:CharacterString>
+                        <gco:CharacterString>Nearing, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,10 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Quantifying the behavior and performance of hydrologic models is an important aspect of understanding the underlying hydrologic systems. We argue that classical error measures do not offer a complete picture for building this understanding. This study demonstrates how the information theoretic measure known as transfer entropy can be used to quantify the active transfer of information between hydrologic processes at various timescales and facilitate further understanding of the behavior of these&#xD;
-systems. To build a better understanding of the differences in dynamics, we compare model instances of the Structure for Unifying Multiple Modeling Alternatives (SUMMA), the Variable Infiltration Capacity (VIC) model, and the Precipitation Runoff Modeling System (PRMS) across a variety of hydrologic regimes in the Columbia River Basin in the Pacific Northwest of North America. Our results show differences in the runoff of the SUMMA instance compared to the other two models in several of our study locations. In the Snake River region, SUMMA runoff was primarily snowmelt driven, while VIC and PRMS runoff were primarily&#xD;
-influenced by precipitation and evapotranspiration. In the Olympic mountains, evapotranspiration interacted with the other water balance variables much differently in PRMS than in VIC and SUMMA. In the Willamette River, all three models had similar process networks at the daily time scale but showed&#xD;
-differences in information transfer at the monthly timescale. Additionally, we find that all three models have similar connectivity between evapotranspiration and soil moisture. Analyzing information transfers to runoff at daily and monthly time steps show how processes can operate on different timescales. By comparing information transfer with correlations, we show how transfer entropy provides a complementary picture of model behavior.</gco:CharacterString>
+            <gco:CharacterString>Quantifying the behavior and performance of hydrologic models is an important aspect of understanding the underlying hydrologic systems. We argue that classical error measures do not offer a complete picture for building this understanding. This study demonstrates how the information theoretic measure known as transfer entropy can be used to quantify the active transfer of information between hydrologic processes at various timescales and facilitate further understanding of the behavior of these systems. To build a better understanding of the differences in dynamics, we compare model instances of the Structure for Unifying Multiple Modeling Alternatives (SUMMA), the Variable Infiltration Capacity (VIC) model, and the Precipitation Runoff Modeling System (PRMS) across a variety of hydrologic regimes in the Columbia River Basin in the Pacific Northwest of North America. Our results show differences in the runoff of the SUMMA instance compared to the other two models in several of our study locations. In the Snake River region, SUMMA runoff was primarily snowmelt driven, while VIC and PRMS runoff were primarily influenced by precipitation and evapotranspiration. In the Olympic mountains, evapotranspiration interacted with the other water balance variables much differently in PRMS than in VIC and SUMMA. In the Willamette River, all three models had similar process networks at the daily time scale but showed differences in information transfer at the monthly timescale. Additionally, we find that all three models have similar connectivity between evapotranspiration and soil moisture. Analyzing information transfers to runoff at daily and monthly time steps show how processes can operate on different timescales. By comparing information transfer with correlations, we show how transfer entropy provides a complementary picture of model behavior.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

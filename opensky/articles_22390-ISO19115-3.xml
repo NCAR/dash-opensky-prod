@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:17:56.539004</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:30:33.492213</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7t72mgg</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7t72mgg</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7t72mgg</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7t72mgg</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rai, Raj K.</gco:CharacterString>
+                        <gco:CharacterString>Rai, R. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Berg, Larry K.</gco:CharacterString>
+                        <gco:CharacterString>Berg, L. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mirocha, Jeffrey D.</gco:CharacterString>
+                        <gco:CharacterString>Mirocha, J. D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ennis, Brandon L.</gco:CharacterString>
+                        <gco:CharacterString>Ennis, B. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Draxl, Caroline</gco:CharacterString>
+                        <gco:CharacterString>Draxl, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Coupled mesoscale&#x2013;microscale simulations are required to provide time-varying weather-dependent inflow and forcing for large-eddy simulations under general flow conditions. Such coupling necessarily spans a wide range of spatial scales (i.e., ~10 m to ~10 km). Herein, we use simulations that involve multiple nested domains with horizontal grid spacings in the terra incognita (i.e.,  km) that may affect simulated conditions in both the outer and inner domains. We examine the impact on simulated wind speed and turbulence associated with forcing provided by a terrain with grid spacing in the terra incognita. We perform a suite of simulations that use combinations of varying horizontal grid spacings and turbulence parameterization/modeling using the Weather Research and Forecasting (WRF) Model using a combination of planetary boundary layer (PBL) and large-eddy simulation subgrid-scale (LES-SGS) models. The results are analyzed in terms of spectral energy, turbulence kinetic energy, and proper orthogonal decomposition (POD) energy. The results show that the output from the microscale domain depends on the type of turbulence model (e.g., PBL or LES-SGS model) used for a given horizontal grid spacing but is independent of the horizontal grid spacing and turbulence modeling of the parent domain. Simulation using a single domain produced less POD energy in the first few modes compared to a coupled simulation (one-way nesting) for similar horizontal grid spacing, which highlights that coupled simulations are required to accurately pass the mesoscale features into the microscale domain.</gco:CharacterString>
+            <gco:CharacterString>Coupled mesoscale&#x2013;microscale simulations are required to provide time-varying weather-dependent inflow and forcing for large-eddy simulations under general flow conditions. Such coupling necessarily spans a wide range of spatial scales (i.e., ~10 m to ~10 km). Herein, we use simulations that involve multiple nested domains with horizontal grid spacings in the terra incognita (i.e., km) that may affect simulated conditions in both the outer and inner domains. We examine the impact on simulated wind speed and turbulence associated with forcing provided by a terrain with grid spacing in the terra incognita. We perform a suite of simulations that use combinations of varying horizontal grid spacings and turbulence parameterization/modeling using the Weather Research and Forecasting (WRF) Model using a combination of planetary boundary layer (PBL) and large-eddy simulation subgrid-scale (LES-SGS) models. The results are analyzed in terms of spectral energy, turbulence kinetic energy, and proper orthogonal decomposition (POD) energy. The results show that the output from the microscale domain depends on the type of turbulence model (e.g., PBL or LES-SGS model) used for a given horizontal grid spacing but is independent of the horizontal grid spacing and turbulence modeling of the parent domain. Simulation using a single domain produced less POD energy in the first few modes compared to a coupled simulation (one-way nesting) for similar horizontal grid spacing, which highlights that coupled simulations are required to accurately pass the mesoscale features into the microscale domain.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

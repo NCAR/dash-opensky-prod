@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:57.869066</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:16:28.540322</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7th8r4p</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7th8r4p</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7th8r4p</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7th8r4p</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCandless, Tyler C</gco:CharacterString>
+                        <gco:CharacterString>McCandless, T. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovic, Branko</gco:CharacterString>
+                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Wildland fire decision support systems require accurate predictions of wildland fire spread. Fuel moisture content (FMC) is one of the important parameters controlling the rate of spread of wildland fire. However, dead FMC measurements are provided by a relatively sparse network of remote automatic weather stations (RAWS), while live FMC is relatively infrequently measured manually. We developed a high resolution, gridded, real-time FMC data sets that did not previously exist for assimilation into operational wildland fire prediction systems based on ML. We used surface observations of live and dead FMC to train machine learning models to estimate FMC based on satellite observations. Moderate Resolution Imaging Spectrometer Terra and Aqua reflectances are used to predict the live and dead FMC measured by the Wildland Fire Assessment System and RAWS). We evaluate multiple machine learning methods including multiple linear regression, random forests (RFs), gradient boosted regression and artificial neural networks. The models are trained to learn the relationships between the satellite reflectances, surface weather and soil moisture observations and FMC. After training on data corresponding to the temporally and spatially nearest grid points to the irregularly spaced surface FMC observations, the machine learning models could be applied to all grid cells for a gridded product over the Conterminous United States (CONUS). The results show generally that the rule-based approaches have the lowest errors likely due to the sharp decision boundaries among the predictors, and the RF approach that utilizes bagging to avoid over-fitting has the lowest error on the test dataset. The errors are typically between 25%&#xe2;&#x2c6;&#x2019;33% the typical variability of the FMC data, which indicate the skill of the RF in estimating the FMC based on satellite data and surface characteristics. The FMC gridded product based on the RF runs operationally daily over CONUS and can be assimilated into WRF-Fire for more accurate wildland fire spread predictions.</gco:CharacterString>
+            <gco:CharacterString>Wildland fire decision support systems require accurate predictions of wildland fire spread. Fuel moisture content (FMC) is one of the important parameters controlling the rate of spread of wildland fire. However, dead FMC measurements are provided by a relatively sparse network of remote automatic weather stations (RAWS), while live FMC is relatively infrequently measured manually. We developed a high resolution, gridded, real-time FMC data sets that did not previously exist for assimilation into operational wildland fire prediction systems based on ML. We used surface observations of live and dead FMC to train machine learning models to estimate FMC based on satellite observations. Moderate Resolution Imaging Spectrometer Terra and Aqua reflectances are used to predict the live and dead FMC measured by the Wildland Fire Assessment System and RAWS). We evaluate multiple machine learning methods including multiple linear regression, random forests (RFs), gradient boosted regression and artificial neural networks. The models are trained to learn the relationships between the satellite reflectances, surface weather and soil moisture observations and FMC. After training on data corresponding to the temporally and spatially nearest grid points to the irregularly spaced surface FMC observations, the machine learning models could be applied to all grid cells for a gridded product over the Conterminous United States (CONUS). The results show generally that the rule-based approaches have the lowest errors likely due to the sharp decision boundaries among the predictors, and the RF approach that utilizes bagging to avoid over-fitting has the lowest error on the test dataset. The errors are typically between 25%&#x207b;33% the typical variability of the FMC data, which indicate the skill of the RF in estimating the FMC based on satellite data and surface characteristics. The FMC gridded product based on the RF runs operationally daily over CONUS and can be assimilated into WRF-Fire for more accurate wildland fire spread predictions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

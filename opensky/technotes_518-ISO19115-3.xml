@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:07:00.145655</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:09:08.019606</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7r78dpb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7r78dpb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7r78dpb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7r78dpb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dickinson, Katherine</gco:CharacterString>
+                        <gco:CharacterString>Dickinson, Katherine L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCormack, Kristen</gco:CharacterString>
+                        <gco:CharacterString>McCormack, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Magontier, Pierre</gco:CharacterString>
+                        <gco:CharacterString>Magontier, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>High-quality information about the wind resource at candidate wind farm sites is essential to continue to guide the rapid growth of wind energy in the United States and around the world. In the effort to produce better information through improved wind resource assessment (WRA) methods, input from people within the industry who produce and use this information is key. During the summer of 2013, researchers at the National Center for Atmospheric Research conducted an online survey of WRA experts (both producers and users of WRA information) to learn about current practices, priorities, and informational needs. Key findings from this survey include: 1) Wind resource assessments are produced by a variety of actors, including wind energy developers, consultants, and energy utilities, using several different methods and data sources; 2) Use of wind resource assessments also spans a wide range of different organizations across multiple sectors of the wind industry; 3) Respondents viewed overprediction in wind resource assessments as an ongoing problem for the wind energy industry; and 4) Respondents overwhelmingly thought that quantifying the uncertainty in wind resource assessments would be valuable, though they also cited several barriers to its use in the wind energy development process. Respondents&#x2019; consensus about the need for high quality site data as well as improved methods for using that data to produce wind resource estimates should help to guide future efforts to serve this community&#x2019;s needs.</gco:CharacterString>
+            <gco:CharacterString>High-quality information about the wind resource at candidate wind farm sites is essential to continue to guide the rapid growth of wind energy in the United States and around the world. In the effort to produce better information through improved wind resource assessment (WRA) methods, input from people within the industry who produce and use this information is key. During the summer of 2013, researchers at the National Center for Atmospheric Research conducted an online survey of WRA experts (both producers and users of WRA information) to learn about current practices, priorities, and informational needs. Key findings from this survey include: 1) Wind resource assessments are produced by a variety of actors, including wind energy developers, consultants, and energy utilities, using several different methods and data sources; 2) Use of wind resource assessments also spans a wide range of different organizations across multiple sectors of the wind industry; 3) Respondents viewed overprediction in wind resource assessments as an ongoing problem for the wind energy industry; and 4) Respondents overwhelmingly thought that quantifying the uncertainty in wind resource assessments would be valuable, though they also cited several barriers to its use in the wind energy development process. Respondents' consensus about the need for high quality site data as well as improved methods for using that data to produce wind resource estimates should help to guide future efforts to serve this community's needs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -253,7 +253,7 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; ECONOMIC RESOURCES &gt; ENERGY PRODUCTION/USE &gt; WIND ENERGY PRODUCTION/USE</gco:CharacterString>
+                  <gco:CharacterString>Wind energy production/use</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

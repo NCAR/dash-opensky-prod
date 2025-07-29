@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:19:53.792466</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:54:50.480043</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7183bf9</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7183bf9</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Understanding strong neutral vertical winds and ionospheric responses to the 2015 St. Patrick's day storm using TIEGCM driven by data&#xe2;&#x20ac;&#xfffd;assimilated aurora and electric fields</gco:CharacterString>
+                  <gco:CharacterString>Understanding strong neutral vertical winds and ionospheric responses to the 2015 St. Patrick's day storm using TIEGCM driven by data-assimilated aurora and electric fields</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7183bf9</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7183bf9</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lu, Xian</gco:CharacterString>
+                        <gco:CharacterString>Lu, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wu, Haonan</gco:CharacterString>
+                        <gco:CharacterString>Wu, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaeppler, Stephen</gco:CharacterString>
+                        <gco:CharacterString>Kaeppler, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Meriwether, John</gco:CharacterString>
+                        <gco:CharacterString>Meriwether, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nishimura, Yukitoshi</gco:CharacterString>
+                        <gco:CharacterString>Nishimura, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Jintai</gco:CharacterString>
+                        <gco:CharacterString>Li, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As one of the strongest geomagnetic storms in Solar Cycle 24, the 2015 St. Patrick's Day storm has attracted significant attention. We revisit this event by taking advantage of simultaneous observations of high-latitude forcings (aurora and electric fields) and ionosphere-thermosphere (I-T) responses. The forcing terms are assimilated to drive the Thermosphere Ionosphere Electrodynamics General Circulation Model (TIEGCM) using a newly adopted Lattice Kriging method (Wu  Lu, 2022, https://doi. org/10.1029/2021SW002880; Wu et al., 2022, https://doi.org/10.1029/2022SW003146). Compared to the default run, the TIEGCM simulation with assimilation captures: (a) secondary E-region electron density peak due to aurora intensification; (b) strongly elevated ion temperatures (up to similar to 3000 K) accompanied by a strong northward electric field (similar to 80 mV/m) and associated ion frictional heating; (c) elevation of electron temperatures; and (d) substantially enhanced neutral vertical winds (order of 50 m/s). Root-mean-square errors decrease by 30%-50%. The strong neutral upwelling is caused by large Joule heating down to similar to 120 km resulting from enhanced aurora and electric field. Data assimilation increases the height-integrated Joule heating at Poker Flat to a level of 50-100 mW/m2 while globally, its maximum value is comparable with the default run: the location of energy deposition becomes guided by data. Traveling atmospheric disturbances in the assimilation run show stronger magnitudes and larger extension leading to an increase of vertical wind variability by a factor of similar to 1.5-3. Our work demonstrates that data assimilation of model drivers helps produce realistic storm-time I-T responses, which show richer dynamic range, scales, and variability than what has been simulated before.</gco:CharacterString>
+            <gco:CharacterString>As one of the strongest geomagnetic storms in Solar Cycle 24, the 2015 St. Patrick's Day storm has attracted significant attention. We revisit this event by taking advantage of simultaneous observations of high-latitude forcings (aurora and electric fields) and ionosphere-thermosphere (I-T) responses. The forcing terms are assimilated to drive the Thermosphere Ionosphere Electrodynamics General Circulation Model (TIEGCM) using a newly adopted Lattice Kriging method (Wu Lu, 2022, https://doi. org/10.1029/2021SW002880; Wu et al., 2022, https://doi.org/10.1029/2022SW003146). Compared to the default run, the TIEGCM simulation with assimilation captures: (a) secondary E-region electron density peak due to aurora intensification; (b) strongly elevated ion temperatures (up to similar to 3000 K) accompanied by a strong northward electric field (similar to 80 mV/m) and associated ion frictional heating; (c) elevation of electron temperatures; and (d) substantially enhanced neutral vertical winds (order of 50 m/s). Root-mean-square errors decrease by 30%-50%. The strong neutral upwelling is caused by large Joule heating down to similar to 120 km resulting from enhanced aurora and electric field. Data assimilation increases the height-integrated Joule heating at Poker Flat to a level of 50-100 mW/m2 while globally, its maximum value is comparable with the default run: the location of energy deposition becomes guided by data. Traveling atmospheric disturbances in the assimilation run show stronger magnitudes and larger extension leading to an increase of vertical wind variability by a factor of similar to 1.5-3. Our work demonstrates that data assimilation of model drivers helps produce realistic storm-time I-T responses, which show richer dynamic range, scales, and variability than what has been simulated before.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

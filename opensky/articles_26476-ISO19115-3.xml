@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:23:31.466707</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:16:33.607534</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7ff3xbf</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7ff3xbf</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.7477577</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Multi-wavelength study of ionospheric irregularities</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7ff3xbf</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7ff3xbf</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Biswas, Trisani</gco:CharacterString>
+                        <gco:CharacterString>Biswas, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weiss, Jan&#xe2;&#x20ac;&#xfffd;Peter</gco:CharacterString>
+                        <gco:CharacterString>Weiss, Jan-Peter</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Paul, Ashik</gco:CharacterString>
+                        <gco:CharacterString>Paul, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper reports observation of moderate to intense scintillations, at S band of Indian Regional Navigation Satellite System (IRNSS). During current solar cycle 25, these occurrences are probably being reported for the first time, from a low-latitude station Calcutta (22.58  DEG;N, 88.38  DEG;E geographic; magnetic dip 34.54  DEG;), located near the northern crest of Equatorial Ionization Anomaly. Efforts have been made to analyze irregularity dynamics at IRNSS S band, along with a comparative study at GNSS L1 to characterize occurrence and evolution of multiscale irregularity structures. Power spectral analysis technique has been applied on recorded C/N-O,N- during scintillation patches, to measure east-west zonal drift velocity. Efforts are also made to study intensity of signal perturbation at L5 frequency of IRNSS, compared to S band, when observed simultaneously, during period of ionospheric scintillation. Concurrent irregularity dynamics at L1, L5, and S band, particularly from a low-latitude station, has not been extensively reported earlier. Data is recorded during vernal equinox (February-April 2022) of current solar cycle. Results of this study show occurrence of simultaneous night-time scintillation at L1, L5, and S band. East-west zonal drift velocity of irregularity, obtained from S band observations are found to decrease with the progress of time during 20-23 LT having a maximum value of 125 m/s. At GNSS L1, hourly average value of the velocity, is observed to maximize during 20-21 LT. Simultaneous observation of scintillation effects at L5 and S band of IRNSS led to loss-of-lock at L5, while no such occurrence was noted at S band.</gco:CharacterString>
+            <gco:CharacterString>This paper reports observation of moderate to intense scintillations, at S band of Indian Regional Navigation Satellite System (IRNSS). During current solar cycle 25, these occurrences are probably being reported for the first time, from a low-latitude station Calcutta (22.58 DEG;N, 88.38 DEG;E geographic; magnetic dip 34.54 DEG;), located near the northern crest of Equatorial Ionization Anomaly. Efforts have been made to analyze irregularity dynamics at IRNSS S band, along with a comparative study at GNSS L1 to characterize occurrence and evolution of multiscale irregularity structures. Power spectral analysis technique has been applied on recorded C/N-O,N- during scintillation patches, to measure east-west zonal drift velocity. Efforts are also made to study intensity of signal perturbation at L5 frequency of IRNSS, compared to S band, when observed simultaneously, during period of ionospheric scintillation. Concurrent irregularity dynamics at L1, L5, and S band, particularly from a low-latitude station, has not been extensively reported earlier. Data is recorded during vernal equinox (February-April 2022) of current solar cycle. Results of this study show occurrence of simultaneous night-time scintillation at L1, L5, and S band. East-west zonal drift velocity of irregularity, obtained from S band observations are found to decrease with the progress of time during 20-23 LT having a maximum value of 125 m/s. At GNSS L1, hourly average value of the velocity, is observed to maximize during 20-21 LT. Simultaneous observation of scintillation effects at L5 and S band of IRNSS led to loss-of-lock at L5, while no such occurrence was noted at S band.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:17.656557</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:25:21.586506</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7z89gkd</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7z89gkd</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7z89gkd</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7z89gkd</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Johnson, Marcus</gco:CharacterString>
+                        <gco:CharacterString>Johnson, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jung, Youngsun</gco:CharacterString>
+                        <gco:CharacterString>Jung, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Milbrandt, Jason A.</gco:CharacterString>
+                        <gco:CharacterString>Milbrandt, J. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xue, Ming</gco:CharacterString>
+                        <gco:CharacterString>Xue, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Many flavors of multicategory, multimoment bulk microphysics schemes (BMPs) have various treatments of rimed ice. In this study, we compare three two-moment schemes available in the WRF Model&#x2014;Milbrandt&#x2013;Yau (MY2), National Severe Storms Laboratory (NSSL), and the two-category configuration of the Predicted Particle Properties (P3) scheme&#x2014;focusing on differences in rimed-ice representation and their impacts on surface rain and ice. Idealized supercell simulations are performed. A polarimetric radar data simulator is used to evaluate their ability to reproduce the ZDR arc and hail signature in the forward-flank downdraft, well-known supercell polarimetric signatures that are potentially sensitive to rimed-ice parameterization. Both the MY2 and NSSL schemes simulate enhanced surface ZDR bands, but neither scheme simulates a ZDR arc commonly identified in observation-based studies. Surface ZDR in the default P3 scheme is homogeneous in the supercell&#x2019;s forward flank, and is due to the scheme&#x2019;s restrictive minimum rain particle size distribution (PSD) slope bound preventing the presence of larger drops creating a ZDR arc. The NSSL scheme simulates the location of the hail signature in the forward-flank downdraft more consistent with observations than the other two schemes. Large hail in MY2 sediments well downstream of the updraft (atypically compared to observations) near the surface. The sedimentation of large ice in the default P3 scheme is limited by a restrictive maximum ice number-weighted mean diameter limit within the scheme, precluding the scheme&#x2019;s ability to reduce ZDR (and &#x3c1;HV compared to the MY2 and NSSL schemes) near the surface.</gco:CharacterString>
+            <gco:CharacterString>Many flavors of multicategory, multimoment bulk microphysics schemes (BMPs) have various treatments of rimed ice. In this study, we compare three two-moment schemes available in the WRF Model&#x2014;Milbrandt&#x2013;Yau (MY2), National Severe Storms Laboratory (NSSL), and the two-category configuration of the Predicted Particle Properties (P3) scheme&#x2014;focusing on differences in rimed-ice representation and their impacts on surface rain and ice. Idealized supercell simulations are performed. A polarimetric radar data simulator is used to evaluate their ability to reproduce the ZDR arc and hail signature in the forward-flank downdraft, well-known supercell polarimetric signatures that are potentially sensitive to rimed-ice parameterization. Both the MY2 and NSSL schemes simulate enhanced surface ZDR bands, but neither scheme simulates a ZDR arc commonly identified in observation-based studies. Surface ZDR in the default P3 scheme is homogeneous in the supercell's forward flank, and is due to the scheme's restrictive minimum rain particle size distribution (PSD) slope bound preventing the presence of larger drops creating a ZDR arc. The NSSL scheme simulates the location of the hail signature in the forward-flank downdraft more consistent with observations than the other two schemes. Large hail in MY2 sediments well downstream of the updraft (atypically compared to observations) near the surface. The sedimentation of large ice in the default P3 scheme is limited by a restrictive maximum ice number-weighted mean diameter limit within the scheme, precluding the scheme's ability to reduce ZDR (and &#x3c1;HV compared to the MY2 and NSSL schemes) near the surface.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:33:51.409146</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:09:21.531983</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d73200fk</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d73200fk</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d73200fk</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d73200fk</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McKinnon, Karen A.</gco:CharacterString>
+                        <gco:CharacterString>McKinnon, K. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The approximately century-long instrumental record of precipitation over land reflects a single sampling of internal variability. Thus, the spatiotemporal evolution of the observations is only one realization of &#x201c;what could have occurred&#x201d; given the same climate system and boundary conditions but different initial conditions. While climate models can be used to produce initial-condition large ensembles that explicitly sample different sequences of internal variability, an analogous approach is not possible for the real world. Here, we explore the use of a statistical model for monthly precipitation to generate synthetic ensembles based on a single record. When tested within the context of the NCAR Community Earth System Model version 1 Large Ensemble (CESM1-LE), we find that the synthetic ensemble can closely reproduce the spatiotemporal statistics of variability and trends in winter precipitation over the extended contiguous United States and that it is difficult to infer the climate change signal in a single record given the magnitude of the variability. We additionally create a synthetic ensemble based on the Global Precipitation Climatology Centre (GPCC) dataset, termed the GPCC-synth-LE; comparison of the GPCC-synth-LE with the CESM1-based ensembles reveals differences in the spatial structures and magnitudes of variability, highlighting the advantages of an observationally based ensemble. We finally use the GPCC-synth-LE to analyze three water resource metrics in the upper Colorado River basin: frequency of dry, wet, and whiplash years. Thirty-one-year &#x201c;climatologies&#x201d; in the GPCC-synth-LE can differ by over 20% in these key water resource metrics due to sampling of internal variability, and individual ensemble members in the GPCC-synth-LE can exhibit large near-monotonic trends over the course of the last century due to sampling of internal variability alone.</gco:CharacterString>
+            <gco:CharacterString>The approximately century-long instrumental record of precipitation over land reflects a single sampling of internal variability. Thus, the spatiotemporal evolution of the observations is only one realization of "what could have occurred" given the same climate system and boundary conditions but different initial conditions. While climate models can be used to produce initial-condition large ensembles that explicitly sample different sequences of internal variability, an analogous approach is not possible for the real world. Here, we explore the use of a statistical model for monthly precipitation to generate synthetic ensembles based on a single record. When tested within the context of the NCAR Community Earth System Model version 1 Large Ensemble (CESM1-LE), we find that the synthetic ensemble can closely reproduce the spatiotemporal statistics of variability and trends in winter precipitation over the extended contiguous United States and that it is difficult to infer the climate change signal in a single record given the magnitude of the variability. We additionally create a synthetic ensemble based on the Global Precipitation Climatology Centre (GPCC) dataset, termed the GPCC-synth-LE; comparison of the GPCC-synth-LE with the CESM1-based ensembles reveals differences in the spatial structures and magnitudes of variability, highlighting the advantages of an observationally based ensemble. We finally use the GPCC-synth-LE to analyze three water resource metrics in the upper Colorado River basin: frequency of dry, wet, and whiplash years. Thirty-one-year "climatologies" in the GPCC-synth-LE can differ by over 20% in these key water resource metrics due to sampling of internal variability, and individual ensemble members in the GPCC-synth-LE can exhibit large near-monotonic trends over the course of the last century due to sampling of internal variability alone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

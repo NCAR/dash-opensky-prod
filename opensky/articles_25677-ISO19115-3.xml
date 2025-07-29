@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:37:20.329280</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:01:09.437087</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7k35zfr</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7k35zfr</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Forecasting convection with a &#x201c;scale-aware&#x201d; Tiedtke cumulus parameterization scheme at kilometer scales</gco:CharacterString>
+                  <gco:CharacterString>Forecasting convection with a "scale-aware" Tiedtke cumulus parameterization scheme at kilometer scales</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7k35zfr</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7k35zfr</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,10 +137,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A scale-aware convective parameterization based on the Tiedtke scheme is developed and tested in the Weather Research and Forecasting (WRF) Model and the Model for Prediction Across Scales (MPAS) for a few convective cases at grid sizes in the ranges of 1.5-4.5 km. These tests demonstrate that the scale-aware scheme effectively reduces the outcome of deep convection by decreasing the convective portion of the total surface precipitation. When compared to the model runs that use microphysics without the cumulus parameterization at these grid sizes, the modified Tiedtke scheme is shown to improve some aspects of the precipitation forecasts. When the scheme is applied on a variable mesh in MPAS, it handles the convection across the mesh transition zones smoothly. &#xD;
-&#xD;
-Significance Statement&#xD;
-Representing convection accounting for variations in the size of grid mesh is crucial in numerical models with variable resolutions, and in precipitation events where convection is not well depicted even by a model mesh of a few kilometers. Many convective parameterizations have already considered this grid-size dependency. This paper fills a gap by applying the same concept to a different convective parameterization, and evaluating it in a few precipitation forecast scenarios.</gco:CharacterString>
+            <gco:CharacterString>A scale-aware convective parameterization based on the Tiedtke scheme is developed and tested in the Weather Research and Forecasting (WRF) Model and the Model for Prediction Across Scales (MPAS) for a few convective cases at grid sizes in the ranges of 1.5-4.5 km. These tests demonstrate that the scale-aware scheme effectively reduces the outcome of deep convection by decreasing the convective portion of the total surface precipitation. When compared to the model runs that use microphysics without the cumulus parameterization at these grid sizes, the modified Tiedtke scheme is shown to improve some aspects of the precipitation forecasts. When the scheme is applied on a variable mesh in MPAS, it handles the convection across the mesh transition zones smoothly. Significance Statement Representing convection accounting for variations in the size of grid mesh is crucial in numerical models with variable resolutions, and in precipitation events where convection is not well depicted even by a model mesh of a few kilometers. Many convective parameterizations have already considered this grid-size dependency. This paper fills a gap by applying the same concept to a different convective parameterization, and evaluating it in a few precipitation forecast scenarios.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

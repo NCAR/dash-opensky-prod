@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:40.855174</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:30:09.220799</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7w66pd6</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7w66pd6</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6RX99HX</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6RX99HX</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7w66pd6</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7w66pd6</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stone, Kane A.</gco:CharacterString>
+                        <gco:CharacterString>Stone, K. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Susan</gco:CharacterString>
+                        <gco:CharacterString>Solomon, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Baggett, Cory F.</gco:CharacterString>
+                        <gco:CharacterString>Baggett, C. F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barnes, Elizabeth A.</gco:CharacterString>
+                        <gco:CharacterString>Barnes, E. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Correlations between springtime stratospheric ozone extremes and subsequent surface temperatures have been previously reported for both models and observations at particular locations in the Northern Hemisphere. Here we quantify for the first time the potential use of ozone information for Northern Hemisphere seasonal forecasts, using observations and a nine&#x2010;member chemistry climate model ensemble. The ensemble composite correlations between March total column ozone (TCO) and April surface temperatures display a similar structure to observations, but with slightly lower correlation magnitudes. This is likely due to the larger number of cases smoothing out sampling error in the pattern, which is visible in the difference between correlations calculated from individual ensemble members. Using a linear regression model with March TCO as the predictor, predictions of the following April surface temperatures in regions that show large correlations are possible up to 4 years following the regression model end date in individual ensemble members, and up to 6 years in observations. We create an empirical forecast model to predict the sign of the observed as well as the modeled surface temperature anomalies using March TCO. Through a leave&#x2010;three&#x2010;years&#x2010;out cross&#x2010;validation method, we show that March TCO can forecast the sign of the April surface temperature anomalies well in parts of Eurasia that show the lowest model internal variability.</gco:CharacterString>
+            <gco:CharacterString>Correlations between springtime stratospheric ozone extremes and subsequent surface temperatures have been previously reported for both models and observations at particular locations in the Northern Hemisphere. Here we quantify for the first time the potential use of ozone information for Northern Hemisphere seasonal forecasts, using observations and a nine-member chemistry climate model ensemble. The ensemble composite correlations between March total column ozone (TCO) and April surface temperatures display a similar structure to observations, but with slightly lower correlation magnitudes. This is likely due to the larger number of cases smoothing out sampling error in the pattern, which is visible in the difference between correlations calculated from individual ensemble members. Using a linear regression model with March TCO as the predictor, predictions of the following April surface temperatures in regions that show large correlations are possible up to 4 years following the regression model end date in individual ensemble members, and up to 6 years in observations. We create an empirical forecast model to predict the sign of the observed as well as the modeled surface temperature anomalies using March TCO. Through a leave-three-years-out cross-validation method, we show that March TCO can forecast the sign of the April surface temperature anomalies well in parts of Eurasia that show the lowest model internal variability.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

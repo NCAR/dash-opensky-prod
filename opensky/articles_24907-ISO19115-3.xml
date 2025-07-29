@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:17:39.489136</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:08:17.036178</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7ks6w1t</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7ks6w1t</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.4029555</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>OMPS-NPP L2 LP USask Aerosol Extinction Vertical Profile swath daily V1.1</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7ks6w1t</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7ks6w1t</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William J.</gco:CharacterString>
+                        <gco:CharacterString>Randel, William</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Stratospheric aerosol, temperature, and ozone anomalies after the 2020 Australian bushfires are documented from satellite observations. Aerosol extinction is enhanced in the Southern Hemisphere (SH) lower stratosphere (LS) in early 2020, comparable in magnitude to the Calbuco eruption in 2015. Warm temperature anomalies of 1&#xe2;&#x20ac;&#x201c;2 K occur in the SH LS during January-April 2020 and are coincident with enhanced aerosols. Radiative heating is indicated through anomalous temperature correlations between lower and higher latitudes. LS ozone shows midlatitude decreases several months after the aerosol maximum and before the polar vortex breakup, reaching extreme minima over the available OMPS record since 2011. Antarctic ozone depletion in the LS in 2020 reached a decadal low for both magnitude and persistence during November-December, along with record low polar temperatures and a strong polar vortex. Overall, the polar ozone depletion, temperature, and polar vortex evolution broadly resembled the effects of the Calbuco eruption in 2015.</gco:CharacterString>
+            <gco:CharacterString>Stratospheric aerosol, temperature, and ozone anomalies after the 2020 Australian bushfires are documented from satellite observations. Aerosol extinction is enhanced in the Southern Hemisphere (SH) lower stratosphere (LS) in early 2020, comparable in magnitude to the Calbuco eruption in 2015. Warm temperature anomalies of 1&#x2013;2 K occur in the SH LS during January-April 2020 and are coincident with enhanced aerosols. Radiative heating is indicated through anomalous temperature correlations between lower and higher latitudes. LS ozone shows midlatitude decreases several months after the aerosol maximum and before the polar vortex breakup, reaching extreme minima over the available OMPS record since 2011. Antarctic ozone depletion in the LS in 2020 reached a decadal low for both magnitude and persistence during November-December, along with record low polar temperatures and a strong polar vortex. Overall, the polar ozone depletion, temperature, and polar vortex evolution broadly resembled the effects of the Calbuco eruption in 2015.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:40:54.954342</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:56:34.721239</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7474frj</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7474frj</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5066/F7D798H6</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5066/F7D798H6</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7474frj</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7474frj</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heldmyer, Aaron</gco:CharacterString>
+                        <gco:CharacterString>Heldmyer, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Livneh, Ben</gco:CharacterString>
+                        <gco:CharacterString>Livneh, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kasprzyk, Joseph</gco:CharacterString>
+                        <gco:CharacterString>Kasprzyk, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Minear, Toby</gco:CharacterString>
+                        <gco:CharacterString>Minear, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Accurate representation of channel properties is important for forecasting in hydrologic models, as it affects the height, celerity, and attenuation of flood waves. Yet, considerable uncertainty in the parameterization of channel geometry and hydraulic roughness (Manning's n) exists within the NOAA National Water Model (NWM), due largely to data scarcity; only  SIM;2800 out of the 2.7x106 river reach segments in the NWM have measured channel properties. In this study, we seek to improve channel representativeness by updating channel geometry and roughness parameters using a large, previously unpublished hydraulic geometry (HyG) dataset of approximately 48 000 gauges. We begin with a Sobol' sensitivity analysis of channel geometry parameters for 12 small, semi-natural basins across the continental U.S., which reveals an outsized sensitivity of simulated flow to Manning's n relative to channel geometry parameters. We then develop and evaluate a set of regression-based regionalizations of channel parameters estimated using the HyG dataset. Finally, we compare the model output generated from updated channel parameter sets to observations and the current NWM v2.1 parameterization. We find that while the NWM land surface model holds the most influence over flow, given its control over total volume, the updated channel parameterization leads to improvements in simulated streamflow performance relative to observed flows, with a statistically significant mean R2 increase from 0.479 to 0.494 across approximately 7400 gauge locations. HyG-based channel geometry and roughness provide a substantial overall improvement in channel representation over the default parameterization, updating the previous set value for most reaches of Manning's n=0.060 to a new range between 0.006 and 0.537 (median 0.077). This research provides a more representative, observationally based channel parameter dataset for the NWM routing module and new insight into the influence of the routing module within the overall modeling framework.</gco:CharacterString>
+            <gco:CharacterString>Accurate representation of channel properties is important for forecasting in hydrologic models, as it affects the height, celerity, and attenuation of flood waves. Yet, considerable uncertainty in the parameterization of channel geometry and hydraulic roughness (Manning's n) exists within the NOAA National Water Model (NWM), due largely to data scarcity; only SIM;2800 out of the 2.7x106 river reach segments in the NWM have measured channel properties. In this study, we seek to improve channel representativeness by updating channel geometry and roughness parameters using a large, previously unpublished hydraulic geometry (HyG) dataset of approximately 48 000 gauges. We begin with a Sobol' sensitivity analysis of channel geometry parameters for 12 small, semi-natural basins across the continental U.S., which reveals an outsized sensitivity of simulated flow to Manning's n relative to channel geometry parameters. We then develop and evaluate a set of regression-based regionalizations of channel parameters estimated using the HyG dataset. Finally, we compare the model output generated from updated channel parameter sets to observations and the current NWM v2.1 parameterization. We find that while the NWM land surface model holds the most influence over flow, given its control over total volume, the updated channel parameterization leads to improvements in simulated streamflow performance relative to observed flows, with a statistically significant mean R2 increase from 0.479 to 0.494 across approximately 7400 gauge locations. HyG-based channel geometry and roughness provide a substantial overall improvement in channel representation over the default parameterization, updating the previous set value for most reaches of Manning's n=0.060 to a new range between 0.006 and 0.537 (median 0.077). This research provides a more representative, observationally based channel parameter dataset for the NWM routing module and new insight into the influence of the routing module within the overall modeling framework.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

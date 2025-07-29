@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:12:14.712415</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:30.926406</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3p2k</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7qv3p2k</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3p2k</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7qv3p2k</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wu, Ye&#x2010;Wen</gco:CharacterString>
+                        <gco:CharacterString>Wu, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Rui&#x2010;Yuan</gco:CharacterString>
+                        <gco:CharacterString>Liu, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Bei&#x2010;Chen</gco:CharacterString>
+                        <gco:CharacterString>Zhang, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wen&#x2010;Bin</gco:CharacterString>
+                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Shun&#x2010;Rong</gco:CharacterString>
+                        <gco:CharacterString>Zhang, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Qing&#x2010;He</gco:CharacterString>
+                        <gco:CharacterString>Zhang, Q.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hu, Hong&#x2010;Qiao</gco:CharacterString>
+                        <gco:CharacterString>Hu, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lu, Jian&#x2010;Yong</gco:CharacterString>
+                        <gco:CharacterString>Lu, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Mean polar electron content (mPEC) is used to analyze the polar ionosphere in both the Antarctic and Arctic. The mPEC is calculated over the polar region covering geographic latitudes higher than 60&#xb0; from the global distributed vertical total electron contents based on electron density profiles observed by Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC). Using this parameter, the universal time (UT) variation of the polar ionosphere is quantitatively characterized. This UT variation exists an opposite phase (i.e., a 12&#x2010;hr phase difference) between them. The mPEC standard deviation (SD) in the Antarctic is larger in summer and autumn (being 1.37 and 0.78 TECu, respectively) and smaller in winter (0.29 TECu) and spring (0.61 TECu). The SD in the Arctic, however, is the largest in winter (0.14 TECu). In other seasons, the SD is less than 0.1 TECu. (being 0.07 TECu in spring, 0.05 TECu in summer, and 0.08 TECu in autumn, respectively). We use SD over the mean value to describe relative intensity of mPEC variations. This relative intensity is larger in winter for both Antarctic and Arctic regions. The UT variation in intensity is much stronger in the Antarctic than in the Arctic. These characteristics are attributed to the fact that the separation of the geomagnetic pole and geographic pole is dihedral and the angle is larger in the Antarctic. The larger angle causes more electrons transported into the polar region when the geomagnetic pole is on the dayside and fewer electrons transported into the polar region when the geomagnetic pole is on the nightside.</gco:CharacterString>
+            <gco:CharacterString>Mean polar electron content (mPEC) is used to analyze the polar ionosphere in both the Antarctic and Arctic. The mPEC is calculated over the polar region covering geographic latitudes higher than 60&#xb0; from the global distributed vertical total electron contents based on electron density profiles observed by Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC). Using this parameter, the universal time (UT) variation of the polar ionosphere is quantitatively characterized. This UT variation exists an opposite phase (i.e., a 12-hr phase difference) between them. The mPEC standard deviation (SD) in the Antarctic is larger in summer and autumn (being 1.37 and 0.78 TECu, respectively) and smaller in winter (0.29 TECu) and spring (0.61 TECu). The SD in the Arctic, however, is the largest in winter (0.14 TECu). In other seasons, the SD is less than 0.1 TECu. (being 0.07 TECu in spring, 0.05 TECu in summer, and 0.08 TECu in autumn, respectively). We use SD over the mean value to describe relative intensity of mPEC variations. This relative intensity is larger in winter for both Antarctic and Arctic regions. The UT variation in intensity is much stronger in the Antarctic than in the Arctic. These characteristics are attributed to the fact that the separation of the geomagnetic pole and geographic pole is dihedral and the angle is larger in the Antarctic. The larger angle causes more electrons transported into the polar region when the geomagnetic pole is on the dayside and fewer electrons transported into the polar region when the geomagnetic pole is on the nightside.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

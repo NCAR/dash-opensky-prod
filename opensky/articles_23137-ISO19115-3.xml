@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:12:25.726130</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:21:30.691259</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7xg9v94</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7xg9v94</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>A comprehensive assessment of tropical stratospheric upwelling in the specified dynamics Community Earth System Model 1.2.2 &amp;#8211; Whole Atmosphere Community Climate Model (CESM (WACCM))</gco:CharacterString>
+                  <gco:CharacterString>A comprehensive assessment of tropical stratospheric upwelling in the specified dynamics Community Earth System Model 1.2.2 &amp;amp;#8211; Whole Atmosphere Community Climate Model (CESM (WACCM))</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7xg9v94</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7xg9v94</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Davis, Sean M.</gco:CharacterString>
+                        <gco:CharacterString>Davis, S. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Portmann, Robert W.</gco:CharacterString>
+                        <gco:CharacterString>Portmann, R. W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ray, Eric</gco:CharacterString>
+                        <gco:CharacterString>Ray, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rosenlof, Karen H.</gco:CharacterString>
+                        <gco:CharacterString>Rosenlof, K. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yu, Pengfei</gco:CharacterString>
+                        <gco:CharacterString>Yu, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Specified dynamics (SD) schemes relax the circulation in climate models toward a reference meteorology to simulate historical variability. These simulations are widely used to isolate the dynamical contributions to variability and trends in trace gas species. However, it is not clear if trends in the stratospheric overturning circulation are properly reproduced by SD schemes. This study assesses numerous SD schemes and modeling choices in the Community Earth System Model (CESM) Whole Atmosphere Chemistry Climate Model (WACCM) to determine a set of best practices for reproducing interannual variability and trends in tropical stratospheric upwelling estimated by reanalyses. Nudging toward the reanalysis meteorology as is typically done in SD simulations does not accurately reproduce lower-stratospheric upwelling trends present in the underlying reanalysis. In contrast, nudging to anomalies from the climatological winds or anomalies from the zonal-mean winds and temperatures better reproduces trends in lower-stratospheric upwelling, possibly because these schemes do not disrupt WACCM's climatology. None of the schemes substantially alter the structure of upwelling trends &#xe2;&#x80;&#x93; instead, they make the trends more or less AMIP-like. An SD scheme's performance in simulating the acceleration of the shallow branch of the mean meridional circulation from 1980 to 2017 hinges on its ability to simulate the downward shift of subtropical lower-stratospheric wave momentum forcing. Key to this is not nudging the zonal-mean temperature field. Gravity wave momentum forcing, which drives a substantial fraction of the upwelling in WACCM, cannot be constrained by nudging and presents an upper limit on the performance of these schemes.</gco:CharacterString>
+            <gco:CharacterString>Specified dynamics (SD) schemes relax the circulation in climate models toward a reference meteorology to simulate historical variability. These simulations are widely used to isolate the dynamical contributions to variability and trends in trace gas species. However, it is not clear if trends in the stratospheric overturning circulation are properly reproduced by SD schemes. This study assesses numerous SD schemes and modeling choices in the Community Earth System Model (CESM) Whole Atmosphere Chemistry Climate Model (WACCM) to determine a set of best practices for reproducing interannual variability and trends in tropical stratospheric upwelling estimated by reanalyses. Nudging toward the reanalysis meteorology as is typically done in SD simulations does not accurately reproduce lower-stratospheric upwelling trends present in the underlying reanalysis. In contrast, nudging to anomalies from the climatological winds or anomalies from the zonal-mean winds and temperatures better reproduces trends in lower-stratospheric upwelling, possibly because these schemes do not disrupt WACCM's climatology. None of the schemes substantially alter the structure of upwelling trends &#x2013; instead, they make the trends more or less AMIP-like. An SD scheme's performance in simulating the acceleration of the shallow branch of the mean meridional circulation from 1980 to 2017 hinges on its ability to simulate the downward shift of subtropical lower-stratospheric wave momentum forcing. Key to this is not nudging the zonal-mean temperature field. Gravity wave momentum forcing, which drives a substantial fraction of the upwelling in WACCM, cannot be constrained by nudging and presents an upper limit on the performance of these schemes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

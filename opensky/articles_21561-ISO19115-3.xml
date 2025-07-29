@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:18:32.578395</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:40:12.819721</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74m978g</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74m978g</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74m978g</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74m978g</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Shaomeng</gco:CharacterString>
+                        <gco:CharacterString>Li, Samuel</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clyne, John</gco:CharacterString>
+                        <gco:CharacterString>Clyne, John P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Data reduction is increasingly being applied to scientific data for numerical simulations, scientific visualizations and data analyses. It is most often used to lower I/O and storage costs, and sometimes to lower in&#x2010;memory data size as well. With this paper, we consider five categories of data reduction techniques based on their information loss: (1) truly lossless, (2) near lossless, (3) lossy, (4) mesh reduction and (5) derived representations. We then survey available techniques in each of these categories, summarize their properties from a practical point of view and discuss relative merits within a category. We believe, in total, this work will enable simulation scientists and visualization/data analysis scientists to decide which data reduction techniques will be most helpful for their needs.</gco:CharacterString>
+            <gco:CharacterString>Data reduction is increasingly being applied to scientific data for numerical simulations, scientific visualizations and data analyses. It is most often used to lower I/O and storage costs, and sometimes to lower in-memory data size as well. With this paper, we consider five categories of data reduction techniques based on their information loss: (1) truly lossless, (2) near lossless, (3) lossy, (4) mesh reduction and (5) derived representations. We then survey available techniques in each of these categories, summarize their properties from a practical point of view and discuss relative merits within a category. We believe, in total, this work will enable simulation scientists and visualization/data analysis scientists to decide which data reduction techniques will be most helpful for their needs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

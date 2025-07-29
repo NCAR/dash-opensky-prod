@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:31:37.775039</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:13:23.609043</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7j38wwk</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7j38wwk</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7j38wwk</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7j38wwk</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lombardozzi, Danica L.</gco:CharacterString>
+                        <gco:CharacterString>Lombardozzi, Danica</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fiore, Arlene M.</gco:CharacterString>
+                        <gco:CharacterString>Fiore, A. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Paulot, Fabien</gco:CharacterString>
+                        <gco:CharacterString>Paulot, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Horowitz, Larry W.</gco:CharacterString>
+                        <gco:CharacterString>Horowitz, L. W.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ambient ozone uptake by plant stomata degrades ecosystem and crop health and alters local-to-global carbon and water cycling. Metrics for ozone plant damage are often based solely on ambient ozone concentrations, overlooking the role of variations in stomatal activity. A better metric is the cumulative stomatal uptake of ozone (CUO), which indicates the amount of ozone entering the leaf over time available to cause physiological damage. Here we apply the NOAA GFDL global earth system model to assess the importance of capturing interannual variations and 21st century changes in surface ozone versus stomatal conductance for regional mean CUO using 20-year time-slice simulations at the 2010s and 2090s for a high-warming climate and emissions scenario. The GFDL model includes chemistry-climate interactions and couples atmospheric and land components through not only carbon, water, and energy exchanges, but also reactive trace gases&#xe2;&#x80;&#x94;in particular, ozone dry deposition simulated by the land influences surface ozone concentrations. Our 20-year time slice simulations hold anthropogenic precursor emissions, well-mixed greenhouse gases, and land use distributions fixed at either 2010 or 2090 values. We find that CUO responds much more strongly to interannual and daily variability in stomatal conductance than in ozone. On the other hand, long-term changes in ozone explain 44%&#xe2;&#x80;&#x93;90% of the annual CUO change in regions with decreases, largely driven by the impact of 21st century anthropogenic NOx emission trends on summer surface ozone. In some regions, increases in stomatal conductance from the 2010s to 2090s counteract the influence of lower ozone on CUO. We also find that summertime stomatal closure under high carbon dioxide levels can offset the impacts of higher springtime leaf area (e.g. earlier leaf out) and associated stomatal conductance on CUO. Our findings underscore the importance of considering plant physiology in assessing ozone vegetation damage, particularly in quantifying year-to-year changes.</gco:CharacterString>
+            <gco:CharacterString>Ambient ozone uptake by plant stomata degrades ecosystem and crop health and alters local-to-global carbon and water cycling. Metrics for ozone plant damage are often based solely on ambient ozone concentrations, overlooking the role of variations in stomatal activity. A better metric is the cumulative stomatal uptake of ozone (CUO), which indicates the amount of ozone entering the leaf over time available to cause physiological damage. Here we apply the NOAA GFDL global earth system model to assess the importance of capturing interannual variations and 21st century changes in surface ozone versus stomatal conductance for regional mean CUO using 20-year time-slice simulations at the 2010s and 2090s for a high-warming climate and emissions scenario. The GFDL model includes chemistry-climate interactions and couples atmospheric and land components through not only carbon, water, and energy exchanges, but also reactive trace gases&#x2014;in particular, ozone dry deposition simulated by the land influences surface ozone concentrations. Our 20-year time slice simulations hold anthropogenic precursor emissions, well-mixed greenhouse gases, and land use distributions fixed at either 2010 or 2090 values. We find that CUO responds much more strongly to interannual and daily variability in stomatal conductance than in ozone. On the other hand, long-term changes in ozone explain 44%&#x2013;90% of the annual CUO change in regions with decreases, largely driven by the impact of 21st century anthropogenic NOx emission trends on summer surface ozone. In some regions, increases in stomatal conductance from the 2010s to 2090s counteract the influence of lower ozone on CUO. We also find that summertime stomatal closure under high carbon dioxide levels can offset the impacts of higher springtime leaf area (e.g. earlier leaf out) and associated stomatal conductance on CUO. Our findings underscore the importance of considering plant physiology in assessing ozone vegetation damage, particularly in quantifying year-to-year changes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

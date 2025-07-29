@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:10:04.028993</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:26:05.135903</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7pn98rg</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7pn98rg</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Assessment of storm wind speed prediction using gridded Bayesian regression applied to historical events with NCAR's real&#x2010;time ensemble forecast system</gco:CharacterString>
+                  <gco:CharacterString>Assessment of storm wind speed prediction using gridded Bayesian regression applied to historical events with NCAR's real-time ensemble forecast system</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7pn98rg</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7pn98rg</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yang, Jaemo</gco:CharacterString>
+                        <gco:CharacterString>Yang, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Astitha, Marina</gco:CharacterString>
+                        <gco:CharacterString>Astitha, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schwartz, Craig Steven</gco:CharacterString>
+                        <gco:CharacterString>Schwartz, Craig S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study presents the development and application of gridded Bayesian linear regression (GBLR) as a new statistical postprocessing technique to improve deterministic numerical weather prediction of storm wind speed forecasts over the northeast United States. GBLR products are produced by interpolating regression coefficients deduced from modeled&#x2010;observed pairs of historical storms at meteorological stations to grid points, thus producing a gridded product. The GBLR model is developed for the 10 members of the National Center for Atmospheric Research (NCAR) real&#x2010;time dynamic ensemble prediction system for a database composed of 92 storms, using leave&#x2010;one&#x2010;storm&#x2010;out cross validation. GBLR almost eliminates the bias of the raw deterministic prediction and achieves average coefficient of determination (R2) improvement of 36% and root&#x2010;mean&#x2010;square error reduction of 29% with respect to the ensemble mean for individual storm forecasts. Moreover, verification using leave&#x2010;one&#x2010;station&#x2010;out cross validation indicates that the GBLR model provides acceptable forecast improvements for grid points where no observations are available. The GBLR technique contributes to improving gridded storm wind speed forecasts using past event&#x2010;based data and has the potential to be implemented in real time.</gco:CharacterString>
+            <gco:CharacterString>This study presents the development and application of gridded Bayesian linear regression (GBLR) as a new statistical postprocessing technique to improve deterministic numerical weather prediction of storm wind speed forecasts over the northeast United States. GBLR products are produced by interpolating regression coefficients deduced from modeled-observed pairs of historical storms at meteorological stations to grid points, thus producing a gridded product. The GBLR model is developed for the 10 members of the National Center for Atmospheric Research (NCAR) real-time dynamic ensemble prediction system for a database composed of 92 storms, using leave-one-storm-out cross validation. GBLR almost eliminates the bias of the raw deterministic prediction and achieves average coefficient of determination (R2) improvement of 36% and root-mean-square error reduction of 29% with respect to the ensemble mean for individual storm forecasts. Moreover, verification using leave-one-station-out cross validation indicates that the GBLR model provides acceptable forecast improvements for grid points where no observations are available. The GBLR technique contributes to improving gridded storm wind speed forecasts using past event-based data and has the potential to be implemented in real time.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

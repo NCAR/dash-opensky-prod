@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:23:07.899906</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:25:44.421054</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7wh2t3d</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7wh2t3d</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7wh2t3d</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7wh2t3d</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Li, Shaomeng</gco:CharacterString>
+                        <gco:CharacterString>Li, Samuel</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orf, Leigh</gco:CharacterString>
+                        <gco:CharacterString>Orf, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clyne, John</gco:CharacterString>
+                        <gco:CharacterString>Clyne, John P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Visualization is an essential tool for analysis of data and communication of findings in the sciences, and the Earth System Sciences (ESS) are no exception. However, within ESS, specialized visualization requirements and data models, particularly for those data arising from numerical models, often make general purpose visualization packages difficult, if not impossible, to use effectively. This paper presents VAPOR: a domain-specific visualization package that targets the specialized needs of ESS modelers, particularly those working in research settings where highly-interactive exploratory visualization is beneficial. We specifically describe VAPOR&#x2019;s ability to handle ESS simulation data from a wide variety of numerical models, as well as a multi-resolution representation that enables interactive visualization on very large data while using only commodity computing resources. We also describe VAPOR&#x2019;s visualization capabilities, paying particular attention to features for geo-referenced data and advanced rendering algorithms suitable for time-varying, 3D data. Finally, we illustrate VAPOR&#x2019;s utility in the study of a numerically- simulated tornado. Our results demonstrate both ease-of-use and the rich capabilities of VAPOR in such a use case.</gco:CharacterString>
+            <gco:CharacterString>Visualization is an essential tool for analysis of data and communication of findings in the sciences, and the Earth System Sciences (ESS) are no exception. However, within ESS, specialized visualization requirements and data models, particularly for those data arising from numerical models, often make general purpose visualization packages difficult, if not impossible, to use effectively. This paper presents VAPOR: a domain-specific visualization package that targets the specialized needs of ESS modelers, particularly those working in research settings where highly-interactive exploratory visualization is beneficial. We specifically describe VAPOR's ability to handle ESS simulation data from a wide variety of numerical models, as well as a multi-resolution representation that enables interactive visualization on very large data while using only commodity computing resources. We also describe VAPOR's visualization capabilities, paying particular attention to features for geo-referenced data and advanced rendering algorithms suitable for time-varying, 3D data. Finally, we illustrate VAPOR's utility in the study of a numerically- simulated tornado. Our results demonstrate both ease-of-use and the rich capabilities of VAPOR in such a use case.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

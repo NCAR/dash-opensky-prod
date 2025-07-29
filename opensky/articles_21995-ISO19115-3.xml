@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:21:56.000129</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:36:52.780343</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7pz5cqv</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7pz5cqv</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7pz5cqv</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7pz5cqv</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Reeves, John M.</gco:CharacterString>
+                        <gco:CharacterString>Reeves, John Michael</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan</gco:CharacterString>
+                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca S.</gco:CharacterString>
+                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +367,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Most intensive field studies investigating aerosols have been conducted in summer, and thus, wintertime aerosol sources and chemistry are comparatively poorly understood. An aerosol mass spectrometer was flown on the National Science Foundation/National Center for Atmospheric Research C&#x2010;130 during the Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) 2015 campaign in the northeast United States. The fraction of boundary layer submicron aerosol that was organic aerosol (OA) was about a factor of 2 smaller than during a 2011 summertime study in a similar region. However, the OA measured in WINTER was almost as oxidized as OA measured in several other studies in warmer months of the year. Fifty&#x2010;eight percent of the OA was oxygenated (secondary), and 42% was primary (POA). Biomass burning OA (likely from residential heating) was ubiquitous and accounted for 33% of the OA mass. Using nonvolatile POA, one of two default secondary OA (SOA) formulations in GEOS&#x2010;Chem (v10&#x2010;01) shows very large underpredictions of SOA and O/C (5&#xd7;) and overprediction of POA (2&#xd7;). We strongly recommend against using that formulation in future studies. Semivolatile POA, an alternative default in GEOS&#x2010;Chem, or a simplified parameterization (SIMPLE) were closer to the observations, although still with substantial differences. A case study of urban outflow from metropolitan New York City showed a consistent amount and normalized rate of added OA mass (due to SOA formation) compared to summer studies, although proceeding more slowly due to lower OH concentrations. A box model and SIMPLE perform similarly for WINTER as for Los Angeles, with an underprediction at ages &lt;6 hr, suggesting that fast chemistry might be missing from the models.</gco:CharacterString>
+            <gco:CharacterString>Most intensive field studies investigating aerosols have been conducted in summer, and thus, wintertime aerosol sources and chemistry are comparatively poorly understood. An aerosol mass spectrometer was flown on the National Science Foundation/National Center for Atmospheric Research C-130 during the Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) 2015 campaign in the northeast United States. The fraction of boundary layer submicron aerosol that was organic aerosol (OA) was about a factor of 2 smaller than during a 2011 summertime study in a similar region. However, the OA measured in WINTER was almost as oxidized as OA measured in several other studies in warmer months of the year. Fifty-eight percent of the OA was oxygenated (secondary), and 42% was primary (POA). Biomass burning OA (likely from residential heating) was ubiquitous and accounted for 33% of the OA mass. Using nonvolatile POA, one of two default secondary OA (SOA) formulations in GEOS-Chem (v10-01) shows very large underpredictions of SOA and O/C (5&#xd7;) and overprediction of POA (2&#xd7;). We strongly recommend against using that formulation in future studies. Semivolatile POA, an alternative default in GEOS-Chem, or a simplified parameterization (SIMPLE) were closer to the observations, although still with substantial differences. A case study of urban outflow from metropolitan New York City showed a consistent amount and normalized rate of added OA mass (due to SOA formation) compared to summer studies, although proceeding more slowly due to lower OH concentrations. A box model and SIMPLE perform similarly for WINTER as for Los Angeles, with an underprediction at ages &lt;6 hr, suggesting that fast chemistry might be missing from the models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

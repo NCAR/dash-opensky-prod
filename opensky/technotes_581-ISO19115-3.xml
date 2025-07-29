@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:06:35.554946</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:23:35.427899</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7gf0xp3</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7gf0xp3</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.7910/DVN/QRKIBW</gmd:URL>
+                  <gmd:URL>https://doi.org/10.7910/DVN/QRKIBW</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5281/zenodo.2925547</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.2925547</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -143,7 +143,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7gf0xp3</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7gf0xp3</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -263,181 +263,172 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; PALEOCLIMATE &gt; PALEOCLIMATE RECONSTRUCTIONS &gt; SEA SURFACE TEMPERATURE RECONSTRUCTION</gco:CharacterString>
+                  <gco:CharacterString>Hydrologic and terrestrial water cycle models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; PALEOCLIMATE INDICATORS &gt; PALEOCLIMATE RECONSTRUCTIONS &gt; SEA SURFACE TEMPERATURE RECONSTRUCTION</gco:CharacterString>
+                  <gco:CharacterString>Water management</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC CHEMISTRY &gt; OXYGEN COMPOUNDS &gt; ATMOSPHERIC OZONE</gco:CharacterString>
+                  <gco:CharacterString>El nino southern oscillation (enso)</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA MANAGEMENT/DATA HANDLING &gt; DATA ACCESS/RETRIEVAL</gco:CharacterString>
+                  <gco:CharacterString>Data mining</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; PRECIPITATION INDICATORS &gt; PRECIPITATION VARIABILITY</gco:CharacterString>
+                  <gco:CharacterString>Monsoons</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CRYOSPHERE &gt; SNOW/ICE &gt; SNOW WATER EQUIVALENT</gco:CharacterString>
+                  <gco:CharacterString>Extreme weather</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; CRYOSPHERE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Cloud properties</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD TYPES</gco:CharacterString>
+                  <gco:CharacterString>Data analysis</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; VEGETATION &gt; VEGETATION OPTICAL DEPTH</gco:CharacterString>
+                  <gco:CharacterString>Soil moisture</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; LAND SURFACE/AGRICULTURE INDICATORS &gt; SOIL MOISTURE</gco:CharacterString>
+                  <gco:CharacterString>Snow water equivalent</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; AIR QUALITY &gt; PARTICULATES</gco:CharacterString>
+                  <gco:CharacterString>Discharge/flow</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; RAIN STORMS</gco:CharacterString>
+                  <gco:CharacterString>Isotopes</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; ATMOSPHERIC GENERAL CIRCULATION MODELS</gco:CharacterString>
+                  <gco:CharacterString>Species/population interactions</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; CRYOSPHERIC INDICATORS &gt; AVALANCHE</gco:CharacterString>
+                  <gco:CharacterString>Cryosphere models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; TELECONNECTIONS &gt; EL NINO SOUTHERN OSCILLATION (ENSO)</gco:CharacterString>
+                  <gco:CharacterString>Sea surface temperature reconstruction</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; EXTREME WEATHER &gt; MONSOON ONSET/INTENSITY</gco:CharacterString>
+                  <gco:CharacterString>Data access/retrieval</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; MONSOONS</gco:CharacterString>
+                  <gco:CharacterString>Vegetation optical depth</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; SEA SURFACE TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Avalanche</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; OCEAN GENERAL CIRCULATION MODELS (OGCM)/REGIONAL OCEAN MODELS</gco:CharacterString>
+                  <gco:CharacterString>Ocean general circulation models (ogcm)/regional ocean models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN CHEMISTRY &gt; CARBON</gco:CharacterString>
+                  <gco:CharacterString>Water temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; PALEOCLIMATE INDICATORS &gt; PALEOCLIMATE RECONSTRUCTIONS &gt; AIR TEMPERATURE RECONSTRUCTION</gco:CharacterString>
+                  <gco:CharacterString>Fresh water river discharge</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; PALEOCLIMATE &gt; PALEOCLIMATE RECONSTRUCTIONS &gt; AIR TEMPERATURE RECONSTRUCTION</gco:CharacterString>
+                  <gco:CharacterString>Extratropical cyclones</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; OCEANS &gt; OCEAN TEMPERATURE &gt; WATER TEMPERATURE</gco:CharacterString>
+                  <gco:CharacterString>Cloud radiative transfer</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION AMOUNT</gco:CharacterString>
+                  <gco:CharacterString>Floods</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; SURFACE WATER PROCESSES/MEASUREMENTS &gt; DISCHARGE/FLOW</gco:CharacterString>
+                  <gco:CharacterString>Cave deposits</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; HYDROLOGIC AND TERRESTRIAL WATER CYCLE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Coupled climate models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; EARTH SCIENCE REANALYSES/ASSIMILATION MODELS</gco:CharacterString>
+                  <gco:CharacterString>Heat flux</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; BIOSPHERIC INDICATORS &gt; SPECIES MIGRATION</gco:CharacterString>
+                  <gco:CharacterString>Data visualization</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOSYSTEMS &gt; ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS &gt; AGRICULTURAL LANDS &gt; CROPLAND</gco:CharacterString>
+                  <gco:CharacterString>Atmospheric ozone</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; SPECIES/POPULATION INTERACTIONS</gco:CharacterString>
+                  <gco:CharacterString>Temperature anomalies</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; FRESH WATER RIVER DISCHARGE</gco:CharacterString>
+                  <gco:CharacterString>Precipitation amount</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; DATA VISUALIZATION</gco:CharacterString>
+                  <gco:CharacterString>Earth science reanalyses/assimilation models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; ENVIRONMENTAL GOVERNANCE/MANAGEMENT &gt; WATER MANAGEMENT</gco:CharacterString>
+                  <gco:CharacterString>Precipitation variability</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; HAZARDS MANAGEMENT &gt; HAZARDS PLANNING</gco:CharacterString>
+                  <gco:CharacterString>Hazards planning</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; HAZARDS MANAGEMENT &gt; HAZARDS MITIGATION</gco:CharacterString>
+                  <gco:CharacterString>Statistical applications</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; GLOBAL CHANGE RESPONSES &gt; CLIMATE MITIGATION</gco:CharacterString>
+                  <gco:CharacterString>Rain storms</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; IMAGE PROCESSING</gco:CharacterString>
+                  <gco:CharacterString>Cloud types</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; OUTGOING LONGWAVE RADIATION</gco:CharacterString>
+                  <gco:CharacterString>Species migration</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; WEATHER RESEARCH/FORECAST MODELS</gco:CharacterString>
+                  <gco:CharacterString>Carbon</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Particulates</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; TROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Temperature variability</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; BIOSPHERE &gt; ECOLOGICAL DYNAMICS &gt; ECOSYSTEM FUNCTIONS &gt; PRIMARY PRODUCTION</gco:CharacterString>
+                  <gco:CharacterString>Hazards mitigation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; HEAT FLUX</gco:CharacterString>
+                  <gco:CharacterString>Hazard mapping</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; EXTREME WEATHER</gco:CharacterString>
+                  <gco:CharacterString>Cropland</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; WEATHER EVENTS &gt; EXTRATROPICAL CYCLONES</gco:CharacterString>
+                  <gco:CharacterString>Monsoon onset/intensity</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; MODELS &gt; COUPLED CLIMATE MODELS</gco:CharacterString>
+                  <gco:CharacterString>Tropospheric/high-level clouds (observed/analyzed)</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; HAZARDS MANAGEMENT &gt; HAZARD MAPPING</gco:CharacterString>
+                  <gco:CharacterString>Outgoing longwave radiation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; NATURAL HAZARDS &gt; FLOODS</gco:CharacterString>
+                  <gco:CharacterString>Primary production</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; ATMOSPHERIC/OCEAN INDICATORS &gt; TEMPERATURE INDICATORS &gt; TEMPERATURE VARIABILITY</gco:CharacterString>
+                  <gco:CharacterString>Atmospheric heating</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC TEMPERATURE &gt; SURFACE TEMPERATURE &gt; TEMPERATURE ANOMALIES</gco:CharacterString>
+                  <gco:CharacterString>Climate mitigation</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; TROPOSPHERIC/HIGH-LEVEL CLOUDS (OBSERVED/ANALYZED)</gco:CharacterString>
+                  <gco:CharacterString>Atmospheric general circulation models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD RADIATIVE TRANSFER</gco:CharacterString>
+                  <gco:CharacterString>Tropical cyclones</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; CLOUDS &gt; CLOUD PROPERTIES</gco:CharacterString>
+                  <gco:CharacterString>Air temperature reconstruction</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ATMOSPHERIC HEATING</gco:CharacterString>
+                  <gco:CharacterString>Weather research/forecast models</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; DATA ANALYSIS</gco:CharacterString>
+                  <gco:CharacterString>Image processing</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; PALEOCLIMATE INDICATORS &gt; LAND RECORDS &gt; ISOTOPES</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE &gt; CLIMATE INDICATORS &gt; PALEOCLIMATE INDICATORS &gt; LAND RECORDS &gt; CAVE DEPOSITS</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA ANALYSIS AND VISUALIZATION &gt; STATISTICAL APPLICATIONS</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>EARTH SCIENCE SERVICES &gt; DATA MANAGEMENT/DATA HANDLING &gt; DATA MINING</gco:CharacterString>
+                  <gco:CharacterString>Sea surface temperature</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>

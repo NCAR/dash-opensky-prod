@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:29:17.158325</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:20:23.965636</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7sb4939</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7sb4939</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Impact of the hydrometeor vertical advection method on HWRF&#x2019;s simulated hurricane structure</gco:CharacterString>
+                  <gco:CharacterString>Impact of the hydrometeor vertical advection method on HWRF's simulated hurricane structure</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7sb4939</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7sb4939</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bao, Shaowu</gco:CharacterString>
+                        <gco:CharacterString>Bao, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of different hydrometeor advection schemes on TC structure and intensity forecasts is examined through the evaluation of HWRF&#x2019;s simulation of tropical cyclones using the operational Ferrier&#x2013;Aligo (FA) microphysics that uses total condensate advection versus the same scheme but with separate hydrometeor advection (FA-adv). Results showed that FA-adv simulated larger storms. Idealized simulations revealed that the cause of the simulation differences is the characteristics of the vertical profile of cloud water (Qc), which has a sharp gradient near 850 hPa, and rainwater (Qr), which is vertically uniform below the melting layer. In FA, the resultant total condensate profile has a gradient near 850 hPa that is smaller than that of Qc but larger than that of Qr. In FA when the total condensate is advected and partitioned back to Qc and Qr, the advection of Qc is underestimated and that of Qr is overestimated than that in FA-adv. The separate advection of hydrometeors in the FA-adv scheme corrected this problem and caused the difference in microphysics and dynamics fields between the two schemes. The greater vertical advection of Qc in FA-adv represents a continual source of extra diabatic heating that leads to a greater integrated kinetic energy (IKE) in the storm simulated by FA-adv than FA. However, the radial distribution of the azimuthally averaged additional diabatic heating in FA-adv caused a sea level pressure adjustment that leads to a weaker maximum wind speed. The warming in the outer rainbands strengthens wind away from the inner core, which causes the simulated storm size to increase.</gco:CharacterString>
+            <gco:CharacterString>The impact of different hydrometeor advection schemes on TC structure and intensity forecasts is examined through the evaluation of HWRF's simulation of tropical cyclones using the operational Ferrier&#x2013;Aligo (FA) microphysics that uses total condensate advection versus the same scheme but with separate hydrometeor advection (FA-adv). Results showed that FA-adv simulated larger storms. Idealized simulations revealed that the cause of the simulation differences is the characteristics of the vertical profile of cloud water (Qc), which has a sharp gradient near 850 hPa, and rainwater (Qr), which is vertically uniform below the melting layer. In FA, the resultant total condensate profile has a gradient near 850 hPa that is smaller than that of Qc but larger than that of Qr. In FA when the total condensate is advected and partitioned back to Qc and Qr, the advection of Qc is underestimated and that of Qr is overestimated than that in FA-adv. The separate advection of hydrometeors in the FA-adv scheme corrected this problem and caused the difference in microphysics and dynamics fields between the two schemes. The greater vertical advection of Qc in FA-adv represents a continual source of extra diabatic heating that leads to a greater integrated kinetic energy (IKE) in the storm simulated by FA-adv than FA. However, the radial distribution of the azimuthally averaged additional diabatic heating in FA-adv caused a sea level pressure adjustment that leads to a weaker maximum wind speed. The warming in the outer rainbands strengthens wind away from the inner core, which causes the simulated storm size to increase.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

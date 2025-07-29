@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:21:55.443495</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:36:54.569412</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bp05p5</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bp05p5</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5067/AURA/TES/TL2HDOLN_L2.006</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5067/AURA/TES/TL2HDOLN_L2.006</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bp05p5</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bp05p5</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dee, Sylvia G.</gco:CharacterString>
+                        <gco:CharacterString>Dee, S. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nusbaumer, Jesse</gco:CharacterString>
+                        <gco:CharacterString>Nusbaumer, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Russell, James M.</gco:CharacterString>
+                        <gco:CharacterString>Russell, J. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee, Jung-Eun</gco:CharacterString>
+                        <gco:CharacterString>Lee, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Konecky, Bronwen</gco:CharacterString>
+                        <gco:CharacterString>Konecky, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Buenning, Nikolaus H.</gco:CharacterString>
+                        <gco:CharacterString>Buenning, N. H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Noone, David C.</gco:CharacterString>
+                        <gco:CharacterString>Noone, D. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>General circulation models (GCMs) predict that the global hydrological cycle will change in response to anthropogenic warming. However, these predictions remain uncertain, in particular, for precipitation (Intergovernmental Panel on Climate Change, 2013, https://doi.org/10.1017/CBO9781107415324.004). Held and Soden (2006, https://doi.org/10.1175/JCLI3990.1) suggest that as lower tropospheric water vapor concentration increases in a warming climate, the atmospheric circulation and convective mass fluxes will weaken. Unfortunately, this process is difficult to constrain, as convective mass fluxes are poorly observed and incompletely simulated in GCMs. Here we demonstrate that stable hydrogen isotope ratios in tropical atmospheric water vapor can trace changes in temperature, atmospheric circulation, and convective mass flux in a warming world. We evaluate changes in temperature, the distribution of water vapor, vertical velocity (&#x3c9;), advection, and water isotopes in vapor (&#x3b4;DV). Using water isotope&#x2010;enabled GCM experiments for modern versus high&#x2010;CO2 atmospheres, we identify spatial patterns of circulation change over the tropical Pacific. We find that slowing circulation in the tropical Pacific moistens the lower troposphere and weakens convective mass flux, both of which impact the &#x3b4;D of water vapor in the midtroposphere. Our findings constitute a critical demonstration of how water isotope ratios in the tropical Pacific respond to changes in radiative forcing and atmospheric warming. Moreover, as changes in &#x3b4;DV can be observed by satellites, our results develop new metrics for the detection of global warming impacts to the hydrological cycle and, specifically, the strength of the Walker circulation.</gco:CharacterString>
+            <gco:CharacterString>General circulation models (GCMs) predict that the global hydrological cycle will change in response to anthropogenic warming. However, these predictions remain uncertain, in particular, for precipitation (Intergovernmental Panel on Climate Change, 2013, https://doi.org/10.1017/CBO9781107415324.004). Held and Soden (2006, https://doi.org/10.1175/JCLI3990.1) suggest that as lower tropospheric water vapor concentration increases in a warming climate, the atmospheric circulation and convective mass fluxes will weaken. Unfortunately, this process is difficult to constrain, as convective mass fluxes are poorly observed and incompletely simulated in GCMs. Here we demonstrate that stable hydrogen isotope ratios in tropical atmospheric water vapor can trace changes in temperature, atmospheric circulation, and convective mass flux in a warming world. We evaluate changes in temperature, the distribution of water vapor, vertical velocity (&#x3c9;), advection, and water isotopes in vapor (&#x3b4;DV). Using water isotope-enabled GCM experiments for modern versus high-CO2 atmospheres, we identify spatial patterns of circulation change over the tropical Pacific. We find that slowing circulation in the tropical Pacific moistens the lower troposphere and weakens convective mass flux, both of which impact the &#x3b4;D of water vapor in the midtroposphere. Our findings constitute a critical demonstration of how water isotope ratios in the tropical Pacific respond to changes in radiative forcing and atmospheric warming. Moreover, as changes in &#x3b4;DV can be observed by satellites, our results develop new metrics for the detection of global warming impacts to the hydrological cycle and, specifically, the strength of the Walker circulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

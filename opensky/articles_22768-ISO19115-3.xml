@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:24:42.422767</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:38.931324</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7bv7h32</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7bv7h32</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7bv7h32</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7bv7h32</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hackert, Eric C.</gco:CharacterString>
+                        <gco:CharacterString>Hackert, E. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kovach, Robin M.</gco:CharacterString>
+                        <gco:CharacterString>Kovach, R. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ballabrera&#x2010;Poy, Joaquim</gco:CharacterString>
+                        <gco:CharacterString>Ballabrera-Poy, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study demonstrates the positive impact of including gridded Aquarius and Soil Moisture, Active/Passive (SMAP) sea surface salinity (SSS) into initialization of intermediate complexity coupled model forecasts for the tropical Indo&#x2010;Pacific. An experiment that assimilates conventional ocean observations serves as the control. In a separate experiment, Aquarius and SMAP satellite SSS are additionally assimilated into the coupled model initialization. Analysis of the initialization differences with the control indicates that SSS assimilation causes a freshening and shallowing of the mixed layer depth near the equator and enhanced Kelvin wave amplitude. For each month from September 2011 to September 2017, 12&#x2010;month&#x2010;coupled ENSO forecasts are initialized from both the control and satellite SSS assimilation experiments. The experiment assimilating Aquarius and SMAP SSS significantly outperforms the control relative to observed NINO3.4 sea surface temperature anomalies. This work highlights the potential importance of inclusion of satellite SSS for improving the initialization of operational ENSO coupled forecasts.</gco:CharacterString>
+            <gco:CharacterString>This study demonstrates the positive impact of including gridded Aquarius and Soil Moisture, Active/Passive (SMAP) sea surface salinity (SSS) into initialization of intermediate complexity coupled model forecasts for the tropical Indo-Pacific. An experiment that assimilates conventional ocean observations serves as the control. In a separate experiment, Aquarius and SMAP satellite SSS are additionally assimilated into the coupled model initialization. Analysis of the initialization differences with the control indicates that SSS assimilation causes a freshening and shallowing of the mixed layer depth near the equator and enhanced Kelvin wave amplitude. For each month from September 2011 to September 2017, 12-month-coupled ENSO forecasts are initialized from both the control and satellite SSS assimilation experiments. The experiment assimilating Aquarius and SMAP SSS significantly outperforms the control relative to observed NINO3.4 sea surface temperature anomalies. This work highlights the potential importance of inclusion of satellite SSS for improving the initialization of operational ENSO coupled forecasts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

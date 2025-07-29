@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:46:33.665160</gco:DateTime>
+      <gco:DateTime>2025-07-17T14:46:20.490030</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7z038t1</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7z038t1</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7z038t1</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7z038t1</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grotjahn, Richard</gco:CharacterString>
+                        <gco:CharacterString>Grotjahn, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Lin-Lin</gco:CharacterString>
+                        <gco:CharacterString>Pan, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study builds upon two prior papers, which examine Arctic region bias of CAM3 (NCAR Community Atmosphere Model version 3) simulations during winter. CAM3 output is compared with ECMWF (European Centre for Medium-Range Weather Forecasts) 40 year reanalysis (ERA-40) data. Our prior papers considered the temperature and the vorticity equation terms and demonstrated that diabatic, transient, and linear terms dominate nonlinear bias terms over most areas of interest. Accordingly, this paper uses a linearized form of the model&#x2019;s dynamical core equations to study aspects of the forcing that lead to the CAM3 biases. We treat the model&#x2019;s long term winter bias as a solution to a linear stationary wave model (LSWM). Key features of the bias in the vorticity, temperature, and ln of surface pressure (=q) fields are shown at medium resolution. The important features found at medium resolution are captured at the much lower LSWM resolution. The Arctic q bias has two key features: excess q over the Barents Sea and a missing Beaufort High (negative maximum q bias) to the north of Alaska and eastern Siberia. The forcing fields are calculated by the LSWM. Horizontal advection tends to create multi-polar combinations of negative and positive extrema in the forcing. The positive and negative areas of forcing approximately match corresponding areas in the bias. There is a broad relation between cold bias with elevated q bias, as expected from classical theory. Forcing in related quantities: near surface vorticity and surface pressure combine to produce the sea level pressure bias.</gco:CharacterString>
+            <gco:CharacterString>This study builds upon two prior papers, which examine Arctic region bias of CAM3 (NCAR Community Atmosphere Model version 3) simulations during winter. CAM3 output is compared with ECMWF (European Centre for Medium-Range Weather Forecasts) 40 year reanalysis (ERA-40) data. Our prior papers considered the temperature and the vorticity equation terms and demonstrated that diabatic, transient, and linear terms dominate nonlinear bias terms over most areas of interest. Accordingly, this paper uses a linearized form of the model's dynamical core equations to study aspects of the forcing that lead to the CAM3 biases. We treat the model's long term winter bias as a solution to a linear stationary wave model (LSWM). Key features of the bias in the vorticity, temperature, and ln of surface pressure (=q) fields are shown at medium resolution. The important features found at medium resolution are captured at the much lower LSWM resolution. The Arctic q bias has two key features: excess q over the Barents Sea and a missing Beaufort High (negative maximum q bias) to the north of Alaska and eastern Siberia. The forcing fields are calculated by the LSWM. Horizontal advection tends to create multi-polar combinations of negative and positive extrema in the forcing. The positive and negative areas of forcing approximately match corresponding areas in the bias. There is a broad relation between cold bias with elevated q bias, as expected from classical theory. Forcing in related quantities: near surface vorticity and surface pressure combine to produce the sea level pressure bias.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:16:22.337900</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:44:19.266152</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7kd21jw</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7kd21jw</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7kd21jw</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7kd21jw</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Katz, Richard W.</gco:CharacterString>
+                        <gco:CharacterString>Katz, Richard</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Naveau, Phillippe</gco:CharacterString>
+                        <gco:CharacterString>Naveau, Philippe</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We are all familiar with the proverbial "100-year flood," a concept instrumental in engineering design for water resources management. This concept, generally termed a &#x201c;return level&#x201d; corresponding to a specified &#x201c;return period,&#x201d; is based on the assumption of an unchanging (or "stationary") climate. In particular, Emil Gumbel, a pioneer in the application of the statistics of extremes, cautioned as long ago as 1941: "to apply any theory we have to suppose that the data are homogeneous, i.e. that no systematical change of climate and no important change in the basin have occurred within the observation period and that no such changes will take place in the period for which extrapolations are made." Today, with the rapid increase in greenhouse gases and its consequences on the climate system, including the possibility of increases in the frequency and intensity of extremes, the assumptions spelled out by Gumbel are no longer necessarily tenable. An open question is how best to convey the risk of extreme events under a changing (or &#x201c;non-stationary&#x201d;) climate. A further, related challenge concerns the quantification of the risk of the simultaneous occurrence of two or more extreme events (e.g., both extreme wave height and sea level in the case of coastal flooding), sometimes termed "compound" events. In the engineering design community, there has been some resistance to taking climate change into account in flood plain management, as well as reluctance to reconsider the concept of a 100-year flood under non-stationarity.</gco:CharacterString>
+            <gco:CharacterString>We are all familiar with the proverbial "100-year flood," a concept instrumental in engineering design for water resources management. This concept, generally termed a "return level" corresponding to a specified "return period," is based on the assumption of an unchanging (or "stationary") climate. In particular, Emil Gumbel, a pioneer in the application of the statistics of extremes, cautioned as long ago as 1941: "to apply any theory we have to suppose that the data are homogeneous, i.e. that no systematical change of climate and no important change in the basin have occurred within the observation period and that no such changes will take place in the period for which extrapolations are made." Today, with the rapid increase in greenhouse gases and its consequences on the climate system, including the possibility of increases in the frequency and intensity of extremes, the assumptions spelled out by Gumbel are no longer necessarily tenable. An open question is how best to convey the risk of extreme events under a changing (or "non-stationary") climate. A further, related challenge concerns the quantification of the risk of the simultaneous occurrence of two or more extreme events (e.g., both extreme wave height and sea level in the case of coastal flooding), sometimes termed "compound" events. In the engineering design community, there has been some resistance to taking climate change into account in flood plain management, as well as reluctance to reconsider the concept of a 100-year flood under non-stationarity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

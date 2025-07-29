@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:07:54.337354</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:37.071130</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7p84dtb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7p84dtb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7p84dtb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7p84dtb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yue, Jia</gco:CharacterString>
+                        <gco:CharacterString>Yue, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jian, Yongxiao</gco:CharacterString>
+                        <gco:CharacterString>Jian, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Meier, R.R.</gco:CharacterString>
+                        <gco:CharacterString>Meier, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wu, Dong L.</gco:CharacterString>
+                        <gco:CharacterString>Wu, D. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mlynczak, Martin</gco:CharacterString>
+                        <gco:CharacterString>Mlynczak, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Global UltraViolet Imager (GUVI) onboard the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) satellite provides a data set of vertical thermospheric composition (O, N2, and O2 densities) and temperature profiles from 2002&#xe2;&#x20ac;&#x201c;2007. Even though GUVI sampling is limited by orbital constraint, we demonstrated that the GUVI data set can be used to derive the altitude profiles of the amplitudes and phases of annual oscillation (AO) and semiannual oscillation (SAO), thereby providing important constraints on models seeking to explain these features. We performed a seasonal and interannual analysis of GUVI limb O, O2, and N2 densities and volume number density ratio O/N2 at constant pressure levels. These daytime observations of O and O/N2 in the lower thermosphere show a strong AO at midlatitudes and a clear SAO at lower latitudes. The global mean GUVI O/N2 number density ratio shows the AO, with slightly larger values in January than in July and a SAO with O/N2 greater during equinoxes than at the solstices. O and N2 densities on fixed pressure levels in the upper thermosphere are anticorrelated with solar extreme ultraviolet flux. On the other hand, O/N2 is smaller during solar minimum and larger during solar maximum. The thermospheric AO and SAO in composition have a constant phase with altitude throughout the thermosphere.</gco:CharacterString>
+            <gco:CharacterString>The Global UltraViolet Imager (GUVI) onboard the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) satellite provides a data set of vertical thermospheric composition (O, N2, and O2 densities) and temperature profiles from 2002&#x2013;2007. Even though GUVI sampling is limited by orbital constraint, we demonstrated that the GUVI data set can be used to derive the altitude profiles of the amplitudes and phases of annual oscillation (AO) and semiannual oscillation (SAO), thereby providing important constraints on models seeking to explain these features. We performed a seasonal and interannual analysis of GUVI limb O, O2, and N2 densities and volume number density ratio O/N2 at constant pressure levels. These daytime observations of O and O/N2 in the lower thermosphere show a strong AO at midlatitudes and a clear SAO at lower latitudes. The global mean GUVI O/N2 number density ratio shows the AO, with slightly larger values in January than in July and a SAO with O/N2 greater during equinoxes than at the solstices. O and N2 densities on fixed pressure levels in the upper thermosphere are anticorrelated with solar extreme ultraviolet flux. On the other hand, O/N2 is smaller during solar minimum and larger during solar maximum. The thermospheric AO and SAO in composition have a constant phase with altitude throughout the thermosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

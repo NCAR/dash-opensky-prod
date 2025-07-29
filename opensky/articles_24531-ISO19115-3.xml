@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:29:45.311509</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:14:44.873819</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7sn0d34</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7sn0d34</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.3334/cdiac/atg.025</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Monthly Atmospheric 13C/12C Isotopic Ratios for 11 SIO Stations (1977-2008)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7sn0d34</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7sn0d34</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -227,7 +247,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Horner&#x2010;Devine, M. C.</gco:CharacterString>
+                        <gco:CharacterString>Horner-Devine, M. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +337,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We highlight a mechanism for the coproduction of research with local communities as a means of elevating the social relevance of the geosciences, increasing the potential for broader and more diverse participation. We outline the concept of an &#x201c;Equitable Exchange&#x201d; as an ethical framework guiding these interactions. This principled research model emphasizes that &#x201c;currencies&#x201d;&#x2014;the rewards and value from participating in research&#x2014;may differ between local communities and geoscientists. For those engaged in this work, an Equitable Exchange emboldens boundary spanning geoscientists to bring their whole selves to the work, providing a means for inclusive climates and rewarding cultural competency.</gco:CharacterString>
+            <gco:CharacterString>We highlight a mechanism for the coproduction of research with local communities as a means of elevating the social relevance of the geosciences, increasing the potential for broader and more diverse participation. We outline the concept of an "Equitable Exchange" as an ethical framework guiding these interactions. This principled research model emphasizes that "currencies"&#x2014;the rewards and value from participating in research&#x2014;may differ between local communities and geoscientists. For those engaged in this work, an Equitable Exchange emboldens boundary spanning geoscientists to bring their whole selves to the work, providing a means for inclusive climates and rewarding cultural competency.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

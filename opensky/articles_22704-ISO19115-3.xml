@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:08:48.515797</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:04.405127</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7q81gxp</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7q81gxp</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7q81gxp</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7q81gxp</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Levin, Emma L.</gco:CharacterString>
+                        <gco:CharacterString>Levin, E. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Although anthropogenic climate change has contributed to warmer ocean temperatures that are seemingly more favorable for Atlantic hurricane development, no major hurricanes made landfall in the United States between 2006 and 2016. The U.S., therefore, experienced a major hurricane landfall drought during those years. Using the high-resolution Geophysical Fluid Dynamics Laboratory 25 km grid High-Resolution Forecast-Oriented Low Ocean Resolution (HiFLOR) global climate model, the present study shows that increases in anthropogenic forcing, due to increases in greenhouse gasses, are associated with fewer long-duration major hurricane landfall droughts in the U.S., which implies an increase in major hurricane landfall frequency. We create six different fixed-distance &#x2018;buffers&#x2019; that artificially circle the United States coastline in 100 km radial increments and can compensate for the bias in hurricane landfall calculations with six-hourly datasets. Major hurricane landfall frequencies are computed by applying the buffer zones to the six-hourly observed and simulated storm track datasets, which are then compared with the observed recorded major hurricane frequencies. We found that the major hurricane landfall frequencies generated with the 200 km buffer using the six-hourly observed best-track dataset are most correlated with the observed recorded major hurricane landfall frequencies. Using HiFLOR with an implemented buffer system, we found less frequent projections of long-duration major hurricane landfall drought events in controlled scenarios with greater anthropogenic global warming, which is independent on the radius of the coastal buffer. These results indicate an increase in U.S. major hurricane landfall frequencies with an increase in anthropogenic warming, which could pose a substantial threat to coastal communities in the U.S.</gco:CharacterString>
+            <gco:CharacterString>Although anthropogenic climate change has contributed to warmer ocean temperatures that are seemingly more favorable for Atlantic hurricane development, no major hurricanes made landfall in the United States between 2006 and 2016. The U.S., therefore, experienced a major hurricane landfall drought during those years. Using the high-resolution Geophysical Fluid Dynamics Laboratory 25 km grid High-Resolution Forecast-Oriented Low Ocean Resolution (HiFLOR) global climate model, the present study shows that increases in anthropogenic forcing, due to increases in greenhouse gasses, are associated with fewer long-duration major hurricane landfall droughts in the U.S., which implies an increase in major hurricane landfall frequency. We create six different fixed-distance 'buffers' that artificially circle the United States coastline in 100 km radial increments and can compensate for the bias in hurricane landfall calculations with six-hourly datasets. Major hurricane landfall frequencies are computed by applying the buffer zones to the six-hourly observed and simulated storm track datasets, which are then compared with the observed recorded major hurricane frequencies. We found that the major hurricane landfall frequencies generated with the 200 km buffer using the six-hourly observed best-track dataset are most correlated with the observed recorded major hurricane landfall frequencies. Using HiFLOR with an implemented buffer system, we found less frequent projections of long-duration major hurricane landfall drought events in controlled scenarios with greater anthropogenic global warming, which is independent on the radius of the coastal buffer. These results indicate an increase in U.S. major hurricane landfall frequencies with an increase in anthropogenic warming, which could pose a substantial threat to coastal communities in the U.S.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

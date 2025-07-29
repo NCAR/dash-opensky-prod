@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:21:54.831689</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:35:27.135559</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d70g3p1t</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d70g3p1t</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5067/TERRA/MOPITT/MOP02T_L2.007</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5067/TERRA/MOPITT/MOP02T_L2.007</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d70g3p1t</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d70g3p1t</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Buchholz, Rebecca R.</gco:CharacterString>
+                        <gco:CharacterString>Buchholz, Rebecca</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,8 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In the Southern Hemisphere and tropics, the main contribution to carbon monoxide (CO) variability is from fire emissions, which are connected to climate through the availability, type, and dryness of fuel. Here we assess the data-driven relationships between CO and climate, aiming to predict atmospheric loading during fire seasons. Observations of total column CO from the Measurements Of Pollution In The Troposphere satellite instrument are used to build a record of monthly anomalies between 2001 and 2016, focusing on seven biomass burning regions of the Southern Hemisphere and tropics. With the exception of 2015, the range of absolute variability in CO is similar between regions. We model CO anomalies in each of the regions using climate indices for the climate modes: El Ni&#xf1;o&#x2013;Southern Oscillation, Indian Ocean Dipole, Tropical South Atlantic, and Antarctic Oscillation. Stepwise forward and backward variable selection is used to choose from statistical regression models that use combinations of climate indices, at lag times between&#xD;
-1 and 8 months relative to CO anomalies. The Bayesian information criterion selects models with the best predictive power. We find that all climate mode indices are required to model CO in each region, generally explaining over 50% of the variability and over 70% for tropical regions. First-order interaction terms of the climate modes are necessary, producing greatly improved explanation of CO variability over single terms. Predictive capability is assessed for the Maritime Southeast Asia and the predicted peak CO anomaly in 2015 is within 20% of the measurements.</gco:CharacterString>
+            <gco:CharacterString>In the Southern Hemisphere and tropics, the main contribution to carbon monoxide (CO) variability is from fire emissions, which are connected to climate through the availability, type, and dryness of fuel. Here we assess the data-driven relationships between CO and climate, aiming to predict atmospheric loading during fire seasons. Observations of total column CO from the Measurements Of Pollution In The Troposphere satellite instrument are used to build a record of monthly anomalies between 2001 and 2016, focusing on seven biomass burning regions of the Southern Hemisphere and tropics. With the exception of 2015, the range of absolute variability in CO is similar between regions. We model CO anomalies in each of the regions using climate indices for the climate modes: El Ni&#xf1;o&#x2013;Southern Oscillation, Indian Ocean Dipole, Tropical South Atlantic, and Antarctic Oscillation. Stepwise forward and backward variable selection is used to choose from statistical regression models that use combinations of climate indices, at lag times between 1 and 8 months relative to CO anomalies. The Bayesian information criterion selects models with the best predictive power. We find that all climate mode indices are required to model CO in each region, generally explaining over 50% of the variability and over 70% for tropical regions. First-order interaction terms of the climate modes are necessary, producing greatly improved explanation of CO variability over single terms. Predictive capability is assessed for the Maritime Southeast Asia and the predicted peak CO anomaly in 2015 is within 20% of the measurements.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

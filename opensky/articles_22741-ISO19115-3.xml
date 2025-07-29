@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:22:53.833375</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:29:08.702043</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7348md9</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7348md9</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Model&#x2010;space localization in serial ensemble filters</gco:CharacterString>
+                  <gco:CharacterString>Model-space localization in serial ensemble filters</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7348md9</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7348md9</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shlyaeva, Anna</gco:CharacterString>
+                        <gco:CharacterString>Shlyaeva, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Whitaker, Jeffrey S.</gco:CharacterString>
+                        <gco:CharacterString>Whitaker, J. S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ensemble&#x2010;based data assimilation systems typically use covariance localization to dampen spurious correlations associated with sampling error while increasing the rank of the covariance estimate. Variational methods use model&#x2010;space localization, in which localization is applied to ensemble estimates of covariances between model variables and is based on distances between those variables, while ensemble filters apply observation&#x2010;space localization to estimates of model&#x2010;observation covariances, based on distances between model variables and observations. It has been shown that for nonlocal observations, such as satellite radiances, model&#x2010;space localization can be superior. This paper demonstrates a new method for performing model&#x2010;space localization in serial ensemble filters using the linearized observation operators (or Jacobians). Results of radiance&#x2010;only assimilation in a global forecast system show the benefit of using model&#x2010;space localization relative to observation&#x2010;space localization. The serial ensemble square root filter with vertical model&#x2010;space localization gives results similar to those of the Ensemble Variational system (without outer loops or extra balance constraints) while increasing the runtime compared to the filter with observation&#x2010;space localization by a factor between 2 and 8, depending on how sparse the Jacobian matrices are. The results are also similar to another approach to model&#x2010;space localization in ensemble filters: ensemble Kalman filter with modulated ensembles.</gco:CharacterString>
+            <gco:CharacterString>Ensemble-based data assimilation systems typically use covariance localization to dampen spurious correlations associated with sampling error while increasing the rank of the covariance estimate. Variational methods use model-space localization, in which localization is applied to ensemble estimates of covariances between model variables and is based on distances between those variables, while ensemble filters apply observation-space localization to estimates of model-observation covariances, based on distances between model variables and observations. It has been shown that for nonlocal observations, such as satellite radiances, model-space localization can be superior. This paper demonstrates a new method for performing model-space localization in serial ensemble filters using the linearized observation operators (or Jacobians). Results of radiance-only assimilation in a global forecast system show the benefit of using model-space localization relative to observation-space localization. The serial ensemble square root filter with vertical model-space localization gives results similar to those of the Ensemble Variational system (without outer loops or extra balance constraints) while increasing the runtime compared to the filter with observation-space localization by a factor between 2 and 8, depending on how sparse the Jacobian matrices are. The results are also similar to another approach to model-space localization in ensemble filters: ensemble Kalman filter with modulated ensembles.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

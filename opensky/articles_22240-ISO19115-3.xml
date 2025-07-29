@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:27:09.111467</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:32:25.928869</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d74m97j2</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d74m97j2</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6N29V08</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6N29V08</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Use of airborne in situ VOC measurements to estimate transit time spectrum: An observation&#x2010;based diagnostic of convective transport</gco:CharacterString>
+                  <gco:CharacterString>Use of airborne in situ VOC measurements to estimate transit time spectrum: An observation-based diagnostic of convective transport</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d74m97j2</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d74m97j2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Luo, Zhengzhao Johnny</gco:CharacterString>
+                        <gco:CharacterString>Luo, Z. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Atlas, Elliot L.</gco:CharacterString>
+                        <gco:CharacterString>Atlas, E. L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chelpon, Sofia M.</gco:CharacterString>
+                        <gco:CharacterString>Chelpon, S. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Convective transport from the marine boundary layer to the upper troposphere (UT) is investigated using airborne in situ measurements of chemical species over the tropical western Pacific. Using 42 volatile organic compounds with photochemical lifetimes ranging from shorter than a day to multiple decades, we derive a transit time spectrum G(t) and the associated modal and mean transit times for the UT air mass over the convectively dominant tropical western Pacific region. G(t) describes relative contributions of air masses transported from the marine boundary layer to the UT via all transport paths with different transit times. We further demonstrate that the volatile organic compound&#x2010;derived transit time scale is broadly comparable to that estimated from convective mass flux. The observation&#x2010;based transit time spectrum not only provides insights into convective transport pathways, but also has the potential to serve as an effective diagnostic for evaluating the representation of convective transport in global models.</gco:CharacterString>
+            <gco:CharacterString>Convective transport from the marine boundary layer to the upper troposphere (UT) is investigated using airborne in situ measurements of chemical species over the tropical western Pacific. Using 42 volatile organic compounds with photochemical lifetimes ranging from shorter than a day to multiple decades, we derive a transit time spectrum G(t) and the associated modal and mean transit times for the UT air mass over the convectively dominant tropical western Pacific region. G(t) describes relative contributions of air masses transported from the marine boundary layer to the UT via all transport paths with different transit times. We further demonstrate that the volatile organic compound-derived transit time scale is broadly comparable to that estimated from convective mass flux. The observation-based transit time spectrum not only provides insights into convective transport pathways, but also has the potential to serve as an effective diagnostic for evaluating the representation of convective transport in global models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

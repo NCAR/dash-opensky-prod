@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:28:07.899067</gco:DateTime>
+      <gco:DateTime>2025-07-11T15:18:44.189534</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,34 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7n87frp</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7n87frp</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.6084/m9.figshare.20387187.v1</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Secondary Gravity Waves Emitted from the Kelvin-Helmholtz Instability Induced by Idealized Inertial Gravity Waves</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Gravity waves emitted from Kelvin&#x2010;Helmholtz instabilities</gco:CharacterString>
+                  <gco:CharacterString>Gravity waves emitted from Kelvin-Helmholtz instabilities</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7n87frp</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7n87frp</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fritts, David C.</gco:CharacterString>
+                        <gco:CharacterString>Fritts, D. C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Alan Z.</gco:CharacterString>
+                        <gco:CharacterString>Liu, A. Z.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lund, Thomas S.</gco:CharacterString>
+                        <gco:CharacterString>Lund, T. S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Han&#x2010;Li</gco:CharacterString>
+                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Fritts, Wang, Lund, and Thorpe (2022, https://doi.org/10.1017/jfm.2021.1085) and Fritts, Wang, Thorpe, and Lund (2022, https://doi.org/10.1017/jfm.2021.1086) described a 3-dimensional direct numerical simulation of interacting Kelvin-Helmholtz instability (KHI) billows and resulting tube and knot (T&amp;K) dynamics that arise at a stratified shear layer defined by an idealized, large-amplitude inertia-gravity wave. Using similar initial conditions, we performed a high-resolution compressible simulation to explore the emission of GWs by these dynamics. The simulation confirms that such shear can induce strong KHI with large horizontal scales and billow depths that readily emit GWs having high frequencies, small horizontal wavelengths, and large vertical group velocities. The density-weighted amplitudes of GWs reveal &#x201c;fishbone&#x201d; structures in vertical cross sections above and below the KHI source. Our results reveal that KHI, and their associated T&amp;K dynamics, may be an important additional source of high-frequency, small-scale GWs at higher altitudes.</gco:CharacterString>
+            <gco:CharacterString>Fritts, Wang, Lund, and Thorpe (2022, https://doi.org/10.1017/jfm.2021.1085) and Fritts, Wang, Thorpe, and Lund (2022, https://doi.org/10.1017/jfm.2021.1086) described a 3-dimensional direct numerical simulation of interacting Kelvin-Helmholtz instability (KHI) billows and resulting tube and knot (T&amp;K) dynamics that arise at a stratified shear layer defined by an idealized, large-amplitude inertia-gravity wave. Using similar initial conditions, we performed a high-resolution compressible simulation to explore the emission of GWs by these dynamics. The simulation confirms that such shear can induce strong KHI with large horizontal scales and billow depths that readily emit GWs having high frequencies, small horizontal wavelengths, and large vertical group velocities. The density-weighted amplitudes of GWs reveal "fishbone" structures in vertical cross sections above and below the KHI source. Our results reveal that KHI, and their associated T&amp;K dynamics, may be an important additional source of high-frequency, small-scale GWs at higher altitudes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

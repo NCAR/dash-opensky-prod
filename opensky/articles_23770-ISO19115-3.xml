@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:32:31.149985</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:14:19.007975</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7542rv4</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7542rv4</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7542rv4</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7542rv4</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dahlin, Kyla M.</gco:CharacterString>
+                        <gco:CharacterString>Dahlin, K. M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Akanga, Donald</gco:CharacterString>
+                        <gco:CharacterString>Akanga, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lombardozzi, Danica L.</gco:CharacterString>
+                        <gco:CharacterString>Lombardozzi, Danica</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Reed, David E.</gco:CharacterString>
+                        <gco:CharacterString>Reed, D. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shirkey, Gabriela</gco:CharacterString>
+                        <gco:CharacterString>Shirkey, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lei, Cheyenne</gco:CharacterString>
+                        <gco:CharacterString>Lei, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Abraha, Michael</gco:CharacterString>
+                        <gco:CharacterString>Abraha, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Jiquan</gco:CharacterString>
+                        <gco:CharacterString>Chen, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Land surface models (LSMs) predict how terrestrial fluxes of carbon, water, and energy change with abiotic drivers to inform the other components of Earth system models. Here, we focus on a single human-dominated watershed in southwestern Michigan, USA. We compare multiple processes in a commonly used LSM, the Community Land Model (CLM), to observational data at the single grid cell scale. For model inputs, we show correlations (Pearson&#xe2;&#x20ac;&#x2122;s R) ranging from 0.46 to 0.81 for annual temperature and precipitation, but a substantial mismatch between land cover distributions and their changes over time, with CLM correctly representing total agricultural area, but assuming large areas of natural grasslands where forests grow in reality. For CLM processes (outputs), seasonal changes in leaf area index (LAI; phenology) do not track satellite estimates well, and peak LAI in CLM is nearly double the satellite record (5.1 versus 2.8). Estimates of greenness and productivity, however, are more similar between CLM and observations. Summer soil moisture tracks in timing but not magnitude. Land surface reflectance (albedo) shows significant positive correlations in the winter, but not in the summer. Looking forward, key areas for model improvement include land cover distribution estimates, phenology algorithms, summertime radiative transfer modelling, and plant stress responses.</gco:CharacterString>
+            <gco:CharacterString>Land surface models (LSMs) predict how terrestrial fluxes of carbon, water, and energy change with abiotic drivers to inform the other components of Earth system models. Here, we focus on a single human-dominated watershed in southwestern Michigan, USA. We compare multiple processes in a commonly used LSM, the Community Land Model (CLM), to observational data at the single grid cell scale. For model inputs, we show correlations (Pearson's R) ranging from 0.46 to 0.81 for annual temperature and precipitation, but a substantial mismatch between land cover distributions and their changes over time, with CLM correctly representing total agricultural area, but assuming large areas of natural grasslands where forests grow in reality. For CLM processes (outputs), seasonal changes in leaf area index (LAI; phenology) do not track satellite estimates well, and peak LAI in CLM is nearly double the satellite record (5.1 versus 2.8). Estimates of greenness and productivity, however, are more similar between CLM and observations. Summer soil moisture tracks in timing but not magnitude. Land surface reflectance (albedo) shows significant positive correlations in the winter, but not in the summer. Looking forward, key areas for model improvement include land cover distribution estimates, phenology algorithms, summertime radiative transfer modelling, and plant stress responses.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

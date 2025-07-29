@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:37:23.274156</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:03:28.085098</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,8 +81,28 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7d222bm</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7d222bm</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.5281/zenodo.6451271</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Software #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>markpayneatwork/PredictabilityEngine: v1.0.0</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7d222bm</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7d222bm</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Payne, Mark R.</gco:CharacterString>
+                        <gco:CharacterString>Payne, M. R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Keenlyside, Noel</gco:CharacterString>
+                        <gco:CharacterString>Keenlyside, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Matei, Daniela</gco:CharacterString>
+                        <gco:CharacterString>Matei, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Miesner, Anna K.</gco:CharacterString>
+                        <gco:CharacterString>Miesner, A. K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yang, Shuting</gco:CharacterString>
+                        <gco:CharacterString>Yang, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yeager, Stephen G.</gco:CharacterString>
+                        <gco:CharacterString>Yeager, Stephen</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Many fish and marine organisms are responding to our planet&#x2019;s changing climate by shifting their distribution. Such shifts can drive international conflicts and are highly problematic for the communities and businesses that depend on these living marine resources. Advances in climate prediction mean that in some regions the drivers of these shifts can be forecast up to a decade ahead, although forecasts of distribution shifts on this critical time-scale, while highly sought after by stakeholders, have yet to materialise. Here, we demonstrate the application of decadal-scale climate predictions to the habitat and distribution of marine fish species. We show statistically significant forecast skill of individual years that outperform baseline forecasts 3&#x2013;10 years ahead; forecasts of multi-year averages perform even better, yielding correlation coefficients in excess of 0.90 in some cases. We also demonstrate that the habitat shifts underlying conflicts over Atlantic mackerel fishing rights could have been foreseen. Our results show that climate predictions can provide information of direct relevance to stakeholders on the decadal-scale. This tool will be critical in foreseeing, adapting to and coping with the challenges of a changing future climate, particularly in the most ocean-dependent nations and communities.</gco:CharacterString>
+            <gco:CharacterString>Many fish and marine organisms are responding to our planet's changing climate by shifting their distribution. Such shifts can drive international conflicts and are highly problematic for the communities and businesses that depend on these living marine resources. Advances in climate prediction mean that in some regions the drivers of these shifts can be forecast up to a decade ahead, although forecasts of distribution shifts on this critical time-scale, while highly sought after by stakeholders, have yet to materialise. Here, we demonstrate the application of decadal-scale climate predictions to the habitat and distribution of marine fish species. We show statistically significant forecast skill of individual years that outperform baseline forecasts 3&#x2013;10 years ahead; forecasts of multi-year averages perform even better, yielding correlation coefficients in excess of 0.90 in some cases. We also demonstrate that the habitat shifts underlying conflicts over Atlantic mackerel fishing rights could have been foreseen. Our results show that climate predictions can provide information of direct relevance to stakeholders on the decadal-scale. This tool will be critical in foreseeing, adapting to and coping with the challenges of a changing future climate, particularly in the most ocean-dependent nations and communities.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

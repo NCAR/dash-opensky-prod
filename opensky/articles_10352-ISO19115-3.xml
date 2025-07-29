@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:23:15.204665</gco:DateTime>
+      <gco:DateTime>2025-07-17T15:25:09.983692</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7ws8tp2</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7ws8tp2</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7ws8tp2</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7ws8tp2</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Winter, C.</gco:CharacterString>
+                        <gco:CharacterString>Winter, Larry</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nychka, Doug</gco:CharacterString>
+                        <gco:CharacterString>Nychka, Douglas</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Given a collection of science-based computational models that all estimate states of the same environmental system, we compare the forecast skill of the average of the collection to the skills of the individual members. We illustrate our results through an analysis of regional climate model data and give general criteria for the average to perform more or less skillfully than the most skillful individual model, the &#x201c;best&#x201d; model. The average will only be more skillful than the best model if the individual models in the collection produce very different forecasts; if the individual forecasts generally agree, the average will not be as skillful as the best model.</gco:CharacterString>
+            <gco:CharacterString>Given a collection of science-based computational models that all estimate states of the same environmental system, we compare the forecast skill of the average of the collection to the skills of the individual members. We illustrate our results through an analysis of regional climate model data and give general criteria for the average to perform more or less skillfully than the most skillful individual model, the "best" model. The average will only be more skillful than the best model if the individual models in the collection produce very different forecasts; if the individual forecasts generally agree, the average will not be as skillful as the best model.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

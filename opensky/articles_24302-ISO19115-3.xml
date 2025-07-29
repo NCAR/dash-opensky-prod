@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:14:16.274108</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:15:55.418475</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,34 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78s4t91</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78s4t91</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.7927/H42B8VZZ</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Gridded Population of the World, Version 3 (GPWv3): Population Count Grid, Future Estimates</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Response of surface ozone concentration to emission reduction and meteorology during the COVID&#x2010;19 lockdown in Europe</gco:CharacterString>
+                  <gco:CharacterString>Response of surface ozone concentration to emission reduction and meteorology during the COVID-19 lockdown in Europe</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -103,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78s4t91</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78s4t91</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deroubaix, Adrien</gco:CharacterString>
+                        <gco:CharacterString>Deroubaix, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Labuhn, Inga</gco:CharacterString>
+                        <gco:CharacterString>Labuhn, I.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Menut, Laurent</gco:CharacterString>
+                        <gco:CharacterString>Menut, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Siour, Guillaume</gco:CharacterString>
+                        <gco:CharacterString>Siour, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tuccella, Paolo</gco:CharacterString>
+                        <gco:CharacterString>Tuccella, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +217,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The lockdown period (March&#x2013;May 2020) during the COVID&#x2010;19 pandemic in Europe led to a reduction in the anthropogenic emissions of primary pollutants. For three&#x2010;quarters of over 1,100 available monitoring stations, the average nitrogen dioxide (NO2) concentrations decreased by at least 2.7 &#x3bc;g&#xb7;m&#x2212;3 (or 25%) compared with the average concentrations recorded during the same period of the previous seven years. This reduction was not specific to urban or rural areas because the relative reduction was of similar magnitude in both areas. The ozone (O3) response differed spatially, with positive anomalies in Northern Europe and negative anomalies in Southwestern Europe. Reduced cloudiness and related enhanced radiation in Northern Europe played a significant role in the increase of surface O3 concentrations by shifting the photochemical partitioning between NO2 and O3 toward more O3. The level of total oxidant (Ox = O3&#x2009;+&#x2009;NO2) remained unchanged, except in Southwestern Europe where it decreased. Several episodes lasting a few days of a high level of total oxidants were observed in Northern Europe. The results illustrate the complexity of the atmospheric response to the unprecedented reduction in the emission of primary pollutants.</gco:CharacterString>
+            <gco:CharacterString>The lockdown period (March&#x2013;May 2020) during the COVID-19 pandemic in Europe led to a reduction in the anthropogenic emissions of primary pollutants. For three-quarters of over 1,100 available monitoring stations, the average nitrogen dioxide (NO2) concentrations decreased by at least 2.7 &#x3bc;g&#xb7;m&#x2212;3 (or 25%) compared with the average concentrations recorded during the same period of the previous seven years. This reduction was not specific to urban or rural areas because the relative reduction was of similar magnitude in both areas. The ozone (O3) response differed spatially, with positive anomalies in Northern Europe and negative anomalies in Southwestern Europe. Reduced cloudiness and related enhanced radiation in Northern Europe played a significant role in the increase of surface O3 concentrations by shifting the photochemical partitioning between NO2 and O3 toward more O3. The level of total oxidant (Ox = O3&#x2009;+&#x2009;NO2) remained unchanged, except in Southwestern Europe where it decreased. Several episodes lasting a few days of a high level of total oxidants were observed in Northern Europe. The results illustrate the complexity of the atmospheric response to the unprecedented reduction in the emission of primary pollutants.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

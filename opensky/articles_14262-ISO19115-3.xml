@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:55:45.033952</gco:DateTime>
+      <gco:DateTime>2025-07-12T00:06:28.409780</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d78916tb</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d78916tb</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d78916tb</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d78916tb</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey</gco:CharacterString>
+                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mitra, Dhrubaditya</gco:CharacterString>
+                        <gco:CharacterString>Mitra, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Accurate knowledge of time variation in meridional flow speed and profile is crucial for estimating the solar cycle's features, which are ultimately responsible for causing space climate variations. However, no consensus has been reached yet about the Sun's meridional circulation pattern observations and theories. By implementing an ensemble Kalman filter (EnKF) data assimilation in a Babcock-Leighton solar dynamo model using Data Assimilation Research Testbed framework, we find that the best reconstruction of time variation in meridional flow speed can be obtained when 10 or more observations are used with an updating time of 15 days and a &#x2264;10% observational error. Increasing ensemble size from 16 to 160 improves reconstruction. Comparison of reconstructed flow speed with &#x201c;true state&#x201d; reveals that EnKF data assimilation is very powerful for reconstructing meridional flow speeds and suggests that it can be implemented for reconstructing spatiotemporal patterns of meridional circulation.</gco:CharacterString>
+            <gco:CharacterString>Accurate knowledge of time variation in meridional flow speed and profile is crucial for estimating the solar cycle's features, which are ultimately responsible for causing space climate variations. However, no consensus has been reached yet about the Sun's meridional circulation pattern observations and theories. By implementing an ensemble Kalman filter (EnKF) data assimilation in a Babcock-Leighton solar dynamo model using Data Assimilation Research Testbed framework, we find that the best reconstruction of time variation in meridional flow speed can be obtained when 10 or more observations are used with an updating time of 15 days and a &#x2264;10% observational error. Increasing ensemble size from 16 to 160 improves reconstruction. Comparison of reconstructed flow speed with "true state" reveals that EnKF data assimilation is very powerful for reconstructing meridional flow speeds and suggests that it can be implemented for reconstructing spatiotemporal patterns of meridional circulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

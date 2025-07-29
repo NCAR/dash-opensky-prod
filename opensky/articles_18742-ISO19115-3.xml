@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T19:00:55.132324</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:54:50.042594</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7833tpp</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7833tpp</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7833tpp</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7833tpp</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kato, Seiji</gco:CharacterString>
+                        <gco:CharacterString>Kato, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xu, Kuan-Man</gco:CharacterString>
+                        <gco:CharacterString>Xu, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wong, Takmeng</gco:CharacterString>
+                        <gco:CharacterString>Wong, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Loeb, Norman G.</gco:CharacterString>
+                        <gco:CharacterString>Loeb, N. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rose, Fred G.</gco:CharacterString>
+                        <gco:CharacterString>Rose, F. G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +177,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thorsen, Tyler J.</gco:CharacterString>
+                        <gco:CharacterString>Thorsen, T. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observationally based atmospheric energy balance is analyzed using Clouds and the Earth&#x2019;s Radiant Energy System (CERES)-derived TOA and surface irradiance, Global Precipitation Climatology Project (GPCP)-derived precipitation, dry static and kinetic energy tendency and divergence estimated from ERA-Interim, and surface sensible heat flux from SeaFlux. The residual tends to be negative over the tropics and positive over midlatitudes. A negative residual implies that the precipitation rate is too small, divergence is too large, or radiative cooling is too large. The residual of atmospheric energy is spatially and temporally correlated with cloud objects to identify cloud types associated with the residual. Spatially, shallow cumulus, cirrostratus, and deep convective cloud-object occurrence are positively correlated with the absolute value of the residual. The temporal correlation coefficient between the number of deep convective cloud objects and individual energy components, net atmospheric irradiance, precipitation rate, and the sum of dry static and kinetic energy divergence and their tendency over the western Pacific are 0.84, 0.95, and 0.93, respectively. However, when all energy components are added, the atmospheric energy residual over the tropical Pacific is temporally correlated well with the number of shallow cumulus cloud objects over tropical Pacific. Because shallow cumulus alters not enough atmospheric energy compared to the residual, this suggests the following: 1) if retrieval errors associated with deep convective clouds are causing the column-integrated atmospheric energy residual, the errors vary among individual deep convective clouds, and 2) it is possible that the residual is associated with processes in which shallow cumulus clouds affect deep convective clouds and hence atmospheric energy budget over the tropical western Pacific.</gco:CharacterString>
+            <gco:CharacterString>Observationally based atmospheric energy balance is analyzed using Clouds and the Earth's Radiant Energy System (CERES)-derived TOA and surface irradiance, Global Precipitation Climatology Project (GPCP)-derived precipitation, dry static and kinetic energy tendency and divergence estimated from ERA-Interim, and surface sensible heat flux from SeaFlux. The residual tends to be negative over the tropics and positive over midlatitudes. A negative residual implies that the precipitation rate is too small, divergence is too large, or radiative cooling is too large. The residual of atmospheric energy is spatially and temporally correlated with cloud objects to identify cloud types associated with the residual. Spatially, shallow cumulus, cirrostratus, and deep convective cloud-object occurrence are positively correlated with the absolute value of the residual. The temporal correlation coefficient between the number of deep convective cloud objects and individual energy components, net atmospheric irradiance, precipitation rate, and the sum of dry static and kinetic energy divergence and their tendency over the western Pacific are 0.84, 0.95, and 0.93, respectively. However, when all energy components are added, the atmospheric energy residual over the tropical Pacific is temporally correlated well with the number of shallow cumulus cloud objects over tropical Pacific. Because shallow cumulus alters not enough atmospheric energy compared to the residual, this suggests the following: 1) if retrieval errors associated with deep convective clouds are causing the column-integrated atmospheric energy residual, the errors vary among individual deep convective clouds, and 2) it is possible that the residual is associated with processes in which shallow cumulus clouds affect deep convective clouds and hence atmospheric energy budget over the tropical western Pacific.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:13:20.505177</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:27:25.386524</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7pr804r</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7pr804r</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.17190/AMF/1246088</gmd:URL>
+                  <gmd:URL>https://doi.org/10.17190/AMF/1246088</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -108,7 +108,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Sustained nonphotochemical quenching shapes the seasonal pattern of solar&#x2010;induced fluorescence at a high&#x2010;elevation evergreen forest</gco:CharacterString>
+                  <gco:CharacterString>Sustained nonphotochemical quenching shapes the seasonal pattern of solar-induced fluorescence at a high-elevation evergreen forest</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7pr804r</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7pr804r</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Raczka, Brett</gco:CharacterString>
+                        <gco:CharacterString>Raczka, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Porcar&#x2010;Castell, A.</gco:CharacterString>
+                        <gco:CharacterString>Porcar-Castell, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +237,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Sean P.</gco:CharacterString>
+                        <gco:CharacterString>Burns, Sean</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +297,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Traditional methods of carbon monitoring in mountainous regions are challenged by complex terrain. Recently, solar&#x2010;induced fluorescence (SIF) has been found to be an indicator of gross primary production (GPP), and the increased availability of remotely sensed SIF provides an opportunity to estimate GPP across the Western United States. Although the empirical linkage between SIF and GPP is strong, the current mechanistic understanding of this linkage is incomplete and depends upon changes in leaf biochemical processes in which absorbed sunlight leads to photochemistry, heat (via nonphotochemical quenching [NPQ]), fluorescence, or tissue damage. An improved mechanistic understanding is necessary to leverage SIF observations to improve representation of ecosystem processes within land surface models. Here we included an improved fluorescence model within the Community Land Model, Version 4.5 (CLM 4.5), to simulate seasonal changes in SIF at a subalpine forest in Colorado. We found that when the model accounted for sustained NPQ, this provided a larger seasonal change in fluorescence yield leading to simulated SIF that more closely resembled the observed seasonal pattern (Global Ozone Monitoring Experiment&#x2010;2 [GOME&#x2010;2] satellite platform and a tower&#x2010;mounted spectrometer system). We found that an acclimation model based on mean air temperature was a useful predictor for sustained NPQ. Although light intensity was not an important factor for this analysis, it should be considered before applying the sustained NPQ and SIF to other cold climate evergreen biomes. More leaf&#x2010;level fluorescence measurements are necessary to better understand the seasonal relationship between sustained and reversible components of NPQ and to what extent that influences SIF.</gco:CharacterString>
+            <gco:CharacterString>Traditional methods of carbon monitoring in mountainous regions are challenged by complex terrain. Recently, solar-induced fluorescence (SIF) has been found to be an indicator of gross primary production (GPP), and the increased availability of remotely sensed SIF provides an opportunity to estimate GPP across the Western United States. Although the empirical linkage between SIF and GPP is strong, the current mechanistic understanding of this linkage is incomplete and depends upon changes in leaf biochemical processes in which absorbed sunlight leads to photochemistry, heat (via nonphotochemical quenching [NPQ]), fluorescence, or tissue damage. An improved mechanistic understanding is necessary to leverage SIF observations to improve representation of ecosystem processes within land surface models. Here we included an improved fluorescence model within the Community Land Model, Version 4.5 (CLM 4.5), to simulate seasonal changes in SIF at a subalpine forest in Colorado. We found that when the model accounted for sustained NPQ, this provided a larger seasonal change in fluorescence yield leading to simulated SIF that more closely resembled the observed seasonal pattern (Global Ozone Monitoring Experiment-2 [GOME-2] satellite platform and a tower-mounted spectrometer system). We found that an acclimation model based on mean air temperature was a useful predictor for sustained NPQ. Although light intensity was not an important factor for this analysis, it should be considered before applying the sustained NPQ and SIF to other cold climate evergreen biomes. More leaf-level fluorescence measurements are necessary to better understand the seasonal relationship between sustained and reversible components of NPQ and to what extent that influences SIF.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:58:56.581837</gco:DateTime>
+      <gco:DateTime>2025-07-17T15:23:36.696918</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7zc845j</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7zc845j</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7zc845j</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7zc845j</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tian, Xiangjun</gco:CharacterString>
+                        <gco:CharacterString>Tian, X.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xie, Zhenghui</gco:CharacterString>
+                        <gco:CharacterString>Xie, Z.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The conditional nonlinear optimal perturbation (CNOP) method proposed by Mu et al. (2003) has been a useful tool for studying predictability dynamics. Its further applications are, however, hampered by the need of an adjoint model. Aiming to solve this problem, an ensemble conditional nonlinear optimal perturbation (EnCNOP) approach is proposed in this paper by merging the Monte Carlo method and the proper orthogonal decomposition (POD) technique into the CNOP to transform an implicit optimization problem into an explicit one. This approach is further formulated for parameter calibration. Numerical experiments with a 1&#x2010;D model of the soil water equation show that the EnCNOP approach outperforms a dual&#x2010;pass optimization framework on the basis of the ensemble Kalman filter (EnKF) and a shuffled complex evolution approach (SCE&#x2010;UA) in terms of both increasing the calibration precision and reducing the computational costs. In particular, the EnCNOP approach outperforms the SCE&#x2010;UA when only an approximate value range of the input parameters is known. Our EnCNOP method is further implemented within a complicated highly nonlinear land surface model (namely, NCAR CLM3) and evaluated through a case study which illustrates its applicability to complex, highly nonlinear problems.</gco:CharacterString>
+            <gco:CharacterString>The conditional nonlinear optimal perturbation (CNOP) method proposed by Mu et al. (2003) has been a useful tool for studying predictability dynamics. Its further applications are, however, hampered by the need of an adjoint model. Aiming to solve this problem, an ensemble conditional nonlinear optimal perturbation (EnCNOP) approach is proposed in this paper by merging the Monte Carlo method and the proper orthogonal decomposition (POD) technique into the CNOP to transform an implicit optimization problem into an explicit one. This approach is further formulated for parameter calibration. Numerical experiments with a 1-D model of the soil water equation show that the EnCNOP approach outperforms a dual-pass optimization framework on the basis of the ensemble Kalman filter (EnKF) and a shuffled complex evolution approach (SCE-UA) in terms of both increasing the calibration precision and reducing the computational costs. In particular, the EnCNOP approach outperforms the SCE-UA when only an approximate value range of the input parameters is known. Our EnCNOP method is further implemented within a complicated highly nonlinear land surface model (namely, NCAR CLM3) and evaluated through a case study which illustrates its applicability to complex, highly nonlinear problems.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

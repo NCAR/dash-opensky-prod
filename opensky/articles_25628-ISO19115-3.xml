@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:18:18.237718</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:00:51.846015</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,7 +81,7 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7xw4pkw</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7xw4pkw</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
@@ -103,7 +103,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7xw4pkw</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7xw4pkw</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -117,7 +117,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Danker, Jessica</gco:CharacterString>
+                        <gco:CharacterString>Danker, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +127,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sourdeval, Odran</gco:CharacterString>
+                        <gco:CharacterString>Sourdeval, O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +137,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCoy, Isabel L.</gco:CharacterString>
+                        <gco:CharacterString>McCoy, Isabel</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wood, Robert</gco:CharacterString>
+                        <gco:CharacterString>Wood, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +157,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Possner, Anna</gco:CharacterString>
+                        <gco:CharacterString>Possner, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,10 +177,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Marine stratocumuli are the most dominant cloud type by area coverage in the Southern Ocean (SO). They can be divided into different self-organized cellular morphological regimes known as open and closed mesoscale-cellular convective (MCC) clouds. Open and closed cells are the two most frequent types of organizational regimes in the SO. Using the liDAR-raDAR (DARDAR) version 2 retrievals, we quantify 59 % of all MCC clouds in this region as mixed-phase clouds (MPCs) during a 4-year time period from 2007 to 2010. The net radiative effect of SO MCC clouds is governed by changes in cloud albedo. Both cloud morphology and phase have previously been shown to impact cloud albedo individually, but their interactions and their combined impact on cloud albedo remain unclear.&#xD;
-Here, we investigate the relationships between cloud phase, organizational patterns, and their differences regarding their cloud radiative properties in the SO. The mixed-phase fraction, which is defined as the number of MPCs divided by the sum of MPC and supercooled liquid cloud (SLC) pixels, of all MCC clouds at a given cloud-top temperature (CTT) varies considerably between austral summer and winter. We further find that seasonal changes in cloud phase at a given CTT across all latitudes are largely independent of cloud morphology and are thus seemingly constrained by other external factors. Overall, our results show a stronger dependence of cloud phase on cloud-top height (CTH) than CTT for clouds below 2.5&#x2009;km in altitude.&#xD;
-&#xD;
-Preconditioning through ice-phase processes in MPCs has been observed to accelerate individual closed-to-open cell transitions in extratropical stratocumuli. The hypothesis of preconditioning has been further substantiated in large-eddy simulations of open and closed MPCs. In this study, we do not find preconditioning to primarily impact climatological cloud morphology statistics in the SO. Meanwhile, in-cloud albedo analysis reveals stronger changes in open and closed cell albedo in SLCs than in MPCs. In particular, few optically thick (cloud optical thickness &gt;10) open cell stratocumuli are characterized as ice-free SLCs. These differences in in-cloud albedo are found to alter the cloud radiative effect in the SO by 21 to 39&#x2009;W&#x2009;m&#x2212;2 depending on season and cloud phase.</gco:CharacterString>
+            <gco:CharacterString>Marine stratocumuli are the most dominant cloud type by area coverage in the Southern Ocean (SO). They can be divided into different self-organized cellular morphological regimes known as open and closed mesoscale-cellular convective (MCC) clouds. Open and closed cells are the two most frequent types of organizational regimes in the SO. Using the liDAR-raDAR (DARDAR) version 2 retrievals, we quantify 59 % of all MCC clouds in this region as mixed-phase clouds (MPCs) during a 4-year time period from 2007 to 2010. The net radiative effect of SO MCC clouds is governed by changes in cloud albedo. Both cloud morphology and phase have previously been shown to impact cloud albedo individually, but their interactions and their combined impact on cloud albedo remain unclear. Here, we investigate the relationships between cloud phase, organizational patterns, and their differences regarding their cloud radiative properties in the SO. The mixed-phase fraction, which is defined as the number of MPCs divided by the sum of MPC and supercooled liquid cloud (SLC) pixels, of all MCC clouds at a given cloud-top temperature (CTT) varies considerably between austral summer and winter. We further find that seasonal changes in cloud phase at a given CTT across all latitudes are largely independent of cloud morphology and are thus seemingly constrained by other external factors. Overall, our results show a stronger dependence of cloud phase on cloud-top height (CTH) than CTT for clouds below 2.5&#x2009;km in altitude. Preconditioning through ice-phase processes in MPCs has been observed to accelerate individual closed-to-open cell transitions in extratropical stratocumuli. The hypothesis of preconditioning has been further substantiated in large-eddy simulations of open and closed MPCs. In this study, we do not find preconditioning to primarily impact climatological cloud morphology statistics in the SO. Meanwhile, in-cloud albedo analysis reveals stronger changes in open and closed cell albedo in SLCs than in MPCs. In particular, few optically thick (cloud optical thickness &gt;10) open cell stratocumuli are characterized as ice-free SLCs. These differences in in-cloud albedo are found to alter the cloud radiative effect in the SO by 21 to 39&#x2009;W&#x2009;m&#x2212;2 depending on season and cloud phase.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

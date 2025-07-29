@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:41:05.899091</gco:DateTime>
+      <gco:DateTime>2025-07-11T16:01:17.059736</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d77m0crx</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d77m0crx</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/aynt-tn92</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/aynt-tn92</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d77m0crx</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d77m0crx</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -167,10 +167,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In addition to initial conditions, uncertainty in model physics can also influence the practical predictability of tropical cyclones. In this study, the influence that various magnitudes of uncertainty in the surface exchange coefficients of momentum (C-d) and enthalpy (C-k) can have on an otherwise highly predictable major hurricane (Hurricane Patricia) is compared with that resulting from climatological environmental initial condition uncertainty and the intrinsic limit for this case. As the systematic uncertainty in C-d and C-k is reduced from 40% to 1%, the simulated uncertainty in the intensity and structure is substantially reduced and approaches the intrinsic limit when uncertainty is reduced to 1%. In addition, the forecasted intensity and structure uncertainty only becomes less than that resulting from climatological environmental initial condition uncertainty once the systematic uncertainty in C-d and C-k is reduced to similar to 10%, highlighting the strong influence of model error in limiting TC predictability. If C-d and C-k are perturbed stochastically, instead of systematically, it is shown that the influence on the simulated intensity and structure is negligible and nearly identical to the intrinsic limit, regardless of the magnitude of the stochastic C-d and C-k perturbations. While the magnitude of the stochastic C-d and C-k perturbations are comparable to the systematic perturbations, the stochastic perturbations are shown to not substantially perturb the time-integrated inner-core fluxes of momentum or enthalpy that predominantly determine simulated tropical cyclone intensity. Last, it is shown that the kinetic energy error growth behavior varies with the radius, azimuthal wavenumber, and ensemble design. &#xD;
-&#xD;
-Significance Statement&#xD;
-The air-sea energy exchange beneath hurricanes is highly uncertain but strongly influences intensity. In this study, the influences of different magnitudes of surface-exchange coefficient uncertainty on the simulated intensity of an intense hurricane is compared with that resulting from environmental initial condition uncertainty and the intrinsic predictability limit. The main takeaway is that current surface-exchange coefficient uncertainties result in larger intensity uncertainty than environmental initial condition uncertainty, and substantial improvements in predictions are possible if current surface-exchange coefficient uncertainties are reduced. Furthermore, it is shown that randomly perturbing the surface-exchange coefficients at each point in space and time is not the best approach to account for the influences of this uncertain physical process on hurricane prediction because it has minimal influence on the simulated intensity.</gco:CharacterString>
+            <gco:CharacterString>In addition to initial conditions, uncertainty in model physics can also influence the practical predictability of tropical cyclones. In this study, the influence that various magnitudes of uncertainty in the surface exchange coefficients of momentum (C-d) and enthalpy (C-k) can have on an otherwise highly predictable major hurricane (Hurricane Patricia) is compared with that resulting from climatological environmental initial condition uncertainty and the intrinsic limit for this case. As the systematic uncertainty in C-d and C-k is reduced from 40% to 1%, the simulated uncertainty in the intensity and structure is substantially reduced and approaches the intrinsic limit when uncertainty is reduced to 1%. In addition, the forecasted intensity and structure uncertainty only becomes less than that resulting from climatological environmental initial condition uncertainty once the systematic uncertainty in C-d and C-k is reduced to similar to 10%, highlighting the strong influence of model error in limiting TC predictability. If C-d and C-k are perturbed stochastically, instead of systematically, it is shown that the influence on the simulated intensity and structure is negligible and nearly identical to the intrinsic limit, regardless of the magnitude of the stochastic C-d and C-k perturbations. While the magnitude of the stochastic C-d and C-k perturbations are comparable to the systematic perturbations, the stochastic perturbations are shown to not substantially perturb the time-integrated inner-core fluxes of momentum or enthalpy that predominantly determine simulated tropical cyclone intensity. Last, it is shown that the kinetic energy error growth behavior varies with the radius, azimuthal wavenumber, and ensemble design. Significance Statement The air-sea energy exchange beneath hurricanes is highly uncertain but strongly influences intensity. In this study, the influences of different magnitudes of surface-exchange coefficient uncertainty on the simulated intensity of an intense hurricane is compared with that resulting from environmental initial condition uncertainty and the intrinsic predictability limit. The main takeaway is that current surface-exchange coefficient uncertainties result in larger intensity uncertainty than environmental initial condition uncertainty, and substantial improvements in predictions are possible if current surface-exchange coefficient uncertainties are reduced. Furthermore, it is shown that randomly perturbing the surface-exchange coefficients at each point in space and time is not the best approach to account for the influences of this uncertain physical process on hurricane prediction because it has minimal influence on the simulated intensity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

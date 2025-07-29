@@ -71,7 +71,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2023-08-18T18:32:40.026074</gco:DateTime>
+      <gco:DateTime>2025-07-11T19:11:59.255855</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -81,14 +81,14 @@
       <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
    </gmd:metadataStandardVersion>
    <gmd:dataSetURI>
-      <gco:CharacterString>http://n2t.net/ark:/85065/d7474f4g</gco:CharacterString>
+      <gco:CharacterString>https://n2t.org/ark:/85065/d7474f4g</gco:CharacterString>
    </gmd:dataSetURI>
    <gmd:metadataExtensionInfo>
       <gmd:MD_MetadataExtensionInformation>
          <gmd:extensionOnLineResource>
             <gmd:CI_OnlineResource>
                <gmd:linkage>
-                  <gmd:URL>https://dx.doi.org/10.5065/D6RX99HX</gmd:URL>
+                  <gmd:URL>https://doi.org/10.5065/D6RX99HX</gmd:URL>
                </gmd:linkage>
                <gmd:protocol>
                   <gco:CharacterString>https</gco:CharacterString>
@@ -123,7 +123,7 @@
                <gmd:identifier>
                   <gmd:RS_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>http://n2t.net/ark:/85065/d7474f4g</gco:CharacterString>
+                        <gco:CharacterString>https://n2t.org/ark:/85065/d7474f4g</gco:CharacterString>
                      </gmd:code>
                   </gmd:RS_Identifier>
                </gmd:identifier>
@@ -147,7 +147,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Toon, Owen B.</gco:CharacterString>
+                        <gco:CharacterString>Toon, O. B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +167,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bardeen, Charles G.</gco:CharacterString>
+                        <gco:CharacterString>Bardeen, Charles</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +187,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tolbert, Margaret A.</gco:CharacterString>
+                        <gco:CharacterString>Tolbert, M. A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +197,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yu, Pengfei</gco:CharacterString>
+                        <gco:CharacterString>Yu, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +207,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Woods, Sarah</gco:CharacterString>
+                        <gco:CharacterString>Woods, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +227,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Volcanic ash is often neglected in climate simulations because ash particles are assumed to have a short atmospheric lifetime, and to not participate in sulfur chemistry. After the Mt. Kelut eruption in 2014, stratospheric ash-rich aerosols were observed for months. Here we show that the persistence of super-micron ash is consistent with a density near 0.5 g cm&#xe2;&#x88;&#x92;3, close to pumice. Ash-rich particles dominate the volcanic cloud optical properties for the first 60 days. We also find that the initial SO2 lifetime is determined by SO2 uptake on ash, rather than by reaction with OH as commonly assumed. About 43% more volcanic sulfur is removed from the stratosphere in 2 months with the SO2 heterogeneous chemistry on ash particles than without. This research suggests the need for re-evaluation of factors controlling SO2 lifetime in climate model simulations, and of the impact of volcanic ash on stratospheric chemistry and radiation.</gco:CharacterString>
+            <gco:CharacterString>Volcanic ash is often neglected in climate simulations because ash particles are assumed to have a short atmospheric lifetime, and to not participate in sulfur chemistry. After the Mt. Kelut eruption in 2014, stratospheric ash-rich aerosols were observed for months. Here we show that the persistence of super-micron ash is consistent with a density near 0.5 g cm&#x207b;3, close to pumice. Ash-rich particles dominate the volcanic cloud optical properties for the first 60 days. We also find that the initial SO2 lifetime is determined by SO2 uptake on ash, rather than by reaction with OH as commonly assumed. About 43% more volcanic sulfur is removed from the stratosphere in 2 months with the SO2 heterogeneous chemistry on ash particles than without. This research suggests the need for re-evaluation of factors controlling SO2 lifetime in climate model simulations, and of the impact of volcanic ash on stratospheric chemistry and radiation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
