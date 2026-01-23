@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21504</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:41:40.280357</gco:DateTime>
+      <gco:DateTime>2025-12-25T16:05:32.637984</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1273-2957"
+                                    xlink:title="Long, Matthew"
+                                    xlink:actuate="onRequest">Long, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bresch, James</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1442-8943"
+                                    xlink:title="Bresch, James"
+                                    xlink:actuate="onRequest">Bresch, James</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +346,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +358,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hoecker-Mart&#xed;nez, M. S.</gco:CharacterString>
+                        <gco:CharacterString>Hoecker-Martínez, M. S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +368,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +380,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +392,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, J&#xf8;rgen B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2504-1277"
+                                    xlink:title="Jensen, Jørgen B."
+                                    xlink:actuate="onRequest">Jensen, Jørgen B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +484,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Reeves, John Michael</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6817-5323"
+                                    xlink:title="Reeves, John Michael"
+                                    xlink:actuate="onRequest">Reeves, John Michael</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -507,7 +526,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stith, Jeffrey Len</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6451-5455"
+                                    xlink:title="Stith, Jeffrey Len"
+                                    xlink:actuate="onRequest">Stith, Jeffrey Len</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -517,7 +538,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stossmeister, Gregory J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1182-3120"
+                                    xlink:title="Stossmeister, Gregory J."
+                                    xlink:actuate="onRequest">Stossmeister, Gregory J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

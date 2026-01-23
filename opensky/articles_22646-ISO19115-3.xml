@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22646</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:27:33.989224</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:30:36.649684</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To investigate the response of the meteoric metal layers in the mesosphere and lower thermosphere regions to the 27-day solar rotational cycle, a long-term simulation of the Whole Atmosphere Community Climate Model with the chemistry of three metals (Na, K, and Fe) was analyzed. The correlation between variability in the metal layers and solar 27-day forcing during different phases of the solar 11-year cycle reveals that the response in the metal layers is much stronger during solar maximum. The altitude-dependent correlation and sensitivity of the metal layers to the solar spectral irradiance demonstrates that there is a significant increase in sensitivity to solar rotational cycle with increasing altitude. Above 100 km, the sensitivity of the metals to changes of 10% in the solar spectral irradiance at Lyman-alpha is estimated to be &#x2212;5%. A similar response is seen in Na layer measurements made by the Optical Spectrograph and InfraRed Imaging System instrument on the Odin satellite.</gco:CharacterString>
+            <gco:CharacterString>To investigate the response of the meteoric metal layers in the mesosphere and lower thermosphere regions to the 27-day solar rotational cycle, a long-term simulation of the Whole Atmosphere Community Climate Model with the chemistry of three metals (Na, K, and Fe) was analyzed. The correlation between variability in the metal layers and solar 27-day forcing during different phases of the solar 11-year cycle reveals that the response in the metal layers is much stronger during solar maximum. The altitude-dependent correlation and sensitivity of the metal layers to the solar spectral irradiance demonstrates that there is a significant increase in sensitivity to solar rotational cycle with increasing altitude. Above 100 km, the sensitivity of the metals to changes of 10% in the solar spectral irradiance at Lyman-alpha is estimated to be −5%. A similar response is seen in Na layer measurements made by the Optical Spectrograph and InfraRed Imaging System instrument on the Odin satellite.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

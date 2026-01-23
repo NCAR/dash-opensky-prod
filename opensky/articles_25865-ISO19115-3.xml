@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25865</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:56:46.291607</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:57:56.209411</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Malasala, Murali Nageswara Rao</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7087-6225"
+                                    xlink:title="Malasala, Murali Nageswara Rao"
+                                    xlink:actuate="onRequest">Malasala, Murali Nageswara Rao</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The skillful prediction of monthly scale rainfall in small regions like Taiwan is one of the challenges of the meteorological scientific community. Taiwan is one of the subtropical islands in Asia. It experiences rainfall extremes regularly, leading to landslides and flash floods in/near the mountains and flooding over low-lying plains, particularly during the summer monsoon season [June&#x2013;September (JJAS)]. In September 2020, NOAA/NCEP implemented Global Ensemble Forecast System, version 12 (GEFSv12), to support stakeholders for subseasonal forecasts and hydrological applications. In the present study, the performance evaluation of GEFSv12 for monthly rainfall and associated extreme rainfall (ER) events over Taiwan during JJAS against CMORPH has been done. There is a marginal improvement of GEFSv12 in depicting the East Asian summer monsoon index (EASMI) as compared to GEFS-SubX. The GEFSv12 rainfall raw products have been calibrated with a quantile&#x2013;quantile (QQ) mapping technique for further prediction skill improvement. The results reveal that the spatial patterns of climatological features (mean, interannual variability, and coefficient of variation) of summer monsoon monthly rainfall over Taiwan from QQ-GEFSv12 are very similar to CMORPH than Raw-GEFSv12. Raw-GEFSv12 has an enormous wet bias and overforecast wet days, while QQ-GEFSv12 is close to reality. The prediction skill (correlation coefficient and index of agreement) of GEFSv12 in depicting the summer monsoon monthly rainfall over Taiwan is significantly high (&gt;0.5) in most parts of Taiwan and particularly more during peak monsoon months, September, and August, followed by June and July. The calibration method significantly reduces the overestimation (underestimation) of wet (ER) events from the ensemble mean and probabilistic ensemble forecasts. The predictability of extreme rainfall events (&gt;50 mm day&#x2212;1) has also improved significantly.</gco:CharacterString>
+            <gco:CharacterString>The skillful prediction of monthly scale rainfall in small regions like Taiwan is one of the challenges of the meteorological scientific community. Taiwan is one of the subtropical islands in Asia. It experiences rainfall extremes regularly, leading to landslides and flash floods in/near the mountains and flooding over low-lying plains, particularly during the summer monsoon season [June–September (JJAS)]. In September 2020, NOAA/NCEP implemented Global Ensemble Forecast System, version 12 (GEFSv12), to support stakeholders for subseasonal forecasts and hydrological applications. In the present study, the performance evaluation of GEFSv12 for monthly rainfall and associated extreme rainfall (ER) events over Taiwan during JJAS against CMORPH has been done. There is a marginal improvement of GEFSv12 in depicting the East Asian summer monsoon index (EASMI) as compared to GEFS-SubX. The GEFSv12 rainfall raw products have been calibrated with a quantile–quantile (QQ) mapping technique for further prediction skill improvement. The results reveal that the spatial patterns of climatological features (mean, interannual variability, and coefficient of variation) of summer monsoon monthly rainfall over Taiwan from QQ-GEFSv12 are very similar to CMORPH than Raw-GEFSv12. Raw-GEFSv12 has an enormous wet bias and overforecast wet days, while QQ-GEFSv12 is close to reality. The prediction skill (correlation coefficient and index of agreement) of GEFSv12 in depicting the summer monsoon monthly rainfall over Taiwan is significantly high (&gt;0.5) in most parts of Taiwan and particularly more during peak monsoon months, September, and August, followed by June and July. The calibration method significantly reduces the overestimation (underestimation) of wet (ER) events from the ensemble mean and probabilistic ensemble forecasts. The predictability of extreme rainfall events (&gt;50 mm day−1) has also improved significantly.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

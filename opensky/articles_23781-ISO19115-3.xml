@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23781</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:14:40.598423</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:44:17.929072</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bhardwaj, Piyush</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8763-9146"
+                                    xlink:title="Bhardwaj, Piyush"
+                                    xlink:actuate="onRequest">Bhardwaj, Piyush</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kumar, Rajesh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3135-9556"
+                                    xlink:title="Kumar, Rajesh"
+                                    xlink:actuate="onRequest">Kumar, Rajesh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +232,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Vertical distribution of ozone has been obtained for the first time using INSAT-3D for the period 2013-2017 over the central Himalaya and validated utilizing balloon-borne observations from a high-altitude site in Nainital (29.4N, 79.5E, 1793 m amsl). The INSAT3D retrieved ozone profiles captured ozone gradient and ozone peak altitude successfully, despite only one IR channel for ozone. This demonstrates the capability of the INSAT-3D Sounder in capturing the observed features, with a smaller bias in the stratosphere and somewhat larger bias in the troposphere. Total ozone column from INSAT-3D showed maximum difference of 8% with ozonesonde-derived total ozone column. Larger ozone bias in the lower troposphere could be attributed to lower reliability of regression coefficient and INSAT-3D channel constraints itself, whereas high variability near the tropopause is possibly due to low ozone, poor temperature retrieval near the tropopause and stratosphere&#x2013;troposphere transport process in the Himalayan region.</gco:CharacterString>
+            <gco:CharacterString>Vertical distribution of ozone has been obtained for the first time using INSAT-3D for the period 2013-2017 over the central Himalaya and validated utilizing balloon-borne observations from a high-altitude site in Nainital (29.4N, 79.5E, 1793 m amsl). The INSAT3D retrieved ozone profiles captured ozone gradient and ozone peak altitude successfully, despite only one IR channel for ozone. This demonstrates the capability of the INSAT-3D Sounder in capturing the observed features, with a smaller bias in the stratosphere and somewhat larger bias in the troposphere. Total ozone column from INSAT-3D showed maximum difference of 8% with ozonesonde-derived total ozone column. Larger ozone bias in the lower troposphere could be attributed to lower reliability of regression coefficient and INSAT-3D channel constraints itself, whereas high variability near the tropopause is possibly due to low ozone, poor temperature retrieval near the tropopause and stratosphere–troposphere transport process in the Himalayan region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

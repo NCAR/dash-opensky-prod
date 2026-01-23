@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:304</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:55:27.805886</gco:DateTime>
+      <gco:DateTime>2025-12-26T16:16:43.858605</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Judge, Philip G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5174-0568"
+                                    xlink:title="Judge, Philip G."
+                                    xlink:actuate="onRequest">Judge, Philip G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Casini, Roberto</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6990-513X"
+                                    xlink:title="Casini, Roberto"
+                                    xlink:actuate="onRequest">Casini, Roberto</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tomczyk, Steven</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7399-3013"
+                                    xlink:title="Tomczyk, Steven"
+                                    xlink:actuate="onRequest">Tomczyk, Steven</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Measurements of components of the vector magnetic field in the solar corona can potentially yield information critical to our understanding of coronal structure, dynamics and heating. In this report we re-examine various techniques for such measurements, in particular those that can be applied outside of active regions, to investigate issues critical to the development of a new "coronal magnetometer", and to lay down some foundations upon which a suitable instrument may be developed for synoptic observations. The well-known forbidden coronal emission lines of magnetic dipole (Ml) character appear to have the highest potential to address outstanding problems in coronal physics, especially those related to the storage and release of magnetic free energy. Measurements of the full Stokes vector of M1 lines can constrain both the line-of-sight (LOS) field strength, B&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;, through the longitudinal Zeeman effect seen in Stokes V profiles, and the direction of the vector field projected onto the plane-of-the-sky (POS), through the analysis of resonance scattering-induced linear polarization seen in Stokes Q and U, in the so-called "strong field" regime of the Hanle effect. Such measurements can, coupled with additional data and models, reveal information on coronal magnetic fields, potentially including current systems, unobtainable by other means available now or in the near future. Measuring the weak, Zeeman-induced Stokes V signal presents the greatest observational challenge. Recent work at the NSO Evans coronograph succeeded in detecting convincingly the Zeeman V signal in Fe XIII 1.0746 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m (Lin et al. 2000). A more dedicated instrument designed to detect this effect from the outset will have (in principle) little trouble in measuring the linearly polarized signal from the resonance scattering process. The major obstacle is to account for cross-talk in V induced by the dominant (by a factor of 10&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;) linear polarization signal. Both effects can in principle be studied with a single coronagraphic instrument. Based upon simulations of the Stokes profiles, we argue that any new instrument must be able to measure V/I profiles to 1 part in 10&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; , and it should span wavelengths from 1.0746 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m (the wavelength of a line of Fe XIII) with capability extending ultimately to 4 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m (to include lines of Mg VIII and Si IX), and down to 0.5303 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m (Fe XIV). This wavelength range points to a reflecting coronagraph. We argue that first priority should be given to build a spectro-polarimeter that includes the 1.0746, 1.0798 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m M1 lines of Fe XIII, the permitted He I lines near 1.0830 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m, and perhaps the Fe XIV 0.5303 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m line in a higher spectral order, keeping longer wavelength capability as a secondary goal. The He I 1.0830 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m line can in principle be used to determine vector magnetic fields through the Hanle effect in prominence fields with &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;B&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; ~ 1 Gauss, and to determine the LOS strength and POS field direction in the "strong field" regime expected in prominences with stronger fields. Abbreviations/notations/units: LOS: line of sight; POS: plane of sky; Ml: magnetic dipole; El: electric dipole; E2: electric quadrupole; F-corona: Fraunhofer (dust-scattering) Corona; Kcorona: Continuum (electron-scattering) corona; E-corona: emission-line corona; longitudinal magnetic field: component of the field parallel to the field vector; transverse magnetic field: components in a plane normal to the field vector; by "resonance polarization" we refer to the restricted case of resonance scattering in the "strong field" regime, see page 18; Notation- [Fe XIV] means a forbidden line ("[ ]") in the 14th spectrum (i.e. the ion Fe&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;) of iron. "Red line": [Fe X 0.6374] &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m; "Green line": [Fe XIV] 0.5303 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m. All wavelengths are given in air, in units of microns (&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;m). CGS units are otherwise used throughout.</gco:CharacterString>
+            <gco:CharacterString>Measurements of components of the vector magnetic field in the solar corona can potentially yield information critical to our understanding of coronal structure, dynamics and heating. In this report we re-examine various techniques for such measurements, in particular those that can be applied outside of active regions, to investigate issues critical to the development of a new "coronal magnetometer", and to lay down some foundations upon which a suitable instrument may be developed for synoptic observations. The well-known forbidden coronal emission lines of magnetic dipole (Ml) character appear to have the highest potential to address outstanding problems in coronal physics, especially those related to the storage and release of magnetic free energy. Measurements of the full Stokes vector of M1 lines can constrain both the line-of-sight (LOS) field strength, Bï¿½ï¿½ï¿½, through the longitudinal Zeeman effect seen in Stokes V profiles, and the direction of the vector field projected onto the plane-of-the-sky (POS), through the analysis of resonance scattering-induced linear polarization seen in Stokes Q and U, in the so-called "strong field" regime of the Hanle effect. Such measurements can, coupled with additional data and models, reveal information on coronal magnetic fields, potentially including current systems, unobtainable by other means available now or in the near future. Measuring the weak, Zeeman-induced Stokes V signal presents the greatest observational challenge. Recent work at the NSO Evans coronograph succeeded in detecting convincingly the Zeeman V signal in Fe XIII 1.0746 ï¿½ï¿½m (Lin et al. 2000). A more dedicated instrument designed to detect this effect from the outset will have (in principle) little trouble in measuring the linearly polarized signal from the resonance scattering process. The major obstacle is to account for cross-talk in V induced by the dominant (by a factor of 10ï¿½ï¿½) linear polarization signal. Both effects can in principle be studied with a single coronagraphic instrument. Based upon simulations of the Stokes profiles, we argue that any new instrument must be able to measure V/I profiles to 1 part in 10ï¿½ï¿½ï¿½ , and it should span wavelengths from 1.0746 ï¿½ï¿½m (the wavelength of a line of Fe XIII) with capability extending ultimately to 4 ï¿½ï¿½m (to include lines of Mg VIII and Si IX), and down to 0.5303 ï¿½ï¿½m (Fe XIV). This wavelength range points to a reflecting coronagraph. We argue that first priority should be given to build a spectro-polarimeter that includes the 1.0746, 1.0798 ï¿½ï¿½m M1 lines of Fe XIII, the permitted He I lines near 1.0830 ï¿½ï¿½m, and perhaps the Fe XIV 0.5303 ï¿½ï¿½m line in a higher spectral order, keeping longer wavelength capability as a secondary goal. The He I 1.0830 ï¿½ï¿½m line can in principle be used to determine vector magnetic fields through the Hanle effect in prominence fields with ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ ~ 1 Gauss, and to determine the LOS strength and POS field direction in the "strong field" regime expected in prominences with stronger fields. Abbreviations/notations/units: LOS: line of sight; POS: plane of sky; Ml: magnetic dipole; El: electric dipole; E2: electric quadrupole; F-corona: Fraunhofer (dust-scattering) Corona; Kcorona: Continuum (electron-scattering) corona; E-corona: emission-line corona; longitudinal magnetic field: component of the field parallel to the field vector; transverse magnetic field: components in a plane normal to the field vector; by "resonance polarization" we refer to the restricted case of resonance scattering in the "strong field" regime, see page 18; Notation- [Fe XIV] means a forbidden line ("[ ]") in the 14th spectrum (i.e. the ion Feï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) of iron. "Red line": [Fe X 0.6374] ï¿½ï¿½m; "Green line": [Fe XIV] 0.5303 ï¿½ï¿½m. All wavelengths are given in air, in units of microns (ï¿½ï¿½m). CGS units are otherwise used throughout.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42543</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:59:00.313732</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:58.121858</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCrary, Rachel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0741-6773"
+                                    xlink:title="McCrary, Rachel"
+                                    xlink:actuate="onRequest">McCrary, Rachel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Rain-on-snow (RoS) events in regions of ephemeral snowpack &#x2013; such as the northeastern United States &#x2013; can be key drivers of cool-season flooding. We describe an automated algorithm for detecting basin-scale RoS events in gridded climate data by generating an area-averaged time series and then searching for periods of concurrent precipitation, surface runoff, and snowmelt exceeding predefined thresholds. When evaluated using historical data over the Susquehanna River basin (SRB), the technique credibly finds RoS events in published literature and flags events that are followed by anomalously high streamflow as measured by gauge data along the river. When comparing four different datasets representing the same 21-year period, we find large differences in RoS event magnitude and frequency, primarily driven by differences in estimated surface runoff and snowmelt. Using dataset-specific thresholds improves agreement between datasets but does not account for all discrepancies. We show that factors such as meteorological forcing and coupling frequency, as well as choice of land surface model, play roles in how data products capture these compound extremes and suggest care is to be taken when climate datasets are used by stakeholders for operational decision-making.</gco:CharacterString>
+            <gco:CharacterString>Rain-on-snow (RoS) events in regions of ephemeral snowpack – such as the northeastern United States – can be key drivers of cool-season flooding. We describe an automated algorithm for detecting basin-scale RoS events in gridded climate data by generating an area-averaged time series and then searching for periods of concurrent precipitation, surface runoff, and snowmelt exceeding predefined thresholds. When evaluated using historical data over the Susquehanna River basin (SRB), the technique credibly finds RoS events in published literature and flags events that are followed by anomalously high streamflow as measured by gauge data along the river. When comparing four different datasets representing the same 21-year period, we find large differences in RoS event magnitude and frequency, primarily driven by differences in estimated surface runoff and snowmelt. Using dataset-specific thresholds improves agreement between datasets but does not account for all discrepancies. We show that factors such as meteorological forcing and coupling frequency, as well as choice of land surface model, play roles in how data products capture these compound extremes and suggest care is to be taken when climate datasets are used by stakeholders for operational decision-making.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

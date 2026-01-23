@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22033</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:35:01.866348</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:49:35.757308</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lombardozzi, Danica</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3557-7929"
+                                    xlink:title="Lombardozzi, Danica"
+                                    xlink:actuate="onRequest">Lombardozzi, Danica</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bonan, Gordon B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0830-6437"
+                                    xlink:title="Bonan, Gordon B."
+                                    xlink:actuate="onRequest">Bonan, Gordon B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wieder, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7116-1985"
+                                    xlink:title="Wieder, William"
+                                    xlink:actuate="onRequest">Wieder, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2968-3023"
+                                    xlink:title="Lawrence, David M."
+                                    xlink:actuate="onRequest">Lawrence, David M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +216,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Cover crops, grown between cash crops when soil is fallow, are a management strategy that may help mitigate climate change. The biogeochemical effects of cover crops are well documented, as they provide numerous localized benefits to farmers. We test potential biogeophysical climate impacts of idealized cover crop scenarios by assuming that cover crops are planted offseason in all crop regions throughout North America. Our results suggest that planting cover crops increases wintertime temperature up to 3 &#xb0;C in central North America by decreasing albedo in regions with variable snowpack. Cover crops with higher leaf area indices increase temperature more by decreasing broadband albedo, while decreasing cover crop height helped to mitigate the temperature increase as the shorter height was more frequently buried by snow. Thus, climate mitigation potential must consider the biogeophysical impacts of planting cover crops, and varietal selection can minimize winter warming.</gco:CharacterString>
+            <gco:CharacterString>Cover crops, grown between cash crops when soil is fallow, are a management strategy that may help mitigate climate change. The biogeochemical effects of cover crops are well documented, as they provide numerous localized benefits to farmers. We test potential biogeophysical climate impacts of idealized cover crop scenarios by assuming that cover crops are planted offseason in all crop regions throughout North America. Our results suggest that planting cover crops increases wintertime temperature up to 3 °C in central North America by decreasing albedo in regions with variable snowpack. Cover crops with higher leaf area indices increase temperature more by decreasing broadband albedo, while decreasing cover crop height helped to mitigate the temperature increase as the shorter height was more frequently buried by snow. Thus, climate mitigation potential must consider the biogeophysical impacts of planting cover crops, and varietal selection can minimize winter warming.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

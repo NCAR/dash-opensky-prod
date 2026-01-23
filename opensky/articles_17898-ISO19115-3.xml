@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17898</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:52:00.147541</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:56:55.493292</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bresch, James</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1442-8943"
+                                    xlink:title="Bresch, James"
+                                    xlink:actuate="onRequest">Bresch, James</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +314,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +326,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +348,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +360,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +462,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +484,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -487,7 +506,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Air parcels with mixing ratios of high O3 and low H2O (HOLW) are common features in the tropical western Pacific (TWP) mid-troposphere (300&#x2013;700&#x2009;hPa). Here, using data collected during aircraft sampling of the TWP in winter 2014, we find strong, positive correlations of O3 with multiple biomass burning tracers in these HOLW structures. Ozone levels in these structures are about a factor of three larger than background. Models, satellite data and aircraft observations are used to show fires in tropical Africa and Southeast Asia are the dominant source of high O3 and that low H2O results from large-scale descent within the tropical troposphere. Previous explanations that attribute HOLW structures to transport from the stratosphere or mid-latitude troposphere are inconsistent with our observations. This study suggest a larger role for biomass burning in the radiative forcing of climate in the remote TWP than is commonly appreciated.</gco:CharacterString>
+            <gco:CharacterString>Air parcels with mixing ratios of high O3 and low H2O (HOLW) are common features in the tropical western Pacific (TWP) mid-troposphere (300–700 hPa). Here, using data collected during aircraft sampling of the TWP in winter 2014, we find strong, positive correlations of O3 with multiple biomass burning tracers in these HOLW structures. Ozone levels in these structures are about a factor of three larger than background. Models, satellite data and aircraft observations are used to show fires in tropical Africa and Southeast Asia are the dominant source of high O3 and that low H2O results from large-scale descent within the tropical troposphere. Previous explanations that attribute HOLW structures to transport from the stratosphere or mid-latitude troposphere are inconsistent with our observations. This study suggest a larger role for biomass burning in the radiative forcing of climate in the remote TWP than is commonly appreciated.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

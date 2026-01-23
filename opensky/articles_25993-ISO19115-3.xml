@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25993</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:55:33.705903</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:54:21.334691</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -148,7 +149,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Heterogeneity and chemical reactivity of the remote troposphere defined by aircraft measurements &#x2013; corrected</gco:CharacterString>
+                  <gco:CharacterString>Heterogeneity and chemical reactivity of the remote troposphere defined by aircraft measurements – corrected</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lacey, Forrest</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4578-8375"
+                                    xlink:title="Lacey, Forrest"
+                                    xlink:actuate="onRequest">Lacey, Forrest</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +444,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +456,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

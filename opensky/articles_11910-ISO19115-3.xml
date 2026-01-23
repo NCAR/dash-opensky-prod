@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11910</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:36:00.938064</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:01:54.991261</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mearns, Linda O.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2875-5830"
+                                    xlink:title="Mearns, Linda O."
+                                    xlink:actuate="onRequest">Mearns, Linda O.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study assesses the performance of the regional climate model (RCM) simulations from the North American Regional Climate Change Assessment Program (NARCCAP) for the Upper Colorado River basin (UCRB), U.S. Rocky Mountains. The UCRB is a major contributor to the Colorado River's runoff. Its significant snow-dominated hydrological regime makes it highly sensitive to climatic changes, and future water shortage in this region is likely. The RCMs are evaluated with a clear RCM output user's perspective and a main focus on snow. Snow water equivalent (SWE) and snow duration, as well as air temperature and precipitation from five RCMs, are compared with snowpack telemetry (SNOTEL) observations, with National Centers for Environmental Prediction (NCEP)&#x2013;National Center for Atmospheric Research (NCAR) Reanalysis II (R2), which provides the boundary conditions for the RCM simulations, and with North American Regional Reanalysis (NARR). Overall, most RCMs were able to significantly improve on the results from the NCEP&#x2013;NCAR reanalysis. However, in comparison with spatially aggregated point observations and NARR, the RCMs are generally too dry, too warm, simulate too little SWE, and have a too-short snow cover duration with a too-late start and a too-early end of a significant snow cover. The intermodel biases found are partly associated with inadequately resolved topography (at the spatial resolution of the RCMs), imperfect observational data, different forcing techniques (spectral nudging versus no nudging), and the different land surface schemes (LSS). Attributing the found biases to specific features of the RCMs remains difficult or even impossible without detailed knowledge of the physical and technical specification of the models.</gco:CharacterString>
+            <gco:CharacterString>This study assesses the performance of the regional climate model (RCM) simulations from the North American Regional Climate Change Assessment Program (NARCCAP) for the Upper Colorado River basin (UCRB), U.S. Rocky Mountains. The UCRB is a major contributor to the Colorado River's runoff. Its significant snow-dominated hydrological regime makes it highly sensitive to climatic changes, and future water shortage in this region is likely. The RCMs are evaluated with a clear RCM output user's perspective and a main focus on snow. Snow water equivalent (SWE) and snow duration, as well as air temperature and precipitation from five RCMs, are compared with snowpack telemetry (SNOTEL) observations, with National Centers for Environmental Prediction (NCEP)–National Center for Atmospheric Research (NCAR) Reanalysis II (R2), which provides the boundary conditions for the RCM simulations, and with North American Regional Reanalysis (NARR). Overall, most RCMs were able to significantly improve on the results from the NCEP–NCAR reanalysis. However, in comparison with spatially aggregated point observations and NARR, the RCMs are generally too dry, too warm, simulate too little SWE, and have a too-short snow cover duration with a too-late start and a too-early end of a significant snow cover. The intermodel biases found are partly associated with inadequately resolved topography (at the spatial resolution of the RCMs), imperfect observational data, different forcing techniques (spectral nudging versus no nudging), and the different land surface schemes (LSS). Attributing the found biases to specific features of the RCMs remains difficult or even impossible without detailed knowledge of the physical and technical specification of the models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19257</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:24.413371</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:19:11.285455</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Casini, Roberto</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6990-513X"
+                                    xlink:title="Casini, Roberto"
+                                    xlink:actuate="onRequest">Casini, Roberto</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tomczyk, Steven</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7399-3013"
+                                    xlink:title="Tomczyk, Steven"
+                                    xlink:actuate="onRequest">Tomczyk, Steven</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We are constructing a spectro-&#xad;polarimeter using the 40-&#xad;cm coronagraph at the Evans Solar Facility of the National Solar Observatory in Sunspot, NM for the purpose of measuring the vector magnetic field in prominences and filaments. The Prominence Magnetometer (ProMag) is comprised of a polarization modulation package and a spectrograph. The modulation optics are located at the prime focus of the coronagraph along with calibration optics and a beamsplitter that creates two beams of orthogonal Stokes states. The spectrograph resides at the coude focus of the coronagraph. The polarizations of the two chromospheric lines of neutral helium, at 587.6 nm and 1083.0 nm, are to be observed simultaneously. We present details of the design of the spectro-polarimeter.</gco:CharacterString>
+            <gco:CharacterString>We are constructing a spectro-­polarimeter using the 40-­cm coronagraph at the Evans Solar Facility of the National Solar Observatory in Sunspot, NM for the purpose of measuring the vector magnetic field in prominences and filaments. The Prominence Magnetometer (ProMag) is comprised of a polarization modulation package and a spectrograph. The modulation optics are located at the prime focus of the coronagraph along with calibration optics and a beamsplitter that creates two beams of orthogonal Stokes states. The spectrograph resides at the coude focus of the coronagraph. The polarizations of the two chromospheric lines of neutral helium, at 587.6 nm and 1083.0 nm, are to be observed simultaneously. We present details of the design of the spectro-polarimeter.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

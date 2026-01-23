@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18558</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:49:42.823361</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:52:21.752190</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2968-3023"
+                                    xlink:title="Lawrence, David M."
+                                    xlink:actuate="onRequest">Lawrence, David M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study investigates a physical basis for heterogeneity in hydrological changes, which suggests a greater detectability in wet than dry regions. Wet regions are those where atmospheric demand is less than precipitation (energy limited), and dry regions are those where atmospheric demand is greater than precipitation (water limited). Long-term streamflow trends in western North America and an analysis of Coupled Model Intercomparison Project Phase 5 (CMIP5) climate models at global scales show geographically heterogeneous detectability of hydrological changes. We apply the Budyko framework and state-of-the-art climate model data from CMIP5 to quantify the sensitivity and detectability of terrestrial hydrological changes. The Budyko framework quantifies the partitioning of precipitation into evapotranspiration and runoff components. We find that the terrestrial hydrological sensitivity is 3 times greater in regions where the hydrological cycle is energy limited rather than water limited. This additional source (the terrestrial part) contributes to 30&#x2013;40% greater detectability in energy-limited regions. We also quantified the contribution of changes in the catchment efficiency parameter that oppose the effects of increasing evaporative demand in global warming scenarios. Incorporating changes to the catchment efficiency parameter in the Budyko framework reduces dry biases in global runoff change projections by 88% in the 21st century.</gco:CharacterString>
+            <gco:CharacterString>This study investigates a physical basis for heterogeneity in hydrological changes, which suggests a greater detectability in wet than dry regions. Wet regions are those where atmospheric demand is less than precipitation (energy limited), and dry regions are those where atmospheric demand is greater than precipitation (water limited). Long-term streamflow trends in western North America and an analysis of Coupled Model Intercomparison Project Phase 5 (CMIP5) climate models at global scales show geographically heterogeneous detectability of hydrological changes. We apply the Budyko framework and state-of-the-art climate model data from CMIP5 to quantify the sensitivity and detectability of terrestrial hydrological changes. The Budyko framework quantifies the partitioning of precipitation into evapotranspiration and runoff components. We find that the terrestrial hydrological sensitivity is 3 times greater in regions where the hydrological cycle is energy limited rather than water limited. This additional source (the terrestrial part) contributes to 30–40% greater detectability in energy-limited regions. We also quantified the contribution of changes in the catchment efficiency parameter that oppose the effects of increasing evaporative demand in global warming scenarios. Incorporating changes to the catchment efficiency parameter in the Budyko framework reduces dry biases in global runoff change projections by 88% in the 21st century.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

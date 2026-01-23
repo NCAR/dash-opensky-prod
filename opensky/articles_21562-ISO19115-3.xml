@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21562</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:39:39.280825</gco:DateTime>
+      <gco:DateTime>2025-12-25T16:00:43.460503</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +262,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ozonesondes reaching the tropical tropopause layer (TTL) over the west Pacific have occasionally measured layers of very low ozone concentrations - less than 15&#x202f;ppbv - raising the question of how prevalent such layers are and how they are formed. In this paper, we examine aircraft measurements from the Airborne Tropical Tropopause Experiment (ATTREX), the Coordinated Airborne Studies in the Tropics (CAST) and the Convective Transport of Active Species in the Tropics (CONTRAST) experiment campaigns based in Guam in January&#x2013;March 2014 for evidence of very low ozone concentrations and their relation to deep convection. The study builds on results from the ozonesonde campaign conducted from Manus Island, Papua New Guinea, as part of CAST, where ozone concentrations as low as 12&#x202f;ppbv were observed between 100 and 150&#x202f;hPa downwind of a deep convective complex. TTL measurements from the Global Hawk unmanned aircraft show a marked contrast between the hemispheres, with mean ozone concentrations in profiles in the Southern Hemisphere between 100 and 150&#x202f;hPa of between 10.7 and 15.2&#x202f;ppbv. By contrast, the mean ozone concentrations in profiles in the Northern Hemisphere were always above 15.4&#x202f;ppbv and normally above 20&#x202f;ppbv at these altitudes. The CAST and CONTRAST aircraft sampled the atmosphere between the surface and 120&#x202f;hPa, finding very low ozone concentrations only between the surface and 700&#x202f;hPa; mixing ratios as low as 7&#x202f;ppbv were regularly measured in the boundary layer, whereas in the free troposphere above 200&#x202f;hPa concentrations were generally well in excess of 15&#x202f;ppbv. These results are consistent with uplift of almost-unmixed boundary-layer air to the TTL in deep convection. An interhemispheric difference was found in the TTL ozone concentrations, with values &#x2009;&lt;&#x2009;&#x202f;15&#x202f;ppbv measured extensively in the Southern Hemisphere but seldom in the Northern Hemisphere. This is consistent with a similar contrast in the low-level ozone between the two hemispheres found by previous measurement campaigns. Further evidence of a boundary-layer origin for the uplifted air is provided by the anticorrelation between ozone and halogenated hydrocarbons of marine origin observed by the three aircraft.</gco:CharacterString>
+            <gco:CharacterString>Ozonesondes reaching the tropical tropopause layer (TTL) over the west Pacific have occasionally measured layers of very low ozone concentrations - less than 15 ppbv - raising the question of how prevalent such layers are and how they are formed. In this paper, we examine aircraft measurements from the Airborne Tropical Tropopause Experiment (ATTREX), the Coordinated Airborne Studies in the Tropics (CAST) and the Convective Transport of Active Species in the Tropics (CONTRAST) experiment campaigns based in Guam in January–March 2014 for evidence of very low ozone concentrations and their relation to deep convection. The study builds on results from the ozonesonde campaign conducted from Manus Island, Papua New Guinea, as part of CAST, where ozone concentrations as low as 12 ppbv were observed between 100 and 150 hPa downwind of a deep convective complex. TTL measurements from the Global Hawk unmanned aircraft show a marked contrast between the hemispheres, with mean ozone concentrations in profiles in the Southern Hemisphere between 100 and 150 hPa of between 10.7 and 15.2 ppbv. By contrast, the mean ozone concentrations in profiles in the Northern Hemisphere were always above 15.4 ppbv and normally above 20 ppbv at these altitudes. The CAST and CONTRAST aircraft sampled the atmosphere between the surface and 120 hPa, finding very low ozone concentrations only between the surface and 700 hPa; mixing ratios as low as 7 ppbv were regularly measured in the boundary layer, whereas in the free troposphere above 200 hPa concentrations were generally well in excess of 15 ppbv. These results are consistent with uplift of almost-unmixed boundary-layer air to the TTL in deep convection. An interhemispheric difference was found in the TTL ozone concentrations, with values  &lt;  15 ppbv measured extensively in the Southern Hemisphere but seldom in the Northern Hemisphere. This is consistent with a similar contrast in the low-level ozone between the two hemispheres found by previous measurement campaigns. Further evidence of a boundary-layer origin for the uplifted air is provided by the anticorrelation between ozone and halogenated hydrocarbons of marine origin observed by the three aircraft.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

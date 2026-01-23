@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:41964</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:51.153689</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:04:25.302089</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Malasala, Murali Nageswara Rao</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7087-6225"
+                                    xlink:title="Malasala, Murali Nageswara Rao"
+                                    xlink:actuate="onRequest">Malasala, Murali Nageswara Rao</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global warming has significantly increased the risk of heat waves (HWs) globally, with India being particularly vulnerable during the summer months (March-June; MAMJ). This study investigated the critical relationship between Indian summer monsoon rainfall (ISMR) and the occurrence of premonsoon HWs in subsequent years across the Indian subcontinent. It has been hypothesized that droughts during the ISMR could lead to more frequent HWs in the following MAMJ period. Using the Indian Meteorological Department's (IMD) gridded observed surface air daily maximum temperature (Tmax) dataset for the period 1951&#x2013;2023, we analyzed the climatic patterns, interannual variability (IAV), and coefficient of variation (CV) of Tmax across India. The analysis compares two distinct periods: 1951&#x2013;1999 (P1) and 2000&#x2013;2023 (P2), with focus on Tmax trends and HW duration, distinguishing between short-duration HWs (SHWs, 2 days) and long-duration HWs (LHWs, 5 days or more). A key purpose of this study is to examine the relationship between the preceding all India summer monsoon rainfall (AISMR) and the occurance of various types of HW in the subsequent premonsoon season. In particular extreme AISMR events, such as droughts or excess rainfall, influence HW occurrence. The findings reveal a significant rise in Tmax across many regions of India during the MAMJ period, with the highest temperatures (&amp;gt;&#x2009;37 &#xb0;C) observed in northwestern, central, and eastern coastal areas. Northern India, particularly the Himalayan region, exhibits a greater interannual variability in Tmax, with June showing the most pronounced fluctuations. The study also highlights an increase in the frequency and intensity of HWs, especially in central and southern India, with the Chandigarh-Haryana-Delhi region recording the highest occurrences. A critical finding is the strong inverse relationship between the AISMR and conditions in the subsequent premonsoon season. Specifically, drought in the antecedent AISMR results in reduced soil moisture, which is strongly associated with higher premonsoon Tmax and an increased frequency of extreme heat events across India, particularly in regions prone to severe heat during this season. Drought conditions during AISMR are closely linked to higher HW frequencies in the following summer, especially in the central, northeast-central, and east-coastal regions. The frequencies of HW days, SHWs, and LHWs are significantly greater in years following AISMR droughts than in those following excess rainfall, indicating that drought years are more likely to lead to widespread HW activity. Despite the overall warming trends, some regions, such as the Indo-Gangetic Plain and parts of the Himalayan region, show cooling trends, although these trends are less widespread. The onset of the monsoon in June tends to reduce the intensity and spatial extent of warming, particularly in the central and eastern coastal regions, although significant HW trends persist in northwestern India and along the east coast. This study underscores the crucial role of AISMR in influencing HW events across India and highlights the need for adaptive strategies that account for the interactions between monsoon rainfall and HW risk, providing valuable insights for mitigating the impacts of HWs in the context of global warming.</gco:CharacterString>
+            <gco:CharacterString>Global warming has significantly increased the risk of heat waves (HWs) globally, with India being particularly vulnerable during the summer months (March-June; MAMJ). This study investigated the critical relationship between Indian summer monsoon rainfall (ISMR) and the occurrence of premonsoon HWs in subsequent years across the Indian subcontinent. It has been hypothesized that droughts during the ISMR could lead to more frequent HWs in the following MAMJ period. Using the Indian Meteorological Department's (IMD) gridded observed surface air daily maximum temperature (Tmax) dataset for the period 1951–2023, we analyzed the climatic patterns, interannual variability (IAV), and coefficient of variation (CV) of Tmax across India. The analysis compares two distinct periods: 1951–1999 (P1) and 2000–2023 (P2), with focus on Tmax trends and HW duration, distinguishing between short-duration HWs (SHWs, 2 days) and long-duration HWs (LHWs, 5 days or more). A key purpose of this study is to examine the relationship between the preceding all India summer monsoon rainfall (AISMR) and the occurance of various types of HW in the subsequent premonsoon season. In particular extreme AISMR events, such as droughts or excess rainfall, influence HW occurrence. The findings reveal a significant rise in Tmax across many regions of India during the MAMJ period, with the highest temperatures (&amp;gt; 37 °C) observed in northwestern, central, and eastern coastal areas. Northern India, particularly the Himalayan region, exhibits a greater interannual variability in Tmax, with June showing the most pronounced fluctuations. The study also highlights an increase in the frequency and intensity of HWs, especially in central and southern India, with the Chandigarh-Haryana-Delhi region recording the highest occurrences. A critical finding is the strong inverse relationship between the AISMR and conditions in the subsequent premonsoon season. Specifically, drought in the antecedent AISMR results in reduced soil moisture, which is strongly associated with higher premonsoon Tmax and an increased frequency of extreme heat events across India, particularly in regions prone to severe heat during this season. Drought conditions during AISMR are closely linked to higher HW frequencies in the following summer, especially in the central, northeast-central, and east-coastal regions. The frequencies of HW days, SHWs, and LHWs are significantly greater in years following AISMR droughts than in those following excess rainfall, indicating that drought years are more likely to lead to widespread HW activity. Despite the overall warming trends, some regions, such as the Indo-Gangetic Plain and parts of the Himalayan region, show cooling trends, although these trends are less widespread. The onset of the monsoon in June tends to reduce the intensity and spatial extent of warming, particularly in the central and eastern coastal regions, although significant HW trends persist in northwestern India and along the east coast. This study underscores the crucial role of AISMR in influencing HW events across India and highlights the need for adaptive strategies that account for the interactions between monsoon rainfall and HW risk, providing valuable insights for mitigating the impacts of HWs in the context of global warming.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10843</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:25:54.740124</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:10:55.286298</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -267,7 +268,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xe9;gulo, C.</gco:CharacterString>
+                        <gco:CharacterString>Régulo, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +318,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brand&#xe3;o, I.</gco:CharacterString>
+                        <gco:CharacterString>Brandão, I.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +338,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Do&#x11f;an, G.</gco:CharacterString>
+                        <gco:CharacterString>Doğan, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +368,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Christensen-Dalsgaard, J&#xf8;rgen</gco:CharacterString>
+                        <gco:CharacterString>Christensen-Dalsgaard, Jørgen</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -427,7 +428,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Molenda-&#x17b;akowicz, J.</gco:CharacterString>
+                        <gco:CharacterString>Molenda-Żakowicz, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -497,7 +498,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The evolved main-sequence Sun-like stars KIC 10273246 (F-type) and KIC 10920273 (G-type) were observed with the NASA Kepler satellite for approximately ten months with a duty cycle in excess of 90%. Such continuous and long observations are unprecedented for solar-type stars other than the Sun. Aims. We aimed mainly at extracting estimates of p-mode frequencies--as well as of other individual mode parameters--from the power spectra of the light curves of both stars, thus providing scope for a full seismic characterization. Methods. The light curves were corrected for instrumental effects in a manner independent of the Kepler Science Pipeline. Estimation of individual mode parameters was based both on the maximization of the likelihood of a model describing the power spectrum and on a classic prewhitening method. Finally, we employed a procedure for selecting frequency lists to be used in stellar modeling. Results. A total of 30 and 21 modes of degree l=0; 1; 2 --spanning at least eight radial orders--have been identified for KIC 10273246 and KIC 10920273, respectively. Two avoided crossings (l = 1 ridge) have been identified for KIC 10273246, whereas one avoided crossing plus another likely one have been identified for KIC 10920273. Good agreement is found between observed and predicted mode amplitudes for the F-type star KIC 10273246, based on a revised scaling relation. Estimates are given of the rotational periods, the parameters describing stellar granulation and the global asteroseismic parameters &#x394;v and v max.</gco:CharacterString>
+            <gco:CharacterString>The evolved main-sequence Sun-like stars KIC 10273246 (F-type) and KIC 10920273 (G-type) were observed with the NASA Kepler satellite for approximately ten months with a duty cycle in excess of 90%. Such continuous and long observations are unprecedented for solar-type stars other than the Sun. Aims. We aimed mainly at extracting estimates of p-mode frequencies--as well as of other individual mode parameters--from the power spectra of the light curves of both stars, thus providing scope for a full seismic characterization. Methods. The light curves were corrected for instrumental effects in a manner independent of the Kepler Science Pipeline. Estimation of individual mode parameters was based both on the maximization of the likelihood of a model describing the power spectrum and on a classic prewhitening method. Finally, we employed a procedure for selecting frequency lists to be used in stellar modeling. Results. A total of 30 and 21 modes of degree l=0; 1; 2 --spanning at least eight radial orders--have been identified for KIC 10273246 and KIC 10920273, respectively. Two avoided crossings (l = 1 ridge) have been identified for KIC 10273246, whereas one avoided crossing plus another likely one have been identified for KIC 10920273. Good agreement is found between observed and predicted mode amplitudes for the F-type star KIC 10273246, based on a revised scaling relation. Estimates are given of the rotational periods, the parameters describing stellar granulation and the global asteroseismic parameters Δv and v max.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

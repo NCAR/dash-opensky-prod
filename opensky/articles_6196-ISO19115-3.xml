@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6196</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:33.608956</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:13:50.935494</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, H.</gco:CharacterString>
+                        <gco:CharacterString>Vömel, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We quantify the vertical velocity and upward mass flux in the tropical lower stratosphere on the basis of accurate radiative heating rate calculations using 8-year Southern Hemisphere Additional Ozonesondes balloon-borne measurements of temperature and ozone and cryogenic frost-point hygrometer measured water vapor in the tropics (15&#xb0;S&#x2014;10&#xb0;N). The impact of tropospheric clouds on the stratospheric heating rates is considered using cloud distributions from the International Satellite Cloud Climatology Project. We find a nearly constant annual mean upward mass flux in the tropical lower stratosphere above the top of the tropical tropopause layer (i.e., &#x223c;70 hPa), which is 1.13 &#xb1; 0.40 kgm&#x207b;&#xb2;d&#x207b;&#xb9; for the 40- to 30-hPa layer, and 0.89 &#xb1; 0.48 kgm#8315;&#xb2;d&#x207b;&#xb9; for the 70- to 50-hPa layer. A strong seasonal cycle exists in the upward mass flux and it is found that the mass flux below &#x223c;70 hPa is decoupled from that above in the Northern Hemisphere summer. Simulations of the tropical lower stratosphere from two stratospheric General Circulation Models (GCMs) are compared with observations. The annual mean upward mass fluxes from both GCMs for the 40- to 30-hPa layer agree well with observations, while the simulated mass fluxes for the 70- to 50-hPa layer are twice as large. Both GCMs also simulate seasonal variation of the mass flux reasonably well but are incapable of simulating the observed interannual variability of the upward mass flux, which is closely correlated with the quasi-biennial oscillations.</gco:CharacterString>
+            <gco:CharacterString>We quantify the vertical velocity and upward mass flux in the tropical lower stratosphere on the basis of accurate radiative heating rate calculations using 8-year Southern Hemisphere Additional Ozonesondes balloon-borne measurements of temperature and ozone and cryogenic frost-point hygrometer measured water vapor in the tropics (15°S—10°N). The impact of tropospheric clouds on the stratospheric heating rates is considered using cloud distributions from the International Satellite Cloud Climatology Project. We find a nearly constant annual mean upward mass flux in the tropical lower stratosphere above the top of the tropical tropopause layer (i.e., ∼70 hPa), which is 1.13 ± 0.40 kgm⁻²d⁻¹ for the 40- to 30-hPa layer, and 0.89 ± 0.48 kgm#8315;²d⁻¹ for the 70- to 50-hPa layer. A strong seasonal cycle exists in the upward mass flux and it is found that the mass flux below ∼70 hPa is decoupled from that above in the Northern Hemisphere summer. Simulations of the tropical lower stratosphere from two stratospheric General Circulation Models (GCMs) are compared with observations. The annual mean upward mass fluxes from both GCMs for the 40- to 30-hPa layer agree well with observations, while the simulated mass fluxes for the 70- to 50-hPa layer are twice as large. Both GCMs also simulate seasonal variation of the mass flux reasonably well but are incapable of simulating the observed interannual variability of the upward mass flux, which is closely correlated with the quasi-biennial oscillations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

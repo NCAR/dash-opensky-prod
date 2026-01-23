@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6316</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:58.609633</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:26:52.582054</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wiltberger, Michael</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4844-3148"
+                                    xlink:title="Wiltberger, Michael"
+                                    xlink:actuate="onRequest">Wiltberger, Michael</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +228,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We have investigated the thermospheric and ionospheric response to the 14-15 December 2006 geomagnetic storm using a Coupled Magnetosphere Ionosphere Thermosphere (CMIT) 2.0 model simulation. In this paper we focus on observations and simulations during the initial phase of the storm (about 8 h), when the shock was driving changes in geospace. The global ionospheric maps of total electron content (TEC), ionosonde data at four stations and Millstone Hill incoherent scatter radar (ISR) observations are compared with the corresponding simulation results from the CMIT model. The observations showed significant positive storm effects occurred in the Atlantic sector after the onset of this storm. The CMIT model is able to capture the temporal and spatial variations of the ionospheric storm effects seen in the GPS TEC observations, although the model slightly underestimates the daytime positive ionospheric storm in the South American sector. The simulations are also in agreement with the ionosonde and ISR ionospheric measurements. Term analysis of the ion continuity equation demonstrates that changes in the electric fields play a dominant role in generating the observed ionospheric positive storm effect in the American sector during the initial phase, although neutral winds and composition changes also contribute. The difference in the strength of the enhancements over North and South America can be explained by the slope of the topside electron density profiles in the two hemispheres. In the southern hemisphere electron densities decrease slowly with altitude, whereas the decrease is much more rapid in the northern (winter) hemisphere. The electric fields, therefore, cannot cause large increases in electron density by uplifting the plasma, so positive storm effects are small in the southern hemisphere compared with the northern hemisphere, even though the increase in hm F&#x2082; is greater in the southern hemisphere. Nighttime changes in electron density in other longitude sectors are small, because the topside electron densities also decrease slowly with altitude at night.</gco:CharacterString>
+            <gco:CharacterString>We have investigated the thermospheric and ionospheric response to the 14-15 December 2006 geomagnetic storm using a Coupled Magnetosphere Ionosphere Thermosphere (CMIT) 2.0 model simulation. In this paper we focus on observations and simulations during the initial phase of the storm (about 8 h), when the shock was driving changes in geospace. The global ionospheric maps of total electron content (TEC), ionosonde data at four stations and Millstone Hill incoherent scatter radar (ISR) observations are compared with the corresponding simulation results from the CMIT model. The observations showed significant positive storm effects occurred in the Atlantic sector after the onset of this storm. The CMIT model is able to capture the temporal and spatial variations of the ionospheric storm effects seen in the GPS TEC observations, although the model slightly underestimates the daytime positive ionospheric storm in the South American sector. The simulations are also in agreement with the ionosonde and ISR ionospheric measurements. Term analysis of the ion continuity equation demonstrates that changes in the electric fields play a dominant role in generating the observed ionospheric positive storm effect in the American sector during the initial phase, although neutral winds and composition changes also contribute. The difference in the strength of the enhancements over North and South America can be explained by the slope of the topside electron density profiles in the two hemispheres. In the southern hemisphere electron densities decrease slowly with altitude, whereas the decrease is much more rapid in the northern (winter) hemisphere. The electric fields, therefore, cannot cause large increases in electron density by uplifting the plasma, so positive storm effects are small in the southern hemisphere compared with the northern hemisphere, even though the increase in hm F₂ is greater in the southern hemisphere. Nighttime changes in electron density in other longitude sectors are small, because the topside electron densities also decrease slowly with altitude at night.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

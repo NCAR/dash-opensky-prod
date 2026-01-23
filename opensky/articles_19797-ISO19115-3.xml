@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19797</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:49:25.642543</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:30:35.620976</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Prein, Andreas</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6250-179X"
+                                    xlink:title="Prein, Andreas"
+                                    xlink:actuate="onRequest">Prein, Andreas</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>There is an urgent need for more actionable and reliable climate information on regional to local scales that cannot be delivered by state-of-the-art dynamical climate models because of their inability to explicitly simulate key processes such as deep convection or the interaction of atmospheric flow with the surface (e.g., orography). Convection-permitting models (CPMs) are novel and very promising tools to generate more reliable and process-based climate information on small scales owing to their small horizontal grid spacings of &#x2264;4 km. At this resolution, deep convection can be simulated explicitly and the representation of land&#x2013;atmosphere interactions is significantly improved [see Prein et al. (2015) for a review]. The goal of the Global Energy and Water Water Exchanges project (GEWEX) Convection-Permitting Climate Modeling Workshop was to foster communication and collaboration among the rapidly growing CPM community. The main focus was on discussing major challenges and future strategies in this research area. More than 70 scientists participated in the workshop from 13 countries, representing a large cross section of the climate and weather community.</gco:CharacterString>
+            <gco:CharacterString>There is an urgent need for more actionable and reliable climate information on regional to local scales that cannot be delivered by state-of-the-art dynamical climate models because of their inability to explicitly simulate key processes such as deep convection or the interaction of atmospheric flow with the surface (e.g., orography). Convection-permitting models (CPMs) are novel and very promising tools to generate more reliable and process-based climate information on small scales owing to their small horizontal grid spacings of ≤4 km. At this resolution, deep convection can be simulated explicitly and the representation of land–atmosphere interactions is significantly improved [see Prein et al. (2015) for a review]. The goal of the Global Energy and Water Water Exchanges project (GEWEX) Convection-Permitting Climate Modeling Workshop was to foster communication and collaboration among the rapidly growing CPM community. The main focus was on discussing major challenges and future strategies in this research area. More than 70 scientists participated in the workshop from 13 countries, representing a large cross section of the climate and weather community.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

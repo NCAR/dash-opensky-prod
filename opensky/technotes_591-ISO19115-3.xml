@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:591</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:10:36.658787</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:01:09.466099</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Baker, Allison</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2436-7838"
+                                    xlink:title="Baker, Allison"
+                                    xlink:actuate="onRequest">Baker, Allison</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ensembles of climate model projections enable better quantifying intrinsic climate variability and the resulting uncertainty in projected climate. This work uses a 100-year ensemble of unforced simulations from the Community Earth System Model (CESM1) to quantify the impact of different hardware, software, and model parameter settings on the statistical properties of climate model output. The goal is to develop lightweight, computationally efficient methods of detecting statistically signi&#xfb01;cant differences in marginal distributions, stationarity, and autocorrelation with only annually and globally averaged climate model outputs. We present a series of methods and data visualization techniques for this purpose, and show that changes in model and computational parameters can be detected even with highly reduced model output. Results can inform the design of ensembles, and the tests developed can help users quickly identify distributional differences and benchmark their model simulations against other known ensembles.</gco:CharacterString>
+            <gco:CharacterString>Ensembles of climate model projections enable better quantifying intrinsic climate variability and the resulting uncertainty in projected climate. This work uses a 100-year ensemble of unforced simulations from the Community Earth System Model (CESM1) to quantify the impact of different hardware, software, and model parameter settings on the statistical properties of climate model output. The goal is to develop lightweight, computationally efficient methods of detecting statistically signiﬁcant differences in marginal distributions, stationarity, and autocorrelation with only annually and globally averaged climate model outputs. We present a series of methods and data visualization techniques for this purpose, and show that changes in model and computational parameters can be detected even with highly reduced model output. Results can inform the design of ensembles, and the tests developed can help users quickly identify distributional differences and benchmark their model simulations against other known ensembles.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

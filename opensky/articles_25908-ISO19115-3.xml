@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25908</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:56:43.630697</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:56:59.537948</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fan, Yuhong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1027-0795"
+                                    xlink:title="Fan, Yuhong"
+                                    xlink:actuate="onRequest">Fan, Yuhong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a magnetohydrodynamic simulation of the coronal mass ejection on 2006 December 13 in the emerging &#xce;&#xb4;-sunspot NOAA Active Region 10930, improving upon a previous simulation by Fan as follows. (1) Incorporate an ambient solar wind instead of using a static potential magnetic field extrapolation as the initial state. (2) In addition to imposing the emergence of a twisted flux rope, also impose at the lower boundary a random electric field that represents the effect of turbulent convection, which drives field-line braiding and produces resistive and viscous heating in the corona. With the inclusion of this heating, which depends on the magnetic field topology, we are able to model the synthetic soft X-ray images that would be observed by the X-Ray Telescope (XRT) of the Hinode satellite, produced by the simulated coronal magnetic field. We find that the simulated preeruption magnetic field with the buildup of a twisted magnetic flux rope produces synthetic soft X-ray emission that shows qualitatively similar morphology as that observed by the Hinode/XRT for both the ambient coronal loops of the active region and the central inverse S-shaped "sigmoid" that sharpens just before the onset of the eruption. The synthetic postflare loop brightening also shows similar morphology to that seen in the Hinode/XRT image during the impulsive phase of the eruption. It is found that the kinematics of the erupting flux rope is significantly affected by the open magnetic fields and fast solar wind streams adjacent to the active region.</gco:CharacterString>
+            <gco:CharacterString>We present a magnetohydrodynamic simulation of the coronal mass ejection on 2006 December 13 in the emerging Î´-sunspot NOAA Active Region 10930, improving upon a previous simulation by Fan as follows. (1) Incorporate an ambient solar wind instead of using a static potential magnetic field extrapolation as the initial state. (2) In addition to imposing the emergence of a twisted flux rope, also impose at the lower boundary a random electric field that represents the effect of turbulent convection, which drives field-line braiding and produces resistive and viscous heating in the corona. With the inclusion of this heating, which depends on the magnetic field topology, we are able to model the synthetic soft X-ray images that would be observed by the X-Ray Telescope (XRT) of the Hinode satellite, produced by the simulated coronal magnetic field. We find that the simulated preeruption magnetic field with the buildup of a twisted magnetic flux rope produces synthetic soft X-ray emission that shows qualitatively similar morphology as that observed by the Hinode/XRT for both the ambient coronal loops of the active region and the central inverse S-shaped "sigmoid" that sharpens just before the onset of the eruption. The synthetic postflare loop brightening also shows similar morphology to that seen in the Hinode/XRT image during the impulsive phase of the eruption. It is found that the kinematics of the erupting flux rope is significantly affected by the open magnetic fields and fast solar wind streams adjacent to the active region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

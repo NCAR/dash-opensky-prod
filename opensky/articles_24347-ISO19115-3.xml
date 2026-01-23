@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24347</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:15:29.109268</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:28:41.578994</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pe&#xf1;a, A.</gco:CharacterString>
+                        <gco:CharacterString>Peña, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1746-0746"
+                                    xlink:title="Kosović, Branko"
+                                    xlink:actuate="onRequest">Kosović, Branko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We investigate the ability of the Weather Research and Forecasting model to perform large-eddy simulation of canonical flows. This is achieved through comparison of the simulation outputs with measurements from sonic anemometers on a 250&#x2009;m meteorological mast located at &#xd8;sterild, in northern Denmark. &#xd8;sterild is on a flat and rough area, and for the predominant wind directions, the atmospheric flow can be considered to be close to homogeneous. The idealized simulated flows aim at representing atmospheric boundary layer turbulence under unstable, neutral, and stable stability conditions at the surface, which are statistically significant conditions observed at &#xd8;sterild. We found that the resolved fields from the simulations appear to have the characteristics of the three stability regimes. Vertical profiles of observed mean wind speeds and direction are well reproduced by the simulations, with the largest differences under near-neutral conditions, where the effect of the subgrid-scale model is evident on the vertical wind shear close to the surface. Vertical profiles of observed eddy fluxes are also well reproduced by the simulations, with the largest differences for the three velocity component variances under stable stability conditions, although nearly always within the observed variability. With regards to turbulent kinetic energy, we find good agreement between observations and simulations at all vertical levels. Simulated and observed velocity spectra match very well and show very similar behavior with height and with atmospheric stability within the low-frequency interval; at the effective resolution, the simulated spectra show the typical drop-off of finite differences. Our findings demonstrate that these idealized simulations reproduce the characteristics of atmospheric stability regimes often observed at a high turbulent and flat site within a direction sector, where the air flows over nearly homogeneous land.</gco:CharacterString>
+            <gco:CharacterString>We investigate the ability of the Weather Research and Forecasting model to perform large-eddy simulation of canonical flows. This is achieved through comparison of the simulation outputs with measurements from sonic anemometers on a 250 m meteorological mast located at Østerild, in northern Denmark. Østerild is on a flat and rough area, and for the predominant wind directions, the atmospheric flow can be considered to be close to homogeneous. The idealized simulated flows aim at representing atmospheric boundary layer turbulence under unstable, neutral, and stable stability conditions at the surface, which are statistically significant conditions observed at Østerild. We found that the resolved fields from the simulations appear to have the characteristics of the three stability regimes. Vertical profiles of observed mean wind speeds and direction are well reproduced by the simulations, with the largest differences under near-neutral conditions, where the effect of the subgrid-scale model is evident on the vertical wind shear close to the surface. Vertical profiles of observed eddy fluxes are also well reproduced by the simulations, with the largest differences for the three velocity component variances under stable stability conditions, although nearly always within the observed variability. With regards to turbulent kinetic energy, we find good agreement between observations and simulations at all vertical levels. Simulated and observed velocity spectra match very well and show very similar behavior with height and with atmospheric stability within the low-frequency interval; at the effective resolution, the simulated spectra show the typical drop-off of finite differences. Our findings demonstrate that these idealized simulations reproduce the characteristics of atmospheric stability regimes often observed at a high turbulent and flat site within a direction sector, where the air flows over nearly homogeneous land.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

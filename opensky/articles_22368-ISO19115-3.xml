@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22368</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:31:58.995998</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:42:14.408279</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate models and basic physical principles project that global mean sea level (GMSL) will increase and the rate of increase will accelerate under anthropogenic climate change (Church et al. 2013). There is now substantial evidence for this in the observational record, which consists of tide gauge measurements, satellite altimeter measurements, and, indirectly, satellite gravity measurements. Both tide gauge sea level reconstructions and satellite altimetry show that the current rate of global mean sea level change is about 3 mm yr&#x2013;1, and both show that this rate is accelerating. Usually, this change in the rate of sea level rise is modeled as a quadratic, but other functions (e.g., an exponential) may be equally valid, and in either case one must be careful interpreting these simple functional fits to what are likely to be temporally complex climate responses. Nonetheless, the character of future changes is of enormous socioeconomic consequence.</gco:CharacterString>
+            <gco:CharacterString>Climate models and basic physical principles project that global mean sea level (GMSL) will increase and the rate of increase will accelerate under anthropogenic climate change (Church et al. 2013). There is now substantial evidence for this in the observational record, which consists of tide gauge measurements, satellite altimeter measurements, and, indirectly, satellite gravity measurements. Both tide gauge sea level reconstructions and satellite altimetry show that the current rate of global mean sea level change is about 3 mm yr–1, and both show that this rate is accelerating. Usually, this change in the rate of sea level rise is modeled as a quadratic, but other functions (e.g., an exponential) may be equally valid, and in either case one must be careful interpreting these simple functional fits to what are likely to be temporally complex climate responses. Nonetheless, the character of future changes is of enormous socioeconomic consequence.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

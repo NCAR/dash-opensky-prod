@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42700</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:18.673586</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:58:41.481381</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -257,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>L&#xfc;cke, L. J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6185-4830"
+                                    xlink:title="Lücke, L. J."
+                                    xlink:actuate="onRequest">Lücke, L. J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +322,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brady, Esther C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7833-2249"
+                                    xlink:title="Brady, Esther C."
+                                    xlink:actuate="onRequest">Brady, Esther C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +364,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate variability in the last millennium (past 1000&amp;nbsp;years) is dominated by the effects of large-magnitude volcanic eruptions; however, a long-standing mismatch exists between model-simulated and tree-ring-derived surface cooling. Accounting for the self-limiting effects of large sulfur dioxide (SO2) injections and the limitations in tree-ring records, such as lagged responses due to biological memory, reconciles some of the discrepancy, but uncertainties remain, particularly for the largest tropical eruptions. The representation of volcanic forcing in the latest generation of climate models has improved significantly, but most models prescribe the aerosol optical properties rather than using SO2 emissions directly and including interactions between the aerosol, chemistry, and dynamics. Here, we use the UK Earth System Model (UKESM) to simulate the climate of the last millennium (1250&#x2013;1850&#x2009;CE) using volcanic SO2 emissions. Averaged across all large-magnitude eruptions, we find similar Northern Hemisphere (NH) summer cooling compared with other last-millennium climate simulations from the Paleoclimate Modelling Intercomparison Project Phase 4 (PMIP4), run with both SO2 emissions and prescribed forcing, and a continued overestimation of surface cooling compared with tree-ring reconstructions. However, for the largest-magnitude tropical eruptions in 1257 (Mt.&amp;nbsp;Samalas) and 1815 (Mt.&amp;nbsp;Tambora), some models, including UKESM1, suggest a smaller NH summer cooling that is in better agreement with tree-ring records. In UKESM1, we find that the simulated volcanic forcing differs considerably from the PMIP4 dataset used in models without interactive aerosol schemes, with marked differences in the hemispheric spread of the aerosol, resulting in lower forcing in the NH when SO2 emissions are used. Our results suggest that, for the largest tropical eruptions, the spatial distribution of aerosol can account for some of the discrepancies between model-simulated and tree-ring-derived cooling. Further work should therefore focus on better resolving the spatial distribution of aerosol forcing for past eruptions.</gco:CharacterString>
+            <gco:CharacterString>Climate variability in the last millennium (past 1000&amp;nbsp;years) is dominated by the effects of large-magnitude volcanic eruptions; however, a long-standing mismatch exists between model-simulated and tree-ring-derived surface cooling. Accounting for the self-limiting effects of large sulfur dioxide (SO2) injections and the limitations in tree-ring records, such as lagged responses due to biological memory, reconciles some of the discrepancy, but uncertainties remain, particularly for the largest tropical eruptions. The representation of volcanic forcing in the latest generation of climate models has improved significantly, but most models prescribe the aerosol optical properties rather than using SO2 emissions directly and including interactions between the aerosol, chemistry, and dynamics. Here, we use the UK Earth System Model (UKESM) to simulate the climate of the last millennium (1250–1850 CE) using volcanic SO2 emissions. Averaged across all large-magnitude eruptions, we find similar Northern Hemisphere (NH) summer cooling compared with other last-millennium climate simulations from the Paleoclimate Modelling Intercomparison Project Phase 4 (PMIP4), run with both SO2 emissions and prescribed forcing, and a continued overestimation of surface cooling compared with tree-ring reconstructions. However, for the largest-magnitude tropical eruptions in 1257 (Mt.&amp;nbsp;Samalas) and 1815 (Mt.&amp;nbsp;Tambora), some models, including UKESM1, suggest a smaller NH summer cooling that is in better agreement with tree-ring records. In UKESM1, we find that the simulated volcanic forcing differs considerably from the PMIP4 dataset used in models without interactive aerosol schemes, with marked differences in the hemispheric spread of the aerosol, resulting in lower forcing in the NH when SO2 emissions are used. Our results suggest that, for the largest tropical eruptions, the spatial distribution of aerosol can account for some of the discrepancies between model-simulated and tree-ring-derived cooling. Further work should therefore focus on better resolving the spatial distribution of aerosol forcing for past eruptions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

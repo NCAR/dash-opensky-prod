@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6483</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:29.289102</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:25:26.429403</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Davis, Christopher A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4530-2726"
+                                    xlink:title="Davis, Christopher A."
+                                    xlink:actuate="onRequest">Davis, Christopher A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Simulations of six Atlantic hurricanes are diagnosed to understand the behavior of realistic vortices in varying environments during the process of extratropical transition (ET). The simulations were performed in real time using the Advanced Research Weather Research and Forecasting (WRF) model (ARW), using a moving, storm-centered nest of either 4- or 1.33-km grid spacing. The six simulations, ranging from 45 to 96 h in length, provide realistic evolution of asymmetric precipitation structures, implying control by the synoptic scale, primarily through the vertical wind shear. The authors find that, as expected, the magnitude of the vortex tilt increases with increasing shear, but it is not until the shear approaches 20 m s&#x207b;&#xb9; that the total vortex circulation decreases. Furthermore, the total vertical mass flux is proportional to the shear for shears less than about 20-25 m s&#x207b;&#xb9;, and therefore maximizes, not in the tropical phase, but rather during ET. This has important implications for predicting hurricane-induced perturbations of the midlatitude jet and its consequences on downstream predictability. Hurricane vortices in the sample resist shear by either adjusting their vertical structure through precession (Helene 2006), forming an entirely new center (Irene 2005), or rapidly developing into a baroclinic cyclone in the presence of a favorable upper-tropospheric disturbance (Maria 2005). Vortex resiliency is found to have a substantial diabatic contribution whereby vertical tilt is reduced through reduction of the primary vortex asymmetry induced by the shear. If the shear and tilt are so large that upshear subsidence overwhelms the symmetric vertical circulation of the hurricane, latent heating and precipitation will occur to the left of the tilt vector and slow precession. Such was apparent during Wilma (2005).</gco:CharacterString>
+            <gco:CharacterString>Simulations of six Atlantic hurricanes are diagnosed to understand the behavior of realistic vortices in varying environments during the process of extratropical transition (ET). The simulations were performed in real time using the Advanced Research Weather Research and Forecasting (WRF) model (ARW), using a moving, storm-centered nest of either 4- or 1.33-km grid spacing. The six simulations, ranging from 45 to 96 h in length, provide realistic evolution of asymmetric precipitation structures, implying control by the synoptic scale, primarily through the vertical wind shear. The authors find that, as expected, the magnitude of the vortex tilt increases with increasing shear, but it is not until the shear approaches 20 m s⁻¹ that the total vortex circulation decreases. Furthermore, the total vertical mass flux is proportional to the shear for shears less than about 20-25 m s⁻¹, and therefore maximizes, not in the tropical phase, but rather during ET. This has important implications for predicting hurricane-induced perturbations of the midlatitude jet and its consequences on downstream predictability. Hurricane vortices in the sample resist shear by either adjusting their vertical structure through precession (Helene 2006), forming an entirely new center (Irene 2005), or rapidly developing into a baroclinic cyclone in the presence of a favorable upper-tropospheric disturbance (Maria 2005). Vortex resiliency is found to have a substantial diabatic contribution whereby vertical tilt is reduced through reduction of the primary vortex asymmetry induced by the shear. If the shear and tilt are so large that upshear subsidence overwhelms the symmetric vertical circulation of the hurricane, latent heating and precipitation will occur to the left of the tilt vector and slow precession. Such was apparent during Wilma (2005).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11902</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:36:41.434204</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:03:03.008370</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The effect of &#x223c;27 day solar rotation on ionospheric F&#x2082; region peak densities (NmF&#x2082;)</gco:CharacterString>
+                  <gco:CharacterString>The effect of ∼27 day solar rotation on ionospheric F₂ region peak densities (NmF₂)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ionospheric F&#xb2; region peak electron densities (NmF&#xb2;) observed from 11 ionosonde stations in the East Asian-Australian sector from 1969 to 1986 have been used to investigate the effect of &#x223c;27 day solar rotation on the ionosphere. These stations were located from the magnetically equatorial regions to the middle latitudes in both hemispheres. We found that, averaged over all stations and for 18 years, the normalized standard deviation of the midday &#x223c;27 day variations of NmF&#x2082; was 8% and that of the midnight variations was 10%. We applied different data analysis methods, including Fourier transform, band-pass filter, and multiple linear regression analysis, to determine quantitatively the sources of the observed &#x223c;27 day variations of NmF&#x2082; and their relative contributions to these variations. Our results show that the &#x223c;27 day variations in solar radiation and geomagnetic activity, caused by solar rotation, are the main drivers of the ionospheric &#x223c;27 day variations. They accounted for more than 85% of the variations seen in the NmF&#x2082; &#x223c;27 day variation, and their contributions became about 95% at higher latitudes. At geomagnetically low latitudes, the contribution of the &#x223c;27 day variation in solar EUV radiation was greater than that of the &#x223c;27 day variation in geomagnetic activity. However, the contribution from geomagnetic activity became more significant and was even larger than the contribution of solar radiation at higher latitudes, especially at midnight. At all latitudes the correlation between the &#x223c;27 day variations of NmF&#x2082; and solar radiation was evidently positive, whereas that between NmF&#x2082; and geomagnetic activity was positive at geomagnetically low latitudes and became negative at higher middle latitudes. We did not found large seasonal or solar cycle changes in the &#x223c;27 day variations of NmF&#x2082;. These variations, however, did show significant differences between the two hemispheres.</gco:CharacterString>
+            <gco:CharacterString>Ionospheric F² region peak electron densities (NmF²) observed from 11 ionosonde stations in the East Asian-Australian sector from 1969 to 1986 have been used to investigate the effect of ∼27 day solar rotation on the ionosphere. These stations were located from the magnetically equatorial regions to the middle latitudes in both hemispheres. We found that, averaged over all stations and for 18 years, the normalized standard deviation of the midday ∼27 day variations of NmF₂ was 8% and that of the midnight variations was 10%. We applied different data analysis methods, including Fourier transform, band-pass filter, and multiple linear regression analysis, to determine quantitatively the sources of the observed ∼27 day variations of NmF₂ and their relative contributions to these variations. Our results show that the ∼27 day variations in solar radiation and geomagnetic activity, caused by solar rotation, are the main drivers of the ionospheric ∼27 day variations. They accounted for more than 85% of the variations seen in the NmF₂ ∼27 day variation, and their contributions became about 95% at higher latitudes. At geomagnetically low latitudes, the contribution of the ∼27 day variation in solar EUV radiation was greater than that of the ∼27 day variation in geomagnetic activity. However, the contribution from geomagnetic activity became more significant and was even larger than the contribution of solar radiation at higher latitudes, especially at midnight. At all latitudes the correlation between the ∼27 day variations of NmF₂ and solar radiation was evidently positive, whereas that between NmF₂ and geomagnetic activity was positive at geomagnetically low latitudes and became negative at higher middle latitudes. We did not found large seasonal or solar cycle changes in the ∼27 day variations of NmF₂. These variations, however, did show significant differences between the two hemispheres.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

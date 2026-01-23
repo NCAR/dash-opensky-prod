@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42534</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:12.996390</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:05:19.814516</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent analyses show the importance of methane shortwave absorption, which many climate models lack. In particular, Allen et al.&amp;nbsp;(2023) used idealized climate model simulations to show that methane shortwave absorption mutes up to 30&#x2009;% of the surface warming and 60&#x2009;% of the precipitation increase associated with its longwave radiative effects. Here, we explicitly quantify the radiative and climate impacts due to shortwave absorption of the present-day methane perturbation. Our results corroborate the hypothesis that present-day methane shortwave absorption mutes the warming effects of longwave absorption. For example, the global mean cooling in response to the present-day methane shortwave absorption is -0.10&#xb1;0.07&#x2009;K, which offsets 28&#x2009;% (7&#x2009;%&#x2013;55&#x2009;%) of the surface warming associated with present-day methane longwave radiative effects. The precipitation increase associated with the longwave radiative effects of the present-day methane perturbation (0.012&#xb1;0.006&#x2009;mm&#x2009;d&#x2212;1) is also muted by shortwave absorption but not significantly so (-0.008&#xb1;0.009&#x2009;mm&#x2009;d&#x2212;1). The unique responses to methane shortwave absorption are related to its negative top-of-the-atmosphere effective radiative forcing but positive atmospheric heating and in part to methane's distinctive vertical atmospheric solar heating profile. We also find that the present-day methane shortwave radiative effects, relative to its longwave radiative effects, are about 5 times larger than those under idealized carbon dioxide perturbations. Additional analyses show consistent but non-significant differences between the longwave versus shortwave radiative effects for both methane and carbon dioxide, including a stronger (negative) climate feedback when shortwave radiative effects are included (particularly for methane). We conclude by reiterating that methane remains a potent greenhouse&amp;nbsp;gas.</gco:CharacterString>
+            <gco:CharacterString>Recent analyses show the importance of methane shortwave absorption, which many climate models lack. In particular, Allen et al.&amp;nbsp;(2023) used idealized climate model simulations to show that methane shortwave absorption mutes up to 30 % of the surface warming and 60 % of the precipitation increase associated with its longwave radiative effects. Here, we explicitly quantify the radiative and climate impacts due to shortwave absorption of the present-day methane perturbation. Our results corroborate the hypothesis that present-day methane shortwave absorption mutes the warming effects of longwave absorption. For example, the global mean cooling in response to the present-day methane shortwave absorption is -0.10±0.07 K, which offsets 28 % (7 %–55 %) of the surface warming associated with present-day methane longwave radiative effects. The precipitation increase associated with the longwave radiative effects of the present-day methane perturbation (0.012±0.006 mm d−1) is also muted by shortwave absorption but not significantly so (-0.008±0.009 mm d−1). The unique responses to methane shortwave absorption are related to its negative top-of-the-atmosphere effective radiative forcing but positive atmospheric heating and in part to methane's distinctive vertical atmospheric solar heating profile. We also find that the present-day methane shortwave radiative effects, relative to its longwave radiative effects, are about 5 times larger than those under idealized carbon dioxide perturbations. Additional analyses show consistent but non-significant differences between the longwave versus shortwave radiative effects for both methane and carbon dioxide, including a stronger (negative) climate feedback when shortwave radiative effects are included (particularly for methane). We conclude by reiterating that methane remains a potent greenhouse&amp;nbsp;gas.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

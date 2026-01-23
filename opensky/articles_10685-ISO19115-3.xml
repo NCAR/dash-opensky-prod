@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10685</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:50:07.801820</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:40:03.511244</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xfc;eller, M.</gco:CharacterString>
+                        <gco:CharacterString>Müeller, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>H&#xf6;ertnagl, L.</gco:CharacterString>
+                        <gco:CharacterString>Höertnagl, L.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Eddy covariance (EC) is the preferable technique for flux measurements since it is the only direct flux determination method. It requires a continuum of high time resolution measurements (e.g. 5 - 20 Hz). For volatile organic compounds (VOC) soft ionization via proton transfer reaction has proven to be a quantitative method for real time mass spectrometry; here we use a proton transfer reaction time of flight mass spectrometer (PTR-TOF) for 10 Hz EC measurements of full mass spectra up to m/z 315. The mass resolution of the PTR-TOF enabled the identification of chemical formulas and separation of oxygenated and hydrocarbon species exhibiting the same nominal mass. We determined 481 ion mass peaks from ambient air concentration above a managed, temperate mountain grassland in Neustift, Stubai Valley, Austria. During harvesting we found significant fluxes of 18 compounds distributed over 43 ions, including protonated parent compounds, as well as their isotopes and fragments and VOC&#x2212;H&#x207a; - water clusters. The dominant BVOC fluxes were methanol, acetaldehyde, ethanol, hexenal and other C&#x2086; leaf wound compounds, acetone, acetic acid, monoterpenes and sequiterpenes.</gco:CharacterString>
+            <gco:CharacterString>Eddy covariance (EC) is the preferable technique for flux measurements since it is the only direct flux determination method. It requires a continuum of high time resolution measurements (e.g. 5 - 20 Hz). For volatile organic compounds (VOC) soft ionization via proton transfer reaction has proven to be a quantitative method for real time mass spectrometry; here we use a proton transfer reaction time of flight mass spectrometer (PTR-TOF) for 10 Hz EC measurements of full mass spectra up to m/z 315. The mass resolution of the PTR-TOF enabled the identification of chemical formulas and separation of oxygenated and hydrocarbon species exhibiting the same nominal mass. We determined 481 ion mass peaks from ambient air concentration above a managed, temperate mountain grassland in Neustift, Stubai Valley, Austria. During harvesting we found significant fluxes of 18 compounds distributed over 43 ions, including protonated parent compounds, as well as their isotopes and fragments and VOC−H⁺ - water clusters. The dominant BVOC fluxes were methanol, acetaldehyde, ethanol, hexenal and other C₆ leaf wound compounds, acetone, acetic acid, monoterpenes and sequiterpenes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

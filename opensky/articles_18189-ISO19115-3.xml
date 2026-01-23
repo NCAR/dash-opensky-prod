@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18189</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:38:10.424782</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:06:11.759422</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dog&#x306;an, Gulnur</gco:CharacterString>
+                        <gco:CharacterString>Doğan, Gulnur</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -497,7 +498,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present an asteroseismic study of the solar-like stars KIC 11395018, KIC 10273246, KIC 10920273, KIC 10339342, and KIC 11234888 using short-cadence time series of more than eight months from the Kepler satellite. For four of these stars, we derive atmospheric parameters from spectra acquired with the Nordic Optical Telescope. The global seismic quantities (average largefrequency separation and frequency of maximum power), combined with the atmospheric parameters, yield the mean density and surface gravity with precisions of 2% and ~0.03 dex, respectively. We also determine the radius, mass, and age with precisions of 2-5%, 7-11%, and ~35%, respectively, using grid-based analyses. Coupling the stellar parameters with photometric data yields an asteroseismic distance with a precision better than 10%. A vsini measurement provides a rotational period-inclination correlation, and using the rotational periods from the recent literature, we constrain the stellar inclination for three of the stars. An Li abundance analysis yields an independent estimate of the age, but this is inconsistent with the asteroseismically determined age for one of the stars. We assess the performance of five grid-based analysis methods and find them all to provide consistent values of the surface gravity to ~0.03 dex when both atmospheric and seismic constraints are at hand. The different grid-based analyses all yield fitted values of radius and mass to within 2.4&#x3c3;, and taking the mean of these results reduces it to 1.5&#x3c3;. The absence of a metallicity constraint when the average large frequency separation is measured with a precision of 1% biases the fitted radius and mass for the stars with non-solar metallicity (metal-rich KIC 11395018 and metal-poor KIC 10273246), while including a metallicity constraint reduces the uncertainties in both of these parameters by almost a factor of two. We found that including the average small frequency separation improves the determination of the age only for KIC 11395018 and KIC 11234888, and for the latter this improvement was due to the lack of strong atmospheric constraints.</gco:CharacterString>
+            <gco:CharacterString>We present an asteroseismic study of the solar-like stars KIC 11395018, KIC 10273246, KIC 10920273, KIC 10339342, and KIC 11234888 using short-cadence time series of more than eight months from the Kepler satellite. For four of these stars, we derive atmospheric parameters from spectra acquired with the Nordic Optical Telescope. The global seismic quantities (average largefrequency separation and frequency of maximum power), combined with the atmospheric parameters, yield the mean density and surface gravity with precisions of 2% and ~0.03 dex, respectively. We also determine the radius, mass, and age with precisions of 2-5%, 7-11%, and ~35%, respectively, using grid-based analyses. Coupling the stellar parameters with photometric data yields an asteroseismic distance with a precision better than 10%. A vsini measurement provides a rotational period-inclination correlation, and using the rotational periods from the recent literature, we constrain the stellar inclination for three of the stars. An Li abundance analysis yields an independent estimate of the age, but this is inconsistent with the asteroseismically determined age for one of the stars. We assess the performance of five grid-based analysis methods and find them all to provide consistent values of the surface gravity to ~0.03 dex when both atmospheric and seismic constraints are at hand. The different grid-based analyses all yield fitted values of radius and mass to within 2.4σ, and taking the mean of these results reduces it to 1.5σ. The absence of a metallicity constraint when the average large frequency separation is measured with a precision of 1% biases the fitted radius and mass for the stars with non-solar metallicity (metal-rich KIC 11395018 and metal-poor KIC 10273246), while including a metallicity constraint reduces the uncertainties in both of these parameters by almost a factor of two. We found that including the average small frequency separation improves the determination of the age only for KIC 11395018 and KIC 11234888, and for the latter this improvement was due to the lack of strong atmospheric constraints.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17728</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:54:02.424615</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:01:10.046470</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Yongxin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6321-1276"
+                                    xlink:title="Zhang, Yongxin"
+                                    xlink:actuate="onRequest">Zhang, Yongxin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A detailed examination is made in both observations and the Community Earth System Model (CESM) of relationships among top-of-atmosphere radiation, water vapor, temperatures, and precipitation for 2000-2014 to assess the origins of radiative perturbations and climate feedbacks empirically. The 30-member large ensemble coupled runs are analyzed along with one run with specified sea surface temperatures for 1994 to 2005 (to avoid volcanic eruptions). The vertical structure of the CESM temperature profile tends to be top heavy in the model, with too much deep convection and not enough lower stratospheric cooling as part of the response to tropospheric heating. There is too much absorbed solar radiation (ASR) over the Southern Oceans and not enough in the tropics, and El Ni&#xf1;o&#x2013;Southern Oscillation (ENSO) is too large in amplitude in this version of the model. However, the covariability of monthly mean anomalies produces remarkably good replication of most of the observed relationships. There is a lot more high-frequency variability in radiative fluxes than in temperature, highlighting the role of clouds and transient weather systems in the radiation statistics. Over the Warm Pool in the tropical western Pacific and Indian Oceans, where nonlocal effects from the Walker circulation driven by the ENSO events are important, several related biases emerge: in response to high SST anomalies there is more precipitation, water vapor, and cloud and less ASR and outgoing longwave radiation in the model than observed. Different model global mean trends are evident, however, possibly hinting at too much positive cloud feedback in the model.</gco:CharacterString>
+            <gco:CharacterString>A detailed examination is made in both observations and the Community Earth System Model (CESM) of relationships among top-of-atmosphere radiation, water vapor, temperatures, and precipitation for 2000-2014 to assess the origins of radiative perturbations and climate feedbacks empirically. The 30-member large ensemble coupled runs are analyzed along with one run with specified sea surface temperatures for 1994 to 2005 (to avoid volcanic eruptions). The vertical structure of the CESM temperature profile tends to be top heavy in the model, with too much deep convection and not enough lower stratospheric cooling as part of the response to tropospheric heating. There is too much absorbed solar radiation (ASR) over the Southern Oceans and not enough in the tropics, and El Niño–Southern Oscillation (ENSO) is too large in amplitude in this version of the model. However, the covariability of monthly mean anomalies produces remarkably good replication of most of the observed relationships. There is a lot more high-frequency variability in radiative fluxes than in temperature, highlighting the role of clouds and transient weather systems in the radiation statistics. Over the Warm Pool in the tropical western Pacific and Indian Oceans, where nonlocal effects from the Walker circulation driven by the ENSO events are important, several related biases emerge: in response to high SST anomalies there is more precipitation, water vapor, and cloud and less ASR and outgoing longwave radiation in the model than observed. Different model global mean trends are evident, however, possibly hinting at too much positive cloud feedback in the model.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

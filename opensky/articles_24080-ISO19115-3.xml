@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24080</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:10:28.399532</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:36:26.881830</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -108,7 +109,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Last Glacial Maximum&#xa0;(LGM) climate forcing and ocean dynamical feedback and their implications for estimating climate sensitivity</gco:CharacterString>
+                  <gco:CharacterString>Last Glacial Maximum (LGM) climate forcing and ocean dynamical feedback and their implications for estimating climate sensitivity</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhu, Jiang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0908-5130"
+                                    xlink:title="Zhu, Jiang"
+                                    xlink:actuate="onRequest">Zhu, Jiang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Equilibrium climate sensitivity (ECS) has been directly estimated using reconstructions of past climates that are different than today's. A challenge to this approach is that temperature proxies integrate over the timescales of the fast feedback processes (e.g., changes in water vapor, snow, and clouds) that are captured in ECS as well as the slower feedback processes (e.g., changes in ice sheets and ocean circulation) that are not. A way around this issue is to treat the slow feedbacks as climate forcings and independently account for their impact on global temperature. Here we conduct a suite of Last Glacial Maximum (LGM) simulations using the Community Earth System Model version 1.2 (CESM1.2) to quantify the forcing and efficacy of land ice sheets (LISs) and greenhouse gases (GHGs) in order to estimate ECS. Our forcing and efficacy quantification adopts the effective radiative forcing (ERF) and adjustment framework and provides a complete accounting for the radiative, topographic, and dynamical impacts of LIS on surface temperatures. ERF and efficacy of LGM LIS are &#x2212;3.2&#x2009;W&#x2009;m&#x2212;2 and 1.1, respectively. The larger-than-unity efficacy is caused by the temperature changes over land and the Northern Hemisphere subtropical oceans which are relatively larger than those in response to a doubling of atmospheric CO2. The subtropical sea-surface temperature (SST) response is linked to LIS-induced wind changes and feedbacks in ocean&#x2013;atmosphere coupling and clouds. ERF and efficacy of LGM GHG are &#x2212;2.8&#x2009;W&#x2009;m&#x2212;2 and 0.9, respectively. The lower efficacy is primarily attributed to a smaller cloud feedback at colder temperatures. Our simulations further demonstrate that the direct ECS calculation using the forcing, efficacy, and temperature response in CESM1.2 overestimates the true value in the model by approximately 25&#x2009;% due to the neglect of slow ocean dynamical feedback. This is supported by the greater cooling (6.8&#x2009;&#x2218;C) in a fully coupled LGM simulation than that (5.3&#x2009;&#x2218;C) in a slab ocean model simulation with ocean dynamics disabled. The majority (67&#x2009;%) of the ocean dynamical feedback is attributed to dynamical changes in the Southern Ocean, where interactions between upper-ocean stratification, heat transport, and sea-ice cover are found to amplify the LGM cooling. Our study demonstrates the value of climate models in the quantification of climate forcings and the ocean dynamical feedback, which is necessary for an accurate direct ECS estimation.</gco:CharacterString>
+            <gco:CharacterString>Equilibrium climate sensitivity (ECS) has been directly estimated using reconstructions of past climates that are different than today's. A challenge to this approach is that temperature proxies integrate over the timescales of the fast feedback processes (e.g., changes in water vapor, snow, and clouds) that are captured in ECS as well as the slower feedback processes (e.g., changes in ice sheets and ocean circulation) that are not. A way around this issue is to treat the slow feedbacks as climate forcings and independently account for their impact on global temperature. Here we conduct a suite of Last Glacial Maximum (LGM) simulations using the Community Earth System Model version 1.2 (CESM1.2) to quantify the forcing and efficacy of land ice sheets (LISs) and greenhouse gases (GHGs) in order to estimate ECS. Our forcing and efficacy quantification adopts the effective radiative forcing (ERF) and adjustment framework and provides a complete accounting for the radiative, topographic, and dynamical impacts of LIS on surface temperatures. ERF and efficacy of LGM LIS are −3.2 W m−2 and 1.1, respectively. The larger-than-unity efficacy is caused by the temperature changes over land and the Northern Hemisphere subtropical oceans which are relatively larger than those in response to a doubling of atmospheric CO2. The subtropical sea-surface temperature (SST) response is linked to LIS-induced wind changes and feedbacks in ocean–atmosphere coupling and clouds. ERF and efficacy of LGM GHG are −2.8 W m−2 and 0.9, respectively. The lower efficacy is primarily attributed to a smaller cloud feedback at colder temperatures. Our simulations further demonstrate that the direct ECS calculation using the forcing, efficacy, and temperature response in CESM1.2 overestimates the true value in the model by approximately 25 % due to the neglect of slow ocean dynamical feedback. This is supported by the greater cooling (6.8 ∘C) in a fully coupled LGM simulation than that (5.3 ∘C) in a slab ocean model simulation with ocean dynamics disabled. The majority (67 %) of the ocean dynamical feedback is attributed to dynamical changes in the Southern Ocean, where interactions between upper-ocean stratification, heat transport, and sea-ice cover are found to amplify the LGM cooling. Our study demonstrates the value of climate models in the quantification of climate forcings and the ocean dynamical feedback, which is necessary for an accurate direct ECS estimation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

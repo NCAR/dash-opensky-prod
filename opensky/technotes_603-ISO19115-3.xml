@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:603</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:02:24.596162</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:50:12.532866</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Carlile, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6584-9318"
+                                    xlink:title="Carlile, Andrew"
+                                    xlink:actuate="onRequest">Carlile, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>de Wijn, Alfred G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5084-4661"
+                                    xlink:title="de Wijn, Alfred G."
+                                    xlink:actuate="onRequest">de Wijn, Alfred G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The CHROMIS Fabry-Perot tunable filter at the 1-m Swedish Solar Telescope (Goran B. Scharmer et al. 2003) has great potential to study the chromosphere using spectro-polarimetric techniques with the Ca II H &amp; K lines. It combines high spatial resolution with high throughput, adequate spectral resolution, and fast spectral tuning capability. However, it is currently not outfited with a polarimetric modulator. The High Altitude Observatory (HAO) is to design and build such a modulator for the SST/CHROMIS instrument. A polarimeter for CHROMIS will give a unique possibility for investigating magnetic fields in the uppermost part of the chromosphere above active regions, which corresponds to the location of the origin of space weather. HAO believes that through this collaboration between HAO and Stockholm University, we can extend the capabilities of the solar community in understanding fundamentally important physical processes in the solar atmosphere, and aid the understanding of the origin of Solar variability on Earth's atmosphere. This development will help maintain ties between the European and US solar communities. This paper describes the engineering effort to design, analyze, fabricate, and test the modulator system.</gco:CharacterString>
+            <gco:CharacterString>The CHROMIS Fabry-Perot tunable filter at the 1-m Swedish Solar Telescope (Goran B. Scharmer et al. 2003) has great potential to study the chromosphere using spectro-polarimetric techniques with the Ca II HK lines. It combines high spatial resolution with high throughput, adequate spectral resolution, and fast spectral tuning capability. However, it is currently not outfitted with a polarimetric modulator. The High Altitude Observatory (HAO) is to design and build such a modulator for the SST/CHROMIS instrument. A polarimeter for CHROMIS will give a unique possibility for investigating magnetic fields in the uppermost part of the chromosphere above active regions, which corresponds to the location of the origin of space weather. HAO believes that through this collaboration between HAO and Stockholm University, we can extend the capabilities of the solar community in understanding fundamentally important physical processes in the solar atmosphere, and aid the understanding of the origin of Solar variability on Earth's atmosphere. This development will help maintain ties between the European and US solar communities. This paper describes the engineering effort to design, analyze, fabricate, and test the modulator system.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

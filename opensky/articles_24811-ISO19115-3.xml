@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24811</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:09:59.279288</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:59:30.681302</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,7 +98,7 @@
                   <gco:CharacterString>Related Dataset #1</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Wegener Center GNSS Radio Occultation Record (2001&#x2013;2020)</gco:CharacterString>
+                  <gco:CharacterString>Wegener Center GNSS Radio Occultation Record (2001–2020)</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -117,7 +118,7 @@
                   <gco:CharacterString>Related Dataset #2</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Wegener Center GNSS Radio Occultation Record (2001&#x2013;2020)</gco:CharacterString>
+                  <gco:CharacterString>Wegener Center GNSS Radio Occultation Record (2001–2020)</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -148,7 +149,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Continuous rise of the tropopause in the Northern Hemisphere over 1980&#x2013;2020</gco:CharacterString>
+                  <gco:CharacterString>Continuous rise of the tropopause in the Northern Hemisphere over 1980–2020</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Tropopause height (H) is a sensitive diagnostic for anthropogenic climate change. Previous studies showed increases in H over 1980&#x2013;2000 but were inconsistent in projecting H trends after 2000. While H generally responds to temperature changes in the troposphere and stratosphere, the relative importance of these two contributions is uncertain. Here, we use radiosonde balloon observations in the Northern Hemisphere (NH) over 20&#xb0;N to 80&#xb0;N to reveal a continuous rise of H over 1980&#x2013;2020. Over 2001&#x2013;2020, H increases at 50 to 60 m/decade, which is comparable to the trend over 1980&#x2013;2000. The GPS radio occultation measurements from satellites and homogenized radiosonde records are in good agreement with those results. The continuous rise of the tropopause in the NH after 2000 results primarily from tropospheric warming. A large trend in H remains after major natural forcings for H are removed, providing further observational evidence for anthropogenic climate change.</gco:CharacterString>
+            <gco:CharacterString>Tropopause height (H) is a sensitive diagnostic for anthropogenic climate change. Previous studies showed increases in H over 1980–2000 but were inconsistent in projecting H trends after 2000. While H generally responds to temperature changes in the troposphere and stratosphere, the relative importance of these two contributions is uncertain. Here, we use radiosonde balloon observations in the Northern Hemisphere (NH) over 20°N to 80°N to reveal a continuous rise of H over 1980–2020. Over 2001–2020, H increases at 50 to 60 m/decade, which is comparable to the trend over 1980–2000. The GPS radio occultation measurements from satellites and homogenized radiosonde records are in good agreement with those results. The continuous rise of the tropopause in the NH after 2000 results primarily from tropospheric warming. A large trend in H remains after major natural forcings for H are removed, providing further observational evidence for anthropogenic climate change.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

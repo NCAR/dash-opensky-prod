@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26280</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:18:39.889473</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:33:25.789461</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xf6;hling, A.</gco:CharacterString>
+                        <gco:CharacterString>Röhling, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +298,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xe9;, Y.</gco:CharacterString>
+                        <gco:CharacterString>Té, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +378,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -427,7 +430,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>De Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>De Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +480,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We validate formaldehyde (HCHO) vertical column densities (VCDs) from Ozone Mapping and Profiler Suite Nadir Mapper (OMPS-NM) instruments onboard the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite for 2012&#x2013;2020 and National Oceanic and Atmospheric Administration-20 (NOAA-20) satellite for 2018&#x2013;2020, hereafter referred to as OMPS-NPP and OMPS-N20, with ground-based Fourier-Transform Infrared (FTIR) observations of the Network for the Detection of Atmospheric Composition Change (NDACC). OMPS-NPP/N20 HCHO products reproduce seasonal variability at 24 FTIR sites. Monthly variability of OMPS-NPP/N20 has a very good agreement with FTIR, showing correlation coefficients of 0.83 and 0.88, respectively. OMPS-NPP (N20) biases averaged over all sites are &#x2212;0.9 (4) &#xb1; 3 (6)%. However, at clean sites (with VCDs &lt; 4.0 &#xd7; 1015 molecules cm&#x2212;2), positive biases of 20 (32) &#xb1; 6 (18)% occur for OMPS-NPP (N20). At sites with HCHO VCDs &gt; 4.0 &#xd7; 1015 molecules cm&#x2212;2, negative biases of &#x2212;15% &#xb1; 4% appear for OMPS-NPP, but OMPS-N20 shows smaller bias of 0.5% &#xb1; 6% due to its smaller ground pixel footprints. Therefore, smaller satellite footprint sizes are important in distinguishing small-scale plumes. In addition, we discuss a bias correction and provide lower limit for the monthly uncertainty of OMPS-NPP/N20 HCHO products. The total uncertainty for OMPS-NPP (N20) at clean sites is 0.7 (0.8) &#xd7; 1015 molecules cm&#x2212;</gco:CharacterString>
+            <gco:CharacterString>We validate formaldehyde (HCHO) vertical column densities (VCDs) from Ozone Mapping and Profiler Suite Nadir Mapper (OMPS-NM) instruments onboard the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite for 2012–2020 and National Oceanic and Atmospheric Administration-20 (NOAA-20) satellite for 2018–2020, hereafter referred to as OMPS-NPP and OMPS-N20, with ground-based Fourier-Transform Infrared (FTIR) observations of the Network for the Detection of Atmospheric Composition Change (NDACC). OMPS-NPP/N20 HCHO products reproduce seasonal variability at 24 FTIR sites. Monthly variability of OMPS-NPP/N20 has a very good agreement with FTIR, showing correlation coefficients of 0.83 and 0.88, respectively. OMPS-NPP (N20) biases averaged over all sites are −0.9 (4) ± 3 (6)%. However, at clean sites (with VCDs &lt; 4.0 × 1015 molecules cm−2), positive biases of 20 (32) ± 6 (18)% occur for OMPS-NPP (N20). At sites with HCHO VCDs &gt; 4.0 × 1015 molecules cm−2, negative biases of −15% ± 4% appear for OMPS-NPP, but OMPS-N20 shows smaller bias of 0.5% ± 6% due to its smaller ground pixel footprints. Therefore, smaller satellite footprint sizes are important in distinguishing small-scale plumes. In addition, we discuss a bias correction and provide lower limit for the monthly uncertainty of OMPS-NPP/N20 HCHO products. The total uncertainty for OMPS-NPP (N20) at clean sites is 0.7 (0.8) × 1015 molecules cm−</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

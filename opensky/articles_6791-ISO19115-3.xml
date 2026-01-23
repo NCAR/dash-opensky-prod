@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6791</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:35.752597</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:22.373009</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ozone mass deficit is a commonly used index to quantify Antarctic ozone depletion. However, as currently defined, this measure is not robust with respect to reflecting chemical ozone loss within the Antarctic vortex. Therefore, in this study, a new definition of ozone mass deficit (OMD) is developed. The 220 Dobson Unit based value currently used as the threshold for ozone depletion has been replaced with a new ozone background representative of pre-ozone-hole conditions. Second, the new OMD measure is based on ozone measurements within the dynamical vortex. A simpler method is also proposed whereby calculation of the vortex edge is avoided by using the average latitude of the vortex edge (62&#xb0;S) as the spatial limiting contour. An indication of the errors in OMD introduced when using this simpler approach is provided. By comparing vortex average total ozone loss (defined using the new background and limiting contour) with partial column accumulated chemical ozone loss calculated with the tracer-tracer correlation method for 1992 - 2004 and in more detail for 1996 and 2003, it is shown that the new OMD measure is representative of chemical ozone loss within the vortex. In addition the new criteria have been applied to the calculation of ozone hole area. The sensitivity of the new measures to uncertainties in the background have been quantified. The new ozone loss measures underestimate chemical ozone loss in highly dynamically disturbed years (2002 and 2004), and criteria for identifying these years are presented. The new measures should aid chemistry-climate model intercomparisons since ozone biases in the models are avoided.</gco:CharacterString>
+            <gco:CharacterString>Ozone mass deficit is a commonly used index to quantify Antarctic ozone depletion. However, as currently defined, this measure is not robust with respect to reflecting chemical ozone loss within the Antarctic vortex. Therefore, in this study, a new definition of ozone mass deficit (OMD) is developed. The 220 Dobson Unit based value currently used as the threshold for ozone depletion has been replaced with a new ozone background representative of pre-ozone-hole conditions. Second, the new OMD measure is based on ozone measurements within the dynamical vortex. A simpler method is also proposed whereby calculation of the vortex edge is avoided by using the average latitude of the vortex edge (62°S) as the spatial limiting contour. An indication of the errors in OMD introduced when using this simpler approach is provided. By comparing vortex average total ozone loss (defined using the new background and limiting contour) with partial column accumulated chemical ozone loss calculated with the tracer-tracer correlation method for 1992 - 2004 and in more detail for 1996 and 2003, it is shown that the new OMD measure is representative of chemical ozone loss within the vortex. In addition the new criteria have been applied to the calculation of ozone hole area. The sensitivity of the new measures to uncertainties in the background have been quantified. The new ozone loss measures underestimate chemical ozone loss in highly dynamically disturbed years (2002 and 2004), and criteria for identifying these years are presented. The new measures should aid chemistry-climate model intercomparisons since ozone biases in the models are avoided.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

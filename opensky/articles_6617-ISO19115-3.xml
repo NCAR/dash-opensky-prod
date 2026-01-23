@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6617</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:31.504230</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:28:23.243206</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Davis, Christopher A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4530-2726"
+                                    xlink:title="Davis, Christopher A."
+                                    xlink:actuate="onRequest">Davis, Christopher A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To explore the role of hurricanes in the climate system, a detailed analysis is made of the bulk atmospheric moisture budget of Ivan in September 2004 and Katrina in August 2005 from simulations with the Weather and Research Forecasting (WRF) model at 4 km resolution without parameterized convection. Heavy precipitation exceeding 20 mm h&#x207b;&#xb9; in the storms greatly exceeds the surface flux of moisture through evaporation, and vertically integrated convergence of moisture in the lowest 1 km of the atmosphere from distances up to 1600 km is the dominant term in the moisture budget, highlighting the importance of the larger-scale environment. Simulations are also run for the Katrina case with sea surface temperatures (SSTs) increased by +1&#xb0;C and decreased by -1&#xb0;C as sensitivity studies. For hours 42 to 54 after the start of the simulation, maximum surface winds increased about 4.5 m s&#x207b;&#xb9; (9%), and sea level pressure fell 11.5 hPa per 1&#xb0;C increase in tropical SSTs. Overall, the hurricane expands in size as SSTs increase, the environmental atmospheric moisture increases at close to the Clausius-Clapeyron equation value of about 6% K&#x207b;&#xb9; and the surface moisture flux also increases mainly from Clausius-Clapeyron effects and the changes in intensity of the storm. The environmental changes related to human influences on climate since 1970 have increased SSTs and water vapor, and the results suggest how this may have altered hurricanes and increased associated storm rainfalls, with the latter quantified to date to be of order 6 to 8%.</gco:CharacterString>
+            <gco:CharacterString>To explore the role of hurricanes in the climate system, a detailed analysis is made of the bulk atmospheric moisture budget of Ivan in September 2004 and Katrina in August 2005 from simulations with the Weather and Research Forecasting (WRF) model at 4 km resolution without parameterized convection. Heavy precipitation exceeding 20 mm h⁻¹ in the storms greatly exceeds the surface flux of moisture through evaporation, and vertically integrated convergence of moisture in the lowest 1 km of the atmosphere from distances up to 1600 km is the dominant term in the moisture budget, highlighting the importance of the larger-scale environment. Simulations are also run for the Katrina case with sea surface temperatures (SSTs) increased by +1°C and decreased by -1°C as sensitivity studies. For hours 42 to 54 after the start of the simulation, maximum surface winds increased about 4.5 m s⁻¹ (9%), and sea level pressure fell 11.5 hPa per 1°C increase in tropical SSTs. Overall, the hurricane expands in size as SSTs increase, the environmental atmospheric moisture increases at close to the Clausius-Clapeyron equation value of about 6% K⁻¹ and the surface moisture flux also increases mainly from Clausius-Clapeyron effects and the changes in intensity of the storm. The environmental changes related to human influences on climate since 1970 have increased SSTs and water vapor, and the results suggest how this may have altered hurricanes and increased associated storm rainfalls, with the latter quantified to date to be of order 6 to 8%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6659</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:58.218569</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:36:19.299296</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Intense upwelling during summer and convection in winter are believed to drive higher biological productivity in the Arabian Sea than in the Bay of Bengal. Although the Arabian Sea receives substantial atmospheric deposition of dust aerosols, its role in biological activity is unknown. We have analyzed chlorophyll-a (SeaWiFS), absorbing aerosol index (TOMS), surface winds (NCEP), and modeled dust deposition and SST (OI) data during two distinct seasons June-August (JJA, summer months) and October-December (OND, winter months) for the period 1997-2004. Climatologies of physicochemical properties have been developed from World Ocean Atlas 2001 (WOA01). Our results suggest that despite the strong vertical supply of nutrients in the western and central Arabian Sea regions, maximal chlorophyll-a was limited to the former region in both JJA and OND periods, suggesting the importance of atmospherically transported substances in determining chlorophyll abundance in the North Indian Ocean. Time-averages (1997-2004) revealed chlorophyll abundances in northwestern regions are larger than in other regions of the respective basins. The NW regions of the Arabian Sea and the Bay of Bengal have exhibited contrasting chlorophyll distribution patterns during El Ni&#xf1;o years (1997-1998 and 2002-2003; positive SST anomalies); decreased and increased chlorophyll contents in respective regions. Following the passage of tropical cyclones, SeaWiFS records depicted large areas in the Arabian Sea to experience intensified chlorophyll production with strong wind speeds of 55-65 knots whereas its enhanced production occurred only in small patches even under the influence of Orissa Super Cyclone of October 1999 (wind speed up to 140 knots) due to strong stratification.</gco:CharacterString>
+            <gco:CharacterString>Intense upwelling during summer and convection in winter are believed to drive higher biological productivity in the Arabian Sea than in the Bay of Bengal. Although the Arabian Sea receives substantial atmospheric deposition of dust aerosols, its role in biological activity is unknown. We have analyzed chlorophyll-a (SeaWiFS), absorbing aerosol index (TOMS), surface winds (NCEP), and modeled dust deposition and SST (OI) data during two distinct seasons June-August (JJA, summer months) and October-December (OND, winter months) for the period 1997-2004. Climatologies of physicochemical properties have been developed from World Ocean Atlas 2001 (WOA01). Our results suggest that despite the strong vertical supply of nutrients in the western and central Arabian Sea regions, maximal chlorophyll-a was limited to the former region in both JJA and OND periods, suggesting the importance of atmospherically transported substances in determining chlorophyll abundance in the North Indian Ocean. Time-averages (1997-2004) revealed chlorophyll abundances in northwestern regions are larger than in other regions of the respective basins. The NW regions of the Arabian Sea and the Bay of Bengal have exhibited contrasting chlorophyll distribution patterns during El Niño years (1997-1998 and 2002-2003; positive SST anomalies); decreased and increased chlorophyll contents in respective regions. Following the passage of tropical cyclones, SeaWiFS records depicted large areas in the Arabian Sea to experience intensified chlorophyll production with strong wind speeds of 55-65 knots whereas its enhanced production occurred only in small patches even under the influence of Orissa Super Cyclone of October 1999 (wind speed up to 140 knots) due to strong stratification.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

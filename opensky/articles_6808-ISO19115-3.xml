@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6808</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:55.824942</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:36:12.902693</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +314,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Intercontinental Transport of Ozone and Precursors (ITOP), part of International Consortium for Atmospheric Research on Transport and Transformation (ICARTT), was a large experimental campaign designed to improve our understanding of the chemical transformations within plumes during long-range transport (LRT) of pollution from North America to Europe. This campaign took place in July and August 2004, when a strong fire season occurred in North America. Burning by-products were transported over large distances, sometimes reaching Europe. A chemical transport model, Mod&#xe9;lisation de la Chimie Atmosph&#xe9;rique Grande Echelle (MOCAGE), with a high grid resolution (0.5&#xb0; &#xd7; 0.5&#xb0;) over the North Atlantic area and a daily inventory of biomass burning emissions over the United States, has been used to simulate the period. By comparing our results with available aircraft in situ measurements and satellite data (MOPITT CO and SCIAMACHY NO&#x2082;), we show that MOCAGE is capable of representing the main characteristics of the tropospheric ozone-NOx-hydrocarbon chemistry during the ITOP experiment. In particular, high resolution allows the accurate representation of the pathway of exported pollution over the Atlantic, where plumes were transported preferentially at 6 km altitude. The model overestimates OH mixing ratios up to a factor of 2 in the lower troposphere, which results in a global overestimation of hydrocarbons oxidation by-products (PAN and ketones) and an excess of O&#x2083; (30-50 ppbv) in the planetary boundary layer (PBL) over the continental United States. Sensitivity study revealed that lightning NO emissions contributed significantly to the NOx budget in the upper troposphere of northeast America during the summer 2004.</gco:CharacterString>
+            <gco:CharacterString>Intercontinental Transport of Ozone and Precursors (ITOP), part of International Consortium for Atmospheric Research on Transport and Transformation (ICARTT), was a large experimental campaign designed to improve our understanding of the chemical transformations within plumes during long-range transport (LRT) of pollution from North America to Europe. This campaign took place in July and August 2004, when a strong fire season occurred in North America. Burning by-products were transported over large distances, sometimes reaching Europe. A chemical transport model, Modélisation de la Chimie Atmosphérique Grande Echelle (MOCAGE), with a high grid resolution (0.5° × 0.5°) over the North Atlantic area and a daily inventory of biomass burning emissions over the United States, has been used to simulate the period. By comparing our results with available aircraft in situ measurements and satellite data (MOPITT CO and SCIAMACHY NO₂), we show that MOCAGE is capable of representing the main characteristics of the tropospheric ozone-NOx-hydrocarbon chemistry during the ITOP experiment. In particular, high resolution allows the accurate representation of the pathway of exported pollution over the Atlantic, where plumes were transported preferentially at 6 km altitude. The model overestimates OH mixing ratios up to a factor of 2 in the lower troposphere, which results in a global overestimation of hydrocarbons oxidation by-products (PAN and ketones) and an excess of O₃ (30-50 ppbv) in the planetary boundary layer (PBL) over the continental United States. Sensitivity study revealed that lightning NO emissions contributed significantly to the NOx budget in the upper troposphere of northeast America during the summer 2004.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

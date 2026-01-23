@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18589</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:47:10.969263</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:47:34.062642</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sullivan, Peter P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-6328"
+                                    xlink:title="Sullivan, Peter P."
+                                    xlink:actuate="onRequest">Sullivan, Peter P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of fast-propagating swell on the air&#x2013;sea momentum exchange and the marine boundary layer is examined based on multiple large-eddy simulations over a range of wind speed and swell parameters in the light-wind--fast-wave regime. A wave-driven supergeostrophic jet forms near the top of the wave boundary layer when the forwarding-pointing (i.e., negative) form drag associated with fast wind-following swell overpowers the positive surface shear stress. The magnitude of the form drag increases with the wavelength and slope and decreases with increasing wind speed, and the jet intensity in general increases with the magnitude of the surface form drag. The resulting negative vertical wind shear above the jet in turn enhances the turbulence aloft. The level of the wind maximum is found to be largely determined by the wavenumber and the ratio of the surface shear stress and form drag: the larger the magnitude of this ratio, the higher the altitude of the wind maximum. Although the simulated wind profile often closely follows the log law in the wave boundary layer, the surface stress derived from the logarithmic wind profile is significantly larger than the actual total surface stress in the presence of swell. Therefore, the Monin-Obukhov similarity theory is generally invalid over swell-dominated ocean. This is attributed to the wave-induced contribution to momentum flux, which decays roughly exponentially in the vertical and is largely independent of local wind shear.</gco:CharacterString>
+            <gco:CharacterString>The impact of fast-propagating swell on the air–sea momentum exchange and the marine boundary layer is examined based on multiple large-eddy simulations over a range of wind speed and swell parameters in the light-wind--fast-wave regime. A wave-driven supergeostrophic jet forms near the top of the wave boundary layer when the forwarding-pointing (i.e., negative) form drag associated with fast wind-following swell overpowers the positive surface shear stress. The magnitude of the form drag increases with the wavelength and slope and decreases with increasing wind speed, and the jet intensity in general increases with the magnitude of the surface form drag. The resulting negative vertical wind shear above the jet in turn enhances the turbulence aloft. The level of the wind maximum is found to be largely determined by the wavenumber and the ratio of the surface shear stress and form drag: the larger the magnitude of this ratio, the higher the altitude of the wind maximum. Although the simulated wind profile often closely follows the log law in the wave boundary layer, the surface stress derived from the logarithmic wind profile is significantly larger than the actual total surface stress in the presence of swell. Therefore, the Monin-Obukhov similarity theory is generally invalid over swell-dominated ocean. This is attributed to the wave-induced contribution to momentum flux, which decays roughly exponentially in the vertical and is largely independent of local wind shear.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

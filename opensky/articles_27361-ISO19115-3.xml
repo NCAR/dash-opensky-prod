@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27361</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:04:39.666574</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:55:44.698889</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -287,7 +288,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +412,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Proton-transfer-reaction time-of-flight mass spectrometry (PTR-ToF-MS) is a technique commonly used to measure ambient volatile organic compounds (VOCs) in urban, rural, and remote environments. PTR-ToF-MS is known to produce artifacts from ion fragmentation, which complicates the interpretation and quantification of key atmospheric VOCs. This study evaluates the extent to which fragmentation and other ionization processes impact urban measurements of the PTR-ToF-MS ions typically assigned to isoprene (m/z 69, C5H8H+), acetaldehyde (m/z 45, CH3CHO+), and benzene (m/z 79, C6H6H+). Interferences from fragmentation are identified using gas chromatography (GC) pre-separation, and the impact of these interferences is quantified using ground-based and airborne measurements in a number of US cities, including Las Vegas, Los Angeles, New York City, and Detroit. In urban regions with low biogenic isoprene emissions (e.g., Las Vegas), fragmentation from higher-carbon aldehydes and cycloalkanes emitted from anthropogenic sources may contribute to m/z 69 by as much as 50&#x2009;% during the day, while the majority of the signal at m/z 69 is attributed to fragmentation during the night. Interferences are a higher fraction of m/z 69 during airborne studies, which likely results from differences in the reactivity between isoprene and the interfering species along with the subsequent changes to the VOC mixture at higher altitudes. For other PTR masses, including m/z 45 and m/z 79, interferences are observed due to fragmentation and O +2 ionization of VOCs typically used in solvents, which are becoming a more important source of anthropogenic VOCs in urban areas. We present methods to correct these interferences, which provide better agreement with GC measurements of isomer-specific molecules. These observations show the utility of deploying GC pre-separation for the interpretation PTR-ToF-MS spectra.</gco:CharacterString>
+            <gco:CharacterString>Proton-transfer-reaction time-of-flight mass spectrometry (PTR-ToF-MS) is a technique commonly used to measure ambient volatile organic compounds (VOCs) in urban, rural, and remote environments. PTR-ToF-MS is known to produce artifacts from ion fragmentation, which complicates the interpretation and quantification of key atmospheric VOCs. This study evaluates the extent to which fragmentation and other ionization processes impact urban measurements of the PTR-ToF-MS ions typically assigned to isoprene (m/z 69, C5H8H+), acetaldehyde (m/z 45, CH3CHO+), and benzene (m/z 79, C6H6H+). Interferences from fragmentation are identified using gas chromatography (GC) pre-separation, and the impact of these interferences is quantified using ground-based and airborne measurements in a number of US cities, including Las Vegas, Los Angeles, New York City, and Detroit. In urban regions with low biogenic isoprene emissions (e.g., Las Vegas), fragmentation from higher-carbon aldehydes and cycloalkanes emitted from anthropogenic sources may contribute to m/z 69 by as much as 50 % during the day, while the majority of the signal at m/z 69 is attributed to fragmentation during the night. Interferences are a higher fraction of m/z 69 during airborne studies, which likely results from differences in the reactivity between isoprene and the interfering species along with the subsequent changes to the VOC mixture at higher altitudes. For other PTR masses, including m/z 45 and m/z 79, interferences are observed due to fragmentation and O +2 ionization of VOCs typically used in solvents, which are becoming a more important source of anthropogenic VOCs in urban areas. We present methods to correct these interferences, which provide better agreement with GC measurements of isomer-specific molecules. These observations show the utility of deploying GC pre-separation for the interpretation PTR-ToF-MS spectra.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

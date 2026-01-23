@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6478</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:13.618448</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:18:32.640533</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weckwerth, Tammy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3238-9156"
+                                    xlink:title="Weckwerth, Tammy"
+                                    xlink:actuate="onRequest">Weckwerth, Tammy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Goldstein, Janine</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5533-9640"
+                                    xlink:title="Goldstein, Janine"
+                                    xlink:actuate="onRequest">Goldstein, Janine</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The International H&#x2082;O Project (IHOP_2002) was designed to sample the three-dimensional time-varying moisture field to better understand convective processes. Numerous research and operational water vapor measuring systems and retrievals, via in situ and remote sensing techniques, were operated in the U.S. Southern Great Plains from 13 May to 25 June 2002. This was done in combination with more traditional observations of wind and temperature. Convection initiation (CI) sampling strategies were designed to optimally employ the array of ground-based and airborne sensors to observe the processes leading to the development of deep, moist convection. This case study examines several clear-air features and their impact on CI on 12 June 2002. The supercells that developed produced damaging winds and hail. The clear-air, preconvective features included (i) a mesoscale low pressure region, (ii) a dryline, (iii) an old outflow boundary, (iv) the intersection of (ii) and (iii), (v) internal gravity waves, and (vi) horizontal convective rolls. A unique combination of instruments was positioned to sample the preconvective environment on 12 June 2002. The Lidar pour l'Etude des Interactions A&#xe9;rosols Nuages Dynamique Rayonnement et du Cycle de l'Eau (LEANDRE II) water vapor differential absorption lidar (DIAL), the airborne Electra Doppler Radar (ELDORA), and the Navy Research Laboratory (NRL) P3 aircraft in situ measurements provided information on the moisture and vertical velocity distribution within the boundary layer. Radiosondes, dropsondes, wind profilers, and an Atmospheric Emitted Radiance Interferometer (AERI) provided temperature, moisture, and wind profiling information. Although other ground-based sensors (i.e., S-band dual-polarization Doppler radar, Mobile Integrated Profiling System) were 50 - 150 km west of the CI area, they were useful for illustrating the boundary layer kinematics and reflectivity fields. Results suggest that the mesolow and mesoscale boundaries, respectively, acted to enhance the low-level moisture advection and convergence in the CI region. While internal gravity waves were present and appeared to modulate water vapor along the old outflow boundary, they did not play an obvious role in CI in this case. Horizontal convective rolls were observed beneath the new storms that initiated and may have helped to focus the CI in this case.</gco:CharacterString>
+            <gco:CharacterString>The International H₂O Project (IHOP_2002) was designed to sample the three-dimensional time-varying moisture field to better understand convective processes. Numerous research and operational water vapor measuring systems and retrievals, via in situ and remote sensing techniques, were operated in the U.S. Southern Great Plains from 13 May to 25 June 2002. This was done in combination with more traditional observations of wind and temperature. Convection initiation (CI) sampling strategies were designed to optimally employ the array of ground-based and airborne sensors to observe the processes leading to the development of deep, moist convection. This case study examines several clear-air features and their impact on CI on 12 June 2002. The supercells that developed produced damaging winds and hail. The clear-air, preconvective features included (i) a mesoscale low pressure region, (ii) a dryline, (iii) an old outflow boundary, (iv) the intersection of (ii) and (iii), (v) internal gravity waves, and (vi) horizontal convective rolls. A unique combination of instruments was positioned to sample the preconvective environment on 12 June 2002. The Lidar pour l'Etude des Interactions Aérosols Nuages Dynamique Rayonnement et du Cycle de l'Eau (LEANDRE II) water vapor differential absorption lidar (DIAL), the airborne Electra Doppler Radar (ELDORA), and the Navy Research Laboratory (NRL) P3 aircraft in situ measurements provided information on the moisture and vertical velocity distribution within the boundary layer. Radiosondes, dropsondes, wind profilers, and an Atmospheric Emitted Radiance Interferometer (AERI) provided temperature, moisture, and wind profiling information. Although other ground-based sensors (i.e., S-band dual-polarization Doppler radar, Mobile Integrated Profiling System) were 50 - 150 km west of the CI area, they were useful for illustrating the boundary layer kinematics and reflectivity fields. Results suggest that the mesolow and mesoscale boundaries, respectively, acted to enhance the low-level moisture advection and convergence in the CI region. While internal gravity waves were present and appeared to modulate water vapor along the old outflow boundary, they did not play an obvious role in CI in this case. Horizontal convective rolls were observed beneath the new storms that initiated and may have helped to focus the CI in this case.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

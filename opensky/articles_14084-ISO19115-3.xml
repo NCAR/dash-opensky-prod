@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14084</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:09:43.023783</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:30:57.409083</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The International Monitor for Auroral Geomagnetic Effects network magnetic measurements during the period 1995-2009 are used to characterize the annual variations in the westward electrojet. The results suggest that the annual variations in different local time sectors are quite different due to the different sources. In the MLT sector 2200-0100, the annual variations with maxima in winter suggest they are caused by the combined effects of the convective electric field and the conductivity associated with particle precipitation. Furthermore, the conductivity seems to play a more important role in the MLT sector &#x223c;2200-2320, while the convective electric field appears to be more important in the MLT sector &#x223c;2320-0100. In the MLT sector 0300&#x2013;0600, the annual variations with maxima in summer suggest they are caused by solar EUV conductivity effect and the equinoctial effect. The solar EUV conductivity effect works by increasing ionospheric conductivity and enhancing the westward electrojet in summer, while the equinoctial effect works by decreasing solar wind-magnetosphere coupling efficiency and weakening the westward electrojet in winter. In the MLT sector 0100-0300, the annual variations are relatively weak and can be attributed to the combined effects of annual variations caused by all the previously mentioned effects. In addition, we find that a significant annual variation in substorm occurrence rate, mainly occurring in the premidnight region, is quite similar to that in the westward electrojet. We suggest that elevated solar wind driving during the winter months contributes to higher substorm occurrence in winter in the Northern Hemisphere.</gco:CharacterString>
+            <gco:CharacterString>The International Monitor for Auroral Geomagnetic Effects network magnetic measurements during the period 1995-2009 are used to characterize the annual variations in the westward electrojet. The results suggest that the annual variations in different local time sectors are quite different due to the different sources. In the MLT sector 2200-0100, the annual variations with maxima in winter suggest they are caused by the combined effects of the convective electric field and the conductivity associated with particle precipitation. Furthermore, the conductivity seems to play a more important role in the MLT sector ∼2200-2320, while the convective electric field appears to be more important in the MLT sector ∼2320-0100. In the MLT sector 0300–0600, the annual variations with maxima in summer suggest they are caused by solar EUV conductivity effect and the equinoctial effect. The solar EUV conductivity effect works by increasing ionospheric conductivity and enhancing the westward electrojet in summer, while the equinoctial effect works by decreasing solar wind-magnetosphere coupling efficiency and weakening the westward electrojet in winter. In the MLT sector 0100-0300, the annual variations are relatively weak and can be attributed to the combined effects of annual variations caused by all the previously mentioned effects. In addition, we find that a significant annual variation in substorm occurrence rate, mainly occurring in the premidnight region, is quite similar to that in the westward electrojet. We suggest that elevated solar wind driving during the winter months contributes to higher substorm occurrence in winter in the Northern Hemisphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

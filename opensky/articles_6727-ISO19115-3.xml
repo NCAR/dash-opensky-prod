@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6727</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:01:35.856690</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:31:42.461819</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +302,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The chemical composition of the lowermost stratosphere exhibits both spatial and temporal variability depending upon the relative strength of (1) isentropic transport from the tropical tropopause layer (TTL), (2) diabatic descent from the midlatitude and northern midlatitude stratosphere followed by equatorward isentropic transport, and (3) diabatic ascent from the troposphere through convection. In situ measurements made in the lowermost stratosphere over Florida illustrate the additional impact of equatorward flow around the monsoon anticyclone. This flow carries, along with older stratospheric air, the distinct signature of deep midlatitude convection. We use simultaneous in situ measurements of water vapor (H&#x2082;O), ozone (O&#x2083;), total odd nitrogen (NOy), carbon dioxide (CO&#x2082;), and carbon monoxide (CO) in the framework of a simple box model to quantify the composition of the air sampled in the lowermost stratosphere during the mission on the basis of tracer mixing ratios ascribed to the source regions for these transport pathways. The results show that in the summer, convection has a significant impact on the composition of air in the lowermost stratosphere, being the dominant source of water vapor up to the 380 K isentrope. The implications of these results extend from the potential for heterogeneous ozone loss resulting from the increased frequency and lifetime of cirrus near the local tropopause, to air with increased water vapor that as part of the equatorward flow associated with the North American monsoon can become part of the general circulation.</gco:CharacterString>
+            <gco:CharacterString>The chemical composition of the lowermost stratosphere exhibits both spatial and temporal variability depending upon the relative strength of (1) isentropic transport from the tropical tropopause layer (TTL), (2) diabatic descent from the midlatitude and northern midlatitude stratosphere followed by equatorward isentropic transport, and (3) diabatic ascent from the troposphere through convection. In situ measurements made in the lowermost stratosphere over Florida illustrate the additional impact of equatorward flow around the monsoon anticyclone. This flow carries, along with older stratospheric air, the distinct signature of deep midlatitude convection. We use simultaneous in situ measurements of water vapor (H₂O), ozone (O₃), total odd nitrogen (NOy), carbon dioxide (CO₂), and carbon monoxide (CO) in the framework of a simple box model to quantify the composition of the air sampled in the lowermost stratosphere during the mission on the basis of tracer mixing ratios ascribed to the source regions for these transport pathways. The results show that in the summer, convection has a significant impact on the composition of air in the lowermost stratosphere, being the dominant source of water vapor up to the 380 K isentrope. The implications of these results extend from the potential for heterogeneous ozone loss resulting from the increased frequency and lifetime of cirrus near the local tropopause, to air with increased water vapor that as part of the equatorward flow associated with the North American monsoon can become part of the general circulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:590</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:11:28.558787</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:03:23.129062</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Baker, Allison</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2436-7838"
+                                    xlink:title="Baker, Allison"
+                                    xlink:actuate="onRequest">Baker, Allison</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Huge climate simulations such as the Community Earth System Model Large Ensemble (CESM-LE) output massive amounts of data, and switching from lossless to lossy compression of this data is inevitable. Applying lossy compression to climate data requires a guarantee that scienti&#xfb01;c conclusions will not be a&#xfb00;ected by the compression process. One way to check if a scientist's conclusions will be altered is by assessing if the data has been visually altered in any way. To that extent, the Data Structural Similarity Index Measure (DSSIM) is designed to test the visual similarity between two images. It is based on the well-known Structural Similarity Index Measure (SSIM), but has been modi&#xfb01;ed to fit our application. The DSSIM is computed on two datasets instead of two images. This makes the measure invariant to the plotting parameters. Additionally, the DSSIM is much more efficient to compute on a floating-point dataset than the SSIM. A user study in a previous work determined an appropriate SSIM threshold, above which images are highly likely to be visually indistinguishable. In this work, we use the results of the previous study and statistical techniques to translate the SSIM threshold to an appropriate cutoff threshold for the DSSIM. We find the appropriate threshold by minimizing the pass/fail classification difference between images classi&#xfb01;ed using the DSSIM and the previously acquired SSIM threshold. This threshold results in agreement between the image classification results using either metric in more than 92% of cases.</gco:CharacterString>
+            <gco:CharacterString>Huge climate simulations such as the Community Earth System Model Large Ensemble (CESM-LE) output massive amounts of data, and switching from lossless to lossy compression of this data is inevitable. Applying lossy compression to climate data requires a guarantee that scientiﬁc conclusions will not be aﬀected by the compression process. One way to check if a scientist's conclusions will be altered is by assessing if the data has been visually altered in any way. To that extent, the Data Structural Similarity Index Measure (DSSIM) is designed to test the visual similarity between two images. It is based on the well-known Structural Similarity Index Measure (SSIM), but has been modiﬁed to fit our application. The DSSIM is computed on two datasets instead of two images. This makes the measure invariant to the plotting parameters. Additionally, the DSSIM is much more efficient to compute on a floating-point dataset than the SSIM. A user study in a previous work determined an appropriate SSIM threshold, above which images are highly likely to be visually indistinguishable. In this work, we use the results of the previous study and statistical techniques to translate the SSIM threshold to an appropriate cutoff threshold for the DSSIM. We find the appropriate threshold by minimizing the pass/fail classification difference between images classiﬁed using the DSSIM and the previously acquired SSIM threshold. This threshold results in agreement between the image classification results using either metric in more than 92% of cases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

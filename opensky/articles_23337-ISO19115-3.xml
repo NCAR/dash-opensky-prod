@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23337</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:20:22.273605</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:12:46.968375</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -108,7 +109,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Quiet-time day-to-day variability of equatorial vertical E&#xa0;&#xd7;&#xa0;B drift from atmosphere perturbations at dawn</gco:CharacterString>
+                  <gco:CharacterString>Quiet-time day-to-day variability of equatorial vertical E × B drift from atmosphere perturbations at dawn</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhou, Xu</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5231-2741"
+                                    xlink:title="Zhou, Xu"
+                                    xlink:actuate="onRequest">Zhou, Xu</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Maute, Astrid</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3393-0987"
+                                    xlink:title="Maute, Astrid"
+                                    xlink:actuate="onRequest">Maute, Astrid</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +234,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ionospheric day-to-day variability is ubiquitous, even under undisturbed geomagnetic and solar conditions. In this paper, quiet-time day-to-day variability of equatorial vertical E &#xd7; B drift is investigated using observations from ROCSAT-1 satellite and the Whole Atmosphere Community Climate Model with thermosphere and ionosphere eXtension (WACCM-X) v2.1 simulations. Both observations and model simulations illustrate that the day-to-day variability reaches the maximum at dawn, and the variability of dawn drift is largest around June solstice at ~90-180&#xb0;W. However, there are significant challenges to reproduce the observed magnitude of the variability and the longitude distributions at other seasons. Using a standalone electro-dynamo model, we find that the day-to-day variability of neutral winds in the E-region (&#x2264;~130 km) is the primary driver of the day-to-day variability of dawn drift. Ionospheric conductivity modulates the drift variability responses to the E-region wind variability, thereby determining its strength as well as its seasonal and longitudinal variations. Further, the day-to-day variability of dawn drift induced by individual tidal components of winds in June are examined: DW1, SW2, D0, and SW1 are the most important contributors.</gco:CharacterString>
+            <gco:CharacterString>Ionospheric day-to-day variability is ubiquitous, even under undisturbed geomagnetic and solar conditions. In this paper, quiet-time day-to-day variability of equatorial vertical E × B drift is investigated using observations from ROCSAT-1 satellite and the Whole Atmosphere Community Climate Model with thermosphere and ionosphere eXtension (WACCM-X) v2.1 simulations. Both observations and model simulations illustrate that the day-to-day variability reaches the maximum at dawn, and the variability of dawn drift is largest around June solstice at ~90-180°W. However, there are significant challenges to reproduce the observed magnitude of the variability and the longitude distributions at other seasons. Using a standalone electro-dynamo model, we find that the day-to-day variability of neutral winds in the E-region (≤~130 km) is the primary driver of the day-to-day variability of dawn drift. Ionospheric conductivity modulates the drift variability responses to the E-region wind variability, thereby determining its strength as well as its seasonal and longitudinal variations. Further, the day-to-day variability of dawn drift induced by individual tidal components of winds in June are examined: DW1, SW2, D0, and SW1 are the most important contributors.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

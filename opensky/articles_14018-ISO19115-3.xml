@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14018</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:52.903520</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:29:20.978990</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rotunno, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3906-8785"
+                                    xlink:title="Rotunno, Richard"
+                                    xlink:actuate="onRequest">Rotunno, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In two recent papers, the authors performed numerical simulations with a three-dimensional, explicitly cloud-resolving model for a uniform wind flowing past a bell-shaped ridge and using an idealized unstable (Weisman&#x2013;Klemp) sounding with prescribed values of the relevant parameters. More recently, some observed cases of orographically forced wind profiles were analyzed, showing that, in order to reproduce larger rainfall rates, it was necessary to initialize the sounding with low-level flow toward the mountain with weak flow aloft (as observed). Additional experiments using the Weisman&#x2013;Klemp sounding, but with nonuniform wind profiles, are performed here to identify the conditions in which the presence of a low-level cross-mountain flow together with calm flow aloft may increase the rain rates in conditionally unstable flows over the orography. The sensitivity of the solutions to the wind speed at the bottom and the top of a shear layer and the effect of different mountain widths and heights are systematically analyzed herein. Large rainfall rates are obtained when the cold pool, caused by the evaporative cooling of rain from precipitating convective clouds, remains quasi stationary upstream of the mountain peak. This condition occurs when the cold-pool propagation is approximately countered by the environmental wind. The large precipitation amounts can be attributed to weak upper-level flow, which favors stronger updrafts and upright convective cells, and to the ground-relative stationarity of the cells. This solution feature is produced with ambient wind shear within a narrow region of the parameter space explored here and does not occur in the numerical solutions obtained in the authors' previous studies with uniform wind profiles.</gco:CharacterString>
+            <gco:CharacterString>In two recent papers, the authors performed numerical simulations with a three-dimensional, explicitly cloud-resolving model for a uniform wind flowing past a bell-shaped ridge and using an idealized unstable (Weisman–Klemp) sounding with prescribed values of the relevant parameters. More recently, some observed cases of orographically forced wind profiles were analyzed, showing that, in order to reproduce larger rainfall rates, it was necessary to initialize the sounding with low-level flow toward the mountain with weak flow aloft (as observed). Additional experiments using the Weisman–Klemp sounding, but with nonuniform wind profiles, are performed here to identify the conditions in which the presence of a low-level cross-mountain flow together with calm flow aloft may increase the rain rates in conditionally unstable flows over the orography. The sensitivity of the solutions to the wind speed at the bottom and the top of a shear layer and the effect of different mountain widths and heights are systematically analyzed herein. Large rainfall rates are obtained when the cold pool, caused by the evaporative cooling of rain from precipitating convective clouds, remains quasi stationary upstream of the mountain peak. This condition occurs when the cold-pool propagation is approximately countered by the environmental wind. The large precipitation amounts can be attributed to weak upper-level flow, which favors stronger updrafts and upright convective cells, and to the ground-relative stationarity of the cells. This solution feature is produced with ambient wind shear within a narrow region of the parameter space explored here and does not occur in the numerical solutions obtained in the authors' previous studies with uniform wind profiles.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

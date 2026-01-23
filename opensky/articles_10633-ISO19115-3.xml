@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10633</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:49:47.631199</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:39:26.444235</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mel&#xe9;ndez, J.</gco:CharacterString>
+                        <gco:CharacterString>Meléndez, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Th&#xe9;ado, S.</gco:CharacterString>
+                        <gco:CharacterString>Théado, S.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +338,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Metcalfe, Travis</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4034-0416"
+                                    xlink:title="Metcalfe, Travis"
+                                    xlink:actuate="onRequest">Metcalfe, Travis</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +440,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The growing interest in solar twins is motivated by the possibility of comparing them directly to the Sun. To carry on this kind of analysis, we need to know their physical characteristics with precision. Our first objective is to use asteroseismology and interferometry on the brightest of them: 18 Sco. We observed the star during 12 nights with HARPS for seismology and used the PAVO beam-combiner at CHARA for interferometry. An average large frequency separation 134.4 &#xb1; 0.3 &#x3bc;Hz and angular and linear radiuses of 0.6759 &#xb1; 0.0062 mas and 1.010 &#xb1; 0.009 R&#x2299; were estimated. We used these values to derive the mass of the star, 1.02 &#xb1; 0.03 Me.</gco:CharacterString>
+            <gco:CharacterString>The growing interest in solar twins is motivated by the possibility of comparing them directly to the Sun. To carry on this kind of analysis, we need to know their physical characteristics with precision. Our first objective is to use asteroseismology and interferometry on the brightest of them: 18 Sco. We observed the star during 12 nights with HARPS for seismology and used the PAVO beam-combiner at CHARA for interferometry. An average large frequency separation 134.4 ± 0.3 μHz and angular and linear radiuses of 0.6759 ± 0.0062 mas and 1.010 ± 0.009 R⊙ were estimated. We used these values to derive the mass of the star, 1.02 ± 0.03 Me.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

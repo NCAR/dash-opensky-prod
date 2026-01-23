@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26767</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:13:20.692182</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:20:38.178217</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Oncley, Steven</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0829-7462"
+                                    xlink:title="Oncley, Steven"
+                                    xlink:actuate="onRequest">Oncley, Steven</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, William O.J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-0671"
+                                    xlink:title="Brown, William O.J."
+                                    xlink:actuate="onRequest">Brown, William O.J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +254,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Witte, Jacquelyn</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4110-5277"
+                                    xlink:title="Witte, Jacquelyn"
+                                    xlink:actuate="onRequest">Witte, Jacquelyn</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +286,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Cold fog forms via various thermodynamic, dynamic, and microphysical processes when the air temperature is less than 0&#xb0;C. It occurs frequently during the cold season in the western United States yet is challenging to detect using standard observations and is very difficult to predict. The Cold Fog Amongst Complex Terrain (CFACT) project was conceived to investigate the life cycle of cold fog in mountain valleys. The overarching goals of the CFACT project are to 1) investigate the life cycle of cold-fog events over complex terrain with the latest observation technology, 2) improve microphysical parameterizations and visibility algorithms used in numerical weather prediction (NWP) models, and 3) develop data assimilation and analysis methods for current and next-generation (e.g., subkilometer scale) NWP models. The CFACT field campaign took place in Heber Valley, Utah, during January and February 2022, with support from NSF's Lower Atmospheric Observing Facilities (managed by NCAR's Earth Observing Laboratory), the University of Utah, and Ontario Technical University. A network of ground-based and aerial in situ instruments and remote sensing platforms were used to obtain comprehensive measurements of thermodynamic profiles, cloud microphysics, aerosol properties, and environmental dynamics. Nine intensive observation periods (IOPs) explored various mountainous weather and cold-fog conditions. Field observations, NWP forecasts, and large-eddy simulations provided unprecedented data sources to help understand the mechanisms associated with cold-fog weather and to identify and mitigate numerical model deficiencies in simulating winter weather over mountainous terrain. This article summarizes the CFACT field campaign, its observations, and challenges during the field campaign, including real-time fog prediction issues and future analysis.</gco:CharacterString>
+            <gco:CharacterString>Cold fog forms via various thermodynamic, dynamic, and microphysical processes when the air temperature is less than 0°C. It occurs frequently during the cold season in the western United States yet is challenging to detect using standard observations and is very difficult to predict. The Cold Fog Amongst Complex Terrain (CFACT) project was conceived to investigate the life cycle of cold fog in mountain valleys. The overarching goals of the CFACT project are to 1) investigate the life cycle of cold-fog events over complex terrain with the latest observation technology, 2) improve microphysical parameterizations and visibility algorithms used in numerical weather prediction (NWP) models, and 3) develop data assimilation and analysis methods for current and next-generation (e.g., subkilometer scale) NWP models. The CFACT field campaign took place in Heber Valley, Utah, during January and February 2022, with support from NSF's Lower Atmospheric Observing Facilities (managed by NCAR's Earth Observing Laboratory), the University of Utah, and Ontario Technical University. A network of ground-based and aerial in situ instruments and remote sensing platforms were used to obtain comprehensive measurements of thermodynamic profiles, cloud microphysics, aerosol properties, and environmental dynamics. Nine intensive observation periods (IOPs) explored various mountainous weather and cold-fog conditions. Field observations, NWP forecasts, and large-eddy simulations provided unprecedented data sources to help understand the mechanisms associated with cold-fog weather and to identify and mitigate numerical model deficiencies in simulating winter weather over mountainous terrain. This article summarizes the CFACT field campaign, its observations, and challenges during the field campaign, including real-time fog prediction issues and future analysis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

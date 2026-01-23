@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14203</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:07:07.130379</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:26:02.934686</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Levy, Michael N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6553-2153"
+                                    xlink:title="Levy, Michael N."
+                                    xlink:actuate="onRequest">Levy, Michael N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A variable-resolution option has been added within the spectral element (SE) dynamical core of the U.S. Department of Energy (DOE)&#x2013;NCAR Community Atmosphere Model (CAM). CAM-SE allows for static refinement via conforming quadrilateral meshes on the cubed sphere. This paper investigates the effect of mesh refinement in a climate model by running variable-resolution (var-res) simulations on an aquaplanet. The variable-resolution grid is a 2&#xb0; (~222 km) grid with a refined patch of 0.25&#xb0; (~28 km) resolution centered at the equator. Climatology statistics from these simulations are compared to globally uniform runs of 2&#xb0; and 0.25&#xb0;. A significant resolution dependence exists when using the CAM version 4 (CAM4) subgrid physical parameterization package across scales. Global cloud fraction decreases and equatorial precipitation increases with finer horizontal resolution, resulting in drastically different climates between the uniform grid runs and a physics-induced grid imprinting in the var-res simulation. Using CAM version 5 (CAM5) physics significantly improves cloud scaling at different grid resolutions. Additional precipitation at the equator in the high-resolution mesh results in collocated zonally anomalous divergence in both var-res simulations, although this feature is much weaker in CAM5 than CAM4. The equilibrium solution at each grid spacing within the var-res simulations captures the majority of the resolution signal of the corresponding globally uniform grids. The var-res simulation exhibits good performance with respect to wave propagation, including equatorial regions where waves pass through grid transitions. In addition, the increased frequency of high-precipitation events in the refined 0.25&#xb0; area within the var-res simulations matches that observed in the global 0.25&#xb0; simulations.</gco:CharacterString>
+            <gco:CharacterString>A variable-resolution option has been added within the spectral element (SE) dynamical core of the U.S. Department of Energy (DOE)–NCAR Community Atmosphere Model (CAM). CAM-SE allows for static refinement via conforming quadrilateral meshes on the cubed sphere. This paper investigates the effect of mesh refinement in a climate model by running variable-resolution (var-res) simulations on an aquaplanet. The variable-resolution grid is a 2° (~222 km) grid with a refined patch of 0.25° (~28 km) resolution centered at the equator. Climatology statistics from these simulations are compared to globally uniform runs of 2° and 0.25°. A significant resolution dependence exists when using the CAM version 4 (CAM4) subgrid physical parameterization package across scales. Global cloud fraction decreases and equatorial precipitation increases with finer horizontal resolution, resulting in drastically different climates between the uniform grid runs and a physics-induced grid imprinting in the var-res simulation. Using CAM version 5 (CAM5) physics significantly improves cloud scaling at different grid resolutions. Additional precipitation at the equator in the high-resolution mesh results in collocated zonally anomalous divergence in both var-res simulations, although this feature is much weaker in CAM5 than CAM4. The equilibrium solution at each grid spacing within the var-res simulations captures the majority of the resolution signal of the corresponding globally uniform grids. The var-res simulation exhibits good performance with respect to wave propagation, including equatorial regions where waves pass through grid transitions. In addition, the increased frequency of high-precipitation events in the refined 0.25° area within the var-res simulations matches that observed in the global 0.25° simulations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

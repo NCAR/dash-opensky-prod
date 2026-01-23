@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14489</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:10.014894</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:21:57.854467</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Whether radar meteor echoes occur at high altitudes (above ~130&#x2009;km) in the Earth's atmosphere is a long-standing question within the meteor radar community. Using observations from the Sanya VHF coherent radar interferometer during 11 July to 10 August 2013, we have found a new class of range-spread high-altitude meteor trail echoes (HAMEs), some of which appeared at ~170&#x2009;km altitude lasting more than 10&#x2009;s. A statistical analysis on the local time dependence of the identified HAME events shows a maximum around 00-04 LT. The results imply that there could be much more meteor mass input due to meteoroid sputtering at high altitudes in the Earth's atmosphere than previously thought.</gco:CharacterString>
+            <gco:CharacterString>Whether radar meteor echoes occur at high altitudes (above ~130 km) in the Earth's atmosphere is a long-standing question within the meteor radar community. Using observations from the Sanya VHF coherent radar interferometer during 11 July to 10 August 2013, we have found a new class of range-spread high-altitude meteor trail echoes (HAMEs), some of which appeared at ~170 km altitude lasting more than 10 s. A statistical analysis on the local time dependence of the identified HAME events shows a maximum around 00-04 LT. The results imply that there could be much more meteor mass input due to meteoroid sputtering at high altitudes in the Earth's atmosphere than previously thought.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

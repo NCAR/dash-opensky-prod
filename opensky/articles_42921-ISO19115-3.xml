@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42921</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:56.441732</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:56:44.767744</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Veres, Patrick</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7539-353X"
+                                    xlink:title="Veres, Patrick"
+                                    xlink:actuate="onRequest">Veres, Patrick</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Volatile chemical products (VCPs) and other non-traditional anthropogenic sources, such as cooking, contribute substantially to the volatile organic compound (VOC) budget in urban areas, but their impact on ozone formation is less certain. This study employs Lagrangian box modeling and sensitivity analyses to evaluate ozone response to sector-specific VOC and nitrogen oxide (NOx) emissions in two Los Angeles (LA) Basin cities during the summer of 2021. The model simulated the photochemical processing and transport of temporally and spatially gridded emissions from the FIVE-VCP-NEI17NRT inventory and accurately simulates the variability and magnitude of O3, NOx, and speciated VOCs in Pasadena, CA. VOC sensitivity analyses show that anthropogenic VOCs (AVOC) enhance the mean daily maximum 8&#x2009;h average ozone in Pasadena by 13&#x2009;ppb, whereas biogenic VOCs (BVOCs) contribute 9.4&#x2009;ppb. Of the ozone influenced by AVOCs, VCPs represent the largest fraction at 45&#x2009;%, while cooking and fossil fuel VOCs are comparable at 26&#x2009;% and 29&#x2009;%, respectively. NOx sensitivity analyses along trajectory paths indicate that the photochemical regime of ozone varies spatially and temporally. The modeled ozone response is primarily NOx-saturated across the dense urban core and during peak ozone production in Pasadena. Lowering the inventory emissions of NOx by 25&#x2009;% moves Pasadena to NOx-limited chemistry during afternoon hours and shrinks the spatial extent of NOx&amp;nbsp;saturation towards downtown LA. Further sensitivity analyses show that using VOCs represented by a separate state inventory requires steeper NOx reductions to transition to NOx&amp;nbsp;sensitivity, further suggesting that accurately representing VOC reactivity in inventories is critical to determining the effectiveness of future NOx&amp;nbsp;reduction policies.</gco:CharacterString>
+            <gco:CharacterString>Volatile chemical products (VCPs) and other non-traditional anthropogenic sources, such as cooking, contribute substantially to the volatile organic compound (VOC) budget in urban areas, but their impact on ozone formation is less certain. This study employs Lagrangian box modeling and sensitivity analyses to evaluate ozone response to sector-specific VOC and nitrogen oxide (NOx) emissions in two Los Angeles (LA) Basin cities during the summer of 2021. The model simulated the photochemical processing and transport of temporally and spatially gridded emissions from the FIVE-VCP-NEI17NRT inventory and accurately simulates the variability and magnitude of O3, NOx, and speciated VOCs in Pasadena, CA. VOC sensitivity analyses show that anthropogenic VOCs (AVOC) enhance the mean daily maximum 8 h average ozone in Pasadena by 13 ppb, whereas biogenic VOCs (BVOCs) contribute 9.4 ppb. Of the ozone influenced by AVOCs, VCPs represent the largest fraction at 45 %, while cooking and fossil fuel VOCs are comparable at 26 % and 29 %, respectively. NOx sensitivity analyses along trajectory paths indicate that the photochemical regime of ozone varies spatially and temporally. The modeled ozone response is primarily NOx-saturated across the dense urban core and during peak ozone production in Pasadena. Lowering the inventory emissions of NOx by 25 % moves Pasadena to NOx-limited chemistry during afternoon hours and shrinks the spatial extent of NOx&amp;nbsp;saturation towards downtown LA. Further sensitivity analyses show that using VOCs represented by a separate state inventory requires steeper NOx reductions to transition to NOx&amp;nbsp;sensitivity, further suggesting that accurately representing VOC reactivity in inventories is critical to determining the effectiveness of future NOx&amp;nbsp;reduction policies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

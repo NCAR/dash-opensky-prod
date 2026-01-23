@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23646</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:15:04.161687</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:45:12.813043</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The two-dimensional evolution of thermospheric &#x2211;O/N2 response to weak geomagnetic activity during solar-minimum observed by GOLD</gco:CharacterString>
+                  <gco:CharacterString>The two-dimensional evolution of thermospheric ∑O/N2 response to weak geomagnetic activity during solar-minimum observed by GOLD</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cai, Xuguang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4632-1697"
+                                    xlink:title="Cai, Xuguang"
+                                    xlink:actuate="onRequest">Cai, Xuguang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Qian, Liying</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2430-1388"
+                                    xlink:title="Qian, Liying"
+                                    xlink:actuate="onRequest">Qian, Liying</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +166,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8878-5126"
+                                    xlink:title="Pedatella, Nicholas M."
+                                    xlink:actuate="onRequest">Pedatella, Nicholas M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We conduct observational and modeling studies of thermospheric composition responses to weak geomagnetic activity (nongeomagnetic storms). We found that the thermospheric O and N2 column density ratio (&#x2211;O/N2) in part of the Northern Hemisphere measured by Global-scale Observations of the Limb and Disk (GOLD) exhibited large and long-lived depletions during weak geomagnetic activity in May and June 2019. The depletions reached 30% of quiet time values, extended equatorward to 10&#xb0;N and lasted more than 10 hr. Furthermore, numerical simulation results are similar to these observations and indicate that the &#x2211;O/N2 depletions were pushed westward by zonal winds. The &#x2211;O/N2 evolution during weak geomagnetic activity suggests that the formation mechanism of the &#x2211;O/N2 depletions is similar to that during a geomagnetic storm. The effects of weak geomagnetic activity are often ignored but, in fact, are important for understanding thermosphere neutral composition variability and hence the state of the thermosphere-ionosphere system.</gco:CharacterString>
+            <gco:CharacterString>We conduct observational and modeling studies of thermospheric composition responses to weak geomagnetic activity (nongeomagnetic storms). We found that the thermospheric O and N2 column density ratio (∑O/N2) in part of the Northern Hemisphere measured by Global-scale Observations of the Limb and Disk (GOLD) exhibited large and long-lived depletions during weak geomagnetic activity in May and June 2019. The depletions reached 30% of quiet time values, extended equatorward to 10°N and lasted more than 10 hr. Furthermore, numerical simulation results are similar to these observations and indicate that the ∑O/N2 depletions were pushed westward by zonal winds. The ∑O/N2 evolution during weak geomagnetic activity suggests that the formation mechanism of the ∑O/N2 depletions is similar to that during a geomagnetic storm. The effects of weak geomagnetic activity are often ignored but, in fact, are important for understanding thermosphere neutral composition variability and hence the state of the thermosphere-ionosphere system.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

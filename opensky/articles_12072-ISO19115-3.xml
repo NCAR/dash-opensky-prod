@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12072</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:39:31.627391</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:09:02.998543</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Context. Sun-grazing comets almost never re-emerge, but their sublimative destruction near the sun has only recently been observed directly, while chromospheric impacts have not yet been seen, nor impact theory developed. Aims. We seek simple analytic models of comet destruction processes near the sun, to enable estimation of observable signature dependence on original incident mass Mo and perihelion distance q. Methods. Simple analytic solutions are found for M(r) versus q and distance r for insolation sublimation and, for the first time, for impact ablation and explosion. Results. Sun-grazers are found to fall into three (Mo,q) regimes: sublimation-, ablation-, and explosion-dominated. Most sun-grazers have Mo too small (&lt;10&#xb9;&#xb9; g) or q too large (&gt;1.01R&#x2299;) to reach atmospheric densities (n &gt; 2.5 &#xd7; 10&#xb9;&#xb9;/cm&#xb3;) where ablation exceeds sublimation. Our analytic results for sublimation are similar to numerical models. For q &lt; 1.01R&#x2299;,Mo &gt; 10 &#xb9;&#xb9; g, ablation initially dominates but results are sensitive to nucleus strength Pc = 10&#x2076;P&#x2086; dyne/cm&#xb2; and entry angle &#x3c6; to the vertical. Nuclei with Mo &#x227c; 10&#xb9;&#x2070;(P6sec&#x3c6;)3 g are fully ablated before exploding, though the hot wake itself explodes. For most sun-impactors sec&#x3c6; &#x226b; 1 (since q ~ r&#x2217;), so for q very close to r&#x2217; the ablation regime applies to moderate g impactors unless P&#x2086; &#x227c; 0.1. For higher masses, or smaller q, nuclei reach densities n &gt; 2.5 &#xd7; 10&#xb9;&#x2074;P&#x2086;/cm&#xb3; where ram pressure causes catastrophic explosion. Conclusions. Analytic descriptions define (Mo,q) regimes where sublimation, ablation and explosion dominate sun-grazer/-impactor destruction. For q &#x227a; 1.01R&#x2299;,Mo &#x227d; 10&#xb9;&#xb9; g nuclei are destroyed by ablation or explosion (depending on Mocos3&#x3c6;/Pc) in the chromosphere, producing flare-like events with cometary abundance spectra. For all plausible Mo,q and physical parameters, nuclei are destroyed above the photosphere.</gco:CharacterString>
+            <gco:CharacterString>Context. Sun-grazing comets almost never re-emerge, but their sublimative destruction near the sun has only recently been observed directly, while chromospheric impacts have not yet been seen, nor impact theory developed. Aims. We seek simple analytic models of comet destruction processes near the sun, to enable estimation of observable signature dependence on original incident mass Mo and perihelion distance q. Methods. Simple analytic solutions are found for M(r) versus q and distance r for insolation sublimation and, for the first time, for impact ablation and explosion. Results. Sun-grazers are found to fall into three (Mo,q) regimes: sublimation-, ablation-, and explosion-dominated. Most sun-grazers have Mo too small (&lt;10¹¹ g) or q too large (&gt;1.01R⊙) to reach atmospheric densities (n &gt; 2.5 × 10¹¹/cm³) where ablation exceeds sublimation. Our analytic results for sublimation are similar to numerical models. For q &lt; 1.01R⊙,Mo &gt; 10 ¹¹ g, ablation initially dominates but results are sensitive to nucleus strength Pc = 10⁶P₆ dyne/cm² and entry angle φ to the vertical. Nuclei with Mo ≼ 10¹⁰(P6secφ)3 g are fully ablated before exploding, though the hot wake itself explodes. For most sun-impactors secφ ≫ 1 (since q ~ r∗), so for q very close to r∗ the ablation regime applies to moderate g impactors unless P₆ ≼ 0.1. For higher masses, or smaller q, nuclei reach densities n &gt; 2.5 × 10¹⁴P₆/cm³ where ram pressure causes catastrophic explosion. Conclusions. Analytic descriptions define (Mo,q) regimes where sublimation, ablation and explosion dominate sun-grazer/-impactor destruction. For q ≺ 1.01R⊙,Mo ≽ 10¹¹ g nuclei are destroyed by ablation or explosion (depending on Mocos3φ/Pc) in the chromosphere, producing flare-like events with cometary abundance spectra. For all plausible Mo,q and physical parameters, nuclei are destroyed above the photosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

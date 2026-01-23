@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:13305</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:10:16.463538</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:32:06.157031</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Yongxin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6321-1276"
+                                    xlink:title="Zhang, Yongxin"
+                                    xlink:actuate="onRequest">Zhang, Yongxin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Changes in moisture as represented by P -- E (precipitation -- evapotranspiration) and the possible causes over the Tibetan Plateau (TP) during 1979-2011 are examined based on the Global Land Data Assimilation Systems (GLDAS) ensemble mean runoff and reanalyses. It is found that the TP is getting wetter as a whole but with large spatial variations. The climatologically humid southeastern TP is getting drier while the vast arid and semiarid northwestern TP is getting wetter. The Clausius-Clapeyron relation cannot be used to explain the changes in P - E over the TP. Through decomposing the changes in P - E into three major components&#x2014;dynamic, thermodynamic, and transient eddy components&#x2014;it is noted that the dynamic component plays a key role in the changes of P &#x2212; E over the TP. The thermodynamic component contributes positively over the southern and central TP whereas the transient eddy component tends to reinforce (offset) the dynamic component over the southern and parts of the northern TP (central TP). Seasonally, the dynamic component contributes substantially to changes in P - E during the wet season, with small contributions from the thermodynamic and transient eddy components. Further analyses reveal the poleward shift of the East Asian westerly jet stream by 0.7&#xb0; and poleward moisture transport as well as the intensification of the summer monsoon circulation due to global warming, which are shown to be responsible for the general wetting trend over the TP. It is further demonstrated that changes in local circulations that occur due to the differential heating of the TP and its surroundings are responsible for the spatially varying changes in moisture over the TP.</gco:CharacterString>
+            <gco:CharacterString>Changes in moisture as represented by P -- E (precipitation -- evapotranspiration) and the possible causes over the Tibetan Plateau (TP) during 1979-2011 are examined based on the Global Land Data Assimilation Systems (GLDAS) ensemble mean runoff and reanalyses. It is found that the TP is getting wetter as a whole but with large spatial variations. The climatologically humid southeastern TP is getting drier while the vast arid and semiarid northwestern TP is getting wetter. The Clausius-Clapeyron relation cannot be used to explain the changes in P - E over the TP. Through decomposing the changes in P - E into three major components—dynamic, thermodynamic, and transient eddy components—it is noted that the dynamic component plays a key role in the changes of P − E over the TP. The thermodynamic component contributes positively over the southern and central TP whereas the transient eddy component tends to reinforce (offset) the dynamic component over the southern and parts of the northern TP (central TP). Seasonally, the dynamic component contributes substantially to changes in P - E during the wet season, with small contributions from the thermodynamic and transient eddy components. Further analyses reveal the poleward shift of the East Asian westerly jet stream by 0.7° and poleward moisture transport as well as the intensification of the summer monsoon circulation due to global warming, which are shown to be responsible for the general wetting trend over the TP. It is further demonstrated that changes in local circulations that occur due to the differential heating of the TP and its surroundings are responsible for the spatially varying changes in moisture over the TP.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

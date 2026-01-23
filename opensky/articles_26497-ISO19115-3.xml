@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26497</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:26.535613</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:58:40.516192</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Trends in extreme 100-y events of temperature and rainfall amounts in the continental United States are estimated, to see effects of climate change. This is a nontrivial statistical problem because climate change effects have to be extracted from "noisy" weather data within a limited time range. We use nonparametric Bayesian methods to estimate the trends of extreme events that have occurred between 1979 and 2019,based on data for temperature and rainfall. We focus on 100-y events for each month in1&#x25e6;&#xd7;1&#x25e6;geographical areas looking at hourly temperature and 5-d cumulative rainfall. Distribution tail models are constructed using extreme value theory (EVT) and data on 33-y events. This work shows it is possible to aggregate data from spatial points in diverse climate zones for a given month and fit an EVT model with the same parameters. This surprising result means there are enough extreme event data to see the trends in the41-y record for each calendar month. The yearly trends of the risk of a 100-y high-temperature event show an average 2.1-fold increase over the last 41 y of data across all months, with a 2.6-fold increase for the months of July through October. The risk of high rainfall extremes increases in December and January 1.4-fold, but declines by 22%for the spring and summer months.</gco:CharacterString>
+            <gco:CharacterString>Trends in extreme 100-y events of temperature and rainfall amounts in the continental United States are estimated, to see effects of climate change. This is a nontrivial statistical problem because climate change effects have to be extracted from "noisy" weather data within a limited time range. We use nonparametric Bayesian methods to estimate the trends of extreme events that have occurred between 1979 and 2019,based on data for temperature and rainfall. We focus on 100-y events for each month in1◦×1◦geographical areas looking at hourly temperature and 5-d cumulative rainfall. Distribution tail models are constructed using extreme value theory (EVT) and data on 33-y events. This work shows it is possible to aggregate data from spatial points in diverse climate zones for a given month and fit an EVT model with the same parameters. This surprising result means there are enough extreme event data to see the trends in the41-y record for each calendar month. The yearly trends of the risk of a 100-y high-temperature event show an average 2.1-fold increase over the last 41 y of data across all months, with a 2.6-fold increase for the months of July through October. The risk of high rainfall extremes increases in December and January 1.4-fold, but declines by 22%for the spring and summer months.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

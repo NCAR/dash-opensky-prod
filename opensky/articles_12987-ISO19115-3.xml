@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12987</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:17:23.101411</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:42:16.916655</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Massie, Steven T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4995-1566"
+                                    xlink:title="Massie, Steven T."
+                                    xlink:actuate="onRequest">Massie, Steven T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Changes in the distributions of cirrus in the upper troposphere centered at 100&#x2009;hPa in the tropical tropopause layer (TTL) during the last 27&#x2009;years (1985-2012) are quantified based upon an analysis of five independent data sets. Stratospheric Aerosol and Gas Experiment II, Halogen Occultation Experiment, Cryogenic Limb Array Etalon Spectrometer, High Resolution Dynamics Limb Sounder, and Cloud-Aerosol Lidar with Orthogonal Polarization data are used to determine cirrus frequency-of-occurrence geospatial distributions in the TTL in multiple year segments during 1985&#x2013;2012. Full width at half maximum (FWHM) tropical widths of cirrus zonal averages of occurrence frequency centered at 100&#x2009;hPa are calculated for each experiment. The FWHMs have a 2&#x3c3; trend of 0.28&#x2009;&#xb1;&#x2009;1.5&#xb0; decade&#x207b;&#xb9;1. This statistically insignificant trend is similar to those calculated by Davis and Rosenlof (2012) based upon analyses of reanalysis tropopause height and tropopause latitudinal gradients near 100&#x2009;hPa.</gco:CharacterString>
+            <gco:CharacterString>Changes in the distributions of cirrus in the upper troposphere centered at 100 hPa in the tropical tropopause layer (TTL) during the last 27 years (1985-2012) are quantified based upon an analysis of five independent data sets. Stratospheric Aerosol and Gas Experiment II, Halogen Occultation Experiment, Cryogenic Limb Array Etalon Spectrometer, High Resolution Dynamics Limb Sounder, and Cloud-Aerosol Lidar with Orthogonal Polarization data are used to determine cirrus frequency-of-occurrence geospatial distributions in the TTL in multiple year segments during 1985–2012. Full width at half maximum (FWHM) tropical widths of cirrus zonal averages of occurrence frequency centered at 100 hPa are calculated for each experiment. The FWHMs have a 2σ trend of 0.28 ± 1.5° decade⁻¹1. This statistically insignificant trend is similar to those calculated by Davis and Rosenlof (2012) based upon analyses of reanalysis tropopause height and tropopause latitudinal gradients near 100 hPa.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

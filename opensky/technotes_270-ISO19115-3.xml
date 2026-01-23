@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:270</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:26.737687</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:27:34.227763</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This report presents an evaluation of the Rosemount 871 ice detector for use as an aircraft hazard instrument and for determining liquid undercooled water content. Ice detector measurements are compared with those obtained by the more conventional heated-wire cloud water probe for -10&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;C stratus and -5&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;C cumulus icing events.</gco:CharacterString>
+            <gco:CharacterString>This report presents an evaluation of the Rosemount 871 ice detector for use as an aircraft hazard instrument and for determining liquid undercooled water content. Ice detector measurements are compared with those obtained by the more conventional heated-wire cloud water probe for -10ï¿½ï¿½C stratus and -5ï¿½ï¿½C cumulus icing events.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

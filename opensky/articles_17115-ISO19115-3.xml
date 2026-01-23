@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17115</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:27:27.969539</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:55:45.811831</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>A multiscale and multidisciplinary investigation of ecosystem-atmosphere CO&#x2082; exchange over the Rocky Mountains of Colorado</gco:CharacterString>
+                  <gco:CharacterString>A multiscale and multidisciplinary investigation of ecosystem-atmosphere CO₂ exchange over the Rocky Mountains of Colorado</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Oncley, Steven</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0829-7462"
+                                    xlink:title="Oncley, Steven"
+                                    xlink:actuate="onRequest">Oncley, Steven</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Sean</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6258-1838"
+                                    xlink:title="Burns, Sean"
+                                    xlink:actuate="onRequest">Burns, Sean</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lenschow, Donald H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4353-0098"
+                                    xlink:title="Lenschow, Donald H."
+                                    xlink:actuate="onRequest">Lenschow, Donald H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +388,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A significant fraction of Earth consists of mountainous terrain. However, the question of how to monitor the surface-atmosphere carbon exchange over complex terrain has not been fully explored. This article reports on studies by a team of investigators from U.S. universities and research institutes who carried out a multiscale and multidisciplinary field and modeling investigation of the CO&#x2082; exchange between ecosystems and the atmosphere and of CO&#x2082; transport over complex mountainous terrain in the Rocky Mountain region of Colorado. The goals of the field campaign, which included ground and airborne in situ and remote-sensing measurements, were to characterize unique features of the local CO&#x2082; exchange and to find effective methods to measure regional ecosystem&#x2013;atmosphere CO&#xb2; exchange over complex terrain. The modeling effort included atmospheric and ecological numerical modeling and data assimilation to investigate regional CO&#x2082; transport and biological processes involved in ecosystem-atmosphere carbon exchange. In this report, we document our approaches, demonstrate some preliminary results, and discuss principal patterns and conclusions concerning ecosystem-atmosphere carbon exchange over complex terrain and its relation to past studies that have considered these processes over much simpler terrain.</gco:CharacterString>
+            <gco:CharacterString>A significant fraction of Earth consists of mountainous terrain. However, the question of how to monitor the surface-atmosphere carbon exchange over complex terrain has not been fully explored. This article reports on studies by a team of investigators from U.S. universities and research institutes who carried out a multiscale and multidisciplinary field and modeling investigation of the CO₂ exchange between ecosystems and the atmosphere and of CO₂ transport over complex mountainous terrain in the Rocky Mountain region of Colorado. The goals of the field campaign, which included ground and airborne in situ and remote-sensing measurements, were to characterize unique features of the local CO₂ exchange and to find effective methods to measure regional ecosystem–atmosphere CO² exchange over complex terrain. The modeling effort included atmospheric and ecological numerical modeling and data assimilation to investigate regional CO₂ transport and biological processes involved in ecosystem-atmosphere carbon exchange. In this report, we document our approaches, demonstrate some preliminary results, and discuss principal patterns and conclusions concerning ecosystem-atmosphere carbon exchange over complex terrain and its relation to past studies that have considered these processes over much simpler terrain.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -463,7 +474,7 @@
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>Copyright 2010 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 of the U.S. Copyright Act or that satisfies the conditions specified in Section 108 of the U.S. Copyright Act (17 USC &#xa7;108, as revised by P.L. 94-553) does not require the AMS's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statement, requires written permission or a license form the AMS. Additional details are provided in the AMS Copyright Policy, available on the AMS Web site located at (http://www.ametsoc.org/AMS) or from the AMS at 617-227-2425 or copyright@ametsoc.org</gco:CharacterString>
+                  <gco:CharacterString>Copyright 2010 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 of the U.S. Copyright Act or that satisfies the conditions specified in Section 108 of the U.S. Copyright Act (17 USC §108, as revised by P.L. 94-553) does not require the AMS's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statement, requires written permission or a license form the AMS. Additional details are provided in the AMS Copyright Policy, available on the AMS Web site located at (http://www.ametsoc.org/AMS) or from the AMS at 617-227-2425 or copyright@ametsoc.org</gco:CharacterString>
                </gmd:useLimitation>
                <gmd:otherConstraints>
                   <gco:CharacterString>None</gco:CharacterString>

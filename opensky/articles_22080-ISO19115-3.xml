@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22080</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:34:03.160200</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:47:02.361633</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gonz&#xe1;lez Abad, G.</gco:CharacterString>
+                        <gco:CharacterString>González Abad, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +288,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The GEOstationary Coastal and Air Pollution Events (GEO-CAPE) Airborne Simulator (GCAS) was developed in support of NASA's decadal survey GEO-CAPE geostationary satellite mission. GCAS is an airborne push-broom remote-sensing instrument, consisting of two channels which make hyperspectral measurements in the ultraviolet/visible (optimized for air quality observations) and the visible&#x2013;near infrared (optimized for ocean color observations). The GCAS instrument participated in its first intensive field campaign during the Deriving Information on Surface Conditions from Column and Vertically Resolved Observations Relevant to Air Quality (DISCOVER-AQ) campaign in Texas in September 2013. During this campaign, the instrument flew on a King Air B-200 aircraft during 21 flights on 11 days to make air quality observations over Houston, Texas. We present GCAS trace gas retrievals of nitrogen dioxide (NO2) and formaldehyde (CH2O), and compare these results with trace gas columns derived from coincident in situ profile measurements of NO2 and CH2O made by instruments on a P-3B aircraft, and with NO2 observations from ground-based Pandora spectrometers operating in direct-sun and scattered light modes. GCAS tropospheric column measurements correlate well spatially and temporally with columns estimated from the P-3B measurements for both NO2 (r2&#x2009;=&#x2009;0.89) and CH2O (r2&#x2009;=&#x2009;0.54) and with Pandora direct-sun (r2&#x2009;=&#x2009;0.85) and scattered light (r2&#x2009;=&#x2009;0.94) observed NO2 columns. Coincident GCAS columns agree in magnitude with NO2 and CH2O P-3B-observed columns to within 10% but are larger than scattered light Pandora tropospheric NO2 columns by 33% and direct-sun Pandora NO2 columns by 50%.</gco:CharacterString>
+            <gco:CharacterString>The GEOstationary Coastal and Air Pollution Events (GEO-CAPE) Airborne Simulator (GCAS) was developed in support of NASA's decadal survey GEO-CAPE geostationary satellite mission. GCAS is an airborne push-broom remote-sensing instrument, consisting of two channels which make hyperspectral measurements in the ultraviolet/visible (optimized for air quality observations) and the visible–near infrared (optimized for ocean color observations). The GCAS instrument participated in its first intensive field campaign during the Deriving Information on Surface Conditions from Column and Vertically Resolved Observations Relevant to Air Quality (DISCOVER-AQ) campaign in Texas in September 2013. During this campaign, the instrument flew on a King Air B-200 aircraft during 21 flights on 11 days to make air quality observations over Houston, Texas. We present GCAS trace gas retrievals of nitrogen dioxide (NO2) and formaldehyde (CH2O), and compare these results with trace gas columns derived from coincident in situ profile measurements of NO2 and CH2O made by instruments on a P-3B aircraft, and with NO2 observations from ground-based Pandora spectrometers operating in direct-sun and scattered light modes. GCAS tropospheric column measurements correlate well spatially and temporally with columns estimated from the P-3B measurements for both NO2 (r2 = 0.89) and CH2O (r2 = 0.54) and with Pandora direct-sun (r2 = 0.85) and scattered light (r2 = 0.94) observed NO2 columns. Coincident GCAS columns agree in magnitude with NO2 and CH2O P-3B-observed columns to within 10% but are larger than scattered light Pandora tropospheric NO2 columns by 33% and direct-sun Pandora NO2 columns by 50%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

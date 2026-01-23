@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:7095</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:04:50.410553</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:44:00.188806</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -557,7 +562,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We analyze present-day and future carbon monoxide (CO) simulations in 26 state-of-the-art atmospheric chemistry models run to study future air quality and climate change. In comparison with near-global satellite observations from the MOPITT instrument and local surface measurements, the models show large underestimates of Northern Hemisphere (NH) extratropical CO, while typically performing reasonably well elsewhere. The results suggest that year-round emissions, probably from fossil fuel burning in east Asia and seasonal biomass burning emissions in south-central Africa, are greatly underestimated in current inventories such as IIASA and EDGAR3.2. Variability among models is large, likely resulting primarily from intermodel differences in representations and emissions of nonmethane volatile organic compounds (NMVOCs) and in hydrologic cycles, which affect OH and soluble hydrocarbon intermediates. Global mean projections of the 2030 CO response to emissions changes are quite robust. Global mean midtropospheric (500 hPa) CO increases by 12.6 &#xb1; 3.5 ppbv (16%) for the high-emissions (A2) scenario, by 1.7 &#xb1; 1.8 ppbv (2%) for the midrange (CLE) scenario, and decreases by 8.1 &#xb1; 2.3 ppbv (11%) for the low-emissions (MFR) scenario. Projected 2030 climate changes decrease global 500 hPa CO by 1.4 &#xb1; 1.4 ppbv. Local changes can be much larger. In response to climate change, substantial effects are seen in the tropics, but intermodel variability is quite large. The regional CO responses to emissions changes are robust across models, however. These range from decreases of 10-20 ppbv over much of the industrialized NH for the CLE scenario to CO increases worldwide and year-round under A2, with the largest changes over central Africa (20-30 ppbv), southern Brazil (20-35 ppbv) and south and east Asia (30-70 ppbv). The trajectory of future emissions thus has the potential to profoundly affect air quality over most of the world's populated area</gco:CharacterString>
+            <gco:CharacterString>We analyze present-day and future carbon monoxide (CO) simulations in 26 state-of-the-art atmospheric chemistry models run to study future air quality and climate change. In comparison with near-global satellite observations from the MOPITT instrument and local surface measurements, the models show large underestimates of Northern Hemisphere (NH) extratropical CO, while typically performing reasonably well elsewhere. The results suggest that year-round emissions, probably from fossil fuel burning in east Asia and seasonal biomass burning emissions in south-central Africa, are greatly underestimated in current inventories such as IIASA and EDGAR3.2. Variability among models is large, likely resulting primarily from intermodel differences in representations and emissions of nonmethane volatile organic compounds (NMVOCs) and in hydrologic cycles, which affect OH and soluble hydrocarbon intermediates. Global mean projections of the 2030 CO response to emissions changes are quite robust. Global mean midtropospheric (500 hPa) CO increases by 12.6 ± 3.5 ppbv (16%) for the high-emissions (A2) scenario, by 1.7 ± 1.8 ppbv (2%) for the midrange (CLE) scenario, and decreases by 8.1 ± 2.3 ppbv (11%) for the low-emissions (MFR) scenario. Projected 2030 climate changes decrease global 500 hPa CO by 1.4 ± 1.4 ppbv. Local changes can be much larger. In response to climate change, substantial effects are seen in the tropics, but intermodel variability is quite large. The regional CO responses to emissions changes are robust across models, however. These range from decreases of 10-20 ppbv over much of the industrialized NH for the CLE scenario to CO increases worldwide and year-round under A2, with the largest changes over central Africa (20-30 ppbv), southern Brazil (20-35 ppbv) and south and east Asia (30-70 ppbv). The trajectory of future emissions thus has the potential to profoundly affect air quality over most of the world's populated area</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19395</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:52:25.659498</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:38:01.483468</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bresch, James</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1442-8943"
+                                    xlink:title="Bresch, James"
+                                    xlink:actuate="onRequest">Bresch, James</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +262,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +314,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +356,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, J&#xf8;rgen B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2504-1277"
+                                    xlink:title="Jensen, Jørgen B."
+                                    xlink:actuate="onRequest">Jensen, Jørgen B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +368,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaser, Lisa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4835-8373"
+                                    xlink:title="Kaser, Lisa"
+                                    xlink:actuate="onRequest">Kaser, Lisa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +380,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +402,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -417,7 +444,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -487,7 +516,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schauffler, Sue</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4516-3378"
+                                    xlink:title="Schauffler, Sue"
+                                    xlink:actuate="onRequest">Schauffler, Sue</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -507,7 +538,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stell, Meghan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8712-437X"
+                                    xlink:title="Stell, Meghan"
+                                    xlink:actuate="onRequest">Stell, Meghan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -517,7 +550,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -567,7 +602,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment was conducted from Guam (13.5&#xb0;N, 144.8&#xb0;E) during January&#x2013;February 2014. Using the NSF/NCAR Gulfstream V research aircraft, the experiment investigated the photochemical environment over the tropical western Pacific (TWP) warm pool, a region of massive deep convection and the major pathway for air to enter the stratosphere during Northern Hemisphere (NH) winter. The new observations provide a wealth of information for quantifying the influence of convection on the vertical distributions of active species. The airborne in situ measurements up to 15-km altitude fill a significant gap by characterizing the abundance and altitude variation of a wide suite of trace gases. These measurements, together with observations of dynamical and microphysical parameters, provide significant new data for constraining and evaluating global chemistry&#x2013;climate models. Measurements include precursor and product gas species of reactive halogen compounds that impact ozone in the upper troposphere/lower stratosphere. High-accuracy, in situ measurements of ozone obtained during CONTRAST quantify ozone concentration profiles in the upper troposphere, where previous observations from balloonborne ozonesondes were often near or below the limit of detection. CONTRAST was one of the three coordinated experiments to observe the TWP during January&#x2013;February 2014. Together, CONTRAST, Airborne Tropical Tropopause Experiment (ATTREX), and Coordinated Airborne Studies in the Tropics (CAST), using complementary capabilities of the three aircraft platforms as well as ground-based instrumentation, provide a comprehensive quantification of the regional distribution and vertical structure of natural and pollutant trace gases in the TWP during NH winter, from the oceanic boundary to the lower stratosphere.</gco:CharacterString>
+            <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment was conducted from Guam (13.5°N, 144.8°E) during January–February 2014. Using the NSF/NCAR Gulfstream V research aircraft, the experiment investigated the photochemical environment over the tropical western Pacific (TWP) warm pool, a region of massive deep convection and the major pathway for air to enter the stratosphere during Northern Hemisphere (NH) winter. The new observations provide a wealth of information for quantifying the influence of convection on the vertical distributions of active species. The airborne in situ measurements up to 15-km altitude fill a significant gap by characterizing the abundance and altitude variation of a wide suite of trace gases. These measurements, together with observations of dynamical and microphysical parameters, provide significant new data for constraining and evaluating global chemistry–climate models. Measurements include precursor and product gas species of reactive halogen compounds that impact ozone in the upper troposphere/lower stratosphere. High-accuracy, in situ measurements of ozone obtained during CONTRAST quantify ozone concentration profiles in the upper troposphere, where previous observations from balloonborne ozonesondes were often near or below the limit of detection. CONTRAST was one of the three coordinated experiments to observe the TWP during January–February 2014. Together, CONTRAST, Airborne Tropical Tropopause Experiment (ATTREX), and Coordinated Airborne Studies in the Tropics (CAST), using complementary capabilities of the three aircraft platforms as well as ground-based instrumentation, provide a comprehensive quantification of the regional distribution and vertical structure of natural and pollutant trace gases in the TWP during NH winter, from the oceanic boundary to the lower stratosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

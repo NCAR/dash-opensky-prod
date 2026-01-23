@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27430</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:00:17.226888</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:10:52.589039</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhu, Jiang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0908-5130"
+                                    xlink:title="Zhu, Jiang"
+                                    xlink:actuate="onRequest">Zhu, Jiang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;Simulating the warmth and equability of past hothouse climates has been a challenge since the inception of paleoclimate modeling. The newest generation of Earth system models (ESMs) has shown substantial improvements in the ability to simulate the early Eocene global mean surface temperature (GMST) and equator-to-pole gradient. Results using the Community Earth System Model suggest that parameterizations of atmospheric radiation, convection, and clouds largely determine the Eocene GMST and are responsible for improvements in the new ESMs, but they have less direct influence on the equator-to-pole temperature gradient. ESMs still have difficulty simulating some regional and seasonal temperatures, although improved data reconstructions of chronology, spatial coverage, and seasonal resolution are needed for more robust model assessment. Looking forward, key processes including radiation and clouds need to be benchmarked and improved using more accurate models of limited domain/physics. Earth system processes need to be better explored, leveraging the increasing ESM resolution and complexity.&lt;/p&gt;&lt;p&gt;&#x25aa; &amp;nbsp;Earth system models (ESMs) are now able to simulate the large-scale features of the early Eocene.&lt;br&gt;&#x25aa; &amp;nbsp;Remaining model-data discrepancies exist at regional and seasonal scales and require improvements in both proxy data and ESMs.&lt;br&gt;&#x25aa; &amp;nbsp;A hierarchical modeling approach is needed to ensure relevant physical processes are parameterized reasonably well in ESMs.&lt;br&gt;&#x25aa; &amp;nbsp;Future work is needed to leverage the continuously increasing resolution and complexity of ESMs.&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;Simulating the warmth and equability of past hothouse climates has been a challenge since the inception of paleoclimate modeling. The newest generation of Earth system models (ESMs) has shown substantial improvements in the ability to simulate the early Eocene global mean surface temperature (GMST) and equator-to-pole gradient. Results using the Community Earth System Model suggest that parameterizations of atmospheric radiation, convection, and clouds largely determine the Eocene GMST and are responsible for improvements in the new ESMs, but they have less direct influence on the equator-to-pole temperature gradient. ESMs still have difficulty simulating some regional and seasonal temperatures, although improved data reconstructions of chronology, spatial coverage, and seasonal resolution are needed for more robust model assessment. Looking forward, key processes including radiation and clouds need to be benchmarked and improved using more accurate models of limited domain/physics. Earth system processes need to be better explored, leveraging the increasing ESM resolution and complexity.&lt;/p&gt;&lt;p&gt;▪ &amp;nbsp;Earth system models (ESMs) are now able to simulate the large-scale features of the early Eocene.&lt;br&gt;▪ &amp;nbsp;Remaining model-data discrepancies exist at regional and seasonal scales and require improvements in both proxy data and ESMs.&lt;br&gt;▪ &amp;nbsp;A hierarchical modeling approach is needed to ensure relevant physical processes are parameterized reasonably well in ESMs.&lt;br&gt;▪ &amp;nbsp;Future work is needed to leverage the continuously increasing resolution and complexity of ESMs.&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

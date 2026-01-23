@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24036</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:09:41.098551</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:34:54.821427</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gilleland, Eric</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8058-7643"
+                                    xlink:title="Gilleland, Eric"
+                                    xlink:actuate="onRequest">Gilleland, Eric</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In ascertaining the performance of a high-resolution gridded forecast against an analysis, called the verification set, on the same grid, care must be taken to account for the over-accumulation of small-scale errors and double penalties. It is also useful to consider both location errors and intensity errors. In the last 2 decades, many new methods have been proposed for analyzing these kinds of verification sets. Many of these new methods involve fairly complicated strategies that do not naturally summarize forecast performance succinctly. This paper presents two new spatial-alignment performance measures, G and G&#xce;&#x2db;. The former is applied without any requirement for user decisions, while the latter has a single user-chosen parameter, &#xce;&#x2db;, that takes on a value from zero to one, where one corresponds to a perfect match and zero corresponds to the user's notion of a worst case. Unlike any previously proposed distance-based measure, both handle the often-encountered case in which all values in one or both of the verification set are zero. Moreover, its value is consistent if only a few grid points are nonzero.</gco:CharacterString>
+            <gco:CharacterString>In ascertaining the performance of a high-resolution gridded forecast against an analysis, called the verification set, on the same grid, care must be taken to account for the over-accumulation of small-scale errors and double penalties. It is also useful to consider both location errors and intensity errors. In the last 2 decades, many new methods have been proposed for analyzing these kinds of verification sets. Many of these new methods involve fairly complicated strategies that do not naturally summarize forecast performance succinctly. This paper presents two new spatial-alignment performance measures, G and GÎ˛. The former is applied without any requirement for user decisions, while the latter has a single user-chosen parameter, Î˛, that takes on a value from zero to one, where one corresponds to a perfect match and zero corresponds to the user's notion of a worst case. Unlike any previously proposed distance-based measure, both handle the often-encountered case in which all values in one or both of the verification set are zero. Moreover, its value is consistent if only a few grid points are nonzero.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

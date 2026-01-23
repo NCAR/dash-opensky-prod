@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:43366</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:47:01.749593</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:50:32.878283</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>&#x15e;en, B.</gco:CharacterString>
+                        <gco:CharacterString>Şen, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Holland, Marika M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5621-8939"
+                                    xlink:title="Holland, Marika M."
+                                    xlink:actuate="onRequest">Holland, Marika M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Landrum, Laura</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6003-1146"
+                                    xlink:title="Landrum, Laura"
+                                    xlink:actuate="onRequest">Landrum, Laura</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Krumhardt, Kristen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8980-056X"
+                                    xlink:title="Krumhardt, Kristen"
+                                    xlink:actuate="onRequest">Krumhardt, Kristen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +234,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trathan, P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6673-9930"
+                                    xlink:title="Trathan, P."
+                                    xlink:actuate="onRequest">Trathan, P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +256,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Improved methods for identifying species at risk are needed to strengthen climate change vulnerability assessments, as current estimates indicate that up to one million species face extinction due to environmental changes. Integrating multiple sources of uncertainty enhances the robustness of Red List of Threatened Species assessments, providing a more comprehensive understanding of species&#x2019; risks. We present a comprehensive framework that incorporates uncertainties, including measurement error, structural uncertainty, natural variability, future climate emissions scenario, and extreme events of sea ice loss, to evaluate the extinction risk of the emperor penguin (&lt;/span&gt;&lt;em style="-webkit-text-stroke-width:0px;box-sizing:border-box;color:rgb(31, 31, 31);font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Aptenodytes forsteri&lt;/em&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;), currently classified as Near-Threatened. We apply three ecological models, one bioclimatic and two metapopulation models, combined with a multi-model large ensemble (MMLE) of climate projections from general circulation models, to conduct a Red List evaluation at both global, regional and colony levels. Our results show that emperor penguins could be classified under a range of Red List categories depending on the ecological model, Intergovernmental Panel on Climate Change (IPCC) climate emissions scenario, and extreme event frequency. Under Criterion A, global classifications vary from Vulnerable to Critically Endangered. Severe declines are projected in the Indian and East Pacific sectors, Dronning Maud Land and the Amundsen-Bellingshausen Sea, with Criterion E indicating that 24% to 100% of colonies meet &lt;/span&gt;&lt;em style="-webkit-text-stroke-width:0px;box-sizing:border-box;color:rgb(31, 31, 31);font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Endangered&lt;/em&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt; status thresholds, depending on huddling thresholds and ecological models. This study represents the first application of an MMLE coupled with an ecological ensemble approach to project climate change impacts on a species, capturing a comprehensive range of uncertainties and offering a framework for improving forecasting and decision-making under climate change.&lt;/span&gt;&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Improved methods for identifying species at risk are needed to strengthen climate change vulnerability assessments, as current estimates indicate that up to one million species face extinction due to environmental changes. Integrating multiple sources of uncertainty enhances the robustness of Red List of Threatened Species assessments, providing a more comprehensive understanding of species’ risks. We present a comprehensive framework that incorporates uncertainties, including measurement error, structural uncertainty, natural variability, future climate emissions scenario, and extreme events of sea ice loss, to evaluate the extinction risk of the emperor penguin (&lt;/span&gt;&lt;em style="-webkit-text-stroke-width:0px;box-sizing:border-box;color:rgb(31, 31, 31);font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Aptenodytes forsteri&lt;/em&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;), currently classified as Near-Threatened. We apply three ecological models, one bioclimatic and two metapopulation models, combined with a multi-model large ensemble (MMLE) of climate projections from general circulation models, to conduct a Red List evaluation at both global, regional and colony levels. Our results show that emperor penguins could be classified under a range of Red List categories depending on the ecological model, Intergovernmental Panel on Climate Change (IPCC) climate emissions scenario, and extreme event frequency. Under Criterion A, global classifications vary from Vulnerable to Critically Endangered. Severe declines are projected in the Indian and East Pacific sectors, Dronning Maud Land and the Amundsen-Bellingshausen Sea, with Criterion E indicating that 24% to 100% of colonies meet &lt;/span&gt;&lt;em style="-webkit-text-stroke-width:0px;box-sizing:border-box;color:rgb(31, 31, 31);font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt;Endangered&lt;/em&gt;&lt;span style="-webkit-text-stroke-width:0px;color:rgb(31, 31, 31);display:inline !important;float:none;font-family:ElsevierGulliver, Georgia, &amp;quot;Times New Roman&amp;quot;, Times, STIXGeneral, &amp;quot;Cambria Math&amp;quot;, &amp;quot;Lucida Sans Unicode&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Arial Unicode MS&amp;quot;, serif, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"&gt; status thresholds, depending on huddling thresholds and ecological models. This study represents the first application of an MMLE coupled with an ecological ensemble approach to project climate change impacts on a species, capturing a comprehensive range of uncertainties and offering a framework for improving forecasting and decision-making under climate change.&lt;/span&gt;&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16643</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:02:43.966640</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:17:24.248549</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper discusses impacts of cloud and precipitation processes on macrophysical properties of shallow convective clouds as simulated by a large eddy model applying warm-rain bin microphysics. Simulations with and without collision&#x2013;coalescence are considered with cloud condensation nuclei (CCN) concentrations of 30, 60, 120, and 240 mg&#x2212;1. Simulations with collision-coalescence include either the standard gravitational collision kernel or a novel kernel that includes enhancements due to the small-scale cloud turbulence. Simulations with droplet collisions were discussed in Wyszogrodzki et al. (2013) focusing on the impact of the turbulent collision kernel. The current paper expands that analysis and puts model results in the context of previous studies. Despite a significant increase of the drizzle/rain with the decrease of CCN concentration, enhanced by the effects of the small-scale turbulence, impacts on the macroscopic cloud field characteristics are relatively minor. Model results show a systematic shift in the cloud-top height distributions, with an increasing contribution of deeper clouds for stronger precipitating cases. We show that this is consistent with the explanation suggested in Wyszogrodzki et al. (2013); namely, the increase of drizzle/rain leads to a more efficient condensate offloading in the upper parts of the cloud field. A second effect involves suppression of the cloud droplet evaporation near cloud edges in low-CCN simulations, as documented in previous studies (e.g., Xue and Feingold, 2006). We pose the question whether the effects of cloud turbulence on drizzle/rain formation in shallow cumuli can be corroborated by remote sensing observations, for instance, from space. Although a clear signal is extracted from model results, we argue that the answer is negative due to uncertainties caused by the temporal variability of the shallow convective cloud field, sampling and spatial resolution of the satellite data, and overall accuracy of remote sensing retrievals.</gco:CharacterString>
+            <gco:CharacterString>This paper discusses impacts of cloud and precipitation processes on macrophysical properties of shallow convective clouds as simulated by a large eddy model applying warm-rain bin microphysics. Simulations with and without collision–coalescence are considered with cloud condensation nuclei (CCN) concentrations of 30, 60, 120, and 240 mg−1. Simulations with collision-coalescence include either the standard gravitational collision kernel or a novel kernel that includes enhancements due to the small-scale cloud turbulence. Simulations with droplet collisions were discussed in Wyszogrodzki et al. (2013) focusing on the impact of the turbulent collision kernel. The current paper expands that analysis and puts model results in the context of previous studies. Despite a significant increase of the drizzle/rain with the decrease of CCN concentration, enhanced by the effects of the small-scale turbulence, impacts on the macroscopic cloud field characteristics are relatively minor. Model results show a systematic shift in the cloud-top height distributions, with an increasing contribution of deeper clouds for stronger precipitating cases. We show that this is consistent with the explanation suggested in Wyszogrodzki et al. (2013); namely, the increase of drizzle/rain leads to a more efficient condensate offloading in the upper parts of the cloud field. A second effect involves suppression of the cloud droplet evaporation near cloud edges in low-CCN simulations, as documented in previous studies (e.g., Xue and Feingold, 2006). We pose the question whether the effects of cloud turbulence on drizzle/rain formation in shallow cumuli can be corroborated by remote sensing observations, for instance, from space. Although a clear signal is extracted from model results, we argue that the answer is negative due to uncertainties caused by the temporal variability of the shallow convective cloud field, sampling and spatial resolution of the satellite data, and overall accuracy of remote sensing retrievals.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

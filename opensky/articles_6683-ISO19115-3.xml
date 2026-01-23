@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6683</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:30.058983</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:40:15.264957</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The rapid intensification and decay in Hurricane Charley (2004) was sampled by the WSR-88Ds in Key West and Tampa. Charley's axisymmetric wind fields, vertical vorticity, perturbation pressure, and reflectivity were derived from the ground-based velocity track display (GBVTD) technique. Charley's rapid intensification was accompanied by a contracting eyewall. The central pressure dropped &#x223c;33 hPa in three hours. The vortex was unstable (possessed a ring vorticity profile) during the eyewall contraction while the vortex became stable (monopole vorticity profile) after Charley reached its peak intensity. Charley's eyewall broke down during the decaying stage after the land fall. This study demonstrates the powerful combination of the GBVTD technique and coastal WSR-88D data in monitoring landfalling tropical cyclones.</gco:CharacterString>
+            <gco:CharacterString>The rapid intensification and decay in Hurricane Charley (2004) was sampled by the WSR-88Ds in Key West and Tampa. Charley's axisymmetric wind fields, vertical vorticity, perturbation pressure, and reflectivity were derived from the ground-based velocity track display (GBVTD) technique. Charley's rapid intensification was accompanied by a contracting eyewall. The central pressure dropped ∼33 hPa in three hours. The vortex was unstable (possessed a ring vorticity profile) during the eyewall contraction while the vortex became stable (monopole vorticity profile) after Charley reached its peak intensity. Charley's eyewall broke down during the decaying stage after the land fall. This study demonstrates the powerful combination of the GBVTD technique and coastal WSR-88D data in monitoring landfalling tropical cyclones.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

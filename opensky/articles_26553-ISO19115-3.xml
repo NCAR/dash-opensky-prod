@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26553</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:16:42.642685</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:28:56.387462</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Patton, Edward G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5431-9541"
+                                    xlink:title="Patton, Edward G."
+                                    xlink:actuate="onRequest">Patton, Edward G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sullivan, Peter P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-6328"
+                                    xlink:title="Sullivan, Peter P."
+                                    xlink:actuate="onRequest">Sullivan, Peter P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent high-resolution large-eddy simulations (LES) of a stable atmospheric boundary layer (SBL) with mesh sizes &#x11f;&#xfffd;'&#xfffd;=(5123,10243,20483) or mesh spacings &#xe2;&#x2013;&#xb3;=(0.78,0.39,0.2) m are analyzed. The LES solutions are judged to be converged based on the good collapse of vertical profiles of mean winds, temperature, and low-order turbulence moments, i.e., fluxes and variances, with increasing N. The largest discrepancy is in the stably stratified region above the low-level jet. Subfilter-scale (SFS) motions are extracted from the LES with &#x11f;&#xfffd;'&#xfffd;=20483 and are compared to sonic anemometer fields from the horizontal array turbulence study (HATS) and its sequel over the ocean (OHATS). The results from the simulation and observations are compared using the dimensionless resolution ratio &#xce;&#x203a;&#x11f;&#xfffd;'&#xa4;/&#xe2;&#x2013;&#xb3;&#x11f;&#xfffd;'" where &#xe2;&#x2013;&#xb3;&#x11f;&#xfffd;'" is the filter width and &#xce;&#x203a;&#x11f;&#xfffd;'&#xa4; is a characteristic scale of the energy-containing eddies in vertical velocity. The SFS motions from the observations and LES span the ranges 0.1&lt;&#xce;&#x203a;&#x11f;&#xfffd;'&#xa4;/&#xe2;&#x2013;&#xb3;&#x11f;&#xfffd;'"&lt;20 and are in good agreement. The small, medium, and large range of &#xce;&#x203a;&#x11f;&#xfffd;'&#xa4;/&#xe2;&#x2013;&#xb3;&#x11f;&#xfffd;'" correspond to Reynolds-averaged Navier-Stokes (RANS), the gray zone (a.k.a. "Terra Incognita-), and fine-resolution LES. The gray zone cuts across the peak in the energy spectrum and then flux parameterizations need to be adaptive and account for partially resolved flux but also "stochastic- flux fluctuations that represent the turbulent correlation between the fluctuating rate of strain and SFS flux tensors. LES data with mesh 20483 will be made available to the research community through the web and tools provided by the Johns Hopkins University Turbulence Database.</gco:CharacterString>
+            <gco:CharacterString>Recent high-resolution large-eddy simulations (LES) of a stable atmospheric boundary layer (SBL) with mesh sizes ğ�'�=(5123,10243,20483) or mesh spacings â–³=(0.78,0.39,0.2) m are analyzed. The LES solutions are judged to be converged based on the good collapse of vertical profiles of mean winds, temperature, and low-order turbulence moments, i.e., fluxes and variances, with increasing N. The largest discrepancy is in the stably stratified region above the low-level jet. Subfilter-scale (SFS) motions are extracted from the LES with ğ�'�=20483 and are compared to sonic anemometer fields from the horizontal array turbulence study (HATS) and its sequel over the ocean (OHATS). The results from the simulation and observations are compared using the dimensionless resolution ratio Î›ğ�'¤/â–³ğ�'" where â–³ğ�'" is the filter width and Î›ğ�'¤ is a characteristic scale of the energy-containing eddies in vertical velocity. The SFS motions from the observations and LES span the ranges 0.1&lt;Î›ğ�'¤/â–³ğ�'"&lt;20 and are in good agreement. The small, medium, and large range of Î›ğ�'¤/â–³ğ�'" correspond to Reynolds-averaged Navier-Stokes (RANS), the gray zone (a.k.a. "Terra Incognita-), and fine-resolution LES. The gray zone cuts across the peak in the energy spectrum and then flux parameterizations need to be adaptive and account for partially resolved flux but also "stochastic- flux fluctuations that represent the turbulent correlation between the fluctuating rate of strain and SFS flux tensors. LES data with mesh 20483 will be made available to the research community through the web and tools provided by the Johns Hopkins University Turbulence Database.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

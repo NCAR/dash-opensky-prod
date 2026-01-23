@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42153</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:31.412007</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:15.114830</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The literature presents different views on how the stratosphere influences variability in surface nitrous oxide (N2O) and on whether that influence is outweighed by surface emission changes driven by the El Ni&#xf1;o&#x2013;Southern Oscillation (ENSO). These questions are investigated using a chemistry&#x2013;climate model with a stratospheric N2O tracer; surface and aircraft-based N2O measurements; and indices for ENSO, polar lower stratospheric temperature (PLST), and the stratospheric quasi-biennial oscillation (QBO). The model simulates well-defined seasonal cycles in tropospheric N2O that are caused mainly by the seasonal descent of N2O-poor stratospheric air in polar regions with subsequent cross-tropopause transport and mixing. Similar seasonal cycles are identified in recently available N2O data from aircraft. A correlation analysis between the N2O atmospheric growth rate (AGR) anomaly in long-term surface monitoring data and the ENSO, PLST, and QBO indices reveals hemispheric differences. In the Northern Hemisphere, the surface N2O AGR is negatively correlated with winter (January&#x2013;March) PLST. This correlation is consistent with an influence from the Brewer&#x2013;Dobson circulation, which brings N2O-poor air from the middle and upper stratosphere into the lower stratosphere with associated warming due to diabatic descent. In the Southern Hemisphere, the N2O AGR is better correlated to QBO and ENSO indices. These different hemispheric influences on the N2O AGR are consistent with known atmospheric dynamics and the complex interaction of the QBO with the Brewer-Dobson circulation. More airborne surveys extending to the tropopause would help elucidate the stratospheric influence on tropospheric N2O, allowing for better understanding of surface sources.</gco:CharacterString>
+            <gco:CharacterString>The literature presents different views on how the stratosphere influences variability in surface nitrous oxide (N2O) and on whether that influence is outweighed by surface emission changes driven by the El Niño–Southern Oscillation (ENSO). These questions are investigated using a chemistry–climate model with a stratospheric N2O tracer; surface and aircraft-based N2O measurements; and indices for ENSO, polar lower stratospheric temperature (PLST), and the stratospheric quasi-biennial oscillation (QBO). The model simulates well-defined seasonal cycles in tropospheric N2O that are caused mainly by the seasonal descent of N2O-poor stratospheric air in polar regions with subsequent cross-tropopause transport and mixing. Similar seasonal cycles are identified in recently available N2O data from aircraft. A correlation analysis between the N2O atmospheric growth rate (AGR) anomaly in long-term surface monitoring data and the ENSO, PLST, and QBO indices reveals hemispheric differences. In the Northern Hemisphere, the surface N2O AGR is negatively correlated with winter (January–March) PLST. This correlation is consistent with an influence from the Brewer–Dobson circulation, which brings N2O-poor air from the middle and upper stratosphere into the lower stratosphere with associated warming due to diabatic descent. In the Southern Hemisphere, the N2O AGR is better correlated to QBO and ENSO indices. These different hemispheric influences on the N2O AGR are consistent with known atmospheric dynamics and the complex interaction of the QBO with the Brewer-Dobson circulation. More airborne surveys extending to the tropopause would help elucidate the stratospheric influence on tropospheric N2O, allowing for better understanding of surface sources.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

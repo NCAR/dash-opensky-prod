@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24370</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:15:25.934020</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:28:30.033795</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -457,7 +460,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Korea&#x2013;United States Air Quality (KORUS-AQ) field study was conducted during May&#x2013;June 2016. The effort was jointly sponsored by the National Institute of Environmental Research of South Korea and the National Aeronautics and Space Administration of the United States. KORUS-AQ offered an unprecedented, multi-perspective view of air quality conditions in South Korea by employing observations from three aircraft, an extensive ground-based network, and three ships along with an array of air quality forecast models. Information gathered during the study is contributing to an improved understanding of the factors controlling air quality in South Korea. The study also provided a valuable test bed for future air quality&#x2013;observing strategies involving geostationary satellite instruments being launched by both countries to examine air quality throughout the day over Asia and North America. This article presents details on the KORUS-AQ observational assets, study execution, data products, and air quality conditions observed during the study. High-level findings from companion papers in this special issue are also summarized and discussed in relation to the factors controlling fine particle and ozone pollution, current emissions and source apportionment, and expectations for the role of satellite observations in the future. Resulting policy recommendations and advice regarding plans going forward are summarized. These results provide an important update to early feedback previously provided in a Rapid Science Synthesis Report produced for South Korean policy makers in 2017 and form the basis for the Final Science Synthesis Report delivered in 2020.</gco:CharacterString>
+            <gco:CharacterString>The Korea–United States Air Quality (KORUS-AQ) field study was conducted during May–June 2016. The effort was jointly sponsored by the National Institute of Environmental Research of South Korea and the National Aeronautics and Space Administration of the United States. KORUS-AQ offered an unprecedented, multi-perspective view of air quality conditions in South Korea by employing observations from three aircraft, an extensive ground-based network, and three ships along with an array of air quality forecast models. Information gathered during the study is contributing to an improved understanding of the factors controlling air quality in South Korea. The study also provided a valuable test bed for future air quality–observing strategies involving geostationary satellite instruments being launched by both countries to examine air quality throughout the day over Asia and North America. This article presents details on the KORUS-AQ observational assets, study execution, data products, and air quality conditions observed during the study. High-level findings from companion papers in this special issue are also summarized and discussed in relation to the factors controlling fine particle and ozone pollution, current emissions and source apportionment, and expectations for the role of satellite observations in the future. Resulting policy recommendations and advice regarding plans going forward are summarized. These results provide an important update to early feedback previously provided in a Rapid Science Synthesis Report produced for South Korean policy makers in 2017 and form the basis for the Final Science Synthesis Report delivered in 2020.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

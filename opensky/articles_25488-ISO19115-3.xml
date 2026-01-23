@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25488</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:06:09.813908</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:50:13.097121</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +320,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Siyuan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8110-5714"
+                                    xlink:title="Wang, Siyuan"
+                                    xlink:actuate="onRequest">Wang, Siyuan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +342,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Asher, Elizabeth</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8399-5730"
+                                    xlink:title="Asher, Elizabeth"
+                                    xlink:actuate="onRequest">Asher, Elizabeth</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -557,7 +564,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -577,7 +586,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -597,7 +608,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -607,7 +620,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -667,7 +682,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lacey, Forrest</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4578-8375"
+                                    xlink:title="Lacey, Forrest"
+                                    xlink:actuate="onRequest">Lacey, Forrest</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -687,7 +704,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -897,7 +916,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -947,7 +968,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -1037,7 +1060,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This article provides an overview of the NASA Atmospheric Tomography (ATom) mission and a summary of selected scientific findings to date. ATom was an airborne measurements and modeling campaign aimed at characterizing the composition and chemistry of the troposphere over the most remote regions of the Pacific, Southern, Atlantic, and Arctic Oceans, and examining the impact of anthropogenic and natural emissions on a global scale. These remote regions dominate global chemical reactivity and are exceptionally important for global air quality and climate. ATom data provide the in situ measurements needed to understand the range of chemical species and their reactions, and to test satellite remote sensing observations and global models over large regions of the remote atmosphere. Lack of data in these regions, particularly over the oceans, has limited our understanding of how atmospheric composition is changing in response to shifting anthropogenic emissions and physical climate change. ATom was designed as a global-scale tomographic sampling mission with extensive geographic and seasonal coverage, tropospheric vertical profiling, and detailed speciation of reactive compounds and pollution tracers. ATom flew the NASA DC-8 research aircraft over four seasons to collect a comprehensive suite of measurements of gases, aerosols, and radical species from the remote troposphere and lower stratosphere on four global circuits from 2016 to 2018. Flights maintained near-continuous vertical profiling of 0.15&#x2013;13-km altitudes on long meridional transects of the Pacific and Atlantic Ocean basins. Analysis and modeling of ATom data have led to the significant early findings highlighted here.</gco:CharacterString>
+            <gco:CharacterString>This article provides an overview of the NASA Atmospheric Tomography (ATom) mission and a summary of selected scientific findings to date. ATom was an airborne measurements and modeling campaign aimed at characterizing the composition and chemistry of the troposphere over the most remote regions of the Pacific, Southern, Atlantic, and Arctic Oceans, and examining the impact of anthropogenic and natural emissions on a global scale. These remote regions dominate global chemical reactivity and are exceptionally important for global air quality and climate. ATom data provide the in situ measurements needed to understand the range of chemical species and their reactions, and to test satellite remote sensing observations and global models over large regions of the remote atmosphere. Lack of data in these regions, particularly over the oceans, has limited our understanding of how atmospheric composition is changing in response to shifting anthropogenic emissions and physical climate change. ATom was designed as a global-scale tomographic sampling mission with extensive geographic and seasonal coverage, tropospheric vertical profiling, and detailed speciation of reactive compounds and pollution tracers. ATom flew the NASA DC-8 research aircraft over four seasons to collect a comprehensive suite of measurements of gases, aerosols, and radical species from the remote troposphere and lower stratosphere on four global circuits from 2016 to 2018. Flights maintained near-continuous vertical profiling of 0.15–13-km altitudes on long meridional transects of the Pacific and Atlantic Ocean basins. Analysis and modeling of ATom data have led to the significant early findings highlighted here.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

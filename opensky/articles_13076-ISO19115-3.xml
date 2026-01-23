@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:13076</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:15:31.652850</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:38:28.202911</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ser&#xe7;a, D.</gco:CharacterString>
+                        <gco:CharacterString>Serça, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We describe the implementation of a biochemical model of isoprene emission that depends on the electron requirement for isoprene synthesis into the Farquhar&#x2013;Ball&#x2013;Berry leaf model of photosynthesis and stomatal conductance that is embedded within a global chemistry-climate simulation framework. The isoprene production is calculated as a function of electron transport-limited photosynthesis, intercellular and atmospheric carbon dioxide concentration, and canopy temperature. The vegetation biophysics module computes the photosynthetic uptake of carbon dioxide coupled with the transpiration of water vapor and the isoprene emission rate at the 30 min physical integration time step of the global chemistry-climate model. In the model, the rate of carbon assimilation provides the dominant control on isoprene emission variability over canopy temperature. A control simulation representative of the present-day climatic state that uses 8 plant functional types (PFTs), prescribed phenology and generic PFT-specific isoprene emission potentials (fraction of electrons available for isoprene synthesis) reproduces 50% of the variability across different ecosystems and seasons in a global database of 28 measured campaign-average fluxes. Compared to time-varying isoprene flux measurements at 9 select sites, the model authentically captures the observed variability in the 30 min average diurnal cycle (R&#xb2; = 64&#x2013;96%) and simulates the flux magnitude to within a factor of 2. The control run yields a global isoprene source strength of 451 TgC yr&#x207b;&#xb9; that increases by 30% in the artificial absence of plant water stress and by 55% for potential natural vegetation.</gco:CharacterString>
+            <gco:CharacterString>We describe the implementation of a biochemical model of isoprene emission that depends on the electron requirement for isoprene synthesis into the Farquhar–Ball–Berry leaf model of photosynthesis and stomatal conductance that is embedded within a global chemistry-climate simulation framework. The isoprene production is calculated as a function of electron transport-limited photosynthesis, intercellular and atmospheric carbon dioxide concentration, and canopy temperature. The vegetation biophysics module computes the photosynthetic uptake of carbon dioxide coupled with the transpiration of water vapor and the isoprene emission rate at the 30 min physical integration time step of the global chemistry-climate model. In the model, the rate of carbon assimilation provides the dominant control on isoprene emission variability over canopy temperature. A control simulation representative of the present-day climatic state that uses 8 plant functional types (PFTs), prescribed phenology and generic PFT-specific isoprene emission potentials (fraction of electrons available for isoprene synthesis) reproduces 50% of the variability across different ecosystems and seasons in a global database of 28 measured campaign-average fluxes. Compared to time-varying isoprene flux measurements at 9 select sites, the model authentically captures the observed variability in the 30 min average diurnal cycle (R² = 64–96%) and simulates the flux magnitude to within a factor of 2. The control run yields a global isoprene source strength of 451 TgC yr⁻¹ that increases by 30% in the artificial absence of plant water stress and by 55% for potential natural vegetation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

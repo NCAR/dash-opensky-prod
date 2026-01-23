@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:207</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:03:23.684996</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:37:46.613756</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The report on the Central Pacific VLF Signal Survey and Omega Wind Error Predictions is a preliminary document based on the theoretical predictions of Omega signal strengths and VLF noise level in the equatorial regions. Only limited empirical verification is included, essentially at Majuro in the Marshall Islands. The First GARP Global Experiment in 1979 will include two tropical wind-finding systems which use Omega navigation signals to determine the relative positions of a radiosonde as a function of time, and hence winds. Complete coverage of the deep tropics with Omega signals is not possible in 1979, since the Australian Omega station will not yet be completed. The wind accuracies are computed for a 13.6 kHz Omega signal between 30&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;N and 30&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;S latitudes for local noon and local midnight conditions in January. The effect of Australia is clearly illustrated. The results are compared with data measured at Majuro Atoll in the Marshall Islands. It is shown that observations near local noon provide the greatest accuracy. The FGGE requirement for 2 m/sec accuracy will be met in substantial areas of the tropical Pacific and Atlantic Oceans at local noon. The Indian Ocean region will suffer large errors south of the equator without Australia. At local midnight, when stations with potential model interference are not used in the wind computation, the regions of acceptable wind errors are decreased. The accuracy of the wind error predictions is now being evaluated from experimental data recently made available from the Indian Ocean region. These data will be used to improve the theoretical model and confirm whether or not the processors used in these experiments were operating near theoretical performance levels. Therefore, the results presented in this document should be used with some reservations. As a preliminary guide it can be said that the Indian Ocean data suggest that the analytical wind error model is more representative of the real world than the Majuro data-fitted model.</gco:CharacterString>
+            <gco:CharacterString>The report on the Central Pacific VLF Signal Survey and Omega Wind Error Predictions is a preliminary document based on the theoretical predictions of Omega signal strengths and VLF noise level in the equatorial regions. Only limited empirical verification is included, essentially at Majuro in the Marshall Islands. The First GARP Global Experiment in 1979 will include two tropical wind-finding systems which use Omega navigation signals to determine the relative positions of a radiosonde as a function of time, and hence winds. Complete coverage of the deep tropics with Omega signals is not possible in 1979, since the Australian Omega station will not yet be completed. The wind accuracies are computed for a 13.6 kHz Omega signal between 30ï¿½ï¿½N and 30ï¿½ï¿½S latitudes for local noon and local midnight conditions in January. The effect of Australia is clearly illustrated. The results are compared with data measured at Majuro Atoll in the Marshall Islands. It is shown that observations near local noon provide the greatest accuracy. The FGGE requirement for 2 m/sec accuracy will be met in substantial areas of the tropical Pacific and Atlantic Oceans at local noon. The Indian Ocean region will suffer large errors south of the equator without Australia. At local midnight, when stations with potential model interference are not used in the wind computation, the regions of acceptable wind errors are decreased. The accuracy of the wind error predictions is now being evaluated from experimental data recently made available from the Indian Ocean region. These data will be used to improve the theoretical model and confirm whether or not the processors used in these experiments were operating near theoretical performance levels. Therefore, the results presented in this document should be used with some reservations. As a preliminary guide it can be said that the Indian Ocean data suggest that the analytical wind error model is more representative of the real world than the Majuro data-fitted model.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

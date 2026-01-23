@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12173</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:33:45.422312</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:57:05.115452</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In the present paper we discuss the setup and the results of series of numerical experiments aiming to recover the E &#x2192; &#xd7; B &#x2192; plasma drift and neutral wind velocities using the Ensemble Square Root Filter together with the ionospheric numerical model. One of the objectives of the current research was assessing the performance of the upper atmosphere state and parameter ensemble estimation technique in the framework of the Observational System Simulation Experiment (OSSE). The other purpose was to improve calculation accuracy for the major driving forces in the ionosphere and to increase modeling reliability in real-data operational cases. In the current paper we describe the setup of the modeling system used to obtain the presented results. In the first section we introduce the background physics-based model used in the simulations and discuss its main assumptions along with E &#x2192; &#xd7; B &#x2192; drift and the neutral wind velocity calculation algorithms. Further we present the observations simulation system and describe the data used for assimilation and parameter estimation. We also provide a brief description of the Ensemble Square Root Filter and its application in the current study. In the last few sections the results of the numerical experiments are presented and discussed.</gco:CharacterString>
+            <gco:CharacterString>In the present paper we discuss the setup and the results of series of numerical experiments aiming to recover the E → × B → plasma drift and neutral wind velocities using the Ensemble Square Root Filter together with the ionospheric numerical model. One of the objectives of the current research was assessing the performance of the upper atmosphere state and parameter ensemble estimation technique in the framework of the Observational System Simulation Experiment (OSSE). The other purpose was to improve calculation accuracy for the major driving forces in the ionosphere and to increase modeling reliability in real-data operational cases. In the current paper we describe the setup of the modeling system used to obtain the presented results. In the first section we introduce the background physics-based model used in the simulations and discuss its main assumptions along with E → × B → drift and the neutral wind velocity calculation algorithms. Further we present the observations simulation system and describe the data used for assimilation and parameter estimation. We also provide a brief description of the Ensemble Square Root Filter and its application in the current study. In the last few sections the results of the numerical experiments are presented and discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

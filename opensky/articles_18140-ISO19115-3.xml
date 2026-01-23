@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18140</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:23:18.097819</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:11:56.071524</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dixon, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9597-9113"
+                                    xlink:title="Dixon, Michael J."
+                                    xlink:actuate="onRequest">Dixon, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this two-part paper the biases of polarimetric variables from simultaneous horizontally and vertically transmitted (SHV) data are investigated. Here, in Part I, a radar-scattering model is developed and antenna polarization errors are investigated and estimated. In Part II, experimental data from the National Center for Atmospheric Research S-band dual-polarization Doppler radar (S-Pol) and the National Severe Storms Laboratory polarimetric Weather Surveillance Radar-1988 Doppler (WSR-88D) radar, KOUN, are used to illustrate biases in differential reflectivity (Zdr). The biases in the SHV polarimetric variables are caused by cross coupling of the horizontally (H) and vertically (V) polarized signals. The cross coupling is caused by the following two primary sources: 1) the nonzero mean canting angle of the propagation medium and 2) antenna polarization errors. The biases are strong functions of the differential propagation phase (&#x3d5;dp) and the phase difference between the H and V transmitted field components. The radar-scattering model developed here allows for the evaluation of biases caused by cross coupling as a function of &#x3d5;dp, with the transmission phase difference as a parameter. Also, antenna polarization errors are estimated using solar scan measurements in combination with estimates of the radar system's linear depolarization ratio (LDR) measurement limit. Plots are given that show expected biases in SHV Zdr for various values of the LDR system's limit.</gco:CharacterString>
+            <gco:CharacterString>In this two-part paper the biases of polarimetric variables from simultaneous horizontally and vertically transmitted (SHV) data are investigated. Here, in Part I, a radar-scattering model is developed and antenna polarization errors are investigated and estimated. In Part II, experimental data from the National Center for Atmospheric Research S-band dual-polarization Doppler radar (S-Pol) and the National Severe Storms Laboratory polarimetric Weather Surveillance Radar-1988 Doppler (WSR-88D) radar, KOUN, are used to illustrate biases in differential reflectivity (Zdr). The biases in the SHV polarimetric variables are caused by cross coupling of the horizontally (H) and vertically (V) polarized signals. The cross coupling is caused by the following two primary sources: 1) the nonzero mean canting angle of the propagation medium and 2) antenna polarization errors. The biases are strong functions of the differential propagation phase (ϕdp) and the phase difference between the H and V transmitted field components. The radar-scattering model developed here allows for the evaluation of biases caused by cross coupling as a function of ϕdp, with the transmission phase difference as a parameter. Also, antenna polarization errors are estimated using solar scan measurements in combination with estimates of the radar system's linear depolarization ratio (LDR) measurement limit. Plots are given that show expected biases in SHV Zdr for various values of the LDR system's limit.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

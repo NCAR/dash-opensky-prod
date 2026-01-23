@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11959</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:37:55.675719</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:05:48.900327</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Anne K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2384-5033"
+                                    xlink:title="Smith, Anne K."
+                                    xlink:actuate="onRequest">Smith, Anne K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Thermosphere, Ionosphere, Mesosphere, Energetics, and Dynamics (TIMED)/Sounding of the Atmosphere Using Broadband Emission Radiometry (SABER) observations of vertical profiles of the OH nightglow emission rates, temperature, and ozone are used along with a theoretical model of the OH nightglow to distinguish the dominant mechanism for the nightglow. From the comparison between the model fit and the observations we conclude that the chemical reaction O&#x2083; + H&#x2192;OH(v &#x2264; 9) + O&#x2082; leads to population distributions of vibrationally excited states that are consistent with the measurements. The contribution of the reaction HO&#x2082; + O&#x2192;OH(v &#x2264; 6) + O&#x2082; to the nightglow is not needed to reproduce the measurements above 80 km, at least for the emissions originating from vibrational transitions with v &#x2264; 4. The analysis also determines the best fits for quenching of OH(v) by O&#x2082; and O. The results show that the quenching rate of OH(v) by O&amp;#x2082 is smaller and that the removal by O is larger than currently used for the analysis of SABER data. The rate constant for OH(v) quenching by O&#x2082; decreases with temperature in the mesopause region. The vertical profiles of atomic oxygen and hydrogen retrieved using both 2.0 and 1.6 &amp;#x03BC'm channels of Meinel band emission of the OH nightglow and the new quenching rates are slightly smaller than the profiles retrieved using only the 2.0 &#x3bc;m channel and the quenching rate coefficients currently used for the analysis of SABER data. The fits of the model to the observations were also used to evaluate two other assumptions. The assumption of sudden death quenching of OH by O&#x2082; and N&#x2082; (i.e., quenching to the ground state rather than to intermediate vibrational levels) leads to poorer agreement with the SABER observations. The question of whether the reaction with or quenching by atomic oxygen depends on the OH vibrational level could not be resolved; assumptions of vibrational level dependence and independence both gave good fits to the observed emissions.</gco:CharacterString>
+            <gco:CharacterString>Thermosphere, Ionosphere, Mesosphere, Energetics, and Dynamics (TIMED)/Sounding of the Atmosphere Using Broadband Emission Radiometry (SABER) observations of vertical profiles of the OH nightglow emission rates, temperature, and ozone are used along with a theoretical model of the OH nightglow to distinguish the dominant mechanism for the nightglow. From the comparison between the model fit and the observations we conclude that the chemical reaction O₃ + H→OH(v ≤ 9) + O₂ leads to population distributions of vibrationally excited states that are consistent with the measurements. The contribution of the reaction HO₂ + O→OH(v ≤ 6) + O₂ to the nightglow is not needed to reproduce the measurements above 80 km, at least for the emissions originating from vibrational transitions with v ≤ 4. The analysis also determines the best fits for quenching of OH(v) by O₂ and O. The results show that the quenching rate of OH(v) by O&amp;#x2082 is smaller and that the removal by O is larger than currently used for the analysis of SABER data. The rate constant for OH(v) quenching by O₂ decreases with temperature in the mesopause region. The vertical profiles of atomic oxygen and hydrogen retrieved using both 2.0 and 1.6 &amp;#x03BC'm channels of Meinel band emission of the OH nightglow and the new quenching rates are slightly smaller than the profiles retrieved using only the 2.0 μm channel and the quenching rate coefficients currently used for the analysis of SABER data. The fits of the model to the observations were also used to evaluate two other assumptions. The assumption of sudden death quenching of OH by O₂ and N₂ (i.e., quenching to the ground state rather than to intermediate vibrational levels) leads to poorer agreement with the SABER observations. The question of whether the reaction with or quenching by atomic oxygen depends on the OH vibrational level could not be resolved; assumptions of vibrational level dependence and independence both gave good fits to the observed emissions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

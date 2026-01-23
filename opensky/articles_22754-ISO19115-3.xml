@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22754</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:44.425877</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:28:21.123106</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Fei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2573-3828"
+                                    xlink:title="Chen, Fei"
+                                    xlink:actuate="onRequest">Chen, Fei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Understanding changes in subdaily rainfall extremes is critical to urban planners for building more sustainable and resilient cities. In this study, the hourly precipitation data in 1971&#x2013;2016 from 61 rain gauges are combined with historical land-use change data to investigate changes in extreme hourly precipitation (EXHP) in the Pearl River delta (PRD) region of South China. Also, 120 extreme rainfall events (EXREs) during 2011&#x2013;16 are analyzed using observations collected at densely distributed automatic weather stations and radar network. Statistically significant increase of hourly precipitation intensity leads to higher annual amounts of both total and extreme precipitation over the PRD urban cluster in the rapid urbanization period (about 1994&#x2013;2016) than during the preurbanization era (1971 to about 1993), suggesting a possible link between the enhanced rainfall and the rapid urbanization. Those urbanization-related positive trends are closely related to more frequent occurrence of abrupt rainfall events with short duration (&#x2264;6 h) than the continuous or growing rainfall events with longer duration. The 120 EXREs in 2011&#x2013;16 are categorized into six types according to the originating location and movement of the extreme-rain-producing storms. Despite the wide range of synoptic backgrounds and seasons, rainfall intensification by the strong urban heat island (UHI) effect is a clear signal in all the six types, especially over the inland urban cluster with prominent UHIs. The UHI thermal perturbation probably plays an important role in the convective initiation and intensification of the locally developed extreme-rain-producing storms during the daytime.</gco:CharacterString>
+            <gco:CharacterString>Understanding changes in subdaily rainfall extremes is critical to urban planners for building more sustainable and resilient cities. In this study, the hourly precipitation data in 1971–2016 from 61 rain gauges are combined with historical land-use change data to investigate changes in extreme hourly precipitation (EXHP) in the Pearl River delta (PRD) region of South China. Also, 120 extreme rainfall events (EXREs) during 2011–16 are analyzed using observations collected at densely distributed automatic weather stations and radar network. Statistically significant increase of hourly precipitation intensity leads to higher annual amounts of both total and extreme precipitation over the PRD urban cluster in the rapid urbanization period (about 1994–2016) than during the preurbanization era (1971 to about 1993), suggesting a possible link between the enhanced rainfall and the rapid urbanization. Those urbanization-related positive trends are closely related to more frequent occurrence of abrupt rainfall events with short duration (≤6 h) than the continuous or growing rainfall events with longer duration. The 120 EXREs in 2011–16 are categorized into six types according to the originating location and movement of the extreme-rain-producing storms. Despite the wide range of synoptic backgrounds and seasons, rainfall intensification by the strong urban heat island (UHI) effect is a clear signal in all the six types, especially over the inland urban cluster with prominent UHIs. The UHI thermal perturbation probably plays an important role in the convective initiation and intensification of the locally developed extreme-rain-producing storms during the daytime.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

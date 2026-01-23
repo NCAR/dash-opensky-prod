@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:542</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:54:30.484316</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:41:16.307257</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, Holger</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1223-3429"
+                                    xlink:title="Vömel, Holger"
+                                    xlink:actuate="onRequest">Vömel, Holger</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A dry bias in the RD94, mini dropsonde (NRD94) and Driftsonde MIST sonde humidity measurements has been discovered, which has existed since 2008. This document describes the background of the dry bias, how to identify impacted files, how to correct existing data, and how to implement a correction in AVAPS&#xae;. The Atmospheric Sounding Processing Environment (ASPEN) starting with version 3.3-236 is used to correct this dry bias both in reprocessing of existing raw data (i.e. D-files) as well as in real-time data acquisition. The correction has also been implemented into the AVAPS data acquisition software starting with version 3.9.5. This version must only be used, if ASPEN version 3.3-236 or later is used at the same time to make sure that the correction is properly documented. Double correction will not occur when using both updated programs (AVAPS 3.9.5 and ASPEN 3.3-236). Users must upgrade ASPEN to version 3.3-236 or higher and should upgrade AVAPS to version 3.9.5 or higher. Existing files in the D-, EOL-, and FRD format can be corrected using the python script aspenfixrh in the linux environment.</gco:CharacterString>
+            <gco:CharacterString>A dry bias in the RD94, mini dropsonde (NRD94) and Driftsonde MIST sonde humidity measurements has been discovered, which has existed since 2008. This document describes the background of the dry bias, how to identify impacted files, how to correct existing data, and how to implement a correction in AVAPS®. The Atmospheric Sounding Processing Environment (ASPEN) starting with version 3.3-236 is used to correct this dry bias both in reprocessing of existing raw data (i.e. D-files) as well as in real-time data acquisition. The correction has also been implemented into the AVAPS data acquisition software starting with version 3.9.5. This version must only be used, if ASPEN version 3.3-236 or later is used at the same time to make sure that the correction is properly documented. Double correction will not occur when using both updated programs (AVAPS 3.9.5 and ASPEN 3.3-236). Users must upgrade ASPEN to version 3.3-236 or higher and should upgrade AVAPS to version 3.9.5 or higher. Existing files in the D-, EOL-, and FRD format can be corrected using the python script aspenfixrh in the linux environment.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

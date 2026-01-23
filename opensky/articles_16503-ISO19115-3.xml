@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16503</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:02:29.018708</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:16:53.570603</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ch&#xe9;ruy, F.</gco:CharacterString>
+                        <gco:CharacterString>Chéruy, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2968-3023"
+                                    xlink:title="Lawrence, David M."
+                                    xlink:actuate="onRequest">Lawrence, David M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Widespread negative correlations between summertime-mean temperatures and precipitation over land regions are a well-known feature of terrestrial climate. This behavior has generally been interpreted in the context of soil moisture-atmosphere coupling, with soil moisture deficits associated with reduced rainfall leading to enhanced surface sensible heating and higher surface temperature. The present study revisits the genesis of these negative temperature-precipitation correlations using simulations from the Global Land-Atmosphere Coupling Experiment-phase 5 of the Coupled Model Intercomparison Project (GLACE-CMIP5) multimodel experiment. The analyses are based on simulations with five climate models, which were integrated with prescribed (noninteractive) and with interactive soil moisture over the period 1950&#x2013;2100. While the results presented here generally confirm the interpretation that negative correlations between seasonal temperature and precipitation arise through the direct control of soil moisture on surface heat flux partitioning, the presence of widespread negative correlations when soil moisture-atmosphere interactions are artificially removed in at least two out of five models suggests that atmospheric processes, in addition to land surface processes, contribute to the observed negative temperature-precipitation correlation. On longer time scales, the negative correlation between precipitation and temperature is shown to have implications for the projection of climate change impacts on near-surface climate: in all models, in the regions of strongest temperature-precipitation anticorrelation on interannual time scales, long-term regional warming is modulated to a large extent by the regional response of precipitation to climate change, with precipitation increases (decreases) being associated with minimum (maximum) warming. This correspondence appears to arise largely as the result of soil moisture&#x2013;atmosphere interactions.</gco:CharacterString>
+            <gco:CharacterString>Widespread negative correlations between summertime-mean temperatures and precipitation over land regions are a well-known feature of terrestrial climate. This behavior has generally been interpreted in the context of soil moisture-atmosphere coupling, with soil moisture deficits associated with reduced rainfall leading to enhanced surface sensible heating and higher surface temperature. The present study revisits the genesis of these negative temperature-precipitation correlations using simulations from the Global Land-Atmosphere Coupling Experiment-phase 5 of the Coupled Model Intercomparison Project (GLACE-CMIP5) multimodel experiment. The analyses are based on simulations with five climate models, which were integrated with prescribed (noninteractive) and with interactive soil moisture over the period 1950–2100. While the results presented here generally confirm the interpretation that negative correlations between seasonal temperature and precipitation arise through the direct control of soil moisture on surface heat flux partitioning, the presence of widespread negative correlations when soil moisture-atmosphere interactions are artificially removed in at least two out of five models suggests that atmospheric processes, in addition to land surface processes, contribute to the observed negative temperature-precipitation correlation. On longer time scales, the negative correlation between precipitation and temperature is shown to have implications for the projection of climate change impacts on near-surface climate: in all models, in the regions of strongest temperature-precipitation anticorrelation on interannual time scales, long-term regional warming is modulated to a large extent by the regional response of precipitation to climate change, with precipitation increases (decreases) being associated with minimum (maximum) warming. This correspondence appears to arise largely as the result of soil moisture–atmosphere interactions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10590</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:46:44.440049</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:33:04.966000</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Patterns of CO&#x2082; and radiocarbon across high northern latitudes during International Polar Year 2008</gco:CharacterString>
+                  <gco:CharacterString>Patterns of CO₂ and radiocarbon across high northern latitudes during International Polar Year 2008</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +280,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>High-resolution in situ CO&#x2082; measurements were conducted aboard the NASA DC-8 aircraft during the ARCTAS/POLARCAT field campaign, a component of the wider 2007&#x2013;2008 International Polar Year activities. Data were recorded during large-scale surveys spanning the North American sub-Arctic to the North Pole from 0.04 to 12 km altitude in spring and summer of 2008. Influences on the observed CO&#x2082; concentrations were investigated using coincident CO, black carbon, CH&#x2083;CN, HCN, O&#x2083;, C2Cl4, and &#x394;&#xb9; &#x2074;CO&#x2082; data, and the FLEXPART model. In spring, the CO&#x2082; spatial distribution from 55&#xb0;N to 90&#xb0;N was largely determined by the long-range transport of air masses laden with Asian anthropogenic pollution intermingled with Eurasian fire emissions evidenced by the greater variability in the mid-to-upper troposphere. At the receptor site, the enhancement ratios of CO&#x2082; to CO in pollution plumes ranged from 27 to 80 ppmv ppmv-1 with the highest anthropogenic content registered in plumes sampled poleward of 80&#xb0;N. In summer, the CO&#x2082; signal largely reflected emissions from lightning-ignited wildfires within the boreal forests of northern Saskatchewan juxtaposed with uptake by the terrestrial biosphere. Measurements within fresh fire plumes yielded CO&#x2082; to CO emission ratios of 4 to 16 ppmv ppmv-1 and a mean CO&#x2082; emission factor of 1698 &#xb1; 280 g kg-1 dry matter. From the &#xb9; &#x2074;C in CO&#x2082; content of 48 whole air samples, mean spring (46.6 &#xb1; 4.4&#x2030;) and summer (51.5 &#xb1; 5&#x2030;) &#x394;&#xb9; &#x2074;CO&#x2082; values indicate a 5&#x2030; seasonal difference. Although the northern midlatitudes were identified as the emissions source regions for the majority of the spring samples, depleted &#x394;&#xb9; &#x2074;CO&#x2082; values were observed in &lt;1% of the data set. Rather, ARCTAS &#x394;&#xb9; &#x2074;CO&#x2082; observations (54%) revealed predominately a pattern of positive disequilibrium (1-7&#x2030;) with respect to background regardless of season owing to both heterotrophic respiration and fire-induced combustion of biomass. Anomalously enriched &#x394;&#xb9; &#x2074;CO&#x2082; values (101-262&#x2030;) measured in emissions from Lake Athabasca and Eurasian fires speak to biomass burning as an increasingly important contributor to the mass excess in &#x394;&#xb9; &#x2074;CO&#x2082; observations in a warming Arctic, representing an additional source of uncertainty in the quantification of fossil fuel CO&#x2082;.</gco:CharacterString>
+            <gco:CharacterString>High-resolution in situ CO₂ measurements were conducted aboard the NASA DC-8 aircraft during the ARCTAS/POLARCAT field campaign, a component of the wider 2007–2008 International Polar Year activities. Data were recorded during large-scale surveys spanning the North American sub-Arctic to the North Pole from 0.04 to 12 km altitude in spring and summer of 2008. Influences on the observed CO₂ concentrations were investigated using coincident CO, black carbon, CH₃CN, HCN, O₃, C2Cl4, and Δ¹ ⁴CO₂ data, and the FLEXPART model. In spring, the CO₂ spatial distribution from 55°N to 90°N was largely determined by the long-range transport of air masses laden with Asian anthropogenic pollution intermingled with Eurasian fire emissions evidenced by the greater variability in the mid-to-upper troposphere. At the receptor site, the enhancement ratios of CO₂ to CO in pollution plumes ranged from 27 to 80 ppmv ppmv-1 with the highest anthropogenic content registered in plumes sampled poleward of 80°N. In summer, the CO₂ signal largely reflected emissions from lightning-ignited wildfires within the boreal forests of northern Saskatchewan juxtaposed with uptake by the terrestrial biosphere. Measurements within fresh fire plumes yielded CO₂ to CO emission ratios of 4 to 16 ppmv ppmv-1 and a mean CO₂ emission factor of 1698 ± 280 g kg-1 dry matter. From the ¹ ⁴C in CO₂ content of 48 whole air samples, mean spring (46.6 ± 4.4‰) and summer (51.5 ± 5‰) Δ¹ ⁴CO₂ values indicate a 5‰ seasonal difference. Although the northern midlatitudes were identified as the emissions source regions for the majority of the spring samples, depleted Δ¹ ⁴CO₂ values were observed in &lt;1% of the data set. Rather, ARCTAS Δ¹ ⁴CO₂ observations (54%) revealed predominately a pattern of positive disequilibrium (1-7‰) with respect to background regardless of season owing to both heterotrophic respiration and fire-induced combustion of biomass. Anomalously enriched Δ¹ ⁴CO₂ values (101-262‰) measured in emissions from Lake Athabasca and Eurasian fires speak to biomass burning as an increasingly important contributor to the mass excess in Δ¹ ⁴CO₂ observations in a warming Arctic, representing an additional source of uncertainty in the quantification of fossil fuel CO₂.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10800</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:51:10.508457</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:08:02.189335</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>K&#xf6;nig-Langlo, G.</gco:CharacterString>
+                        <gco:CharacterString>König-Langlo, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +268,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Manning, Kevin W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0009-0009-4548-9886"
+                                    xlink:title="Manning, Kevin W."
+                                    xlink:actuate="onRequest">Manning, Kevin W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Analyses of shallow cores obtained at the European Project for Ice Coring in Antarctica (EPICA) drilling site Kohnen station (75&#xb0;00'S, 00&#xb0;04'E; 2892 m a.s.l.) on the plateau of Dronning Maud Land reveal the presence of conserved snow dunes in the firn. In situ observations during three dune formation events in the 2005/06 austral summer at Kohnen station show that these periods were characterized by a phase of 2 or 3 days with snowdrift prior to dune formation which only occurred during high wind speeds of &gt;10 m s&#x207b;&#xb9; at 2 m height caused by the influence of a low-pressure system. The dune surface coverage after a formation event varied between 5% and 15%, with a typical dune size of (4&#xb1;2) m &#xd7; (8&#xb1;3) m, a maximum height of 0.2&#xb1;0.1 m and a periodicity length of about 30 m. The mean density within a snow dune varied between 380 and 500 kg m&#x207b;&#xb3;, whereas the mean density at the surrounding surface was 330&#xb1;5 kg m&#x207b;&#xb3;. The firn cores covering a time-span of 22&#xb1;2 years reveal that approximately three to eight events per year occurred, during which snow dunes had been formed and were preserved in the firn.</gco:CharacterString>
+            <gco:CharacterString>Analyses of shallow cores obtained at the European Project for Ice Coring in Antarctica (EPICA) drilling site Kohnen station (75°00'S, 00°04'E; 2892 m a.s.l.) on the plateau of Dronning Maud Land reveal the presence of conserved snow dunes in the firn. In situ observations during three dune formation events in the 2005/06 austral summer at Kohnen station show that these periods were characterized by a phase of 2 or 3 days with snowdrift prior to dune formation which only occurred during high wind speeds of &gt;10 m s⁻¹ at 2 m height caused by the influence of a low-pressure system. The dune surface coverage after a formation event varied between 5% and 15%, with a typical dune size of (4±2) m × (8±3) m, a maximum height of 0.2±0.1 m and a periodicity length of about 30 m. The mean density within a snow dune varied between 380 and 500 kg m⁻³, whereas the mean density at the surrounding surface was 330±5 kg m⁻³. The firn cores covering a time-span of 22±2 years reveal that approximately three to eight events per year occurred, during which snow dunes had been formed and were preserved in the firn.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

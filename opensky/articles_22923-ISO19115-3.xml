@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22923</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:04.411127</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:26:53.518429</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Huang, Yongjie</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7883-8768"
+                                    xlink:title="Huang, Yongjie"
+                                    xlink:actuate="onRequest">Huang, Yongjie</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Yubao</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5027-227X"
+                                    xlink:title="Liu, Yubao"
+                                    xlink:actuate="onRequest">Liu, Yubao</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Knievel, Jason C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0634-3648"
+                                    xlink:title="Knievel, Jason C."
+                                    xlink:actuate="onRequest">Knievel, Jason C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To investigate the mechanisms for the record-breaking rainfall in the coastal metropolitan city of Guangzhou, China during 6&#x2013;7 May 2017, budget analyses of advection and source/sink terms of the water vapor, potential temperature, and vertical momentum equations were conducted using the model output of a nested very large eddy simulation with the Weather Research and Forecasting model. Results show that the warm and moist air flows from the south and east onshore in the lower troposphere provided the main moisture source for the heavy rainfall. The structure of vertical velocity and hydrometeors (low-echo centroid structure), in which the heavy rainfall was separated from the low-level updraft, was favorable for the formation and maintenance of a heavy precipitation rate. The removal of the heat due to the advection (cooling tendency) in the upper troposphere increased the convective available potential energy of parcels rising from the lower troposphere, maintaining the development of updrafts. Although the total buoyancy forcing was the main contribution term for maintaining the updrafts, total dynamic acceleration played an important role in the vertical acceleration below the maximum vertical velocity core. In particular, the nonlinear dynamic perturbation pressure gradient force in the lower troposphere induced by the rotations aloft maintained the strong updrafts.</gco:CharacterString>
+            <gco:CharacterString>To investigate the mechanisms for the record-breaking rainfall in the coastal metropolitan city of Guangzhou, China during 6–7 May 2017, budget analyses of advection and source/sink terms of the water vapor, potential temperature, and vertical momentum equations were conducted using the model output of a nested very large eddy simulation with the Weather Research and Forecasting model. Results show that the warm and moist air flows from the south and east onshore in the lower troposphere provided the main moisture source for the heavy rainfall. The structure of vertical velocity and hydrometeors (low-echo centroid structure), in which the heavy rainfall was separated from the low-level updraft, was favorable for the formation and maintenance of a heavy precipitation rate. The removal of the heat due to the advection (cooling tendency) in the upper troposphere increased the convective available potential energy of parcels rising from the lower troposphere, maintaining the development of updrafts. Although the total buoyancy forcing was the main contribution term for maintaining the updrafts, total dynamic acceleration played an important role in the vertical acceleration below the maximum vertical velocity core. In particular, the nonlinear dynamic perturbation pressure gradient force in the lower troposphere induced by the rotations aloft maintained the strong updrafts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

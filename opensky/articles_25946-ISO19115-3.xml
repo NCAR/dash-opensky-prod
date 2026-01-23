@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25946</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:59:41.026486</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:04:05.119041</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +272,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +294,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a holistic examination of tropospheric OH reactivity (OHR) in South Korea using comprehensive NASA DC-8 airborne measurements collected during the Korea&#x2013;United States Air Quality field study and chemical transport models. The observed total OHR (tOHR) averaged in the planetary boundary layer (PBL, &lt;2.0 km) and free troposphere was 5.2 s1 and 2.0 s1 during the campaign, respectively.These values were higher than the calculated OHR (cOHR, 3.4 s1,1.0 s1) derived from trace-gas observations, indicating missing OHR fractions in the PBL and free troposphere of 35% and 50%, respectively. Incorporating nonobserved secondary species from the observationally constrained box model increased cOHR to 4.0 s1 in the PBL and 1.3 s1inthe freetroposphere. Simulated OHR (sOHR, 2.7 s1, 0.8 s1) was substantially lower than both tOHRandcOHRbyasmuchas60%.Thisunderestimate was substantialinthe free troposphere and marine boundary layer of the marginal sea (Yellow Sea).We then discuss the potential causes of unaccounted OHR. First, we suggest improving the accuracy of tropospheric reaction kinetics, which vary significantly in the available literature. Second, underestimated emissions of anthropogenic CO and oxygenated volatile organic compounds in East Asia contributed to the discrepancy between tOHR and sOHR. In addition, oxygenated and biogenic volatile organic compounds emitted from the marginal sea may contribute substantially to the regional OHR. Typical chemical transport models underestimate these sources, leading to a large missing OHR fraction. Despite this discrepancy, we found that simulated OH concentrations were comparable with those observed during the campaign because of slow OH recycling rates in the models; therefore, the models predicted less formation of photochemical oxidation products such as ozone.</gco:CharacterString>
+            <gco:CharacterString>We present a holistic examination of tropospheric OH reactivity (OHR) in South Korea using comprehensive NASA DC-8 airborne measurements collected during the Korea–United States Air Quality field study and chemical transport models. The observed total OHR (tOHR) averaged in the planetary boundary layer (PBL, &lt;2.0 km) and free troposphere was 5.2 s1 and 2.0 s1 during the campaign, respectively.These values were higher than the calculated OHR (cOHR, 3.4 s1,1.0 s1) derived from trace-gas observations, indicating missing OHR fractions in the PBL and free troposphere of 35% and 50%, respectively. Incorporating nonobserved secondary species from the observationally constrained box model increased cOHR to 4.0 s1 in the PBL and 1.3 s1inthe freetroposphere. Simulated OHR (sOHR, 2.7 s1, 0.8 s1) was substantially lower than both tOHRandcOHRbyasmuchas60%.Thisunderestimate was substantialinthe free troposphere and marine boundary layer of the marginal sea (Yellow Sea).We then discuss the potential causes of unaccounted OHR. First, we suggest improving the accuracy of tropospheric reaction kinetics, which vary significantly in the available literature. Second, underestimated emissions of anthropogenic CO and oxygenated volatile organic compounds in East Asia contributed to the discrepancy between tOHR and sOHR. In addition, oxygenated and biogenic volatile organic compounds emitted from the marginal sea may contribute substantially to the regional OHR. Typical chemical transport models underestimate these sources, leading to a large missing OHR fraction. Despite this discrepancy, we found that simulated OH concentrations were comparable with those observed during the campaign because of slow OH recycling rates in the models; therefore, the models predicted less formation of photochemical oxidation products such as ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6635</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:32.892722</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:40:26.037446</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For the first time, vertical column measurements of nitric acid (HNO&#x2082;) above Eureka (80.1&#xb0;N, 86.4&#xb0;W), Canada, have been made during polar night using lunar spectra recorded with a Fourier transform infrared (FTIR) spectrometer, from October 2001 to March 2002. This site is part of the primary Arctic station of the Network for the Detection of Stratospheric Change. These measurements were compared with FTIR measurements at two other Arctic sites: Thule, Greenland (76.5&#xb0;N, 68.8&#xb0;W), and Kiruna, Sweden (67.8&#xb0;N, 20.4&#xb0;E). Eureka lunar measurements are in good agreement with solar ones made with the same instrument. Eureka and Thule HNO&#x2083; columns are consistent within measurement error. Differences between HNO&#x2083; columns at Kiruna and those at Eureka and Thule can be explained on the basis of available sunlight hours and location of the polar vortex. The measurements were also compared with results from a chemistry-climate model, the Canadian Middle Atmosphere Model (CMAM), and from a three-dimensional chemical transport model, SLIMCAT. This is the first time that CMAM HNO&#x2083; columns have been compared with observations in the Arctic. The comparison of CMAM HNO&#x2083; columns with Eureka and Kiruna data shows good agreement. The warm 2001-2002 winter with almost no polar stratospheric clouds makes the comparison with this version of CMAM, which has a known warm bias, a good test for CMAM under these conditions. SLIMCAT captures the magnitude of HNO&#x2083; columns at Eureka, and the day-to-day variability, but generally reports higher values than were measured at Thule and Kiruna.</gco:CharacterString>
+            <gco:CharacterString>For the first time, vertical column measurements of nitric acid (HNO₂) above Eureka (80.1°N, 86.4°W), Canada, have been made during polar night using lunar spectra recorded with a Fourier transform infrared (FTIR) spectrometer, from October 2001 to March 2002. This site is part of the primary Arctic station of the Network for the Detection of Stratospheric Change. These measurements were compared with FTIR measurements at two other Arctic sites: Thule, Greenland (76.5°N, 68.8°W), and Kiruna, Sweden (67.8°N, 20.4°E). Eureka lunar measurements are in good agreement with solar ones made with the same instrument. Eureka and Thule HNO₃ columns are consistent within measurement error. Differences between HNO₃ columns at Kiruna and those at Eureka and Thule can be explained on the basis of available sunlight hours and location of the polar vortex. The measurements were also compared with results from a chemistry-climate model, the Canadian Middle Atmosphere Model (CMAM), and from a three-dimensional chemical transport model, SLIMCAT. This is the first time that CMAM HNO₃ columns have been compared with observations in the Arctic. The comparison of CMAM HNO₃ columns with Eureka and Kiruna data shows good agreement. The warm 2001-2002 winter with almost no polar stratospheric clouds makes the comparison with this version of CMAM, which has a known warm bias, a good test for CMAM under these conditions. SLIMCAT captures the magnitude of HNO₃ columns at Eureka, and the day-to-day variability, but generally reports higher values than were measured at Thule and Kiruna.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

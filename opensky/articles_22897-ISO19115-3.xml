@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22897</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:51.890879</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:48.474791</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +282,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a comparison of instruments measuring nitrogen oxide species from an aircraft during the 2015 Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) campaign over the northeast United States. Instrument techniques compared here include chemiluminescence (CL), thermal dissociation laser-induced fluorescence (TD-LIF), cavity ring-down spectroscopy (CRDS), high-resolution time of flight, iodide-adduct chemical ionization mass spectrometry (I-CIMS), and aerosol mass spectrometry. Species investigated include NO2, NO, total nitrogen oxides (NOy), N2O5, ClNO2, and HNO3. Particulate-phase nitrate is also included for comparisons of HNO3 and NOy. Instruments generally agreed within reported uncertainties, with individual flights sometimes showing much better agreement than the data set taken as a whole, due to flight-to-flight slope changes. NO measured by CRDS and CL showed an average relative slope of 1.16 &#xb1; 0.01 across all flights, which is outside of combined uncertainties. The source of the error was not identified. For NO2 measured by CRDS and TD-LIF the average was 1.02 &#xb1; 0.00; for NOy measured by CRDS and CL the average was 1.01 &#xb1; 0.00; and for N2O5 measured by CRDS and I-CIMS the average was 0.89 &#xb1; 0.01. NOy budget closure to within 20% is demonstrated. We observe nonlinearity in NO2 and NOy correlations at concentrations above ~30 ppbv that may be related to the NO discrepancy noted above. For ClNO2 there were significant differences between I-CIMS and TD-LIF, potentially due in part to the temperature used for thermal dissociation. Although the fraction of particulate nitrate measured by the TD-LIF is not well characterized, it improves comparisons to include particulate measurements.</gco:CharacterString>
+            <gco:CharacterString>We present a comparison of instruments measuring nitrogen oxide species from an aircraft during the 2015 Wintertime INvestigation of Transport, Emissions, and Reactivity (WINTER) campaign over the northeast United States. Instrument techniques compared here include chemiluminescence (CL), thermal dissociation laser-induced fluorescence (TD-LIF), cavity ring-down spectroscopy (CRDS), high-resolution time of flight, iodide-adduct chemical ionization mass spectrometry (I-CIMS), and aerosol mass spectrometry. Species investigated include NO2, NO, total nitrogen oxides (NOy), N2O5, ClNO2, and HNO3. Particulate-phase nitrate is also included for comparisons of HNO3 and NOy. Instruments generally agreed within reported uncertainties, with individual flights sometimes showing much better agreement than the data set taken as a whole, due to flight-to-flight slope changes. NO measured by CRDS and CL showed an average relative slope of 1.16 ± 0.01 across all flights, which is outside of combined uncertainties. The source of the error was not identified. For NO2 measured by CRDS and TD-LIF the average was 1.02 ± 0.00; for NOy measured by CRDS and CL the average was 1.01 ± 0.00; and for N2O5 measured by CRDS and I-CIMS the average was 0.89 ± 0.01. NOy budget closure to within 20% is demonstrated. We observe nonlinearity in NO2 and NOy correlations at concentrations above ~30 ppbv that may be related to the NO discrepancy noted above. For ClNO2 there were significant differences between I-CIMS and TD-LIF, potentially due in part to the temperature used for thermal dissociation. Although the fraction of particulate nitrate measured by the TD-LIF is not well characterized, it improves comparisons to include particulate measurements.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

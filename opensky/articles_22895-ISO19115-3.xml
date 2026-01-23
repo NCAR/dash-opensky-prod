@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22895</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:38.165169</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:13.558062</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thompson, Gregory</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2519-932X"
+                                    xlink:title="Thompson, Gregory"
+                                    xlink:actuate="onRequest">Thompson, Gregory</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Environments that accompany mesoscale snowbands in extratropical cyclones feature strong midlevel frontogenesis and weak symmetric stability, conditions conducive to vigorous ascent. Prior observational and numerical studies document the occurrence of upward vertical velocities in excess of 1 m s&#x207b;1 near the comma head of winter cyclones. These values roughly correspond to the terminal fall velocity of snow; snow lofting has been measured directly with vertically pointing radars. Here, we investigate the occurrence of lower-tropospheric snow lofting near mesoscale bands and its contribution to snowfall heterogeneity. We test the hypothesis that hydrometeor lofting substantially influences snowfall distributions by analyzing the vertical snow flux in case-study simulations, by computing snow trajectories, and by testing sensitivity of simulated snowbands to parameterized snow terminal fall velocity and advection. These experiments confirm the presence of upward snow flux in the lower troposphere upstream of simulated mesoscale snowbands for two events (27 January 2015 and 2 February 2016). The band of lower-tropospheric lofting played a more important role in the January 2015 case relative to the February 2016 event. Lofting enhances the horizontal advection of snow by increasing hydrometeor residence time aloft, influencing the surface snowfall distribution. Experimental simulations illustrate that while lofting and advection influence the snow distribution, these processes reduce snowfall heterogeneity, contrary to our initial hypothesis. Our findings indicate that considerable horizontal displacement can occur between the locations of strongest ascent and heaviest surface snowfall. Numerical forecasts of snowbands are sensitive to formulations of terminal fall velocity of snow in microphysical parameterizations due to this lofting and transport process.</gco:CharacterString>
+            <gco:CharacterString>Environments that accompany mesoscale snowbands in extratropical cyclones feature strong midlevel frontogenesis and weak symmetric stability, conditions conducive to vigorous ascent. Prior observational and numerical studies document the occurrence of upward vertical velocities in excess of 1 m s⁻1 near the comma head of winter cyclones. These values roughly correspond to the terminal fall velocity of snow; snow lofting has been measured directly with vertically pointing radars. Here, we investigate the occurrence of lower-tropospheric snow lofting near mesoscale bands and its contribution to snowfall heterogeneity. We test the hypothesis that hydrometeor lofting substantially influences snowfall distributions by analyzing the vertical snow flux in case-study simulations, by computing snow trajectories, and by testing sensitivity of simulated snowbands to parameterized snow terminal fall velocity and advection. These experiments confirm the presence of upward snow flux in the lower troposphere upstream of simulated mesoscale snowbands for two events (27 January 2015 and 2 February 2016). The band of lower-tropospheric lofting played a more important role in the January 2015 case relative to the February 2016 event. Lofting enhances the horizontal advection of snow by increasing hydrometeor residence time aloft, influencing the surface snowfall distribution. Experimental simulations illustrate that while lofting and advection influence the snow distribution, these processes reduce snowfall heterogeneity, contrary to our initial hypothesis. Our findings indicate that considerable horizontal displacement can occur between the locations of strongest ascent and heaviest surface snowfall. Numerical forecasts of snowbands are sensitive to formulations of terminal fall velocity of snow in microphysical parameterizations due to this lofting and transport process.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27357</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:00:30.650026</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:11:30.388669</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Coen, Janice L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3927-989X"
+                                    xlink:title="Coen, Janice L."
+                                    xlink:actuate="onRequest">Coen, Janice L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Fire models predict fire behavior and effects. However, there is a need to know how confident users can be in forecasts. This work developed a probabilistic methodology based on ensemble simulations that incorporated uncertainty in weather, fuel loading, and model physics parameters. It provided information on the most likely forecast scenario, confidence levels, and potential outliers. It also introduced novel ways to communicate uncertainty in calculation and graphical representation and applied this to diverse wildfires using ensemble simulations of the CAWFE coupled weather&#x2013;fire model ranging from 12 to 26 members. The ensembles captured many features but spread was narrower than expected, especially with varying weather and fuel inputs, suggesting errors may not be easily mitigated by improving input data. Varying physics parameters created a wider spread, including identifying an outlier, underscoring modeling knowledge gaps. Uncertainty was communicated using burn probability, spread rate, and heat flux, a fire intensity metric related to burn severity. Despite limited ensemble spread, maps of mean and standard deviation exposed event times and locations where fire behavior was more uncertain, requiring more management or observations. Interpretability was enhanced by replacing traditional hot&#x2013;cold color palettes with ones that accommodate the vision-impaired and adhere to web accessibility standards.</gco:CharacterString>
+            <gco:CharacterString>Fire models predict fire behavior and effects. However, there is a need to know how confident users can be in forecasts. This work developed a probabilistic methodology based on ensemble simulations that incorporated uncertainty in weather, fuel loading, and model physics parameters. It provided information on the most likely forecast scenario, confidence levels, and potential outliers. It also introduced novel ways to communicate uncertainty in calculation and graphical representation and applied this to diverse wildfires using ensemble simulations of the CAWFE coupled weather–fire model ranging from 12 to 26 members. The ensembles captured many features but spread was narrower than expected, especially with varying weather and fuel inputs, suggesting errors may not be easily mitigated by improving input data. Varying physics parameters created a wider spread, including identifying an outlier, underscoring modeling knowledge gaps. Uncertainty was communicated using burn probability, spread rate, and heat flux, a fire intensity metric related to burn severity. Despite limited ensemble spread, maps of mean and standard deviation exposed event times and locations where fire behavior was more uncertain, requiring more management or observations. Interpretability was enhanced by replacing traditional hot–cold color palettes with ones that accommodate the vision-impaired and adhere to web accessibility standards.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

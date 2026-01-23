@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18669</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:46:29.702202</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:45:43.470961</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>&#x17d;agar, N.</gco:CharacterString>
+                        <gco:CharacterString>Žagar, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Collins, Nancy S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5347-1987"
+                                    xlink:title="Collins, Nancy S."
+                                    xlink:actuate="onRequest">Collins, Nancy S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hoar, Timothy J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7515-7510"
+                                    xlink:title="Hoar, Timothy J."
+                                    xlink:actuate="onRequest">Hoar, Timothy J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Raeder, Kevin D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6166-7154"
+                                    xlink:title="Raeder, Kevin D."
+                                    xlink:actuate="onRequest">Raeder, Kevin D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tribbia, Joseph</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1639-9688"
+                                    xlink:title="Tribbia, Joseph"
+                                    xlink:actuate="onRequest">Tribbia, Joseph</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +208,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global data assimilation systems for numerical weather prediction (NWP) are characterized by significant uncertainties in tropical analysis fields. Furthermore, the largest spread of global ensemble forecasts in the short range on all scales is in the tropics. The presented results suggest that these properties hold even in the perfect-model framework and the ensemble Kalman filter data assimilation with a globally homogeneous network of wind and temperature profiles. The reasons for this are discussed by using the modal analysis, which provides information about the scale dependency of analysis and forecast uncertainties and information about the efficiency of data assimilation to reduce the prior uncertainties in the balanced and inertio-gravity dynamics. The scale-dependent representation of variance reduction of the prior ensemble by the data assimilation shows that the peak efficiency of data assimilation is on the synoptic scales in the midlatitudes that are associated with quasigeostrophic dynamics. In contrast, the variance associated with the inertia&#x2013;gravity modes is less successfully reduced on all scales. A smaller information content of observations on planetary scales with respect to the synoptic scales is discussed in relation to the large-scale tropical uncertainties that current data assimilation methodologies do not address successfully. In addition, it is shown that a smaller reduction of the large-scale uncertainties in the prior state for NWP in the tropics than in the midlatitudes is influenced by the applied radius for the covariance localization.</gco:CharacterString>
+            <gco:CharacterString>Global data assimilation systems for numerical weather prediction (NWP) are characterized by significant uncertainties in tropical analysis fields. Furthermore, the largest spread of global ensemble forecasts in the short range on all scales is in the tropics. The presented results suggest that these properties hold even in the perfect-model framework and the ensemble Kalman filter data assimilation with a globally homogeneous network of wind and temperature profiles. The reasons for this are discussed by using the modal analysis, which provides information about the scale dependency of analysis and forecast uncertainties and information about the efficiency of data assimilation to reduce the prior uncertainties in the balanced and inertio-gravity dynamics. The scale-dependent representation of variance reduction of the prior ensemble by the data assimilation shows that the peak efficiency of data assimilation is on the synoptic scales in the midlatitudes that are associated with quasigeostrophic dynamics. In contrast, the variance associated with the inertia–gravity modes is less successfully reduced on all scales. A smaller information content of observations on planetary scales with respect to the synoptic scales is discussed in relation to the large-scale tropical uncertainties that current data assimilation methodologies do not address successfully. In addition, it is shown that a smaller reduction of the large-scale uncertainties in the prior state for NWP in the tropics than in the midlatitudes is influenced by the applied radius for the covariance localization.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

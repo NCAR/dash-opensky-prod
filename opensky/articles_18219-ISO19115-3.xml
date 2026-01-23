@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18219</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:09:53.321815</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:31:15.258126</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jones, Mari</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2491-1020"
+                                    xlink:title="Jones, Mari"
+                                    xlink:actuate="onRequest">Jones, Mari</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Extreme rainfall events pose considerable threats to society and critical infrastructure yet, by definitions, these events are rare. Reliable estimates of the likelihood of such events are required to assist with impact quantification and risk management. Regional frequency analysis of pooled extreme rainfall to estimate the likely impacts of a changing climate is a well established method to assess the probability of these extremes. Previous analyses of country-wide changes to UK extreme daily rainfall have used the 9 Hadley UK Precipitation (HadUKP) regions (Alexander and Jones, 2000), which are not appropriate for use with extremes. While these characterize well the mean daily intensity and frequency within each region, extreme rainfall climatology differs from that of the mean characteristics. As a result the existing HadUKP regions do not represent extreme rainfall behaviour adequately, with regard to the frequency, intensity or timing of extreme events. Focusing on many extreme rainfall characteristics, such as the seasonal timing and magnitude of maxima, this article presents a formal representation of extreme regions which specifically describe extreme spatial and temporal characteristics. The article concludes with a brief exploration of improved event estimation using these extreme rainfall regions. The new regional definitions provide clearer upward trends in annual maxima over the period 1961&#x2013;2010 than those estimated using the HadUKP regional pools.</gco:CharacterString>
+            <gco:CharacterString>Extreme rainfall events pose considerable threats to society and critical infrastructure yet, by definitions, these events are rare. Reliable estimates of the likelihood of such events are required to assist with impact quantification and risk management. Regional frequency analysis of pooled extreme rainfall to estimate the likely impacts of a changing climate is a well established method to assess the probability of these extremes. Previous analyses of country-wide changes to UK extreme daily rainfall have used the 9 Hadley UK Precipitation (HadUKP) regions (Alexander and Jones, 2000), which are not appropriate for use with extremes. While these characterize well the mean daily intensity and frequency within each region, extreme rainfall climatology differs from that of the mean characteristics. As a result the existing HadUKP regions do not represent extreme rainfall behaviour adequately, with regard to the frequency, intensity or timing of extreme events. Focusing on many extreme rainfall characteristics, such as the seasonal timing and magnitude of maxima, this article presents a formal representation of extreme regions which specifically describe extreme spatial and temporal characteristics. The article concludes with a brief exploration of improved event estimation using these extreme rainfall regions. The new regional definitions provide clearer upward trends in annual maxima over the period 1961–2010 than those estimated using the HadUKP regional pools.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

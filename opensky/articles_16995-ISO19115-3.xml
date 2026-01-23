@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16995</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:10.709329</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:03:40.161680</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Yongxin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6321-1276"
+                                    xlink:title="Zhang, Yongxin"
+                                    xlink:actuate="onRequest">Zhang, Yongxin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Frozen soil was simulated at six seasonally frozen and seven permafrost stations over the northern Tibetan Plateau using the Variable Infiltration Capacity (VIC) model for the period of 1962-2009. The VIC model resolved the seasonal cycle and temporal evolution of the observed soil temperatures and liquid soil moisture well. The simulated long-term changes during 1962&#x2013;2009 indicated mostly positive trends for both soil temperature and soil moisture, and negative trends for soil ice content at annual and monthly time scales, although differences existed among the stations, soil layers, and seasons. Increases in soil temperature were due mainly to increases in daily air temperature maxima and internal soil heat conduction, while decreases in soil ice content were related to the warming of frozen soil. For liquid soil moisture, increases in the cold months can be attributed to increases in soil temperature and enhanced soil ice melt while changes in the warm months were the results of competition between positive precipitation and negative soil temperature effects. Precipitation and liquid soil moisture were strongly correlated with evapotranspiration and runoff but had various degrees of correlations with base flow during May&#x2013;September. Seasonally frozen stations displayed longer and more active hydrological processes than permafrost stations. Slight enhancement of the surface hydrological processes at the study stations was indicated, due to the combined effects of precipitation changes, which were dominant, and frozen soil degradation.</gco:CharacterString>
+            <gco:CharacterString>Frozen soil was simulated at six seasonally frozen and seven permafrost stations over the northern Tibetan Plateau using the Variable Infiltration Capacity (VIC) model for the period of 1962-2009. The VIC model resolved the seasonal cycle and temporal evolution of the observed soil temperatures and liquid soil moisture well. The simulated long-term changes during 1962–2009 indicated mostly positive trends for both soil temperature and soil moisture, and negative trends for soil ice content at annual and monthly time scales, although differences existed among the stations, soil layers, and seasons. Increases in soil temperature were due mainly to increases in daily air temperature maxima and internal soil heat conduction, while decreases in soil ice content were related to the warming of frozen soil. For liquid soil moisture, increases in the cold months can be attributed to increases in soil temperature and enhanced soil ice melt while changes in the warm months were the results of competition between positive precipitation and negative soil temperature effects. Precipitation and liquid soil moisture were strongly correlated with evapotranspiration and runoff but had various degrees of correlations with base flow during May–September. Seasonally frozen stations displayed longer and more active hydrological processes than permafrost stations. Slight enhancement of the surface hydrological processes at the study stations was indicated, due to the combined effects of precipitation changes, which were dominant, and frozen soil degradation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

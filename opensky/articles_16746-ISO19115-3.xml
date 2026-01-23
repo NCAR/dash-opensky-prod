@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16746</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:56:03.037944</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:05:29.937520</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study analyzes in situ airborne measurements from the 2008 Stratosphere-Troposphere Analyses of Regional Transport (START08) experiment to characterize gravity waves in the extratropical upper troposphere and lower stratosphere (ExUTLS). The focus is on the second research flight (RF02), which took place on 21-22 April 2008. This was the first airborne mission dedicated to probing gravity waves associated with strong upper-tropospheric jet-front systems. Based on spectral and wavelet analyses of the in situ observations, along with a diagnosis of the polarization relationships, clear signals of mesoscale variations with wavelengths ~ 50&#x2013;500 km are found in almost every segment of the 8 h flight, which took place mostly in the lower stratosphere. The aircraft sampled a wide range of background conditions including the region near the jet core, the jet exit and over the Rocky Mountains with clear evidence of vertically propagating gravity waves of along-track wavelength between 100 and 120 km. The power spectra of the horizontal velocity components and potential temperature for the scale approximately between ~8 and ~256km display an approximate -5/3 power law in agreement with past studies on aircraft measurements, while the fluctuations roll over to a -3 power law for the scale approximately between ~0.5 and ~8km (except when this part of the spectrum is activated, as recorded clearly by one of the flight segments). However, at least part of the high-frequency signals with sampled periods of ~20 - ~60s and wavelengths of ~5 - ~15km might be due to intrinsic observational errors in the aircraft measurements, even though the possibilities that these fluctuations may be due to other physical phenomena (e.g., nonlinear dynamics, shear instability and/or turbulence) cannot be completely ruled out.</gco:CharacterString>
+            <gco:CharacterString>This study analyzes in situ airborne measurements from the 2008 Stratosphere-Troposphere Analyses of Regional Transport (START08) experiment to characterize gravity waves in the extratropical upper troposphere and lower stratosphere (ExUTLS). The focus is on the second research flight (RF02), which took place on 21-22 April 2008. This was the first airborne mission dedicated to probing gravity waves associated with strong upper-tropospheric jet-front systems. Based on spectral and wavelet analyses of the in situ observations, along with a diagnosis of the polarization relationships, clear signals of mesoscale variations with wavelengths ~ 50–500 km are found in almost every segment of the 8 h flight, which took place mostly in the lower stratosphere. The aircraft sampled a wide range of background conditions including the region near the jet core, the jet exit and over the Rocky Mountains with clear evidence of vertically propagating gravity waves of along-track wavelength between 100 and 120 km. The power spectra of the horizontal velocity components and potential temperature for the scale approximately between ~8 and ~256km display an approximate -5/3 power law in agreement with past studies on aircraft measurements, while the fluctuations roll over to a -3 power law for the scale approximately between ~0.5 and ~8km (except when this part of the spectrum is activated, as recorded clearly by one of the flight segments). However, at least part of the high-frequency signals with sampled periods of ~20 - ~60s and wavelengths of ~5 - ~15km might be due to intrinsic observational errors in the aircraft measurements, even though the possibilities that these fluctuations may be due to other physical phenomena (e.g., nonlinear dynamics, shear instability and/or turbulence) cannot be completely ruled out.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16668</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:02:38.188165</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:17:08.419688</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bryan, Frank O.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1672-8330"
+                                    xlink:title="Bryan, Frank O."
+                                    xlink:actuate="onRequest">Bryan, Frank O.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aquarius sea surface salinity (SSS) reveals the presence of interannual variations in the Caribbean with about 0.5 psu change between salty and fresh events, which propagate westward across that basin at an average speed of 11 cm/s and are preceded by corresponding SSS anomalies east of the Lesser Antilles. These upstream SSS anomalies are produced by interannual changes in the Amazon plume. Their presence is verified using in situ measurements from the northwest tropical Atlantic station. In contrast to SSS, which displays westward propagation, SST changes almost immediately across the Caribbean, suggesting large-scale atmospheric processes have a primary role in regulating interannual SST in contrast to SSS. A global 1/10&#xb0; mesoscale ocean model is used to quantify possible origination mechanisms of the Caribbean salinity anomalies and their fate. Simulations confirm that they are produced by anomalous horizontal salt advection, which conveys these salinity anomalies from an area east of the Lesser Antilles across the Caribbean. Anomalous horizontal advection is dominated by mean currents acting on anomalous salinity. The model suggests that interannual Caribbean salinity anomalies eventually enter the Florida Current and reach the Gulf Stream 6&#x2013;12 months after crossing the central Caribbean. Previous studies link the origin of salinity anomalies in the Amazon plume to variations in the annual freshwater discharge from the continent. In this model interannual discharge variations are absent while simulated SSS variability is in line with observations. This suggests that interannually forced ocean dynamics plays a key role in river plume variability and its spatial dispersion.</gco:CharacterString>
+            <gco:CharacterString>Aquarius sea surface salinity (SSS) reveals the presence of interannual variations in the Caribbean with about 0.5 psu change between salty and fresh events, which propagate westward across that basin at an average speed of 11 cm/s and are preceded by corresponding SSS anomalies east of the Lesser Antilles. These upstream SSS anomalies are produced by interannual changes in the Amazon plume. Their presence is verified using in situ measurements from the northwest tropical Atlantic station. In contrast to SSS, which displays westward propagation, SST changes almost immediately across the Caribbean, suggesting large-scale atmospheric processes have a primary role in regulating interannual SST in contrast to SSS. A global 1/10° mesoscale ocean model is used to quantify possible origination mechanisms of the Caribbean salinity anomalies and their fate. Simulations confirm that they are produced by anomalous horizontal salt advection, which conveys these salinity anomalies from an area east of the Lesser Antilles across the Caribbean. Anomalous horizontal advection is dominated by mean currents acting on anomalous salinity. The model suggests that interannual Caribbean salinity anomalies eventually enter the Florida Current and reach the Gulf Stream 6–12 months after crossing the central Caribbean. Previous studies link the origin of salinity anomalies in the Amazon plume to variations in the annual freshwater discharge from the continent. In this model interannual discharge variations are absent while simulated SSS variability is in line with observations. This suggests that interannually forced ocean dynamics plays a key role in river plume variability and its spatial dispersion.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

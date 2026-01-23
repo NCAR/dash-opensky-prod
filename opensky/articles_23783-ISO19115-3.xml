@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23783</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:12:19.734733</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:39:36.121841</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -1137,7 +1138,7 @@
                   <gco:CharacterString>Related Dataset #53</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>FLUXNET2015 CH-Fru Fr&#xfc;eb&#xfc;el</gco:CharacterString>
+                  <gco:CharacterString>FLUXNET2015 CH-Fru Früebüel</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -1617,7 +1618,7 @@
                   <gco:CharacterString>Related Dataset #77</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>FLUXNET2015 DE-Obe Oberb&#xe4;renburg</gco:CharacterString>
+                  <gco:CharacterString>FLUXNET2015 DE-Obe Oberbärenburg</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14290</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:06:07.887705</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:24:02.449999</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Long-term radar observations from a subtropical location in southeastern Texas are used to examine the impact of storm systems with tropical or extratropical characteristics on the large-scale circulation. Climatological vertical profiles of the horizontal wind divergence are analyzed for four distinct storm classifications: cold frontal (CF), warm frontal (WF), deep convective upper-level disturbance (DC-ULD), and nondeep convective upper-level disturbances (NC-ULD). DC-ULD systems are characterized by weakly baroclinic or equivalent barotropic environments that are more tropical in nature, while the remaining classifications are representative of common midlatitude systems with varying degrees of baroclinicity. DC-ULD systems are shown to have the highest levels of nondivergence (LND) and implied diabatic heating maxima near 6 km, whereas the remaining baroclinic storm classifications have LND altitudes that are about 0.5-1 km lower. Analyses of climatological mean divergence profiles are also separated by rain regions that are primarily convective, stratiform, or indeterminate. Convective&#x2013;stratiform separations reveal similar divergence characteristics to those observed in the tropics in previous studies, with higher altitudes of implied heating in stratiform rain regions, suggesting that the convective&#x2013;stratiform paradigm outlined in previous studies is applicable in the midlatitudes. Divergence profiles that cannot be classified as primarily convective or stratiform are typically characterized by large regions of stratiform rain with areas of embedded convection of shallow to moderate extent (i.e., echo tops &lt;10 km). These indeterminate profiles illustrate that, despite not being very deep and accounting for a relatively small fraction of a given storm system, convection dominates the vertical divergence profile and implied heating in these cases.</gco:CharacterString>
+            <gco:CharacterString>Long-term radar observations from a subtropical location in southeastern Texas are used to examine the impact of storm systems with tropical or extratropical characteristics on the large-scale circulation. Climatological vertical profiles of the horizontal wind divergence are analyzed for four distinct storm classifications: cold frontal (CF), warm frontal (WF), deep convective upper-level disturbance (DC-ULD), and nondeep convective upper-level disturbances (NC-ULD). DC-ULD systems are characterized by weakly baroclinic or equivalent barotropic environments that are more tropical in nature, while the remaining classifications are representative of common midlatitude systems with varying degrees of baroclinicity. DC-ULD systems are shown to have the highest levels of nondivergence (LND) and implied diabatic heating maxima near 6 km, whereas the remaining baroclinic storm classifications have LND altitudes that are about 0.5-1 km lower. Analyses of climatological mean divergence profiles are also separated by rain regions that are primarily convective, stratiform, or indeterminate. Convective–stratiform separations reveal similar divergence characteristics to those observed in the tropics in previous studies, with higher altitudes of implied heating in stratiform rain regions, suggesting that the convective–stratiform paradigm outlined in previous studies is applicable in the midlatitudes. Divergence profiles that cannot be classified as primarily convective or stratiform are typically characterized by large regions of stratiform rain with areas of embedded convection of shallow to moderate extent (i.e., echo tops &lt;10 km). These indeterminate profiles illustrate that, despite not being very deep and accounting for a relatively small fraction of a given storm system, convection dominates the vertical divergence profile and implied heating in these cases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

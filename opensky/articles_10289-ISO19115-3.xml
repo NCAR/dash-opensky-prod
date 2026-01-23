@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10289</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:26:46.657422</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:54:08.836186</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trier, Stanley B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6537-173X"
+                                    xlink:title="Trier, Stanley B."
+                                    xlink:actuate="onRequest">Trier, Stanley B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Davis, Christopher A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4530-2726"
+                                    xlink:title="Davis, Christopher A."
+                                    xlink:actuate="onRequest">Davis, Christopher A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ahijevych, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9391-4271"
+                                    xlink:title="Ahijevych, David"
+                                    xlink:actuate="onRequest">Ahijevych, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The diurnal cycle of warm-season precipitation in the Rocky Mountains and adjacent Great Plains of the United States is examined using a numerical modeling framework designed to isolate the role of terrain-influenced diurnally varying flows within a quasi-stationary longwave pattern common to active periods of midsummer convection. Simulations are initialized using monthly averaged conditions and contain lateral boundary conditions that vary only with the diurnal cycle. Together these attributes mitigate effects of transient weather disturbances originating upstream of the model domain. After a spinup period, the final 7 days of the 10-day model integration are analyzed and compared with observations. Results indicate that many salient features of the monthly precipitation climatology are reproduced by the model. These include a stationary afternoon precipitation frequency maximum over the Rocky Mountains followed overnight by an eastward-progressing zone of maximum precipitation frequencies confined to a narrow latitudinal corridor in the Great Plains. The similarity to observations despite the monthly averaged initial and lateral boundary conditions suggests that although progressive weather disturbances (e.g., mobile cold fronts and midtropospheric short waves) that originate outside of the region may help enhance and focus precipitation in individual cases, they are not crucial to the general location and diurnal cycle of midsummer precipitation. The roles of persistent daily features such as the nocturnal low-level jet and the thermally induced mountain&#x2013;plains vertical circulation on both convection and a mesoscale water budget of the central Great Plains (where the heaviest rain occurs) are discussed.</gco:CharacterString>
+            <gco:CharacterString>The diurnal cycle of warm-season precipitation in the Rocky Mountains and adjacent Great Plains of the United States is examined using a numerical modeling framework designed to isolate the role of terrain-influenced diurnally varying flows within a quasi-stationary longwave pattern common to active periods of midsummer convection. Simulations are initialized using monthly averaged conditions and contain lateral boundary conditions that vary only with the diurnal cycle. Together these attributes mitigate effects of transient weather disturbances originating upstream of the model domain. After a spinup period, the final 7 days of the 10-day model integration are analyzed and compared with observations. Results indicate that many salient features of the monthly precipitation climatology are reproduced by the model. These include a stationary afternoon precipitation frequency maximum over the Rocky Mountains followed overnight by an eastward-progressing zone of maximum precipitation frequencies confined to a narrow latitudinal corridor in the Great Plains. The similarity to observations despite the monthly averaged initial and lateral boundary conditions suggests that although progressive weather disturbances (e.g., mobile cold fronts and midtropospheric short waves) that originate outside of the region may help enhance and focus precipitation in individual cases, they are not crucial to the general location and diurnal cycle of midsummer precipitation. The roles of persistent daily features such as the nocturnal low-level jet and the thermally induced mountain–plains vertical circulation on both convection and a mesoscale water budget of the central Great Plains (where the heaviest rain occurs) are discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

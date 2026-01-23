@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:253</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:40.288000</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:30:13.053488</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The aeronautical use of electronic altimeters is to measure the absolute clearance of an aircraft above the earth's surface. In the support of atmospheric research, accurate high-range altimeters, in conjunction with accurate static pressure and navigation data, can also provide a means for measuring the heights of constant-pressure surfaces. From the derivatives of the measurements, surface slopes and dynamical quantities such as the geostrophic wind may be obtained. This paper describes the operational and research use of a highaltitude pulse-type radar altimeter system installed on the NCAR Sabreliner for jet stream research. An error analysis for "D-value," derived from radar altitude and pressure measurements, gave an estimated error of &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;6.0 m, which surpasses measurements from conventional balloon soundings or satellite-derived height analyses. For a case study of jet stream dynamics, the above error in D-value corresponded to an error of &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;5% in the computed geostrophic wind.</gco:CharacterString>
+            <gco:CharacterString>The aeronautical use of electronic altimeters is to measure the absolute clearance of an aircraft above the earth's surface. In the support of atmospheric research, accurate high-range altimeters, in conjunction with accurate static pressure and navigation data, can also provide a means for measuring the heights of constant-pressure surfaces. From the derivatives of the measurements, surface slopes and dynamical quantities such as the geostrophic wind may be obtained. This paper describes the operational and research use of a highaltitude pulse-type radar altimeter system installed on the NCAR Sabreliner for jet stream research. An error analysis for "D-value," derived from radar altitude and pressure measurements, gave an estimated error of ï¿½ï¿½6.0 m, which surpasses measurements from conventional balloon soundings or satellite-derived height analyses. For a case study of jet stream dynamics, the above error in D-value corresponded to an error of ï¿½ï¿½5% in the computed geostrophic wind.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

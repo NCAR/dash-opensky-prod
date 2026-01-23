@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6627</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:00:30.604289</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:32:05.267531</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Climate sensitivity of tropical and subtropical marine low cloud amount to ENSO and global warming due to doubled CO&#x2082;</gco:CharacterString>
+                  <gco:CharacterString>Climate sensitivity of tropical and subtropical marine low cloud amount to ENSO and global warming due to doubled CO₂</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study, we systematically analyzed the sensitivity of tropical and subtropical marine low cloud amount to the short-term climate anomaly associated with the 1997-1998 El Ni&#xf1;o and the long-term climate change caused by doubled CO&#x2082; using the International Satellite Cloud Climatology Project (ISCCP) cloud measurements, European Centre for Medium-Range Weather Forecasting (ECMWF) reanalyses, and the sea surface temperature (SST) forced and coupled simulations performed by the latest version of the National Center for Atmospheric Research (NCAR) and Geophysical Fluid Dynamics Laboratory (GFDL) climate models. It is found that the changes in low cloud amount associated with the 1997-1998 El Ni&#xf1;o and the doubled CO&#x2082; induced climate change have different characteristics and are controlled by different physical processes. Most reduction in low cloud amount related to the 1997&#x2013;1998 El Ni&#xf1;o occurs in the eastern tropical Pacific associated with an upward large-scale motion and a weak atmospheric stability measured by the 500 hPa vertical velocity and the potential temperature difference between 700 hPa and the surface, and is negatively correlated to the local SST anomaly. In addition to the other mechanisms suggested by the previous studies, our analyses based on the ISCCP observations indicate that the change in atmospheric convective activities in these regions is one of the reasons responsible for the change in low cloud amount. In contrast, most increase in low cloud amount due to doubled CO&#x2082; simulated by the NCAR and GFDL models occurs in the subtropical subsidence regimes associated with a strong atmospheric stability, and is closely related to the spatial change pattern of SST consistent with previous studies. The increase in low cloud amount appears to favor the location where SST is less increased. After removing the background mean SST increase due to doubled CO&#x2082;, the results show a clear negative correlation between the change in low cloud and the SST change. An analysis based on the simple atmospheric mixed layer model demonstrates a thermodynamic reason for such a change. The increase in the above-inversion atmospheric stratification due to doubled CO&#x2082; tends to reduce the mixed layer depth in the areas with a small temperature increase, which helps to trap the moisture within the mixed layer, thus, favors low cloud formation.</gco:CharacterString>
+            <gco:CharacterString>In this study, we systematically analyzed the sensitivity of tropical and subtropical marine low cloud amount to the short-term climate anomaly associated with the 1997-1998 El Niño and the long-term climate change caused by doubled CO₂ using the International Satellite Cloud Climatology Project (ISCCP) cloud measurements, European Centre for Medium-Range Weather Forecasting (ECMWF) reanalyses, and the sea surface temperature (SST) forced and coupled simulations performed by the latest version of the National Center for Atmospheric Research (NCAR) and Geophysical Fluid Dynamics Laboratory (GFDL) climate models. It is found that the changes in low cloud amount associated with the 1997-1998 El Niño and the doubled CO₂ induced climate change have different characteristics and are controlled by different physical processes. Most reduction in low cloud amount related to the 1997–1998 El Niño occurs in the eastern tropical Pacific associated with an upward large-scale motion and a weak atmospheric stability measured by the 500 hPa vertical velocity and the potential temperature difference between 700 hPa and the surface, and is negatively correlated to the local SST anomaly. In addition to the other mechanisms suggested by the previous studies, our analyses based on the ISCCP observations indicate that the change in atmospheric convective activities in these regions is one of the reasons responsible for the change in low cloud amount. In contrast, most increase in low cloud amount due to doubled CO₂ simulated by the NCAR and GFDL models occurs in the subtropical subsidence regimes associated with a strong atmospheric stability, and is closely related to the spatial change pattern of SST consistent with previous studies. The increase in low cloud amount appears to favor the location where SST is less increased. After removing the background mean SST increase due to doubled CO₂, the results show a clear negative correlation between the change in low cloud and the SST change. An analysis based on the simple atmospheric mixed layer model demonstrates a thermodynamic reason for such a change. The increase in the above-inversion atmospheric stratification due to doubled CO₂ tends to reduce the mixed layer depth in the areas with a small temperature increase, which helps to trap the moisture within the mixed layer, thus, favors low cloud formation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

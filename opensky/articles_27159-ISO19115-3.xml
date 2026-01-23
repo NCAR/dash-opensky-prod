@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27159</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:14:03.901870</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:22:53.538003</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Molina, Maria</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8539-8916"
+                                    xlink:title="Molina, Maria"
+                                    xlink:actuate="onRequest">Molina, Maria</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dagon, Katherine</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4518-8225"
+                                    xlink:title="Dagon, Katherine"
+                                    xlink:actuate="onRequest">Dagon, Katherine</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +222,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate variability and weather phenomena can cause extremes and pose significant risk to society and ecosystems, making continued advances in our physical understanding of such events of utmost importance for regional and global security. Advances in machine learning (ML) have been leveraged for applications in climate variability and weather, empowering scientists to approach questions using big data in new ways. Growing interest across the scientific community in these areas has motivated coordination between the physical and computer science disciplines to further advance the state of the science and tackle pressing challenges. During a recently held workshop that had participants across academia, private industry, and research laboratories, it became clear that a comprehensive review of recent and emerging ML applications for climate variability and weather phenomena that can cause extremes was needed. This article aims to fulfill this need by discussing recent advances, challenges, and research priorities in the following topics: sources of predictability for modes of climate variability, feature detection, extreme weather and climate prediction and precursors, observation&#x2013;model integration, downscaling, and bias correction. This article provides a review for domain scientists seeking to incorporate ML into their research. It also provides a review for those with some ML experience seeking to broaden their knowledge of ML applications for climate variability and weather.</gco:CharacterString>
+            <gco:CharacterString>Climate variability and weather phenomena can cause extremes and pose significant risk to society and ecosystems, making continued advances in our physical understanding of such events of utmost importance for regional and global security. Advances in machine learning (ML) have been leveraged for applications in climate variability and weather, empowering scientists to approach questions using big data in new ways. Growing interest across the scientific community in these areas has motivated coordination between the physical and computer science disciplines to further advance the state of the science and tackle pressing challenges. During a recently held workshop that had participants across academia, private industry, and research laboratories, it became clear that a comprehensive review of recent and emerging ML applications for climate variability and weather phenomena that can cause extremes was needed. This article aims to fulfill this need by discussing recent advances, challenges, and research priorities in the following topics: sources of predictability for modes of climate variability, feature detection, extreme weather and climate prediction and precursors, observation–model integration, downscaling, and bias correction. This article provides a review for domain scientists seeking to incorporate ML into their research. It also provides a review for those with some ML experience seeking to broaden their knowledge of ML applications for climate variability and weather.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

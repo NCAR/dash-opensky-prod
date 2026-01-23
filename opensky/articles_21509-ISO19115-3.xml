@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21509</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:40:31.248252</gco:DateTime>
+      <gco:DateTime>2025-12-25T16:02:51.870135</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                   <gco:CharacterString>Related Dataset #2</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Constraints on the magnitude and patterns of ocean cooling at the Last Glacial Maximum - Supplementary material, supplement to: MARGO Project Members; Waelbroeck, Claire; Paul, Andr&#xe9;; Kucera, Michal; Rosell-Mel&#xe9;, Antoni; Weinelt, Mara; Schneider, Ralph R; Mix, Alan C; Abelmann, Andrea; Armand, Leanne K; Bard, Edouard; Barker, Stephen; Barrows, Timothy T; Benway, Heather M; Cacho Lascorz, Isabel; Chen, Min-Te; Cortijo, Elsa; Crosta, Xavier; de Vernal, Anne; Dokken, Trond; Duprat, Josette M; Elderfield, Henry; Eynaud, Fr&#xe9;d&#xe9;rique; Gersonde, Rainer; Hayes, A; Henry, Maryse; Hillaire-Marcel, Claude; Huang, Chin-Chien; Jansen, Eystein; Juggins, Stephen; Kallel, Nejib; Kiefer, Thorsten; Kienast, Markus; Labeyrie, Laurent D; Leclaire, H&#xe9;lo&#xef;se; Londeix, Laurent; Mangin, Sylvie; Matthiessen, Jens; Marret, Fabienne; Meland, Marius Y; Morey, Ann E; Mulitza, Stefan; Pflaumann, Uwe; Pisias, Nicklas G; Radi, Taoufik; Rochon, Andr&#xe9;; Rohling, Eelco J; Sbaffi, Laura; Sch&#xe4;fer-Neth, Christian; Solignac, Sandrine; Spero, Howard J; Tachikawa, Kazuyo; Turon, Jean-Louis (2009): Constraints on the magnitude and patterns of ocean cooling at the Last Glacial Maximum. Nature Geoscience, 2(2), 127-132</gco:CharacterString>
+                  <gco:CharacterString>Constraints on the magnitude and patterns of ocean cooling at the Last Glacial Maximum - Supplementary material, supplement to: MARGO Project Members; Waelbroeck, Claire; Paul, André; Kucera, Michal; Rosell-Melé, Antoni; Weinelt, Mara; Schneider, Ralph R; Mix, Alan C; Abelmann, Andrea; Armand, Leanne K; Bard, Edouard; Barker, Stephen; Barrows, Timothy T; Benway, Heather M; Cacho Lascorz, Isabel; Chen, Min-Te; Cortijo, Elsa; Crosta, Xavier; de Vernal, Anne; Dokken, Trond; Duprat, Josette M; Elderfield, Henry; Eynaud, Frédérique; Gersonde, Rainer; Hayes, A; Henry, Maryse; Hillaire-Marcel, Claude; Huang, Chin-Chien; Jansen, Eystein; Juggins, Stephen; Kallel, Nejib; Kiefer, Thorsten; Kienast, Markus; Labeyrie, Laurent D; Leclaire, Héloïse; Londeix, Laurent; Mangin, Sylvie; Matthiessen, Jens; Marret, Fabienne; Meland, Marius Y; Morey, Ann E; Mulitza, Stefan; Pflaumann, Uwe; Pisias, Nicklas G; Radi, Taoufik; Rochon, André; Rohling, Eelco J; Sbaffi, Laura; Schäfer-Neth, Christian; Solignac, Sandrine; Spero, Howard J; Tachikawa, Kazuyo; Turon, Jean-Louis (2009): Constraints on the magnitude and patterns of ocean cooling at the Last Glacial Maximum. Nature Geoscience, 2(2), 127-132</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -128,7 +129,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The PMIP4 contribution to CMIP6 &#x2013; Part 1: Overview and over-arching analysis plan</gco:CharacterString>
+                  <gco:CharacterString>The PMIP4 contribution to CMIP6 – Part 1: Overview and over-arching analysis plan</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6528</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:49.922883</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:26:35.198517</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bansemer, Aaron R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3714-1099"
+                                    xlink:title="Bansemer, Aaron R."
+                                    xlink:actuate="onRequest">Bansemer, Aaron R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The ventilation factor and capacitance used in numerical models to represent ice crystal aggregates directly affects the growth rate of the ice crystal aggregates, and consequently the sink of atmospheric water vapor. Currently, numerical models that prognose ice water content (IWC) and water vapor mixing ratio represent the capacitance and ventilation factor of precipitation-sized particles with simplified geometries, such as hexagonal plates. The geometries of actual precipitation-sized particles are often more complex, and a test of the values being employed is needed. Aircraft observations obtained during a Lagrangian spiral descent through the sublimation zone of a tropical anvil cloud have been used to determine an estimate of combined dimensionless capacitance and ventilation factor for the nonpristine geometries exhibited by ice crystal aggregates. By combining measurements of bulk ice water content, the particle size distribution, and environmental subsaturation, the change in ice water content was modeled throughout the spiral descent and compared with observations of the change in ice water content. Uncertainties resulting from potential systematic biases in the measurements and parameterizations used in the analysis were investigated with sensitivity tests. Most of the uncertainty was related to an assumed maximum potential bias in the measurement of IWC of &#xb1;45%. The resulting combined ventilation factor and dimensionless capacitance value was 1.3 (with a range of 0.6 - 1.9, defined by 68% of sensitivity test trials) for a particle size - weighted mean value of (Sc)&#x2153;(Re)&#xbd; = 14.9 &#xb1; 1.7, where Sc is the Schmidt number and Re is the Reynolds number. Results from commonly adopted combinations of ventilation factor relations and capacitances are compared with the observations presented here, and, finally, surrogate dimensionless capacitances are suggested that when combined with commonly used ventilation factor relations are consistent with the results presented herein.</gco:CharacterString>
+            <gco:CharacterString>The ventilation factor and capacitance used in numerical models to represent ice crystal aggregates directly affects the growth rate of the ice crystal aggregates, and consequently the sink of atmospheric water vapor. Currently, numerical models that prognose ice water content (IWC) and water vapor mixing ratio represent the capacitance and ventilation factor of precipitation-sized particles with simplified geometries, such as hexagonal plates. The geometries of actual precipitation-sized particles are often more complex, and a test of the values being employed is needed. Aircraft observations obtained during a Lagrangian spiral descent through the sublimation zone of a tropical anvil cloud have been used to determine an estimate of combined dimensionless capacitance and ventilation factor for the nonpristine geometries exhibited by ice crystal aggregates. By combining measurements of bulk ice water content, the particle size distribution, and environmental subsaturation, the change in ice water content was modeled throughout the spiral descent and compared with observations of the change in ice water content. Uncertainties resulting from potential systematic biases in the measurements and parameterizations used in the analysis were investigated with sensitivity tests. Most of the uncertainty was related to an assumed maximum potential bias in the measurement of IWC of ±45%. The resulting combined ventilation factor and dimensionless capacitance value was 1.3 (with a range of 0.6 - 1.9, defined by 68% of sensitivity test trials) for a particle size - weighted mean value of (Sc)⅓(Re)½ = 14.9 ± 1.7, where Sc is the Schmidt number and Re is the Reynolds number. Results from commonly adopted combinations of ventilation factor relations and capacitances are compared with the observations presented here, and, finally, surrogate dimensionless capacitances are suggested that when combined with commonly used ventilation factor relations are consistent with the results presented herein.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

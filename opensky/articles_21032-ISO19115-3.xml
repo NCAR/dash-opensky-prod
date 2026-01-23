@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21032</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:45:57.977375</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:23:38.408711</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaser, Lisa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4835-8373"
+                                    xlink:title="Kaser, Lisa"
+                                    xlink:actuate="onRequest">Kaser, Lisa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +264,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +286,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Chemical models must correctly calculate the ozone formation rate, P(O3), to accurately predict ozone levels and to test mitigation strategies. However, air quality models can have large uncertainties in P(O3) calculations, which can create uncertainties in ozone forecasts, especially during the summertime when P(O3) is high. One way to test mechanisms is to compare modeled P(O3) to direct measurements. During summer 2014, the Measurement of Ozone Production Sensor (MOPS) directly measured net P(O3) in Golden, CO, approximately 25&#x202f;km west of Denver along the Colorado Front Range. Net P(O3) was compared to rates calculated by a photochemical box model that was constrained by measurements of other chemical species and that used a lumped chemical mechanism and a more explicit one. Median observed P(O3) was up to a factor of 2 higher than that modeled during early morning hours when nitric oxide (NO) levels were high and was similar to modeled P(O3) for the rest of the day. While all interferences and offsets in this new method are not fully understood, simulations of these possible uncertainties cannot explain the observed P(O3) behavior. Modeled and measured P(O3) and peroxy radical (HO2 and RO2) discrepancies observed here are similar to those presented in prior studies. While a missing atmospheric organic peroxy radical source from volatile organic compounds co-emitted with NO could be one plausible solution to the P(O3) discrepancy, such a source has not been identified and does not fully explain the peroxy radical model&#x2013;data mismatch. If the MOPS accurately depicts atmospheric P(O3), then these results would imply that P(O3) in Golden, CO, would be NOx-sensitive for more of the day than what is calculated by models, extending the NOx-sensitive P(O3) regime from the afternoon further into the morning. These results could affect ozone reduction strategies for the region surrounding Golden and possibly other areas that do not comply with national ozone regulations. Thus, it is important to continue the development of this direct ozone measurement technique to understand P(O3), especially under high-NOx regimes.</gco:CharacterString>
+            <gco:CharacterString>Chemical models must correctly calculate the ozone formation rate, P(O3), to accurately predict ozone levels and to test mitigation strategies. However, air quality models can have large uncertainties in P(O3) calculations, which can create uncertainties in ozone forecasts, especially during the summertime when P(O3) is high. One way to test mechanisms is to compare modeled P(O3) to direct measurements. During summer 2014, the Measurement of Ozone Production Sensor (MOPS) directly measured net P(O3) in Golden, CO, approximately 25 km west of Denver along the Colorado Front Range. Net P(O3) was compared to rates calculated by a photochemical box model that was constrained by measurements of other chemical species and that used a lumped chemical mechanism and a more explicit one. Median observed P(O3) was up to a factor of 2 higher than that modeled during early morning hours when nitric oxide (NO) levels were high and was similar to modeled P(O3) for the rest of the day. While all interferences and offsets in this new method are not fully understood, simulations of these possible uncertainties cannot explain the observed P(O3) behavior. Modeled and measured P(O3) and peroxy radical (HO2 and RO2) discrepancies observed here are similar to those presented in prior studies. While a missing atmospheric organic peroxy radical source from volatile organic compounds co-emitted with NO could be one plausible solution to the P(O3) discrepancy, such a source has not been identified and does not fully explain the peroxy radical model–data mismatch. If the MOPS accurately depicts atmospheric P(O3), then these results would imply that P(O3) in Golden, CO, would be NOx-sensitive for more of the day than what is calculated by models, extending the NOx-sensitive P(O3) regime from the afternoon further into the morning. These results could affect ozone reduction strategies for the region surrounding Golden and possibly other areas that do not comply with national ozone regulations. Thus, it is important to continue the development of this direct ozone measurement technique to understand P(O3), especially under high-NOx regimes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

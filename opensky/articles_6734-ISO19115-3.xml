@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6734</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:56.590718</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:29:44.857794</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Raeder, Kevin D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6166-7154"
+                                    xlink:title="Raeder, Kevin D."
+                                    xlink:actuate="onRequest">Raeder, Kevin D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a global chemical data assimilation system using a global atmosphere model, the Community Atmosphere Model (CAM3) with simplified chemistry and the Data Assimilation Research Testbed (DART) assimilation package. DART is a community software facility for assimilation studies using the ensemble Kalman filter approach. Here, we apply the assimilation system to constrain global tropospheric carbon monoxide (CO) by assimilating meteorological observations of temperature and horizontal wind velocity and satellite CO retrievals from the Measurement of Pollution in the Troposphere (MOPITT) satellite instrument. We verify the system performance using independent CO observations taken on board the NSF/NCAR C-130 and NASA DC-8 aircrafts during the April 2006 part of the Intercontinental Chemical Transport Experiment (INTEX-B). Our evaluations show that MOPITT data assimilation provides significant improvements in terms of capturing the observed CO variability relative to no MOPITT assimilation (i.e. the correlation improves from 0.62 to 0.71, significant at 99% confidence). The assimilation provides evidence of median CO loading of about 150 ppbv at 700 hPa over the NE Pacific during April 2006. This is marginally higher than the modeled CO with no MOPITT assimilation (&#x223c;140 ppbv). Our ensemble-based estimates of model uncertainty also show model overprediction over the source region (i.e. China) and underprediction over the NE Pacific, suggesting model errors that cannot be readily explained by emissions alone. These results have important implications for improving regional chemical forecasts and for inverse modeling of CO sources and further demonstrate the utility of the assimilation system in comparing non-coincident measurements, e.g. comparing satellite retrievals of CO with in-situ aircraft measurements.</gco:CharacterString>
+            <gco:CharacterString>We present a global chemical data assimilation system using a global atmosphere model, the Community Atmosphere Model (CAM3) with simplified chemistry and the Data Assimilation Research Testbed (DART) assimilation package. DART is a community software facility for assimilation studies using the ensemble Kalman filter approach. Here, we apply the assimilation system to constrain global tropospheric carbon monoxide (CO) by assimilating meteorological observations of temperature and horizontal wind velocity and satellite CO retrievals from the Measurement of Pollution in the Troposphere (MOPITT) satellite instrument. We verify the system performance using independent CO observations taken on board the NSF/NCAR C-130 and NASA DC-8 aircrafts during the April 2006 part of the Intercontinental Chemical Transport Experiment (INTEX-B). Our evaluations show that MOPITT data assimilation provides significant improvements in terms of capturing the observed CO variability relative to no MOPITT assimilation (i.e. the correlation improves from 0.62 to 0.71, significant at 99% confidence). The assimilation provides evidence of median CO loading of about 150 ppbv at 700 hPa over the NE Pacific during April 2006. This is marginally higher than the modeled CO with no MOPITT assimilation (∼140 ppbv). Our ensemble-based estimates of model uncertainty also show model overprediction over the source region (i.e. China) and underprediction over the NE Pacific, suggesting model errors that cannot be readily explained by emissions alone. These results have important implications for improving regional chemical forecasts and for inverse modeling of CO sources and further demonstrate the utility of the assimilation system in comparing non-coincident measurements, e.g. comparing satellite retrievals of CO with in-situ aircraft measurements.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

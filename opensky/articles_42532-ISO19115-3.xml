@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42532</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:59.491035</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:53.924967</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clayton, C. J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1442-0394"
+                                    xlink:title="Clayton, C. J."
+                                    xlink:actuate="onRequest">Clayton, C. J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Graham, A. M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2349-3787"
+                                    xlink:title="Graham, A. M."
+                                    xlink:actuate="onRequest">Graham, A. M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +222,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kumar, Rajesh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3135-9556"
+                                    xlink:title="Kumar, Rajesh"
+                                    xlink:actuate="onRequest">Kumar, Rajesh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +254,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>There is considerable academic interest in the potential for air quality improvement as a co-benefit of climate change mitigation. Few studies use regional air quality models for simulating future co-benefits, but many use global chemistry&#x2013;climate model output. Using regional atmospheric chemistry could provide a better representation of air quality changes than global chemistry&#x2013;climate models, especially by improving the representation of elevated urban concentrations. We use a detailed regional atmospheric-chemistry model (WRF-Chem v4.2) to model European air quality in 2050 compared to 2014 following three climate change mitigation scenarios. We represent different climate futures by using air pollutant emissions and chemical boundary conditions (from CESM2-WACCM output) for three shared socioeconomic pathways (SSP1-2.6, SSP2-4.5 and SSP3-7.0: high-, medium- and low-mitigation pathways respectively). We find that in 2050, following SSP1-2.6, mean population-weighted PM2.5 concentrations across European countries are reduced by 52&#x2009;% compared to 2014. Under SSP2-4.5, this average reduction is 34%. The smallest average reduction is 18&#x2009;%, achieved following SSP3-7.0. Maximum 6-monthly-mean daily-maximum 8&#x2009;h (6mDM8h) ozone (O3) is reduced across Europe by 15&#x2009;% following SSP1-2.6 and by 3&#x2009;% following SSP2-4.5, but it increases by 13&#x2009;% following SSP3-7.0. This demonstrates clear co-benefits of climate mitigation. The additional resolution allows us to analyse regional differences and identify key sectors. We find that the mitigation of agricultural emissions will be key for attaining meaningful co-benefits of mitigation policies, as evidenced by the importance of changes in NO3 aerosol mass to future PM2.5 air quality and changes in CH4 emissions to future O3 air quality.</gco:CharacterString>
+            <gco:CharacterString>There is considerable academic interest in the potential for air quality improvement as a co-benefit of climate change mitigation. Few studies use regional air quality models for simulating future co-benefits, but many use global chemistry–climate model output. Using regional atmospheric chemistry could provide a better representation of air quality changes than global chemistry–climate models, especially by improving the representation of elevated urban concentrations. We use a detailed regional atmospheric-chemistry model (WRF-Chem v4.2) to model European air quality in 2050 compared to 2014 following three climate change mitigation scenarios. We represent different climate futures by using air pollutant emissions and chemical boundary conditions (from CESM2-WACCM output) for three shared socioeconomic pathways (SSP1-2.6, SSP2-4.5 and SSP3-7.0: high-, medium- and low-mitigation pathways respectively). We find that in 2050, following SSP1-2.6, mean population-weighted PM2.5 concentrations across European countries are reduced by 52 % compared to 2014. Under SSP2-4.5, this average reduction is 34%. The smallest average reduction is 18 %, achieved following SSP3-7.0. Maximum 6-monthly-mean daily-maximum 8 h (6mDM8h) ozone (O3) is reduced across Europe by 15 % following SSP1-2.6 and by 3 % following SSP2-4.5, but it increases by 13 % following SSP3-7.0. This demonstrates clear co-benefits of climate mitigation. The additional resolution allows us to analyse regional differences and identify key sectors. We find that the mitigation of agricultural emissions will be key for attaining meaningful co-benefits of mitigation policies, as evidenced by the importance of changes in NO3 aerosol mass to future PM2.5 air quality and changes in CH4 emissions to future O3 air quality.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

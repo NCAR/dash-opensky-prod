@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18059</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:16.108340</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:53:11.003750</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mills, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8054-1346"
+                                    xlink:title="Mills, Michael J."
+                                    xlink:actuate="onRequest">Mills, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Conley, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0061-9906"
+                                    xlink:title="Conley, Andrew J."
+                                    xlink:actuate="onRequest">Conley, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +236,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bardeen, Charles</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5330-2788"
+                                    xlink:title="Bardeen, Charles"
+                                    xlink:actuate="onRequest">Bardeen, Charles</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Accurate representation of global stratospheric aerosols from volcanic and nonvolcanic sulfur emissions is key to understanding the cooling effects and ozone losses that may be linked to volcanic activity. Attribution of climate variability to volcanic activity is of particular interest in relation to the post-2000 slowing in the rate of global average temperature increases. We have compiled a database of volcanic SO2 emissions and plume altitudes for eruptions from 1990 to 2014 and developed a new prognostic capability for simulating stratospheric sulfate aerosols in the Community Earth System Model. We used these combined with other nonvolcanic emissions of sulfur sources to reconstruct global aerosol properties from 1990 to 2014. Our calculations show remarkable agreement with ground-based lidar observations of stratospheric aerosol optical depth (SAOD) and with in situ measurements of stratospheric aerosol surface area density (SAD). These properties are key parameters in calculating the radiative and chemical effects of stratospheric aerosols. Our SAOD calculations represent a clear improvement over available satellite-based analyses, which generally ignore aerosol extinction below 15&#x2009;km, a region that can contain the vast majority of stratospheric aerosol extinction at middle and high latitudes. Our SAD calculations greatly improve on that provided for the Chemistry-Climate Model Initiative, which misses about 60% of the SAD measured in situ on average during both volcanically active and volcanically quiescent periods.</gco:CharacterString>
+            <gco:CharacterString>Accurate representation of global stratospheric aerosols from volcanic and nonvolcanic sulfur emissions is key to understanding the cooling effects and ozone losses that may be linked to volcanic activity. Attribution of climate variability to volcanic activity is of particular interest in relation to the post-2000 slowing in the rate of global average temperature increases. We have compiled a database of volcanic SO2 emissions and plume altitudes for eruptions from 1990 to 2014 and developed a new prognostic capability for simulating stratospheric sulfate aerosols in the Community Earth System Model. We used these combined with other nonvolcanic emissions of sulfur sources to reconstruct global aerosol properties from 1990 to 2014. Our calculations show remarkable agreement with ground-based lidar observations of stratospheric aerosol optical depth (SAOD) and with in situ measurements of stratospheric aerosol surface area density (SAD). These properties are key parameters in calculating the radiative and chemical effects of stratospheric aerosols. Our SAOD calculations represent a clear improvement over available satellite-based analyses, which generally ignore aerosol extinction below 15 km, a region that can contain the vast majority of stratospheric aerosol extinction at middle and high latitudes. Our SAD calculations greatly improve on that provided for the Chemistry-Climate Model Initiative, which misses about 60% of the SAD measured in situ on average during both volcanically active and volcanically quiescent periods.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

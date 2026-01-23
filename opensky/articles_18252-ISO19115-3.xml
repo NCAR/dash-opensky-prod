@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18252</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:40.531113</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:07:26.770595</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Miesch, Mark</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1976-0811"
+                                    xlink:title="Miesch, Mark"
+                                    xlink:actuate="onRequest">Miesch, Mark</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a novel and powerful Compressible High-ORder Unstructured Spectral-difference (CHORUS) code for simulating thermal convection and related fluid dynamics in the interiors of stars and planets. The computational geometries are treated as rotating spherical shells filled with stratified gas. The hydrodynamic equations are discretized by a robust and efficient high-order Spectral Difference Method (SDM) on unstructured meshes. The computational stencil of the spectral difference method is compact and advantageous for parallel processing. CHORUS demonstrates excellent parallel performance for all test cases reported in this paper, scaling up to 12&#x2009;000 cores on the Yellowstone High-Performance Computing cluster at NCAR. The code is verified by defining two benchmark cases for global convection in Jupiter and the Sun. CHORUS results are compared with results from the ASH code and good agreement is found. The CHORUS code creates new opportunities for simulating such varied phenomena as multi-scale solar convection, core convection, and convection in rapidly-rotating, oblate stars.</gco:CharacterString>
+            <gco:CharacterString>We present a novel and powerful Compressible High-ORder Unstructured Spectral-difference (CHORUS) code for simulating thermal convection and related fluid dynamics in the interiors of stars and planets. The computational geometries are treated as rotating spherical shells filled with stratified gas. The hydrodynamic equations are discretized by a robust and efficient high-order Spectral Difference Method (SDM) on unstructured meshes. The computational stencil of the spectral difference method is compact and advantageous for parallel processing. CHORUS demonstrates excellent parallel performance for all test cases reported in this paper, scaling up to 12 000 cores on the Yellowstone High-Performance Computing cluster at NCAR. The code is verified by defining two benchmark cases for global convection in Jupiter and the Sun. CHORUS results are compared with results from the ASH code and good agreement is found. The CHORUS code creates new opportunities for simulating such varied phenomena as multi-scale solar convection, core convection, and convection in rapidly-rotating, oblate stars.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

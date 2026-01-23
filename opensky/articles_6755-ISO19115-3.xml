@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6755</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:08.599347</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:33:44.279415</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clyne, John P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2788-9017"
+                                    xlink:title="Clyne, John P."
+                                    xlink:actuate="onRequest">Clyne, John P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mininni, Pablo D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6858-6755"
+                                    xlink:title="Mininni, Pablo D."
+                                    xlink:actuate="onRequest">Mininni, Pablo D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The ever increasing processing capabilities of the supercomputers available to computational scientists today, combined with the need for higher and higher resolution computational grids, has resulted in deluges of simulation data. Yet the computational resources and tools required to make sense of these vast numerical outputs through subsequent analysis are often far from adequate, making such analysis of the data a painstaking, if not a hopeless, task. In this paper, we describe a new tool for the scientific investigation of massive computational datasets. This tool (VAPOR) employs data reduction, advanced visualization, and quantitative analysis operations to permit the interactive exploration of vast datasets using only a desktop PC equipped with a commodity graphics card. We describe VAPORs use in the study of two problems. The first, motivated by stellar envelope convection, investigates the hydrodynamic stability of compressible thermal starting plumes as they descend through a stratified layer of increasing density with depth. The second looks at current sheet formation in an incompressible helical magnetohydrodynamic flow to understand the early spontaneous development of quasi two-dimensional (2D) structures embedded within the 3D solution. Both of the problems were studied at sufficiently high spatial resolution, a grid of 504&#xb2; by 2048 points for the first and 1536&#xb3; points for the second, to overwhelm the interactive capabilities of typically available analysis resources.</gco:CharacterString>
+            <gco:CharacterString>The ever increasing processing capabilities of the supercomputers available to computational scientists today, combined with the need for higher and higher resolution computational grids, has resulted in deluges of simulation data. Yet the computational resources and tools required to make sense of these vast numerical outputs through subsequent analysis are often far from adequate, making such analysis of the data a painstaking, if not a hopeless, task. In this paper, we describe a new tool for the scientific investigation of massive computational datasets. This tool (VAPOR) employs data reduction, advanced visualization, and quantitative analysis operations to permit the interactive exploration of vast datasets using only a desktop PC equipped with a commodity graphics card. We describe VAPORs use in the study of two problems. The first, motivated by stellar envelope convection, investigates the hydrodynamic stability of compressible thermal starting plumes as they descend through a stratified layer of increasing density with depth. The second looks at current sheet formation in an incompressible helical magnetohydrodynamic flow to understand the early spontaneous development of quasi two-dimensional (2D) structures embedded within the 3D solution. Both of the problems were studied at sufficiently high spatial resolution, a grid of 504² by 2048 points for the first and 1536³ points for the second, to overwhelm the interactive capabilities of typically available analysis resources.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

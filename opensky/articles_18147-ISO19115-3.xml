@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18147</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:47:30.971958</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:34:38.051149</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A multi-resolution basis can provide a useful representation of nonstationary two-dimensional spatial processes that are typically encountered in the geosciences. The main advantages are its flexibility for representing departures from stationarity and importantly the scalability of algorithms to large numbers of spatial locations. The key ingredients of our approach are the availability of fast transforms for wavelet bases on regular grids and enforced sparsity in the covariance matrix among wavelet basis coefficients. In support of this approach we outline a theoretical proposition for decay properties of the multi-resolution covariance for mixtures of Mat&#xe9;rn covariances. A covariance estimator, built upon a regularized method of moment, is straightforward to compute for complete data on regular grids. For irregular spatial data the estimator is implemented by using a conditional simulation algorithm drawn from a Monte Carlo Expectation Maximization approach, to translate the problem to a regular grid in order to take advantage of efficient wavelet transforms. This method is illustrated with a Monte Carlo experiment and applied to surface ozone data from an environmental monitoring network. The computational efficiency makes it possible to provide bootstrap measures of uncertainty and these provide objective evidence of the nonstationarity of the surface ozone field.</gco:CharacterString>
+            <gco:CharacterString>A multi-resolution basis can provide a useful representation of nonstationary two-dimensional spatial processes that are typically encountered in the geosciences. The main advantages are its flexibility for representing departures from stationarity and importantly the scalability of algorithms to large numbers of spatial locations. The key ingredients of our approach are the availability of fast transforms for wavelet bases on regular grids and enforced sparsity in the covariance matrix among wavelet basis coefficients. In support of this approach we outline a theoretical proposition for decay properties of the multi-resolution covariance for mixtures of Matérn covariances. A covariance estimator, built upon a regularized method of moment, is straightforward to compute for complete data on regular grids. For irregular spatial data the estimator is implemented by using a conditional simulation algorithm drawn from a Monte Carlo Expectation Maximization approach, to translate the problem to a regular grid in order to take advantage of efficient wavelet transforms. This method is illustrated with a Monte Carlo experiment and applied to surface ozone data from an environmental monitoring network. The computational efficiency makes it possible to provide bootstrap measures of uncertainty and these provide objective evidence of the nonstationarity of the surface ozone field.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

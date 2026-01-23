@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6607</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:39.305026</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:40:37.627459</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Composite mean fields and probability distribution functions (PDFs) of rain rate, cloud type and cover, cloud-top temperature, surface wind velocity, and water vapor path (WVP) are constructed using satellite observations of midlatitude cyclones from four oceanic regions (i.e., the North Pacific, South Pacific, North Atlantic, and South Atlantic). Reanalysis surface pressure fields are used to ascertain the locations of the cyclone centers, onto which the satellite fields are interpolated to give a database of &#x223c; 1500 cyclones from a two-year period (2003-04). Cyclones are categorized by their strength, defined here using surface wind speed, and by their WVP, and it is found that these two measures can explain a considerable amount of the intercyclone variability of other key variables. Composite cyclones from each of the four ocean basins exhibit similar spatial structure for a given strength and WVP. A set of nine composites is constructed from the database using three strength and three WVP ranges and is used to demonstrate that the mean column relative humidity of these systems varies only slightly (0.58-0.62) for a doubling in WVP (or equivalently a 7-K rise in sea surface temperature) and a 50% increase in cyclone strength. However, cyclone-mean rain rate increases markedly with both cyclone strength and WVP, behavior that is explained with a simple warm conveyor belt model. Systemwide high cloud fraction (tops above 440 hPa) increases from 0.23 to 0.31 as cyclone strength increases by 50%, but does not vary systematically with WVP. It is suggested that the composite fields constitute useful diagnostics for evaluating the behavior of large-scale numerical models, and may provide insight into how precipitation and clouds in midlatitude cyclones respond under a changed climate.</gco:CharacterString>
+            <gco:CharacterString>Composite mean fields and probability distribution functions (PDFs) of rain rate, cloud type and cover, cloud-top temperature, surface wind velocity, and water vapor path (WVP) are constructed using satellite observations of midlatitude cyclones from four oceanic regions (i.e., the North Pacific, South Pacific, North Atlantic, and South Atlantic). Reanalysis surface pressure fields are used to ascertain the locations of the cyclone centers, onto which the satellite fields are interpolated to give a database of ∼ 1500 cyclones from a two-year period (2003-04). Cyclones are categorized by their strength, defined here using surface wind speed, and by their WVP, and it is found that these two measures can explain a considerable amount of the intercyclone variability of other key variables. Composite cyclones from each of the four ocean basins exhibit similar spatial structure for a given strength and WVP. A set of nine composites is constructed from the database using three strength and three WVP ranges and is used to demonstrate that the mean column relative humidity of these systems varies only slightly (0.58-0.62) for a doubling in WVP (or equivalently a 7-K rise in sea surface temperature) and a 50% increase in cyclone strength. However, cyclone-mean rain rate increases markedly with both cyclone strength and WVP, behavior that is explained with a simple warm conveyor belt model. Systemwide high cloud fraction (tops above 440 hPa) increases from 0.23 to 0.31 as cyclone strength increases by 50%, but does not vary systematically with WVP. It is suggested that the composite fields constitute useful diagnostics for evaluating the behavior of large-scale numerical models, and may provide insight into how precipitation and clouds in midlatitude cyclones respond under a changed climate.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

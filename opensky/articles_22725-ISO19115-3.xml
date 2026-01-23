@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22725</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:29:26.627445</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:34:34.117057</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Fei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2573-3828"
+                                    xlink:title="Chen, Fei"
+                                    xlink:actuate="onRequest">Chen, Fei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Study on the uncertainties in land surface models (LSMs) helps us understand the differences and errors in climate models. Meanwhile, uncertainty in model structure derived from the many possible parameterization schemes for the same physical subprocess is a primary source of land model uncertainties. To attribute structural errors and model parameterization scheme uncertainties, it is critical to identify the key subprocesses involved and investigate the interactions of these subprocesses on LSM behavior, which will ultimately help us identify the "optimal" parameterization schemes for various plant functional types, soil types, and different locations. Here, we conduct physical ensemble simulations for multiple sites from FLUXNET and then apply a variance-based sensitivity analysis method to quantitatively assess the impacts of uncertainties in the parameterization schemes of subprocesses in the Noah with multiparameterization (Noah-MP) LSM on model performance. The results show that three subprocesses&#x2014;surface exchange coefficient, runoff and groundwater, and surface resistance to evaporation&#x2014;have the most significant impacts on the performance of the simulated sensible heat flux, latent heat flux, and net absorbed radiation in the Noah-MP LSM. The interaction between two subprocesses could contribute up to 50% of the variation in model performance for some sites, which highlights the need for taking into consideration the interactions of subprocesses to improve LSMs. Finally, a statistical optimal combination of the parameterization schemes is recommended for global land modeling, although it is noticed that the optimal schemes vary with regions and can be different even for neighboring sites.</gco:CharacterString>
+            <gco:CharacterString>Study on the uncertainties in land surface models (LSMs) helps us understand the differences and errors in climate models. Meanwhile, uncertainty in model structure derived from the many possible parameterization schemes for the same physical subprocess is a primary source of land model uncertainties. To attribute structural errors and model parameterization scheme uncertainties, it is critical to identify the key subprocesses involved and investigate the interactions of these subprocesses on LSM behavior, which will ultimately help us identify the "optimal" parameterization schemes for various plant functional types, soil types, and different locations. Here, we conduct physical ensemble simulations for multiple sites from FLUXNET and then apply a variance-based sensitivity analysis method to quantitatively assess the impacts of uncertainties in the parameterization schemes of subprocesses in the Noah with multiparameterization (Noah-MP) LSM on model performance. The results show that three subprocesses—surface exchange coefficient, runoff and groundwater, and surface resistance to evaporation—have the most significant impacts on the performance of the simulated sensible heat flux, latent heat flux, and net absorbed radiation in the Noah-MP LSM. The interaction between two subprocesses could contribute up to 50% of the variation in model performance for some sites, which highlights the need for taking into consideration the interactions of subprocesses to improve LSMs. Finally, a statistical optimal combination of the parameterization schemes is recommended for global land modeling, although it is noticed that the optimal schemes vary with regions and can be different even for neighboring sites.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

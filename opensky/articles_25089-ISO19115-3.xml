@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25089</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:06:17.922120</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:50:35.472043</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ortega, Ivan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0067-617X"
+                                    xlink:title="Ortega, Ivan"
+                                    xlink:actuate="onRequest">Ortega, Ivan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shams, Shima</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4061-1159"
+                                    xlink:title="Shams, Shima"
+                                    xlink:actuate="onRequest">Shams, Shima</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +294,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -387,7 +394,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xf6;hling, A. N.</gco:CharacterString>
+                        <gco:CharacterString>Röhling, A. N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -497,7 +504,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Carbonyl sulfide (OCS) is a non-hygroscopic trace species in the free troposphere and a large sulfur reservoir maintained by both direct oceanic, geologic, biogenic, and anthropogenic emissions and the oxidation of other sulfur-containing source species. It is the largest source of sulfur transported to the stratosphere during volcanically quiescent periods. Data from 22 ground-based globally dispersed stations are used to derive trends in total and partial column OCS. Middle infrared spectral data are recorded by solar-viewing Fourier transform interferometers that are operated as part of the Network for the Detection of Atmospheric Composition Change between 1986 and 2020. Vertical information in the retrieved profiles provides analysis of discreet altitudinal regions. Trends are found to have well-defined inflection points. In two linear trend time periods &#x223c;2002 to 2008 and &#x223c;2008 to 2016 tropospheric trends range from &#x223c;0.0 to (1.55 &#xb1; 0.30%/yr) in contrast to the prior period where all tropospheric trends are negative. Regression analyses show strongest correlation in the free troposphere with anthropogenic emissions. Stratospheric trends in the period &#x223c;2008 to 2016 are positive up to (1.93 &#xb1; 0.26%/yr) except notably low latitude stations that have negative stratospheric trends. Since &#x223c;2016, all stations show a free tropospheric decrease to 2020. Stratospheric OCS is regressed with simultaneously measured N2O to derive a trend accounting for dynamical variability. Stratospheric lifetimes are derived and range from (54.1 &#xb1; 9.7)yr in the sub-tropics to (103.4 &#xb1; 18.3)yr in Antarctica. These unique long-term measurements provide new and critical constraints on the global OCS budget.</gco:CharacterString>
+            <gco:CharacterString>Carbonyl sulfide (OCS) is a non-hygroscopic trace species in the free troposphere and a large sulfur reservoir maintained by both direct oceanic, geologic, biogenic, and anthropogenic emissions and the oxidation of other sulfur-containing source species. It is the largest source of sulfur transported to the stratosphere during volcanically quiescent periods. Data from 22 ground-based globally dispersed stations are used to derive trends in total and partial column OCS. Middle infrared spectral data are recorded by solar-viewing Fourier transform interferometers that are operated as part of the Network for the Detection of Atmospheric Composition Change between 1986 and 2020. Vertical information in the retrieved profiles provides analysis of discreet altitudinal regions. Trends are found to have well-defined inflection points. In two linear trend time periods ∼2002 to 2008 and ∼2008 to 2016 tropospheric trends range from ∼0.0 to (1.55 ± 0.30%/yr) in contrast to the prior period where all tropospheric trends are negative. Regression analyses show strongest correlation in the free troposphere with anthropogenic emissions. Stratospheric trends in the period ∼2008 to 2016 are positive up to (1.93 ± 0.26%/yr) except notably low latitude stations that have negative stratospheric trends. Since ∼2016, all stations show a free tropospheric decrease to 2020. Stratospheric OCS is regressed with simultaneously measured N2O to derive a trend accounting for dynamical variability. Stratospheric lifetimes are derived and range from (54.1 ± 9.7)yr in the sub-tropics to (103.4 ± 18.3)yr in Antarctica. These unique long-term measurements provide new and critical constraints on the global OCS budget.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

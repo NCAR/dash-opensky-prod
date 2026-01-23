@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42285</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:07.378247</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:02:26.764238</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gidden, M. J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0687-414X"
+                                    xlink:title="Gidden, M. J."
+                                    xlink:actuate="onRequest">Gidden, M. J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2968-3023"
+                                    xlink:title="Lawrence, David M."
+                                    xlink:actuate="onRequest">Lawrence, David M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +312,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Simpson, Isla R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2915-1377"
+                                    xlink:title="Simpson, Isla R."
+                                    xlink:actuate="onRequest">Simpson, Isla R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +364,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>S&#xe9;f&#xe9;rian, R.</gco:CharacterString>
+                        <gco:CharacterString>Séférian, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +414,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Previous phases of the Coupled Model Intercomparison Project (CMIP) have primarily focused on simulations driven by atmospheric concentrations of greenhouse gases (GHGs), for both idealized model experiments and climate projections of different emissions scenarios. We argue that although this approach was practical to allow parallel development of Earth system model simulations and detailed socioeconomic futures, carbon cycle uncertainty as represented by diverse, process-resolving Earth system models (ESMs) is not manifested in the scenario outcomes, thus omitting a dominant source of uncertainty in meeting the Paris Agreement. Mitigation policy is defined in terms of human activity (including emissions), with strategies varying in their timing of net-zero emissions, the balance of mitigation effort between short-lived and long-lived climate forcers, their reliance on land use strategy, and the extent and timing of carbon removals. To explore the response to these drivers, ESMs need to explicitly represent complete cycles of major GHGs, including natural processes and anthropogenic influences. Carbon removal and sequestration strategies, which rely on proposed human management of natural systems, are currently calculated in integrated assessment models (IAMs) during scenario development with only the net carbon emissions passed to the ESM. However, proper accounting of the coupled system impacts of and feedback on such interventions requires explicit process representation in ESMs to build self-consistent physical representations of their potential effectiveness and risks under climate change. We propose that CMIP7 efforts prioritize simulations driven by CO2 emissions from fossil fuel use and projected deployment of carbon dioxide removal technologies, as well as land use and management, using the process resolution allowed by state-of-the-art ESMs to resolve carbon&#x2013;climate feedbacks. Post-CMIP7 ambitions should aim to incorporate modeling of non-CO2 GHGs (in particular, sources and sinks of methane and nitrous oxide) and process-based representation of carbon removal options. These developments will allow three primary benefits: (1)&amp;nbsp;resources to be allocated to policy-relevant climate projections and better real-time information related to the detectability and verification of emissions reductions and their relationship to expected near-term climate impacts, (2)&amp;nbsp;scenario modeling of the range of possible future climate states including Earth system processes and feedbacks that are increasingly well-represented in ESMs, and (3)&amp;nbsp;optimal utilization of the strengths of ESMs in the wider context of climate modeling infrastructure (which includes simple climate models, machine learning approaches and kilometer-scale climate models).</gco:CharacterString>
+            <gco:CharacterString>Previous phases of the Coupled Model Intercomparison Project (CMIP) have primarily focused on simulations driven by atmospheric concentrations of greenhouse gases (GHGs), for both idealized model experiments and climate projections of different emissions scenarios. We argue that although this approach was practical to allow parallel development of Earth system model simulations and detailed socioeconomic futures, carbon cycle uncertainty as represented by diverse, process-resolving Earth system models (ESMs) is not manifested in the scenario outcomes, thus omitting a dominant source of uncertainty in meeting the Paris Agreement. Mitigation policy is defined in terms of human activity (including emissions), with strategies varying in their timing of net-zero emissions, the balance of mitigation effort between short-lived and long-lived climate forcers, their reliance on land use strategy, and the extent and timing of carbon removals. To explore the response to these drivers, ESMs need to explicitly represent complete cycles of major GHGs, including natural processes and anthropogenic influences. Carbon removal and sequestration strategies, which rely on proposed human management of natural systems, are currently calculated in integrated assessment models (IAMs) during scenario development with only the net carbon emissions passed to the ESM. However, proper accounting of the coupled system impacts of and feedback on such interventions requires explicit process representation in ESMs to build self-consistent physical representations of their potential effectiveness and risks under climate change. We propose that CMIP7 efforts prioritize simulations driven by CO2 emissions from fossil fuel use and projected deployment of carbon dioxide removal technologies, as well as land use and management, using the process resolution allowed by state-of-the-art ESMs to resolve carbon–climate feedbacks. Post-CMIP7 ambitions should aim to incorporate modeling of non-CO2 GHGs (in particular, sources and sinks of methane and nitrous oxide) and process-based representation of carbon removal options. These developments will allow three primary benefits: (1)&amp;nbsp;resources to be allocated to policy-relevant climate projections and better real-time information related to the detectability and verification of emissions reductions and their relationship to expected near-term climate impacts, (2)&amp;nbsp;scenario modeling of the range of possible future climate states including Earth system processes and feedbacks that are increasingly well-represented in ESMs, and (3)&amp;nbsp;optimal utilization of the strengths of ESMs in the wider context of climate modeling infrastructure (which includes simple climate models, machine learning approaches and kilometer-scale climate models).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24692</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:13:34.942053</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:08:13.433932</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -108,7 +109,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Chinese regulations are working&#x2014;Why is surface ozone over industrialized areas still high? Applying lessons from Northeast US air quality evolution</gco:CharacterString>
+                  <gco:CharacterString>Chinese regulations are working—Why is surface ozone over industrialized areas still high? Applying lessons from Northeast US air quality evolution</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observational data indicate increasing trends of surface ozone (O3) in China, despite emission controls that have resulted in reductions of precursor emissions. Here, we explore the cause of this contradiction, through analysis of surface observations (2014&#x2013;2019) in China and historical observation record in the United States (US, 1990&#x2013;2019). Our observation-based analysis indicates that the reductions of nitrogen oxides (NOx) emissions led to increase of surface O3 in North China Plain (NCP) and Yangtze River Delta (YRD) of around 8 ppb. However, NOx controls resulted in shift of O3 chemical regimes over NCP and YRD, with turning points between NOx- and volatile organic compound (VOC)-limited regimes around 2019, while model simulations suggest transitional or NOx-limited regimes over the rest of China. The impacts of high fine particles (PM2.5) on O3 formation has declined because of the reduction of PM2.5 concentrations. Stricter NOx controls can mitigate O3 pollutions over industrialized areas in China.</gco:CharacterString>
+            <gco:CharacterString>Observational data indicate increasing trends of surface ozone (O3) in China, despite emission controls that have resulted in reductions of precursor emissions. Here, we explore the cause of this contradiction, through analysis of surface observations (2014–2019) in China and historical observation record in the United States (US, 1990–2019). Our observation-based analysis indicates that the reductions of nitrogen oxides (NOx) emissions led to increase of surface O3 in North China Plain (NCP) and Yangtze River Delta (YRD) of around 8 ppb. However, NOx controls resulted in shift of O3 chemical regimes over NCP and YRD, with turning points between NOx- and volatile organic compound (VOC)-limited regimes around 2019, while model simulations suggest transitional or NOx-limited regimes over the rest of China. The impacts of high fine particles (PM2.5) on O3 formation has declined because of the reduction of PM2.5 concentrations. Stricter NOx controls can mitigate O3 pollutions over industrialized areas in China.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

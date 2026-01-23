@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:352</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:00:54.257024</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:14:25.232267</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the ALPEX progran, three participating large research aircraft - the NCAR Electra, the NOAA P5, and the DFVLR Falcon - joined for an interccmparison flight. Using the data frcm this flight, this report lists the relative accuracies for position, pressure, temperature, humidity, horizontal and vertical winds, radio altitude, and radiation (some of these quantities were measured by two aircraft only). The results are presented in form of basic statistical data such as mean differences, standard deviations, and correlation coefficients, as well as in form of power, coherence and - for some quantities - phase spectra. Notable results are: - Generally, the differences observed are within the accuracies specified for the three aircraft. - The standard deviation of differences in temperature never exceed 0.1 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;C, the differences themselves are of the order of 0.5 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;C. - Humidity data for the Electra exhibits intervals with strong oscillations; the time averaged data shows good agreenent with the measurements frcm the P3 and the Falcon. - The wind measurements of the P3 differ significantly from correlated measurements of the Electra and the Falcon. the well - Longwave radiation data downward for the Falcon appears to be too high. In cases where significant differences were found, an attenpt has been made to determine the basic measurement which is most likely responsible for the suspicious data. The report also discusses the effect of spectral properties of data and lists a procedure lyman-alpha raw data to dewpoint tenperature. NOTE: Based on the algorithm for the other changes were results presented the three aircraft consulted! data resolution on the for converting Electra results of this intercanparison, the wind ccmputation P3 has been modified. As this report went into press, pending. Therefore, before applying any of the in this report to data which was produced by any of after mid 1984, the operating facility should be</gco:CharacterString>
+            <gco:CharacterString>During the ALPEX progran, three participating large research aircraft - the NCAR Electra, the NOAA P5, and the DFVLR Falcon - joined for an interccmparison flight. Using the data frcm this flight, this report lists the relative accuracies for position, pressure, temperature, humidity, horizontal and vertical winds, radio altitude, and radiation (some of these quantities were measured by two aircraft only). The results are presented in form of basic statistical data such as mean differences, standard deviations, and correlation coefficients, as well as in form of power, coherence and - for some quantities - phase spectra. Notable results are: - Generally, the differences observed are within the accuracies specified for the three aircraft. - The standard deviation of differences in temperature never exceed 0.1 ï¿½ï¿½C, the differences themselves are of the order of 0.5 ï¿½ï¿½C. - Humidity data for the Electra exhibits intervals with strong oscillations; the time averaged data shows good agreenent with the measurements frcm the P3 and the Falcon. - The wind measurements of the P3 differ significantly from correlated measurements of the Electra and the Falcon. the well - Longwave radiation data downward for the Falcon appears to be too high. In cases where significant differences were found, an attenpt has been made to determine the basic measurement which is most likely responsible for the suspicious data. The report also discusses the effect of spectral properties of data and lists a procedure lyman-alpha raw data to dewpoint tenperature. NOTE: Based on the algorithm for the other changes were results presented the three aircraft consulted! data resolution on the for converting Electra results of this intercanparison, the wind ccmputation P3 has been modified. As this report went into press, pending. Therefore, before applying any of the in this report to data which was produced by any of after mid 1984, the operating facility should be</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

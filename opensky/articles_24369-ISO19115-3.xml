@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24369</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:15:09.140451</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:11:59.634837</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Organic aerosol (OA) has been considered as one of the most important uncertainties in climate modeling due to the complexity in presenting its chemical production and depletion mechanisms. To better understand the capability of climate models and probe into the associated uncertainties in simulating OA, we evaluate the Community Earth System Model version 2.1 (CESM2.1) configured with the Community Atmosphere Model version 6 (CAM6) with comprehensive tropospheric and stratospheric chemistry representation (CAM6-Chem) through a long-term simulation (1988&#x2013;2019) with observations collected from multiple datasets in the United States. We find that CESM generally reproduces the interannual variation and seasonal cycle of OA mass concentration at surface layer with a correlation of 0.40 compared to ground observations and systematically overestimates (69&#x2009;%) in summer and underestimates (&#x2212;19&#x2009;%) in winter. Through a series of sensitivity simulations, we reveal that modeling bias is primarily related to the dominant fraction of monoterpene-formed secondary organic aerosol (SOA), and a strong positive correlation of 0.67 is found between monoterpene emission and modeling bias in the eastern US during summer. In terms of vertical profile, the model prominently underestimates OA and monoterpene concentrations by 37&#x2009;%&#x2013;99&#x2009;% and 82&#x2009;%&#x2013;99&#x2009;%, respectively, in the upper air (&gt;&#x2009;500 m) as validated against aircraft observations. Our study suggests that the current volatility basis set (VBS) scheme applied in CESM might be parameterized with monoterpene SOA yields that are too high, which subsequently results in strong SOA production near the emission source area. We also find that the model has difficulty in reproducing the decreasing trend of surface OA in the southeastern US probably because of employing pure gas VBS to represent isoprene SOA which is in reality mainly formed through multiphase chemistry; thus, the influence of aerosol acidity and sulfate particle change on isoprene SOA formation has not been fully considered in the model. This study reveals the urgent need to improve the SOA modeling in climate models.</gco:CharacterString>
+            <gco:CharacterString>Organic aerosol (OA) has been considered as one of the most important uncertainties in climate modeling due to the complexity in presenting its chemical production and depletion mechanisms. To better understand the capability of climate models and probe into the associated uncertainties in simulating OA, we evaluate the Community Earth System Model version 2.1 (CESM2.1) configured with the Community Atmosphere Model version 6 (CAM6) with comprehensive tropospheric and stratospheric chemistry representation (CAM6-Chem) through a long-term simulation (1988–2019) with observations collected from multiple datasets in the United States. We find that CESM generally reproduces the interannual variation and seasonal cycle of OA mass concentration at surface layer with a correlation of 0.40 compared to ground observations and systematically overestimates (69 %) in summer and underestimates (−19 %) in winter. Through a series of sensitivity simulations, we reveal that modeling bias is primarily related to the dominant fraction of monoterpene-formed secondary organic aerosol (SOA), and a strong positive correlation of 0.67 is found between monoterpene emission and modeling bias in the eastern US during summer. In terms of vertical profile, the model prominently underestimates OA and monoterpene concentrations by 37 %–99 % and 82 %–99 %, respectively, in the upper air (&gt; 500 m) as validated against aircraft observations. Our study suggests that the current volatility basis set (VBS) scheme applied in CESM might be parameterized with monoterpene SOA yields that are too high, which subsequently results in strong SOA production near the emission source area. We also find that the model has difficulty in reproducing the decreasing trend of surface OA in the southeastern US probably because of employing pure gas VBS to represent isoprene SOA which is in reality mainly formed through multiphase chemistry; thus, the influence of aerosol acidity and sulfate particle change on isoprene SOA formation has not been fully considered in the model. This study reveals the urgent need to improve the SOA modeling in climate models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

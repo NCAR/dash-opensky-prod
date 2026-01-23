@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10779</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:47:37.377768</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:34:45.118454</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Internal gravity waves excited by overshoot at the bottom of the convection zone can be influenced by rotation and by the strong toroidal magnetic field that is likely to be present in the solar tachocline. Using a simple Cartesian model, we show how waves with a vertical component of propagation can be reflected when traveling through a layer containing a horizontal magnetic field with a strength that varies with depth. This interaction can prevent a portion of the downward traveling wave energy flux from reaching the deep solar interior. If a highly reflecting magnetized layer is located some distance below the convection zone base, a duct or wave guide can be set up, wherein vertical propagation is restricted by successive reflections at the upper and lower boundaries. The presence of both upward and downward traveling disturbances inside the duct leads to the existence of a set of horizontally propagating modes that have significantly enhanced amplitudes. We point out that the helical structure of these waves makes them capable of generating an &#x3b1;-effect, and briefly consider the possibility that propagation in a shear of sufficient strength could lead to instability, the result of wave growth due to over-reflection.</gco:CharacterString>
+            <gco:CharacterString>Internal gravity waves excited by overshoot at the bottom of the convection zone can be influenced by rotation and by the strong toroidal magnetic field that is likely to be present in the solar tachocline. Using a simple Cartesian model, we show how waves with a vertical component of propagation can be reflected when traveling through a layer containing a horizontal magnetic field with a strength that varies with depth. This interaction can prevent a portion of the downward traveling wave energy flux from reaching the deep solar interior. If a highly reflecting magnetized layer is located some distance below the convection zone base, a duct or wave guide can be set up, wherein vertical propagation is restricted by successive reflections at the upper and lower boundaries. The presence of both upward and downward traveling disturbances inside the duct leads to the existence of a set of horizontally propagating modes that have significantly enhanced amplitudes. We point out that the helical structure of these waves makes them capable of generating an α-effect, and briefly consider the possibility that propagation in a shear of sufficient strength could lead to instability, the result of wave growth due to over-reflection.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

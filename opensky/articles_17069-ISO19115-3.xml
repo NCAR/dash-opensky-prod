@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17069</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:27:06.768558</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:54:54.710370</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bresch, James</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1442-8943"
+                                    xlink:title="Bresch, James"
+                                    xlink:actuate="onRequest">Bresch, James</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Stratosphere&#x2013;Troposphere Analyses of Regional Transport 2008 (START08) experiment investigated a number of important processes in the extratropical upper troposphere and lower stratosphere (UTLS) using the National Science Foundation (NSF)&#x2013;NCAR Gulfstream V (GV) research aircraft. The main objective was to examine the chemical structure of the extratropical UTLS in relation to dynamical processes spanning a range of scales. The campaign was conducted during April&#x2013;June 2008 from Broomfield, Colorado. A total of 18 research flights sampled an extensive geographical region of North America (25&#xb0;&#x2013;65&#xb0;N, 80&#xb0;&#x2013;120&#xb0;W) and a wide range of meteorological conditions. The airborne in situ instruments measured a comprehensive suite of chemical constituents and micro-physical variables from the boundary layer to the lower stratosphere, with flights specifically designed to target key transport processes in the extratropical UTLS. The flights successfully investigated stratosphere&#x2013;troposphere exchange (STE) processes, including the intrusion of tropospheric air into the stratosphere in association with the secondary tropopause and the intrusion of stratospheric air deep into the troposphere. The flights also sampled the influence of convective transport and lightning on the upper troposphere as well as the distribution of gravity waves associated with multiple sources, including fronts and topography. The aircraft observations are complemented by satellite observations and modeling. The measurements will be used to improve the representation of UTLS chemical gradients and transport in Chemistry&#x2013;Climate models (CCMs). This article provides an overview of the experiment design and selected observational highlights.</gco:CharacterString>
+            <gco:CharacterString>The Stratosphere–Troposphere Analyses of Regional Transport 2008 (START08) experiment investigated a number of important processes in the extratropical upper troposphere and lower stratosphere (UTLS) using the National Science Foundation (NSF)–NCAR Gulfstream V (GV) research aircraft. The main objective was to examine the chemical structure of the extratropical UTLS in relation to dynamical processes spanning a range of scales. The campaign was conducted during April–June 2008 from Broomfield, Colorado. A total of 18 research flights sampled an extensive geographical region of North America (25°–65°N, 80°–120°W) and a wide range of meteorological conditions. The airborne in situ instruments measured a comprehensive suite of chemical constituents and micro-physical variables from the boundary layer to the lower stratosphere, with flights specifically designed to target key transport processes in the extratropical UTLS. The flights successfully investigated stratosphere–troposphere exchange (STE) processes, including the intrusion of tropospheric air into the stratosphere in association with the secondary tropopause and the intrusion of stratospheric air deep into the troposphere. The flights also sampled the influence of convective transport and lightning on the upper troposphere as well as the distribution of gravity waves associated with multiple sources, including fronts and topography. The aircraft observations are complemented by satellite observations and modeling. The measurements will be used to improve the representation of UTLS chemical gradients and transport in Chemistry–Climate models (CCMs). This article provides an overview of the experiment design and selected observational highlights.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

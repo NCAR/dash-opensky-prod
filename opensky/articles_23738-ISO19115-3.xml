@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23738</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:15:13.687317</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:45:21.620377</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xue, Lulin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5501-9134"
+                                    xlink:title="Xue, Lulin"
+                                    xlink:actuate="onRequest">Xue, Lulin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The University of P&#xe9;cs and NCAR Bin (UPNB) microphysical scheme was implemented into the mesoscale Weather Research and Forecast (WRF) Model that was used to study the impact of silver iodide (AgI) seeding on precipitation formation in winter orographic clouds. Four different experimental units were chosen from the Wyoming Weather Modification Pilot Project to simulate the seeding effect. The results of the numerical experiments show the following: (i) Comparisons with the soundings, snow gauges, and microwave radiometer data indicate that the three-dimensional simulations with detailed microphysics reasonably represent both the dynamics and the microphysics of real clouds. (ii) The dispersion of the AgI particles from the simulated ground-based seeding was effective because of turbulent mixing. (iii) In the investigated cases (surface temperature is less than 0&#xb0;C), surface precipitation and precipitation efficiency show low susceptibility to the concentrations of cloud condensation nuclei and natural ice nucleating particles. (iv) If the available liquid water content promotes the enhancement of the number of snowflakes by diffusional growth, the surface precipitation can be increased by more than 5%. A novel parameter relevant to orographic clouds, horizontally integrated liquid water path (LWP), was evaluated to find the relation between seeding efficiency and liquid water content. The impact of seeding is negligible if the horizontal LWP is less than 0.1 mm and is apparent if the horizontal LWP is larger than 1 mm, as based on the cases investigated in this study.</gco:CharacterString>
+            <gco:CharacterString>The University of Pécs and NCAR Bin (UPNB) microphysical scheme was implemented into the mesoscale Weather Research and Forecast (WRF) Model that was used to study the impact of silver iodide (AgI) seeding on precipitation formation in winter orographic clouds. Four different experimental units were chosen from the Wyoming Weather Modification Pilot Project to simulate the seeding effect. The results of the numerical experiments show the following: (i) Comparisons with the soundings, snow gauges, and microwave radiometer data indicate that the three-dimensional simulations with detailed microphysics reasonably represent both the dynamics and the microphysics of real clouds. (ii) The dispersion of the AgI particles from the simulated ground-based seeding was effective because of turbulent mixing. (iii) In the investigated cases (surface temperature is less than 0°C), surface precipitation and precipitation efficiency show low susceptibility to the concentrations of cloud condensation nuclei and natural ice nucleating particles. (iv) If the available liquid water content promotes the enhancement of the number of snowflakes by diffusional growth, the surface precipitation can be increased by more than 5%. A novel parameter relevant to orographic clouds, horizontally integrated liquid water path (LWP), was evaluated to find the relation between seeding efficiency and liquid water content. The impact of seeding is negligible if the horizontal LWP is less than 0.1 mm and is apparent if the horizontal LWP is larger than 1 mm, as based on the cases investigated in this study.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

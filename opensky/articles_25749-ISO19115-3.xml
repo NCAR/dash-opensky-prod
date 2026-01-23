@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25749</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:00:53.474416</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:07:04.617616</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Making informed future decisions about solar radiation modification (SRM; also known as solar geoengineering)&#x2014;approaches such as stratospheric aerosol injection (SAI) that would cool the climate by reflecting sunlight&#x2014;requires projections of the climate response and associated human and ecosystem impacts. These projections, in turn, will rely on simulations with global climate models. As with climate-change projections, these simulations need to adequately span a range of possible futures, describing different choices, such as start date and temperature target, as well as risks, such as termination or interruptions. SRM modeling simulations to date typically consider only a single scenario, often with some unrealistic or arbitrarily chosen elements (such as starting deployment in 2020), and have often been chosen based on scientific rather than policy-relevant considerations (e.g., choosing quite substantial cooling specifically to achieve a bigger response). This limits the ability to compare risks both between SRM and non-SRM scenarios and between different SRM scenarios. To address this gap, we begin by outlining some general considerations on scenario design for SRM. We then describe a specific set of scenarios to capture a range of possible policy choices and uncertainties and present corresponding SAI simulations intended for broad community use.</gco:CharacterString>
+            <gco:CharacterString>Making informed future decisions about solar radiation modification (SRM; also known as solar geoengineering)—approaches such as stratospheric aerosol injection (SAI) that would cool the climate by reflecting sunlight—requires projections of the climate response and associated human and ecosystem impacts. These projections, in turn, will rely on simulations with global climate models. As with climate-change projections, these simulations need to adequately span a range of possible futures, describing different choices, such as start date and temperature target, as well as risks, such as termination or interruptions. SRM modeling simulations to date typically consider only a single scenario, often with some unrealistic or arbitrarily chosen elements (such as starting deployment in 2020), and have often been chosen based on scientific rather than policy-relevant considerations (e.g., choosing quite substantial cooling specifically to achieve a bigger response). This limits the ability to compare risks both between SRM and non-SRM scenarios and between different SRM scenarios. To address this gap, we begin by outlining some general considerations on scenario design for SRM. We then describe a specific set of scenarios to capture a range of possible policy choices and uncertainties and present corresponding SAI simulations intended for broad community use.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

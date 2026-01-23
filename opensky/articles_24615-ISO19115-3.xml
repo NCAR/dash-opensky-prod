@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24615</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:12:58.010564</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:06:34.514602</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hawbecker, Patrick</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2641-6464"
+                                    xlink:title="Hawbecker, Patrick"
+                                    xlink:actuate="onRequest">Hawbecker, Patrick</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As the offshore wind industry emerges on the US East Coast, a comprehensive understanding of the wind resource &#x2013; particularly extreme events &#x2013; is vital to the industry's success. Such understanding has been hindered by a lack of publicly available wind profile observations in offshore wind energy areas. However, the New York State Energy Research and Development Authority recently funded the deployment of two floating lidars within two current lease areas off the coast of New Jersey. These floating lidars provide publicly available wind speed data from 20 to 200&#x2009;m height with a 20&#x2009;m vertical resolution. In this study, we leverage a year of these lidar data to quantify and characterize the frequent occurrence of high-wind-shear and low-level-jet events, both of which will have a considerable impact on turbine operation. In designing a detection algorithm for these events, we find that the typical, non-dimensional power-law-based wind shear exponent is insufficient to identify many of these extreme, high-wind-speed events. Rather, we find that the simple vertical gradient of wind speed better captures the events. Based on this detection method, we find that almost 100 independent events occur throughout the year with mean wind speed at 100&#x2009;m height and wind speed gradient of 16&#x2009;m&#x2009;s&#x2212;1 and 0.05&#x2009;s&#x2212;1, respectively. The events have strong seasonal variability, with the highest number of events in summer and the lowest in winter. A detailed analysis reveals that these events are enabled by an induced stable stratification when warmer air from the south flows over the colder mid-Atlantic waters, leading to a positive air&#x2013;sea temperature difference.</gco:CharacterString>
+            <gco:CharacterString>As the offshore wind industry emerges on the US East Coast, a comprehensive understanding of the wind resource – particularly extreme events – is vital to the industry's success. Such understanding has been hindered by a lack of publicly available wind profile observations in offshore wind energy areas. However, the New York State Energy Research and Development Authority recently funded the deployment of two floating lidars within two current lease areas off the coast of New Jersey. These floating lidars provide publicly available wind speed data from 20 to 200 m height with a 20 m vertical resolution. In this study, we leverage a year of these lidar data to quantify and characterize the frequent occurrence of high-wind-shear and low-level-jet events, both of which will have a considerable impact on turbine operation. In designing a detection algorithm for these events, we find that the typical, non-dimensional power-law-based wind shear exponent is insufficient to identify many of these extreme, high-wind-speed events. Rather, we find that the simple vertical gradient of wind speed better captures the events. Based on this detection method, we find that almost 100 independent events occur throughout the year with mean wind speed at 100 m height and wind speed gradient of 16 m s−1 and 0.05 s−1, respectively. The events have strong seasonal variability, with the highest number of events in summer and the lowest in winter. A detailed analysis reveals that these events are enabled by an induced stable stratification when warmer air from the south flows over the colder mid-Atlantic waters, leading to a positive air–sea temperature difference.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

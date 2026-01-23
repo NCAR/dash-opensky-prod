@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23719</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:14:12.865086</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:43:17.714067</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, Holger</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1223-3429"
+                                    xlink:title="Vömel, Holger"
+                                    xlink:actuate="onRequest">Vömel, Holger</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Witte, Jacquelyn</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4110-5277"
+                                    xlink:title="Witte, Jacquelyn"
+                                    xlink:actuate="onRequest">Witte, Jacquelyn</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>St&#xfc;bi, R.</gco:CharacterString>
+                        <gco:CharacterString>Stübi, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +272,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The electrochemical concentration cell (ECC) ozonesonde has been the main instrument for in situ profiling of ozone worldwide; yet, some details of its operation, which contribute to the ozone uncertainty budget, are not well understood. Here, we investigate the time response of the chemical reactions inside the ECC and how corrections can be used to remove some systematic biases. The analysis is based on the understanding that two reaction pathways involving ozone occur inside the ECC that generate electrical currents on two very different timescales. The main fast-reaction pathway with a time constant of about 20&#x2009;s is due the conversion of iodide to molecular iodine and the generation of two free electrons per ozone molecule. A secondary slow-reaction pathway involving the buffer generates an excess current of about 2&#x2009;%&#x2013;10&#x2009;% with a time constant of about 25&#x2009;min. This excess current can be interpreted as what has conventionally been considered the "background current". This contribution can be calculated and removed from the measured current instead of the background current. Here we provide an algorithm to calculate and remove the contribution of the slow-reaction pathway and to correct for the time lag of the fast-reaction pathway. This processing algorithm has been applied to ozonesonde profiles at Costa Rica and during the Central Equatorial Pacific Experiment (CEPEX) as well as to laboratory experiments evaluating the performance of ECC ozonesondes. At Costa Rica, where a 1&#x2009;%&#x2009;KI, 1/10th buffer solution is used, there is no change in the derived total ozone column; however, in the upper troposphere and lower stratosphere, average reported ozone concentrations increase by up to 7&#x2009;% and above 30&#x2009;km decrease by up to 7&#x2009;%. During CEPEX, where a 1&#x2009;%&#x2009;KI, full-buffer solution was used, ozone concentrations are increased mostly in the upper troposphere, with no change near the top of the profile. In the laboratory measurements, the processing algorithms have been applied to measurements using the majority of current sensing solutions and using only the stronger pump efficiency correction reported by Johnson et al. (2002). This improves the accuracy of the ECC sonde ozone profiles, especially for low ozone concentrations or large ozone gradients and removes systematic biases relative to the reference instruments. In the surface layer, operational procedures prior to launch, in particular the use of filters, influence how typical gradients above the surface are detected. The correction algorithm may report gradients that are steeper than originally reported, but their uncertainty is strongly influenced by the prelaunch procedures.</gco:CharacterString>
+            <gco:CharacterString>The electrochemical concentration cell (ECC) ozonesonde has been the main instrument for in situ profiling of ozone worldwide; yet, some details of its operation, which contribute to the ozone uncertainty budget, are not well understood. Here, we investigate the time response of the chemical reactions inside the ECC and how corrections can be used to remove some systematic biases. The analysis is based on the understanding that two reaction pathways involving ozone occur inside the ECC that generate electrical currents on two very different timescales. The main fast-reaction pathway with a time constant of about 20 s is due the conversion of iodide to molecular iodine and the generation of two free electrons per ozone molecule. A secondary slow-reaction pathway involving the buffer generates an excess current of about 2 %–10 % with a time constant of about 25 min. This excess current can be interpreted as what has conventionally been considered the "background current". This contribution can be calculated and removed from the measured current instead of the background current. Here we provide an algorithm to calculate and remove the contribution of the slow-reaction pathway and to correct for the time lag of the fast-reaction pathway. This processing algorithm has been applied to ozonesonde profiles at Costa Rica and during the Central Equatorial Pacific Experiment (CEPEX) as well as to laboratory experiments evaluating the performance of ECC ozonesondes. At Costa Rica, where a 1 % KI, 1/10th buffer solution is used, there is no change in the derived total ozone column; however, in the upper troposphere and lower stratosphere, average reported ozone concentrations increase by up to 7 % and above 30 km decrease by up to 7 %. During CEPEX, where a 1 % KI, full-buffer solution was used, ozone concentrations are increased mostly in the upper troposphere, with no change near the top of the profile. In the laboratory measurements, the processing algorithms have been applied to measurements using the majority of current sensing solutions and using only the stronger pump efficiency correction reported by Johnson et al. (2002). This improves the accuracy of the ECC sonde ozone profiles, especially for low ozone concentrations or large ozone gradients and removes systematic biases relative to the reference instruments. In the surface layer, operational procedures prior to launch, in particular the use of filters, influence how typical gradients above the surface are detected. The correction algorithm may report gradients that are steeper than originally reported, but their uncertainty is strongly influenced by the prelaunch procedures.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

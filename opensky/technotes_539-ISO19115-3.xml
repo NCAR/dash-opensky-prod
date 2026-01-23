@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:539</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:00.839519</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:48:39.600567</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The Sun4Cast&#xae; Solar Power Forecasting System: The Result of the Public-Private-Academic Partnership to Advance Solar Power Forecasting</gco:CharacterString>
+                  <gco:CharacterString>The Sun4Cast® Solar Power Forecasting System: The Result of the Public-Private-Academic Partnership to Advance Solar Power Forecasting</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Haupt, Sue Ellen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1142-7184"
+                                    xlink:title="Haupt, Sue Ellen"
+                                    xlink:actuate="onRequest">Haupt, Sue Ellen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1746-0746"
+                                    xlink:title="Kosović, Branko"
+                                    xlink:actuate="onRequest">Kosović, Branko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, Tara L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4066-0965"
+                                    xlink:title="Jensen, Tara L."
+                                    xlink:actuate="onRequest">Jensen, Tara L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee, Jared</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8841-0738"
+                                    xlink:title="Lee, Jared"
+                                    xlink:actuate="onRequest">Lee, Jared</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +166,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jim&#xe9;nez Munoz, Pedro A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9936-1890"
+                                    xlink:title="Jiménez Munoz, Pedro A."
+                                    xlink:actuate="onRequest">Jiménez Munoz, Pedro A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lazo, Jeffrey K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8051-4516"
+                                    xlink:title="Lazo, Jeffrey K."
+                                    xlink:actuate="onRequest">Lazo, Jeffrey K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCandless, Tyler</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2068-4193"
+                                    xlink:title="McCandless, Tyler"
+                                    xlink:actuate="onRequest">McCandless, Tyler</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +232,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Alessandrini, Stefano</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2977-5697"
+                                    xlink:title="Alessandrini, Stefano"
+                                    xlink:actuate="onRequest">Alessandrini, Stefano</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +244,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Delle Monache, Luca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4953-0881"
+                                    xlink:title="Delle Monache, Luca"
+                                    xlink:actuate="onRequest">Delle Monache, Luca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +356,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The National Center for Atmospheric Research (NCAR) led a partnership to advance the state-of-the-science of solar power forecasting by designing, developing, building, deploying, testing, and assessing the Sun4Cast&#xae; Solar Power Forecasting System. The project included cutting-edge research, testing in several geographically and climatologically diverse high penetration solar utilities and ISOs, and wide dissemination of the research results to raise the bar on solar power forecasting technology. The partners included three other national laboratories, six universities, and industry partners. This public-private-academic team worked in concert to advance solar power forecasting by performing use-inspired and cutting-edge research to improve the necessary forecasting technologies and the metrics for evaluating them. The project culminated in a year-long, full-scale demonstration of providing irradiance and power forecasts to utilities and ISOs to use in their operations. Research was conducted on the very short range (0-6 hours) Nowcasting system. This system includes multiple components based on observations, either measured at the site or remotely via satellite instruments: TSICast, StatCast, CIRACast, MADCast, WRF-Solar-Now, and MAD-WRF. The development of WRF-Solar under this project has provided the first numerical weather prediction (NWP) model specifically designed to meet the needs of irradiance forecasting. We found that WRF-Solar can improve clear sky irradiance prediction by 15-80% over a standard version of WRF, depending on location and cloud conditions. The Sun4Cast system requires substantial software engineering to blend all of the new model components as well as existing publicly available NWP model runs and observations in a Big Data problem. To do this we use an expert system for the Nowcasting blender and the Dynamic Integrated foreCast (DICast&#xae;) system for the NWP models. These two systems are then blended, use an empirical power conversion method to convert the irradiance predictions to power, and then apply an analog ensemble (AnEn) approach to further tune the forecast as well as to estimate its uncertainty. In addition, a Gridded Atmospheric Forecast System (GRAFS) was developed in parallel, which is useful for forecasting irradiance for distributed photovoltaic generation. An economic evaluation based on Production Cost Modeling in the Public Service Company of Colorado showed that the observed 50% improvement in forecast accuracy will save their customers $819,200 with the projected MW deployment for 2024. Using econometrics, NCAR scaled this savings to a national level and showed that an annual expected savings for this 50% forecast error reduction ranges from $11M in 2015 to $43M expected in 2040 with increased solar deployment. This amounts to $455M in potential discounted savings over the 26-year period of analysis.</gco:CharacterString>
+            <gco:CharacterString>The National Center for Atmospheric Research (NCAR) led a partnership to advance the state-of-the-science of solar power forecasting by designing, developing, building, deploying, testing, and assessing the Sun4Cast® Solar Power Forecasting System. The project included cutting-edge research, testing in several geographically and climatologically diverse high penetration solar utilities and ISOs, and wide dissemination of the research results to raise the bar on solar power forecasting technology. The partners included three other national laboratories, six universities, and industry partners. This public-private-academic team worked in concert to advance solar power forecasting by performing use-inspired and cutting-edge research to improve the necessary forecasting technologies and the metrics for evaluating them. The project culminated in a year-long, full-scale demonstration of providing irradiance and power forecasts to utilities and ISOs to use in their operations. Research was conducted on the very short range (0-6 hours) Nowcasting system. This system includes multiple components based on observations, either measured at the site or remotely via satellite instruments: TSICast, StatCast, CIRACast, MADCast, WRF-Solar-Now, and MAD-WRF. The development of WRF-Solar under this project has provided the first numerical weather prediction (NWP) model specifically designed to meet the needs of irradiance forecasting. We found that WRF-Solar can improve clear sky irradiance prediction by 15-80% over a standard version of WRF, depending on location and cloud conditions. The Sun4Cast system requires substantial software engineering to blend all of the new model components as well as existing publicly available NWP model runs and observations in a Big Data problem. To do this we use an expert system for the Nowcasting blender and the Dynamic Integrated foreCast (DICast®) system for the NWP models. These two systems are then blended, use an empirical power conversion method to convert the irradiance predictions to power, and then apply an analog ensemble (AnEn) approach to further tune the forecast as well as to estimate its uncertainty. In addition, a Gridded Atmospheric Forecast System (GRAFS) was developed in parallel, which is useful for forecasting irradiance for distributed photovoltaic generation. An economic evaluation based on Production Cost Modeling in the Public Service Company of Colorado showed that the observed 50% improvement in forecast accuracy will save their customers $819,200 with the projected MW deployment for 2024. Using econometrics, NCAR scaled this savings to a national level and showed that an annual expected savings for this 50% forecast error reduction ranges from $11M in 2015 to $43M expected in 2040 with increased solar deployment. This amounts to $455M in potential discounted savings over the 26-year period of analysis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

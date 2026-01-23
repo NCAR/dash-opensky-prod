@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15186</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:28:41.593224</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:59:09.176368</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The connection between the El Ni&#xf1;o Southern Oscillation (ENSO) and the Northern polar stratosphere has been established from observations and atmospheric modeling. Here a systematic inter-comparison of the sensitivity of the modeled stratosphere to ENSO in Chemistry Climate Models (CCMs) is reported. This work uses results from a number of the CCMs included in the 2006 ozone assessment. In the lower stratosphere, the mean of all model simulations reports a warming of the polar vortex during strong ENSO events in February&#x2013;March, consistent with but smaller than the estimate from satellite observations and ERA40 reanalysis. The anomalous warming is associated with an anomalous dynamical increase of column ozone north of 70&#xb0; N that is accompanied by coherent column ozone decrease in the Tropics, in agreement with that deduced from the NIWA column ozone database, implying an increased residual circulation in the mean of all model simulations during ENSO. The spread in the model responses is partly due to the large internal stratospheric variability and it is shown that it crucially depends on the representation of the tropospheric ENSO teleconnection in the models.</gco:CharacterString>
+            <gco:CharacterString>The connection between the El Niño Southern Oscillation (ENSO) and the Northern polar stratosphere has been established from observations and atmospheric modeling. Here a systematic inter-comparison of the sensitivity of the modeled stratosphere to ENSO in Chemistry Climate Models (CCMs) is reported. This work uses results from a number of the CCMs included in the 2006 ozone assessment. In the lower stratosphere, the mean of all model simulations reports a warming of the polar vortex during strong ENSO events in February–March, consistent with but smaller than the estimate from satellite observations and ERA40 reanalysis. The anomalous warming is associated with an anomalous dynamical increase of column ozone north of 70° N that is accompanied by coherent column ozone decrease in the Tropics, in agreement with that deduced from the NIWA column ozone database, implying an increased residual circulation in the mean of all model simulations during ENSO. The spread in the model responses is partly due to the large internal stratospheric variability and it is shown that it crucially depends on the representation of the tropospheric ENSO teleconnection in the models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

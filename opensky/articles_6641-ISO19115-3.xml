@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6641</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:36.247381</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:37:55.657340</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Latent heat flux profiles in the convective boundary layer (CBL) are obtained for the first time with the combination of the Deutsches Zentrum f&#xfc;r Luft- und Raumfahrt (DLR) water vapor differential absorption lidar (DIAL) and the NOAA high resolution Doppler wind lidar (HRDL). Both instruments were integrated nadir viewing on board the DLR Falcon research aircraft during the International H&#x2082;O Project (IHOP_2002) over the U.S. Southern Great Plains. Flux profiles from 300 to 2500 m AGL are computed from high spatial resolution (150 m horizontal and vertical) two-dimensional water vapor and vertical velocity lidar cross sections using the eddy covariance technique. Three flight segments on 7 June 2002 between 1000 and 1300 LT over western Oklahoma and southwestern Kansas are analyzed. On two segments with strong convection, the latent heat flux peaks at (700 &#xb1; 200) W m&amp;#8315&#xb2; in the entrainment zone and decreases linearly to (200 &#xb1; 100) W m&amp;#8315&#xb2; in the lower CBL. A water vapor budget analysis reveals that this flux divergence [(0.9 &#xb1; 0.4) g kg&#x207b;&#xb9; h&#x207b;&#xb9;] plus the advection (0.3 g kg&#x207b;&#xb9; h&#x207b;&#xb9;) are nearly balanced by substantial CBL drying [(1.5 &#xb1; 0.2) g kg&#x207b;&#xb9; h&#x207b;&#xb9;] observed by airborne and surface in situ instruments, within the limits of the overall budget rms error of 0.5 g kg&#x2212;1 h&#x2212;1. Entrainment of dry air from aloft and net upward humidity transport caused the CBL drying and finally inhibited the initiation of deep convection. All cospectra show significant contributions to the flux between 1- and 10-km wavelength, with peaks between 2 and 6 km, originating from large eddies. The main flux uncertainty is due to low sampling (55% rmse at mid-CBL), while instrument noise (15%) and systematic errors (7%) play a minor role. The combination of a water vapor and a wind lidar on an aircraft appears as an attractive new tool that allows measuring latent heat flux profiles from a single overflight of the investigated area.</gco:CharacterString>
+            <gco:CharacterString>Latent heat flux profiles in the convective boundary layer (CBL) are obtained for the first time with the combination of the Deutsches Zentrum für Luft- und Raumfahrt (DLR) water vapor differential absorption lidar (DIAL) and the NOAA high resolution Doppler wind lidar (HRDL). Both instruments were integrated nadir viewing on board the DLR Falcon research aircraft during the International H₂O Project (IHOP_2002) over the U.S. Southern Great Plains. Flux profiles from 300 to 2500 m AGL are computed from high spatial resolution (150 m horizontal and vertical) two-dimensional water vapor and vertical velocity lidar cross sections using the eddy covariance technique. Three flight segments on 7 June 2002 between 1000 and 1300 LT over western Oklahoma and southwestern Kansas are analyzed. On two segments with strong convection, the latent heat flux peaks at (700 ± 200) W m&amp;#8315² in the entrainment zone and decreases linearly to (200 ± 100) W m&amp;#8315² in the lower CBL. A water vapor budget analysis reveals that this flux divergence [(0.9 ± 0.4) g kg⁻¹ h⁻¹] plus the advection (0.3 g kg⁻¹ h⁻¹) are nearly balanced by substantial CBL drying [(1.5 ± 0.2) g kg⁻¹ h⁻¹] observed by airborne and surface in situ instruments, within the limits of the overall budget rms error of 0.5 g kg−1 h−1. Entrainment of dry air from aloft and net upward humidity transport caused the CBL drying and finally inhibited the initiation of deep convection. All cospectra show significant contributions to the flux between 1- and 10-km wavelength, with peaks between 2 and 6 km, originating from large eddies. The main flux uncertainty is due to low sampling (55% rmse at mid-CBL), while instrument noise (15%) and systematic errors (7%) play a minor role. The combination of a water vapor and a wind lidar on an aircraft appears as an attractive new tool that allows measuring latent heat flux profiles from a single overflight of the investigated area.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

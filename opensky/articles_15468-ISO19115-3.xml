@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15468</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:29:23.374850</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:00:54.114872</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bryan, George H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2444-3039"
+                                    xlink:title="Bryan, George H."
+                                    xlink:actuate="onRequest">Bryan, George H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rotunno, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3906-8785"
+                                    xlink:title="Rotunno, Richard"
+                                    xlink:actuate="onRequest">Rotunno, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Several studies have shown that the intensity of numerically simulated tropical cyclones can exceed (by 50%) a theoretical upper limit. To investigate the cause, this study evaluates the underlying components of Emanuel's commonly cited analytic theory for potential intensity (herein referred to as E-PI). A review of the derivation of E-PI highlights three primary components: a dynamical component (gradient-wind and hydrostatic balance); a thermodynamical component (reversible or pseudoadiabatic thermodynamics, although the pseudoadiabatic assumption yields greater intensity); and a planetary boundary layer (PBL) closure (which relates the horizontal gradients of entropy and angular momentum at the top of the PBL to fluxes and stresses at the ocean surface). These three components are evaluated using output from an axisymmetric numerical model. The present analysis finds the thermodynamical component and the PBL closure to be sufficiently accurate for several different simulations. In contrast, the dynamical component is clearly violated. Although the balanced portion of the flow (&#x3c5;g, to which E-PI applies) appears to also exceed E-PI, it is shown that this difference is attributable to the method used to calculate &#x3c5;g from the model output. Evidence is shown that &#x3c5;g for a truly balanced cyclone does not exceed E-PI. To clearly quantify the impact of unbalanced flow, a more complete analytic model is presented. The model is not expressed in terms of external conditions and thus cannot be used to predict maximum intensity for a given environment; however, it does allow for evaluation of the relative contributions to maximum intensity from balanced and unbalanced (i.e., inertial) terms in the governing equations. Using numerical model output, this more complete model is shown to accurately model maximum intensity. Analysis against observations further confirms that the effects of unbalanced flow on maximum intensity are not always negligible. The contribution to intensity from unbalanced flow can become negligible in axisymmetric models as radial turbulence (i.e., viscosity) increases, and this explains why some previous studies concluded that E-PI was an accurate upper bound for their simulations. Conclusions of this study are also compared and contrasted to those from previous studies.</gco:CharacterString>
+            <gco:CharacterString>Several studies have shown that the intensity of numerically simulated tropical cyclones can exceed (by 50%) a theoretical upper limit. To investigate the cause, this study evaluates the underlying components of Emanuel's commonly cited analytic theory for potential intensity (herein referred to as E-PI). A review of the derivation of E-PI highlights three primary components: a dynamical component (gradient-wind and hydrostatic balance); a thermodynamical component (reversible or pseudoadiabatic thermodynamics, although the pseudoadiabatic assumption yields greater intensity); and a planetary boundary layer (PBL) closure (which relates the horizontal gradients of entropy and angular momentum at the top of the PBL to fluxes and stresses at the ocean surface). These three components are evaluated using output from an axisymmetric numerical model. The present analysis finds the thermodynamical component and the PBL closure to be sufficiently accurate for several different simulations. In contrast, the dynamical component is clearly violated. Although the balanced portion of the flow (υg, to which E-PI applies) appears to also exceed E-PI, it is shown that this difference is attributable to the method used to calculate υg from the model output. Evidence is shown that υg for a truly balanced cyclone does not exceed E-PI. To clearly quantify the impact of unbalanced flow, a more complete analytic model is presented. The model is not expressed in terms of external conditions and thus cannot be used to predict maximum intensity for a given environment; however, it does allow for evaluation of the relative contributions to maximum intensity from balanced and unbalanced (i.e., inertial) terms in the governing equations. Using numerical model output, this more complete model is shown to accurately model maximum intensity. Analysis against observations further confirms that the effects of unbalanced flow on maximum intensity are not always negligible. The contribution to intensity from unbalanced flow can become negligible in axisymmetric models as radial turbulence (i.e., viscosity) increases, and this explains why some previous studies concluded that E-PI was an accurate upper bound for their simulations. Conclusions of this study are also compared and contrasted to those from previous studies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25694</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:03:44.899777</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:45:16.058617</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xue, Lulin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5501-9134"
+                                    xlink:title="Xue, Lulin"
+                                    xlink:actuate="onRequest">Xue, Lulin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +260,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Juliano, Timothy W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0417-0886"
+                                    xlink:title="Juliano, Timothy W."
+                                    xlink:actuate="onRequest">Juliano, Timothy W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +282,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1746-0746"
+                                    xlink:title="Kosović, Branko"
+                                    xlink:actuate="onRequest">Kosović, Branko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +314,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>L&#xfc;pkes, C.</gco:CharacterString>
+                        <gco:CharacterString>Lüpkes, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -387,7 +394,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tjernstr&#xf6;m, M.</gco:CharacterString>
+                        <gco:CharacterString>Tjernström, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -457,7 +464,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>One of the most intense air mass transformations on Earth happens when cold air flows from frozen surfaces to much warmer open water in cold-air outbreaks (CAOs), a process captured beautifully in satellite imagery. Despite the ubiquity of the CAO cloud regime over high-latitude oceans, we have a rather poor understanding of its properties, its role in energy and water cycles, and its treatment in weather and climate models. The Cold-Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE) was conducted to better understand this regime and its representation in models. COMBLE aimed to examine the relations between surface fluxes, boundary layer structure, aerosol, cloud, and precipitation properties, and mesoscale circulations in marine CAOs. Processes affecting these properties largely fall in a range of scales where boundary layer processes, convection, and precipitation are tightly coupled, which makes accurate representation of the CAO cloud regime in numerical weather prediction and global climate models most challenging. COMBLE deployed an Atmospheric Radiation Measurement Mobile Facility at a coastal site in northern Scandinavia (69&#xb0;N), with additional instruments on Bear Island (75&#xb0;N), from December 2019 to May 2020. CAO conditions were experienced 19% (21%) of the time at the main site (on Bear Island). A comprehensive suite of continuous in situ and remote sensing observations of atmospheric conditions, clouds, precipitation, and aerosol were collected. Because of the clouds' well-defined origin, their shallow depth, and the broad range of observed temperature and aerosol concentrations, the COMBLE dataset provides a powerful modeling testbed for improving the representation of mixed-phase cloud processes in large-eddy simulations and large-scale models.</gco:CharacterString>
+            <gco:CharacterString>One of the most intense air mass transformations on Earth happens when cold air flows from frozen surfaces to much warmer open water in cold-air outbreaks (CAOs), a process captured beautifully in satellite imagery. Despite the ubiquity of the CAO cloud regime over high-latitude oceans, we have a rather poor understanding of its properties, its role in energy and water cycles, and its treatment in weather and climate models. The Cold-Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE) was conducted to better understand this regime and its representation in models. COMBLE aimed to examine the relations between surface fluxes, boundary layer structure, aerosol, cloud, and precipitation properties, and mesoscale circulations in marine CAOs. Processes affecting these properties largely fall in a range of scales where boundary layer processes, convection, and precipitation are tightly coupled, which makes accurate representation of the CAO cloud regime in numerical weather prediction and global climate models most challenging. COMBLE deployed an Atmospheric Radiation Measurement Mobile Facility at a coastal site in northern Scandinavia (69°N), with additional instruments on Bear Island (75°N), from December 2019 to May 2020. CAO conditions were experienced 19% (21%) of the time at the main site (on Bear Island). A comprehensive suite of continuous in situ and remote sensing observations of atmospheric conditions, clouds, precipitation, and aerosol were collected. Because of the clouds' well-defined origin, their shallow depth, and the broad range of observed temperature and aerosol concentrations, the COMBLE dataset provides a powerful modeling testbed for improving the representation of mixed-phase cloud processes in large-eddy simulations and large-scale models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27222</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:13:41.651880</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:21:44.441714</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -267,7 +268,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +280,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wieder, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7116-1985"
+                                    xlink:title="Wieder, William"
+                                    xlink:actuate="onRequest">Wieder, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +352,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Surficial enhanced rock weathering (ERW) is a land-based carbon dioxide removal (CDR) strategy that involves applying crushed silicate rock (e.g., basalt) to agricultural soils. However, unintended biogeochemical interactions with the nitrogen cycle may arise through ERW increasing soil pH as basalt grains undergo dissolution that may reinforce, counteract, or even offset the climate benefits from carbon sequestration. Increases in soil pH could drive changes in the soil emissions of key non-CO2 greenhouse gases, e.g., nitrous oxide (N2O), and trace gases, e.g., nitric oxide (NO) and ammonia (NH3), that affect air quality and crop and human health. We present the development and implementation of a new improved nitrogen cycling scheme for the Community Land Model v5 (CLM5), the land component of the Community Earth System Model, allowing evaluation of ERW effects on soil gas emissions. We base the new parameterizations on datasets derived from soil pH responses of N2O, NO, and NH3 in ERW field trial and mesocosm experiments with crushed basalt. These new capabilities involve the direct implementation of routines within the CLM5 N cycle framework, along with asynchronous coupling of soil pH changes estimated through an ERW model. We successfully validated simulated "control" (i.e., no ERW) seasonal cycles of soil N2O, NO, and NH3 emissions against a wide range of global emission inventories. We benchmark simulated mitigation of soil N2O fluxes in response to ERW against a subset of data from ERW field trials in the US Corn Belt. Using the new scheme, we provide a specific example of the effect of large-scale ERW deployment with croplands on soil nitrogen fluxes across five key regions with high potential for CDR with ERW (North America, Brazil, Europe, India, and China). Across these regions, ERW implementation led to marked reductions in N2O and NO (both 18&#x2009;%), with moderate increases in NH3 (2&#x2009;%). While further developments are still required in our implementations when additional ERW data become available, our improved N cycle scheme within CLM5 has utility for investigating the potential of ERW point-source and regional effects of soil N2O, NO, and NH3 fluxes in response to current and future climates. This framework also provides the basis for assessing the implications of ERW for air quality given the role of NO in tropospheric ozone formation, as well as both NO and NH3 in inorganic aerosol formation.</gco:CharacterString>
+            <gco:CharacterString>Surficial enhanced rock weathering (ERW) is a land-based carbon dioxide removal (CDR) strategy that involves applying crushed silicate rock (e.g., basalt) to agricultural soils. However, unintended biogeochemical interactions with the nitrogen cycle may arise through ERW increasing soil pH as basalt grains undergo dissolution that may reinforce, counteract, or even offset the climate benefits from carbon sequestration. Increases in soil pH could drive changes in the soil emissions of key non-CO2 greenhouse gases, e.g., nitrous oxide (N2O), and trace gases, e.g., nitric oxide (NO) and ammonia (NH3), that affect air quality and crop and human health. We present the development and implementation of a new improved nitrogen cycling scheme for the Community Land Model v5 (CLM5), the land component of the Community Earth System Model, allowing evaluation of ERW effects on soil gas emissions. We base the new parameterizations on datasets derived from soil pH responses of N2O, NO, and NH3 in ERW field trial and mesocosm experiments with crushed basalt. These new capabilities involve the direct implementation of routines within the CLM5 N cycle framework, along with asynchronous coupling of soil pH changes estimated through an ERW model. We successfully validated simulated "control" (i.e., no ERW) seasonal cycles of soil N2O, NO, and NH3 emissions against a wide range of global emission inventories. We benchmark simulated mitigation of soil N2O fluxes in response to ERW against a subset of data from ERW field trials in the US Corn Belt. Using the new scheme, we provide a specific example of the effect of large-scale ERW deployment with croplands on soil nitrogen fluxes across five key regions with high potential for CDR with ERW (North America, Brazil, Europe, India, and China). Across these regions, ERW implementation led to marked reductions in N2O and NO (both 18 %), with moderate increases in NH3 (2 %). While further developments are still required in our implementations when additional ERW data become available, our improved N cycle scheme within CLM5 has utility for investigating the potential of ERW point-source and regional effects of soil N2O, NO, and NH3 fluxes in response to current and future climates. This framework also provides the basis for assessing the implications of ERW for air quality given the role of NO in tropospheric ozone formation, as well as both NO and NH3 in inorganic aerosol formation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

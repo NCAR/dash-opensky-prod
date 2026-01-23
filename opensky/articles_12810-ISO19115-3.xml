@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12810</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:16:55.921129</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:41:24.374032</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -317,7 +318,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +370,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Solar geoengineering--deliberate reduction in the amount of solar radiation retained by the Earth--has been proposed as a means of counteracting some of the climatic effects of anthropogenic greenhouse gas emissions. We present results from Experiment G1 of the Geoengineering Model Intercomparison Project, in which 12 climate models have simulated the climate response to an abrupt quadrupling of CO&#x2082; from preindustrial concentrations brought into radiative balance via a globally uniform reduction in insolation. Models show this reduction largely offsets global mean surface temperature increases due to quadrupled CO&#x2082; concentrations and prevents 97% of the Arctic sea ice loss that would otherwise occur under high CO&#x2082; levels but, compared to the preindustrial climate, leaves the tropics cooler (-0.3 K) and the poles warmer (+0.8 K). Annual mean precipitation minus evaporation anomalies for G1 are less than 0.2 mm day&#x207b;&#xb9; in magnitude over 92% of the globe, but some tropical regions receive less precipitation, in part due to increased moist static stability and suppression of convection. Global average net primary productivity increases by 120% in G1 over simulated preindustrial levels, primarily from CO&#x2082; fertilization, but also in part due to reduced plant heat stress compared to a high CO&#x2082; world with no geoengineering. All models show that uniform solar geoengineering in G1 cannot simultaneously return regional and global temperature and hydrologic cycle intensity to preindustrial levels.</gco:CharacterString>
+            <gco:CharacterString>Solar geoengineering--deliberate reduction in the amount of solar radiation retained by the Earth--has been proposed as a means of counteracting some of the climatic effects of anthropogenic greenhouse gas emissions. We present results from Experiment G1 of the Geoengineering Model Intercomparison Project, in which 12 climate models have simulated the climate response to an abrupt quadrupling of CO₂ from preindustrial concentrations brought into radiative balance via a globally uniform reduction in insolation. Models show this reduction largely offsets global mean surface temperature increases due to quadrupled CO₂ concentrations and prevents 97% of the Arctic sea ice loss that would otherwise occur under high CO₂ levels but, compared to the preindustrial climate, leaves the tropics cooler (-0.3 K) and the poles warmer (+0.8 K). Annual mean precipitation minus evaporation anomalies for G1 are less than 0.2 mm day⁻¹ in magnitude over 92% of the globe, but some tropical regions receive less precipitation, in part due to increased moist static stability and suppression of convection. Global average net primary productivity increases by 120% in G1 over simulated preindustrial levels, primarily from CO₂ fertilization, but also in part due to reduced plant heat stress compared to a high CO₂ world with no geoengineering. All models show that uniform solar geoengineering in G1 cannot simultaneously return regional and global temperature and hydrologic cycle intensity to preindustrial levels.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12587</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:31:24.987316</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:52:13.473352</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9252-0286"
+                                    xlink:title="Barth, Mary"
+                                    xlink:actuate="onRequest">Barth, Mary</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Skamarock, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6667-2446"
+                                    xlink:title="Skamarock, William"
+                                    xlink:actuate="onRequest">Skamarock, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +216,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To study the meteorology and chemistry that is associated with the early stages of the North American Monsoon, the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) is applied for the first time at high resolution (4 km grid spacing, allowing for explicit representation of convection) over a large region (continental US and northern Mexico) for a multi-week (15 July to 7 August 2006) integration. Evaluation of model results shows that WRF-Chem reasonably represents the large-scale meteorology and strong convective storms, but tends to overestimate weak convection. In the upper troposphere, the WRF-Chem model predicts ozone (O&#x2083;) and carbon monoxide (CO) to within 10-20% of aircraft and sonde measurements. Comparison of UT O&#x2083; and CO frequency distributions between WRF-Chem and satellite data indicates that WRF-Chem is lofting CO too frequently from the boundary layer (BL). This excessive lofting should also cause biases in the WRF-Chem ozone frequency distribution; however it agrees well with satellite data suggesting that either the chemical production of O&#x2083; in the model is overpredicted or there is too much stratosphere to troposphere transport in the model. Analysis of different geographic regions (West Coast, Rocky Mountains, Central Plains, Midwest, and Gulf Coast) reveals that much of the convective transport occurs in the Rocky Mountains, while much of the UT ozone chemical production occurs over the Gulf Coast and Midwest regions where both CO and volatile organic compounds (VOCs) are abundant in the upper troposphere and promote the production of peroxy radicals. In all regions most of the ozone chemical production occurs within 24 h of the air being lofted from the boundary layer. In addition, analysis of the anticyclone and adjacent air indicates that ozone mixing ratios within the anticyclone region associated with the North American Monsoon and just outside the anticyclone are similar. Increases of O&#x2083; within the anticyclone are strongly coincident with entrainment of stratospheric air into the anticyclone, but also are from in situ O&#x2083; chemical production. In situ O&#x2083; production is up to 17% greater within the anticyclone than just outside the anticyclone when the anticyclone is over the southern US indicating that the enhancement of O&#x2083; is most pronounced over regions with abundant VOCs.</gco:CharacterString>
+            <gco:CharacterString>To study the meteorology and chemistry that is associated with the early stages of the North American Monsoon, the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) is applied for the first time at high resolution (4 km grid spacing, allowing for explicit representation of convection) over a large region (continental US and northern Mexico) for a multi-week (15 July to 7 August 2006) integration. Evaluation of model results shows that WRF-Chem reasonably represents the large-scale meteorology and strong convective storms, but tends to overestimate weak convection. In the upper troposphere, the WRF-Chem model predicts ozone (O₃) and carbon monoxide (CO) to within 10-20% of aircraft and sonde measurements. Comparison of UT O₃ and CO frequency distributions between WRF-Chem and satellite data indicates that WRF-Chem is lofting CO too frequently from the boundary layer (BL). This excessive lofting should also cause biases in the WRF-Chem ozone frequency distribution; however it agrees well with satellite data suggesting that either the chemical production of O₃ in the model is overpredicted or there is too much stratosphere to troposphere transport in the model. Analysis of different geographic regions (West Coast, Rocky Mountains, Central Plains, Midwest, and Gulf Coast) reveals that much of the convective transport occurs in the Rocky Mountains, while much of the UT ozone chemical production occurs over the Gulf Coast and Midwest regions where both CO and volatile organic compounds (VOCs) are abundant in the upper troposphere and promote the production of peroxy radicals. In all regions most of the ozone chemical production occurs within 24 h of the air being lofted from the boundary layer. In addition, analysis of the anticyclone and adjacent air indicates that ozone mixing ratios within the anticyclone region associated with the North American Monsoon and just outside the anticyclone are similar. Increases of O₃ within the anticyclone are strongly coincident with entrainment of stratospheric air into the anticyclone, but also are from in situ O₃ chemical production. In situ O₃ production is up to 17% greater within the anticyclone than just outside the anticyclone when the anticyclone is over the southern US indicating that the enhancement of O₃ is most pronounced over regions with abundant VOCs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

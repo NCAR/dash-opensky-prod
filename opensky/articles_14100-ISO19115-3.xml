@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14100</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:10:07.615151</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:31:32.748325</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -387,7 +388,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This scientific assessment examines changes in three climate extremes&#x2014;extratropical storms, winds, and waves&#x2014;with an emphasis on U.S. coastal regions during the cold season. There is moderate evidence of an increase in both extratropical storm frequency and intensity during the cold season in the Northern Hemisphere since 1950, with suggestive evidence of geographic shifts resulting in slight upward trends in offshore/coastal regions. There is also suggestive evidence of an increase in extreme winds (at least annually) over parts of the ocean since the early to mid-1980s, but the evidence over the U.S. land surface is inconclusive. Finally, there is moderate evidence of an increase in extreme waves in winter along the Pacific coast since the 1950s, but along other U.S. shorelines any tendencies are of modest magnitude compared with historical variability. The data for extratropical cyclones are considered to be of relatively high quality for trend detection, whereas the data for extreme winds and waves are judged to be of intermediate quality. In terms of physical causes leading to multidecadal changes, the level of understanding for both extratropical storms and extreme winds is considered to be relatively low, while that for extreme waves is judged to be intermediate. Since the ability to measure these changes with some confidence is relatively recent, understanding is expected to improve in the future for a variety of reasons, including increased periods of record and the development of "climate reanalysis" projects.</gco:CharacterString>
+            <gco:CharacterString>This scientific assessment examines changes in three climate extremes—extratropical storms, winds, and waves—with an emphasis on U.S. coastal regions during the cold season. There is moderate evidence of an increase in both extratropical storm frequency and intensity during the cold season in the Northern Hemisphere since 1950, with suggestive evidence of geographic shifts resulting in slight upward trends in offshore/coastal regions. There is also suggestive evidence of an increase in extreme winds (at least annually) over parts of the ocean since the early to mid-1980s, but the evidence over the U.S. land surface is inconclusive. Finally, there is moderate evidence of an increase in extreme waves in winter along the Pacific coast since the 1950s, but along other U.S. shorelines any tendencies are of modest magnitude compared with historical variability. The data for extratropical cyclones are considered to be of relatively high quality for trend detection, whereas the data for extreme winds and waves are judged to be of intermediate quality. In terms of physical causes leading to multidecadal changes, the level of understanding for both extratropical storms and extreme winds is considered to be relatively low, while that for extreme waves is judged to be intermediate. Since the ability to measure these changes with some confidence is relatively recent, understanding is expected to improve in the future for a variety of reasons, including increased periods of record and the development of "climate reanalysis" projects.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6363</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:59.994863</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:26:54.567350</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vitt, Francis M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8684-214X"
+                                    xlink:title="Vitt, Francis M."
+                                    xlink:actuate="onRequest">Vitt, Francis M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study we estimate the radiative impact of wildfires in Alaska during the record wildfire season of 2004 by integrating model simulations and satellite observations of the top of the atmosphere (TOA) radiative fluxes and aerosol optical depth. We compare results for the summer of 2004 to results for the summer of 2000 when fire activity in the boreal zone was low. Both observations and model show a decrease in TOA clear-sky fluxes over the Alaska fire region during summer 2004 of &#x2212;7 &#xb1; 6 W m&#x207b;&#xb2; and -10 &#xb1; 4 W m&#x207b;&#xb2;, respectively. About two thirds of the change occurs in the longwave, and one third in the shortwave, spectral range. On the bases of detailed model analysis we estimate that the changes in the longwave flux are predominantly explained by a higher surface temperature in summer 2004 compared to 2000. The change in the shortwave flux is largely caused by scattering of solar radiation on organic carbon aerosols emitted from the 2004 fires. This cooling is somewhat mitigated by the warming effect due to absorbing black carbon aerosols emitted from the fires and to a lesser extent by ozone and other greenhouse gases produced and released from the fires. Sensitivity studies with varying aerosol emission scenarios indicate that the ratio of black to organic carbon aerosol emissions of the boreal fires used in this study needs to be increased considerably to match both observations of aerosol optical depth and TOA radiation fluxes, or the biomass burning aerosols must be considerably more absorbing than parameterized in the model. While this study cannot resolve the cause of this discrepancy, it presents a powerful methodology to constrain aerosol emissions. This methodology will benefit from future improvements in measurements and modeling techniques.</gco:CharacterString>
+            <gco:CharacterString>In this study we estimate the radiative impact of wildfires in Alaska during the record wildfire season of 2004 by integrating model simulations and satellite observations of the top of the atmosphere (TOA) radiative fluxes and aerosol optical depth. We compare results for the summer of 2004 to results for the summer of 2000 when fire activity in the boreal zone was low. Both observations and model show a decrease in TOA clear-sky fluxes over the Alaska fire region during summer 2004 of −7 ± 6 W m⁻² and -10 ± 4 W m⁻², respectively. About two thirds of the change occurs in the longwave, and one third in the shortwave, spectral range. On the bases of detailed model analysis we estimate that the changes in the longwave flux are predominantly explained by a higher surface temperature in summer 2004 compared to 2000. The change in the shortwave flux is largely caused by scattering of solar radiation on organic carbon aerosols emitted from the 2004 fires. This cooling is somewhat mitigated by the warming effect due to absorbing black carbon aerosols emitted from the fires and to a lesser extent by ozone and other greenhouse gases produced and released from the fires. Sensitivity studies with varying aerosol emission scenarios indicate that the ratio of black to organic carbon aerosol emissions of the boreal fires used in this study needs to be increased considerably to match both observations of aerosol optical depth and TOA radiation fluxes, or the biomass burning aerosols must be considerably more absorbing than parameterized in the model. While this study cannot resolve the cause of this discrepancy, it presents a powerful methodology to constrain aerosol emissions. This methodology will benefit from future improvements in measurements and modeling techniques.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

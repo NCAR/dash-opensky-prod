@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24762</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:10:39.573850</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:01:11.850769</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Biomass burning emits an estimated 25&#x2009;% of global annual nitrogen oxides (NOx), an important constituent that participates in the oxidative chemistry of the atmosphere. Estimates of NOx emission factors, representing the amount of NOx per mass burned, are primarily based on field or laboratory case studies, but the sporadic and transient nature of wildfires makes it challenging to verify whether these case studies represent the behavior of the global fires that occur on earth. Satellite remote sensing provides a unique view of the earth, allowing for the study of emissions and downwind evolution of NOx from a large number of fires. We describe direct estimates of NOx emissions and lifetimes for fires using an exponentially modified Gaussian analysis of daily TROPOspheric Monitoring Instrument (TROPOMI) retrievals of NO2 tropospheric columns. We update the a priori profile of NO2 with a fine-resolution (0.25&#x2218;) global model simulation from NASA's GEOS Composition Forecasting System (GEOS-CF), which largely enhances NO2 columns over fire plumes. We derive representative NOx emission factors for six fuel types globally by linking TROPOMI-derived NOx emissions with observations of fire radiative power from Moderate Resolution Imaging Spectroradiometer (MODIS). Satellite-derived NOx emission factors are largely consistent with those derived from in situ measurements. We observe decreasing NOx lifetime with fire emissions, which we infer is due to the increase in both NOx abundance and hydroxyl radical production. Our findings suggest promise for applying space-based observations to track the emissions and chemical evolution of reactive nitrogen from wildfires.</gco:CharacterString>
+            <gco:CharacterString>Biomass burning emits an estimated 25 % of global annual nitrogen oxides (NOx), an important constituent that participates in the oxidative chemistry of the atmosphere. Estimates of NOx emission factors, representing the amount of NOx per mass burned, are primarily based on field or laboratory case studies, but the sporadic and transient nature of wildfires makes it challenging to verify whether these case studies represent the behavior of the global fires that occur on earth. Satellite remote sensing provides a unique view of the earth, allowing for the study of emissions and downwind evolution of NOx from a large number of fires. We describe direct estimates of NOx emissions and lifetimes for fires using an exponentially modified Gaussian analysis of daily TROPOspheric Monitoring Instrument (TROPOMI) retrievals of NO2 tropospheric columns. We update the a priori profile of NO2 with a fine-resolution (0.25∘) global model simulation from NASA's GEOS Composition Forecasting System (GEOS-CF), which largely enhances NO2 columns over fire plumes. We derive representative NOx emission factors for six fuel types globally by linking TROPOMI-derived NOx emissions with observations of fire radiative power from Moderate Resolution Imaging Spectroradiometer (MODIS). Satellite-derived NOx emission factors are largely consistent with those derived from in situ measurements. We observe decreasing NOx lifetime with fire emissions, which we infer is due to the increase in both NOx abundance and hydroxyl radical production. Our findings suggest promise for applying space-based observations to track the emissions and chemical evolution of reactive nitrogen from wildfires.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

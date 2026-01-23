@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22949</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:25.268270</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:22:31.676212</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Murakami, Hiroyuki</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1816-3452"
+                                    xlink:title="Murakami, Hiroyuki"
+                                    xlink:actuate="onRequest">Murakami, Hiroyuki</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cooke, William F.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4550-3210"
+                                    xlink:title="Cooke, William F."
+                                    xlink:actuate="onRequest">Cooke, William F.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -397,7 +402,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yang, Xiaosong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5601-9710"
+                                    xlink:title="Yang, Xiaosong"
+                                    xlink:actuate="onRequest">Yang, Xiaosong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -417,7 +424,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Responses of tropical cyclones (TCs) to CO2 doubling are explored using coupled global climate models (GCMs) with increasingly refined atmospheric/land horizontal grids (~&#x2009;200 km,&#x2009;~&#x2009;50 km, and&#x2009;~&#x2009;25 km). The three models exhibit similar changes in background climate fields thought to regulate TC activity, such as relative sea surface temperature (SST), potential intensity, and wind shear. However, global TC frequency decreases substantially in the 50 km model, while the 25 km model shows no significant change. The&#x2009;~&#x2009;25 km model also has a substantial and spatially-ubiquitous increase of Category 3&#x2013;4&#x2013;5 hurricanes. Idealized perturbation experiments are performed to understand the TC response. Each model's transient fully-coupled 2&#x2009;&#xd7;&#x2009;CO2 TC activity response is largely recovered by "time-slice" experiments using time-invariant SST perturbations added to each model's own SST climatology. The TC response to SST forcing depends on each model's background climatological SST biases: removing these biases leads to a global TC intensity increase in the&#x2009;~&#x2009;50 km model, and a global TC frequency increase in the&#x2009;~&#x2009;25 km model, in response to CO2-induced warming patterns and CO2 doubling. Isolated CO2 doubling leads to a significant TC frequency decrease, while isolated uniform SST warming leads to a significant global TC frequency increase; the&#x2009;~&#x2009;25 km model has a greater tendency for frequency increase. Global TC frequency responds to both (1) changes in TC "seeds", which increase due to warming (more so in the&#x2009;~&#x2009;25 km model) and decrease due to higher CO2 concentrations, and (2) less efficient development of these"seeds" into TCs, largely due to the nonlinear relation between temperature and saturation specific humidity.</gco:CharacterString>
+            <gco:CharacterString>Responses of tropical cyclones (TCs) to CO2 doubling are explored using coupled global climate models (GCMs) with increasingly refined atmospheric/land horizontal grids (~ 200 km, ~ 50 km, and ~ 25 km). The three models exhibit similar changes in background climate fields thought to regulate TC activity, such as relative sea surface temperature (SST), potential intensity, and wind shear. However, global TC frequency decreases substantially in the 50 km model, while the 25 km model shows no significant change. The ~ 25 km model also has a substantial and spatially-ubiquitous increase of Category 3–4–5 hurricanes. Idealized perturbation experiments are performed to understand the TC response. Each model's transient fully-coupled 2 × CO2 TC activity response is largely recovered by "time-slice" experiments using time-invariant SST perturbations added to each model's own SST climatology. The TC response to SST forcing depends on each model's background climatological SST biases: removing these biases leads to a global TC intensity increase in the ~ 50 km model, and a global TC frequency increase in the ~ 25 km model, in response to CO2-induced warming patterns and CO2 doubling. Isolated CO2 doubling leads to a significant TC frequency decrease, while isolated uniform SST warming leads to a significant global TC frequency increase; the ~ 25 km model has a greater tendency for frequency increase. Global TC frequency responds to both (1) changes in TC "seeds", which increase due to warming (more so in the ~ 25 km model) and decrease due to higher CO2 concentrations, and (2) less efficient development of these"seeds" into TCs, largely due to the nonlinear relation between temperature and saturation specific humidity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

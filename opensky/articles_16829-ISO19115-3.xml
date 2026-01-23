@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16829</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:53.689689</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:08:06.005771</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Prein, Andreas</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6250-179X"
+                                    xlink:title="Prein, Andreas"
+                                    xlink:actuate="onRequest">Prein, Andreas</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xf6;lle, M.</gco:CharacterString>
+                        <gco:CharacterString>Tölle, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +280,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Regional climate modeling using convection-permitting models (CPMs; horizontal grid spacing &lt;4&#x2009;km) emerges as a promising framework to provide more reliable climate information on regional to local scales compared to traditionally used large-scale models (LSMs; horizontal grid spacing &gt;10&#x2009;km). CPMs no longer rely on convection parameterization schemes, which had been identified as a major source of errors and uncertainties in LSMs. Moreover, CPMs allow for a more accurate representation of surface and orography fields. The drawback of CPMs is the high demand on computational resources. For this reason, first CPM climate simulations only appeared a decade ago. In this study, we aim to provide a common basis for CPM climate simulations by giving a holistic review of the topic. The most important components in CPMs such as physical parameterizations and dynamical formulations are discussed critically. An overview of weaknesses and an outlook on required future developments is provided. Most importantly, this review presents the consolidated outcome of studies that addressed the added value of CPM climate simulations compared to LSMs. Improvements are evident mostly for climate statistics related to deep convection, mountainous regions, or extreme events. The climate change signals of CPM simulations suggest an increase in flash floods, changes in hail storm characteristics, and reductions in the snowpack over mountains. In conclusion, CPMs are a very promising tool for future climate research. However, coordinated modeling programs are crucially needed to advance parameterizations of unresolved physics and to assess the full potential of CPMs.</gco:CharacterString>
+            <gco:CharacterString>Regional climate modeling using convection-permitting models (CPMs; horizontal grid spacing &lt;4 km) emerges as a promising framework to provide more reliable climate information on regional to local scales compared to traditionally used large-scale models (LSMs; horizontal grid spacing &gt;10 km). CPMs no longer rely on convection parameterization schemes, which had been identified as a major source of errors and uncertainties in LSMs. Moreover, CPMs allow for a more accurate representation of surface and orography fields. The drawback of CPMs is the high demand on computational resources. For this reason, first CPM climate simulations only appeared a decade ago. In this study, we aim to provide a common basis for CPM climate simulations by giving a holistic review of the topic. The most important components in CPMs such as physical parameterizations and dynamical formulations are discussed critically. An overview of weaknesses and an outlook on required future developments is provided. Most importantly, this review presents the consolidated outcome of studies that addressed the added value of CPM climate simulations compared to LSMs. Improvements are evident mostly for climate statistics related to deep convection, mountainous regions, or extreme events. The climate change signals of CPM simulations suggest an increase in flash floods, changes in hail storm characteristics, and reductions in the snowpack over mountains. In conclusion, CPMs are a very promising tool for future climate research. However, coordinated modeling programs are crucially needed to advance parameterizations of unresolved physics and to assess the full potential of CPMs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6794</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:27.466697</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:34:58.404084</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Using the European incoherent scatter (EISCAT) Svalbard radar located in Longyearbyen (78.2&#xb0;N, 16.0&#xb0;E) and with the EISCAT UHF radar located in Troms&#xf8; (69.6&#xb0;N, 19.2&#xb0;E), we have analyzed the data obtained for six consecutive days from 1000 UT on 1 July 1999 to 1000 UT on 7 July 1999 to investigate the importance of ion drag on the lower thermospheric wind dynamics in the summer polar region. The electric field observed at Longyearbyen exhibited a stable diurnal variation primarily occurring throughout the first 3 days of observations, while, during the latter 3 days, the diurnal variation was not clearly identified. The electric field observed at Troms&#xf8; did not exhibit such a stable variation. On the basis of the difference of the electric field variation observed at Longyearbyen, we divided the data sets into two intervals with a length of 3 days each. We compared the horizontal velocities of the ions and the neutral gases. At upper heights (&#x223c;110&#x2013;120 km) on the first 3 days, the difference between the ion and neutral motion was clearly identified at Longyearbyen, while it was not at Troms&#xf8;. We compared the diurnal tidal amplitudes and phases of the two intervals derived from the Longyearbyen data. The amplitude of the meridional diurnal tide for the first 3 days was larger than that of the latter 3 days over the height region between 100 and 118 km at Longyearbyen. Furthermore, we compared ion drag accelerations with total accelerations. We concluded that the ion drag played an important role in the diurnal amplitude at Longyearbyen on the first 3 days of the observations. In addition, we compared the National Center for Atmospheric Research thermosphere-ionosphere-mesosphere-electrodynamics general circulation model (TIME-GCM) predictions with the observations. The TIME-GCM predictions also indicated that the diurnal tide is influenced by the convection electric field.</gco:CharacterString>
+            <gco:CharacterString>Using the European incoherent scatter (EISCAT) Svalbard radar located in Longyearbyen (78.2°N, 16.0°E) and with the EISCAT UHF radar located in Tromsø (69.6°N, 19.2°E), we have analyzed the data obtained for six consecutive days from 1000 UT on 1 July 1999 to 1000 UT on 7 July 1999 to investigate the importance of ion drag on the lower thermospheric wind dynamics in the summer polar region. The electric field observed at Longyearbyen exhibited a stable diurnal variation primarily occurring throughout the first 3 days of observations, while, during the latter 3 days, the diurnal variation was not clearly identified. The electric field observed at Tromsø did not exhibit such a stable variation. On the basis of the difference of the electric field variation observed at Longyearbyen, we divided the data sets into two intervals with a length of 3 days each. We compared the horizontal velocities of the ions and the neutral gases. At upper heights (∼110–120 km) on the first 3 days, the difference between the ion and neutral motion was clearly identified at Longyearbyen, while it was not at Tromsø. We compared the diurnal tidal amplitudes and phases of the two intervals derived from the Longyearbyen data. The amplitude of the meridional diurnal tide for the first 3 days was larger than that of the latter 3 days over the height region between 100 and 118 km at Longyearbyen. Furthermore, we compared ion drag accelerations with total accelerations. We concluded that the ion drag played an important role in the diurnal amplitude at Longyearbyen on the first 3 days of the observations. In addition, we compared the National Center for Atmospheric Research thermosphere-ionosphere-mesosphere-electrodynamics general circulation model (TIME-GCM) predictions with the observations. The TIME-GCM predictions also indicated that the diurnal tide is influenced by the convection electric field.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

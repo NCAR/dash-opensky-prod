@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21123</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:45:58.796610</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:23:36.566927</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Decadal-scale trends in tropospheric and stratospheric temperatures derived from satellite measurements over 1979&#x2013;2014 are compared with ensemble simulations from the Whole Atmosphere Community Climate Model (WACCM). The model is forced with observed sea surface temperatures, changes in greenhouse gases, and ozone-depleting substances, plus solar and volcanic effects, and results from five WACCM realizations (with slightly different initial conditions) are analyzed. We focus on the vertical structure of tropospheric warming and stratospheric cooling increasing with height, the latitudinal and seasonal dependence of trends, and on the temporal evolution of stratospheric temperatures in response to stratospheric ozone depletion and partial recovery. The model captures the observed trend structure in most respects, and the ensemble of simulations provides quantitative estimates of the impact of internal variability on trend estimates. In regions of low variability (e.g., over low latitudes) the ensemble mean trends agree with the observations, while in regions of high variability (e.g., the polar stratosphere) the observations mostly fall within the range of realizations. Temperature response to evolving stratospheric ozone is evaluated by computing separate trends over 1979-1997 (ozone depletion) and 1998-2014 (partial recovery). Robust changes in temperature trends between these periods occur in the global upper stratosphere and in the Antarctic spring lower stratosphere, with consistent behavior between model and observations. Observed lower stratospheric temperatures in the Antarctic show statistically significant warming after 1998, reflecting recently reported healing of the ozone hole.</gco:CharacterString>
+            <gco:CharacterString>Decadal-scale trends in tropospheric and stratospheric temperatures derived from satellite measurements over 1979–2014 are compared with ensemble simulations from the Whole Atmosphere Community Climate Model (WACCM). The model is forced with observed sea surface temperatures, changes in greenhouse gases, and ozone-depleting substances, plus solar and volcanic effects, and results from five WACCM realizations (with slightly different initial conditions) are analyzed. We focus on the vertical structure of tropospheric warming and stratospheric cooling increasing with height, the latitudinal and seasonal dependence of trends, and on the temporal evolution of stratospheric temperatures in response to stratospheric ozone depletion and partial recovery. The model captures the observed trend structure in most respects, and the ensemble of simulations provides quantitative estimates of the impact of internal variability on trend estimates. In regions of low variability (e.g., over low latitudes) the ensemble mean trends agree with the observations, while in regions of high variability (e.g., the polar stratosphere) the observations mostly fall within the range of realizations. Temperature response to evolving stratospheric ozone is evaluated by computing separate trends over 1979-1997 (ozone depletion) and 1998-2014 (partial recovery). Robust changes in temperature trends between these periods occur in the global upper stratosphere and in the Antarctic spring lower stratosphere, with consistent behavior between model and observations. Observed lower stratospheric temperatures in the Antarctic show statistically significant warming after 1998, reflecting recently reported healing of the ozone hole.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

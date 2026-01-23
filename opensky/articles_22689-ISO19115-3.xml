@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22689</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:27:29.071171</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:30:19.847501</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Medeiros, Brian</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2188-4784"
+                                    xlink:title="Medeiros, Brian"
+                                    xlink:actuate="onRequest">Medeiros, Brian</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent studies have focused on the role of cloud radiative effects (CRE) in governing the mean atmospheric circulation and its response to climate change. This study instead examines the role of CRE in climate variability in the extratropics. Cloud locking experiments are performed using the Community Earth System Model. In these experiments, CRE are scrambled, such that they maintain the same climatology but no longer match the model's dynamical fields. The results of these experiments indicate that high-frequency interactions between CRE and dynamics have a small (&#x2264;5&#x2013;10%) but statistically significant damping effect on the intensity of the extratropical storm tracks, particularly in the Southern Hemisphere. Individual midlatitude cyclones have decreased intensity and shorter lifetime. These effects arise largely from clouds' radiative modification of static stability below 700 hPa. The coupling among clouds, radiation, and dynamics thus has a modest but potentially important influence on the extratropical storm tracks.</gco:CharacterString>
+            <gco:CharacterString>Recent studies have focused on the role of cloud radiative effects (CRE) in governing the mean atmospheric circulation and its response to climate change. This study instead examines the role of CRE in climate variability in the extratropics. Cloud locking experiments are performed using the Community Earth System Model. In these experiments, CRE are scrambled, such that they maintain the same climatology but no longer match the model's dynamical fields. The results of these experiments indicate that high-frequency interactions between CRE and dynamics have a small (≤5–10%) but statistically significant damping effect on the intensity of the extratropical storm tracks, particularly in the Southern Hemisphere. Individual midlatitude cyclones have decreased intensity and shorter lifetime. These effects arise largely from clouds' radiative modification of static stability below 700 hPa. The coupling among clouds, radiation, and dynamics thus has a modest but potentially important influence on the extratropical storm tracks.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

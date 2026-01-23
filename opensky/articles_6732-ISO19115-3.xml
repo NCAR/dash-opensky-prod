@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6732</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:37.853531</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:40:41.525680</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -287,7 +288,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The water vapor data measured with airborne and ground-based lidar systems during the International H&#x2082;O Project (IHOP_2002), which took place in the Southern Great Plains during 13 May-25 June 2002 were investigated. So far, the data collected during IHOP_2002 provide the largest set of state-of-the-art water vapor lidar data measured in a field campaign. In this first of two companion papers, intercomparisons between the scanning Raman lidar (SRL) of the National Aeronautics and Space Administration (NASA) Goddard Space Flight Center (GSFC) and two airborne systems are discussed. There are 9 intercomparisons possible between SRL and the differential absorption lidar (DIAL) of Deutsches Zentrum f&#xfc;r Luft- und Raumfahrt (DLR), while there are 10 intercomparisons between SRL and the Lidar Atmospheric Sensing Experiment (LASE) of the NASA Langley Research Center. Mean biases of (-0.30 &#xb1; 0.25) g kg&#x207b;&#xb9; or -4.3% &#xb1; 3.2% for SRL compared to DLR DIAL (DLR DIAL drier) and (0.16 &#xb1; 0.31) g kg&#x207b;&#xb9; or 5.3% &#xb1; 5.1% for SRL compared to LASE (LASE wetter) in the height range of 1.3-3.8 km above sea level (450-2950 m above ground level at the SRL site) were found. Putting equal weight on the data reliability of the three instruments, these results yield relative bias values of -4.6%, -0.4%, and +5.0% for DLR DIAL, SRL, and LASE, respectively. Furthermore, measurements of the Snow White (SW) chilled-mirror hygrometer radiosonde were compared with lidar data. For the four comparisons possible between SW radiosondes and SRL, an overall bias of (-0.27 &#xb1; 0.30) g kg&#x207b;&#xb9; or -3.2% &#xb1; 4.5% of SW compared to SRL (SW drier) again for 1.3-3.8 km above sea level was found. Because it is a challenging effort to reach an accuracy of humidity measurements down to the 5% level, the overall results are very satisfactory and confirm the high and stable performance of the instruments and the low noise errors of each profile.</gco:CharacterString>
+            <gco:CharacterString>The water vapor data measured with airborne and ground-based lidar systems during the International H₂O Project (IHOP_2002), which took place in the Southern Great Plains during 13 May-25 June 2002 were investigated. So far, the data collected during IHOP_2002 provide the largest set of state-of-the-art water vapor lidar data measured in a field campaign. In this first of two companion papers, intercomparisons between the scanning Raman lidar (SRL) of the National Aeronautics and Space Administration (NASA) Goddard Space Flight Center (GSFC) and two airborne systems are discussed. There are 9 intercomparisons possible between SRL and the differential absorption lidar (DIAL) of Deutsches Zentrum für Luft- und Raumfahrt (DLR), while there are 10 intercomparisons between SRL and the Lidar Atmospheric Sensing Experiment (LASE) of the NASA Langley Research Center. Mean biases of (-0.30 ± 0.25) g kg⁻¹ or -4.3% ± 3.2% for SRL compared to DLR DIAL (DLR DIAL drier) and (0.16 ± 0.31) g kg⁻¹ or 5.3% ± 5.1% for SRL compared to LASE (LASE wetter) in the height range of 1.3-3.8 km above sea level (450-2950 m above ground level at the SRL site) were found. Putting equal weight on the data reliability of the three instruments, these results yield relative bias values of -4.6%, -0.4%, and +5.0% for DLR DIAL, SRL, and LASE, respectively. Furthermore, measurements of the Snow White (SW) chilled-mirror hygrometer radiosonde were compared with lidar data. For the four comparisons possible between SW radiosondes and SRL, an overall bias of (-0.27 ± 0.30) g kg⁻¹ or -3.2% ± 4.5% of SW compared to SRL (SW drier) again for 1.3-3.8 km above sea level was found. Because it is a challenging effort to reach an accuracy of humidity measurements down to the 5% level, the overall results are very satisfactory and confirm the high and stable performance of the instruments and the low noise errors of each profile.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

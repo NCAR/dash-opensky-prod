@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6353</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:06.167361</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:27:22.183340</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Delano&#xeb;, J.</gco:CharacterString>
+                        <gco:CharacterString>Delanoë, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Vertical profiles of ice water content (IWC) can now be derived globally from spaceborne cloud satellite radar (CloudSat) data. Integrating these data with Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) data may further increase accuracy. Evaluations of the accuracy of IWC retrieved from radar alone and together with other measurements are now essential. A forward model employing aircraft Lagrangian spiral descents through mid- and low-latitude ice clouds is used to estimate profiles of what a lidar and conventional and Doppler radar would sense. Radar reflectivity Ze and Doppler fall speed at multiple wavelengths and extinction in visible wavelengths were derived from particle size distributions and shape data, constrained by IWC that were measured directly in most instances. These data were provided to eight teams that together cover 10 retrieval methods. Almost 3400 vertically distributed points from 19 clouds were used. Approximate cloud optical depths ranged from below 1 to more than 50. The teams returned retrieval IWC profiles that were evaluated in seven different ways to identify the amount and sources of errors. The mean (median) ratio of the retrieved-to-measured IWC was 1.15 (1.03) &#xb1; 0.66 for all teams, 1.08 (1.00) &#xb1; 0.60 for those employing a lidar-radar approach, and 1.27 (1.12) &#xb1; 0.78 for the standard CloudSat radar-visible optical depth algorithm for Ze &gt; -28 dBZe. The ratios for the groups employing the lidar-radar approach and the radar-visible optical depth algorithm may be lower by as much as 25% because of uncertainties in the extinction in small ice particles provided to the groups. Retrievals from future spaceborne radar using reflectivity-Doppler fall speeds show considerable promise. A lidar-radar approach, as applied to measurements from CALIPSO and CloudSat, is useful only in a narrow range of ice water paths (IWP) (40 &lt; IWP &lt; 100 g m&#x207b;&#xb2;). Because of the use of the Rayleigh approximation at high reflectivities in some of the algorithms and differences in the way nonspherical particles and Mie effects are considered, IWC retrievals in regions of radar reflectivity at 94 GHz exceeding about 5 dBZe are subject to uncertainties of &#xb1;50%.</gco:CharacterString>
+            <gco:CharacterString>Vertical profiles of ice water content (IWC) can now be derived globally from spaceborne cloud satellite radar (CloudSat) data. Integrating these data with Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) data may further increase accuracy. Evaluations of the accuracy of IWC retrieved from radar alone and together with other measurements are now essential. A forward model employing aircraft Lagrangian spiral descents through mid- and low-latitude ice clouds is used to estimate profiles of what a lidar and conventional and Doppler radar would sense. Radar reflectivity Ze and Doppler fall speed at multiple wavelengths and extinction in visible wavelengths were derived from particle size distributions and shape data, constrained by IWC that were measured directly in most instances. These data were provided to eight teams that together cover 10 retrieval methods. Almost 3400 vertically distributed points from 19 clouds were used. Approximate cloud optical depths ranged from below 1 to more than 50. The teams returned retrieval IWC profiles that were evaluated in seven different ways to identify the amount and sources of errors. The mean (median) ratio of the retrieved-to-measured IWC was 1.15 (1.03) ± 0.66 for all teams, 1.08 (1.00) ± 0.60 for those employing a lidar-radar approach, and 1.27 (1.12) ± 0.78 for the standard CloudSat radar-visible optical depth algorithm for Ze &gt; -28 dBZe. The ratios for the groups employing the lidar-radar approach and the radar-visible optical depth algorithm may be lower by as much as 25% because of uncertainties in the extinction in small ice particles provided to the groups. Retrievals from future spaceborne radar using reflectivity-Doppler fall speeds show considerable promise. A lidar-radar approach, as applied to measurements from CALIPSO and CloudSat, is useful only in a narrow range of ice water paths (IWP) (40 &lt; IWP &lt; 100 g m⁻²). Because of the use of the Rayleigh approximation at high reflectivities in some of the algorithms and differences in the way nonspherical particles and Mie effects are considered, IWC retrievals in regions of radar reflectivity at 94 GHz exceeding about 5 dBZe are subject to uncertainties of ±50%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

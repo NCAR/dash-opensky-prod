@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23341</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:21:19.003430</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:15:06.747033</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The strength and structure of the Earth's magnetic field is gradually changing. During the next 50 years the dipole moment is predicted to decrease by 3.5%, with the South Atlantic Anomaly expanding, deepening, and continuing to move westward, while the magnetic dip poles move northwestward. We used simulations with the Thermosphere-Ionosphere-Electrodynamics General Circulation Model to study how predicted changes in the magnetic field will affect the climate of the thermosphere-ionosphere system from 2015 to 2065. The global mean neutral density in the thermosphere is expected to increase slightly, by up to 1% on average or up to 2% during geomagnetically disturbed conditions. This is due to an increase in Joule heating power, mainly in the Southern Hemisphere. Global mean changes in total electron content (TEC) range from 3% to +4%, depending on season and UT. However, regional changes can be much larger, up to about 35% in the region of 45&#xb0;S to 45&#xb0;N and 110&#xb0;W to 0&#xb0;W during daytime. Changes in the vertical drift are the most important driver of changes in TEC, although other plasma transport processes also play a role. A reduction in the low-latitude upward drift weakens the equatorial ionization anomaly in the longitude sector of 60&#xb0;W, manifesting itself as a local increase in electron density over Jicamarca (12.0&#xb0;S, 76.9&#xb0;W). The predicted increase in neutral density associated with main magnetic field changes is very small compared to observed trends and other trend drivers, but the predicted changes in TEC could make a significant contribution to observationally detectable trends.</gco:CharacterString>
+            <gco:CharacterString>The strength and structure of the Earth's magnetic field is gradually changing. During the next 50 years the dipole moment is predicted to decrease by 3.5%, with the South Atlantic Anomaly expanding, deepening, and continuing to move westward, while the magnetic dip poles move northwestward. We used simulations with the Thermosphere-Ionosphere-Electrodynamics General Circulation Model to study how predicted changes in the magnetic field will affect the climate of the thermosphere-ionosphere system from 2015 to 2065. The global mean neutral density in the thermosphere is expected to increase slightly, by up to 1% on average or up to 2% during geomagnetically disturbed conditions. This is due to an increase in Joule heating power, mainly in the Southern Hemisphere. Global mean changes in total electron content (TEC) range from 3% to +4%, depending on season and UT. However, regional changes can be much larger, up to about 35% in the region of 45°S to 45°N and 110°W to 0°W during daytime. Changes in the vertical drift are the most important driver of changes in TEC, although other plasma transport processes also play a role. A reduction in the low-latitude upward drift weakens the equatorial ionization anomaly in the longitude sector of 60°W, manifesting itself as a local increase in electron density over Jicamarca (12.0°S, 76.9°W). The predicted increase in neutral density associated with main magnetic field changes is very small compared to observed trends and other trend drivers, but the predicted changes in TEC could make a significant contribution to observationally detectable trends.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

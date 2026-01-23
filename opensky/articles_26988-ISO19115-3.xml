@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26988</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:04:07.599591</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:54:25.996897</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xfc;ller, J.</gco:CharacterString>
+                        <gco:CharacterString>Müller, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +370,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xf6;hling, A.</gco:CharacterString>
+                        <gco:CharacterString>Röhling, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +410,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xe9;, Y.</gco:CharacterString>
+                        <gco:CharacterString>Té, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +440,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Spaceborne formaldehyde (HCHO) measurements constitute an excellent proxy for the sources of non-methane volatile organic compounds (NMVOCs). Past studies suggested substantial overestimations of NMVOC emissions in state-of-the-art inventories over major source regions. Here, the QA4ECV (Quality Assurance for Essential Climate Variables) retrieval of HCHO columns from OMI (Ozone Monitoring Instrument) is evaluated against (1) FTIR (Fourier-transform infrared) column observations at 26 stations worldwide and (2) aircraft in situ HCHO concentration measurements from campaigns conducted over the USA during 2012&#x2013;2013. Both validation exercises show that OMI underestimates high columns and overestimates low columns. The linear regression of OMI and aircraft-based columns gives , with &#x3a9;OMI and &#x3a9;airc the OMI and aircraft-derived vertical columns, whereas the regression of OMI and FTIR data gives . Inverse modelling of NMVOC emissions with a global model based on OMI columns corrected for biases based on those relationships leads to much-improved agreement against FTIR data and HCHO concentrations from 11 aircraft campaigns. The optimized global isoprene emissions () are 25&#x2009;% higher than those obtained without bias correction. The optimized isoprene emissions bear both striking similarities and differences with recently published emissions based on spaceborne isoprene columns from the CrIS (Cross-track Infrared Sounder) sensor. Although the interannual variability of OMI HCHO columns is well understood over regions where biogenic emissions are dominant, and the HCHO trends over China and India clearly reflect anthropogenic emission changes, the observed HCHO decline over the southeastern USA remains imperfectly elucidated.</gco:CharacterString>
+            <gco:CharacterString>Spaceborne formaldehyde (HCHO) measurements constitute an excellent proxy for the sources of non-methane volatile organic compounds (NMVOCs). Past studies suggested substantial overestimations of NMVOC emissions in state-of-the-art inventories over major source regions. Here, the QA4ECV (Quality Assurance for Essential Climate Variables) retrieval of HCHO columns from OMI (Ozone Monitoring Instrument) is evaluated against (1) FTIR (Fourier-transform infrared) column observations at 26 stations worldwide and (2) aircraft in situ HCHO concentration measurements from campaigns conducted over the USA during 2012–2013. Both validation exercises show that OMI underestimates high columns and overestimates low columns. The linear regression of OMI and aircraft-based columns gives , with ΩOMI and Ωairc the OMI and aircraft-derived vertical columns, whereas the regression of OMI and FTIR data gives . Inverse modelling of NMVOC emissions with a global model based on OMI columns corrected for biases based on those relationships leads to much-improved agreement against FTIR data and HCHO concentrations from 11 aircraft campaigns. The optimized global isoprene emissions () are 25 % higher than those obtained without bias correction. The optimized isoprene emissions bear both striking similarities and differences with recently published emissions based on spaceborne isoprene columns from the CrIS (Cross-track Infrared Sounder) sensor. Although the interannual variability of OMI HCHO columns is well understood over regions where biogenic emissions are dominant, and the HCHO trends over China and India clearly reflect anthropogenic emission changes, the observed HCHO decline over the southeastern USA remains imperfectly elucidated.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

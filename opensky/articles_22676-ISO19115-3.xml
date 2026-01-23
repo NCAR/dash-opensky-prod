@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22676</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:41.213484</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:28:43.124274</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Prein, Andreas</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6250-179X"
+                                    xlink:title="Prein, Andreas"
+                                    xlink:actuate="onRequest">Prein, Andreas</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Climate change affects the dynamics and thermodynamics of moist convection. Changes in the dynamics concern, for instance, an increase of convection strength due to increases of convective available potential energy (CAPE). Thermodynamics involve increases in water vapor that the warmer atmosphere can hold and convection can work with. Small-scale simulations are conducted to separate these two components for daytime development of unorganized convection over land. The simulations apply a novel modeling technique referred to as the piggybacking (or master&#x2013;slave) approach and consider the global climate model (GCM)-predicted change of atmospheric temperature and moisture profiles in the Amazon region at the end of the century under a business-as-usual scenario. The simulations show that the dynamic impact dominates because changes in cloudiness and rainfall come from cloud dynamics considerations, such as the change in CAPE and convective inhibition (CIN) combined with the impact of environmental relative humidity (RH) on deep convection. The small RH reduction between the current and future climate significantly affects the mean surface rain accumulation as it changes from a small reduction to a small increase when the RH decrease is eliminated. The thermodynamic impact on cloudiness and precipitation is generally small, with the extreme rainfall intensifying much less than expected from an atmospheric moisture increase. These results are discussed in the context of previous studies concerning climate change&#x2013;induced modifications of moist convection. Future research directions applying the piggybacking method are discussed.</gco:CharacterString>
+            <gco:CharacterString>Climate change affects the dynamics and thermodynamics of moist convection. Changes in the dynamics concern, for instance, an increase of convection strength due to increases of convective available potential energy (CAPE). Thermodynamics involve increases in water vapor that the warmer atmosphere can hold and convection can work with. Small-scale simulations are conducted to separate these two components for daytime development of unorganized convection over land. The simulations apply a novel modeling technique referred to as the piggybacking (or master–slave) approach and consider the global climate model (GCM)-predicted change of atmospheric temperature and moisture profiles in the Amazon region at the end of the century under a business-as-usual scenario. The simulations show that the dynamic impact dominates because changes in cloudiness and rainfall come from cloud dynamics considerations, such as the change in CAPE and convective inhibition (CIN) combined with the impact of environmental relative humidity (RH) on deep convection. The small RH reduction between the current and future climate significantly affects the mean surface rain accumulation as it changes from a small reduction to a small increase when the RH decrease is eliminated. The thermodynamic impact on cloudiness and precipitation is generally small, with the extreme rainfall intensifying much less than expected from an atmospheric moisture increase. These results are discussed in the context of previous studies concerning climate change–induced modifications of moist convection. Future research directions applying the piggybacking method are discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

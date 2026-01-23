@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18222</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:14:16.286781</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:35:49.488838</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Towler, Erin L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1784-1346"
+                                    xlink:title="Towler, Erin L."
+                                    xlink:actuate="onRequest">Towler, Erin L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To better plan for potential changes to stream water quality under climate change, an integrated approach to simulate paired streamflow and water quality under a range of climate scenarios is developed. Several stochastic nonparametric simulation techniques are integrated to create an end-to-end approach for comprehensive planning, with three steps: (1) develop a relationship between streamflow and water quality, (2) simulate streamflow ensembles under climate change scenarios, and (3) simulate water quality ensembles using the streamflow ensembles in conjunction with the developed relationship. The framework is demonstrated on a municipal water provider developing a new water supply source&#x2014;but variations of salinity concentrations with streamflow pose limits to its use. For the current climate, the simulations accurately reproduce all of the relevant distributional and threshold statistics of flow and water quality, providing confidence in their use in long-term planning. Under climate change, reduced streamflow scenarios result in ensembles with higher salinity concentrations, which can be used in risk management and impact assessments. The approach is general and extends to other water quality variables associated with hydroclimate.</gco:CharacterString>
+            <gco:CharacterString>To better plan for potential changes to stream water quality under climate change, an integrated approach to simulate paired streamflow and water quality under a range of climate scenarios is developed. Several stochastic nonparametric simulation techniques are integrated to create an end-to-end approach for comprehensive planning, with three steps: (1) develop a relationship between streamflow and water quality, (2) simulate streamflow ensembles under climate change scenarios, and (3) simulate water quality ensembles using the streamflow ensembles in conjunction with the developed relationship. The framework is demonstrated on a municipal water provider developing a new water supply source—but variations of salinity concentrations with streamflow pose limits to its use. For the current climate, the simulations accurately reproduce all of the relevant distributional and threshold statistics of flow and water quality, providing confidence in their use in long-term planning. Under climate change, reduced streamflow scenarios result in ensembles with higher salinity concentrations, which can be used in risk management and impact assessments. The approach is general and extends to other water quality variables associated with hydroclimate.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

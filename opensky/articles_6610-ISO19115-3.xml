@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6610</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:58:30.932032</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:31:44.870008</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The present study focuses on a modeling of the seasonal and diurnal effects on the dynamics of the coupled magnetosphere-ionosphere system under different solar illumination conditions, to try to reproduce some of the observations concerning the region 2 (R2) field-aligned currents (FAC). This is performed by introducing in the Ionosphere Magnetosphere Model (IMM) the Earth's rotation axis tilt, the dipole axis tilt and an eccentric dipole. The simulated patterns of the R2 FAC agree rather well with the observations. In particular the dayside FAC density is two times greater in the summer hemisphere than in the winter one. The results show that seasonal tilt of the dipole axis affects the distributions of the Pedersen conductances and FAC by 28.5-52.8% and do not have much influence on the distribution of the magnetospheric plasma, which is modified by only 0.9-3.9%. The diurnal variations induced by the tilt of the dipole axis are of the same order of magnitude, 5.5-29% for the Pedersen conductances and FAC and 0.4&#x2013;7.1% for the magnetospheric plasma. They modulate the interhemispheric asymmetry of the FAC by 26&#x2013;59%. The eccentric dipole induces an increase (decrease) of the daily variations of the conductances and the FAC by a factor 1.2-2.3 in the Southern (Northern) Hemisphere, irrespective of the season, which contributes to increase the asymmetry between the two hemispheres. This results in an increase of the daily variations of the ion maximum pressure and of the electron maximum energy flux at the December solstice and at the March and September equinoxes, but a decrease at the June solstice. The maximal variation of the magnetospheric plasma distribution amounts to 6.7% at December solstice. These results underline the importance of considering the three different effects at the same time.</gco:CharacterString>
+            <gco:CharacterString>The present study focuses on a modeling of the seasonal and diurnal effects on the dynamics of the coupled magnetosphere-ionosphere system under different solar illumination conditions, to try to reproduce some of the observations concerning the region 2 (R2) field-aligned currents (FAC). This is performed by introducing in the Ionosphere Magnetosphere Model (IMM) the Earth's rotation axis tilt, the dipole axis tilt and an eccentric dipole. The simulated patterns of the R2 FAC agree rather well with the observations. In particular the dayside FAC density is two times greater in the summer hemisphere than in the winter one. The results show that seasonal tilt of the dipole axis affects the distributions of the Pedersen conductances and FAC by 28.5-52.8% and do not have much influence on the distribution of the magnetospheric plasma, which is modified by only 0.9-3.9%. The diurnal variations induced by the tilt of the dipole axis are of the same order of magnitude, 5.5-29% for the Pedersen conductances and FAC and 0.4–7.1% for the magnetospheric plasma. They modulate the interhemispheric asymmetry of the FAC by 26–59%. The eccentric dipole induces an increase (decrease) of the daily variations of the conductances and the FAC by a factor 1.2-2.3 in the Southern (Northern) Hemisphere, irrespective of the season, which contributes to increase the asymmetry between the two hemispheres. This results in an increase of the daily variations of the ion maximum pressure and of the electron maximum energy flux at the December solstice and at the March and September equinoxes, but a decrease at the June solstice. The maximal variation of the magnetospheric plasma distribution amounts to 6.7% at December solstice. These results underline the importance of considering the three different effects at the same time.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

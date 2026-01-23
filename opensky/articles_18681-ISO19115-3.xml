@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18681</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:47:57.252164</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:48:36.631520</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>On the origin of pronounced O&#x2083; gradients in the thunderstorm outflow region during DC3</gco:CharacterString>
+                  <gco:CharacterString>On the origin of pronounced O₃ gradients in the thunderstorm outflow region during DC3</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -207,7 +208,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>F&#xfc;tterer, D.</gco:CharacterString>
+                        <gco:CharacterString>Fütterer, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rappengl&#xfc;ck, B.</gco:CharacterString>
+                        <gco:CharacterString>Rappenglück, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +290,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9252-0286"
+                                    xlink:title="Barth, Mary"
+                                    xlink:actuate="onRequest">Barth, Mary</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +312,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Unique in situ measurements of CO, O&#x2083;, SO&#x2082;, CH&#x2084;, NO, NOx, NOy, VOC, CN, and rBC were carried out with the German Deutsches Zentrum f&#xfc;r Luft- und Raumfahrt (DLR)-Falcon aircraft in the central U.S. thunderstorms during the Deep Convective Clouds and Chemistry experiment in summer 2012. Fresh and aged anvil outflow (9-12&#x2009;km) from supercells, mesoscale convective systems, mesoscale convective complexes, and squall lines were probed over Oklahoma, Texas, Colorado, and Kansas. For three case studies (30 May and 8 and 12 June) a combination of trace species, radar, lightning, and satellite information, as well as model results, were used to analyze and design schematics of major trace gas transport pathways within and in the vicinity of the probed thunderstorms. The impact of thunderstorms on the O&#x2083; composition in the upper troposphere/lower stratosphere (LS) region was analyzed. Overshooting cloud tops injected high amounts of biomass burning and lightning-produced NOx emissions into the LS, in addition to low O&#x2083; mixing ratios from the lower troposphere. As a dynamical response, O&#x2083;-rich air from the LS was transported downward into the anvil and also surrounded the outflow. The &#x394;O&#x2083;/&#x394;CO ratio was determined in the anvil outflow region. A pronounced in-mixing of O&#x2083;-rich stratospheric air masses was observed in the outflow indicated by highly positive or even negative &#x394;O&#x2083;/&#x394;CO ratios (+1.4 down to -3.9). Photochemical O&#x2083; production (&#x394;O&#x2083;/&#x394;CO&#x2009;=&#x2009;+0.1) was found to be minor in the recently lofted pollution plumes. O&#x2083; mixing ratios within the aged anvil outflow were mainly enhanced due to dynamical processes.</gco:CharacterString>
+            <gco:CharacterString>Unique in situ measurements of CO, O₃, SO₂, CH₄, NO, NOx, NOy, VOC, CN, and rBC were carried out with the German Deutsches Zentrum für Luft- und Raumfahrt (DLR)-Falcon aircraft in the central U.S. thunderstorms during the Deep Convective Clouds and Chemistry experiment in summer 2012. Fresh and aged anvil outflow (9-12 km) from supercells, mesoscale convective systems, mesoscale convective complexes, and squall lines were probed over Oklahoma, Texas, Colorado, and Kansas. For three case studies (30 May and 8 and 12 June) a combination of trace species, radar, lightning, and satellite information, as well as model results, were used to analyze and design schematics of major trace gas transport pathways within and in the vicinity of the probed thunderstorms. The impact of thunderstorms on the O₃ composition in the upper troposphere/lower stratosphere (LS) region was analyzed. Overshooting cloud tops injected high amounts of biomass burning and lightning-produced NOx emissions into the LS, in addition to low O₃ mixing ratios from the lower troposphere. As a dynamical response, O₃-rich air from the LS was transported downward into the anvil and also surrounded the outflow. The ΔO₃/ΔCO ratio was determined in the anvil outflow region. A pronounced in-mixing of O₃-rich stratospheric air masses was observed in the outflow indicated by highly positive or even negative ΔO₃/ΔCO ratios (+1.4 down to -3.9). Photochemical O₃ production (ΔO₃/ΔCO = +0.1) was found to be minor in the recently lofted pollution plumes. O₃ mixing ratios within the aged anvil outflow were mainly enhanced due to dynamical processes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

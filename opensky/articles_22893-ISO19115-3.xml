@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22893</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:25:26.265220</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:25:12.345773</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>D&#xdc;BEN, P.</gco:CharacterString>
+                        <gco:CharacterString>DÜBEN, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Judt, Falko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7710-9862"
+                                    xlink:title="Judt, Falko"
+                                    xlink:actuate="onRequest">Judt, Falko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xd6;BER, N.</gco:CharacterString>
+                        <gco:CharacterString>RÖBER, N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A review of the experimental protocol and motivation for DYAMOND, the first intercomparison project of global storm-resolving models, is presented. Nine models submitted simulation output for a 40-day (1 August&#x2013;10 September 2016) intercomparison period. Eight of these employed a tiling of the sphere that was uniformly less than 5 km. By resolving the transient dynamics of convective storms in the tropics, global storm-resolving models remove the need to parameterize tropical deep convection, providing a fundamentally more sound representation of the climate system and a more natural link to commensurately high-resolution data from satellite-borne sensors. The models and some basic characteristics of their output are described in more detail, as is the availability and planned use of this output for future scientific study. Tropically and zonally averaged energy budgets, precipitable water distributions, and precipitation from the model ensemble are evaluated, as is their representation of tropical cyclones and the predictability of column water vapor, the latter being important for tropical weather.</gco:CharacterString>
+            <gco:CharacterString>A review of the experimental protocol and motivation for DYAMOND, the first intercomparison project of global storm-resolving models, is presented. Nine models submitted simulation output for a 40-day (1 August–10 September 2016) intercomparison period. Eight of these employed a tiling of the sphere that was uniformly less than 5 km. By resolving the transient dynamics of convective storms in the tropics, global storm-resolving models remove the need to parameterize tropical deep convection, providing a fundamentally more sound representation of the climate system and a more natural link to commensurately high-resolution data from satellite-borne sensors. The models and some basic characteristics of their output are described in more detail, as is the availability and planned use of this output for future scientific study. Tropically and zonally averaged energy budgets, precipitable water distributions, and precipitation from the model ensemble are evaluated, as is their representation of tropical cyclones and the predictability of column water vapor, the latter being important for tropical weather.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

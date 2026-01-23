@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11645</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:46:43.417551</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:32:57.939069</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kurt&#xe9;n, T.</gco:CharacterString>
+                        <gco:CharacterString>Kurtén, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +158,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xe4;is&#xe4;nen, P.</gco:CharacterString>
+                        <gco:CharacterString>Räisänen, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The release of vast quantities of methane into the atmosphere as a result of clathrate destabilization is a potential mechanism for rapid amplification of global warming. Previous studies have calculated the enhanced warming based mainly on the radiative effect of the methane itself, with smaller contributions from the associated carbon dioxide or ozone increases. Here, we study the effect of strongly elevated methane (CH&#x2084;) levels on oxidant and aerosol particle concentrations using a combination of chemistry-transport and general circulation models. A 10-fold increase in methane concentrations is predicted to significantly decrease hydroxyl radical (OH) concentrations, while moderately increasing ozone (O&#x2083;). These changes lead to a 70 % increase in the atmospheric lifetime of methane, and an 18 % decrease in global mean cloud droplet number concentrations (CDNC). The CDNC change causes a radiative forcing that is comparable in magnitude to the longwave radiative forcing ("enhanced greenhouse effect") of the added methane. Together, the indirect CH&#x2084;-O&#x2083; and CH&#x2084;-OH-aerosol forcings could more than double the warming effect of large methane increases. Our findings may help explain the anomalously large temperature changes associated with historic methane releases.</gco:CharacterString>
+            <gco:CharacterString>The release of vast quantities of methane into the atmosphere as a result of clathrate destabilization is a potential mechanism for rapid amplification of global warming. Previous studies have calculated the enhanced warming based mainly on the radiative effect of the methane itself, with smaller contributions from the associated carbon dioxide or ozone increases. Here, we study the effect of strongly elevated methane (CH₄) levels on oxidant and aerosol particle concentrations using a combination of chemistry-transport and general circulation models. A 10-fold increase in methane concentrations is predicted to significantly decrease hydroxyl radical (OH) concentrations, while moderately increasing ozone (O₃). These changes lead to a 70 % increase in the atmospheric lifetime of methane, and an 18 % decrease in global mean cloud droplet number concentrations (CDNC). The CDNC change causes a radiative forcing that is comparable in magnitude to the longwave radiative forcing ("enhanced greenhouse effect") of the added methane. Together, the indirect CH₄-O₃ and CH₄-OH-aerosol forcings could more than double the warming effect of large methane increases. Our findings may help explain the anomalously large temperature changes associated with historic methane releases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

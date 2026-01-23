@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:42004</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:51.866521</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:04:36.094447</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mayernik, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4122-0910"
+                                    xlink:title="Mayernik, Matthew"
+                                    xlink:actuate="onRequest">Mayernik, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This project is a collaboration funded by the NSF's FAIR Open Science program, focused on establishing best practices for persistent identifiers (PIDs) for research facilities and instrumentation. The second in-person workshop was held at Florida State University in August 2024, continuing discussions from the first workshop. Key needs identified include:&lt;/p&gt;&lt;ul class="-mt-1 [li&amp;gt;&amp;amp;]:mt-2 list-disc space-y-2 pl-8" depth="0"&gt;&lt;li class="whitespace-normal break-words" index="0"&gt;Practical recommendations for facility/instrument operators on assigning PIDs&lt;/li&gt;&lt;li class="whitespace-normal break-words" index="1"&gt;Clear value propositions for facility/instrument users to adopt PIDs&lt;/li&gt;&lt;li class="whitespace-normal break-words" index="2"&gt;Recommendations for a national PID strategy&lt;/li&gt;&lt;li class="whitespace-normal break-words" index="3"&gt;More robust infrastructure and services for facility/instrument PIDs&lt;/li&gt;&lt;li class="whitespace-normal break-words" index="4"&gt;Balancing general vs. specific PID guidance&lt;/li&gt;&lt;li class="whitespace-normal break-words" index="5"&gt;Engaging with instrument manufacturers and publishers&lt;/li&gt;&lt;/ul&gt;&lt;p class="whitespace-pre-wrap break-words"&gt;Next steps include developing a national PID strategy for facilities/instruments, and empowering local contributors to drive adoption.</gco:CharacterString>
+            <gco:CharacterString>This project is a collaboration funded by the NSF's FAIR Open Science program, focused on establishing best practices for persistent identifiers (PIDs) for research facilities and instrumentation. The second in-person workshop was held at Florida State University in August 2024, continuing discussions from the first workshop. Key needs identified include: - Practical recommendations for facility/instrument operators on assigning PIDs - Clear value propositions for facility/instrument users to adopt PIDs - Recommendations for a national PID strategy - More robust infrastructure and services for facility/instrument PIDs - Balancing general vs. specific PID guidance - Engaging with instrument manufacturers and publishers Next steps include developing a national PID strategy for facilities/instruments, and empowering local contributors to drive adoption.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

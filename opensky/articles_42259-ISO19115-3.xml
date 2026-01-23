@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42259</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:08.138005</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:02:29.057646</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Chih-Chieh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4819-2510"
+                                    xlink:title="Chen, Chih-Chieh"
+                                    xlink:actuate="onRequest">Chen, Chih-Chieh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fielding, M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4844-8301"
+                                    xlink:title="Fielding, M."
+                                    xlink:actuate="onRequest">Fielding, M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Supercooled liquid clouds are common at higher latitudes (especially over the Southern Ocean) and are critical for constraining climate projections. We take advantage of the Macquarie Island Cloud and Radiation Experiment (MICRE) to perform an analysis of observed and simulated cloud processes over the Southern Ocean in a region and season dominated by supercooled liquid clouds. Using a single-column version of the European Centre for Medium-Range Weather Forecasts (ECMWF) Integrated Forecast System (IFS), we compare two different cloud microphysical schemes to ground-based observations of cloud, precipitation, and radiation over a 2.5-month period (1&amp;nbsp;January&#x2013;17&amp;nbsp;March&amp;nbsp;2017). Both schemes are able to reproduce aspects of the cloud and radiation observations during MICRE to within the uncertainty of the data when the thermodynamic profile is prescribed with relaxation. There are differences in water mass and representation of reflectivity between the schemes. A sensitivity study of the cloud microphysics schemes, one a bulk one-moment scheme and the other a two-moment scheme with prediction of mass and number, indicates that several key processes create differences between the schemes. Surface radiative fluxes and total water path are highly sensitive to the formation and fall speed of precipitation. The prediction of hydrometeor number with the two-moment scheme yields a better comparison with observed reflectivity and radiative fluxes, despite predicting higher liquid water contents than observed. With the two-moment scheme, we are also able to test the sensitivity of the results to the input of liquid cloud condensation nuclei (CCN) and ice nuclei (IN). The cloud properties and resulting radiative effects are found to be sensitive to the CCN and IN concentrations. More CCN and IN increase liquid and ice water paths, respectively. Thus, both the dynamic environment and aerosols, integrated through the cloud microphysics, are important for properly representing Southern Ocean cloud radiative effects.</gco:CharacterString>
+            <gco:CharacterString>Supercooled liquid clouds are common at higher latitudes (especially over the Southern Ocean) and are critical for constraining climate projections. We take advantage of the Macquarie Island Cloud and Radiation Experiment (MICRE) to perform an analysis of observed and simulated cloud processes over the Southern Ocean in a region and season dominated by supercooled liquid clouds. Using a single-column version of the European Centre for Medium-Range Weather Forecasts (ECMWF) Integrated Forecast System (IFS), we compare two different cloud microphysical schemes to ground-based observations of cloud, precipitation, and radiation over a 2.5-month period (1&amp;nbsp;January–17&amp;nbsp;March&amp;nbsp;2017). Both schemes are able to reproduce aspects of the cloud and radiation observations during MICRE to within the uncertainty of the data when the thermodynamic profile is prescribed with relaxation. There are differences in water mass and representation of reflectivity between the schemes. A sensitivity study of the cloud microphysics schemes, one a bulk one-moment scheme and the other a two-moment scheme with prediction of mass and number, indicates that several key processes create differences between the schemes. Surface radiative fluxes and total water path are highly sensitive to the formation and fall speed of precipitation. The prediction of hydrometeor number with the two-moment scheme yields a better comparison with observed reflectivity and radiative fluxes, despite predicting higher liquid water contents than observed. With the two-moment scheme, we are also able to test the sensitivity of the results to the input of liquid cloud condensation nuclei (CCN) and ice nuclei (IN). The cloud properties and resulting radiative effects are found to be sensitive to the CCN and IN concentrations. More CCN and IN increase liquid and ice water paths, respectively. Thus, both the dynamic environment and aerosols, integrated through the cloud microphysics, are important for properly representing Southern Ocean cloud radiative effects.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

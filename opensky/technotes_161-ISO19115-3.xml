@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:161</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:04:24.925704</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:46:22.742581</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This report describes the physical background and the basic equations of a general force-free magnetic field, and shows that for a class of constant &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; force-free magnetic fields satisfying &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; x B = &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; B, a unique determination of the magnetic field B is possible on the basis of magnetogram observations. The details of the numerical method of this determination are described. The formulations described also serve to specify the initial conditions for the evolutionary study of a more general force-free magnetic field, in which a is a function of space and time; the formulations of the latter study will constitute the second part of this series.</gco:CharacterString>
+            <gco:CharacterString>This report describes the physical background and the basic equations of a general force-free magnetic field, and shows that for a class of constant ï¿½ï¿½ï¿½ force-free magnetic fields satisfying ï¿½ï¿½ï¿½ x B = ï¿½ï¿½ï¿½ B, a unique determination of the magnetic field B is possible on the basis of magnetogram observations. The details of the numerical method of this determination are described. The formulations described also serve to specify the initial conditions for the evolutionary study of a more general force-free magnetic field, in which a is a function of space and time; the formulations of the latter study will constitute the second part of this series.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

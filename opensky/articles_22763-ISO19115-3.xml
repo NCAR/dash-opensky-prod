@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22763</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:18.458164</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:27:28.128295</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Judge, Philip G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5174-0568"
+                                    xlink:title="Judge, Philip G."
+                                    xlink:actuate="onRequest">Judge, Philip G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We report observations of small-scale swirls seen in the solar chromosphere. They are typically 2 Mm in diameter and last around 10 minutes. Using spectropolarimetric observations obtained by the CRisp Imaging Spectro-Polarimeter at the Swedish 1 m Solar Telescope, we identify and study a set of swirls in chromospheric Ca ii 8542 &#xc5; and H&#x3b1; lines as well as in the photospheric Fe i line. We have three main areas of focus. First, we compare the appearance, morphology, dynamics, and associated plasma parameters between the Ca ii and H&#x3b1; channels. Rotation and expansion of the chromospheric swirl pattern are explored using polar plots. Second, we explore the connection to underlying photospheric magnetic concentration (MC) dynamics. MCs are tracked using the SWAMIS tracking code. The swirl center and MC remain cospatial and share similar periods of rotation. Third, we elucidate the role swirls play in modifying chromospheric acoustic oscillations and found a temporary reduction in wave period during swirls. We use cross-correlation wavelets to examine the change in period and phase relations between different wavelengths. The physical picture that emerges is that a swirl is a flux tube that extends above an MC in a downdraft region in an intergranular lane. The rotational motion of the MC matches the chromospheric signatures. We could not determine whether a swirl is a gradual response to the photospheric motion or an actual propagating Alfv&#xe9;nic wave.</gco:CharacterString>
+            <gco:CharacterString>We report observations of small-scale swirls seen in the solar chromosphere. They are typically 2 Mm in diameter and last around 10 minutes. Using spectropolarimetric observations obtained by the CRisp Imaging Spectro-Polarimeter at the Swedish 1 m Solar Telescope, we identify and study a set of swirls in chromospheric Ca ii 8542 Å and Hα lines as well as in the photospheric Fe i line. We have three main areas of focus. First, we compare the appearance, morphology, dynamics, and associated plasma parameters between the Ca ii and Hα channels. Rotation and expansion of the chromospheric swirl pattern are explored using polar plots. Second, we explore the connection to underlying photospheric magnetic concentration (MC) dynamics. MCs are tracked using the SWAMIS tracking code. The swirl center and MC remain cospatial and share similar periods of rotation. Third, we elucidate the role swirls play in modifying chromospheric acoustic oscillations and found a temporary reduction in wave period during swirls. We use cross-correlation wavelets to examine the change in period and phase relations between different wavelengths. The physical picture that emerges is that a swirl is a flux tube that extends above an MC in a downdraft region in an intergranular lane. The rotational motion of the MC matches the chromospheric signatures. We could not determine whether a swirl is a gradual response to the photospheric motion or an actual propagating Alfvénic wave.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

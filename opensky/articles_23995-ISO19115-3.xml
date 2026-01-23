@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23995</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:10:21.295321</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:36:09.980044</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +254,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +266,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, Rolando R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6963-4592"
+                                    xlink:title="García, Rolando R."
+                                    xlink:actuate="onRequest">García, Rolando R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +298,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Every year during the Asian summer monsoon season from about mid-June to early September, a stable anticyclonic circulation system forms over the Himalayas. This Asian summer monsoon (ASM) anticyclone has been shown to promote transport of air into the stratosphere from the Asian troposphere, which contains large amounts of anthropogenic pollutants. Essential details of Asian monsoon transport, such as the exact timescales of vertical transport, the role of convection in cross-tropopause exchange, and the main location and level of export from the confined anticyclone to the stratosphere are still not fully resolved. Recent airborne observations from campaigns near the ASM anticyclone edge and centre in 2016 and 2017, respectively, show a steady decrease in carbon monoxide (CO) and increase in ozone (O3) with height starting from tropospheric values of around 100&#x2009;ppb CO and 30&#x2013;50&#x2009;ppb O3 at about 365&#x2009;K potential temperature. CO mixing ratios reach stratospheric background values below &#x223c;25&#x2009;ppb at about 420&#x2009;K and do not show a significant vertical gradient at higher levels, while ozone continues to increase throughout the altitude range of the aircraft measurements. Nitrous oxide (N2O) remains at or only marginally below its 2017 tropospheric mixing ratio of 333&#x2009;ppb up to about 400&#x2009;K, which is above the local tropopause. A decline in N2O mixing ratios that indicates a significant contribution of stratospheric air is only visible above this level. Based on our observations, we draw the following picture of vertical transport and confinement in the ASM anticyclone: rapid convective uplift transports air to near 16&#x2009;km in altitude, corresponding to potential temperatures up to about 370&#x2009;K. Although this main convective outflow layer extends above the level of zero radiative heating (LZRH), our observations of CO concentration show little to no evidence of convection actually penetrating the tropopause. Rather, further ascent occurs more slowly, consistent with isentropic vertical velocities of 0.7&#x2013;1.5&#x2009;K&#x2009;d&#x2212;1. For the key tracers (CO, O3, and N2O) in our study, none of which are subject to microphysical processes, neither the lapse rate tropopause (LRT) around 380&#x2009;K nor the cold point tropopause (CPT) around 390&#x2009;K marks a strong discontinuity in their profiles. Up to about 20 to 35&#x2009;K above the LRT, isolation of air inside the ASM anticyclone prevents significant in-mixing of stratospheric air (throughout this text, the term in-mixing refers specifically to mixing processes that introduce stratospheric air into the predominantly tropospheric inner anticyclone). The observed changes in CO and O3 likely result from in situ chemical processing. Above about 420&#x2009;K, mixing processes become more significant and the air inside the anticyclone is exported vertically and horizontally into the surrounding stratosphere.</gco:CharacterString>
+            <gco:CharacterString>Every year during the Asian summer monsoon season from about mid-June to early September, a stable anticyclonic circulation system forms over the Himalayas. This Asian summer monsoon (ASM) anticyclone has been shown to promote transport of air into the stratosphere from the Asian troposphere, which contains large amounts of anthropogenic pollutants. Essential details of Asian monsoon transport, such as the exact timescales of vertical transport, the role of convection in cross-tropopause exchange, and the main location and level of export from the confined anticyclone to the stratosphere are still not fully resolved. Recent airborne observations from campaigns near the ASM anticyclone edge and centre in 2016 and 2017, respectively, show a steady decrease in carbon monoxide (CO) and increase in ozone (O3) with height starting from tropospheric values of around 100 ppb CO and 30–50 ppb O3 at about 365 K potential temperature. CO mixing ratios reach stratospheric background values below ∼25 ppb at about 420 K and do not show a significant vertical gradient at higher levels, while ozone continues to increase throughout the altitude range of the aircraft measurements. Nitrous oxide (N2O) remains at or only marginally below its 2017 tropospheric mixing ratio of 333 ppb up to about 400 K, which is above the local tropopause. A decline in N2O mixing ratios that indicates a significant contribution of stratospheric air is only visible above this level. Based on our observations, we draw the following picture of vertical transport and confinement in the ASM anticyclone: rapid convective uplift transports air to near 16 km in altitude, corresponding to potential temperatures up to about 370 K. Although this main convective outflow layer extends above the level of zero radiative heating (LZRH), our observations of CO concentration show little to no evidence of convection actually penetrating the tropopause. Rather, further ascent occurs more slowly, consistent with isentropic vertical velocities of 0.7–1.5 K d−1. For the key tracers (CO, O3, and N2O) in our study, none of which are subject to microphysical processes, neither the lapse rate tropopause (LRT) around 380 K nor the cold point tropopause (CPT) around 390 K marks a strong discontinuity in their profiles. Up to about 20 to 35 K above the LRT, isolation of air inside the ASM anticyclone prevents significant in-mixing of stratospheric air (throughout this text, the term in-mixing refers specifically to mixing processes that introduce stratospheric air into the predominantly tropospheric inner anticyclone). The observed changes in CO and O3 likely result from in situ chemical processing. Above about 420 K, mixing processes become more significant and the air inside the anticyclone is exported vertically and horizontally into the surrounding stratosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

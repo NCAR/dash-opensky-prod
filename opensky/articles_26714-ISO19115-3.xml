@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26714</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:13:59.330224</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:22:55.956579</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -257,7 +258,7 @@
                   <gco:CharacterString>Related Dataset #9</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>&#x3b8;-M&#x3b8;e Lookup Table (ERA-Interim)</gco:CharacterString>
+                  <gco:CharacterString>θ-Mθe Lookup Table (ERA-Interim)</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -307,7 +308,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xf6;denbeck, C.</gco:CharacterString>
+                        <gco:CharacterString>Rödenbeck, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +360,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1273-2957"
+                                    xlink:title="Long, Matthew"
+                                    xlink:actuate="onRequest">Long, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +382,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Seasonal change of atmospheric potential oxygen (APO &#x223c; O2 + CO2) is a tracer for air-sea O2 flux with little sensitivity to the terrestrial exchange of O2 and CO2. In this study, we present the tropospheric distribution and inventory of APO in each hemisphere with seasonal resolution, using O2 and CO2 measurements from discrete airborne campaigns between 2009 and 2018. The airborne data are represented on a mass-weighted isentropic coordinate (M&#x3b8;e) as an alternative to latitude, which reduces the noise from synoptic variability in the APO cycles. We find a larger seasonal amplitude of APO inventory in the Southern Hemisphere relative to the Northern Hemisphere, and a larger amplitude in high latitudes (low M&#x3b8;e) relative to low latitudes (high M&#x3b8;e) within each hemisphere. With a box model, we invert the seasonal changes in APO inventory to yield estimates of air-sea flux cycles at the hemispheric scale. We found a larger seasonal net outgassing of APO in the Southern Hemisphere (518 &#xb1; 52.6 Tmol) than in the Northern Hemisphere (342 &#xb1; 52.1 Tmol). Differences in APO phasing and amplitude between the hemispheres suggest distinct physical and biogeochemical mechanisms driving the air-sea O2 fluxes, such as fall outgassing of photosynthetic O2 in the Northern Hemisphere, possibly associated with the formation of the seasonal subsurface shallow oxygen maximum. We compare our estimates with four model- and observation-based products, identifying key limitations in these products or in the tools used to create them.</gco:CharacterString>
+            <gco:CharacterString>Seasonal change of atmospheric potential oxygen (APO ∼ O2 + CO2) is a tracer for air-sea O2 flux with little sensitivity to the terrestrial exchange of O2 and CO2. In this study, we present the tropospheric distribution and inventory of APO in each hemisphere with seasonal resolution, using O2 and CO2 measurements from discrete airborne campaigns between 2009 and 2018. The airborne data are represented on a mass-weighted isentropic coordinate (Mθe) as an alternative to latitude, which reduces the noise from synoptic variability in the APO cycles. We find a larger seasonal amplitude of APO inventory in the Southern Hemisphere relative to the Northern Hemisphere, and a larger amplitude in high latitudes (low Mθe) relative to low latitudes (high Mθe) within each hemisphere. With a box model, we invert the seasonal changes in APO inventory to yield estimates of air-sea flux cycles at the hemispheric scale. We found a larger seasonal net outgassing of APO in the Southern Hemisphere (518 ± 52.6 Tmol) than in the Northern Hemisphere (342 ± 52.1 Tmol). Differences in APO phasing and amplitude between the hemispheres suggest distinct physical and biogeochemical mechanisms driving the air-sea O2 fluxes, such as fall outgassing of photosynthetic O2 in the Northern Hemisphere, possibly associated with the formation of the seasonal subsurface shallow oxygen maximum. We compare our estimates with four model- and observation-based products, identifying key limitations in these products or in the tools used to create them.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

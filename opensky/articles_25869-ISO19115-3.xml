@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25869</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:59.653812</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:00:38.078406</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The skill of NOAA's official monthly U.S. precipitation forecasts (issued in the middle of the prior month) has historically been low, having shown modest skill over the southern United States, but little or no skill over large portions of the central United States. The goal of this study is to explain the seasonal and regional variations of the North American subseasonal (weeks 3&#x2013;6) precipitation skill, specifically the reasons for its successes and its limitations. The performances of multiple recent-generation model reforecasts over 1999&#x2013;2015 in predicting precipitation are compared to uninitialized simulation skill using the atmospheric component of the forecast systems. This parallel analysis permits attribution of precipitation skill to two distinct sources: one due to slowly evolving ocean surface boundary states and the other to faster time-scale initial atmospheric weather states. A strong regionality and seasonality in precipitation forecast performance is shown to be analogous to skill patterns dictated by boundary forcing constraints alone. The correspondence is found to be especially high for the North American pattern of the maximum monthly skill that is achieved in the reforecast. The boundary forcing of most importance originates from tropical Pacific SST influences, especially those related to El Ni&#xf1;o&#x2013;Southern Oscillation. We discuss physical constraints that may limit monthly precipitation skill and interpret the performance of existing models in the context of plausible upper limits.</gco:CharacterString>
+            <gco:CharacterString>The skill of NOAA's official monthly U.S. precipitation forecasts (issued in the middle of the prior month) has historically been low, having shown modest skill over the southern United States, but little or no skill over large portions of the central United States. The goal of this study is to explain the seasonal and regional variations of the North American subseasonal (weeks 3–6) precipitation skill, specifically the reasons for its successes and its limitations. The performances of multiple recent-generation model reforecasts over 1999–2015 in predicting precipitation are compared to uninitialized simulation skill using the atmospheric component of the forecast systems. This parallel analysis permits attribution of precipitation skill to two distinct sources: one due to slowly evolving ocean surface boundary states and the other to faster time-scale initial atmospheric weather states. A strong regionality and seasonality in precipitation forecast performance is shown to be analogous to skill patterns dictated by boundary forcing constraints alone. The correspondence is found to be especially high for the North American pattern of the maximum monthly skill that is achieved in the reforecast. The boundary forcing of most importance originates from tropical Pacific SST influences, especially those related to El Niño–Southern Oscillation. We discuss physical constraints that may limit monthly precipitation skill and interpret the performance of existing models in the context of plausible upper limits.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

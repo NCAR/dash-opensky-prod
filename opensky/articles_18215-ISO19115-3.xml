@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18215</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:15:47.724180</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:38:56.600455</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Actions to reduce greenhouse gas (GHG) emissions often reduce co-emitted air pollutants, bringing co-benefits for air quality and human health. Past studies1, 2, 3, 4, 5, 6 typically evaluated near-term and local co-benefits, neglecting the long-range transport of air pollutants, long-term demographic changes, and the influence of climate change on air quality. Here we simulate the co-benefits of global GHG reductions on air quality and human health using a global atmospheric model and consistent future scenarios, via two mechanisms: reducing co-emitted air pollutants, and slowing climate change and its effect on air quality. We use new relationships between chronic mortality and exposure to fine particulate matter and ozone, global modelling methods and new future scenarios. Relative to a reference scenario, global GHG mitigation avoids 0.5&#xb1;0.2, 1.3&#xb1;0.5 and 2.2&#xb1;0.8 million premature deaths in 2030, 2050 and 2100. Global average marginal co-benefits of avoided mortality are US$50&#x2013;380 per tonne of CO&#x2082;, which exceed previous estimates, exceed marginal abatement costs in 2030 and 2050, and are within the low range of costs in 2100. East Asian co-benefits are 10&#x2013;70 times the marginal cost in 2030. Air quality and health co-benefits, especially as they are mainly local and near-term, provide strong additional motivation for transitioning to a low-carbon future.</gco:CharacterString>
+            <gco:CharacterString>Actions to reduce greenhouse gas (GHG) emissions often reduce co-emitted air pollutants, bringing co-benefits for air quality and human health. Past studies1, 2, 3, 4, 5, 6 typically evaluated near-term and local co-benefits, neglecting the long-range transport of air pollutants, long-term demographic changes, and the influence of climate change on air quality. Here we simulate the co-benefits of global GHG reductions on air quality and human health using a global atmospheric model and consistent future scenarios, via two mechanisms: reducing co-emitted air pollutants, and slowing climate change and its effect on air quality. We use new relationships between chronic mortality and exposure to fine particulate matter and ozone, global modelling methods and new future scenarios. Relative to a reference scenario, global GHG mitigation avoids 0.5±0.2, 1.3±0.5 and 2.2±0.8 million premature deaths in 2030, 2050 and 2100. Global average marginal co-benefits of avoided mortality are US$50–380 per tonne of CO₂, which exceed previous estimates, exceed marginal abatement costs in 2030 and 2050, and are within the low range of costs in 2100. East Asian co-benefits are 10–70 times the marginal cost in 2030. Air quality and health co-benefits, especially as they are mainly local and near-term, provide strong additional motivation for transitioning to a low-carbon future.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

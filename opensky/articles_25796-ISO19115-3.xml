@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25796</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:08.309537</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:57:18.331176</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaneko, Takafumi</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7800-9262"
+                                    xlink:title="Kaneko, Takafumi"
+                                    xlink:actuate="onRequest">Kaneko, Takafumi</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Strong solar flares occur in &#x3b4;-spots characterized by the opposite-polarity magnetic fluxes in a single penumbra. Sunspot formation via flux emergence from the convection zone to the photosphere can be strongly affected by convective turbulent flows. It has not yet been shown how crucial convective flows are for the formation of &#x3b4;-spots. The aim of this study is to reveal the impact of convective flows in the convection zone on the formation and evolution of sunspot magnetic fields. We simulated the emergence and transport of magnetic flux tubes in the convection zone using radiative magnetohydrodynamics code R2D2. We carried out 93 simulations by allocating the twisted flux tubes to different positions in the convection zone. As a result, both &#x3b4;-type and &#x3b2;-type magnetic distributions were reproduced only by the differences in the convective flows surrounding the flux tubes. The &#x3b4;-spots were formed by the collision of positive and negative magnetic fluxes on the photosphere. The unipolar and bipolar rotations of the &#x3b4;-spots were driven by magnetic twist and writhe, transporting magnetic helicity from the convection zone to the corona. We detected a strong correlation between the distribution of the non-potential magnetic field in the photosphere and the position of the downflow plume in the convection zone. The correlation could be detected 20&#x2013;30 h before the flux emergence. The results suggest that high free energy regions in the photosphere can be predicted even before the magnetic flux appears in the photosphere by detecting the downflow profile in the convection zone.</gco:CharacterString>
+            <gco:CharacterString>Strong solar flares occur in δ-spots characterized by the opposite-polarity magnetic fluxes in a single penumbra. Sunspot formation via flux emergence from the convection zone to the photosphere can be strongly affected by convective turbulent flows. It has not yet been shown how crucial convective flows are for the formation of δ-spots. The aim of this study is to reveal the impact of convective flows in the convection zone on the formation and evolution of sunspot magnetic fields. We simulated the emergence and transport of magnetic flux tubes in the convection zone using radiative magnetohydrodynamics code R2D2. We carried out 93 simulations by allocating the twisted flux tubes to different positions in the convection zone. As a result, both δ-type and β-type magnetic distributions were reproduced only by the differences in the convective flows surrounding the flux tubes. The δ-spots were formed by the collision of positive and negative magnetic fluxes on the photosphere. The unipolar and bipolar rotations of the δ-spots were driven by magnetic twist and writhe, transporting magnetic helicity from the convection zone to the corona. We detected a strong correlation between the distribution of the non-potential magnetic field in the photosphere and the position of the downflow plume in the convection zone. The correlation could be detected 20–30 h before the flux emergence. The results suggest that high free energy regions in the photosphere can be predicted even before the magnetic flux appears in the photosphere by detecting the downflow profile in the convection zone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

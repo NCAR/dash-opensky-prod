@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6690</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:01:08.089818</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:30:02.302663</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Because of a lack of regular, direct measurements, little information is available about the frequency and spatial and temporal distribution of icing conditions aloft, including supercooled large drops (SLD). Research aircraft provide in situ observations of these conditions, but the sample set is small and can be biased. Other techniques must be used to create a more unbiased climatology. The presence and absence of icing and SLD aloft can be inferred using surface weather observations in conjunction with vertical profiles of temperature and moisture. In this study, such a climatology was created using 14 yr of coincident, 12-hourly Canadian and continental U.S. surface weather reports and balloonborne soundings. The conditions were found to be most common along the Pacific Coast from Alaska to Oregon, and in a large swath from the Canadian Maritimes to the Midwest. Prime locations migrated seasonally. Most SLD events appeared to occur below 4 km, were less than 1 km deep, and were formed via the collision&#x2013;coalescence process.</gco:CharacterString>
+            <gco:CharacterString>Because of a lack of regular, direct measurements, little information is available about the frequency and spatial and temporal distribution of icing conditions aloft, including supercooled large drops (SLD). Research aircraft provide in situ observations of these conditions, but the sample set is small and can be biased. Other techniques must be used to create a more unbiased climatology. The presence and absence of icing and SLD aloft can be inferred using surface weather observations in conjunction with vertical profiles of temperature and moisture. In this study, such a climatology was created using 14 yr of coincident, 12-hourly Canadian and continental U.S. surface weather reports and balloonborne soundings. The conditions were found to be most common along the Pacific Coast from Alaska to Oregon, and in a large swath from the Canadian Maritimes to the Midwest. Prime locations migrated seasonally. Most SLD events appeared to occur below 4 km, were less than 1 km deep, and were formed via the collision–coalescence process.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

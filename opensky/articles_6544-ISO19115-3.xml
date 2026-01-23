@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6544</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:02.582301</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:21:26.568182</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Using timescales for the generation and depletion of water vapor, we predict aerosol sensitivity in clouds formed by homogeneous freezing. Our timescale analysis explains why aerosol sensitivity increases dramatically with ice deposition coefficients (&#x3b1; &#x1d62;) &#x226a; 0.1, and also why aerosol sensitivity increases as vertical velocity increases, temperature decreases, aerosol number decreases, and aerosol size decreases. We combine existing in-situ observations with adiabatic parcel modeling to constrain &#x3b1; &#x1d62; &#x2265; 0.1 for small ice crystals forming at high ice supersaturations. Two important implications for understanding and modeling upper tropospheric water vapor budgets emerge from our results: 1) aerosol sensitivity can be appreciable at low temperatures and moderate updrafts (&#x223c;5 cm/s) in the upper tropical troposphere, 2) reconciling our results with recent laboratory measurements supports theory that &#x3b1; &#x1d62; increases with ice supersaturation and/or decreases with ice crystal size.</gco:CharacterString>
+            <gco:CharacterString>Using timescales for the generation and depletion of water vapor, we predict aerosol sensitivity in clouds formed by homogeneous freezing. Our timescale analysis explains why aerosol sensitivity increases dramatically with ice deposition coefficients (α ᵢ) ≪ 0.1, and also why aerosol sensitivity increases as vertical velocity increases, temperature decreases, aerosol number decreases, and aerosol size decreases. We combine existing in-situ observations with adiabatic parcel modeling to constrain α ᵢ ≥ 0.1 for small ice crystals forming at high ice supersaturations. Two important implications for understanding and modeling upper tropospheric water vapor budgets emerge from our results: 1) aerosol sensitivity can be appreciable at low temperatures and moderate updrafts (∼5 cm/s) in the upper tropical troposphere, 2) reconciling our results with recent laboratory measurements supports theory that α ᵢ increases with ice supersaturation and/or decreases with ice crystal size.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

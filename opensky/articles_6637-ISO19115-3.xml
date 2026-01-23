@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6637</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:02.412661</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:33:15.902462</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The character of fog in a region centered on New York City, New York, is investigated using 20 yr of historical data. Hourly surface observations are used to identify fog events at 17 locations under the influence of various physiographic features, such as land&#x2013;water contrasts, land surface character (urban, suburban, and rural), and terrain. Fog events at each location are classified by fog types using an objective algorithm derived after extensive examination of fog formation processes. Events are characterized according to frequency, duration, and intensity. A quantitative assessment of the likelihood with which mechanisms leading to fog formation are occurring in various parts of the region is obtained. The spatial, seasonal, and diurnal variability of fog occurrences are examined and results are related to regional and local influences. The results show that the likelihood of fog occurrence is influenced negatively by the presence of the urban heat island of New York City, whereas it is enhanced at locations under the direct influence of the marine environment. Inland suburban and rural locations also experience a considerable amount of fog. As in other areas throughout the world, the overall fog phenomenon is a superposition of various types. Precipitation fog, which occurs predominantly in winter, is the most common type. Fog resulting from cloud-base lowering also occurs frequently across the region, with an enhanced likelihood in winter and spring. A considerable number of advection fog events occur in coastal areas, mostly during spring, whereas radiation fog occurs predominantly at suburban and rural locations during late summer and early autumn but also occurs during the warm season in the coastal plain of New Jersey as advection-radiation events</gco:CharacterString>
+            <gco:CharacterString>The character of fog in a region centered on New York City, New York, is investigated using 20 yr of historical data. Hourly surface observations are used to identify fog events at 17 locations under the influence of various physiographic features, such as land–water contrasts, land surface character (urban, suburban, and rural), and terrain. Fog events at each location are classified by fog types using an objective algorithm derived after extensive examination of fog formation processes. Events are characterized according to frequency, duration, and intensity. A quantitative assessment of the likelihood with which mechanisms leading to fog formation are occurring in various parts of the region is obtained. The spatial, seasonal, and diurnal variability of fog occurrences are examined and results are related to regional and local influences. The results show that the likelihood of fog occurrence is influenced negatively by the presence of the urban heat island of New York City, whereas it is enhanced at locations under the direct influence of the marine environment. Inland suburban and rural locations also experience a considerable amount of fog. As in other areas throughout the world, the overall fog phenomenon is a superposition of various types. Precipitation fog, which occurs predominantly in winter, is the most common type. Fog resulting from cloud-base lowering also occurs frequently across the region, with an enhanced likelihood in winter and spring. A considerable number of advection fog events occur in coastal areas, mostly during spring, whereas radiation fog occurs predominantly at suburban and rural locations during late summer and early autumn but also occurs during the warm season in the coastal plain of New Jersey as advection-radiation events</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

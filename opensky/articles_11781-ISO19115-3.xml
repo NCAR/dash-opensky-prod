@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11781</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:35:12.135643</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:59:58.378884</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Conley, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0061-9906"
+                                    xlink:title="Conley, Andrew J."
+                                    xlink:actuate="onRequest">Conley, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schauffler, Sue</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4516-3378"
+                                    xlink:title="Schauffler, Sue"
+                                    xlink:actuate="onRequest">Schauffler, Sue</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +300,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We have integrated observations of tropospheric ozone, very short-lived (VSL) halocarbons and reactive iodine and bromine species from a wide variety of tropical data sources with the global CAM-Chem chemistry-climate model and offline radiative transfer calculations to compute the contribution of halogen chemistry to ozone loss and associated radiative impact in the tropical marine troposphere. The inclusion of tropospheric halogen chemistry in CAM-Chem leads to an annually averaged depletion of around 10% (~2.5 Dobson units) of the tropical tropospheric ozone column, with largest effects in the middle to upper troposphere. This depletion contributes approximately &#x2212;0.10 W m&#x207b;&#xb2; to the radiative flux at the tropical tropopause. This negative flux is of similar magnitude to the ~0.33 W m&#x207b;&#xb2; contribution of tropospheric ozone to present-day radiative balance as recently estimated from satellite observations. We find that the implementation of oceanic halogen sources and chemistry in climate models is an important component of the natural background ozone budget and we suggest that it needs to be considered when estimating both preindustrial ozone baseline levels and long term changes in tropospheric ozone.</gco:CharacterString>
+            <gco:CharacterString>We have integrated observations of tropospheric ozone, very short-lived (VSL) halocarbons and reactive iodine and bromine species from a wide variety of tropical data sources with the global CAM-Chem chemistry-climate model and offline radiative transfer calculations to compute the contribution of halogen chemistry to ozone loss and associated radiative impact in the tropical marine troposphere. The inclusion of tropospheric halogen chemistry in CAM-Chem leads to an annually averaged depletion of around 10% (~2.5 Dobson units) of the tropical tropospheric ozone column, with largest effects in the middle to upper troposphere. This depletion contributes approximately −0.10 W m⁻² to the radiative flux at the tropical tropopause. This negative flux is of similar magnitude to the ~0.33 W m⁻² contribution of tropospheric ozone to present-day radiative balance as recently estimated from satellite observations. We find that the implementation of oceanic halogen sources and chemistry in climate models is an important component of the natural background ozone budget and we suggest that it needs to be considered when estimating both preindustrial ozone baseline levels and long term changes in tropospheric ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

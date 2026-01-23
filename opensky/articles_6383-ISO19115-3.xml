@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6383</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:45.574969</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:14:19.196235</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Estimating the potential for methane clathrate instability in the 1%-CO&#x2082; IPCC AR-4 simulations</gco:CharacterString>
+                  <gco:CharacterString>Estimating the potential for methane clathrate instability in the 1%-CO₂ IPCC AR-4 simulations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The recent work of Reagan and Moridis (2007) has shown that even a limited warming of 1 K over 100 years can lead to clathrate destabilization, leading to a significant flux of methane into the ocean water, at least for shallow deposits. Here we study the potential for methane clathrate destabilization by identifying the 100-year temperature increase in the available IPCC (Intergovernmental Panel on Climate Change) AR-4 1%-CO&#x2082; increase per year (up to doubling over pre-industrial conditions, which occurs after 70 years) simulations. Depending on assumptions made on the possible locations (in this case, only depth) of methane clathrates and on temperature dependence, our calculation leads to an estimated model-mean release of methane at the bottom of the ocean of approximately 560-2140 Tg(CH&#x2084;)/year; as no actual geographical distribution of methane clathrates is considered here, these flux estimates must be viewed as upper bound estimates. Using an observed 1% ratio to estimate the amount of methane reaching the atmosphere, our analysis leads to a relatively small methane flux of approximately 5-21 Tg(CH&#x2084;)/year, with an estimated inter-model standard deviation of approximately 30%. The role of sea-level rise by 2100 will be to further stabilize methane clathrates, albeit to a small amount as the sea-level rise is expected to be less than a few meters.</gco:CharacterString>
+            <gco:CharacterString>The recent work of Reagan and Moridis (2007) has shown that even a limited warming of 1 K over 100 years can lead to clathrate destabilization, leading to a significant flux of methane into the ocean water, at least for shallow deposits. Here we study the potential for methane clathrate destabilization by identifying the 100-year temperature increase in the available IPCC (Intergovernmental Panel on Climate Change) AR-4 1%-CO₂ increase per year (up to doubling over pre-industrial conditions, which occurs after 70 years) simulations. Depending on assumptions made on the possible locations (in this case, only depth) of methane clathrates and on temperature dependence, our calculation leads to an estimated model-mean release of methane at the bottom of the ocean of approximately 560-2140 Tg(CH₄)/year; as no actual geographical distribution of methane clathrates is considered here, these flux estimates must be viewed as upper bound estimates. Using an observed 1% ratio to estimate the amount of methane reaching the atmosphere, our analysis leads to a relatively small methane flux of approximately 5-21 Tg(CH₄)/year, with an estimated inter-model standard deviation of approximately 30%. The role of sea-level rise by 2100 will be to further stabilize methane clathrates, albeit to a small amount as the sea-level rise is expected to be less than a few meters.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

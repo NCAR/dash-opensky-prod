@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14127</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:47.435250</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:29:12.438736</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8878-5126"
+                                    xlink:title="Pedatella, Nicholas M."
+                                    xlink:actuate="onRequest">Pedatella, Nicholas M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To investigate ionosphere variability during the 2009 sudden stratosphere warming (SSW), we present simulation results that combine the Whole Atmosphere Community Climate Model Extended version and the thermosphere-ionosphere-mesosphere electrodynamics general circulation model (TIME-GCM). The simulations reveal notable enhancements in both the migrating semidiurnal solar (SW2) and lunar (M&#x2082;) tides during the SSW. The SW2 and M&#x2082; amplitudes reach &#x223c;50&#x2009;m&#x2009;s&#x207b;&#xb9; and &#x223c;40&#x2009;m&#x2009;s&#x207b;&#xb9;, respectively, in zonal wind at E region altitudes. The dramatic increase in the M2 at these altitudes influences the dynamo generation of electric fields, and the importance of the M&#x2082; on the ionosphere variability during the 2009 SSW is demonstrated by comparing simulations with and without the M&#x2082;. TIME-GCM simulations that incorporate the M&#x2082; are found to be in good agreement with Jicamarca Incoherent Scatter Radar vertical plasma drifts and Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) observations of the maximum F region electron density. The agreement with observations is worse if the M&#x2082; is not included in the simulation, demonstrating that the lunar tide is an important contributor to the ionosphere variability during the 2009 SSW. We additionally investigate sources of the F region electron density variability during the SSW. The primary driver of the electron density variability is changes in electric fields. Changes in meridional neutral winds and thermosphere composition are found to also contribute to the electron density variability during the 2009 SSW. The electron density variability for the 2009 SSW is therefore not solely due to variability in electric fields as previously thought.</gco:CharacterString>
+            <gco:CharacterString>To investigate ionosphere variability during the 2009 sudden stratosphere warming (SSW), we present simulation results that combine the Whole Atmosphere Community Climate Model Extended version and the thermosphere-ionosphere-mesosphere electrodynamics general circulation model (TIME-GCM). The simulations reveal notable enhancements in both the migrating semidiurnal solar (SW2) and lunar (M₂) tides during the SSW. The SW2 and M₂ amplitudes reach ∼50 m s⁻¹ and ∼40 m s⁻¹, respectively, in zonal wind at E region altitudes. The dramatic increase in the M2 at these altitudes influences the dynamo generation of electric fields, and the importance of the M₂ on the ionosphere variability during the 2009 SSW is demonstrated by comparing simulations with and without the M₂. TIME-GCM simulations that incorporate the M₂ are found to be in good agreement with Jicamarca Incoherent Scatter Radar vertical plasma drifts and Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) observations of the maximum F region electron density. The agreement with observations is worse if the M₂ is not included in the simulation, demonstrating that the lunar tide is an important contributor to the ionosphere variability during the 2009 SSW. We additionally investigate sources of the F region electron density variability during the SSW. The primary driver of the electron density variability is changes in electric fields. Changes in meridional neutral winds and thermosphere composition are found to also contribute to the electron density variability during the 2009 SSW. The electron density variability for the 2009 SSW is therefore not solely due to variability in electric fields as previously thought.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

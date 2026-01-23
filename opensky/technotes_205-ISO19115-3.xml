@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:205</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:03:22.942113</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:37:39.924746</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This technical note documents the capability of the National Center for Atmospheric Research (NCAR), 2.5&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; latitude-longitude, second-generation, 6-layer General Circulation Model (GCM) to simulate a typical January or July. This version is a modification of an NCAR model for which results of similar simulations were published earlier. The new diagnostics are storm tracks for both mountain and no-mountain experiments, soil moisture, snow cover, and energy balance at the earth's surface and model top. To clarify the cause of a deficiency in the temperature distribution, we include results of additional experiments. For the reader's convenience in examining the figures along with the text, this technical note is divided into Volume l Text and Volume 2 Figures.</gco:CharacterString>
+            <gco:CharacterString>This technical note documents the capability of the National Center for Atmospheric Research (NCAR), 2.5ï¿½ï¿½ latitude-longitude, second-generation, 6-layer General Circulation Model (GCM) to simulate a typical January or July. This version is a modification of an NCAR model for which results of similar simulations were published earlier. The new diagnostics are storm tracks for both mountain and no-mountain experiments, soil moisture, snow cover, and energy balance at the earth's surface and model top. To clarify the cause of a deficiency in the temperature distribution, we include results of additional experiments. For the reader's convenience in examining the figures along with the text, this technical note is divided into Volume l Text and Volume 2 Figures.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

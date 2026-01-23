@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42110</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:30.576520</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:12.839180</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Herrington, Adam R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8273-5507"
+                                    xlink:title="Herrington, Adam R."
+                                    xlink:actuate="onRequest">Herrington, Adam R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric rivers (ARs) are synoptic-scale features that transport moisture poleward and may cause short-duration, high-volume melt events on the Greenland ice sheet (GrIS). In contrast with traditional climate modeling studies that rely on coarse (1 to 2&#xb0;) grids, this project investigates the effectiveness of variable-resolution (VR) grids in modeling ARs and their subsequent precipitation using refined grid spacing (0.25 and 0.125&#xb0;) around the GrIS and 1&#xb0; grid spacing for the rest of the globe in a coupled land&#x2013;atmosphere model simulation. VR simulations from the Community Earth System Model version&amp;nbsp;2.2 (CESM2.2) bridge the gap between the limitations of global and regional climate models while maximizing computational efficiency. ARs from CESM2.2 simulations using three grid types (VR, latitude&#x2013;longitude, and quasi-uniform) with varying resolutions are compared to outputs from two observation-based reanalysis products, ERA5 and the Modern-Era Retrospective Analysis for Research and Applications, version&amp;nbsp;2 (MERRA-2), using a study period of 1&amp;nbsp;January 1979 to 31&amp;nbsp;December 1998. The VR grids produce ARs with smaller areal extents and lower area-integrated precipitation over the GrIS compared to latitude&#x2013;longitude and quasi-uniform grids. We hypothesize that the smaller areal AR extents in VR grids are due to the refined topography resolved in these grids. In contrast, topographic smoothing in coarser-resolution latitude&#x2013;longitude and quasi-uniform grids allows ARs to penetrate further inland on the GrIS. Precipitation rates are similar for the VR, latitude&#x2013;longitude, and quasi-uniform grids; thus the reduced areal extent in VR grids produces lower area-integrated precipitation. The VR grids most closely match the AR overlap extent and precipitation in ERA5 and MERRA-2, suggesting the most realistic behavior among the three configurations.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric rivers (ARs) are synoptic-scale features that transport moisture poleward and may cause short-duration, high-volume melt events on the Greenland ice sheet (GrIS). In contrast with traditional climate modeling studies that rely on coarse (1 to 2°) grids, this project investigates the effectiveness of variable-resolution (VR) grids in modeling ARs and their subsequent precipitation using refined grid spacing (0.25 and 0.125°) around the GrIS and 1° grid spacing for the rest of the globe in a coupled land–atmosphere model simulation. VR simulations from the Community Earth System Model version&amp;nbsp;2.2 (CESM2.2) bridge the gap between the limitations of global and regional climate models while maximizing computational efficiency. ARs from CESM2.2 simulations using three grid types (VR, latitude–longitude, and quasi-uniform) with varying resolutions are compared to outputs from two observation-based reanalysis products, ERA5 and the Modern-Era Retrospective Analysis for Research and Applications, version&amp;nbsp;2 (MERRA-2), using a study period of 1&amp;nbsp;January 1979 to 31&amp;nbsp;December 1998. The VR grids produce ARs with smaller areal extents and lower area-integrated precipitation over the GrIS compared to latitude–longitude and quasi-uniform grids. We hypothesize that the smaller areal AR extents in VR grids are due to the refined topography resolved in these grids. In contrast, topographic smoothing in coarser-resolution latitude–longitude and quasi-uniform grids allows ARs to penetrate further inland on the GrIS. Precipitation rates are similar for the VR, latitude–longitude, and quasi-uniform grids; thus the reduced areal extent in VR grids produces lower area-integrated precipitation. The VR grids most closely match the AR overlap extent and precipitation in ERA5 and MERRA-2, suggesting the most realistic behavior among the three configurations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

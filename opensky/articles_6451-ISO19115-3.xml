@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6451</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:09.339772</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:21:40.419481</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;emel, H.</gco:CharacterString>
+                        <gco:CharacterString>Vöemel, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -397,7 +398,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Comparisons of Tropospheric Emission Spectrometer (TES) water vapor retrievals with in situ measurements are presented. Global comparisons of TES water vapor retrievals with nighttime National Centers for Environmental Prediction RS90/RS92 radiosondes show a small (&lt;5%) moist bias in TES retrievals in the lower troposphere (standard deviation of &#x223c;20%), increasing to a maximum of &#x223c;15% bias (with standard deviation reaching &#x223c;40%) in the upper troposphere. This moist bias with respect to the sonde bias increases to a maximum of &#x223c;15% in the upper troposphere between &#x223c;300-200 hPa. The standard deviation in this region reaches values of &#x223c;40%. It is important to note that the TES reported water vapor comparison statistics are not weighted by the water vapor layer amounts. Global TES/radiosonde results are comparable with the Atmospheric Infrared Sounder reported unweighted mean of 25% and root-mean-square of &#x223c;55%. While such global comparisons help to identify general issues, inherent sampling errors and radiosonde measurement accuracy can limit the degree to which the radiosonde profiles alone can be used to validate satellite retrievals. In order to characterize the agreement of TES with in situ measurements in detail, radiance closure studies were performed using data from the Water Vapor Validation Experiment - Satellites/Sondes campaign from July 2006. Results indicate that estimated systematic errors from the forward model, TES measurements, in situ observations, retrieved temperature profiles, and clouds are likely not large enough to account for radiance differences between TES observations and forward model calculations using in situ profiles as input. Therefore, accurate validation of TES water vapor retrievals requires further campaigns with a larger variety of water vapor measurements that better characterize the atmospheric state within the TES field of view.</gco:CharacterString>
+            <gco:CharacterString>Comparisons of Tropospheric Emission Spectrometer (TES) water vapor retrievals with in situ measurements are presented. Global comparisons of TES water vapor retrievals with nighttime National Centers for Environmental Prediction RS90/RS92 radiosondes show a small (&lt;5%) moist bias in TES retrievals in the lower troposphere (standard deviation of ∼20%), increasing to a maximum of ∼15% bias (with standard deviation reaching ∼40%) in the upper troposphere. This moist bias with respect to the sonde bias increases to a maximum of ∼15% in the upper troposphere between ∼300-200 hPa. The standard deviation in this region reaches values of ∼40%. It is important to note that the TES reported water vapor comparison statistics are not weighted by the water vapor layer amounts. Global TES/radiosonde results are comparable with the Atmospheric Infrared Sounder reported unweighted mean of 25% and root-mean-square of ∼55%. While such global comparisons help to identify general issues, inherent sampling errors and radiosonde measurement accuracy can limit the degree to which the radiosonde profiles alone can be used to validate satellite retrievals. In order to characterize the agreement of TES with in situ measurements in detail, radiance closure studies were performed using data from the Water Vapor Validation Experiment - Satellites/Sondes campaign from July 2006. Results indicate that estimated systematic errors from the forward model, TES measurements, in situ observations, retrieved temperature profiles, and clouds are likely not large enough to account for radiance differences between TES observations and forward model calculations using in situ profiles as input. Therefore, accurate validation of TES water vapor retrievals requires further campaigns with a larger variety of water vapor measurements that better characterize the atmospheric state within the TES field of view.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

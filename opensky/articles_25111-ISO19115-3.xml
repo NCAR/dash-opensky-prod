@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25111</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:05:52.181907</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:49:27.694904</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Balo&#xef;tcha, E.</gco:CharacterString>
+                        <gco:CharacterString>Baloïtcha, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>By increasing Earth-atmosphere system albedo, Stratospheric Aerosol Geoengineering (SAG) using sulfur dioxide is an artificial potential means, with the goal to mitigate the global warming effects. In this study, we used the simulations from Geoengineering Large Ensemble project realized under the climate change scenario of Representative Concentration Pathway 8.5 (RCP8.5), to investigate the potential impact of SAG on the Sea Surface Temperature (SST) in Equatorial Atlantic Cold Tongue (EACT) and the physical processes driving these changes. Results reveal that in the EACT region, under RCP8.5, SST warms significantly (compared to present-day climate) with a maximum of 1.7 &#xb0;C in July, and this increase in SST is mainly due to the local processes related to the weakening of vertical mixing at the base of the mixed layer. This reduction of the vertical mixing is associated to the diminution of the vertical shear from July to April and to the increase of ocean stratification from May to June. However, under SAG, SST decreases significantly throughout the year (compared to present-day climate) with a maximum cooling of &#x2212; 0.4 &#xb0;C in the cold tongue period (May&#x2013;June). This SST cooling is mainly associated with the non-local processes related to intensification of the westerly equatorial Atlantic wind stress. Finally, results show that the use of SAG to offset all global warming under RCP8.5 results in a slight over compensation of SST in the EACT region.</gco:CharacterString>
+            <gco:CharacterString>By increasing Earth-atmosphere system albedo, Stratospheric Aerosol Geoengineering (SAG) using sulfur dioxide is an artificial potential means, with the goal to mitigate the global warming effects. In this study, we used the simulations from Geoengineering Large Ensemble project realized under the climate change scenario of Representative Concentration Pathway 8.5 (RCP8.5), to investigate the potential impact of SAG on the Sea Surface Temperature (SST) in Equatorial Atlantic Cold Tongue (EACT) and the physical processes driving these changes. Results reveal that in the EACT region, under RCP8.5, SST warms significantly (compared to present-day climate) with a maximum of 1.7 °C in July, and this increase in SST is mainly due to the local processes related to the weakening of vertical mixing at the base of the mixed layer. This reduction of the vertical mixing is associated to the diminution of the vertical shear from July to April and to the increase of ocean stratification from May to June. However, under SAG, SST decreases significantly throughout the year (compared to present-day climate) with a maximum cooling of − 0.4 °C in the cold tongue period (May–June). This SST cooling is mainly associated with the non-local processes related to intensification of the westerly equatorial Atlantic wind stress. Finally, results show that the use of SAG to offset all global warming under RCP8.5 results in a slight over compensation of SST in the EACT region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

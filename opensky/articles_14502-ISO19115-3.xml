@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14502</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:04:29.745350</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:20:40.334124</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Due to a lack of industrialization in Western China, surface air there was, until recently, believed to be relatively unpolluted. However, recent measurements and modeling studies have found high levels of ozone (O&#x2083;) there. Based on the state-of-the-science global chemical transport model MOZART-4, we identify the origin, pathway, and mechanism of trans-Eurasian transport of air pollutants to Western China in 2000. MOZART-4 generally simulates well the observed surface O&#x2083;over inland areas of China. Simulations find surface ozone concentrations over Western China on average to be about 10 ppbv higher than Eastern China. Using sensitivity studies, we find that anthropogenic emissions from all Eurasian regions except China contribute 10-15 ppbv surface O&#x2083; over Western China, superimposed upon a 35-40 ppbv natural background. Transport from European anthropogenic sources to Northwestern China results in 2-6 ppbv O&#x2083; enhancements in spring and summer. Indian anthropogenic sources strongly influence O&#x2083; over the Tibetan Plateau during the summer monsoon. Transport of O&#x2083; originating from emissions in the Middle East occasionally reach Western China and increase surface ozone there by about 1-4 ppbv. These influences are of similar magnitude as trans-Pacific and transatlantic transport of O&#x2083; and its precursors, indicating the significance of trans-Eurasian ozone transport in hemispheric transport of air pollution. Our study further indicates that mitigation of anthropogenic emissions from Europe, the Indian subcontinent, and the Middle East could benefit public health and agricultural productivity in Western China.</gco:CharacterString>
+            <gco:CharacterString>Due to a lack of industrialization in Western China, surface air there was, until recently, believed to be relatively unpolluted. However, recent measurements and modeling studies have found high levels of ozone (O₃) there. Based on the state-of-the-science global chemical transport model MOZART-4, we identify the origin, pathway, and mechanism of trans-Eurasian transport of air pollutants to Western China in 2000. MOZART-4 generally simulates well the observed surface O₃over inland areas of China. Simulations find surface ozone concentrations over Western China on average to be about 10 ppbv higher than Eastern China. Using sensitivity studies, we find that anthropogenic emissions from all Eurasian regions except China contribute 10-15 ppbv surface O₃ over Western China, superimposed upon a 35-40 ppbv natural background. Transport from European anthropogenic sources to Northwestern China results in 2-6 ppbv O₃ enhancements in spring and summer. Indian anthropogenic sources strongly influence O₃ over the Tibetan Plateau during the summer monsoon. Transport of O₃ originating from emissions in the Middle East occasionally reach Western China and increase surface ozone there by about 1-4 ppbv. These influences are of similar magnitude as trans-Pacific and transatlantic transport of O₃ and its precursors, indicating the significance of trans-Eurasian ozone transport in hemispheric transport of air pollution. Our study further indicates that mitigation of anthropogenic emissions from Europe, the Indian subcontinent, and the Middle East could benefit public health and agricultural productivity in Western China.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

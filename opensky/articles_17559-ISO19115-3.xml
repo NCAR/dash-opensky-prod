@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17559</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:46:18.968855</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:32:21.243269</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kuo, Ying-Hwa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8339-7271"
+                                    xlink:title="Kuo, Ying-Hwa"
+                                    xlink:actuate="onRequest">Kuo, Ying-Hwa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lenschow, Donald H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4353-0098"
+                                    xlink:title="Lenschow, Donald H."
+                                    xlink:actuate="onRequest">Lenschow, Donald H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study presents an algorithm for estimating atmospheric boundary layer (ABL) depth from Global Positioning System (GPS) radio occultation (RO) data. The algorithm is applied to the Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) RO data and validated using high-resolution radiosonde data from the island of St. Helena (16.0&#xb0;S, 5.7&#xb0;W), tropical (30&#xb0;S&#x2013;30&#xb0;N) radiosondes collocated with RO, and European Centre for Medium-Range Weather Forecasts (ECMWF) high-resolution global analyses. Spatial and temporal variations of the ABL depth obtained from COSMIC RO data for a 1-yr period over tropical and subtropical oceans are analyzed. The results demonstrate the capability of RO data to resolve geographical and seasonal variations of ABL height. The spatial patterns of the variations are consistent with those derived from ECMWF global analysis. However, the ABL heights derived from ECMWF global analysis, on average, are negatively biased against those estimated from COSMIC GPS RO data. These results indicate that GPS RO data can provide useful information on ABL height, which is an important parameter for weather and climate studies.</gco:CharacterString>
+            <gco:CharacterString>This study presents an algorithm for estimating atmospheric boundary layer (ABL) depth from Global Positioning System (GPS) radio occultation (RO) data. The algorithm is applied to the Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) RO data and validated using high-resolution radiosonde data from the island of St. Helena (16.0°S, 5.7°W), tropical (30°S–30°N) radiosondes collocated with RO, and European Centre for Medium-Range Weather Forecasts (ECMWF) high-resolution global analyses. Spatial and temporal variations of the ABL depth obtained from COSMIC RO data for a 1-yr period over tropical and subtropical oceans are analyzed. The results demonstrate the capability of RO data to resolve geographical and seasonal variations of ABL height. The spatial patterns of the variations are consistent with those derived from ECMWF global analysis. However, the ABL heights derived from ECMWF global analysis, on average, are negatively biased against those estimated from COSMIC GPS RO data. These results indicate that GPS RO data can provide useful information on ABL height, which is an important parameter for weather and climate studies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

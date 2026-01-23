@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23989</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:10:33.113482</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:36:35.089625</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Effective radiative forcing from emissions of reactive gases and aerosols &#x2013; a multi-model comparison</gco:CharacterString>
+                  <gco:CharacterString>Effective radiative forcing from emissions of reactive gases and aerosols – a multi-model comparison</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -147,7 +148,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Olivi&#xe9;, D.</gco:CharacterString>
+                        <gco:CharacterString>Olivié, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +292,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mills, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8054-1346"
+                                    xlink:title="Mills, Michael J."
+                                    xlink:actuate="onRequest">Mills, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +384,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -427,7 +436,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper quantifies the pre-industrial (1850) to present-day (2014) effective radiative forcing (ERF) of anthropogenic emissions of NOX, volatile organic compounds (VOCs; including CO), SO2, NH3, black carbon, organic carbon, and concentrations of methane, N2O and ozone-depleting halocarbons, using CMIP6 models. Concentration and emission changes of reactive species can cause multiple changes in the composition of radiatively active species: tropospheric ozone, stratospheric ozone, stratospheric water vapour, secondary inorganic and organic aerosol, and methane. Where possible we break down the ERFs from each emitted species into the contributions from the composition changes. The ERFs are calculated for each of the models that participated in the AerChemMIP experiments as part of the CMIP6 project, where the relevant model output was available. The 1850 to 2014 multi-model mean ERFs (&#xb1; standard deviations) are &#x2212;1.03&#x2009;&#xb1;&#x2009;0.37&#x2009;W&#x2009;m&#x2212;2 for SO2 emissions, &#x2212;0.25&#x2009;&#xb1;&#x2009;0.09&#x2009;W&#x2009;m&#x2212;2 for organic carbon (OC), 0.15&#x2009;&#xb1;&#x2009;0.17&#x2009;W&#x2009;m&#x2212;2 for black carbon (BC) and &#x2212;0.07&#x2009;&#xb1;&#x2009;0.01&#x2009;W&#x2009;m&#x2212;2 for NH3. For the combined aerosols (in the piClim-aer experiment) it is &#x2212;1.01&#x2009;&#xb1;&#x2009;0.25&#x2009;W&#x2009;m&#x2212;2. The multi-model means for the reactive well-mixed greenhouse gases (including any effects on ozone and aerosol chemistry) are 0.67&#x2009;&#xb1;&#x2009;0.17&#x2009;W&#x2009;m&#x2212;2 for methane (CH4), 0.26&#x2009;&#xb1;&#x2009;0.07&#x2009;W&#x2009;m&#x2212;2 for nitrous oxide (N2O) and 0.12&#x2009;&#xb1;&#x2009;0.2&#x2009;W&#x2009;m&#x2212;2 for ozone-depleting halocarbons (HC). Emissions of the ozone precursors nitrogen oxides (NOx), volatile organic compounds and both together (O3) lead to ERFs of 0.14&#x2009;&#xb1;&#x2009;0.13, 0.09&#x2009;&#xb1;&#x2009;0.14 and 0.20&#x2009;&#xb1;&#x2009;0.07&#x2009;W&#x2009;m&#x2212;2 respectively. The differences in ERFs calculated for the different models reflect differences in the complexity of their aerosol and chemistry schemes, especially in the case of methane where tropospheric chemistry captures increased forcing from ozone production.</gco:CharacterString>
+            <gco:CharacterString>This paper quantifies the pre-industrial (1850) to present-day (2014) effective radiative forcing (ERF) of anthropogenic emissions of NOX, volatile organic compounds (VOCs; including CO), SO2, NH3, black carbon, organic carbon, and concentrations of methane, N2O and ozone-depleting halocarbons, using CMIP6 models. Concentration and emission changes of reactive species can cause multiple changes in the composition of radiatively active species: tropospheric ozone, stratospheric ozone, stratospheric water vapour, secondary inorganic and organic aerosol, and methane. Where possible we break down the ERFs from each emitted species into the contributions from the composition changes. The ERFs are calculated for each of the models that participated in the AerChemMIP experiments as part of the CMIP6 project, where the relevant model output was available. The 1850 to 2014 multi-model mean ERFs (± standard deviations) are −1.03 ± 0.37 W m−2 for SO2 emissions, −0.25 ± 0.09 W m−2 for organic carbon (OC), 0.15 ± 0.17 W m−2 for black carbon (BC) and −0.07 ± 0.01 W m−2 for NH3. For the combined aerosols (in the piClim-aer experiment) it is −1.01 ± 0.25 W m−2. The multi-model means for the reactive well-mixed greenhouse gases (including any effects on ozone and aerosol chemistry) are 0.67 ± 0.17 W m−2 for methane (CH4), 0.26 ± 0.07 W m−2 for nitrous oxide (N2O) and 0.12 ± 0.2 W m−2 for ozone-depleting halocarbons (HC). Emissions of the ozone precursors nitrogen oxides (NOx), volatile organic compounds and both together (O3) lead to ERFs of 0.14 ± 0.13, 0.09 ± 0.14 and 0.20 ± 0.07 W m−2 respectively. The differences in ERFs calculated for the different models reflect differences in the complexity of their aerosol and chemistry schemes, especially in the case of methane where tropospheric chemistry captures increased forcing from ozone production.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

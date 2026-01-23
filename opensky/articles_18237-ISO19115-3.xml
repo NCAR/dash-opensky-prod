@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18237</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:07:17.283168</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:26:16.233563</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Intra-annual changes in abundance of Aedes (Stegomyia) aegypti and Aedes (Ochlerotatus) epactius (Diptera: Culicidae) in high-elevation communities in M&#xe9;xico</gco:CharacterString>
+                  <gco:CharacterString>Intra-annual changes in abundance of Aedes (Stegomyia) aegypti and Aedes (Ochlerotatus) epactius (Diptera: Culicidae) in high-elevation communities in México</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hayden, Mary H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0381-9615"
+                                    xlink:title="Hayden, Mary H."
+                                    xlink:actuate="onRequest">Hayden, Mary H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We examined temporal changes in the abundance of the mosquitoes Aedes (Stegomyia) aegypti (L.) and Aedes (Ochlerotatus) epactius Dyar &amp; Knab from June to October 2012 in one reference community at lower elevation (Rio Blanco; &#x2248;1,270 m) and three high-elevation communities (Acultzingo, Maltrata, and Puebla City; 1,670&#x2013;2,150 m) in Veracruz and Puebla States, M&#xe9;xico. The combination of surveys for pupae in water-filled containers and trapping of adults, using BG-Sentinel traps baited with the BG-Lure, corroborated previous data from 2011 showing that Ae. aegypti is present at low abundance up to 2,150 m in this part of M&#xe9;xico. Data for Ae. aegypti adults captured through repeated trapping in fixed sites in Acultzingo&#x2014;the highest elevation community (&#x2248;1,670 m) from which the temporal intra-annual abundance pattern for Ae. aegypti has been described&#x2014;showed a gradual increase from low numbers in June to a peak occurrence in late August, and thereafter declining numbers in September. Ae. epactius adults were collected repeatedly in BG-Sentinel traps in all four study communities; this is the first recorded collection of this species with a trap aiming specifically to collect human-biting mosquitoes. We also present the first description of the temporal abundance pattern for Ae. epactius across an elevation gradient: peak abundance was reached in mid-July in the lowest elevation community (Rio Blanco) but not until mid-September in the highest elevation one (Puebla City). Finally, we present data for meteorological conditions (mean temperature and rainfall) in the examined communities during the study period, and for a cumulative measure of the abundance of adults over the full sampling period.</gco:CharacterString>
+            <gco:CharacterString>We examined temporal changes in the abundance of the mosquitoes Aedes (Stegomyia) aegypti (L.) and Aedes (Ochlerotatus) epactius Dyar &amp; Knab from June to October 2012 in one reference community at lower elevation (Rio Blanco; ≈1,270 m) and three high-elevation communities (Acultzingo, Maltrata, and Puebla City; 1,670–2,150 m) in Veracruz and Puebla States, México. The combination of surveys for pupae in water-filled containers and trapping of adults, using BG-Sentinel traps baited with the BG-Lure, corroborated previous data from 2011 showing that Ae. aegypti is present at low abundance up to 2,150 m in this part of México. Data for Ae. aegypti adults captured through repeated trapping in fixed sites in Acultzingo—the highest elevation community (≈1,670 m) from which the temporal intra-annual abundance pattern for Ae. aegypti has been described—showed a gradual increase from low numbers in June to a peak occurrence in late August, and thereafter declining numbers in September. Ae. epactius adults were collected repeatedly in BG-Sentinel traps in all four study communities; this is the first recorded collection of this species with a trap aiming specifically to collect human-biting mosquitoes. We also present the first description of the temporal abundance pattern for Ae. epactius across an elevation gradient: peak abundance was reached in mid-July in the lowest elevation community (Rio Blanco) but not until mid-September in the highest elevation one (Puebla City). Finally, we present data for meteorological conditions (mean temperature and rainfall) in the examined communities during the study period, and for a cumulative measure of the abundance of adults over the full sampling period.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

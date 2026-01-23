@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18633</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:25.106889</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:49:09.945298</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kov&#xe1;cs, T.</gco:CharacterString>
+                        <gco:CharacterString>Kovács, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Energetic particle precipitation (EPP) and ion chemistry affect the neutral composition of the polar middle atmosphere. For example, production of odd nitrogen and odd hydrogen during strong events can decrease ozone by tens of percent. However, the standard ion chemistry parameterization used in atmospheric models neglects the effects on some important species, such as nitric acid. We present WACCM-D, a variant of the Whole Atmosphere Community Climate Model, which includes a set of lower ionosphere (D-region) chemistry: 307 reactions of 20 positive ions and 21 negative ions. We consider realistic ionization scenarios and compare the WACCM-D results to those from the Sodankyl&#xe4; Ion and Neutral Chemistry (SIC), a state-of-the-art 1-D model of the D-region chemistry. We show that WACCM-D produces well the main characteristics of the D-region ionosphere, as well as the overall proportion of important ion groups, in agreement with SIC. Comparison of ion concentrations shows that the WACCM-D bias is typically within &#xb1;10% or less below 70 km. At 70-90 km, when strong altitude gradients in ionization rates and/or ion concentrations exist, the bias can be larger for some groups but is still within tens of percent. Based on the good agreement overall and the fact that part of the differences are caused by different model setups, WACCM-D provides a state-of-the-art global representation of D-region ion chemistry and is therefore expected to improve EPP modeling considerably. These improvements are demonstrated in a companion paper by Andersson et al.</gco:CharacterString>
+            <gco:CharacterString>Energetic particle precipitation (EPP) and ion chemistry affect the neutral composition of the polar middle atmosphere. For example, production of odd nitrogen and odd hydrogen during strong events can decrease ozone by tens of percent. However, the standard ion chemistry parameterization used in atmospheric models neglects the effects on some important species, such as nitric acid. We present WACCM-D, a variant of the Whole Atmosphere Community Climate Model, which includes a set of lower ionosphere (D-region) chemistry: 307 reactions of 20 positive ions and 21 negative ions. We consider realistic ionization scenarios and compare the WACCM-D results to those from the Sodankylä Ion and Neutral Chemistry (SIC), a state-of-the-art 1-D model of the D-region chemistry. We show that WACCM-D produces well the main characteristics of the D-region ionosphere, as well as the overall proportion of important ion groups, in agreement with SIC. Comparison of ion concentrations shows that the WACCM-D bias is typically within ±10% or less below 70 km. At 70-90 km, when strong altitude gradients in ionization rates and/or ion concentrations exist, the bias can be larger for some groups but is still within tens of percent. Based on the good agreement overall and the fact that part of the differences are caused by different model setups, WACCM-D provides a state-of-the-art global representation of D-region ion chemistry and is therefore expected to improve EPP modeling considerably. These improvements are demonstrated in a companion paper by Andersson et al.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

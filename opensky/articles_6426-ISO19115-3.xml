@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6426</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:36.723761</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:13:55.849523</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Validation of ACE-FTS v2.2 measurements of HCl, HF, CCl&#x2083;F and CCl&#x2082;F&#x2082; using space-, balloon- and ground-based instrument observations</gco:CharacterString>
+                  <gco:CharacterString>Validation of ACE-FTS v2.2 measurements of HCl, HF, CCl₃F and CCl₂F₂ using space-, balloon- and ground-based instrument observations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -257,7 +258,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>De Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>De Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +440,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xe9;tard, C.</gco:CharacterString>
+                        <gco:CharacterString>Tétard, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -507,7 +510,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hydrogen chloride (HCl) and hydrogen fluoride (HF) are respectively the main chlorine and fluorine reservoirs in the Earth's stratosphere. Their buildup resulted from the intensive use of man-made halogenated source gases, in particular CFC-11 (CCl&#x2083;F) and CFC-12 (CCl&#x2082;F&#x2082;), during the second half of the 20th century. It is important to continue monitoring the evolution of these source gases and reservoirs, in support of the Montreal Protocol and also indirectly of the Kyoto Protocol. The Atmospheric Chemistry Experiment Fourier Transform Spectrometer (ACE-FTS) is a space-based instrument that has been performing regular solar occultation measurements of over 30 atmospheric gases since early 2004. In this validation paper, the HCl, HF, CFC-11 and CFC-12 version 2.2 profile data products retrieved from ACE-FTS measurements are evaluated. Volume mixing ratio profiles have been compared to observations made from space by MLS and HALOE, and from stratospheric balloons by SPIRALE, FIRS-2 and Mark-IV. Partial columns derived from the ACE-FTS data were also compared to column measurements from ground-based Fourier transform instruments operated at 12 sites. ACE-FTS data recorded from March 2004 to August 2007 have been used for the comparisons. These data are representative of a variety of atmospheric and chemical situations, with sounded air masses extending from the winter vortex to summer sub-tropical conditions. Typically, the ACE-FTS products are available in the 10-50 km altitude range for HCl and HF, and in the 7-20 and 7-25 km ranges for CFC-11 and -12, respectively. For both reservoirs, comparison results indicate an agreement generally better than 5-10% above 20 km altitude, when accounting for the known offset affecting HALOE measurements of HCl and HF. Larger positive differences are however found for comparisons with single profiles from FIRS-2 and SPIRALE. For CFCs, the few coincident measurements available suggest that the differences probably remain within &#xb1;20%.</gco:CharacterString>
+            <gco:CharacterString>Hydrogen chloride (HCl) and hydrogen fluoride (HF) are respectively the main chlorine and fluorine reservoirs in the Earth's stratosphere. Their buildup resulted from the intensive use of man-made halogenated source gases, in particular CFC-11 (CCl₃F) and CFC-12 (CCl₂F₂), during the second half of the 20th century. It is important to continue monitoring the evolution of these source gases and reservoirs, in support of the Montreal Protocol and also indirectly of the Kyoto Protocol. The Atmospheric Chemistry Experiment Fourier Transform Spectrometer (ACE-FTS) is a space-based instrument that has been performing regular solar occultation measurements of over 30 atmospheric gases since early 2004. In this validation paper, the HCl, HF, CFC-11 and CFC-12 version 2.2 profile data products retrieved from ACE-FTS measurements are evaluated. Volume mixing ratio profiles have been compared to observations made from space by MLS and HALOE, and from stratospheric balloons by SPIRALE, FIRS-2 and Mark-IV. Partial columns derived from the ACE-FTS data were also compared to column measurements from ground-based Fourier transform instruments operated at 12 sites. ACE-FTS data recorded from March 2004 to August 2007 have been used for the comparisons. These data are representative of a variety of atmospheric and chemical situations, with sounded air masses extending from the winter vortex to summer sub-tropical conditions. Typically, the ACE-FTS products are available in the 10-50 km altitude range for HCl and HF, and in the 7-20 and 7-25 km ranges for CFC-11 and -12, respectively. For both reservoirs, comparison results indicate an agreement generally better than 5-10% above 20 km altitude, when accounting for the known offset affecting HALOE measurements of HCl and HF. Larger positive differences are however found for comparisons with single profiles from FIRS-2 and SPIRALE. For CFCs, the few coincident measurements available suggest that the differences probably remain within ±20%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

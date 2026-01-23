@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24423</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:14:50.914277</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:11:17.139709</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cai, Xuguang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4632-1697"
+                                    xlink:title="Cai, Xuguang"
+                                    xlink:actuate="onRequest">Cai, Xuguang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Qian, Liying</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2430-1388"
+                                    xlink:title="Qian, Liying"
+                                    xlink:actuate="onRequest">Qian, Liying</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +238,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The National Aeronautics and Space Administration Global-scale Observations of the Limb and Disk (GOLD) mission observed a unique structure of thermospheric column density ratio of O to N2 (&#x2211;O/N2) during a geomagnetic storm on day of year (DOY) 130 (May 10) to DOY 132 in 2019. The percentage difference of &#x2211;O/N2 between the storm time (DOY 131) and the quiet time (DOY 128) had a relatively enhanced &#x2211;O/N2 region sandwiched by two depleted regions over North America and the Atlantic Ocean in the Northern Hemisphere. This enhanced &#x2211;O/N2 region is called the neutral tongue here. The National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamics General Circulation Model also predicted a similar &#x2211;O/N2 structure with the same spatial and temporal evolution as that seen in the GOLD observations on DOY 131. Model diagnostic analysis revealed that the neutral tongue was formed when the neutral wind in the region changed from mostly equatorward to poleward, which transported the &#x2211;O/N2 rich air from lower latitudes into this longitude section, forming the neutral tongue. The neutral tongue separated a large depletion region formed earlier into two smaller depleted regions, one on each side of the neutral tongue.</gco:CharacterString>
+            <gco:CharacterString>The National Aeronautics and Space Administration Global-scale Observations of the Limb and Disk (GOLD) mission observed a unique structure of thermospheric column density ratio of O to N2 (∑O/N2) during a geomagnetic storm on day of year (DOY) 130 (May 10) to DOY 132 in 2019. The percentage difference of ∑O/N2 between the storm time (DOY 131) and the quiet time (DOY 128) had a relatively enhanced ∑O/N2 region sandwiched by two depleted regions over North America and the Atlantic Ocean in the Northern Hemisphere. This enhanced ∑O/N2 region is called the neutral tongue here. The National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamics General Circulation Model also predicted a similar ∑O/N2 structure with the same spatial and temporal evolution as that seen in the GOLD observations on DOY 131. Model diagnostic analysis revealed that the neutral tongue was formed when the neutral wind in the region changed from mostly equatorward to poleward, which transported the ∑O/N2 rich air from lower latitudes into this longitude section, forming the neutral tongue. The neutral tongue separated a large depletion region formed earlier into two smaller depleted regions, one on each side of the neutral tongue.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

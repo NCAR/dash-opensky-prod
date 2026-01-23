@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22912</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:50.961390</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:46.329422</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodnebrog, &#xd8;.</gco:CharacterString>
+                        <gco:CharacterString>Hodnebrog, Ø.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +148,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Alterskj&#xe6;r, K.</gco:CharacterString>
+                        <gco:CharacterString>Alterskjær, K.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +188,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fl&#xe4;schner, D.</gco:CharacterString>
+                        <gco:CharacterString>Fläschner, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kirkev&#xe5;g, A.</gco:CharacterString>
+                        <gco:CharacterString>Kirkevåg, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Olivi&#xe9;, D.</gco:CharacterString>
+                        <gco:CharacterString>Olivié, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Water vapour in the atmosphere is the source of a major climate feedback mechanism and potential increases in the availability of water vapour could have important consequences for mean and extreme precipitation. Future precipitation changes further depend on how the hydrological cycle responds to different drivers of climate change, such as greenhouse gases and aerosols. Currently, neither the total anthropogenic influence on the hydrological cycle nor that from individual drivers is constrained sufficiently to make solid projections. We investigate how integrated water vapour (IWV) responds to different drivers of climate change. Results from 11 global climate models have been used, based on simulations where CO2, methane, solar irradiance, black carbon (BC), and sulfate have been perturbed separately. While the global-mean IWV is usually assumed to increase by &#x223c;7&#x2009;% per kelvin of surface temperature change, we find that the feedback response of IWV differs somewhat between drivers. Fast responses, which include the initial radiative effect and rapid adjustments to an external forcing, amplify these differences. The resulting net changes in IWV range from 6.4&#xb1;0.9&#x2009;%&#x2009;K&#x2212;1 for sulfate to 9.8&#xb1;2&#x2009;%&#x2009;K&#x2212;1 for BC. We further calculate the relationship between global changes in IWV and precipitation, which can be characterized by quantifying changes in atmospheric water vapour lifetime. Global climate models simulate a substantial increase in the lifetime, from 8.2&#xb1;0.5 to 9.9&#xb1;0.7&#x2009;d between 1986&#x2013;2005 and 2081&#x2013;2100 under a high-emission scenario, and we discuss to what extent the water vapour lifetime provides additional information compared to analysis of IWV and precipitation separately. We conclude that water vapour lifetime changes are an important indicator of changes in precipitation patterns and that BC is particularly efficient in prolonging the mean time, and therefore likely the distance, between evaporation and precipitation.</gco:CharacterString>
+            <gco:CharacterString>Water vapour in the atmosphere is the source of a major climate feedback mechanism and potential increases in the availability of water vapour could have important consequences for mean and extreme precipitation. Future precipitation changes further depend on how the hydrological cycle responds to different drivers of climate change, such as greenhouse gases and aerosols. Currently, neither the total anthropogenic influence on the hydrological cycle nor that from individual drivers is constrained sufficiently to make solid projections. We investigate how integrated water vapour (IWV) responds to different drivers of climate change. Results from 11 global climate models have been used, based on simulations where CO2, methane, solar irradiance, black carbon (BC), and sulfate have been perturbed separately. While the global-mean IWV is usually assumed to increase by ∼7 % per kelvin of surface temperature change, we find that the feedback response of IWV differs somewhat between drivers. Fast responses, which include the initial radiative effect and rapid adjustments to an external forcing, amplify these differences. The resulting net changes in IWV range from 6.4±0.9 % K−1 for sulfate to 9.8±2 % K−1 for BC. We further calculate the relationship between global changes in IWV and precipitation, which can be characterized by quantifying changes in atmospheric water vapour lifetime. Global climate models simulate a substantial increase in the lifetime, from 8.2±0.5 to 9.9±0.7 d between 1986–2005 and 2081–2100 under a high-emission scenario, and we discuss to what extent the water vapour lifetime provides additional information compared to analysis of IWV and precipitation separately. We conclude that water vapour lifetime changes are an important indicator of changes in precipitation patterns and that BC is particularly efficient in prolonging the mean time, and therefore likely the distance, between evaporation and precipitation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

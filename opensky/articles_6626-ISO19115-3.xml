@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6626</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:12.928309</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:36:53.604836</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent studies have shown the importance of high-resolution wind in coastal ocean modeling. This paper tests the Coupled Ocean&#x2013;Atmosphere Mesoscale Prediction System (COAMPS) at the 9-, 27-, and 81-km grid resolutions in simulating wind off the central and southern California coasts, including the Santa Barbara Channel (SBC). The test period is March&#x2013;May (1999) when the wind changes from its characteristics more typical of winter, to spring when strong gradients exist in the SBC. The model results were checked against wind station time series, Special Sensor Microwave Imager wind speeds, and the European Centre for Medium-Range Weather Forecasts (ECMWF) reanalysis. The high-resolution (9-km grid) COAMPS wind shows expansion fans downwind of major capes where speed increases. The large-scale [O(100 km)] wind turns onshore in the Southern California Bight where both wind and wind stress curl weaken southward along the coast. The formation and evolution of the Catalina eddies are also simulated. These general features agree with observations. The turning appears to be the cumulative effect of synoptic cyclones shed downwind of Point Conception during periods of intense northerly wind. The turning and eddies are much weaker in the ECMWF reanalysis or the COAMPS field at the 81-km grid. Near the coast, observed small-scale (tens of kilometers) structures are reasonably reproduced by COAMPS at the 9-km grid. Results from the 9-km grid generally compare better with observations than the 27-km grid, suggesting that a more accurate model wind may be obtained at even higher resolution. However, in the SBC, simulated winds at both the 9- and 27-km grids show along-channel coherency during May, contrary to observations. The observed winds in the channel appear to be of small localized scales (&#x2248;&lt;10 km) and would require an improved model grid and perhaps also boundary layer physics to simulate.</gco:CharacterString>
+            <gco:CharacterString>Recent studies have shown the importance of high-resolution wind in coastal ocean modeling. This paper tests the Coupled Ocean–Atmosphere Mesoscale Prediction System (COAMPS) at the 9-, 27-, and 81-km grid resolutions in simulating wind off the central and southern California coasts, including the Santa Barbara Channel (SBC). The test period is March–May (1999) when the wind changes from its characteristics more typical of winter, to spring when strong gradients exist in the SBC. The model results were checked against wind station time series, Special Sensor Microwave Imager wind speeds, and the European Centre for Medium-Range Weather Forecasts (ECMWF) reanalysis. The high-resolution (9-km grid) COAMPS wind shows expansion fans downwind of major capes where speed increases. The large-scale [O(100 km)] wind turns onshore in the Southern California Bight where both wind and wind stress curl weaken southward along the coast. The formation and evolution of the Catalina eddies are also simulated. These general features agree with observations. The turning appears to be the cumulative effect of synoptic cyclones shed downwind of Point Conception during periods of intense northerly wind. The turning and eddies are much weaker in the ECMWF reanalysis or the COAMPS field at the 81-km grid. Near the coast, observed small-scale (tens of kilometers) structures are reasonably reproduced by COAMPS at the 9-km grid. Results from the 9-km grid generally compare better with observations than the 27-km grid, suggesting that a more accurate model wind may be obtained at even higher resolution. However, in the SBC, simulated winds at both the 9- and 27-km grids show along-channel coherency during May, contrary to observations. The observed winds in the channel appear to be of small localized scales (≈&lt;10 km) and would require an improved model grid and perhaps also boundary layer physics to simulate.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

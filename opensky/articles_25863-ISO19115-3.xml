@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25863</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:58.910770</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:00:36.104105</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -247,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +260,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +322,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Nitrate aerosol plays an important role in affecting regional air quality as well as Earth's climate. However, it is not well represented or even neglected in many global climate models. In this study, we couple the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) module with the four-mode version of the Modal Aerosol Module (MAM4) in DOE's Energy Exascale Earth System Model version 2 (E3SMv2) to simulate nitrate aerosol and its radiative effects. We find that nitrate aerosol simulated by E3SMv2-MAM4-MOSAIC is sensitive to the treatment of gaseous HNO3 transfer to/from interstitial particles related to accommodation coefficients of HNO3 (urn:x-wiley:19422466:media:jame21740:jame21740-math-0001) on dust and non-dust particles. We compare three different treatments of HNO3 transfer: (a) a treatment (MTC_SLOW) that uses a low urn:x-wiley:19422466:media:jame21740:jame21740-math-0002 in the mass transfer coefficient (MTC) calculation; (b) a dust-weighted MTC treatment (MTC_WGT) that uses a high urn:x-wiley:19422466:media:jame21740:jame21740-math-0003 on non-dust particles; and (c) a dust-weighted MTC treatment that also splits coarse mode aerosols into the coarse dust and sea salt sub-modes in MOSAIC (MTC_SPLC). MTC_WGT and MTC_SPLC increase the global annual mean (2005&#x2013;2014) nitrate burden from 0.096 (MTC_SLOW) to 0.237 and 0.185 Tg N, respectively, mostly in the coarse mode. MTC_WGT and MTC_SPLC also produce stronger nitrate direct radiative forcing (&#x2212;0.048 and &#x2212;0.051 W m&#x2212;2, respectively) and indirect forcing (&#x2212;0.33 and &#x2212;0.35 W m&#x2212;2, respectively) than MTC_SLOW (&#x2212;0.021 and &#x2212;0.24 W m&#x2212;2). MTC_WGT and MTC_SPLC improve nitrate surface concentrations over remote oceans based on limited observations and vertical profiles of nitrate concentrations against aircraft measurements below 400 hPa.</gco:CharacterString>
+            <gco:CharacterString>Nitrate aerosol plays an important role in affecting regional air quality as well as Earth's climate. However, it is not well represented or even neglected in many global climate models. In this study, we couple the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) module with the four-mode version of the Modal Aerosol Module (MAM4) in DOE's Energy Exascale Earth System Model version 2 (E3SMv2) to simulate nitrate aerosol and its radiative effects. We find that nitrate aerosol simulated by E3SMv2-MAM4-MOSAIC is sensitive to the treatment of gaseous HNO3 transfer to/from interstitial particles related to accommodation coefficients of HNO3 (urn:x-wiley:19422466:media:jame21740:jame21740-math-0001) on dust and non-dust particles. We compare three different treatments of HNO3 transfer: (a) a treatment (MTC_SLOW) that uses a low urn:x-wiley:19422466:media:jame21740:jame21740-math-0002 in the mass transfer coefficient (MTC) calculation; (b) a dust-weighted MTC treatment (MTC_WGT) that uses a high urn:x-wiley:19422466:media:jame21740:jame21740-math-0003 on non-dust particles; and (c) a dust-weighted MTC treatment that also splits coarse mode aerosols into the coarse dust and sea salt sub-modes in MOSAIC (MTC_SPLC). MTC_WGT and MTC_SPLC increase the global annual mean (2005–2014) nitrate burden from 0.096 (MTC_SLOW) to 0.237 and 0.185 Tg N, respectively, mostly in the coarse mode. MTC_WGT and MTC_SPLC also produce stronger nitrate direct radiative forcing (−0.048 and −0.051 W m−2, respectively) and indirect forcing (−0.33 and −0.35 W m−2, respectively) than MTC_SLOW (−0.021 and −0.24 W m−2). MTC_WGT and MTC_SPLC improve nitrate surface concentrations over remote oceans based on limited observations and vertical profiles of nitrate concentrations against aircraft measurements below 400 hPa.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

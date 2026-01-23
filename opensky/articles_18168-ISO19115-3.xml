@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18168</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:22:46.672310</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:09:59.771557</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee-Taylor, Julia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0989-1113"
+                                    xlink:title="Lee-Taylor, Julia"
+                                    xlink:actuate="onRequest">Lee-Taylor, Julia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Background: Solar elastosis adjacent to melanomas in histologic sections is regarded as an indicator of sun exposure, although the associations of UV exposure and phenotype with solar elastosis are yet to be fully explored. Methods: The study included 2,589 incident primary melanoma patients with assessment of histologic solar elastosis in the population-based Genes, Environment, and Melanoma study. Ambient erythemal UV (UVE) at places of residence and sun exposure hours, including body site&#x2013;specific exposure, were collected. We examined the association of cumulative site-specific and non&#x2013;site-specific sun exposure hours and ambient UVE with solar elastosis in multivariable models adjusted for age, sex, center, pigmentary characteristics, nevi, and, where relevant, body site. Results: Solar elastosis was associated most strongly with site-specific UVE [odds ratio (OR) for top exposure quartile, 5.20; 95% confidence interval (95% CI), 3.40-7.96; P for trend &lt;0.001] and also with site-specific sun exposure (OR for top quartile, 5.12; 95% CI, 3.35-7.83; P for trend &lt;0.001). Older age (OR at &gt;70 years, 7.69; 95% CI, 5.14-11.52; P for trend &lt; 0.001) and having more than 10 back nevi (OR, 0.77; 95% CI, 0.61-0.97; P = 0.03) were independently associated with solar elastosis. Conclusion: Solar elastosis had a strong association with higher site-specific UVE dose, older age, and fewer nevi. Impact: Solar elastosis could be a useful biomarker of lifetime site-specific UV. Future research is needed to explore whether age represents more than simple accumulation of sun exposure and to determine why people with more nevi may be less prone to solar elastosis. Cancer Epidemiol Biomarkers Prev; 19(11); 2932&#x2013;41. &#xa9;2010 AACR.</gco:CharacterString>
+            <gco:CharacterString>Background: Solar elastosis adjacent to melanomas in histologic sections is regarded as an indicator of sun exposure, although the associations of UV exposure and phenotype with solar elastosis are yet to be fully explored. Methods: The study included 2,589 incident primary melanoma patients with assessment of histologic solar elastosis in the population-based Genes, Environment, and Melanoma study. Ambient erythemal UV (UVE) at places of residence and sun exposure hours, including body site–specific exposure, were collected. We examined the association of cumulative site-specific and non–site-specific sun exposure hours and ambient UVE with solar elastosis in multivariable models adjusted for age, sex, center, pigmentary characteristics, nevi, and, where relevant, body site. Results: Solar elastosis was associated most strongly with site-specific UVE [odds ratio (OR) for top exposure quartile, 5.20; 95% confidence interval (95% CI), 3.40-7.96; P for trend &lt;0.001] and also with site-specific sun exposure (OR for top quartile, 5.12; 95% CI, 3.35-7.83; P for trend &lt;0.001). Older age (OR at &gt;70 years, 7.69; 95% CI, 5.14-11.52; P for trend &lt; 0.001) and having more than 10 back nevi (OR, 0.77; 95% CI, 0.61-0.97; P = 0.03) were independently associated with solar elastosis. Conclusion: Solar elastosis had a strong association with higher site-specific UVE dose, older age, and fewer nevi. Impact: Solar elastosis could be a useful biomarker of lifetime site-specific UV. Future research is needed to explore whether age represents more than simple accumulation of sun exposure and to determine why people with more nevi may be less prone to solar elastosis. Cancer Epidemiol Biomarkers Prev; 19(11); 2932–41. ©2010 AACR.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

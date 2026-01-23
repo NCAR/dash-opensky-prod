@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42976</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:18.167953</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:09.821030</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
                   <gco:CharacterString>Related Dataset #6</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Global (2&#xb0;x2.5&#xb0;) top-down NOx emissions from OMI NASA product (2005-2016)</gco:CharacterString>
+                  <gco:CharacterString>Global (2°x2.5°) top-down NOx emissions from OMI NASA product (2005-2016)</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -307,7 +308,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +360,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Chemical reanalysis products have been produced by integrating various satellite observational data to provide comprehensive information on atmospheric composition. Five global chemical reanalysis datasets were used to evaluate the relative impacts of assimilating satellite ozone and its precursor measurements on surface and free-tropospheric ozone analyses for the year 2010. Observing system experiments (OSEs) were conducted with multiple reanalysis systems under similar settings to evaluate the impacts of reanalysis system selection on the quantification of observing system values. Without data assimilation, large discrepancies remained among the control runs owing to model biases. Data assimilation improved the consistency among the systems, reducing the standard deviation by 72&#x2009;%&#x2013;88&#x2009;% in the lower troposphere through the lower stratosphere, while improving agreement with independent ozonesonde observations. The OSEs suggested the importance of precursor measurements, especially from tropospheric NO2 columns, for improving ozone analysis in the lower troposphere, with varying influences among the systems (increases in global lower-tropospheric ozone by 0.1&#x2009;% in GEOS-Chem and 7&#x2009;% in Tropospheric Chemistry Reanalysis version 2 (TCR-2), with only NO2 assimilation). Adjustments made by direct ozone assimilation showed similar vertical patterns between the TCR-2 and IASI-r systems, with increases of 6&#x2009;%&#x2013;22&#x2009;% and decreases of 2&#x2009;%&#x2013;21&#x2009;% in the middle and upper troposphere, respectively, reflecting the biases of the forecast models. These results suggest the importance of considering the effects of the forecast model performance and data assimilation configurations when assessing the observing system impacts to provide unbiased evaluations of satellite systems and to guide the design of future observing systems.</gco:CharacterString>
+            <gco:CharacterString>Chemical reanalysis products have been produced by integrating various satellite observational data to provide comprehensive information on atmospheric composition. Five global chemical reanalysis datasets were used to evaluate the relative impacts of assimilating satellite ozone and its precursor measurements on surface and free-tropospheric ozone analyses for the year 2010. Observing system experiments (OSEs) were conducted with multiple reanalysis systems under similar settings to evaluate the impacts of reanalysis system selection on the quantification of observing system values. Without data assimilation, large discrepancies remained among the control runs owing to model biases. Data assimilation improved the consistency among the systems, reducing the standard deviation by 72 %–88 % in the lower troposphere through the lower stratosphere, while improving agreement with independent ozonesonde observations. The OSEs suggested the importance of precursor measurements, especially from tropospheric NO2 columns, for improving ozone analysis in the lower troposphere, with varying influences among the systems (increases in global lower-tropospheric ozone by 0.1 % in GEOS-Chem and 7 % in Tropospheric Chemistry Reanalysis version 2 (TCR-2), with only NO2 assimilation). Adjustments made by direct ozone assimilation showed similar vertical patterns between the TCR-2 and IASI-r systems, with increases of 6 %–22 % and decreases of 2 %–21 % in the middle and upper troposphere, respectively, reflecting the biases of the forecast models. These results suggest the importance of considering the effects of the forecast model performance and data assimilation configurations when assessing the observing system impacts to provide unbiased evaluations of satellite systems and to guide the design of future observing systems.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

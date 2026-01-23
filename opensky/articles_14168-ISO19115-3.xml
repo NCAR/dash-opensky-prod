@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14168</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:19.215418</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:28:19.640462</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dixon, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9597-9113"
+                                    xlink:title="Dixon, Michael J."
+                                    xlink:actuate="onRequest">Dixon, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Data collected by the National Center for Atmospheric Research S-band polarimetric radar (S-Pol) during the Terrain-Influenced Monsoon Rainfall Experiment (TiMREX) in Taiwan are analyzed and used to infer storm microphysics in the ice phase of convective storms. Both simultaneous horizontal (H) and vertical (V) (SHV) transmit polarization data and fast-alternating H and V (FHV) transmit polarization data are used in the analysis. The SHV Zdr (differential reflectivity) data show radial stripes of biased data in the ice phase that are likely caused by aligned and canted ice crystals. Similar radial streaks in the linear depolarization ratio (LDR) are presented that are also biased by the same mechanism. Dual-Doppler synthesis and sounding data characterize the storm environment and support the inferences concerning the ice particle types. Small convective cells were observed to have both large positive and large negative Kdp (specific differential phase) values. Negative Kdp regions suggest that ice crystals are vertically aligned by electric fields. Since high \Kdp\ values of 0.8&#xb0; km&#x207b;&#xb9; in both negative and positive Kdp regions in the ice phase are accompanied by Zdr values close to 0 dB, it is inferred that there are two types of ice crystals present: 1) smaller aligned ice crystals that cause the Kdp signatures and 2) larger aggregates or graupel that cause the Zdr signatures. The inferences are supported with simulated ice particle scattering calculations. A radar scattering model is used to explain the anomalous radial streaks in SHV and LDR.</gco:CharacterString>
+            <gco:CharacterString>Data collected by the National Center for Atmospheric Research S-band polarimetric radar (S-Pol) during the Terrain-Influenced Monsoon Rainfall Experiment (TiMREX) in Taiwan are analyzed and used to infer storm microphysics in the ice phase of convective storms. Both simultaneous horizontal (H) and vertical (V) (SHV) transmit polarization data and fast-alternating H and V (FHV) transmit polarization data are used in the analysis. The SHV Zdr (differential reflectivity) data show radial stripes of biased data in the ice phase that are likely caused by aligned and canted ice crystals. Similar radial streaks in the linear depolarization ratio (LDR) are presented that are also biased by the same mechanism. Dual-Doppler synthesis and sounding data characterize the storm environment and support the inferences concerning the ice particle types. Small convective cells were observed to have both large positive and large negative Kdp (specific differential phase) values. Negative Kdp regions suggest that ice crystals are vertically aligned by electric fields. Since high \Kdp\ values of 0.8° km⁻¹ in both negative and positive Kdp regions in the ice phase are accompanied by Zdr values close to 0 dB, it is inferred that there are two types of ice crystals present: 1) smaller aligned ice crystals that cause the Kdp signatures and 2) larger aggregates or graupel that cause the Zdr signatures. The inferences are supported with simulated ice particle scattering calculations. A radar scattering model is used to explain the anomalous radial streaks in SHV and LDR.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

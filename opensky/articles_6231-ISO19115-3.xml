@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6231</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:32.994526</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:19:30.297238</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Br&#xfc;hl, C.</gco:CharacterString>
+                        <gco:CharacterString>Brühl, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +360,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The 11-year solar cycles in ozone and temperature are examined using new simulations of coupled chemistry climate models. The results show a secondary maximum in stratospheric tropical ozone, in agreement with satellite observations and in contrast with most previously published simulations. The mean model response varies by up to about 2.5% in ozone and 0.8 K in temperature during a typical solar cycle, at the lower end of the observed ranges of peak responses. Neither the upper atmospheric effects of energetic particles nor the presence of the quasi biennial oscillation is necessary to simulate the lower stratospheric response in the observed low latitude ozone concentration. Comparisons are also made between model simulations and observed total column ozone. As in previous studies, the model simulations agree well with observations. For those models which cover the full temporal range 1960&#x2013;2005, the ozone solar signal below 50 hPa changes substantially from the first two solar cycles to the last two solar cycles. Further investigation suggests that this difference is due to an aliasing between the sea surface temperatures and the solar cycle during the first part of the period. The relationship between these results and the overall structure in the tropical solar ozone response is discussed. Further understanding of solar processes requires improvement in the observations of the vertically varying and column integrated ozone.</gco:CharacterString>
+            <gco:CharacterString>The 11-year solar cycles in ozone and temperature are examined using new simulations of coupled chemistry climate models. The results show a secondary maximum in stratospheric tropical ozone, in agreement with satellite observations and in contrast with most previously published simulations. The mean model response varies by up to about 2.5% in ozone and 0.8 K in temperature during a typical solar cycle, at the lower end of the observed ranges of peak responses. Neither the upper atmospheric effects of energetic particles nor the presence of the quasi biennial oscillation is necessary to simulate the lower stratospheric response in the observed low latitude ozone concentration. Comparisons are also made between model simulations and observed total column ozone. As in previous studies, the model simulations agree well with observations. For those models which cover the full temporal range 1960–2005, the ozone solar signal below 50 hPa changes substantially from the first two solar cycles to the last two solar cycles. Further investigation suggests that this difference is due to an aliasing between the sea surface temperatures and the solar cycle during the first part of the period. The relationship between these results and the overall structure in the tropical solar ozone response is discussed. Further understanding of solar processes requires improvement in the observations of the vertically varying and column integrated ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

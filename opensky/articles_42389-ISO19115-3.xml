@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42389</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:22.462455</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:04:11.104710</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Weakened aerosol&#x2010;PBL interactions enhance future air quality benefits under carbon neutrality in China: Insights from the advanced variable&#x2010;resolution global model</gco:CharacterString>
+                  <gco:CharacterString>Weakened aerosol‐PBL interactions enhance future air quality benefits under carbon neutrality in China: Insights from the advanced variable‐resolution global model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;China's pursuing the carbon neutrality goal could affect future air quality not only by reducing anthropogenic emissions but also by modulating aerosol&#x2010;planetary boundary layer (PBL) interactions. However, contributions of aerosol&#x2010;PBL interactions to future air quality benefits remain unclear. Here we conduct ensemble experiments using the variable&#x2010;resolution (VR) Community Atmosphere Model with full chemistry based on the scalable spectral element (SE) dynamical core with East Asia refined to &#x223c;28&amp;nbsp;km (SE_VR). Additional simulations at a uniform resolution of &#x223c;111&amp;nbsp;km (SE_UR) are conducted to help demonstrate SE_VR's advantages in projecting future air quality. Results of SE_VR show that the mean PM 2.5 concentrations in China would drop to below 10&amp;nbsp;&#x3bc;g/m&lt;sup&gt;3&lt;/sup&gt; , especially in Sichuan Basin (SCB) where the frequencies of moderate and severe air pollution events are predicted to decrease from 60.7% and 11.3% to nearly zero respectively when achieving carbon neutrality. The aerosol&#x2010;PBL interactions would be substantially weakened with anthropogenic emission reductions. At SCB and Eastern China (EC), the weakened radiative effects of black carbon (BC) would contribute 34.3% and 71.6% to the increase in PBL height (PBLH). Consequently, these weakened BC&#x2010;PBL interactions reduce the surface PM &lt;sub&gt;2.5&lt;/sub&gt; concentrations by 16.1&amp;nbsp;&#x3bc;g/m&lt;sup&gt;3&lt;/sup&gt; (18.9%) in SCB and 4.6&amp;nbsp;&#x3bc;g/m&lt;sup&gt;3&lt;/sup&gt; (16.4%) in EC. Notably, SE_VR outperforms SE_UR in projecting the frequency decrease of future air pollution events for its better reproducing current levels, particularly those caused by BC aerosols. This study highlights the importance of weakened aerosol&#x2010;PBL feedbacks on future air quality improvement and demonstrates the added values of variable&#x2010;resolution global models in air quality projections.&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;China's pursuing the carbon neutrality goal could affect future air quality not only by reducing anthropogenic emissions but also by modulating aerosol‐planetary boundary layer (PBL) interactions. However, contributions of aerosol‐PBL interactions to future air quality benefits remain unclear. Here we conduct ensemble experiments using the variable‐resolution (VR) Community Atmosphere Model with full chemistry based on the scalable spectral element (SE) dynamical core with East Asia refined to ∼28&amp;nbsp;km (SE_VR). Additional simulations at a uniform resolution of ∼111&amp;nbsp;km (SE_UR) are conducted to help demonstrate SE_VR's advantages in projecting future air quality. Results of SE_VR show that the mean PM 2.5 concentrations in China would drop to below 10&amp;nbsp;μg/m&lt;sup&gt;3&lt;/sup&gt; , especially in Sichuan Basin (SCB) where the frequencies of moderate and severe air pollution events are predicted to decrease from 60.7% and 11.3% to nearly zero respectively when achieving carbon neutrality. The aerosol‐PBL interactions would be substantially weakened with anthropogenic emission reductions. At SCB and Eastern China (EC), the weakened radiative effects of black carbon (BC) would contribute 34.3% and 71.6% to the increase in PBL height (PBLH). Consequently, these weakened BC‐PBL interactions reduce the surface PM &lt;sub&gt;2.5&lt;/sub&gt; concentrations by 16.1&amp;nbsp;μg/m&lt;sup&gt;3&lt;/sup&gt; (18.9%) in SCB and 4.6&amp;nbsp;μg/m&lt;sup&gt;3&lt;/sup&gt; (16.4%) in EC. Notably, SE_VR outperforms SE_UR in projecting the frequency decrease of future air pollution events for its better reproducing current levels, particularly those caused by BC aerosols. This study highlights the importance of weakened aerosol‐PBL feedbacks on future air quality improvement and demonstrates the added values of variable‐resolution global models in air quality projections.&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

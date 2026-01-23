@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12403</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:31:54.532902</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:53:23.105316</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Chih-Chieh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4819-2510"
+                                    xlink:title="Chen, Chih-Chieh"
+                                    xlink:actuate="onRequest">Chen, Chih-Chieh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Several different ice nucleation parameterizations in two different General Circulation Models (GCMs) are used to understand the effects of ice nucleation on the mean climate state, and the Aerosol Indirect Effects (AIE) of cirrus clouds on climate. Simulations have a range of ice microphysical states that are consistent with the spread of observations, but many simulations have higher present-day ice crystal number concentrations than in-situ observations. These different states result from different parameterizations of ice cloud nucleation processes, and feature different balances of homogeneous and heterogeneous nucleation. Black carbon aerosols have a small (-0.06 Wm&#x207b;&#xb2;) and not statistically significant AIE when included as ice nuclei, for nucleation efficiencies within the range of laboratory measurements. Indirect effects of anthropogenic aerosols on cirrus clouds occur as a consequence of increasing anthropogenic sulfur emissions with different mechanisms important in different models. In one model this is due to increases in homogeneous nucleation fraction, and in the other due to increases in heterogeneous nucleation with coated dust. The magnitude of the effect is the same however. The resulting ice AIE does not seem strongly dependent on the balance between homogeneous and heterogeneous ice nucleation. Regional effects can reach several Wm&#x207b;&#xb2;. Indirect effects are slightly larger for those states with less homogeneous nucleation and lower ice number concentration in the base state. The total ice AIE is estimated at 0.27 &#xb1; 0.10 Wm&#x207b;&#xb2; (1&#x3c3; uncertainty). This represents a 20% offset of the simulated total shortwave AIE for ice and liquid clouds of -1.6 Wm&#x207b;&#xb2;.</gco:CharacterString>
+            <gco:CharacterString>Several different ice nucleation parameterizations in two different General Circulation Models (GCMs) are used to understand the effects of ice nucleation on the mean climate state, and the Aerosol Indirect Effects (AIE) of cirrus clouds on climate. Simulations have a range of ice microphysical states that are consistent with the spread of observations, but many simulations have higher present-day ice crystal number concentrations than in-situ observations. These different states result from different parameterizations of ice cloud nucleation processes, and feature different balances of homogeneous and heterogeneous nucleation. Black carbon aerosols have a small (-0.06 Wm⁻²) and not statistically significant AIE when included as ice nuclei, for nucleation efficiencies within the range of laboratory measurements. Indirect effects of anthropogenic aerosols on cirrus clouds occur as a consequence of increasing anthropogenic sulfur emissions with different mechanisms important in different models. In one model this is due to increases in homogeneous nucleation fraction, and in the other due to increases in heterogeneous nucleation with coated dust. The magnitude of the effect is the same however. The resulting ice AIE does not seem strongly dependent on the balance between homogeneous and heterogeneous ice nucleation. Regional effects can reach several Wm⁻². Indirect effects are slightly larger for those states with less homogeneous nucleation and lower ice number concentration in the base state. The total ice AIE is estimated at 0.27 ± 0.10 Wm⁻² (1σ uncertainty). This represents a 20% offset of the simulated total shortwave AIE for ice and liquid clouds of -1.6 Wm⁻².</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

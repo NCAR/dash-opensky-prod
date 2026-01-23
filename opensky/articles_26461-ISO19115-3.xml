@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26461</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:59:36.581028</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:03:55.583514</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jia, Liwei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3127-7064"
+                                    xlink:title="Jia, Liwei"
+                                    xlink:actuate="onRequest">Jia, Liwei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The rapid day-to-day temperature swings associated with extratropical storm tracks can cause cascading infrastructure failure and impact human outdoor activities, thus research on seasonal prediction and predictability of extreme temperature swings is of huge societal importance. To measure the extreme surface air temperature (SAT) variations associated with the winter extratropical storm tracks, a Temperature Swing Index (TSI) is formulated as the standard deviation of 24-h-difference-filtered data of the 6-hourly SAT. The dominant term governing the TSI variability is shown to be proportional to the product of eddy heat flux and mean temperature gradient. The seasonal prediction skill of the winter TSI over North America was assessed using Geophysical Fluid Dynamics Laboratory's new seasonal prediction system. The locations with skillful TSI prediction show a geographic pattern that is distinct from the pattern of skillful seasonal mean SAT prediction. The prediction of TSI provides additional predictable climate information beyond the traditional seasonal mean temperature prediction. The source of the seasonal TSI prediction can be attributed to year-to-year variations of the El Ni&#xf1;o-Southern Oscillation (ENSO), North Pacific Oscillation (NPO), and Pacific/North American (PNA) teleconnection. Over the central United States, the correlation skill of TSI prediction reaches 0.75 with strong links to observed ENSO, NPO, and PNA, while the skill of seasonal SAT prediction is relatively low with a correlation of 0.36. As a first attempt of diagnosing the combined predictability of the first-order (the seasonal mean) and second-order (TSI) statistics for SAT, this study highlights the importance of the eddy-mean flow interaction perspective for understanding the seasonal climate predictability in the extra tropics. These results point toward providing skillful prediction of higher-order statistical information related to winter temperature extremes, thus enriching the seasonal forecast products for the research community and decision makers.</gco:CharacterString>
+            <gco:CharacterString>The rapid day-to-day temperature swings associated with extratropical storm tracks can cause cascading infrastructure failure and impact human outdoor activities, thus research on seasonal prediction and predictability of extreme temperature swings is of huge societal importance. To measure the extreme surface air temperature (SAT) variations associated with the winter extratropical storm tracks, a Temperature Swing Index (TSI) is formulated as the standard deviation of 24-h-difference-filtered data of the 6-hourly SAT. The dominant term governing the TSI variability is shown to be proportional to the product of eddy heat flux and mean temperature gradient. The seasonal prediction skill of the winter TSI over North America was assessed using Geophysical Fluid Dynamics Laboratory's new seasonal prediction system. The locations with skillful TSI prediction show a geographic pattern that is distinct from the pattern of skillful seasonal mean SAT prediction. The prediction of TSI provides additional predictable climate information beyond the traditional seasonal mean temperature prediction. The source of the seasonal TSI prediction can be attributed to year-to-year variations of the El Niño-Southern Oscillation (ENSO), North Pacific Oscillation (NPO), and Pacific/North American (PNA) teleconnection. Over the central United States, the correlation skill of TSI prediction reaches 0.75 with strong links to observed ENSO, NPO, and PNA, while the skill of seasonal SAT prediction is relatively low with a correlation of 0.36. As a first attempt of diagnosing the combined predictability of the first-order (the seasonal mean) and second-order (TSI) statistics for SAT, this study highlights the importance of the eddy-mean flow interaction perspective for understanding the seasonal climate predictability in the extra tropics. These results point toward providing skillful prediction of higher-order statistical information related to winter temperature extremes, thus enriching the seasonal forecast products for the research community and decision makers.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18405</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:59:55.057107</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:04:07.258894</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>On 19 May 1977, a severe squall line formed and moved through the National Severe Storms Laboratory observing network in Oklahoma, producing heavy rain, hail, strong winds, and tornadoes. The squall line is examined at two times: 1434 and 1502 CST. Doppler analysis of part of the squall line reveals four convective cells in the line, developing cells ahead of the line, a trailing precipitation region, and a convective rainband at the western edge of the system. The updrafts within the convective cells on the leading edge tilt westward in the lower levels and eastward near the tropopause. Convective updrafts and downdrafts are fed by low-level air entering the squall line from the front. Surface network analysis and gust front penetration by an instrumented aircraft indicated strong convergence along the leading edge of one of the stronger cells in the line. Horizontal, line-relative flow perpendicular to the squall line and within the trailing precipitation area is from east to west (front to back) at all levels, weakening with height. An exception to this is an area of weak (&#x2264;3 m s&#x2212;1) rear inflow into the stratiform precipitation region in the midlevels. Flow parallel to the squall line is stronger, in general, than the perpendicular flow. A composite rawinsonde analysis shows ascending motion within the troposphere over most of the squall line region. A conceptual model is developed for 19 May 1977 and is compared to conceptual models of tropical squall lines and of the 22 May 1976 Oklahoma squall line.</gco:CharacterString>
+            <gco:CharacterString>On 19 May 1977, a severe squall line formed and moved through the National Severe Storms Laboratory observing network in Oklahoma, producing heavy rain, hail, strong winds, and tornadoes. The squall line is examined at two times: 1434 and 1502 CST. Doppler analysis of part of the squall line reveals four convective cells in the line, developing cells ahead of the line, a trailing precipitation region, and a convective rainband at the western edge of the system. The updrafts within the convective cells on the leading edge tilt westward in the lower levels and eastward near the tropopause. Convective updrafts and downdrafts are fed by low-level air entering the squall line from the front. Surface network analysis and gust front penetration by an instrumented aircraft indicated strong convergence along the leading edge of one of the stronger cells in the line. Horizontal, line-relative flow perpendicular to the squall line and within the trailing precipitation area is from east to west (front to back) at all levels, weakening with height. An exception to this is an area of weak (≤3 m s−1) rear inflow into the stratiform precipitation region in the midlevels. Flow parallel to the squall line is stronger, in general, than the perpendicular flow. A composite rawinsonde analysis shows ascending motion within the troposphere over most of the squall line region. A conceptual model is developed for 19 May 1977 and is compared to conceptual models of tropical squall lines and of the 22 May 1976 Oklahoma squall line.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

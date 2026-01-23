@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12008</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:35:30.477486</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:00:42.923606</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Unusually low ozone, HCl, and HNO&#x2083; column measurements at Eureka, Canada during winter/spring 2011</gco:CharacterString>
+                  <gco:CharacterString>Unusually low ozone, HCl, and HNO₃ column measurements at Eureka, Canada during winter/spring 2011</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -307,7 +308,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As a consequence of dynamically variable meteorological conditions, springtime Arctic ozone levels exhibit significant interannual variability in the lower stratosphere. In winter 2011, the polar vortex was strong and cold for an unusually long time. Our research site, located at Eureka, Nunavut, Canada (80.05&#xb0; N, 86.42&#xb0; W), was mostly inside the vortex from October 2010 until late March 2011. The Bruker 125HR Fourier transform infrared spectrometer installed at the Polar Environment Atmospheric Research Laboratory at Eureka acquired measurements from 23 February to 6 April during the 2011 Canadian Arctic Atmospheric Chemistry Experiment Validation Campaign. These measurements showed unusually low ozone, HCl, and HNO&#x2083; total columns compared to the previous 14 yr. To remove dynamical effects, we normalized these total columns by the HF total column. The normalized values of the ozone, HCl, and HNO&#x2083; total columns were smaller than those from previous years, and confirmed the occurrence of chlorine activation and chemical ozone depletion. To quantify the chemical ozone loss, a three-dimensional chemical transport model, SLIMCAT, and the passive subtraction method were used. The chemical ozone depletion was calculated as the mean percentage difference between the measured ozone and the SLIMCAT passive ozone, and was found to be 35%.</gco:CharacterString>
+            <gco:CharacterString>As a consequence of dynamically variable meteorological conditions, springtime Arctic ozone levels exhibit significant interannual variability in the lower stratosphere. In winter 2011, the polar vortex was strong and cold for an unusually long time. Our research site, located at Eureka, Nunavut, Canada (80.05° N, 86.42° W), was mostly inside the vortex from October 2010 until late March 2011. The Bruker 125HR Fourier transform infrared spectrometer installed at the Polar Environment Atmospheric Research Laboratory at Eureka acquired measurements from 23 February to 6 April during the 2011 Canadian Arctic Atmospheric Chemistry Experiment Validation Campaign. These measurements showed unusually low ozone, HCl, and HNO₃ total columns compared to the previous 14 yr. To remove dynamical effects, we normalized these total columns by the HF total column. The normalized values of the ozone, HCl, and HNO₃ total columns were smaller than those from previous years, and confirmed the occurrence of chlorine activation and chemical ozone depletion. To quantify the chemical ozone loss, a three-dimensional chemical transport model, SLIMCAT, and the passive subtraction method were used. The chemical ozone depletion was calculated as the mean percentage difference between the measured ozone and the SLIMCAT passive ozone, and was found to be 35%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

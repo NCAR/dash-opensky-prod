@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26457</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:53:50.986756</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:38:12.999995</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rozoff, Christopher M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2320-2145"
+                                    xlink:title="Rozoff, Christopher M."
+                                    xlink:actuate="onRequest">Rozoff, Christopher M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Judt, Falko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7710-9862"
+                                    xlink:title="Judt, Falko"
+                                    xlink:actuate="onRequest">Judt, Falko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hendricks, Eric A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4695-5879"
+                                    xlink:title="Hendricks, Eric A."
+                                    xlink:actuate="onRequest">Hendricks, Eric A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stern, Daniel P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0690-4110"
+                                    xlink:title="Stern, Daniel P."
+                                    xlink:actuate="onRequest">Stern, Daniel P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +276,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This contribution summarizes the significant progress in a variety of topic areas related to internal tropical cyclone (TC) intensity change processes over 2018&#x2013;2022 from the WMO Tenth International Workshop on Tropical Cyclones (IWTC-10). These topic areas include surface and boundary layer processes; TC internal structure and microphysical processes; and, radiation interactions with TCs. Recent studies better frame the uncertainty in the surface drag and enthalpy coefficients at high wind speeds. These parameters greatly impact TC intensity and it is therefore important that more direct measurements of these boundary layer parameters are made. Particularly significant scientific strides have been made in TC boundary layers. These advancements have been achieved through improved coupled models, large-eddy simulations, theoretical advancements, and detailed observations. It is now clear that the research field needs to better represent the eddy viscosity throughout the depth of the boundary layer. Furthermore, detailed study of coherent structures in TC boundary layers will likely be a propitious direction for the research community. Meanwhile, in-depth observational field campaigns and assiduous data analysis have made significant headway into verifying theory and modeling studies of intensification processes related to TC vortex alignment, efficient latent heating distributions, and overall 3D structure. Substantial efforts have also been made to better understand the intricate roles radiative processes play in TC evolution and intensity change. Finally, some promising progress has been made in the development of time-dependent theories of TC intensification and the predictability of internal TC intensity change. Overall, there have been well-earned gains in the understanding of intensity change processes intrinsic to the TC system, but the journey is not complete. This paper highlights some of the most relevant and important research areas that are still shedding new light into internal factors governing TC intensity change.</gco:CharacterString>
+            <gco:CharacterString>This contribution summarizes the significant progress in a variety of topic areas related to internal tropical cyclone (TC) intensity change processes over 2018–2022 from the WMO Tenth International Workshop on Tropical Cyclones (IWTC-10). These topic areas include surface and boundary layer processes; TC internal structure and microphysical processes; and, radiation interactions with TCs. Recent studies better frame the uncertainty in the surface drag and enthalpy coefficients at high wind speeds. These parameters greatly impact TC intensity and it is therefore important that more direct measurements of these boundary layer parameters are made. Particularly significant scientific strides have been made in TC boundary layers. These advancements have been achieved through improved coupled models, large-eddy simulations, theoretical advancements, and detailed observations. It is now clear that the research field needs to better represent the eddy viscosity throughout the depth of the boundary layer. Furthermore, detailed study of coherent structures in TC boundary layers will likely be a propitious direction for the research community. Meanwhile, in-depth observational field campaigns and assiduous data analysis have made significant headway into verifying theory and modeling studies of intensification processes related to TC vortex alignment, efficient latent heating distributions, and overall 3D structure. Substantial efforts have also been made to better understand the intricate roles radiative processes play in TC evolution and intensity change. Finally, some promising progress has been made in the development of time-dependent theories of TC intensification and the predictability of internal TC intensity change. Overall, there have been well-earned gains in the understanding of intensity change processes intrinsic to the TC system, but the journey is not complete. This paper highlights some of the most relevant and important research areas that are still shedding new light into internal factors governing TC intensity change.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

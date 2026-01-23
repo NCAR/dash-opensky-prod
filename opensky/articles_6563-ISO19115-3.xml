@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6563</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:30.137677</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:16:31.203776</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pet&#xe4;j&#xe4;, Tuukka</gco:CharacterString>
+                        <gco:CharacterString>Petäjä, Tuukka</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +278,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We have analyzed one year (July 2006-July 2007) of measurement data from a relatively clean background site located in dry savannah in South Africa. The annual-median trace gas concentrations were equal to 0.7 ppb for SO&#x2082;, 1.4 ppb for NOx, 36 ppb for O&#x2083; and 105 ppb for CO. The corresponding PM&#x2081;, PM&#x2082;.&#x2085; and PM&#x2081;&#x2080; concentrations were 9.0, 10.5 and 18.8 &#x3bc;g m&#x207b;&#xb3;, and the annual median total particle number concentration in the size range 10&#x2013;840 nm was 2340 cm&#x207b;&#xb3;. During Easterly winds, influence of industrial sources approximately 150 km away from the measurement site was clearly visible, especially in SO2 and NOx concentrations. Of gases, NOx and CO had a clear annual, and SO2, NOx and O3 clear diurnal cycle. Atmospheric new-particle formation was observed to take place in more than 90% of the analyzed days. The days with no new particle formation were cloudy or rainy days. The formation rate of 10 nm particles varied in the range of 0.1&#x2013;28 cm&#x207b;&#xb3; s&#x207b;&#xb9; (median 1.9 cm&#x207b;&#xb3; s&#x207b;&#xb9;) and nucleation mode particle growth rates were in the range 3&#x2013;21 nm h&#x207b;&#xb9; (median 8.5 nm h&#x207b;&#xb9;). Due to high formation and growth rates, observed new particle formation gives a significant contribute to the number of cloud condensation nuclei budget, having a potential to affect the regional climate forcing patterns.</gco:CharacterString>
+            <gco:CharacterString>We have analyzed one year (July 2006-July 2007) of measurement data from a relatively clean background site located in dry savannah in South Africa. The annual-median trace gas concentrations were equal to 0.7 ppb for SO₂, 1.4 ppb for NOx, 36 ppb for O₃ and 105 ppb for CO. The corresponding PM₁, PM₂.₅ and PM₁₀ concentrations were 9.0, 10.5 and 18.8 μg m⁻³, and the annual median total particle number concentration in the size range 10–840 nm was 2340 cm⁻³. During Easterly winds, influence of industrial sources approximately 150 km away from the measurement site was clearly visible, especially in SO2 and NOx concentrations. Of gases, NOx and CO had a clear annual, and SO2, NOx and O3 clear diurnal cycle. Atmospheric new-particle formation was observed to take place in more than 90% of the analyzed days. The days with no new particle formation were cloudy or rainy days. The formation rate of 10 nm particles varied in the range of 0.1–28 cm⁻³ s⁻¹ (median 1.9 cm⁻³ s⁻¹) and nucleation mode particle growth rates were in the range 3–21 nm h⁻¹ (median 8.5 nm h⁻¹). Due to high formation and growth rates, observed new particle formation gives a significant contribute to the number of cloud condensation nuclei budget, having a potential to affect the regional climate forcing patterns.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

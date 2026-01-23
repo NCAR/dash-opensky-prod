@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24492</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:14:09.647224</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:09:18.250516</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -307,7 +308,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study, a new regional Earth system model is developed and applied to the Med-CORDEX (Coordinated Regional Climate Downscaling Experiment) region. The ENEA-REG system is made up of two interchangeable regional climate models as atmospheric components (RegCM, REGional Climate Model, and WRF, Weather Research and Forecasting), a river model (Hydrological Discharge, HD), and an ocean model (Massachusetts Institute of Technology General Circulation Model, MITgcm); processes taking place at the land surface are represented within the atmospheric models with the possibility to use several land surface schemes of different complexity. The coupling between these components is performed through the RegESM driver. Here, we present and describe our regional Earth system model and evaluate its components using a multidecadal hindcast simulation over the period 1980&#x2013;2013 driven by ERA-Interim reanalysis. We show that the atmospheric components correctly reproduce both large-scale and local features of the Euro-Mediterranean climate, although we found some remarkable biases: in particular, WRF has a significant cold bias during winter over the northeastern bound of the domain and a warm bias in the whole continental Europe during summer, while RegCM overestimates the wind speed over the Mediterranean Sea. Similarly, the ocean component correctly reproduces the analyzed ocean properties with performances comparable to the state-of-art coupled regional models contributing to the Med-CORDEX initiative. Our regional Earth system model allows studying the Euro-Mediterranean climate system and can be applied to both hindcast and scenario simulations.</gco:CharacterString>
+            <gco:CharacterString>In this study, a new regional Earth system model is developed and applied to the Med-CORDEX (Coordinated Regional Climate Downscaling Experiment) region. The ENEA-REG system is made up of two interchangeable regional climate models as atmospheric components (RegCM, REGional Climate Model, and WRF, Weather Research and Forecasting), a river model (Hydrological Discharge, HD), and an ocean model (Massachusetts Institute of Technology General Circulation Model, MITgcm); processes taking place at the land surface are represented within the atmospheric models with the possibility to use several land surface schemes of different complexity. The coupling between these components is performed through the RegESM driver. Here, we present and describe our regional Earth system model and evaluate its components using a multidecadal hindcast simulation over the period 1980–2013 driven by ERA-Interim reanalysis. We show that the atmospheric components correctly reproduce both large-scale and local features of the Euro-Mediterranean climate, although we found some remarkable biases: in particular, WRF has a significant cold bias during winter over the northeastern bound of the domain and a warm bias in the whole continental Europe during summer, while RegCM overestimates the wind speed over the Mediterranean Sea. Similarly, the ocean component correctly reproduces the analyzed ocean properties with performances comparable to the state-of-art coupled regional models contributing to the Med-CORDEX initiative. Our regional Earth system model allows studying the Euro-Mediterranean climate system and can be applied to both hindcast and scenario simulations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

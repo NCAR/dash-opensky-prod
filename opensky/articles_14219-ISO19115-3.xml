@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14219</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:59.481813</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:23:50.017684</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Abalos, Marta</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1267-5115"
+                                    xlink:title="Abalos, Marta"
+                                    xlink:actuate="onRequest">Abalos, Marta</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Upwelling across the tropical tropopause exhibits strong subseasonal variability superimposed on the well-known annual cycle, and these variations directly affect temperature and tracers in the tropical lower stratosphere. In this work, the dynamical forcing of tropical upwelling on subseasonal time scales is investigated using the European Centre for Medium-Range Weather Forecasts (ECMWF) Interim Re-Analysis (ERA-Interim) for 1979-2011. Momentum balance diagnostics reveal that transience in lower-stratospheric upwelling is linked to the effects of extratropical wave forcing, with centers of action in the extratropical winter stratosphere and in the subtropical upper troposphere of both hemispheres. The time-dependent forcing in these regions induces a remote coupled response in the zonal mean wind and the meridional circulation (with associated temperature changes), which drives upwelling variability in the tropical stratosphere. This behavior is observed in the reanalysis, consistent with theory. Dynamical patterns reflect distinctive forcing of the shallow versus deep branches of the Brewer&#x2013;Dobson circulation; the shallow branch is most strongly correlated with wave forcing in the subtropical upper troposphere and lower stratosphere, while the deep branch is mainly influenced by high-latitude planetary waves.</gco:CharacterString>
+            <gco:CharacterString>Upwelling across the tropical tropopause exhibits strong subseasonal variability superimposed on the well-known annual cycle, and these variations directly affect temperature and tracers in the tropical lower stratosphere. In this work, the dynamical forcing of tropical upwelling on subseasonal time scales is investigated using the European Centre for Medium-Range Weather Forecasts (ECMWF) Interim Re-Analysis (ERA-Interim) for 1979-2011. Momentum balance diagnostics reveal that transience in lower-stratospheric upwelling is linked to the effects of extratropical wave forcing, with centers of action in the extratropical winter stratosphere and in the subtropical upper troposphere of both hemispheres. The time-dependent forcing in these regions induces a remote coupled response in the zonal mean wind and the meridional circulation (with associated temperature changes), which drives upwelling variability in the tropical stratosphere. This behavior is observed in the reanalysis, consistent with theory. Dynamical patterns reflect distinctive forcing of the shallow versus deep branches of the Brewer–Dobson circulation; the shallow branch is most strongly correlated with wave forcing in the subtropical upper troposphere and lower stratosphere, while the deep branch is mainly influenced by high-latitude planetary waves.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

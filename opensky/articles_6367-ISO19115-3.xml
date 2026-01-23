@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6367</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:04.717487</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:24:19.336561</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Development of an eye-safe solid-state tunable laser transmitter in the 1:4-1:5&#x3bc;m wavelength region based on Cr&#x2074;&#x207a;:YAG crystal for lidar applications</gco:CharacterString>
+                  <gco:CharacterString>Development of an eye-safe solid-state tunable laser transmitter in the 1:4-1:5μm wavelength region based on Cr⁴⁺:YAG crystal for lidar applications</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An experimental optimization of the efficiency of a gain switched tunable Cr&#x2074;&#x207a;:YAG laser at 10 Hz is described. The thermal lensing during pulsed operation was measured. Optimal performance occurred at a crystal temperature of 34 &#xb0;C and resulted in an output energy of ~7 mJ and a pulse duration of ~35 ns. Tunability in the range of 1350-1500 nm, spectral linewidth of ~200 GHz, and M2&lt;4 are demonstrated. The main laser material parameters are estimated. Such a laser could be employed in a laboratory-based nonscanning lidar system if a narrowband birefringent filter is installed. The tunability will permit the improvement of the Cr&#x2074;&#x207a;:YAG transmitter for water-vapor differential absorption lidar if injection seeding is applied.</gco:CharacterString>
+            <gco:CharacterString>An experimental optimization of the efficiency of a gain switched tunable Cr⁴⁺:YAG laser at 10 Hz is described. The thermal lensing during pulsed operation was measured. Optimal performance occurred at a crystal temperature of 34 °C and resulted in an output energy of ~7 mJ and a pulse duration of ~35 ns. Tunability in the range of 1350-1500 nm, spectral linewidth of ~200 GHz, and M2&lt;4 are demonstrated. The main laser material parameters are estimated. Such a laser could be employed in a laboratory-based nonscanning lidar system if a narrowband birefringent filter is installed. The tunability will permit the improvement of the Cr⁴⁺:YAG transmitter for water-vapor differential absorption lidar if injection seeding is applied.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

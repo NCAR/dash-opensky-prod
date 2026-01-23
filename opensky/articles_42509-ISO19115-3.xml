@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42509</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:56:05.264479</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:00:09.036528</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yang &#x6768;, K. E. &#x51ef;.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0002-7663-7652"
+                                    xlink:title="Yang 杨, K. E. 凯."
+                                    xlink:actuate="onRequest">Yang 杨, K. E. 凯.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rempel, Matthias</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5850-3119"
+                                    xlink:title="Rempel, Matthias"
+                                    xlink:actuate="onRequest">Rempel, Matthias</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dodds, S. C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0001-6311-146X"
+                                    xlink:title="Dodds, S. C."
+                                    xlink:actuate="onRequest">Dodds, S. C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +214,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sadowski, P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0002-7354-5461"
+                                    xlink:title="Sadowski, P."
+                                    xlink:actuate="onRequest">Sadowski, P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +236,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cunnyngham, I.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0001-5171-9144"
+                                    xlink:title="Cunnyngham, I."
+                                    xlink:actuate="onRequest">Cunnyngham, I.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu &#x5218;, J. &#x5609;.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0002-7290-0863"
+                                    xlink:title="Liu 刘, J. 嘉."
+                                    xlink:actuate="onRequest">Liu 刘, J. 嘉.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +260,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Glaser, Y.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0001-7217-9749"
+                                    xlink:title="Glaser, Y."
+                                    xlink:actuate="onRequest">Glaser, Y.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +272,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sun &#x5b59;, X. &#x65ed;.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="http://orcid.org/0000-0003-4043-616X"
+                                    xlink:title="Sun 孙, X. 旭."
+                                    xlink:actuate="onRequest">Sun 孙, X. 旭.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

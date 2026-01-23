@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23685</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:15:22.289160</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:45:40.462268</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Malanushenko, Anna</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5066-8509"
+                                    xlink:title="Malanushenko, Anna"
+                                    xlink:actuate="onRequest">Malanushenko, Anna</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gibson, Sarah E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9831-2640"
+                                    xlink:title="Gibson, Sarah E."
+                                    xlink:actuate="onRequest">Gibson, Sarah E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this paper, we explore the potential of neural networks for making space weather predictions based on near-Sun observations. Our second goal is to determine the extent to which coronal polarimetric observations of erupting structures near the Sun encode sufficient information to predict the impact these structures will have on Earth. In particular, we focus on predicting the maximal southward component of the magnetic field ("&#x2212;Bz") inside an interplanetary coronal mass ejection (ICME) as it impacts the Earth. We use Gibson &amp; Low (G&amp;L) self-similarly expanding flux rope model (Gibson and Low, 1998) as a first test for the project, which allows to consider CMEs with varying location, orientation, size, and morphology. We vary 5 parameters of the model to alter these CME properties, and generate a large database of synthetic CMEs (over 36k synthetic events). For each model CME, we synthesize near-Sun observations, as seen from an observer in quadrature (assuming the CME is directed earthwards), of either three components of the vector magnetic field, (Bx, By, Bz) ("Experiment 1"), or of synthetic Stokes images, (L/I, Az, V/I) ("Experiment 2"). We then allow the flux rope to expand and record max{&#x2212;Bz} as the ICME passes 1AU. We further conduct two separate machine learning experiments and develop two different regression-based deep convolutional neural networks (CNNs) to predict max{&#x2212;Bz} based on these two kinds of the near-Sun input data. Experiment 1 is a test which we do as a proof of concept, to see if a 3-channel CNN (hereafter CNN1), similar to those used in RGB image recognition, can reproduce the results of the self-similar (i.e., scale-invariant) expansion of the G&amp;L model. Experiment 2 is less trivial, as Stokes vector is not linearly related to B, and the line-of-sight integration in the optically thin corona presents additional difficulties for interpreting the signal. This second CNN (hereafter CNN2), although resembling CNN1 in Experiment 1, will have a different number of layers and set of hyperparameters due to a much more complicated mapping between the input and output data. We find that, given three components of B, CNN1 can predict max{&#x2212;Bz} with 97% accuracy, and for three components of the Stokes vector as input, CNN2 can predict max{&#x2212;Bz} with 95%, both measured in the relative root square error.</gco:CharacterString>
+            <gco:CharacterString>In this paper, we explore the potential of neural networks for making space weather predictions based on near-Sun observations. Our second goal is to determine the extent to which coronal polarimetric observations of erupting structures near the Sun encode sufficient information to predict the impact these structures will have on Earth. In particular, we focus on predicting the maximal southward component of the magnetic field ("−Bz") inside an interplanetary coronal mass ejection (ICME) as it impacts the Earth. We use Gibson &amp; Low (G&amp;L) self-similarly expanding flux rope model (Gibson and Low, 1998) as a first test for the project, which allows to consider CMEs with varying location, orientation, size, and morphology. We vary 5 parameters of the model to alter these CME properties, and generate a large database of synthetic CMEs (over 36k synthetic events). For each model CME, we synthesize near-Sun observations, as seen from an observer in quadrature (assuming the CME is directed earthwards), of either three components of the vector magnetic field, (Bx, By, Bz) ("Experiment 1"), or of synthetic Stokes images, (L/I, Az, V/I) ("Experiment 2"). We then allow the flux rope to expand and record max{−Bz} as the ICME passes 1AU. We further conduct two separate machine learning experiments and develop two different regression-based deep convolutional neural networks (CNNs) to predict max{−Bz} based on these two kinds of the near-Sun input data. Experiment 1 is a test which we do as a proof of concept, to see if a 3-channel CNN (hereafter CNN1), similar to those used in RGB image recognition, can reproduce the results of the self-similar (i.e., scale-invariant) expansion of the G&amp;L model. Experiment 2 is less trivial, as Stokes vector is not linearly related to B, and the line-of-sight integration in the optically thin corona presents additional difficulties for interpreting the signal. This second CNN (hereafter CNN2), although resembling CNN1 in Experiment 1, will have a different number of layers and set of hyperparameters due to a much more complicated mapping between the input and output data. We find that, given three components of B, CNN1 can predict max{−Bz} with 97% accuracy, and for three components of the Stokes vector as input, CNN2 can predict max{−Bz} with 95%, both measured in the relative root square error.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14253</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:07:01.090962</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:25:50.236442</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Studies of vertical and interhemispheric coupling during Sudden Stratospheric Warmings (SSWs) suggest that gravity wave (GW) momentum flux divergence plays a key role in forcing the middle atmosphere, although observational validation of GW forcing is limited. We present a whole atmosphere view of zonal winds from the surface to 100 km during the January 2013 major SSW, together with observed GW momentum fluxes in the mesopause region derived from uninterrupted high-resolution meteor radar observations from an All-Sky Interferometric Meteor Radar system located at Trondheim, Norway (63.4&#xb0;N, 10.5&#xb0;E). Observations show GW momentum flux divergence 6 days prior to the SSW onset, producing an eastward forcing with peak values of &#x223c;+145 &#xb1; 60ms&#x207b;&#xb9;d&#x207b;&#xb9;. As the SSW evolves, GW forcing turns westward, reaching a minimum of &#x223c;&#x2212;240 &#xb1; 70ms&#x207b;&#xb9;d&#x207b;&#xb9;&#x223c;+18 days after the SSW onset. These results are discussed in light of previous studies and simulations using the Whole Atmosphere Community Climate Model with Specified Dynamics.</gco:CharacterString>
+            <gco:CharacterString>Studies of vertical and interhemispheric coupling during Sudden Stratospheric Warmings (SSWs) suggest that gravity wave (GW) momentum flux divergence plays a key role in forcing the middle atmosphere, although observational validation of GW forcing is limited. We present a whole atmosphere view of zonal winds from the surface to 100 km during the January 2013 major SSW, together with observed GW momentum fluxes in the mesopause region derived from uninterrupted high-resolution meteor radar observations from an All-Sky Interferometric Meteor Radar system located at Trondheim, Norway (63.4°N, 10.5°E). Observations show GW momentum flux divergence 6 days prior to the SSW onset, producing an eastward forcing with peak values of ∼+145 ± 60ms⁻¹d⁻¹. As the SSW evolves, GW forcing turns westward, reaching a minimum of ∼−240 ± 70ms⁻¹d⁻¹∼+18 days after the SSW onset. These results are discussed in light of previous studies and simulations using the Whole Atmosphere Community Climate Model with Specified Dynamics.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

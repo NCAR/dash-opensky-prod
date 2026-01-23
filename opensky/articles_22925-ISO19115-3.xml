@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22925</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:06.017416</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:26:57.483810</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>He, Cenlin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7367-2815"
+                                    xlink:title="He, Cenlin"
+                                    xlink:actuate="onRequest">He, Cenlin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sillanp&#xe4;&#xe4;, M.</gco:CharacterString>
+                        <gco:CharacterString>Sillanpää, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Carbonaceous matter in the atmosphere has an important influence on climate change. Currently, the deposition of carbonaceous matter is one of the largest uncertainties in the climate system. This phenomenon is common in remote regions, such as the Himalayas and Tibetan Plateau. In this study, for the first time, we reported in situ measurements of wet and dry deposition rates of carbonaceous matter at three remote stations: Nam Co, Lulang, and Everest. The results showed that the annual wet deposition rates of water-insoluble organic carbon (WIOC) and black carbon (BC) were 60.2 and 5.8 mg&#xb7;m&#x2212;2&#xb7;year&#x2212;1, 330 and 34.6 mg&#xb7;m&#x2212;2&#xb7;year&#x2212;1, and 47.0 and 2.6 mg&#xb7;m&#x2212;2&#xb7;year&#x2212;1 at the Nam Co, Lulang, and Everest stations, respectively. Seasonal variations in the wet deposition rates of WIOC and BC were controlled by precipitation amount and their atmospheric concentrations. In addition, the wet scavenging ratios of WIOC and BC at Nam Co Station were close to those observed in other remote areas. The total BC deposition at Nam Co Station (15.3 mg&#xb7;m&#x2212;2&#xb7;year&#x2212;1) was higher than that from chemical transport models, implying a dominant role of dry deposition of BC in the total deposition at this station and an urgent need to improve the aerosol deposition in models for the Himalayas and Tibetan Plateau. It was found that the deposition rates of carbonaceous matter in the Himalayas and Tibetan Plateau had large spatial variation; thus, high-resolution models need to be applied in the future.</gco:CharacterString>
+            <gco:CharacterString>Carbonaceous matter in the atmosphere has an important influence on climate change. Currently, the deposition of carbonaceous matter is one of the largest uncertainties in the climate system. This phenomenon is common in remote regions, such as the Himalayas and Tibetan Plateau. In this study, for the first time, we reported in situ measurements of wet and dry deposition rates of carbonaceous matter at three remote stations: Nam Co, Lulang, and Everest. The results showed that the annual wet deposition rates of water-insoluble organic carbon (WIOC) and black carbon (BC) were 60.2 and 5.8 mg·m−2·year−1, 330 and 34.6 mg·m−2·year−1, and 47.0 and 2.6 mg·m−2·year−1 at the Nam Co, Lulang, and Everest stations, respectively. Seasonal variations in the wet deposition rates of WIOC and BC were controlled by precipitation amount and their atmospheric concentrations. In addition, the wet scavenging ratios of WIOC and BC at Nam Co Station were close to those observed in other remote areas. The total BC deposition at Nam Co Station (15.3 mg·m−2·year−1) was higher than that from chemical transport models, implying a dominant role of dry deposition of BC in the total deposition at this station and an urgent need to improve the aerosol deposition in models for the Himalayas and Tibetan Plateau. It was found that the deposition rates of carbonaceous matter in the Himalayas and Tibetan Plateau had large spatial variation; thus, high-resolution models need to be applied in the future.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

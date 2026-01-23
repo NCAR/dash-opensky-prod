@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:8901</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:07:45.154164</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:56:22.506839</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deeter, Merritt N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3555-0518"
+                                    xlink:title="Deeter, Merritt N."
+                                    xlink:actuate="onRequest">Deeter, Merritt N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vivekanandan, Jothiram</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0952-2169"
+                                    xlink:title="Vivekanandan, Jothiram"
+                                    xlink:actuate="onRequest">Vivekanandan, Jothiram</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Measurements from passive microwave satellite instruments such as the Advanced Microwave Sounding Unit B (AMSU-B) are sensitive to both liquid and ice cloud particles. Radiative transfer modeling is exploited to simulate the response of the AMSU-B instrument to mixed-phase clouds over land. The plane-parallel radiative transfer model employed for the study accounts for scattering and absorption from cloud ice as well as absorption and emission from trace gases and cloud liquid. The radiative effects of mixed-phase clouds on AMSU-B window channels (i.e., 89 and 150 GHz) and water vapor line channels (i.e., 183 &#xb1; 1, 3, and 7 GHz) are studied. Sensitivities to noncloud parameters, including surface temperature, surface emissivity, and atmospheric temperature and water vapor profiles, are also quantified. Modeling results indicate that both cloud phases generally have significant radiative effects and that the 150- and 183 &#xb1; 7-GHz channels are typically the most sensitive channels to integrated cloud properties (i.e., liquid water path and ice water path). However, results also indicate that AMSU-B measurements alone are probably insufficient for retrieving all mixed-phase cloud properties of interest. These results are supported by comparisons of AMSU-B observations of a mixed-phase cloud over the Atmospheric Radiation Measurement (ARM) Program's Southern Great Plains (SGP) site with corresponding calculated clear-sky values.</gco:CharacterString>
+            <gco:CharacterString>Measurements from passive microwave satellite instruments such as the Advanced Microwave Sounding Unit B (AMSU-B) are sensitive to both liquid and ice cloud particles. Radiative transfer modeling is exploited to simulate the response of the AMSU-B instrument to mixed-phase clouds over land. The plane-parallel radiative transfer model employed for the study accounts for scattering and absorption from cloud ice as well as absorption and emission from trace gases and cloud liquid. The radiative effects of mixed-phase clouds on AMSU-B window channels (i.e., 89 and 150 GHz) and water vapor line channels (i.e., 183 ± 1, 3, and 7 GHz) are studied. Sensitivities to noncloud parameters, including surface temperature, surface emissivity, and atmospheric temperature and water vapor profiles, are also quantified. Modeling results indicate that both cloud phases generally have significant radiative effects and that the 150- and 183 ± 7-GHz channels are typically the most sensitive channels to integrated cloud properties (i.e., liquid water path and ice water path). However, results also indicate that AMSU-B measurements alone are probably insufficient for retrieving all mixed-phase cloud properties of interest. These results are supported by comparisons of AMSU-B observations of a mixed-phase cloud over the Atmospheric Radiation Measurement (ARM) Program's Southern Great Plains (SGP) site with corresponding calculated clear-sky values.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24200</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:16:26.244568</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:30:42.100805</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>D&#xe8;me, A.</gco:CharacterString>
+                        <gco:CharacterString>Dème, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The aim of this study is to find the most suitable heat wave definition among 15 different ones and to evaluate its impact on total, age-, and gender-specific mortality for Bandafassi, Senegal. Daily weather station data were obtained from Kedougou situated at 17 km from Bandafassi from 1973 to 2012. Poisson generalized additive model (GAM) and distributed lag non-linear model (DLNM) are used to investigate the effect of heat wave on mortality and to evaluate the nonlinear association of heat wave definitions at different lag days, respectively. Heat wave definitions, based on three or more consecutive days with both daily minimum and maximum temperatures greater than the 90th percentile, provided the best model fit. A statistically significant increase in the relative risk (RRs 1.4 (95% Confidence Interval (CI): 1.2&#x2013;1.6), 1.7 (95% CI: 1.5&#x2013;1.9), 1.21 (95% CI: 1.08&#x2013;1.3), 1.2 (95% CI: 1.04&#x2013;1.5), 1.5 (95% CI: 1.3&#x2013;1.8), 1.4 (95% CI: 1.2&#x2013;1.5), 1.5 (95% CI: 1.07&#x2013;1.6), and 1.5 (95% CI: 1.3&#x2013;1.8)) of total mortality was observed for eight definitions. By using the definition based on the 90th percentile of minimum and maximum temperature with a 3-day duration, we also found that females and people aged &#x2265; 55 years old were at higher risks than males and other different age groups to heat wave related mortality. The impact of heat waves was associated with total-, age-, gender-mortality. These results are expected to be useful for decision makers who conceive of public health policies in Senegal and elsewhere. Climate parameters, including temperatures and humidity, could be used to forecast heat wave risks as an early warning system in the area where we conduct this research. More broadly, our findings should be highly beneficial to climate services, researchers, clinicians, end-users and decision-makers.</gco:CharacterString>
+            <gco:CharacterString>The aim of this study is to find the most suitable heat wave definition among 15 different ones and to evaluate its impact on total, age-, and gender-specific mortality for Bandafassi, Senegal. Daily weather station data were obtained from Kedougou situated at 17 km from Bandafassi from 1973 to 2012. Poisson generalized additive model (GAM) and distributed lag non-linear model (DLNM) are used to investigate the effect of heat wave on mortality and to evaluate the nonlinear association of heat wave definitions at different lag days, respectively. Heat wave definitions, based on three or more consecutive days with both daily minimum and maximum temperatures greater than the 90th percentile, provided the best model fit. A statistically significant increase in the relative risk (RRs 1.4 (95% Confidence Interval (CI): 1.2–1.6), 1.7 (95% CI: 1.5–1.9), 1.21 (95% CI: 1.08–1.3), 1.2 (95% CI: 1.04–1.5), 1.5 (95% CI: 1.3–1.8), 1.4 (95% CI: 1.2–1.5), 1.5 (95% CI: 1.07–1.6), and 1.5 (95% CI: 1.3–1.8)) of total mortality was observed for eight definitions. By using the definition based on the 90th percentile of minimum and maximum temperature with a 3-day duration, we also found that females and people aged ≥ 55 years old were at higher risks than males and other different age groups to heat wave related mortality. The impact of heat waves was associated with total-, age-, gender-mortality. These results are expected to be useful for decision makers who conceive of public health policies in Senegal and elsewhere. Climate parameters, including temperatures and humidity, could be used to forecast heat wave risks as an early warning system in the area where we conduct this research. More broadly, our findings should be highly beneficial to climate services, researchers, clinicians, end-users and decision-makers.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

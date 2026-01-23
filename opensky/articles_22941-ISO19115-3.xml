@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22941</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:49.224938</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:42.231141</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -148,7 +149,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Evaluation of MOPITT Version&#xa0;7 joint TIR&#x2013;NIR X CO retrievals with TCCON</gco:CharacterString>
+                  <gco:CharacterString>Evaluation of MOPITT Version 7 joint TIR–NIR X CO retrievals with TCCON</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Buchholz, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8124-2455"
+                                    xlink:title="Buchholz, Rebecca"
+                                    xlink:actuate="onRequest">Buchholz, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>De Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>De Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +470,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xe9;, Y.</gco:CharacterString>
+                        <gco:CharacterString>Té, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -527,7 +530,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -557,7 +562,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observations of carbon monoxide (CO) from the Measurements Of Pollution In The Troposphere (MOPITT) instrument aboard the Terra spacecraft were expected to have an accuracy of 10% prior to the launch in 1999. Here we evaluate MOPITT Version 7 joint (V7J) thermal-infrared and near-infrared (TIR&#x2013;NIR) retrieval accuracy and precision and suggest ways to further improve the accuracy of the observations. We take five steps involving filtering or bias corrections to reduce scatter and bias in the data relative to other MOPITT soundings and ground-based measurements. (1) We apply a preliminary filtering scheme in which measurements over snow and ice are removed. (2) We find a systematic pairwise bias among the four MOPITT along-track detectors (pixels) on the order of 3&#x2013;4&#x2009;ppb with a small temporal trend, which we remove on a global scale using a temporally trended bias correction. (3) Using a small-region approximation (SRA), a new filtering scheme is developed and applied based on additional quality indicators such as the signal-to-noise ratio (SNR). After applying these new filters, the root-mean-squared error computed using the local median from the SRA over 16 years of global observations decreases from 3.84 to 2.55&#x2009;ppb. (4) We also use the SRA to find variability in MOPITT retrieval anomalies that relates to retrieval parameters. We apply a bias correction to one parameter from this analysis. (5) After applying the previous bias corrections and filtering, we compare the MOPITT results with the GGG2014 ground-based Total Carbon Column Observing Network (TCCON) observations to obtain an overall global bias correction. These comparisons show that MOPITT V7J is biased high by about 6&#x2009;%&#x2013;8&#x2009;%, which is similar to past studies using independent validation datasets on V6J. When using TCCON spectrometric column retrievals without the standard airmass correction or scaling to aircraft (WMO scale), the ground- and satellite-based observations overall agree to better than 0.5&#x2009;%. GEOS-Chem data assimilations are used to estimate the influence of filtering and scaling to TCCON on global CO and tend to pull concentrations away from the prior fluxes and closer to the truth. We conclude with suggestions for further improving the MOPITT data products.</gco:CharacterString>
+            <gco:CharacterString>Observations of carbon monoxide (CO) from the Measurements Of Pollution In The Troposphere (MOPITT) instrument aboard the Terra spacecraft were expected to have an accuracy of 10% prior to the launch in 1999. Here we evaluate MOPITT Version 7 joint (V7J) thermal-infrared and near-infrared (TIR–NIR) retrieval accuracy and precision and suggest ways to further improve the accuracy of the observations. We take five steps involving filtering or bias corrections to reduce scatter and bias in the data relative to other MOPITT soundings and ground-based measurements. (1) We apply a preliminary filtering scheme in which measurements over snow and ice are removed. (2) We find a systematic pairwise bias among the four MOPITT along-track detectors (pixels) on the order of 3–4 ppb with a small temporal trend, which we remove on a global scale using a temporally trended bias correction. (3) Using a small-region approximation (SRA), a new filtering scheme is developed and applied based on additional quality indicators such as the signal-to-noise ratio (SNR). After applying these new filters, the root-mean-squared error computed using the local median from the SRA over 16 years of global observations decreases from 3.84 to 2.55 ppb. (4) We also use the SRA to find variability in MOPITT retrieval anomalies that relates to retrieval parameters. We apply a bias correction to one parameter from this analysis. (5) After applying the previous bias corrections and filtering, we compare the MOPITT results with the GGG2014 ground-based Total Carbon Column Observing Network (TCCON) observations to obtain an overall global bias correction. These comparisons show that MOPITT V7J is biased high by about 6 %–8 %, which is similar to past studies using independent validation datasets on V6J. When using TCCON spectrometric column retrievals without the standard airmass correction or scaling to aircraft (WMO scale), the ground- and satellite-based observations overall agree to better than 0.5 %. GEOS-Chem data assimilations are used to estimate the influence of filtering and scaling to TCCON on global CO and tend to pull concentrations away from the prior fluxes and closer to the truth. We conclude with suggestions for further improving the MOPITT data products.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

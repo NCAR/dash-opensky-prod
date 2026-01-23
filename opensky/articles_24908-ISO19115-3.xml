@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24908</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:07:41.953724</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:53:50.935881</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -267,7 +268,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +382,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -397,7 +404,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +446,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>South Korea routinely experiences poor air quality with ozone and small particles exceeding air quality standards. To build a better understanding of this problem, in 2016, the KORea-United States cooperative Air Quality (KORUS-AQ) study collected surface and airborne measurements of many chemical species, including the reactive gases hydroxyl (OH) and hydroperpoxyl (HO2). Several different results are reported here. First, OH and HO2 measured on the NASA DC-8 agree to within uncertainties with values calculated by two different box models, both in statistical comparisons and as a function of altitude from the surface to 8 km. These comparisons show substantial scatter, likely due to both variability in instrument performance and the difficulty in interpolating measurements made with frequencies different from those of the model time step. Second, OH and HO2 calculated by a model including HO2 uptake on aerosol particles in the chemical mechanism are inconsistent with observations. Third, in the planetary boundary layer over both ocean and land, measured and model-calculated OH reactivity are sometimes different, and this missing OH reactivity, which is as much as &#x223c;4 s&#x2212;1, increased from April to June and originated primarily from the Korean peninsula. Fourth, repeated missed approaches at the Seoul Air Base during several days show that the changes in the sum of ozone and nitrogen dioxide are consistent with ozone production rates calculated from HO2 either observed or modeled by the Langley Research Center model.</gco:CharacterString>
+            <gco:CharacterString>South Korea routinely experiences poor air quality with ozone and small particles exceeding air quality standards. To build a better understanding of this problem, in 2016, the KORea-United States cooperative Air Quality (KORUS-AQ) study collected surface and airborne measurements of many chemical species, including the reactive gases hydroxyl (OH) and hydroperpoxyl (HO2). Several different results are reported here. First, OH and HO2 measured on the NASA DC-8 agree to within uncertainties with values calculated by two different box models, both in statistical comparisons and as a function of altitude from the surface to 8 km. These comparisons show substantial scatter, likely due to both variability in instrument performance and the difficulty in interpolating measurements made with frequencies different from those of the model time step. Second, OH and HO2 calculated by a model including HO2 uptake on aerosol particles in the chemical mechanism are inconsistent with observations. Third, in the planetary boundary layer over both ocean and land, measured and model-calculated OH reactivity are sometimes different, and this missing OH reactivity, which is as much as ∼4 s−1, increased from April to June and originated primarily from the Korean peninsula. Fourth, repeated missed approaches at the Seoul Air Base during several days show that the changes in the sum of ozone and nitrogen dioxide are consistent with ozone production rates calculated from HO2 either observed or modeled by the Langley Research Center model.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

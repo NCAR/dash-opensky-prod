@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6287</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:53.271286</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:23:47.173643</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Transport of momentum by convection is an important process affecting global circulation. Owing to the lack of global observations, the quantification of the impact of this process on the tropospheric climate is difficult. Here an implementation of two convective momentum transport parameterizations, presented by Schneider and Lindzen and Gregory et al., in the Community Atmosphere Model, version 3 (CAM3) is presented, and their effect on global climate is examined in detail. An analysis of the tropospheric zonal momentum budget reveals that convective momentum transport affects tropospheric climate mainly through changes to the Coriolis torque. These changes result in improvement of the representation of the Hadley circulation: in December-February, the upward branch of the circulation is weakened in the Northern Hemisphere and strengthened in the Southern Hemisphere, and the lower northerly branch is weakened. In June-August, similar improvements are noted. The inclusion of convective momentum transport in CAM3 reduces many of the model's biases in the representation of surface winds, as well as in the representation of tropical convection. In an annual mean, the tropical easterly bias, subtropical westerly bias, and the bias in the 60&#xb0;S jet are improved. Representation of convection is improved along the equatorial belt with decreased precipitation in the Indian Ocean and increased precipitation in the western Pacific. The improvements of the representation of tropospheric climate are greater with the implementation of the Schneider and Lindzen parameterization.</gco:CharacterString>
+            <gco:CharacterString>Transport of momentum by convection is an important process affecting global circulation. Owing to the lack of global observations, the quantification of the impact of this process on the tropospheric climate is difficult. Here an implementation of two convective momentum transport parameterizations, presented by Schneider and Lindzen and Gregory et al., in the Community Atmosphere Model, version 3 (CAM3) is presented, and their effect on global climate is examined in detail. An analysis of the tropospheric zonal momentum budget reveals that convective momentum transport affects tropospheric climate mainly through changes to the Coriolis torque. These changes result in improvement of the representation of the Hadley circulation: in December-February, the upward branch of the circulation is weakened in the Northern Hemisphere and strengthened in the Southern Hemisphere, and the lower northerly branch is weakened. In June-August, similar improvements are noted. The inclusion of convective momentum transport in CAM3 reduces many of the model's biases in the representation of surface winds, as well as in the representation of tropical convection. In an annual mean, the tropical easterly bias, subtropical westerly bias, and the bias in the 60°S jet are improved. Representation of convection is improved along the equatorial belt with decreased precipitation in the Indian Ocean and increased precipitation in the western Pacific. The improvements of the representation of tropospheric climate are greater with the implementation of the Schneider and Lindzen parameterization.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

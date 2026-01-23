@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6460</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:15.610135</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:27:14.329479</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The spatial and temporal features of intraseasonal oscillations in the southwestern Indian Ocean are studied by analyzing model simulations for the Indo-Pacific region. The intraseasonal oscillations have periods of 40-80 days with a wavelength of ~650 km. They originate from the southeastern Indian Ocean and propagate westward as Rossby waves with a phase speed of 25 cm s&#x207b;&#xb9; in boreal winter and spring. The baroclinic instability is the main driver for these intraseasonal oscillations. The first baroclinic mode dominates during most of the year, but during boreal winter and spring the second mode contributes significantly and often equally. Consequently, the intraseasonal oscillations are relatively strong in boreal winter and spring. Whether the atmospheric intraseasonal oscillations are also important for forcing the oceanic intraseasonal oscillations in the southwestern Indian Ocean needs further investigation.</gco:CharacterString>
+            <gco:CharacterString>The spatial and temporal features of intraseasonal oscillations in the southwestern Indian Ocean are studied by analyzing model simulations for the Indo-Pacific region. The intraseasonal oscillations have periods of 40-80 days with a wavelength of ~650 km. They originate from the southeastern Indian Ocean and propagate westward as Rossby waves with a phase speed of 25 cm s⁻¹ in boreal winter and spring. The baroclinic instability is the main driver for these intraseasonal oscillations. The first baroclinic mode dominates during most of the year, but during boreal winter and spring the second mode contributes significantly and often equally. Consequently, the intraseasonal oscillations are relatively strong in boreal winter and spring. Whether the atmospheric intraseasonal oscillations are also important for forcing the oceanic intraseasonal oscillations in the southwestern Indian Ocean needs further investigation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

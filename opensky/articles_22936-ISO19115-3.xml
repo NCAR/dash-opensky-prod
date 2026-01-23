@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22936</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:47.792279</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:39.366676</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Zhang, Xuan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1548-8021"
+                                    xlink:title="Zhang, Xuan"
+                                    xlink:actuate="onRequest">Zhang, Xuan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tyndall, Geoffrey S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0695-5241"
+                                    xlink:title="Tyndall, Geoffrey S."
+                                    xlink:actuate="onRequest">Tyndall, Geoffrey S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We demonstrate the capability of the ion mobility mass spectrometry (IMS-MS) for molecular characterization of reactive and short-lived alkyl nitrates (ANs) in atmospheric aerosols. We show significantly enhanced sensitivity towards the intact molecules of ANs by ultimately 2 orders of magnitude with the addition of inorganic anions such as chloride and nitrate to the negative electrospray to promote the ion adduct formation. This approach enables the measurement of ANs that have a low tendency to form molecular ions on their own with an improved limit of detection in the range of 0.1 to 4.3&#x2009;&#xb5;M. Molecular identities of the ANs are well constrained by the developed correlation between the collision cross section and mass-to-charge ratio, which provides a two-dimensional separation of the -ONO2-containing compounds on the basis of their molecular size and geometry. Structural information of the nitrate molecules is further probed by the identification of characteristic fragments produced from the collision-induced dissociation of parent AN adducts. Application of the IMS-MS technique is exemplified by the identification of hydroxy nitrates in secondary organic aerosols produced from the photochemical oxidation of isoprene.</gco:CharacterString>
+            <gco:CharacterString>We demonstrate the capability of the ion mobility mass spectrometry (IMS-MS) for molecular characterization of reactive and short-lived alkyl nitrates (ANs) in atmospheric aerosols. We show significantly enhanced sensitivity towards the intact molecules of ANs by ultimately 2 orders of magnitude with the addition of inorganic anions such as chloride and nitrate to the negative electrospray to promote the ion adduct formation. This approach enables the measurement of ANs that have a low tendency to form molecular ions on their own with an improved limit of detection in the range of 0.1 to 4.3 µM. Molecular identities of the ANs are well constrained by the developed correlation between the collision cross section and mass-to-charge ratio, which provides a two-dimensional separation of the -ONO2-containing compounds on the basis of their molecular size and geometry. Structural information of the nitrate molecules is further probed by the identification of characteristic fragments produced from the collision-induced dissociation of parent AN adducts. Application of the IMS-MS technique is exemplified by the identification of hydroxy nitrates in secondary organic aerosols produced from the photochemical oxidation of isoprene.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

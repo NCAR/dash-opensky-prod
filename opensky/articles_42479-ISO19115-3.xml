@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42479</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:10.553346</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:05:02.515895</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ahijevych, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9391-4271"
+                                    xlink:title="Ahijevych, David"
+                                    xlink:actuate="onRequest">Ahijevych, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The High-Resolution Rapid Refresh (HRRR) model provides hourly updating forecasts of convective-scale phenomena, which can be used to infer the potential for convective hazards (e.g., tornadoes, hail, and wind gusts), across the United States. We used deterministic 2019&#x2013;20 HRRR, version 4 (HRRRv4), forecasts to train neural networks (NNs) to generate 4-hourly probabilistic convective hazard forecasts [neural network probability forecasts (NNPFs)] for HRRRv4 initializations in 2021, using storm reports as ground truth. The NNPFs were compared to the skill of a smoothed updraft helicity (UH) baseline to quantify the benefit of the NNs. NNPF skill varied by initialization time and time of day but was all superior to the UH forecast. NNPFs valid at hours between 1800 and 0000 UTC were most skillful in aggregate, significantly exceeding the baseline forecast skill. Overnight NNPFs (i.e., valid 0600&#x2013;1200 UTC) were least skillful, indicating a diurnal cycle in hazard predictability that was present across all HRRRv4 initializations. We explored the sensitivity of HRRRv4 NNPF skill to NN training choices. Including an additional year of 2021 HRRRv4 forecasts for training slightly improved skill for 2022 HRRRv4 NNPFs, while reducing the training dataset size by 40% using only forecasts with storm reports was not detrimental to forecast skill. Finally, NNs trained with 2018&#x2013;20 HRRRv3 forecasts led to a reduction in NNPF skill when applied to 2021 HRRRv4 forecasts. In addition to documenting practical predictability challenges with convective hazard prediction, these findings reinforce the need for a consistent model configuration for optimal results when training NNs and provide best practices when constructing a training dataset with operational convection-allowing model forecasts.</gco:CharacterString>
+            <gco:CharacterString>The High-Resolution Rapid Refresh (HRRR) model provides hourly updating forecasts of convective-scale phenomena, which can be used to infer the potential for convective hazards (e.g., tornadoes, hail, and wind gusts), across the United States. We used deterministic 2019–20 HRRR, version 4 (HRRRv4), forecasts to train neural networks (NNs) to generate 4-hourly probabilistic convective hazard forecasts [neural network probability forecasts (NNPFs)] for HRRRv4 initializations in 2021, using storm reports as ground truth. The NNPFs were compared to the skill of a smoothed updraft helicity (UH) baseline to quantify the benefit of the NNs. NNPF skill varied by initialization time and time of day but was all superior to the UH forecast. NNPFs valid at hours between 1800 and 0000 UTC were most skillful in aggregate, significantly exceeding the baseline forecast skill. Overnight NNPFs (i.e., valid 0600–1200 UTC) were least skillful, indicating a diurnal cycle in hazard predictability that was present across all HRRRv4 initializations. We explored the sensitivity of HRRRv4 NNPF skill to NN training choices. Including an additional year of 2021 HRRRv4 forecasts for training slightly improved skill for 2022 HRRRv4 NNPFs, while reducing the training dataset size by 40% using only forecasts with storm reports was not detrimental to forecast skill. Finally, NNs trained with 2018–20 HRRRv3 forecasts led to a reduction in NNPF skill when applied to 2021 HRRRv4 forecasts. In addition to documenting practical predictability challenges with convective hazard prediction, these findings reinforce the need for a consistent model configuration for optimal results when training NNs and provide best practices when constructing a training dataset with operational convection-allowing model forecasts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25576</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:01:40.076538</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:39:51.488931</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, William O.J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-0671"
+                                    xlink:title="Brown, William O.J."
+                                    xlink:actuate="onRequest">Brown, William O.J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Instabilities, Dynamics, and Energetics accompanying Atmospheric Layering (IDEAL) program was conceived to improve understanding of the dynamics of thin strongly stratified "sheet" and deeper weakly stratified "layer" (S&amp;L) structures in the lower troposphere under strongly stable conditions. The field portion of the IDEAL program was conducted from 24 October to 15 November 2017 at Dugway Proving Ground, Utah, to target nighttime lower troposphere S&amp;L conditions. It employed a synergistic combination of observations by multiple simultaneous DataHawk-2 (DH2) small unmanned aircraft systems (sUASs) and concurrent ground-based profiling by the NCAR Earth Observing Laboratory Integrated Sounding System (ISS) comprising a wind profiler radar and hourly high-resolution radiosonde soundings. DH2 measurement intervals as well as vertical (&#x223c;&#x2009;2&#x2013;4&#x2009;km) and horizontal (&#x223c;&#x2009;5&#x2013;10&#x2009;km) flight trajectories were chosen based on local high-resolution weather forecasting and guided by near-real-time ISS measurements. These flights combined simultaneous vertical and slant-path profiling, and/or horizontal racetrack sampling, spanning several hours before sunrise. High-spatial- and temporal-resolution data were downlinked in real time to enable near-real-time changes in DH2 flight paths based on observed flow features. The IDEAL field program performed 70 DH2 flights on 16&#x2009;d, coordinated with 93 high-resolution radiosonde soundings. In this paper, raw and derived measurements from this campaign are outlined, and preliminary analyses are briefly described. This data set, along with "quick look" figures, is available for access by other researchers, as described herein.</gco:CharacterString>
+            <gco:CharacterString>The Instabilities, Dynamics, and Energetics accompanying Atmospheric Layering (IDEAL) program was conceived to improve understanding of the dynamics of thin strongly stratified "sheet" and deeper weakly stratified "layer" (S&amp;L) structures in the lower troposphere under strongly stable conditions. The field portion of the IDEAL program was conducted from 24 October to 15 November 2017 at Dugway Proving Ground, Utah, to target nighttime lower troposphere S&amp;L conditions. It employed a synergistic combination of observations by multiple simultaneous DataHawk-2 (DH2) small unmanned aircraft systems (sUASs) and concurrent ground-based profiling by the NCAR Earth Observing Laboratory Integrated Sounding System (ISS) comprising a wind profiler radar and hourly high-resolution radiosonde soundings. DH2 measurement intervals as well as vertical (∼ 2–4 km) and horizontal (∼ 5–10 km) flight trajectories were chosen based on local high-resolution weather forecasting and guided by near-real-time ISS measurements. These flights combined simultaneous vertical and slant-path profiling, and/or horizontal racetrack sampling, spanning several hours before sunrise. High-spatial- and temporal-resolution data were downlinked in real time to enable near-real-time changes in DH2 flight paths based on observed flow features. The IDEAL field program performed 70 DH2 flights on 16 d, coordinated with 93 high-resolution radiosonde soundings. In this paper, raw and derived measurements from this campaign are outlined, and preliminary analyses are briefly described. This data set, along with "quick look" figures, is available for access by other researchers, as described herein.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

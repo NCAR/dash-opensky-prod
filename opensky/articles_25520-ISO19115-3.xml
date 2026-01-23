@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25520</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:01:57.382306</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:40:40.515623</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The ocean's thermal inertia is a major contributor to irreversible ocean changes exceeding time scales that matter to human society. This fact is a challenge to societies as they prepare for the consequences of climate change, especially with respect to the ocean. Here the authors review the requirements for human actions from the ocean's perspective. In the near term (&#x223c;2030), goals such as the United Nations Sustainable Development Goals (SDGs) will be critical. Over longer times (&#x223c;2050&#x2013;2060 and beyond), global carbon neutrality targets may be met as countries continue to work toward reducing emissions. Both adaptation and mitigation plans need to be fully implemented in the interim, and the Global Ocean Observation System should be sustained so that changes can be continuously monitored. In the longer-term (after &#x223c;2060), slow emerging changes such as deep ocean warming and sea level rise are committed to continue even in the scenario where net zero emissions are reached. Thus, climate actions have to extend to time scales of hundreds of years. At these time scales, preparation for "high impact, low probability" risks &#x2014; such as an abrupt showdown of Atlantic Meridional Overturning Circulation, ecosystem change, or irreversible ice sheet loss &#x2014; should be fully integrated into long-term planning.</gco:CharacterString>
+            <gco:CharacterString>The ocean's thermal inertia is a major contributor to irreversible ocean changes exceeding time scales that matter to human society. This fact is a challenge to societies as they prepare for the consequences of climate change, especially with respect to the ocean. Here the authors review the requirements for human actions from the ocean's perspective. In the near term (∼2030), goals such as the United Nations Sustainable Development Goals (SDGs) will be critical. Over longer times (∼2050–2060 and beyond), global carbon neutrality targets may be met as countries continue to work toward reducing emissions. Both adaptation and mitigation plans need to be fully implemented in the interim, and the Global Ocean Observation System should be sustained so that changes can be continuously monitored. In the longer-term (after ∼2060), slow emerging changes such as deep ocean warming and sea level rise are committed to continue even in the scenario where net zero emissions are reached. Thus, climate actions have to extend to time scales of hundreds of years. At these time scales, preparation for "high impact, low probability" risks — such as an abrupt showdown of Atlantic Meridional Overturning Circulation, ecosystem change, or irreversible ice sheet loss — should be fully integrated into long-term planning.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

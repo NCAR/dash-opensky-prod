@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11937</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:37:00.690117</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:03:34.242202</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The assumed relationship between ice particle mass and size is profoundly important in radar retrievals of ice clouds, but, for millimeter-wave radars, shape and preferred orientation are important as well. In this paper the authors first examine the consequences of the fact that the widely used "Brown and Francis" mass--size relationship has often been applied to maximum particle dimension observed by aircraft Dmax rather than to the mean of the particle dimensions in two orthogonal directions Dmean, which was originally used by Brown and Francis. Analysis of particle images reveals that Dmax &#x2243; 1.25Dmean, and therefore, for clouds for which this mass--size relationship holds, the consequences are overestimates of ice water content by around 53% and of Rayleigh-scattering radar reflectivity factor by 3.7 dB. Simultaneous radar and aircraft measurements demonstrate that much better agreement in reflectivity factor is provided by using this mass--size relationship with Dmean. The authors then examine the importance of particle shape and fall orientation for millimeter-wave radars. Simultaneous radar measurements and aircraft calculations of differential reflectivity and dual-wavelength ratio are presented to demonstrate that ice particles may usually be treated as horizontally aligned oblate spheroids with an axial ratio of 0.6, consistent with them being aggregates. An accurate formula is presented for the backscatter cross section apparent to a vertically pointing millimeter-wave radar on the basis of a modified version of Rayleigh--Gans theory. It is then shown that the consequence of treating ice particles as Mie-scattering spheres is to substantially underestimate millimeter-wave reflectivity factor when millimeter-sized particles are present, which can lead to retrieved ice water content being overestimated by a factor of 4.</gco:CharacterString>
+            <gco:CharacterString>The assumed relationship between ice particle mass and size is profoundly important in radar retrievals of ice clouds, but, for millimeter-wave radars, shape and preferred orientation are important as well. In this paper the authors first examine the consequences of the fact that the widely used "Brown and Francis" mass--size relationship has often been applied to maximum particle dimension observed by aircraft Dmax rather than to the mean of the particle dimensions in two orthogonal directions Dmean, which was originally used by Brown and Francis. Analysis of particle images reveals that Dmax ≃ 1.25Dmean, and therefore, for clouds for which this mass--size relationship holds, the consequences are overestimates of ice water content by around 53% and of Rayleigh-scattering radar reflectivity factor by 3.7 dB. Simultaneous radar and aircraft measurements demonstrate that much better agreement in reflectivity factor is provided by using this mass--size relationship with Dmean. The authors then examine the importance of particle shape and fall orientation for millimeter-wave radars. Simultaneous radar measurements and aircraft calculations of differential reflectivity and dual-wavelength ratio are presented to demonstrate that ice particles may usually be treated as horizontally aligned oblate spheroids with an axial ratio of 0.6, consistent with them being aggregates. An accurate formula is presented for the backscatter cross section apparent to a vertically pointing millimeter-wave radar on the basis of a modified version of Rayleigh--Gans theory. It is then shown that the consequence of treating ice particles as Mie-scattering spheres is to substantially underestimate millimeter-wave reflectivity factor when millimeter-sized particles are present, which can lead to retrieved ice water content being overestimated by a factor of 4.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

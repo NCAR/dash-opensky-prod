@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16902</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:17.542258</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:05:50.416956</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wu, Qian</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7508-3803"
+                                    xlink:title="Wu, Qian"
+                                    xlink:actuate="onRequest">Wu, Qian</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ion convection pattern derived from the Super Dual Auroral Radar Network potential pattern (SDP) data is developed for the National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamic General Circulation Model. The December 2006 geomagnetic storm event was simulated with the SDP ion convection pattern and two other existing input options (Heelis and Weimer convection models). The high-latitude thermospheric wind simulated with SDP showed very good agreement with the Fabry-Perot interferometer thermospheric wind data inside the polar cap at Resolute, Canada (74.7&#xb0;N, 94.8&#xb0;W, magnetic latitude 84). The Heelis model overestimated the winds during the storm event, because the model does not consider the cross polar cap potential saturation at high global geomagnetic index (Kp) values. The Weimer model provides a better performance than the Heelis model in this case. However, it has a larger discrepancy compared to the SDP results. The SDP provides an alternative data-based tool for study of the ionosphere/thermosphere interactions in the polar cap.</gco:CharacterString>
+            <gco:CharacterString>Ion convection pattern derived from the Super Dual Auroral Radar Network potential pattern (SDP) data is developed for the National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamic General Circulation Model. The December 2006 geomagnetic storm event was simulated with the SDP ion convection pattern and two other existing input options (Heelis and Weimer convection models). The high-latitude thermospheric wind simulated with SDP showed very good agreement with the Fabry-Perot interferometer thermospheric wind data inside the polar cap at Resolute, Canada (74.7°N, 94.8°W, magnetic latitude 84). The Heelis model overestimated the winds during the storm event, because the model does not consider the cross polar cap potential saturation at high global geomagnetic index (Kp) values. The Weimer model provides a better performance than the Heelis model in this case. However, it has a larger discrepancy compared to the SDP results. The SDP provides an alternative data-based tool for study of the ionosphere/thermosphere interactions in the polar cap.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

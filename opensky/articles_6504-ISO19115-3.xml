@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6504</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:26.279333</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:19:15.304351</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Anne K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2384-5033"
+                                    xlink:title="Smith, Anne K."
+                                    xlink:actuate="onRequest">Smith, Anne K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The vertical coupling of the stratosphere-mesosphere system through quasi-stationary and traveling planetary waves during the major sudden stratospheric warming (SSW) in the Arctic winter of 2003/2004 has been studied using three types of data. The UK Met Office (UKMO) assimilated data set was used to examine the features of the global-scale planetary disturbances present in the winter stratosphere of the Northern Hemisphere. Sounding the Atmosphere using Broadband Emission Radiometry (SABER) satellite measurements were used as well for extracting the stationary planetary waves in the zonal and meridional winds of the stratosphere and mesosphere. Radar measurements at eight stations, four of them situated at high latitudes (63-69&#xb0;N) and the other four at midlatitudes (52-55&#xb0;N) were used to determine planetary waves in the mesosphere-lower thermosphere (MLT). The basic results show that prior to the SSW, the stratosphere-mesosphere system was dominated by an upward and westward propagating &#x223c;16-day wave detected simultaneously in the UKMO and MLT zonal and meridional wind data. After the onset of the SSW, longer-period (&#x223c;22-24 days) oscillations were observed in the zonal and meridional MLT winds. These likely include the upward propagation of stationary planetary waves from below and in situ generation of disturbances by the dissipation and breaking of gravity waves filtered by stratospheric winds.</gco:CharacterString>
+            <gco:CharacterString>The vertical coupling of the stratosphere-mesosphere system through quasi-stationary and traveling planetary waves during the major sudden stratospheric warming (SSW) in the Arctic winter of 2003/2004 has been studied using three types of data. The UK Met Office (UKMO) assimilated data set was used to examine the features of the global-scale planetary disturbances present in the winter stratosphere of the Northern Hemisphere. Sounding the Atmosphere using Broadband Emission Radiometry (SABER) satellite measurements were used as well for extracting the stationary planetary waves in the zonal and meridional winds of the stratosphere and mesosphere. Radar measurements at eight stations, four of them situated at high latitudes (63-69°N) and the other four at midlatitudes (52-55°N) were used to determine planetary waves in the mesosphere-lower thermosphere (MLT). The basic results show that prior to the SSW, the stratosphere-mesosphere system was dominated by an upward and westward propagating ∼16-day wave detected simultaneously in the UKMO and MLT zonal and meridional wind data. After the onset of the SSW, longer-period (∼22-24 days) oscillations were observed in the zonal and meridional MLT winds. These likely include the upward propagation of stationary planetary waves from below and in situ generation of disturbances by the dissipation and breaking of gravity waves filtered by stratospheric winds.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

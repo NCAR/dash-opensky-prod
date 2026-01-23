@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18306</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:16.972295</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:53:20.629793</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bent, Jonathan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1972-3044"
+                                    xlink:title="Bent, Jonathan"
+                                    xlink:actuate="onRequest">Bent, Jonathan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1273-2957"
+                                    xlink:title="Long, Matthew"
+                                    xlink:actuate="onRequest">Long, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +244,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observed seasonal cycles in atmospheric potential oxygen (APO&#x2009;~&#x2009;O2&#x2009;+&#x2009;1.1 CO2) were used to evaluate eight ocean biogeochemistry models from the Coupled Model Intercomparison Project (CMIP5). Model APO seasonal cycles were computed from the CMIP5 air-sea O2 and CO2 fluxes and compared to observations at three Southern Hemisphere monitoring sites. Four of the models captured either the observed APO seasonal amplitude or phasing relatively well, while the other four did not. Many models had an unrealistic seasonal phasing or amplitude of the CO2 flux, which in turn influenced APO. By 2100 under RCP8.5, the models projected little change in the O2 component of APO but large changes in the seasonality of the CO2 component associated with ocean acidification. The models with poorer performance on present-day APO tended to project larger net carbon uptake in the Southern Ocean, both today and in 2100.</gco:CharacterString>
+            <gco:CharacterString>Observed seasonal cycles in atmospheric potential oxygen (APO ~ O2 + 1.1 CO2) were used to evaluate eight ocean biogeochemistry models from the Coupled Model Intercomparison Project (CMIP5). Model APO seasonal cycles were computed from the CMIP5 air-sea O2 and CO2 fluxes and compared to observations at three Southern Hemisphere monitoring sites. Four of the models captured either the observed APO seasonal amplitude or phasing relatively well, while the other four did not. Many models had an unrealistic seasonal phasing or amplitude of the CO2 flux, which in turn influenced APO. By 2100 under RCP8.5, the models projected little change in the O2 component of APO but large changes in the seasonality of the CO2 component associated with ocean acidification. The models with poorer performance on present-day APO tended to project larger net carbon uptake in the Southern Ocean, both today and in 2100.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

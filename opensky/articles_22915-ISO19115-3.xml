@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22915</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:53.426177</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:23:52.266675</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Centeno, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1327-1278"
+                                    xlink:title="Centeno, Rebecca"
+                                    xlink:actuate="onRequest">Centeno, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +480,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Hinode is Japan's third solar mission following Hinotori (1981&#x2013;1982) and Yohkoh (1991&#x2013;2001): it was launched on 2006 September 22 and is in operation currently. Hinode carries three instruments: the Solar Optical Telescope, the X-Ray Telescope, and the EUV Imaging Spectrometer. These instruments were built under international collaboration with the National Aeronautics and Space Administration and the UK Science and Technology Facilities Council, and its operation has been contributed to by the European Space Agency and the Norwegian Space Center. After describing the satellite operations and giving a performance evaluation of the three instruments, reviews are presented on major scientific discoveries by Hinode in the first eleven years (one solar cycle long) of its operation. This review article concludes with future prospects for solar physics research based on the achievements of Hinode.</gco:CharacterString>
+            <gco:CharacterString>Hinode is Japan's third solar mission following Hinotori (1981–1982) and Yohkoh (1991–2001): it was launched on 2006 September 22 and is in operation currently. Hinode carries three instruments: the Solar Optical Telescope, the X-Ray Telescope, and the EUV Imaging Spectrometer. These instruments were built under international collaboration with the National Aeronautics and Space Administration and the UK Science and Technology Facilities Council, and its operation has been contributed to by the European Space Agency and the Norwegian Space Center. After describing the satellite operations and giving a performance evaluation of the three instruments, reviews are presented on major scientific discoveries by Hinode in the first eleven years (one solar cycle long) of its operation. This review article concludes with future prospects for solar physics research based on the achievements of Hinode.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

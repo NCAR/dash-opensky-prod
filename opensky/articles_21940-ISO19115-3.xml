@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21940</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:35:22.667723</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:50:21.200626</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We use the GEOS-Chem global 3-D atmospheric chemistry transport model to interpret atmospheric observations of bromoform (CHBr3) and dibromomethane (CH2Br2) collected during the CAST and CONTRAST aircraft measurement campaigns over the western Pacific, January&#x2013;February 2014. We use a new linearized, tagged version of CHBr3 and CH2Br2, allowing us to study the influence of emissions from specific geographical regions on observed atmospheric variations. The model describes 32%&#x2013;37% of CHBr3 and 15%&#x2013;45% of CH2Br2 observed variability during CAST and CONTRAST, reflecting model errors in vertical transport. The model has a mean positive bias of 30% that is larger near the surface, reflecting errors in the poorly constrained prior emission estimates. We find using the model that observed variability of CHBr3 and CH2Br2 is driven by open ocean emissions where there is deep convection. Atmospheric variability above 6km includes a significant contribution from coastal oceans, but it is still dominated by emissions from the open ocean and by older air masses that originate upwind. In the absence of reliable ocean emission estimates, we use a new physical age-of-air simulation to determine the relative abundance of halogens delivered by CHBr3 and CH2Br2 to the tropical transition layer (TTL). We find that 76% (92%) of air masses that originate from the ocean reach the TTL within two (three) atmospheric e-folding lifetimes of CHBr3 and almost all of them reach the TTL within one e-folding lifetime of CH2Br2. Over the duration of CAST and CONTRAST, and over our study region, oceans delivered a mean (range) CHBr3 and CH2Br2 mole fraction of 0.46 (0.13-0.72) and 0.88 (0.71-1.01)pptv, respectively, to the TTL, and a mean (range) Bry mole fraction of 3.14 (1.81-4.18)pptv from source gases to the upper troposphere.</gco:CharacterString>
+            <gco:CharacterString>We use the GEOS-Chem global 3-D atmospheric chemistry transport model to interpret atmospheric observations of bromoform (CHBr3) and dibromomethane (CH2Br2) collected during the CAST and CONTRAST aircraft measurement campaigns over the western Pacific, January–February 2014. We use a new linearized, tagged version of CHBr3 and CH2Br2, allowing us to study the influence of emissions from specific geographical regions on observed atmospheric variations. The model describes 32%–37% of CHBr3 and 15%–45% of CH2Br2 observed variability during CAST and CONTRAST, reflecting model errors in vertical transport. The model has a mean positive bias of 30% that is larger near the surface, reflecting errors in the poorly constrained prior emission estimates. We find using the model that observed variability of CHBr3 and CH2Br2 is driven by open ocean emissions where there is deep convection. Atmospheric variability above 6km includes a significant contribution from coastal oceans, but it is still dominated by emissions from the open ocean and by older air masses that originate upwind. In the absence of reliable ocean emission estimates, we use a new physical age-of-air simulation to determine the relative abundance of halogens delivered by CHBr3 and CH2Br2 to the tropical transition layer (TTL). We find that 76% (92%) of air masses that originate from the ocean reach the TTL within two (three) atmospheric e-folding lifetimes of CHBr3 and almost all of them reach the TTL within one e-folding lifetime of CH2Br2. Over the duration of CAST and CONTRAST, and over our study region, oceans delivered a mean (range) CHBr3 and CH2Br2 mole fraction of 0.46 (0.13-0.72) and 0.88 (0.71-1.01)pptv, respectively, to the TTL, and a mean (range) Bry mole fraction of 3.14 (1.81-4.18)pptv from source gases to the upper troposphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

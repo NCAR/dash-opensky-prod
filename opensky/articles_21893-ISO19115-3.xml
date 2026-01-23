@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21893</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:05:07.547146</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:52:57.497688</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Baroclinic, Alfv&#xe9;n and Rossby waves in geostrophic flow</gco:CharacterString>
+                  <gco:CharacterString>Baroclinic, Alfvén and Rossby waves in geostrophic flow</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gilman, Peter A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1639-6252"
+                                    xlink:title="Gilman, Peter A."
+                                    xlink:actuate="onRequest">Gilman, Peter A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present here further results concerning geostrophic baroclinic flow with a zonal magnetic field, in a &#x3b2;-plane channel, as extensions of earlier work by the writer. We find a necessary condition for instability that proves the existence of a short wave cutoff of unstable baroclinic waves for finite magnetic field. We also place bounds on the phase velocities of neutral waves in the system. For zero basic baroclinic and a uniform magnetic field, the neutral oscillations are zonally propagating geostrophic Alfv&#xe9;n waves. The lowest mode is purely horizontal and travels at the ordinary Alfv&#xe9;n speed, but all higher modes, which contain vertical as well as horizontal motion, move more slowly. With &#x3b2; &#x2260; 0, we get, in general, combined Alfv&#xe9;n-Rossby waves, which, in the limit of large rotation, yield a class of waves very similar to those found by Hide. Finally, we solve the Eady problem (stability of baroclinic flow with constant shear) in a uniform magnetic field, without and with the &#x3b2; effect. We find, for &#x3b2; = 0, that the field stabilizes the baroclinic wave. Neutral Alfv&#xe9;n-like waves are found for large field and/or short wavelengths. We also find a pair of "edge waves." For &#x3b2; = 0, the longest baroclinic waves are stabilized for small field strengths, as in the nonmagnetic problem, but very weakly unstable waves occur for larger fields. A set of neutral Rossby waves also is present for long wavelengths and the short Alfv&#xe9;n-like waves are modified, but only slightly.</gco:CharacterString>
+            <gco:CharacterString>We present here further results concerning geostrophic baroclinic flow with a zonal magnetic field, in a β-plane channel, as extensions of earlier work by the writer. We find a necessary condition for instability that proves the existence of a short wave cutoff of unstable baroclinic waves for finite magnetic field. We also place bounds on the phase velocities of neutral waves in the system. For zero basic baroclinic and a uniform magnetic field, the neutral oscillations are zonally propagating geostrophic Alfvén waves. The lowest mode is purely horizontal and travels at the ordinary Alfvén speed, but all higher modes, which contain vertical as well as horizontal motion, move more slowly. With β ≠ 0, we get, in general, combined Alfvén-Rossby waves, which, in the limit of large rotation, yield a class of waves very similar to those found by Hide. Finally, we solve the Eady problem (stability of baroclinic flow with constant shear) in a uniform magnetic field, without and with the β effect. We find, for β = 0, that the field stabilizes the baroclinic wave. Neutral Alfvén-like waves are found for large field and/or short wavelengths. We also find a pair of "edge waves." For β = 0, the longest baroclinic waves are stabilized for small field strengths, as in the nonmagnetic problem, but very weakly unstable waves occur for larger fields. A set of neutral Rossby waves also is present for long wavelengths and the short Alfvén-like waves are modified, but only slightly.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

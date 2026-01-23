@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25864</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:50.396196</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:59:31.274705</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fan, Yuhong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1027-0795"
+                                    xlink:title="Fan, Yuhong"
+                                    xlink:actuate="onRequest">Fan, Yuhong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The separation of a filament and sigmoid is observed during an X1.4 flare on 2012 July 12 in solar active region 11520, but the corresponding change in magnetic field is not clear. We construct a data-constrained magnetohydrodynamic simulation of the filament&#x2013;sigmoid system with the flux rope insertion method and magnetic flux eruption code, which produces a magnetic field evolution that may explain the separation of the low-lying filament and high-lying hot channel (sigmoid). The initial state of the magnetic model contains a magnetic flux rope with a hyperbolic flux tube, a null-point structure, and overlying confining magnetic fields. We find that the magnetic reconnections at the null point make the right footpoint of the sigmoid move from one positive magnetic polarity (P1) to another (P3). The tether-cutting reconnection at the hyperbolic flux tube occurs and quickly cuts off the connection of the low-lying filament and high-lying sigmoid. In the end, the high-lying sigmoid erupts and grows into a coronal mass ejection, while the low-lying filament remains stable. The observed double J-shaped flare ribbons, semicircular ribbon, and brightenings of several loops are reproduced in the simulation, where the eruption of the magnetic flux rope includes the impulsive acceleration and propagation phases.</gco:CharacterString>
+            <gco:CharacterString>The separation of a filament and sigmoid is observed during an X1.4 flare on 2012 July 12 in solar active region 11520, but the corresponding change in magnetic field is not clear. We construct a data-constrained magnetohydrodynamic simulation of the filament–sigmoid system with the flux rope insertion method and magnetic flux eruption code, which produces a magnetic field evolution that may explain the separation of the low-lying filament and high-lying hot channel (sigmoid). The initial state of the magnetic model contains a magnetic flux rope with a hyperbolic flux tube, a null-point structure, and overlying confining magnetic fields. We find that the magnetic reconnections at the null point make the right footpoint of the sigmoid move from one positive magnetic polarity (P1) to another (P3). The tether-cutting reconnection at the hyperbolic flux tube occurs and quickly cuts off the connection of the low-lying filament and high-lying sigmoid. In the end, the high-lying sigmoid erupts and grows into a coronal mass ejection, while the low-lying filament remains stable. The observed double J-shaped flare ribbons, semicircular ribbon, and brightenings of several loops are reproduced in the simulation, where the eruption of the magnetic flux rope includes the impulsive acceleration and propagation phases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

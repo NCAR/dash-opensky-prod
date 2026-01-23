@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23737</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:16:46.460704</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:03:32.469397</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xue, Lulin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5501-9134"
+                                    xlink:title="Xue, Lulin"
+                                    xlink:actuate="onRequest">Xue, Lulin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yates, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0688-3460"
+                                    xlink:title="Yates, David"
+                                    xlink:actuate="onRequest">Yates, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The regional climate of the Arabian Gulf region is modeled using a set of simulations based on the Weather Research and Forecasting (WRF) Model, including a 30-yr benchmark simulation driven by reanalysis data, and two bias-corrected Community Earth System Model (CESM)-driven (BCD) WRF simulations for retrospective and future periods that both include 10-yr convection-permitting nested simulations. The modeled precipitation is cross-validated using Tropical Rainfall Measuring Mission data, rain gauge data, and the baseline dataset from the benchmark simulation. The changes in near-surface temperature, precipitation, and ambient conditions are investigated using the BCD WRF simulations. The results show that the BCD WRF simulation well captures the precipitation distribution, the precipitation variability, and the thermodynamic properties. In a warmer climate under the RCP8.5 scenario around the year 2070, the near-surface temperature warms by ~3&#xb0;C. Precipitation increases over the Arabian Gulf, and decreases over most of the continental area, particularly over the Zagros Mountains. The wet index decreases while the maximum dry spell increases in most areas of the model domain. The future changes in precipitation are determined by both the thermodynamics and dynamics. The thermodynamic impact, which is controlled by the warming and moistening, results in more precipitation over the ocean but not over the land. The dynamic impact, which is controlled by changes in the large-scale circulation, results in decrease in precipitation over mountains. The simulations presented in this study provide a unique dataset to study the regional climate in the Arabian Gulf region for both retrospective and future climates.</gco:CharacterString>
+            <gco:CharacterString>The regional climate of the Arabian Gulf region is modeled using a set of simulations based on the Weather Research and Forecasting (WRF) Model, including a 30-yr benchmark simulation driven by reanalysis data, and two bias-corrected Community Earth System Model (CESM)-driven (BCD) WRF simulations for retrospective and future periods that both include 10-yr convection-permitting nested simulations. The modeled precipitation is cross-validated using Tropical Rainfall Measuring Mission data, rain gauge data, and the baseline dataset from the benchmark simulation. The changes in near-surface temperature, precipitation, and ambient conditions are investigated using the BCD WRF simulations. The results show that the BCD WRF simulation well captures the precipitation distribution, the precipitation variability, and the thermodynamic properties. In a warmer climate under the RCP8.5 scenario around the year 2070, the near-surface temperature warms by ~3°C. Precipitation increases over the Arabian Gulf, and decreases over most of the continental area, particularly over the Zagros Mountains. The wet index decreases while the maximum dry spell increases in most areas of the model domain. The future changes in precipitation are determined by both the thermodynamics and dynamics. The thermodynamic impact, which is controlled by the warming and moistening, results in more precipitation over the ocean but not over the land. The dynamic impact, which is controlled by changes in the large-scale circulation, results in decrease in precipitation over mountains. The simulations presented in this study provide a unique dataset to study the regional climate in the Arabian Gulf region for both retrospective and future climates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

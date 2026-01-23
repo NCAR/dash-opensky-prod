@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25087</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:08:11.137811</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:55:11.725839</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The active 2020 Atlantic hurricane season produced 30 named storms, 14 hurricanes, and 7 major hurricanes (category 3+ on the Saffir&#x2013;Simpson hurricane wind scale). Though the season was active overall, the final two months (October&#x2013;November) raised 2020 into the upper echelon of Atlantic hurricane activity for integrated metrics such as accumulated cyclone energy (ACE). This study focuses on October&#x2013;November 2020, when 7 named storms, 6 hurricanes, and 5 major hurricanes formed and produced ACE of 74 &#xd7; 104 kt2 (1 kt &#x2248; 0.51 m s&#x2212;1). Since 1950, October&#x2013;November 2020 ranks tied for third for named storms, first for hurricanes and major hurricanes, and second for ACE. Six named storms also underwent rapid intensification (&#x2265;30 kt intensification in &#x2264;24 h) in October&#x2013;November 2020&#x2014;the most on record. This manuscript includes a climatological analysis of October-November tropical cyclones (TCs) and their primary formation regions. In 2020, anomalously low wind shear in the western Caribbean and Gulf of Mexico, likely driven by a moderate-intensity La Ni&#xf1;a event and anomalously high sea surface temperatures (SSTs) in the Caribbean, provided dynamic and thermodynamic conditions that were much more conducive than normal for late-season TC formation and rapid intensification. This study also highlights October-November 2020 landfalls, including Hurricanes Delta and Zeta in Louisiana and in Mexico and Hurricanes Eta and Iota in Nicaragua. The active late season in the Caribbean would have been anticipated by a statistical model using the July-September-averaged ENSO longitude index and Atlantic warm pool SSTs as predictors.</gco:CharacterString>
+            <gco:CharacterString>The active 2020 Atlantic hurricane season produced 30 named storms, 14 hurricanes, and 7 major hurricanes (category 3+ on the Saffir–Simpson hurricane wind scale). Though the season was active overall, the final two months (October–November) raised 2020 into the upper echelon of Atlantic hurricane activity for integrated metrics such as accumulated cyclone energy (ACE). This study focuses on October–November 2020, when 7 named storms, 6 hurricanes, and 5 major hurricanes formed and produced ACE of 74 × 104 kt2 (1 kt ≈ 0.51 m s−1). Since 1950, October–November 2020 ranks tied for third for named storms, first for hurricanes and major hurricanes, and second for ACE. Six named storms also underwent rapid intensification (≥30 kt intensification in ≤24 h) in October–November 2020—the most on record. This manuscript includes a climatological analysis of October-November tropical cyclones (TCs) and their primary formation regions. In 2020, anomalously low wind shear in the western Caribbean and Gulf of Mexico, likely driven by a moderate-intensity La Niña event and anomalously high sea surface temperatures (SSTs) in the Caribbean, provided dynamic and thermodynamic conditions that were much more conducive than normal for late-season TC formation and rapid intensification. This study also highlights October-November 2020 landfalls, including Hurricanes Delta and Zeta in Louisiana and in Mexico and Hurricanes Eta and Iota in Nicaragua. The active late season in the Caribbean would have been anticipated by a statistical model using the July-September-averaged ENSO longitude index and Atlantic warm pool SSTs as predictors.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

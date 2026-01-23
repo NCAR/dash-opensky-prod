@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23648</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:14:38.667367</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:44:29.701399</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ladst&#xe4;dter, F.</gco:CharacterString>
+                        <gco:CharacterString>Ladstädter, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Temperature observations of the upper-air atmosphere are now available for more than 40 years from both ground- and satellite-based observing systems. Recent years have seen substantial improvements in reducing long-standing discrepancies among datasets through major reprocessing efforts. The advent of radio occultation (RO) observations in 2001 has led to further improvements in vertically resolved temperature measurements, enabling a detailed analysis of upper-troposphere/lower-stratosphere trends. This paper presents the current state of atmospheric temperature trends from the latest available observational records. We analyze observations from merged operational satellite measurements, radiosondes, lidars, and RO, spanning a vertical range from the lower troposphere to the upper stratosphere. The focus is on assessing climate trends and on identifying the degree of consistency among the observational systems. The results show a robust cooling of the stratosphere of about 1&#x2013;3 K, and a robust warming of the troposphere of about 0.6&#x2013;0.8 K over the last four decades (1979&#x2013;2018). Consistent results are found between the satellite-based layer-average temperatures and vertically resolved radiosonde records. The overall latitude&#x2013;altitude trend patterns are consistent between RO and radiosonde records. Significant warming of the troposphere is evident in the RO measurements available after 2001, with trends of 0.25&#x2013;0.35 K per decade. Amplified warming in the tropical upper-troposphere compared to surface trends for 2002&#x2013;18 is found based on RO and radiosonde records, in approximate agreement with moist adiabatic lapse rate theory. The consistency of trend results from the latest upper-air datasets will help to improve understanding of climate changes and their drivers.</gco:CharacterString>
+            <gco:CharacterString>Temperature observations of the upper-air atmosphere are now available for more than 40 years from both ground- and satellite-based observing systems. Recent years have seen substantial improvements in reducing long-standing discrepancies among datasets through major reprocessing efforts. The advent of radio occultation (RO) observations in 2001 has led to further improvements in vertically resolved temperature measurements, enabling a detailed analysis of upper-troposphere/lower-stratosphere trends. This paper presents the current state of atmospheric temperature trends from the latest available observational records. We analyze observations from merged operational satellite measurements, radiosondes, lidars, and RO, spanning a vertical range from the lower troposphere to the upper stratosphere. The focus is on assessing climate trends and on identifying the degree of consistency among the observational systems. The results show a robust cooling of the stratosphere of about 1–3 K, and a robust warming of the troposphere of about 0.6–0.8 K over the last four decades (1979–2018). Consistent results are found between the satellite-based layer-average temperatures and vertically resolved radiosonde records. The overall latitude–altitude trend patterns are consistent between RO and radiosonde records. Significant warming of the troposphere is evident in the RO measurements available after 2001, with trends of 0.25–0.35 K per decade. Amplified warming in the tropical upper-troposphere compared to surface trends for 2002–18 is found based on RO and radiosonde records, in approximate agreement with moist adiabatic lapse rate theory. The consistency of trend results from the latest upper-air datasets will help to improve understanding of climate changes and their drivers.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

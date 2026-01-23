@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12805</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:17:33.888832</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:42:36.876570</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, J&#xf8;rgen B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2504-1277"
+                                    xlink:title="Jensen, Jørgen B."
+                                    xlink:actuate="onRequest">Jensen, Jørgen B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Accurate measurements of natural aerosol emissions over the ocean are needed to estimate the anthropogenic impact on the environment. In this study, we measured sea spray aerosol (SSA) concentrations with diameters larger than 0.040 &#x3bc;m produced by open-ocean breaking waves over the SEP (southeastern Pacific). Robust statistics were established through repeated airborne flights over 1000 km along 20&#xb0; S from the coastline of Chile to 85&#xb0; W during VOCALS-REx (VAMOS Ocean-Cloud-Atmosphere-Land-Study Regional Experiment). Non-volatile SSA number concentrations were inferred using a thermally resolved technique constrained for clean conditions with an &#xc5;ngstr&#xf6;m exponent below 0.5, black carbon mass concentration at values lower than 15 ng m&#x207b;&#xb3; and organic aerosol concentration less than 0.02 &#x3bc;g m&#x207b;&#xb3;. We found that number concentrations of SSAs active as cloud condensation nuclei (CCN) for a supersaturation of 0.25% varied between 17 and 36 cm&#x207b;&#xb3;, but these did not increase with the increasing mean wind speed typically observed further offshore along 20&#xb0; S. Concurrent increases in mean offshore precipitation rate in excess of about 1 mm d&#x207b;&#xb9; indicate that scavenging of SSAs by precipitation exceeds increases in production at wind speeds above about 8 m s&#x207b;&#xb9;. This demonstrates the critical role of precipitation as a major sink of SSA over the remote ocean. Finally, we found that under clean conditions and for estimated stratus supersaturations between 0.20 and 0.43%, SSA represented about 20% of the total potential CCN along 20&#xb0; S.</gco:CharacterString>
+            <gco:CharacterString>Accurate measurements of natural aerosol emissions over the ocean are needed to estimate the anthropogenic impact on the environment. In this study, we measured sea spray aerosol (SSA) concentrations with diameters larger than 0.040 μm produced by open-ocean breaking waves over the SEP (southeastern Pacific). Robust statistics were established through repeated airborne flights over 1000 km along 20° S from the coastline of Chile to 85° W during VOCALS-REx (VAMOS Ocean-Cloud-Atmosphere-Land-Study Regional Experiment). Non-volatile SSA number concentrations were inferred using a thermally resolved technique constrained for clean conditions with an Ångström exponent below 0.5, black carbon mass concentration at values lower than 15 ng m⁻³ and organic aerosol concentration less than 0.02 μg m⁻³. We found that number concentrations of SSAs active as cloud condensation nuclei (CCN) for a supersaturation of 0.25% varied between 17 and 36 cm⁻³, but these did not increase with the increasing mean wind speed typically observed further offshore along 20° S. Concurrent increases in mean offshore precipitation rate in excess of about 1 mm d⁻¹ indicate that scavenging of SSAs by precipitation exceeds increases in production at wind speeds above about 8 m s⁻¹. This demonstrates the critical role of precipitation as a major sink of SSA over the remote ocean. Finally, we found that under clean conditions and for estimated stratus supersaturations between 0.20 and 0.43%, SSA represented about 20% of the total potential CCN along 20° S.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

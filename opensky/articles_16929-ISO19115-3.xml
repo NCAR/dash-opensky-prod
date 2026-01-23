@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16929</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:56.046955</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:07:20.327102</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bardeen, Charles</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5330-2788"
+                                    xlink:title="Bardeen, Charles"
+                                    xlink:actuate="onRequest">Bardeen, Charles</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mills, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8054-1346"
+                                    xlink:title="Mills, Michael J."
+                                    xlink:actuate="onRequest">Mills, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +214,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Polar stratospheric clouds (PSCs) are critical elements of Arctic and Antarctic ozone depletion. We establish a PSC microphysics model using coupled chemistry, climate, and microphysics models driven by specific dynamics. We explore the microphysical formation and evolution of STS (Supercooled Ternary Solution) and NAT (Nitric Acid Trihydrate). Characteristics of STS particles dominated by thermodynamics compare well with observations. For example, the mass of STS is close to the thermodynamic equilibrium assumption when the particle surface area is &gt;4 &#xb5;m&#xb2;/cm&#xb3;. We derive a new nucleation rate equation for NAT based on observed denitrification in the 2010-2011 Arctic winter. The homogeneous nucleation scheme leads to supermicron NAT particles as observed. We also find that as the number density of NAT particles increases, the denitrification also increases. Simulations of the PSC lidar backscatter, denitrification, and gas phase species are generally within error bars of the observations. However, the simulations are very sensitive to temperature, which limits our ability to fully constrain some parameters (e.g., denitrification, ozone amount) based on observations.</gco:CharacterString>
+            <gco:CharacterString>Polar stratospheric clouds (PSCs) are critical elements of Arctic and Antarctic ozone depletion. We establish a PSC microphysics model using coupled chemistry, climate, and microphysics models driven by specific dynamics. We explore the microphysical formation and evolution of STS (Supercooled Ternary Solution) and NAT (Nitric Acid Trihydrate). Characteristics of STS particles dominated by thermodynamics compare well with observations. For example, the mass of STS is close to the thermodynamic equilibrium assumption when the particle surface area is &gt;4 µm²/cm³. We derive a new nucleation rate equation for NAT based on observed denitrification in the 2010-2011 Arctic winter. The homogeneous nucleation scheme leads to supermicron NAT particles as observed. We also find that as the number density of NAT particles increases, the denitrification also increases. Simulations of the PSC lidar backscatter, denitrification, and gas phase species are generally within error bars of the observations. However, the simulations are very sensitive to temperature, which limits our ability to fully constrain some parameters (e.g., denitrification, ozone amount) based on observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

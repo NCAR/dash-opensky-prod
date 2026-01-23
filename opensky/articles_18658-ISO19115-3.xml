@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18658</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:46:34.414880</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:45:38.864075</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trier, Stanley B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6537-173X"
+                                    xlink:title="Trier, Stanley B."
+                                    xlink:actuate="onRequest">Trier, Stanley B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sharman, Robert D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2384-7517"
+                                    xlink:title="Sharman, Robert D."
+                                    xlink:actuate="onRequest">Sharman, Robert D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Mechanisms supporting a cold-season aviation turbulence outbreak over the northwest Atlantic Ocean and adjacent coastal regions of North America are investigated using high-resolution numerical simulations. Two distinct episodes of moderate-or-greater turbulence in the upper troposphere are observed, and the simulations suggest the turbulence is linked to eastward-translating mesoscale perturbations of negative potential vorticity (PV) emanating from upstream organized deep convection along the anticyclonic shear side of an upper-level jet. Within the exit region of the jet where the turbulence episodes occur, thermodynamic and kinematic fields in the vicinity of the PV perturbations exhibit structural characteristics of mesoscale inertia&#x2013;gravity waves. These wavelike perturbations are shown to facilitate turbulence by influencing the vertical shear and static stability, which promotes mesoscale regions of banded cirrus clouds, near or within which the observed turbulence occurs. The simulations also suggest that the turbulence arises from fundamentally different mechanisms in the two episodes. In the first and most severe turbulence episode, mesoscale wave-related vertical shear enhancements lead to Kelvin&#x2013;Helmholtz instability (KHI) near aircraft cruising altitudes (~8.9-11.2 km MSL). Simulated KHI is most prevalent near relatively isolated areas of shallow, moist convection, where smaller-scale internal gravity waves originating in the middle troposphere in response to the shallow convection may play a role in excitation of the KHI located above. The second turbulence episode is consistent with simulated thermal-shear instability related to wave-induced mesoscale reductions in upper-tropospheric static stability. However, unlike for the earlier episode of enhanced turbulence, cloud-radiative feedbacks are necessary for the instability and mesoscale regions of banded cirrus to develop.</gco:CharacterString>
+            <gco:CharacterString>Mechanisms supporting a cold-season aviation turbulence outbreak over the northwest Atlantic Ocean and adjacent coastal regions of North America are investigated using high-resolution numerical simulations. Two distinct episodes of moderate-or-greater turbulence in the upper troposphere are observed, and the simulations suggest the turbulence is linked to eastward-translating mesoscale perturbations of negative potential vorticity (PV) emanating from upstream organized deep convection along the anticyclonic shear side of an upper-level jet. Within the exit region of the jet where the turbulence episodes occur, thermodynamic and kinematic fields in the vicinity of the PV perturbations exhibit structural characteristics of mesoscale inertia–gravity waves. These wavelike perturbations are shown to facilitate turbulence by influencing the vertical shear and static stability, which promotes mesoscale regions of banded cirrus clouds, near or within which the observed turbulence occurs. The simulations also suggest that the turbulence arises from fundamentally different mechanisms in the two episodes. In the first and most severe turbulence episode, mesoscale wave-related vertical shear enhancements lead to Kelvin–Helmholtz instability (KHI) near aircraft cruising altitudes (~8.9-11.2 km MSL). Simulated KHI is most prevalent near relatively isolated areas of shallow, moist convection, where smaller-scale internal gravity waves originating in the middle troposphere in response to the shallow convection may play a role in excitation of the KHI located above. The second turbulence episode is consistent with simulated thermal-shear instability related to wave-induced mesoscale reductions in upper-tropospheric static stability. However, unlike for the earlier episode of enhanced turbulence, cloud-radiative feedbacks are necessary for the instability and mesoscale regions of banded cirrus to develop.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

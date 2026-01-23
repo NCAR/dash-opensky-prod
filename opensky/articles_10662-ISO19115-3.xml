@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10662</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:49:35.446320</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:39:00.944314</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Swenson, Sean</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2923-1203"
+                                    xlink:title="Swenson, Sean"
+                                    xlink:actuate="onRequest">Swenson, Sean</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In highly-productive agricultural areas such as California's Central Valley, where groundwater often supplies the bulk of the water required for irrigation, quantifying rates of groundwater depletion remains a challenge owing to a lack of monitoring infrastructure and the absence of water use reporting requirements. Here we use 78 months (October, 2003 - March, 2010) of data from the Gravity Recovery and Climate Experiment satellite mission to estimate water storage changes in California's Sacramento and San Joaquin River Basins. We find that the basins are losing water at a rate of 31.0 &#xb1; 2.7 mm yr &#x207b;&#xb9; equivalent water height, equal to a volume of 30.9 km 3 for the study period, or nearly the capacity of Lake Mead, the largest reservoir in the United States. We use additional observations and hydrological model information to determine that the majority of these losses are due to groundwater depletion in the Central Valley. Our results show that the Central Valley lost 20.4 &#xb1; 3.9 mm yr &#x207b;&#xb9; of groundwater during the 78-month period, or 20.3 km &#xb3; in volume. Continued groundwater depletion at this rate may well be unsustainable, with potentially dire consequences for the economic and food security of the United States.</gco:CharacterString>
+            <gco:CharacterString>In highly-productive agricultural areas such as California's Central Valley, where groundwater often supplies the bulk of the water required for irrigation, quantifying rates of groundwater depletion remains a challenge owing to a lack of monitoring infrastructure and the absence of water use reporting requirements. Here we use 78 months (October, 2003 - March, 2010) of data from the Gravity Recovery and Climate Experiment satellite mission to estimate water storage changes in California's Sacramento and San Joaquin River Basins. We find that the basins are losing water at a rate of 31.0 ± 2.7 mm yr ⁻¹ equivalent water height, equal to a volume of 30.9 km 3 for the study period, or nearly the capacity of Lake Mead, the largest reservoir in the United States. We use additional observations and hydrological model information to determine that the majority of these losses are due to groundwater depletion in the Central Valley. Our results show that the Central Valley lost 20.4 ± 3.9 mm yr ⁻¹ of groundwater during the 78-month period, or 20.3 km ³ in volume. Continued groundwater depletion at this rate may well be unsustainable, with potentially dire consequences for the economic and food security of the United States.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

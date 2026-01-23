@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6605</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:46.599213</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:45.613381</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morss, Rebecca E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6267-3436"
+                                    xlink:title="Morss, Rebecca E."
+                                    xlink:actuate="onRequest">Morss, Rebecca E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Winter storms making landfall in western North America can generate heavy precipitation and other significant weather, leading to floods, landslides, and other hazards that cause significant damage and loss of life. To help alleviate these negative impacts, the California Land-falling Jets (CALJET) and Pacific Land-falling Jets (PACJET) experiments took extra meteorological observations in the coastal region to investigate key research questions and aid operational West Coast 0-48-h weather forecasting. This article presents results from a study of how information provided by CALJET and PACJET was used by National Weather Service (NWS) forecasters and forecast users. The primary study methodology was analysis of qualitative data collected from observations of forecasters and from interviews with NWS personnel, CALJET-PACJET researchers, and forecast users. The article begins by documenting and discussing the many types of information that NWS forecasters combine to generate forecasts. Within this context, the article describes how forecasters used CALJET-PACJET observations to fill in key observational gaps. It then discusses researcher&#x2013;forecaster interactions and examines how weather forecast information is used in emergency management decision making. The results elucidate the important role that forecasters play in integrating meteorological information and translating forecasts for users. More generally, the article illustrates how CALJET and PACJET benefited forecasts and society in real time, and it can inform future efforts to improve human-generated weather forecasts and future studies of the use and value of meteorological information.</gco:CharacterString>
+            <gco:CharacterString>Winter storms making landfall in western North America can generate heavy precipitation and other significant weather, leading to floods, landslides, and other hazards that cause significant damage and loss of life. To help alleviate these negative impacts, the California Land-falling Jets (CALJET) and Pacific Land-falling Jets (PACJET) experiments took extra meteorological observations in the coastal region to investigate key research questions and aid operational West Coast 0-48-h weather forecasting. This article presents results from a study of how information provided by CALJET and PACJET was used by National Weather Service (NWS) forecasters and forecast users. The primary study methodology was analysis of qualitative data collected from observations of forecasters and from interviews with NWS personnel, CALJET-PACJET researchers, and forecast users. The article begins by documenting and discussing the many types of information that NWS forecasters combine to generate forecasts. Within this context, the article describes how forecasters used CALJET-PACJET observations to fill in key observational gaps. It then discusses researcher–forecaster interactions and examines how weather forecast information is used in emergency management decision making. The results elucidate the important role that forecasters play in integrating meteorological information and translating forecasts for users. More generally, the article illustrates how CALJET and PACJET benefited forecasts and society in real time, and it can inform future efforts to improve human-generated weather forecasts and future studies of the use and value of meteorological information.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

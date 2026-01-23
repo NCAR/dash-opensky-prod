@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6156</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:05:55.231105</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:48:09.925548</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sun, Juanzhen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6048-6362"
+                                    xlink:title="Sun, Juanzhen"
+                                    xlink:actuate="onRequest">Sun, Juanzhen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Disdrometer observations indicate that the raindrop size distribution (DSD) can be represented by a constrained-gamma (CG) distribution model. The model is used to retrieve DSDs from polarization radar measurements of reflectivity and differential reflectivity and to characterize rain microphysics and physical processes such as evaporation, accretion, and precipitation. The CG model parameterization is simplified to a single parameter for application in single-moment numerical models. This simplified parameterization is applied in the Variational Doppler Radar Analysis System (VDRAS) using Kessler-type parameterizations for model initialization and forecasting. Results are compared to those for the Marshall&#x2013;Palmer (MP) DSD model. It is found that the simplified CG model parameterization better preserves the stratiform rain and produces better forecasts than the MP model parameterization.</gco:CharacterString>
+            <gco:CharacterString>Disdrometer observations indicate that the raindrop size distribution (DSD) can be represented by a constrained-gamma (CG) distribution model. The model is used to retrieve DSDs from polarization radar measurements of reflectivity and differential reflectivity and to characterize rain microphysics and physical processes such as evaporation, accretion, and precipitation. The CG model parameterization is simplified to a single parameter for application in single-moment numerical models. This simplified parameterization is applied in the Variational Doppler Radar Analysis System (VDRAS) using Kessler-type parameterizations for model initialization and forecasting. Results are compared to those for the Marshall–Palmer (MP) DSD model. It is found that the simplified CG model parameterization better preserves the stratiform rain and produces better forecasts than the MP model parameterization.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

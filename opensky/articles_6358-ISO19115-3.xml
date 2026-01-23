@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6358</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:34.714524</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:16:49.005897</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lu, Gang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5350-2889"
+                                    xlink:title="Lu, Gang"
+                                    xlink:actuate="onRequest">Lu, Gang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper presents observations and numerical simulations of ionospheric and thermospheric disturbances associated with a moderate geomagnetic storm on 10 September 2005. During the event, the incoherent radars located in Millstone Hill and Arecibo observed a dayside positive storm phase as manifested by the enhanced electron density in the F region. The universal time (UT)-altitude profile of electron density measured by both radars displayed a structure that closely resembles the Greek letter &#x39b;. A similar structure is also reproduced by the Thermosphere-Ionosphere Electrodynamics General Circulation Model (TIEGCM). This peculiar electron density distribution is found to be associated with vertical ion drift, which initially was upward and then became downward. Using realistic time-dependent ionospheric convection and auroral precipitation as inputs, the TIEGCM reveals that the primary cause of the positive storm response was the enhanced meridional neutral wind rather than the penetration magnetospheric electric field. This study reiterates the importance of neutral wind effects on ionospheric disturbance.</gco:CharacterString>
+            <gco:CharacterString>This paper presents observations and numerical simulations of ionospheric and thermospheric disturbances associated with a moderate geomagnetic storm on 10 September 2005. During the event, the incoherent radars located in Millstone Hill and Arecibo observed a dayside positive storm phase as manifested by the enhanced electron density in the F region. The universal time (UT)-altitude profile of electron density measured by both radars displayed a structure that closely resembles the Greek letter Λ. A similar structure is also reproduced by the Thermosphere-Ionosphere Electrodynamics General Circulation Model (TIEGCM). This peculiar electron density distribution is found to be associated with vertical ion drift, which initially was upward and then became downward. Using realistic time-dependent ionospheric convection and auroral precipitation as inputs, the TIEGCM reveals that the primary cause of the positive storm response was the enhanced meridional neutral wind rather than the penetration magnetospheric electric field. This study reiterates the importance of neutral wind effects on ionospheric disturbance.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

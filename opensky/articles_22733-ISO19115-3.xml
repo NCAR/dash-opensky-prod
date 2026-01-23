@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22733</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:27.500445</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:27:43.838937</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>He, Cenlin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7367-2815"
+                                    xlink:title="He, Cenlin"
+                                    xlink:actuate="onRequest">He, Cenlin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Light-absorbing particles (LAPs) deposited on snow can decrease snow albedo and affect climate through snow-albedo radiative forcing. In this study, we use MODIS observations combined with a snow-albedo model (SNICAR &#x2013; Snow, Ice, and Aerosol Radiative) and a radiative transfer model (SBDART &#x2013; Santa Barbara DISORT Atmospheric Radiative Transfer) to retrieve the instantaneous spectrally integrated radiative forcing at the surface by LAPs in snow (RFLAPsMODIS) under clear-sky conditions at the time of MODIS Aqua overpass across northeastern China (NEC) in January&#x2013;February from 2003 to 2017. RFLAPsMODIS presents distinct spatial variability, with the minimum (22.3&#x2009;W&#x2009;m&#x2212;2) in western NEC and the maximum (64.6&#x2009;W&#x2009;m&#x2212;2) near industrial areas in central NEC. The regional mean RFLAPsMODIS is &#x223c;45.1&#xb1;6.8&#x2009;W&#x2009;m&#x2212;2 in NEC. The positive (negative) uncertainties of retrieved RFLAPsMODIS due to atmospheric correction range from 14&#x2009;% to 57&#x2009;% (&#x2212;14&#x2009;% to &#x2212;47&#x2009;%), and the uncertainty value basically decreases with the increased RFLAPsMODIS. We attribute the variations of radiative forcing based on remote sensing and find that the spatial variance of RFLAPsMODIS in NEC is 74.6&#x2009;% due to LAPs and 21.2&#x2009;% and 4.2&#x2009;% due to snow grain size and solar zenith angle. Furthermore, based on multiple linear regression, the BC dry and wet deposition and snowfall could explain 84&#x2009;% of the spatial variance of LAP contents, which confirms the reasonability of the spatial patterns of retrieved RFLAPsMODIS in NEC. We validate RFLAPsMODIS using in situ radiative forcing estimates. We find that the biases in RFLAPsMODIS are negatively correlated with LAP concentrations and range from &#x223c;5&#x2009;% to &#x223c;350&#x2009;% in NEC.</gco:CharacterString>
+            <gco:CharacterString>Light-absorbing particles (LAPs) deposited on snow can decrease snow albedo and affect climate through snow-albedo radiative forcing. In this study, we use MODIS observations combined with a snow-albedo model (SNICAR – Snow, Ice, and Aerosol Radiative) and a radiative transfer model (SBDART – Santa Barbara DISORT Atmospheric Radiative Transfer) to retrieve the instantaneous spectrally integrated radiative forcing at the surface by LAPs in snow (RFLAPsMODIS) under clear-sky conditions at the time of MODIS Aqua overpass across northeastern China (NEC) in January–February from 2003 to 2017. RFLAPsMODIS presents distinct spatial variability, with the minimum (22.3 W m−2) in western NEC and the maximum (64.6 W m−2) near industrial areas in central NEC. The regional mean RFLAPsMODIS is ∼45.1±6.8 W m−2 in NEC. The positive (negative) uncertainties of retrieved RFLAPsMODIS due to atmospheric correction range from 14 % to 57 % (−14 % to −47 %), and the uncertainty value basically decreases with the increased RFLAPsMODIS. We attribute the variations of radiative forcing based on remote sensing and find that the spatial variance of RFLAPsMODIS in NEC is 74.6 % due to LAPs and 21.2 % and 4.2 % due to snow grain size and solar zenith angle. Furthermore, based on multiple linear regression, the BC dry and wet deposition and snowfall could explain 84 % of the spatial variance of LAP contents, which confirms the reasonability of the spatial patterns of retrieved RFLAPsMODIS in NEC. We validate RFLAPsMODIS using in situ radiative forcing estimates. We find that the biases in RFLAPsMODIS are negatively correlated with LAP concentrations and range from ∼5 % to ∼350 % in NEC.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

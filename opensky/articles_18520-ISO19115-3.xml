@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18520</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:31.459421</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:54:29.240091</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bonan, Gordon B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0830-6437"
+                                    xlink:title="Bonan, Gordon B."
+                                    xlink:actuate="onRequest">Bonan, Gordon B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mar&#xed;n-Spiotta, E.</gco:CharacterString>
+                        <gco:CharacterString>Marín-Spiotta, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Human impacts on biogeochemical cycles are evident around the world, from changes to forest structure and function due to atmospheric deposition, to eutrophication of surface waters from agricultural effluent, and increasing concentrations of carbon dioxide (CO&#x2082;) in the atmosphere. The National Ecological Observatory Network (NEON) will contribute to understanding human effects on biogeochemical cycles from local to continental scales. The broad NEON biogeochemistry measurement design focuses on measuring atmospheric deposition of reactive mineral compounds and CO&#x2082; fluxes, ecosystem carbon (C) and nutrient stocks, and surface water chemistry across 20 eco-climatic domains within the United States for 30 yr. Herein, we present the rationale and plan for the ground-based measurements of C and nutrients in soils and plants based on overarching or "high-level" requirements agreed upon by the National Science Foundation and NEON. The resulting design incorporates early recommendations by expert review teams, as well as recent input from the larger natural sciences community that went into the formation and interpretation of the requirements, respectively. NEON's efforts will focus on a suite of data streams that will enable end-users to study and predict changes to biogeochemical cycling and transfers within and across air, land, and water systems at regional to continental scales. At each NEON site, there will be an initial, one-time effort to survey soil properties to 1 m (including soil texture, bulk density, pH, baseline chemistry) and vegetation community structure and diversity. A sampling program will follow, focused on capturing long-term trends in soil C, nitrogen (N), and sulfur stocks, isotopic composition (of C and N), soil N transformation rates, phosphorus pools, and plant tissue chemistry and isotopic composition (of C and N). To this end, NEON will conduct extensive measurements of soils and plants within stratified random plots distributed across each site. The resulting data will be a new resource for members of the scientific community interested in addressing questions about long-term changes in continental-scale biogeochemical cycles, and is predicted to inspire further process-based research.</gco:CharacterString>
+            <gco:CharacterString>Human impacts on biogeochemical cycles are evident around the world, from changes to forest structure and function due to atmospheric deposition, to eutrophication of surface waters from agricultural effluent, and increasing concentrations of carbon dioxide (CO₂) in the atmosphere. The National Ecological Observatory Network (NEON) will contribute to understanding human effects on biogeochemical cycles from local to continental scales. The broad NEON biogeochemistry measurement design focuses on measuring atmospheric deposition of reactive mineral compounds and CO₂ fluxes, ecosystem carbon (C) and nutrient stocks, and surface water chemistry across 20 eco-climatic domains within the United States for 30 yr. Herein, we present the rationale and plan for the ground-based measurements of C and nutrients in soils and plants based on overarching or "high-level" requirements agreed upon by the National Science Foundation and NEON. The resulting design incorporates early recommendations by expert review teams, as well as recent input from the larger natural sciences community that went into the formation and interpretation of the requirements, respectively. NEON's efforts will focus on a suite of data streams that will enable end-users to study and predict changes to biogeochemical cycling and transfers within and across air, land, and water systems at regional to continental scales. At each NEON site, there will be an initial, one-time effort to survey soil properties to 1 m (including soil texture, bulk density, pH, baseline chemistry) and vegetation community structure and diversity. A sampling program will follow, focused on capturing long-term trends in soil C, nitrogen (N), and sulfur stocks, isotopic composition (of C and N), soil N transformation rates, phosphorus pools, and plant tissue chemistry and isotopic composition (of C and N). To this end, NEON will conduct extensive measurements of soils and plants within stratified random plots distributed across each site. The resulting data will be a new resource for members of the scientific community interested in addressing questions about long-term changes in continental-scale biogeochemical cycles, and is predicted to inspire further process-based research.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

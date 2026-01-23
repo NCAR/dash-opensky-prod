@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21638</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:39:00.696715</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:59:08.024448</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,7 +98,7 @@
                   <gco:CharacterString>Related Dataset #1</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Tropospheric Ozone Assessment Report, links to Global surface ozone datasets, supplement to: Schultz, Martin G; Schr&#xf6;der, Sabine; Lyapina, Olga; Cooper, Owen R; Galbally, Ian; Petropavlovskikh, Irina; von Schneidemesser, Erika; Tanimoto, Hiroshi; Elshorbany, Yasin; Naja, Manish; Seguel, Rodrigo J; Dauert, Ute; Eckhardt, Paul; Feigenspan, Stefan; Fiebig, Markus; Hjellbrekke, Anne-Gunn; Hong, You-Deog; Kjeld, Peter Christian; Koide, Hiroshi; Lear, Gary; Tarasick, David; Ueno, Mikio; Wallasch, Markus; Baumgardner, Darrel; Chuang, Ming-Tung; Gillett, Robert; Lee, Meehye; Molloy, Suzie; Moolla, Raeesa; Wang, Tao; Sharps, Katrina; Adame, Jose A; Ancellet, Gerard; Apadula, Francesco; Artaxo, Paulo; Barlasina, Maria E; Bogucka, Magdalena; Bonasoni, Paolo; Chang, Limseok; Colomb, Aurelie; Cuevas-Agull&#xf3;, Emilio; Cupeiro, Manuel; Degorska, Anna; Ding, Aijun; Fr&#xf6;hlich, Marina; Frolova, Marina; Gadhavi, Harish; Gheusi, Francois; Gilge, Stefan; Gonzalez, Margarita Y; Gros, Val&#xe9;rie; Hamad, Samera H; Helmig, Detlev; Henriques, Diamantino; Hermansen, Ove; Holla, Robert; Hueber, Jacques; Im, Ulas; Jaffe, Daniel A; Komala, Ninong; Kubistin, Dagmar; Lam, Ka-Se; Laurila, Tuomas; Lee, Haeyoung; Levy, Ilan; Mazzoleni, Claudio; Mazzoleni, Lynn R; McClure-Begley, Audra; Mohamad, Maznorizan; Murovec, Marijana; Navarro-Comas, Monica; Nicodim, Florin; Parrish, David; Read, Katie Alana; Reid, Nick; Ries, Ludwig; Saxena, Pallavi; Schwab, James J; Scorgie, Yvonne; Senik, Irina; Simmonds, Peter; Sinha, Vinayak; Skorokhod, Andrey I; Spain, Gerard; Spangl, Wolfgang; Spoor, Ronald; Springston, Stephen R; Steer, Kelvyn; Steinbacher, Martin; Suharguniyawan, Eka; Torre, Paul; Trickl, Thomas; Weili, Lin; Weller, Rolf; Xu, Xiaobin; Xue, Likun; Zhiqiang, Ma (2017): Tropospheric Ozone Assessment Report: Database and Metrics Data of Global Surface Ozone Observations. Elementa - Science of the Anthropocene, 5:58, 26 pp</gco:CharacterString>
+                  <gco:CharacterString>Tropospheric Ozone Assessment Report, links to Global surface ozone datasets, supplement to: Schultz, Martin G; Schröder, Sabine; Lyapina, Olga; Cooper, Owen R; Galbally, Ian; Petropavlovskikh, Irina; von Schneidemesser, Erika; Tanimoto, Hiroshi; Elshorbany, Yasin; Naja, Manish; Seguel, Rodrigo J; Dauert, Ute; Eckhardt, Paul; Feigenspan, Stefan; Fiebig, Markus; Hjellbrekke, Anne-Gunn; Hong, You-Deog; Kjeld, Peter Christian; Koide, Hiroshi; Lear, Gary; Tarasick, David; Ueno, Mikio; Wallasch, Markus; Baumgardner, Darrel; Chuang, Ming-Tung; Gillett, Robert; Lee, Meehye; Molloy, Suzie; Moolla, Raeesa; Wang, Tao; Sharps, Katrina; Adame, Jose A; Ancellet, Gerard; Apadula, Francesco; Artaxo, Paulo; Barlasina, Maria E; Bogucka, Magdalena; Bonasoni, Paolo; Chang, Limseok; Colomb, Aurelie; Cuevas-Agulló, Emilio; Cupeiro, Manuel; Degorska, Anna; Ding, Aijun; Fröhlich, Marina; Frolova, Marina; Gadhavi, Harish; Gheusi, Francois; Gilge, Stefan; Gonzalez, Margarita Y; Gros, Valérie; Hamad, Samera H; Helmig, Detlev; Henriques, Diamantino; Hermansen, Ove; Holla, Robert; Hueber, Jacques; Im, Ulas; Jaffe, Daniel A; Komala, Ninong; Kubistin, Dagmar; Lam, Ka-Se; Laurila, Tuomas; Lee, Haeyoung; Levy, Ilan; Mazzoleni, Claudio; Mazzoleni, Lynn R; McClure-Begley, Audra; Mohamad, Maznorizan; Murovec, Marijana; Navarro-Comas, Monica; Nicodim, Florin; Parrish, David; Read, Katie Alana; Reid, Nick; Ries, Ludwig; Saxena, Pallavi; Schwab, James J; Scorgie, Yvonne; Senik, Irina; Simmonds, Peter; Sinha, Vinayak; Skorokhod, Andrey I; Spain, Gerard; Spangl, Wolfgang; Spoor, Ronald; Springston, Stephen R; Steer, Kelvyn; Steinbacher, Martin; Suharguniyawan, Eka; Torre, Paul; Trickl, Thomas; Weili, Lin; Weller, Rolf; Xu, Xiaobin; Xue, Likun; Zhiqiang, Ma (2017): Tropospheric Ozone Assessment Report: Database and Metrics Data of Global Surface Ozone Observations. Elementa - Science of the Anthropocene, 5:58, 26 pp</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -287,7 +288,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Granados Mu&#xf1;os, M. J.</gco:CharacterString>
+                        <gco:CharacterString>Granados Muños, M. J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +298,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -417,7 +420,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Le Flochmo&#xeb;n, E.</gco:CharacterString>
+                        <gco:CharacterString>Le Flochmoën, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -677,7 +680,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

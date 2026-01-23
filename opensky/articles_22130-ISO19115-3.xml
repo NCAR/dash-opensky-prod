@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22130</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:33:32.040046</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:45:40.233213</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Tropospheric ozone in CCMI models and Gaussian process emulation to understand biases in the SOCOLv3 chemistry&#x2013;climate model</gco:CharacterString>
+                  <gco:CharacterString>Tropospheric ozone in CCMI models and Gaussian process emulation to understand biases in the SOCOLv3 chemistry–climate model</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -227,7 +228,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>J&#xf6;ckel, P.</gco:CharacterString>
+                        <gco:CharacterString>Jöckel, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +382,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Previous multi-model intercomparisons have shown that chemistry&#x2013;climate models exhibit significant biases in tropospheric ozone compared with observations. We investigate annual-mean tropospheric column ozone in 15 models participating in the SPARC&#x2013;IGAC (Stratosphere&#x2013;troposphere Processes And their Role in Climate&#x2013;International Global Atmospheric Chemistry) Chemistry-Climate Model Initiative (CCMI). These models exhibit a positive bias, on average, of up to 40%&#x2013;50% in the Northern Hemisphere compared with observations derived from the Ozone Monitoring Instrument and Microwave Limb Sounder (OMI/MLS), and a negative bias of up to &#x2009;&#x223c;&#x2009;30% in the Southern Hemisphere. SOCOLv3.0 (version 3 of the Solar-Climate Ozone Links CCM), which participated in CCMI, simulates global-mean tropospheric ozone columns of 40.2DU &#x2013; approximately 33% larger than the CCMI multi-model mean. Here we introduce an updated version of SOCOLv3.0, SOCOLv3.1, which includes an improved treatment of ozone sink processes, and results in a reduction in the tropospheric column ozone bias of up to 8DU, mostly due to the inclusion of N2O5 hydrolysis on tropospheric aerosols. As a result of these developments, tropospheric column ozone amounts simulated by SOCOLv3.1 are comparable with several other CCMI models. We apply Gaussian process emulation and sensitivity analysis to understand the remaining ozone bias in SOCOLv3.1. This shows that ozone precursors (nitrogen oxides (NOx), carbon monoxide, methane and other volatile organic compounds, VOCs) are responsible for more than 90% of the variance in tropospheric ozone. However, it may not be the emissions inventories themselves that result in the bias, but how the emissions are handled in SOCOLv3.1, and we discuss this in the wider context of the other CCMI models. Given that the emissions data set to be used for phase 6 of the Coupled Model Intercomparison Project includes approximately 20% more NOx than the data set used for CCMI, further work is urgently needed to address the challenges of simulating sub-grid processes of importance to tropospheric ozone in the current generation of chemistry&#x2013;climate models.</gco:CharacterString>
+            <gco:CharacterString>Previous multi-model intercomparisons have shown that chemistry–climate models exhibit significant biases in tropospheric ozone compared with observations. We investigate annual-mean tropospheric column ozone in 15 models participating in the SPARC–IGAC (Stratosphere–troposphere Processes And their Role in Climate–International Global Atmospheric Chemistry) Chemistry-Climate Model Initiative (CCMI). These models exhibit a positive bias, on average, of up to 40%–50% in the Northern Hemisphere compared with observations derived from the Ozone Monitoring Instrument and Microwave Limb Sounder (OMI/MLS), and a negative bias of up to  ∼ 30% in the Southern Hemisphere. SOCOLv3.0 (version 3 of the Solar-Climate Ozone Links CCM), which participated in CCMI, simulates global-mean tropospheric ozone columns of 40.2DU – approximately 33% larger than the CCMI multi-model mean. Here we introduce an updated version of SOCOLv3.0, SOCOLv3.1, which includes an improved treatment of ozone sink processes, and results in a reduction in the tropospheric column ozone bias of up to 8DU, mostly due to the inclusion of N2O5 hydrolysis on tropospheric aerosols. As a result of these developments, tropospheric column ozone amounts simulated by SOCOLv3.1 are comparable with several other CCMI models. We apply Gaussian process emulation and sensitivity analysis to understand the remaining ozone bias in SOCOLv3.1. This shows that ozone precursors (nitrogen oxides (NOx), carbon monoxide, methane and other volatile organic compounds, VOCs) are responsible for more than 90% of the variance in tropospheric ozone. However, it may not be the emissions inventories themselves that result in the bias, but how the emissions are handled in SOCOLv3.1, and we discuss this in the wider context of the other CCMI models. Given that the emissions data set to be used for phase 6 of the Coupled Model Intercomparison Project includes approximately 20% more NOx than the data set used for CCMI, further work is urgently needed to address the challenges of simulating sub-grid processes of importance to tropospheric ozone in the current generation of chemistry–climate models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

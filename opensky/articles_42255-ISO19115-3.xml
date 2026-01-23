@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42255</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:29.679038</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:08.459687</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric evaporative demand is a key metric for monitoring agricultural drought. Existing ways of estimating evaporative demand in drought indices do not faithfully represent the constraints imposed by land surface characteristics and become less accurate over nonuniform land surfaces. This study proposes incorporating surface vegetation characteristics, such as vegetation dynamics data, aerodynamic parameters, and physiological parameters, into existing potential-evapotranspiration (PET) methods. This approach is implemented across the continental United States (CONUS) for the period from 1981&#x2013;2017 and is tested using a recently developed drought index, the Standardized Precipitation&#x2013;Evapotranspiration Index (SPEI). We show that activating realistic maximum surface conductance and aerodynamic conductance could improve the prediction of soil moisture dynamics and drought impacts by 29&#x2009;%&#x2013;41&#x2009;% on average compared to more simple, widely used methods. We also demonstrate that this is especially effective in forests and humid regions, with improvements of 86&#x2009;%&#x2013;89&#x2009;%. Our approach only requires a minimal amount of ancillary data while allowing for both historical reconstruction and real-time drought forecasting. This offers a physically meaningful yet easy-to-implement way to account for vegetation control in drought indices.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric evaporative demand is a key metric for monitoring agricultural drought. Existing ways of estimating evaporative demand in drought indices do not faithfully represent the constraints imposed by land surface characteristics and become less accurate over nonuniform land surfaces. This study proposes incorporating surface vegetation characteristics, such as vegetation dynamics data, aerodynamic parameters, and physiological parameters, into existing potential-evapotranspiration (PET) methods. This approach is implemented across the continental United States (CONUS) for the period from 1981–2017 and is tested using a recently developed drought index, the Standardized Precipitation–Evapotranspiration Index (SPEI). We show that activating realistic maximum surface conductance and aerodynamic conductance could improve the prediction of soil moisture dynamics and drought impacts by 29 %–41 % on average compared to more simple, widely used methods. We also demonstrate that this is especially effective in forests and humid regions, with improvements of 86 %–89 %. Our approach only requires a minimal amount of ancillary data while allowing for both historical reconstruction and real-time drought forecasting. This offers a physically meaningful yet easy-to-implement way to account for vegetation control in drought indices.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

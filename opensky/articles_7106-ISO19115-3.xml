@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:7106</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:50.495985</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:41:23.607838</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +284,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We examine the ozone production from boreal forest fires based on a case study of wildfires in Alaska and Canada in summer 2004. The model simulations were performed with the chemistry transport model, MOZART-4, and were evaluated by comparison with a comprehensive set of aircraft measurements. In the analysis we use measurements and model simulations of carbon monoxide (CO) and ozone (O&#x2083;) at the PICO-NARE station located in the Azores within the pathway of North American outflow. The modeled mixing ratios were used to test the robustness of the enhancement ratio &#x394;O&#x2083;/&#x394;CO (defined as the excess O&#x2083; mixing ratio normalized by the increase in CO) and the feasibility for using this ratio in estimating the O&#x2083; production from the wildfires. Modeled and observed enhancement ratios are about 0.25 ppbv/ppbv which is in the range of values found in the literature and results in a global net O&#x2083; production of 12.9 &#xb1; 2 Tg O&#x2083; during summer 2004. This matches the net O&#x2083; production calculated in the model for a region extending from Alaska to the east Atlantic (9-11 Tg O3) indicating that observations at PICO-NARE representing photochemically well aged plumes provide a good measure of the O&#x2083; production of North American boreal fires. However, net chemical loss of fire-related O&#x2083; dominates in regions far downwind from the fires (e.g., Europe and Asia) resulting in a global net O&#x2083; production of 6 Tg O&#x2083; during the same time period. On average, the fires increased the O&#x2083; burden (surface -300 mbar) over Alaska and Canada during summer 2004 by about 7-9% and over Europe by about 2-3%.</gco:CharacterString>
+            <gco:CharacterString>We examine the ozone production from boreal forest fires based on a case study of wildfires in Alaska and Canada in summer 2004. The model simulations were performed with the chemistry transport model, MOZART-4, and were evaluated by comparison with a comprehensive set of aircraft measurements. In the analysis we use measurements and model simulations of carbon monoxide (CO) and ozone (O₃) at the PICO-NARE station located in the Azores within the pathway of North American outflow. The modeled mixing ratios were used to test the robustness of the enhancement ratio ΔO₃/ΔCO (defined as the excess O₃ mixing ratio normalized by the increase in CO) and the feasibility for using this ratio in estimating the O₃ production from the wildfires. Modeled and observed enhancement ratios are about 0.25 ppbv/ppbv which is in the range of values found in the literature and results in a global net O₃ production of 12.9 ± 2 Tg O₃ during summer 2004. This matches the net O₃ production calculated in the model for a region extending from Alaska to the east Atlantic (9-11 Tg O3) indicating that observations at PICO-NARE representing photochemically well aged plumes provide a good measure of the O₃ production of North American boreal fires. However, net chemical loss of fire-related O₃ dominates in regions far downwind from the fires (e.g., Europe and Asia) resulting in a global net O₃ production of 6 Tg O₃ during the same time period. On average, the fires increased the O₃ burden (surface -300 mbar) over Alaska and Canada during summer 2004 by about 7-9% and over Europe by about 2-3%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

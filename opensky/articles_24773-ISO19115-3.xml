@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24773</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:10:24.881225</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:00:40.009036</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +292,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Tropospheric ozone (urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0001) is an important greenhouse gas and a surface pollutant. The future evolution of urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0002 abundances and chemical processing are uncertain due to a changing climate, socioeconomic developments, and missing chemistry in global models. Here, we use an Earth System Model with natural halogen chemistry to investigate the changes in the urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0003 budget over the 21st century following Representative Concentration Pathway (RCP)6.0 and RCP8.5 climate scenarios. Our results indicate that the global tropospheric urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0004 net chemical change (NCC, chemical gross production minus destruction) will decrease urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0005, notwithstanding increasing or decreasing trends in ozone production and loss. However, a wide range of surface NCC variations (from &#x2212;60urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0006 to 150urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0007) are projected over polluted regions with stringent abatements in urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0008 precursor emissions. Water vapor and iodine are found to be key drivers of future tropospheric urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0009 destruction, while the largest changes in urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0010 production are determined by the future evolution of peroxy radicals. We show that natural halogens, currently not considered in climate models, significantly impact on the present-day and future global urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0011 burden reducing urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-001230&#x2013;35 Tg (11&#x2013;15urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0013) of tropospheric ozone throughout the 21st century regardless of the RCP scenario considered. This highlights the importance of including natural halogen chemistry in climate model projections of future tropospheric ozone.</gco:CharacterString>
+            <gco:CharacterString>Tropospheric ozone (urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0001) is an important greenhouse gas and a surface pollutant. The future evolution of urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0002 abundances and chemical processing are uncertain due to a changing climate, socioeconomic developments, and missing chemistry in global models. Here, we use an Earth System Model with natural halogen chemistry to investigate the changes in the urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0003 budget over the 21st century following Representative Concentration Pathway (RCP)6.0 and RCP8.5 climate scenarios. Our results indicate that the global tropospheric urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0004 net chemical change (NCC, chemical gross production minus destruction) will decrease urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0005, notwithstanding increasing or decreasing trends in ozone production and loss. However, a wide range of surface NCC variations (from −60urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0006 to 150urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0007) are projected over polluted regions with stringent abatements in urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0008 precursor emissions. Water vapor and iodine are found to be key drivers of future tropospheric urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0009 destruction, while the largest changes in urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0010 production are determined by the future evolution of peroxy radicals. We show that natural halogens, currently not considered in climate models, significantly impact on the present-day and future global urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0011 burden reducing urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-001230–35 Tg (11–15urn:x-wiley:2169897X:media:jgrd57367:jgrd57367-math-0013) of tropospheric ozone throughout the 21st century regardless of the RCP scenario considered. This highlights the importance of including natural halogen chemistry in climate model projections of future tropospheric ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

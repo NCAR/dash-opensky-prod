@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23798</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:11:45.614802</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:38:39.589822</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Karanam, Ramesh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5642-8864"
+                                    xlink:title="Karanam, Ramesh"
+                                    xlink:actuate="onRequest">Karanam, Ramesh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Anne K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2384-5033"
+                                    xlink:title="Smith, Anne K."
+                                    xlink:actuate="onRequest">Smith, Anne K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, Rolando R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6963-4592"
+                                    xlink:title="García, Rolando R."
+                                    xlink:actuate="onRequest">García, Rolando R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +196,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Long-term variability and tendencies in migrating diurnal tide (DW1) are investigated for the first time using a three-member ensemble of historical simulations by NCAR's Whole Atmosphere Community Climate Model, latest Version 6 (WACCM6) for 1850&#x2013;2014 (165 years). The model reproduces the climatological features of the tide in temperature (T), zonal wind (U), and meridional wind (V). The amplitudes peak in the upper mesosphere and lower thermosphere (above ~0.001 hPa) at the equator for T (~10 K) and over 20&#x2013;30&#xb0;N and S latitudes for U (~15 m/s) and V (~25 m/s). The contributions of solar cycle (SC), quasi biennial oscillation (QBO) at 10 and 30 hPa, El Ni&#xf1;o&#x2013;Southern Oscillation (ENSO), ozone depleting substances (ODS), carbon dioxide (CO2), and stratospheric sulfate aerosols (volcanic eruptions) to change in annual mean amplitudes are analyzed using multiple linear regression. The tidal amplitudes in three components show a long-term increase in the upper stratosphere (0.95-10.7 hPa) and the upper mesosphere (0.0001-0.01 hPa), predominantly due to increasing CO2 with a smaller contribution from the trend in ENSO. Interestingly, the global mean tidal amplitude in T decreases sharply after 1950-1960 until 1995 and then increases in association with changes in ODSs. The seasonal differences in tidal responses to the above indices can be as large as the overall signals. All the responses are stronger in the upper mesosphere; however, there is also a pronounced negative response of temperature tide to ODSs over middle to high latitudes around the stratopause (~1 hPa) during all seasons.</gco:CharacterString>
+            <gco:CharacterString>Long-term variability and tendencies in migrating diurnal tide (DW1) are investigated for the first time using a three-member ensemble of historical simulations by NCAR's Whole Atmosphere Community Climate Model, latest Version 6 (WACCM6) for 1850–2014 (165 years). The model reproduces the climatological features of the tide in temperature (T), zonal wind (U), and meridional wind (V). The amplitudes peak in the upper mesosphere and lower thermosphere (above ~0.001 hPa) at the equator for T (~10 K) and over 20–30°N and S latitudes for U (~15 m/s) and V (~25 m/s). The contributions of solar cycle (SC), quasi biennial oscillation (QBO) at 10 and 30 hPa, El Niño–Southern Oscillation (ENSO), ozone depleting substances (ODS), carbon dioxide (CO2), and stratospheric sulfate aerosols (volcanic eruptions) to change in annual mean amplitudes are analyzed using multiple linear regression. The tidal amplitudes in three components show a long-term increase in the upper stratosphere (0.95-10.7 hPa) and the upper mesosphere (0.0001-0.01 hPa), predominantly due to increasing CO2 with a smaller contribution from the trend in ENSO. Interestingly, the global mean tidal amplitude in T decreases sharply after 1950-1960 until 1995 and then increases in association with changes in ODSs. The seasonal differences in tidal responses to the above indices can be as large as the overall signals. All the responses are stronger in the upper mesosphere; however, there is also a pronounced negative response of temperature tide to ODSs over middle to high latitudes around the stratopause (~1 hPa) during all seasons.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

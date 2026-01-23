@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22734</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:41.969272</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:28:14.870071</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Explicit attributes of convective storms within convection-allowing model (CAM) forecasts are routinely used as surrogates for convective weather hazards. The ability of 3- and 1-km horizontal grid spacing CAM forecasts to anticipate tornadoes using surrogates was examined for 497 severe weather events. Five diagnostics were used as tornado surrogates, including 0&#x2013;1 km above ground level (AGL) updraft helicity (UH01), 2&#x2013;5 km AGL UH (UH25), 0&#x2013;3 km AGL UH (UH03), and 500 m and 1 km AGL relative vorticity. Next-day surrogate severe probability forecasts (SSPFs) for tornadoes were produced by thresholding the diagnostics and smoothing the resulting binary field. SSPFs were verified against SPC tornado reports and NWS tornado warnings. The 1-km SSPFs were more skillful than 3-km SSPFs across all diagnostics with statistically significant differences in skill that were largest on the mesoscale. UH01 outperformed the other four diagnostics, in part because UH01 best represented regional variations in observed tornado report totals. Filtering forecasts based on the significant tornado parameter benefited the 3-km SSPFs much more than the 1-km SSPFs, with filtered 3-km SSPFs having similar skill to the filtered 1-km SSPFs. SSPFs verified with a combination of tornado warnings and reports were more skillful than when verified against reports alone, indicating that CAMs can better predict intense low-level rotation events than tornadoes. When verifying all severe hazards, UH25 SSPFs were more skillful than UH01 SSPFs; UH01 and UH25 appear to be the most useful pair for anticipating tornadoes and the combined severe threat on a given forecast day.</gco:CharacterString>
+            <gco:CharacterString>Explicit attributes of convective storms within convection-allowing model (CAM) forecasts are routinely used as surrogates for convective weather hazards. The ability of 3- and 1-km horizontal grid spacing CAM forecasts to anticipate tornadoes using surrogates was examined for 497 severe weather events. Five diagnostics were used as tornado surrogates, including 0–1 km above ground level (AGL) updraft helicity (UH01), 2–5 km AGL UH (UH25), 0–3 km AGL UH (UH03), and 500 m and 1 km AGL relative vorticity. Next-day surrogate severe probability forecasts (SSPFs) for tornadoes were produced by thresholding the diagnostics and smoothing the resulting binary field. SSPFs were verified against SPC tornado reports and NWS tornado warnings. The 1-km SSPFs were more skillful than 3-km SSPFs across all diagnostics with statistically significant differences in skill that were largest on the mesoscale. UH01 outperformed the other four diagnostics, in part because UH01 best represented regional variations in observed tornado report totals. Filtering forecasts based on the significant tornado parameter benefited the 3-km SSPFs much more than the 1-km SSPFs, with filtered 3-km SSPFs having similar skill to the filtered 1-km SSPFs. SSPFs verified with a combination of tornado warnings and reports were more skillful than when verified against reports alone, indicating that CAMs can better predict intense low-level rotation events than tornadoes. When verifying all severe hazards, UH25 SSPFs were more skillful than UH01 SSPFs; UH01 and UH25 appear to be the most useful pair for anticipating tornadoes and the combined severe threat on a given forecast day.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

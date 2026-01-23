@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12603</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:30:51.753793</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:50:25.233504</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In order to quantify the impact of recent efforts to abate surface ozone (O&#x2083;) pollution, we analyze changes in the frequency and return level of summertime (JJA) high surface O&#x2083; events over the eastern United States (US) from 1988-1998 to 1999-2009. We apply methods from extreme value theory (EVT) to maximum daily 8-hour average ozone (MDA8 O&#x2083;) observed by the Clean Air Status and Trends Network (CASTNet) and define O&#x2083; extremes as days on which MDA8 O&#x2083; exceeds a threshold of 75 ppb (MDA8 O&#x2083;&gt;75). Over the eastern US, we find that the number of summer days with MDA8 O&#x2083;&gt;75 declined on average by about a factor of two from 1988-1998 to 1999-2009. The applied generalized Pareto distribution (GPD) fits the high tail of MDA8 O&#x2083; much better than a Gaussian distribution and enables the derivation of probabilistic return levels (describing the probability of exceeding a value x within a time window T) for high O&#x2083; pollution events. This new approach confirms the significant decline in both frequency and magnitude of high O&#x2083; pollution events over the eastern US during recent years reported in prior studies. Our analysis of 1-yr and 5-yr return levels at each station demonstrates the strong impact of changes in air quality regulations and subsequent control measures (e.g., the 'NOx SIP Call'), as the 5-yr return levels of the period 1999-2009 correspond roughly to the 1-yr return levels of the earlier time period (1988-1998). Regionally, the return levels dropped between 1988-1998 and 1999-2009 by about 8 ppb in the Mid-Atlantic (MA) and Great Lakes (GL) regions, while the strongest decline, about 13 ppb, is observed in the Northeast (NE) region. Nearly all stations (21 out of 23) have 1-yr return levels well below 100 ppb and 5-yr return levels well below 110 ppb in 1999-2009. Decreases in eastern US O&#x2083; pollution are largest after full implementation of the nitrogen oxide (NOx) reductions under the 'NOx SIP Call'. We conclude that the application of EVT methods provides a useful approach for quantifying return levels of high O&#x2083; pollution in probabilistic terms, which may help to guide long-term air quality planning.</gco:CharacterString>
+            <gco:CharacterString>In order to quantify the impact of recent efforts to abate surface ozone (O₃) pollution, we analyze changes in the frequency and return level of summertime (JJA) high surface O₃ events over the eastern United States (US) from 1988-1998 to 1999-2009. We apply methods from extreme value theory (EVT) to maximum daily 8-hour average ozone (MDA8 O₃) observed by the Clean Air Status and Trends Network (CASTNet) and define O₃ extremes as days on which MDA8 O₃ exceeds a threshold of 75 ppb (MDA8 O₃&gt;75). Over the eastern US, we find that the number of summer days with MDA8 O₃&gt;75 declined on average by about a factor of two from 1988-1998 to 1999-2009. The applied generalized Pareto distribution (GPD) fits the high tail of MDA8 O₃ much better than a Gaussian distribution and enables the derivation of probabilistic return levels (describing the probability of exceeding a value x within a time window T) for high O₃ pollution events. This new approach confirms the significant decline in both frequency and magnitude of high O₃ pollution events over the eastern US during recent years reported in prior studies. Our analysis of 1-yr and 5-yr return levels at each station demonstrates the strong impact of changes in air quality regulations and subsequent control measures (e.g., the 'NOx SIP Call'), as the 5-yr return levels of the period 1999-2009 correspond roughly to the 1-yr return levels of the earlier time period (1988-1998). Regionally, the return levels dropped between 1988-1998 and 1999-2009 by about 8 ppb in the Mid-Atlantic (MA) and Great Lakes (GL) regions, while the strongest decline, about 13 ppb, is observed in the Northeast (NE) region. Nearly all stations (21 out of 23) have 1-yr return levels well below 100 ppb and 5-yr return levels well below 110 ppb in 1999-2009. Decreases in eastern US O₃ pollution are largest after full implementation of the nitrogen oxide (NOx) reductions under the 'NOx SIP Call'. We conclude that the application of EVT methods provides a useful approach for quantifying return levels of high O₃ pollution in probabilistic terms, which may help to guide long-term air quality planning.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

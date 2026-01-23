@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16957</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:56.763397</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:07:25.135486</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Whole Atmosphere Community Climate Model version 4 (WACCM4) is used to quantify solar cycle impacts, including both irradiance and particle precipitation, on the middle atmosphere. Results are compared to previous work using WACCM version 3 (WACCM3) to estimate the sensitivity of simulated solar cycle effects to model modifications. The residual circulation in WACCM4 is stronger than in WACCM3, leading to larger solar cycle effects from energetic particle precipitation; this impacts polar stratospheric odd nitrogen and ozone, as well as polar mesospheric temperatures. The cold pole problem, which is present in both versions, is exacerbated in WACCM4, leading to more ozone loss in the Antarctic stratosphere. Relative to WACCM3, a westerly shift in the WACCM4 zonal winds in the tropical stratosphere and mesosphere, and a strengthening and poleward shift of the Antarctic polar night jet, are attributed to inclusion of the QBO and changes in the gravity wave parameterization in WACCM4. Solar cycle effects in WACCM3 and WACCM4 are qualitatively similar. However, the EPP-induced increase from solar minimum to solar maximum in polar stratospheric NOy is about twice as large in WACCM4 as in WACCM3; correspondingly, maximum increases in polar O&#x2083; loss from solar min to solar max are more than twice as large in WACCM4. This does not cause large differences in the WACCM3 versus WACCM4 solar cycle responses in temperature and wind. Overall, these results provide a framework for future studies using WACCM to analyze the impacts of the solar cycle on the middle atmosphere.</gco:CharacterString>
+            <gco:CharacterString>The Whole Atmosphere Community Climate Model version 4 (WACCM4) is used to quantify solar cycle impacts, including both irradiance and particle precipitation, on the middle atmosphere. Results are compared to previous work using WACCM version 3 (WACCM3) to estimate the sensitivity of simulated solar cycle effects to model modifications. The residual circulation in WACCM4 is stronger than in WACCM3, leading to larger solar cycle effects from energetic particle precipitation; this impacts polar stratospheric odd nitrogen and ozone, as well as polar mesospheric temperatures. The cold pole problem, which is present in both versions, is exacerbated in WACCM4, leading to more ozone loss in the Antarctic stratosphere. Relative to WACCM3, a westerly shift in the WACCM4 zonal winds in the tropical stratosphere and mesosphere, and a strengthening and poleward shift of the Antarctic polar night jet, are attributed to inclusion of the QBO and changes in the gravity wave parameterization in WACCM4. Solar cycle effects in WACCM3 and WACCM4 are qualitatively similar. However, the EPP-induced increase from solar minimum to solar maximum in polar stratospheric NOy is about twice as large in WACCM4 as in WACCM3; correspondingly, maximum increases in polar O₃ loss from solar min to solar max are more than twice as large in WACCM4. This does not cause large differences in the WACCM3 versus WACCM4 solar cycle responses in temperature and wind. Overall, these results provide a framework for future studies using WACCM to analyze the impacts of the solar cycle on the middle atmosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

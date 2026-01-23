@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6871</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:42.517040</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:38:03.133284</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>With the development of new polarimeters for large telescopes, the spectro-polarimetric study of astrophysical bodies is becoming feasible and, indeed, more frequent. In particular, this is permitting the observational study of stellar magnetic fields. Aims.With the aim to optimize and interpret this kind of observations, we have produced a spectral atlas of circular polarization in a grid of stellar atmospheric models with effective temperatures between 3500 and 10000 K, surface gravities log(g)= 3.5 -5 metallicities between 10&#x207b;&#xb2; and 1, and magnetic field strengths of 100, 1000 and 5000 G. We have computed the emergent Stokes I and V flux spectra in LTE of more than 10&#x2075; spectral lines. The atlas and several numerical tools are available in electronic format and may be downloaded from http://download.hao.ucar.edu/pub/PSA/. In this paper we review and discuss some of its most relevant features, such as which spectral regions and individual lines harbor the strongest signals, what are interesting lines to observe, how to disentangle field strength from filling factor, etc.</gco:CharacterString>
+            <gco:CharacterString>With the development of new polarimeters for large telescopes, the spectro-polarimetric study of astrophysical bodies is becoming feasible and, indeed, more frequent. In particular, this is permitting the observational study of stellar magnetic fields. Aims.With the aim to optimize and interpret this kind of observations, we have produced a spectral atlas of circular polarization in a grid of stellar atmospheric models with effective temperatures between 3500 and 10000 K, surface gravities log(g)= 3.5 -5 metallicities between 10⁻² and 1, and magnetic field strengths of 100, 1000 and 5000 G. We have computed the emergent Stokes I and V flux spectra in LTE of more than 10⁵ spectral lines. The atlas and several numerical tools are available in electronic format and may be downloaded from http://download.hao.ucar.edu/pub/PSA/. In this paper we review and discuss some of its most relevant features, such as which spectral regions and individual lines harbor the strongest signals, what are interesting lines to observe, how to disentangle field strength from filling factor, etc.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

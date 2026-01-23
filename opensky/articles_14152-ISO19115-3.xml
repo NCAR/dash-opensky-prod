@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14152</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:07:48.089963</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:27:18.405249</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gochis, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8668-4850"
+                                    xlink:title="Gochis, David"
+                                    xlink:actuate="onRequest">Gochis, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Patton, Edward G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5431-9541"
+                                    xlink:title="Patton, Edward G."
+                                    xlink:actuate="onRequest">Patton, Edward G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +254,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +286,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +298,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +340,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9252-0286"
+                                    xlink:title="Barth, Mary"
+                                    xlink:actuate="onRequest">Barth, Mary</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -527,7 +542,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cantrell, Chris A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3844-1560"
+                                    xlink:title="Cantrell, Chris A."
+                                    xlink:actuate="onRequest">Cantrell, Chris A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -547,7 +564,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, James N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4677-8224"
+                                    xlink:title="Smith, James N."
+                                    xlink:actuate="onRequest">Smith, James N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -567,7 +586,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H&#x2082;O, Organics &amp; Nitrogen (BEACHON) project seeks to understand the feedbacks and inter-relationships between hydrology, biogenic emissions, carbon assimilation, aerosol properties, clouds and associated feedbacks within water-limited ecosystems. The Manitou Experimental Forest Observatory (MEFO) was established in 2008 by the National Center for Atmospheric Research to address many of the BEACHON research objectives, and it now provides a fixed field site with significant infrastructure. MEFO is a mountainous, semi-arid ponderosa pine-dominated forest site that is normally dominated by clean continental air, but is periodically influenced by anthropogenic sources from Colorado Front Range cities. This article summarizes the past and ongoing research activities at the site, and highlights some of the significant findings that have resulted from these measurements. These activities include: &#x2013; soil property measurements, &#x2013; hydrological studies, &#x2013; measurements of high-frequency turbulence parameters, &#x2013; eddy covariance flux measurements of water, energy, aerosols and carbon dioxide through the canopy, &#x2013; biogenic and anthropogenic volatile organic compound emissions and their influence on regional atmospheric chemistry, &#x2013; aerosol number and mass distributions, &#x2013; chemical speciation of aerosol particles, &#x2013; characterization of ice and cloud condensation nuclei, &#x2013; trace gas measurements, and &#x2013; model simulations using coupled chemistry and meteorology. In addition to various long-term continuous measurement, three focused measurement campaigns with state-of-the-art instrumentation have taken place since the site was established, and two of these are the subjects of this special issue: BEACHON-ROCS (Rocky Mountain Organic Carbon Study, 2010) and BEACHON-RoMBAS (Rocky Mountain Biogenic Aerosol Study, 2011).</gco:CharacterString>
+            <gco:CharacterString>The Bio-hydro-atmosphere interactions of Energy, Aerosols, Carbon, H₂O, Organics &amp; Nitrogen (BEACHON) project seeks to understand the feedbacks and inter-relationships between hydrology, biogenic emissions, carbon assimilation, aerosol properties, clouds and associated feedbacks within water-limited ecosystems. The Manitou Experimental Forest Observatory (MEFO) was established in 2008 by the National Center for Atmospheric Research to address many of the BEACHON research objectives, and it now provides a fixed field site with significant infrastructure. MEFO is a mountainous, semi-arid ponderosa pine-dominated forest site that is normally dominated by clean continental air, but is periodically influenced by anthropogenic sources from Colorado Front Range cities. This article summarizes the past and ongoing research activities at the site, and highlights some of the significant findings that have resulted from these measurements. These activities include: – soil property measurements, – hydrological studies, – measurements of high-frequency turbulence parameters, – eddy covariance flux measurements of water, energy, aerosols and carbon dioxide through the canopy, – biogenic and anthropogenic volatile organic compound emissions and their influence on regional atmospheric chemistry, – aerosol number and mass distributions, – chemical speciation of aerosol particles, – characterization of ice and cloud condensation nuclei, – trace gas measurements, and – model simulations using coupled chemistry and meteorology. In addition to various long-term continuous measurement, three focused measurement campaigns with state-of-the-art instrumentation have taken place since the site was established, and two of these are the subjects of this special issue: BEACHON-ROCS (Rocky Mountain Organic Carbon Study, 2010) and BEACHON-RoMBAS (Rocky Mountain Biogenic Aerosol Study, 2011).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

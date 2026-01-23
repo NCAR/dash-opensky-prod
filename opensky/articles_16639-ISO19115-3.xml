@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16639</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:01:12.947128</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:10:46.560829</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9252-0286"
+                                    xlink:title="Barth, Mary"
+                                    xlink:actuate="onRequest">Barth, Mary</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +260,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +422,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As part of the Deep Convective Cloud and Chemistry (DC3) experiment, the National Science Foundation/National Center for Atmospheric Research (NCAR) Gulfstream-V (GV) and NASA DC-8 research aircraft probed the chemical composition of the inflow and outflow of two convective storms (north storm, NS, south storm, SS) originating in the Colorado region on 22 June 2012, a time when the High Park wildfire was active in the area. A wide range of trace species were measured on board both aircraft including biomass burning (BB) tracers hydrogen cyanide (HCN) and acetonitrile (ACN). Acrolein, a much shorter lived tracer for BB, was also quantified on the GV. The data demonstrated that the NS had ingested fresh smoke from the High Park fire and as a consequence had a higher VOC OH reactivity than the SS. The SS lofted aged fire tracers along with other boundary layer ozone precursors and was more impacted by lightning NOx (LNOx) than the NS. The NCAR master mechanism box model was initialized with measurements made in the outflow of the two storms. The NS and SS were predicted to produce 11 and 14&#x2009;ppbv of O&#x2083;, respectively, downwind of the storm over 2&#x2009;days. Sensitivity tests revealed that the ozone production potential of the SS was highly dependent on LNOx. Normalized excess mixing ratios, &#x394;X/&#x394;CO, for HCN and ACN were determined in both the fire plume and the storm outflow and found to be 7.0&#x2009;&#xb1;&#x2009;0.5 and 2.3&#x2009;&#xb1;&#x2009;0.5&#x2009;pptv&#x2009;ppbv&#x207b;&#xb9;, respectively, and 1.4&#x2009;&#xb1;&#x2009;0.3&#x2009;pptv&#x2009;ppbv&#x207b;&#xb9; for acrolein in the outflow only.</gco:CharacterString>
+            <gco:CharacterString>As part of the Deep Convective Cloud and Chemistry (DC3) experiment, the National Science Foundation/National Center for Atmospheric Research (NCAR) Gulfstream-V (GV) and NASA DC-8 research aircraft probed the chemical composition of the inflow and outflow of two convective storms (north storm, NS, south storm, SS) originating in the Colorado region on 22 June 2012, a time when the High Park wildfire was active in the area. A wide range of trace species were measured on board both aircraft including biomass burning (BB) tracers hydrogen cyanide (HCN) and acetonitrile (ACN). Acrolein, a much shorter lived tracer for BB, was also quantified on the GV. The data demonstrated that the NS had ingested fresh smoke from the High Park fire and as a consequence had a higher VOC OH reactivity than the SS. The SS lofted aged fire tracers along with other boundary layer ozone precursors and was more impacted by lightning NOx (LNOx) than the NS. The NCAR master mechanism box model was initialized with measurements made in the outflow of the two storms. The NS and SS were predicted to produce 11 and 14 ppbv of O₃, respectively, downwind of the storm over 2 days. Sensitivity tests revealed that the ozone production potential of the SS was highly dependent on LNOx. Normalized excess mixing ratios, ΔX/ΔCO, for HCN and ACN were determined in both the fire plume and the storm outflow and found to be 7.0 ± 0.5 and 2.3 ± 0.5 pptv ppbv⁻¹, respectively, and 1.4 ± 0.3 pptv ppbv⁻¹ for acrolein in the outflow only.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

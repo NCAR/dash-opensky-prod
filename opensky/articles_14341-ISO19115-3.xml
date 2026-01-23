@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14341</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:52.075917</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:23:22.265544</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Estimates of the global influx of cosmic dust are highly uncertain, ranging from 0.4-110&#x2009;t/d. All meteoric debris that enters the Earth's atmosphere is eventually transported to the surface. The downward fluxes of meteoric metals like mesospheric Na and Fe, in the region below where they are vaporized and where the majority of these species are still in atomic form, are equal to their meteoric ablation influxes, which in turn, are proportional to the total cosmic dust influx. Doppler lidar measurements of mesospheric Na fluxes made throughout the year at the Starfire Optical Range, New Mexico, (35&#xb0;N) are combined with the Whole Atmosphere Community Climate Model predictions of the relative geographic variations of the key wave-induced vertical transport processes to infer the global influxes of Na vapor and cosmic dust. The global mean Na influx is estimated to be 16,100&#x2009;&#xb1;&#x2009;3200 atoms/cm2/s, which corresponds to 278&#x2009;&#xb1;&#x2009;54&#x2009;kg/d for the global input of Na vapor and 60&#x2009;&#xb1;&#x2009;16&#x2009;t/d for the global influx of cosmic dust.</gco:CharacterString>
+            <gco:CharacterString>Estimates of the global influx of cosmic dust are highly uncertain, ranging from 0.4-110 t/d. All meteoric debris that enters the Earth's atmosphere is eventually transported to the surface. The downward fluxes of meteoric metals like mesospheric Na and Fe, in the region below where they are vaporized and where the majority of these species are still in atomic form, are equal to their meteoric ablation influxes, which in turn, are proportional to the total cosmic dust influx. Doppler lidar measurements of mesospheric Na fluxes made throughout the year at the Starfire Optical Range, New Mexico, (35°N) are combined with the Whole Atmosphere Community Climate Model predictions of the relative geographic variations of the key wave-induced vertical transport processes to infer the global influxes of Na vapor and cosmic dust. The global mean Na influx is estimated to be 16,100 ± 3200 atoms/cm2/s, which corresponds to 278 ± 54 kg/d for the global input of Na vapor and 60 ± 16 t/d for the global influx of cosmic dust.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

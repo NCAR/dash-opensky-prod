@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6314</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:19.582335</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:22:26.009318</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A global, 10-yr (February 1997-April 2006), 2-hourly dataset of atmospheric precipitable water (PW) was produced from ground-based global positioning system (GPS) measurements of zenith tropospheric delay (ZTD) at approximately 350 International Global Navigation Satellite Systems (GNSS) Service (IGS) ground stations. A total of 130 pairs of radiosonde and GPS stations are found within a 50-km distance and 100-m elevation of each other. At these stations, 14 types of radiosondes are launched and the following 3 types of humidity sensors are used: capacitive polymer, carbon hygristor, and goldbeater's skin. The PW comparison between radiosonde and GPS data reveals three types of systematic errors in the global radiosonde PW data: measurement biases of the 14 radiosonde types along with their characteristics, long-term temporal inhomogeneity, and diurnal sampling errors of once- and twice-daily radiosonde data. The capacitive polymer generally shows mean dry bias of &#x2212;1.19 mm (&#x2212;6.8%). However, the carbon hygristor and goldbeater's skin hygrometers have mean moist biases of 1.01 mm (3.4%) and 0.76 mm (5.4%), respectively. The protective shield over the humidity sensor boom introduced in late 2000 reduces the PW dry bias from 6.1% and 2.6% in 2000 to 3.9% and &#x2212;1.14% (wet bias) in 2001 for the Vaisala RS80A and RS80H, respectively. The dry bias in Vaisala radiosondes has larger magnitudes during the day than at night, especially for RS90 and RS92, with a day-night difference of 5%&#x2212;7%. The time series of monthly mean PW differences between the radiosonde and GPS are able to detect significant changes associated with known radiosonde type changes. Such changes would have a significant impact on the long-term trend estimate. Diurnal sampling errors of twice-daily radiosonde data are generally within 2%, but can be as much as 10%&#x2212;15% for the once-daily soundings. In conclusion, this study demonstrates that the global GPS PW data are useful for identifying and quantifying several kinds of systematic errors in global radiosonde PW data. Several recommendations are made for future needs of global radiosonde and GPS networks and data.</gco:CharacterString>
+            <gco:CharacterString>A global, 10-yr (February 1997-April 2006), 2-hourly dataset of atmospheric precipitable water (PW) was produced from ground-based global positioning system (GPS) measurements of zenith tropospheric delay (ZTD) at approximately 350 International Global Navigation Satellite Systems (GNSS) Service (IGS) ground stations. A total of 130 pairs of radiosonde and GPS stations are found within a 50-km distance and 100-m elevation of each other. At these stations, 14 types of radiosondes are launched and the following 3 types of humidity sensors are used: capacitive polymer, carbon hygristor, and goldbeater's skin. The PW comparison between radiosonde and GPS data reveals three types of systematic errors in the global radiosonde PW data: measurement biases of the 14 radiosonde types along with their characteristics, long-term temporal inhomogeneity, and diurnal sampling errors of once- and twice-daily radiosonde data. The capacitive polymer generally shows mean dry bias of −1.19 mm (−6.8%). However, the carbon hygristor and goldbeater's skin hygrometers have mean moist biases of 1.01 mm (3.4%) and 0.76 mm (5.4%), respectively. The protective shield over the humidity sensor boom introduced in late 2000 reduces the PW dry bias from 6.1% and 2.6% in 2000 to 3.9% and −1.14% (wet bias) in 2001 for the Vaisala RS80A and RS80H, respectively. The dry bias in Vaisala radiosondes has larger magnitudes during the day than at night, especially for RS90 and RS92, with a day-night difference of 5%−7%. The time series of monthly mean PW differences between the radiosonde and GPS are able to detect significant changes associated with known radiosonde type changes. Such changes would have a significant impact on the long-term trend estimate. Diurnal sampling errors of twice-daily radiosonde data are generally within 2%, but can be as much as 10%−15% for the once-daily soundings. In conclusion, this study demonstrates that the global GPS PW data are useful for identifying and quantifying several kinds of systematic errors in global radiosonde PW data. Several recommendations are made for future needs of global radiosonde and GPS networks and data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

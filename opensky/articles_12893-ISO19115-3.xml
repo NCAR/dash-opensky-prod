@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12893</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:16:52.929351</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:41:18.428240</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, Rolando R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6963-4592"
+                                    xlink:title="García, Rolando R."
+                                    xlink:actuate="onRequest">García, Rolando R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present numerical simulations using the Whole Atmosphere Community Climate Model, extended version, constrained below 90km by a combination of NASA's Modern Era Retrospective Analysis for Research and Applications and the U.S. Navy's Operational Global Atmospheric Prediction System - Advanced Level Physics High Altitude assimilation products. The period examined is January and February 2009, when a large stratospheric warming occurred on 24 January 2009, with anomalous circulation persisting for several weeks after the event. In this study, we focus on the dynamical response of the lower thermosphere up to 200km. We find evidence of migrating and nonmigrating tides, Rossby and Rossby-gravity modes, and Kelvin waves, whose amplitudes appear to be modulated at the times leading and following the stratospheric warming. While the Rossby, Rossby-gravity, and Kelvin modes are rapidly dissipated in the lower thermosphere (above 110km), the tides maintain substantial amplitude throughout the thermosphere, but their vertical structure becomes external above about 120-150km. Most waves identified in the simulations decrease in amplitude in the thermosphere, indicating remote forcing from below and strong dissipation by molecular diffusion at high altitudes; however, the amplitude of the migrating DW1 tide increases in the thermosphere suggesting in situ forcing. We show that the amplitude of the tides (such as the DW1) changes as the background wind alters the vorticity in the tropics, which broadens or narrows the tropical waveguide. Our results also suggest that fast Rossby normal modes (periods &#x2264; 10 days) are excited by instability of the zonal-mean wind distribution following the stratospheric warming.</gco:CharacterString>
+            <gco:CharacterString>We present numerical simulations using the Whole Atmosphere Community Climate Model, extended version, constrained below 90km by a combination of NASA's Modern Era Retrospective Analysis for Research and Applications and the U.S. Navy's Operational Global Atmospheric Prediction System - Advanced Level Physics High Altitude assimilation products. The period examined is January and February 2009, when a large stratospheric warming occurred on 24 January 2009, with anomalous circulation persisting for several weeks after the event. In this study, we focus on the dynamical response of the lower thermosphere up to 200km. We find evidence of migrating and nonmigrating tides, Rossby and Rossby-gravity modes, and Kelvin waves, whose amplitudes appear to be modulated at the times leading and following the stratospheric warming. While the Rossby, Rossby-gravity, and Kelvin modes are rapidly dissipated in the lower thermosphere (above 110km), the tides maintain substantial amplitude throughout the thermosphere, but their vertical structure becomes external above about 120-150km. Most waves identified in the simulations decrease in amplitude in the thermosphere, indicating remote forcing from below and strong dissipation by molecular diffusion at high altitudes; however, the amplitude of the migrating DW1 tide increases in the thermosphere suggesting in situ forcing. We show that the amplitude of the tides (such as the DW1) changes as the background wind alters the vorticity in the tropics, which broadens or narrows the tropical waveguide. Our results also suggest that fast Rossby normal modes (periods ≤ 10 days) are excited by instability of the zonal-mean wind distribution following the stratospheric warming.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

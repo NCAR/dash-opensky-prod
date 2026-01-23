@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23328</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:19:33.062275</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:10:40.131891</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stern, Daniel P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0690-4110"
+                                    xlink:title="Stern, Daniel P."
+                                    xlink:actuate="onRequest">Stern, Daniel P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bryan, George H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2444-3039"
+                                    xlink:title="Bryan, George H."
+                                    xlink:actuate="onRequest">Bryan, George H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In tropical cyclones (TCs), the peak wind speed is typically found near the top of the boundary layer (approximately 0.5&#x2013;1 km). Recently, it was shown that in a few observed TCs, the wind speed within the eyewall can increase with height within the midtroposphere, resulting in a secondary local maximum at 4&#x2013;5 km. This study presents additional evidence of such an atypical structure, using dropsonde and Doppler radar observations from Hurricane Patricia (2015). Near peak intensity, Patricia exhibited an absolute wind speed maximum at 5&#x2013;6-km height, along with a weaker boundary layer maximum. Idealized simulations and a diagnostic boundary layer model are used to investigate the dynamics that result in these atypical wind profiles, which only occur in TCs that are very intense (surface wind speed &gt; 50 m s&#x2212;1) and/or very small (radius of maximum winds &lt; 20 km). The existence of multiple maxima in wind speed is a consequence of an inertial oscillation that is driven ultimately by surface friction. The vertical oscillation in the radial velocity results in a series of unbalanced tangential wind jets, whose magnitude and structure can manifest as a midlevel wind speed maximum. The wavelength of the inertial oscillation increases with vertical mixing length l&#x221e; in a turbulence parameterization, and no midlevel wind speed maximum occurs when l&#x221e; is large. Consistent with theory, the wavelength in the simulations scales with (2K/I)1/2, where K is the (vertical) turbulent diffusivity, and I2 is the inertial stability. This scaling is used to explain why only small and/or strong TCs exhibit midlevel wind speed maxima.</gco:CharacterString>
+            <gco:CharacterString>In tropical cyclones (TCs), the peak wind speed is typically found near the top of the boundary layer (approximately 0.5–1 km). Recently, it was shown that in a few observed TCs, the wind speed within the eyewall can increase with height within the midtroposphere, resulting in a secondary local maximum at 4–5 km. This study presents additional evidence of such an atypical structure, using dropsonde and Doppler radar observations from Hurricane Patricia (2015). Near peak intensity, Patricia exhibited an absolute wind speed maximum at 5–6-km height, along with a weaker boundary layer maximum. Idealized simulations and a diagnostic boundary layer model are used to investigate the dynamics that result in these atypical wind profiles, which only occur in TCs that are very intense (surface wind speed &gt; 50 m s−1) and/or very small (radius of maximum winds &lt; 20 km). The existence of multiple maxima in wind speed is a consequence of an inertial oscillation that is driven ultimately by surface friction. The vertical oscillation in the radial velocity results in a series of unbalanced tangential wind jets, whose magnitude and structure can manifest as a midlevel wind speed maximum. The wavelength of the inertial oscillation increases with vertical mixing length l∞ in a turbulence parameterization, and no midlevel wind speed maximum occurs when l∞ is large. Consistent with theory, the wavelength in the simulations scales with (2K/I)1/2, where K is the (vertical) turbulent diffusivity, and I2 is the inertial stability. This scaling is used to explain why only small and/or strong TCs exhibit midlevel wind speed maxima.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

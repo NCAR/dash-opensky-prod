@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26226</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:53:05.727800</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:36:11.583759</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Johnston, Benjamin R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5622-1257"
+                                    xlink:title="Johnston, Benjamin R."
+                                    xlink:actuate="onRequest">Johnston, Benjamin R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Braun, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6380-7739"
+                                    xlink:title="Braun, John J."
+                                    xlink:actuate="onRequest">Braun, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, Holger</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1223-3429"
+                                    xlink:title="Vömel, Holger"
+                                    xlink:actuate="onRequest">Vömel, Holger</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +226,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The eruption of the Hunga Tonga&#x2013;Hunga Ha'apai (HTHH) volcano on 15 January 2022 injected large amounts of water vapor (H2O) directly into the stratosphere. While normal background levels of stratospheric H2O are not detectable in radio occultation (RO) measurements, effects of the HTHH eruption are clearly observed as anomalous refractivity profiles from COSMIC-2, suggesting the possibility of detecting the HTHH H2O signal. To separate temperature and H2O effects on refractivity, we use co-located temperature observations from the Microwave Limb Sounder (MLS) to constrain a simplified H2O retrieval. Our results show enhancements of H2O up to ~2500&#x2013;3500 ppmv in the stratosphere (~29&#x2013;33 km) in the days following the HTHH eruption, with propagating patterns that follow the dispersing volcanic plume. The stratospheric H2O profiles derived from RO are in reasonable agreement with limited radiosonde observations over Australia. The H2O profiles during the first few days after the eruption show descent of the plume at a rate of ~&#x2212;1 km/day, likely due to strong radiative cooling (~&#x2212;10 K/day) induced by high H2O concentrations; slower descent (~&#x2212;200 m/day) is observed over the following week as the plume disperses. The total mass of H2O injected by HTHH is estimated as 110 &#xb1; 14 Tg from measurements in the early plumes during 16&#x2013;18 January, which equates to approximately 8% of the background global mass of stratospheric H2O. These RO measurements provide novel quantification of the unprecedented H2O amounts and the plume evolution during the first week after the HTHH eruption.</gco:CharacterString>
+            <gco:CharacterString>The eruption of the Hunga Tonga–Hunga Ha'apai (HTHH) volcano on 15 January 2022 injected large amounts of water vapor (H2O) directly into the stratosphere. While normal background levels of stratospheric H2O are not detectable in radio occultation (RO) measurements, effects of the HTHH eruption are clearly observed as anomalous refractivity profiles from COSMIC-2, suggesting the possibility of detecting the HTHH H2O signal. To separate temperature and H2O effects on refractivity, we use co-located temperature observations from the Microwave Limb Sounder (MLS) to constrain a simplified H2O retrieval. Our results show enhancements of H2O up to ~2500–3500 ppmv in the stratosphere (~29–33 km) in the days following the HTHH eruption, with propagating patterns that follow the dispersing volcanic plume. The stratospheric H2O profiles derived from RO are in reasonable agreement with limited radiosonde observations over Australia. The H2O profiles during the first few days after the eruption show descent of the plume at a rate of ~−1 km/day, likely due to strong radiative cooling (~−10 K/day) induced by high H2O concentrations; slower descent (~−200 m/day) is observed over the following week as the plume disperses. The total mass of H2O injected by HTHH is estimated as 110 ± 14 Tg from measurements in the early plumes during 16–18 January, which equates to approximately 8% of the background global mass of stratospheric H2O. These RO measurements provide novel quantification of the unprecedented H2O amounts and the plume evolution during the first week after the HTHH eruption.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

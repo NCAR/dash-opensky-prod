@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14066</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:51.424708</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:29:14.117657</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To improve understanding of the convective processes key to the Madden-Julian oscillation (MJO) initiation, the Dynamics of the MJO (DYNAMO) and the Atmospheric Radiation Measurement Program (ARM) MJO Investigation Experiment (AMIE) collected 4 months of observations from three radars&#x2014;the S-band dual-polarization Doppler radar (S-Pol), the C-band Shared Mobile Atmospheric Research and Teaching Radar (SMART-R), and Ka-band ARM zenith radar (KAZR)&#x2014;along with radiosonde and comprehensive surface meteorological instruments on Addu Atoll, Maldives, in the tropical Indian Ocean. One DYNAMO/AMIE hypothesis suggests that the evolution of shallow and congestus cloud populations is essential to the initiation of the MJO. This study focuses on evaluating the ability of these three radars to document the full spectrum of cloud populations and to construct a merged cloud&#x2013;precipitation radar dataset that can be used to test this hypothesis. Comparisons between collocated observations from the three radars show that KAZR provides the only reliable estimate of shallow clouds, while S-Pol/SMART-R can reasonably detect congestus within the 30&#x2013;50-km range in addition to precipitating deep clouds. On the other hand, KAZR underestimates cloud-top heights due to rainfall attenuation in ~34% of the precipitating clouds, and an empirical method to correct KAZR cloud-top height bias is proposed. Finally, a merged KAZR&#x2013;S-Pol dataset is produced to provide improved cloud-top height estimates, total hydrometeor microphysics, and radiative heating rate retrievals. With this dataset the full spectrum of tropical convective clouds during DYNAMO/AMIE can be reliably constructed and, together with complimentary radiosonde data, it can be used to study the role of shallow and congestus clouds in the initiation of the MJO.</gco:CharacterString>
+            <gco:CharacterString>To improve understanding of the convective processes key to the Madden-Julian oscillation (MJO) initiation, the Dynamics of the MJO (DYNAMO) and the Atmospheric Radiation Measurement Program (ARM) MJO Investigation Experiment (AMIE) collected 4 months of observations from three radars—the S-band dual-polarization Doppler radar (S-Pol), the C-band Shared Mobile Atmospheric Research and Teaching Radar (SMART-R), and Ka-band ARM zenith radar (KAZR)—along with radiosonde and comprehensive surface meteorological instruments on Addu Atoll, Maldives, in the tropical Indian Ocean. One DYNAMO/AMIE hypothesis suggests that the evolution of shallow and congestus cloud populations is essential to the initiation of the MJO. This study focuses on evaluating the ability of these three radars to document the full spectrum of cloud populations and to construct a merged cloud–precipitation radar dataset that can be used to test this hypothesis. Comparisons between collocated observations from the three radars show that KAZR provides the only reliable estimate of shallow clouds, while S-Pol/SMART-R can reasonably detect congestus within the 30–50-km range in addition to precipitating deep clouds. On the other hand, KAZR underestimates cloud-top heights due to rainfall attenuation in ~34% of the precipitating clouds, and an empirical method to correct KAZR cloud-top height bias is proposed. Finally, a merged KAZR–S-Pol dataset is produced to provide improved cloud-top height estimates, total hydrometeor microphysics, and radiative heating rate retrievals. With this dataset the full spectrum of tropical convective clouds during DYNAMO/AMIE can be reliably constructed and, together with complimentary radiosonde data, it can be used to study the role of shallow and congestus clouds in the initiation of the MJO.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

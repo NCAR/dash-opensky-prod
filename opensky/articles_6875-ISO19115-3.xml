@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6875</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:26.878603</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:22:34.604604</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>A Chronology of El Ni&#xf1;o events from primary documentary sources in northern Peru</gco:CharacterString>
+                  <gco:CharacterString>A Chronology of El Niño events from primary documentary sources in northern Peru</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, Rolando R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6963-4592"
+                                    xlink:title="García, Rolando R."
+                                    xlink:actuate="onRequest">García, Rolando R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The authors present a chronology of El Ni&#xf1;o (EN) events based on documentary records from northern Peru. The chronology, which covers the period 1550&#x2013;1900, is constructed mainly from primary sources from the city of Trujillo (Peru), the Archivo General de Indias in Seville (Spain), and the Archivo General de la Naci&#xf3;n in Lima (Peru), supplemented by a reassessment of documentary evidence included in previously published literature. The archive in Trujillo has never been systematically evaluated for information related to the occurrence of El Ni&#xf1;o&#x2013;Southern Oscillation (ENSO). Abundant rainfall and river discharge correlate well with EN events in the area around Trujillo, which is very dry during most other years. Thus, rain and flooding descriptors, together with reports of failure of the local fishery, are the main indicators of EN occurrence that the authors have searched for in the documents. A total of 59 EN years are identified in this work. This chronology is compared with the two main previous documentary EN chronologies and with ENSO indicators derived from proxy data other than documentary sources. Overall, the seventeenth century appears to be the least active EN period, while the 1620s, 1720s, 1810s, and 1870s are the most active decades. The results herein reveal long-term fluctuations in warm ENSO activity that compare reasonably well with low-frequency variability deduced from other proxy data.</gco:CharacterString>
+            <gco:CharacterString>The authors present a chronology of El Niño (EN) events based on documentary records from northern Peru. The chronology, which covers the period 1550–1900, is constructed mainly from primary sources from the city of Trujillo (Peru), the Archivo General de Indias in Seville (Spain), and the Archivo General de la Nación in Lima (Peru), supplemented by a reassessment of documentary evidence included in previously published literature. The archive in Trujillo has never been systematically evaluated for information related to the occurrence of El Niño–Southern Oscillation (ENSO). Abundant rainfall and river discharge correlate well with EN events in the area around Trujillo, which is very dry during most other years. Thus, rain and flooding descriptors, together with reports of failure of the local fishery, are the main indicators of EN occurrence that the authors have searched for in the documents. A total of 59 EN years are identified in this work. This chronology is compared with the two main previous documentary EN chronologies and with ENSO indicators derived from proxy data other than documentary sources. Overall, the seventeenth century appears to be the least active EN period, while the 1620s, 1720s, 1810s, and 1870s are the most active decades. The results herein reveal long-term fluctuations in warm ENSO activity that compare reasonably well with low-frequency variability deduced from other proxy data.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22756</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:26.713217</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:27:48.511468</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -587,7 +588,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannay, Cecile E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6363-6151"
+                                    xlink:title="Hannay, Cecile E."
+                                    xlink:actuate="onRequest">Hannay, Cecile E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -727,7 +730,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lipscomb, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7100-3730"
+                                    xlink:title="Lipscomb, William"
+                                    xlink:actuate="onRequest">Lipscomb, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -797,7 +802,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Neale, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4222-3918"
+                                    xlink:title="Neale, Richard"
+                                    xlink:actuate="onRequest">Neale, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -1167,7 +1174,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This work documents the first version of the U.S. Department of Energy (DOE) new Energy Exascale Earth System Model (E3SMv1). We focus on the standard resolution of the fully coupled physical model designed to address DOE mission-relevant water cycle questions. Its components include atmosphere and land (110-km grid spacing), ocean and sea ice (60 km in the midlatitudes and 30 km at the equator and poles), and river transport (55 km) models. This base configuration will also serve as a foundation for additional configurations exploring higher horizontal resolution as well as augmented capabilities in the form of biogeochemistry and cryosphere configurations. The performance of E3SMv1 is evaluated by means of a standard set of Coupled Model Intercomparison Project Phase 6 (CMIP6) Diagnosis, Evaluation, and Characterization of Klima simulations consisting of a long preindustrial control, historical simulations (ensembles of fully coupled and prescribed SSTs) as well as idealized CO2 forcing simulations. The model performs well overall with biases typical of other CMIP-class models, although the simulated Atlantic Meridional Overturning Circulation is weaker than many CMIP-class models. While the E3SMv1 historical ensemble captures the bulk of the observed warming between preindustrial (1850) and present day, the trajectory of the warming diverges from observations in the second half of the twentieth century with a period of delayed warming followed by an excessive warming trend. Using a two-layer energy balance model, we attribute this divergence to the model's strong aerosol-related effective radiative forcing (ERFari+aci = &#x2212;1.65 W/m2) and high equilibrium climate sensitivity (ECS = 5.3 K).</gco:CharacterString>
+            <gco:CharacterString>This work documents the first version of the U.S. Department of Energy (DOE) new Energy Exascale Earth System Model (E3SMv1). We focus on the standard resolution of the fully coupled physical model designed to address DOE mission-relevant water cycle questions. Its components include atmosphere and land (110-km grid spacing), ocean and sea ice (60 km in the midlatitudes and 30 km at the equator and poles), and river transport (55 km) models. This base configuration will also serve as a foundation for additional configurations exploring higher horizontal resolution as well as augmented capabilities in the form of biogeochemistry and cryosphere configurations. The performance of E3SMv1 is evaluated by means of a standard set of Coupled Model Intercomparison Project Phase 6 (CMIP6) Diagnosis, Evaluation, and Characterization of Klima simulations consisting of a long preindustrial control, historical simulations (ensembles of fully coupled and prescribed SSTs) as well as idealized CO2 forcing simulations. The model performs well overall with biases typical of other CMIP-class models, although the simulated Atlantic Meridional Overturning Circulation is weaker than many CMIP-class models. While the E3SMv1 historical ensemble captures the bulk of the observed warming between preindustrial (1850) and present day, the trajectory of the warming diverges from observations in the second half of the twentieth century with a period of delayed warming followed by an excessive warming trend. Using a two-layer energy balance model, we attribute this divergence to the model's strong aerosol-related effective radiative forcing (ERFari+aci = −1.65 W/m2) and high equilibrium climate sensitivity (ECS = 5.3 K).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25815</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:58:32.276060</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:01:17.885005</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Juliano, Timothy W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0417-0886"
+                                    xlink:title="Juliano, Timothy W."
+                                    xlink:actuate="onRequest">Juliano, Timothy W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Wind plant wake impacts can be estimated with a number of simulation methodologies, each with its own fidelity and sensitivity to model inputs. In turbine-free mesoscale simulations, hub-height wind speeds often significantly vary with the choice of a planetary boundary layer (PBL) scheme. However, the sensitivity of wind plant wakes to a PBL scheme has not been explored because, as of the Weather Research and Forecasting model v4.3.3, wake parameterizations were only compatible with one PBL scheme. We couple the Fitch wind farm parameterization with the new NCAR 3DPBL scheme and compare the resulting wakes to those simulated with a widely used PBL scheme. We simulate a wind plant in pseudo-steady states under idealized stable, neutral, and unstable conditions with matching hub-height wind speeds using two PBL schemes: MYNN and the NCAR 3DPBL. For these idealized scenarios, average hub-height wind speed losses within the plant differ between PBL schemes by between &#x2212;0.20 and 0.22&#x2009;m&#x2009;s&#x2212;1, and correspondingly, capacity factors range between 39.5&#x2009;%&#x2013;53.8&#x2009;%. These simulations suggest that PBL schemes represent a meaningful source of modeled wind resource uncertainty; therefore, we recommend incorporating PBL variability into future wind plant planning sensitivity studies as well as wind forecasting studies.</gco:CharacterString>
+            <gco:CharacterString>Wind plant wake impacts can be estimated with a number of simulation methodologies, each with its own fidelity and sensitivity to model inputs. In turbine-free mesoscale simulations, hub-height wind speeds often significantly vary with the choice of a planetary boundary layer (PBL) scheme. However, the sensitivity of wind plant wakes to a PBL scheme has not been explored because, as of the Weather Research and Forecasting model v4.3.3, wake parameterizations were only compatible with one PBL scheme. We couple the Fitch wind farm parameterization with the new NCAR 3DPBL scheme and compare the resulting wakes to those simulated with a widely used PBL scheme. We simulate a wind plant in pseudo-steady states under idealized stable, neutral, and unstable conditions with matching hub-height wind speeds using two PBL schemes: MYNN and the NCAR 3DPBL. For these idealized scenarios, average hub-height wind speed losses within the plant differ between PBL schemes by between −0.20 and 0.22 m s−1, and correspondingly, capacity factors range between 39.5 %–53.8 %. These simulations suggest that PBL schemes represent a meaningful source of modeled wind resource uncertainty; therefore, we recommend incorporating PBL variability into future wind plant planning sensitivity studies as well as wind forecasting studies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

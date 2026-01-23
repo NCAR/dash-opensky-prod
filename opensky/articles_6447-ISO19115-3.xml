@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6447</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:02.668634</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:15:10.071625</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tolonen-Kivim&#xe4;ki, O.</gco:CharacterString>
+                        <gco:CharacterString>Tolonen-Kivimäki, O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +168,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pet&#xe4;j&#xe4;, Tuukka</gco:CharacterString>
+                        <gco:CharacterString>Petäjä, Tuukka</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper represents the results of one year long measurement period of the size distributions of water-soluble organic carbon (WSOC), inorganic ions and gravimetric mass of particulate matter. Measurements were done at an urban background station (SMEAR III) by using a micro-orifice uniform deposit impactor (MOUDI). The site is located in northern European boreal region in Helsinki, Finland. The WSOC size distribution measurements were completed with the chemical analysis of inorganic ions, organic carbon (OC) and monosaccharide anhydrides from the filter samples (particle aerodynamic diameter smaller than 1 &#x3bc;m, PM&#x2081;). Gravimetric mass concentration varied during the MOUDI samplings between 3.4 and 55.0 &#x3bc;g m&#x207b;&#xb3; and the WSOC concentrations were between 0.3 and 7.4 &#x3bc;g m&#x207b;&#xb3;. On average, water-soluble particulate organic matter (WSPOM, WSOC multiplied by 1.6 to convert the analyzed carbon mass to organic matter mass) comprised 25&#xb1;7.7% and 7.5&#xb1;3.4% of aerosol PM&#x2081; mass and the PM&#x2081;&#x208b;&#x2081;&#x2080; mass, respectively. Inorganic ions contributed 33&#xb1;12% and 28&#xb1;19% of the analyzed PM1 and PM&#x2081;&#x208b;&#x2081;&#x2080; aerosol mass. Five different aerosol categories corresponding to different sources or source areas were identified (long-range transport aerosols, biomass burning aerosols from wild land fires and from small-scale wood combustion, aerosols originating from marine areas and from the clean arctic areas). Categories were identified mainly using levoglucosan concentration level for wood combustion and air mass backward trajectories for other groups. Clear differences in WSOC concentrations and size distributions originating from different sources or source areas were observed, although there are also many other factors which might affect the results. E.g. the local conditions and sources of volatile organic compounds (VOCs) and aerosols as well as various transformation processes are likely to have an impact on the measured aerosol composition. Using the source categories, it was identified that especially the oxidation products of biogenic VOCs in summer had a clear effect on WSOC concentrations.</gco:CharacterString>
+            <gco:CharacterString>This paper represents the results of one year long measurement period of the size distributions of water-soluble organic carbon (WSOC), inorganic ions and gravimetric mass of particulate matter. Measurements were done at an urban background station (SMEAR III) by using a micro-orifice uniform deposit impactor (MOUDI). The site is located in northern European boreal region in Helsinki, Finland. The WSOC size distribution measurements were completed with the chemical analysis of inorganic ions, organic carbon (OC) and monosaccharide anhydrides from the filter samples (particle aerodynamic diameter smaller than 1 μm, PM₁). Gravimetric mass concentration varied during the MOUDI samplings between 3.4 and 55.0 μg m⁻³ and the WSOC concentrations were between 0.3 and 7.4 μg m⁻³. On average, water-soluble particulate organic matter (WSPOM, WSOC multiplied by 1.6 to convert the analyzed carbon mass to organic matter mass) comprised 25±7.7% and 7.5±3.4% of aerosol PM₁ mass and the PM₁₋₁₀ mass, respectively. Inorganic ions contributed 33±12% and 28±19% of the analyzed PM1 and PM₁₋₁₀ aerosol mass. Five different aerosol categories corresponding to different sources or source areas were identified (long-range transport aerosols, biomass burning aerosols from wild land fires and from small-scale wood combustion, aerosols originating from marine areas and from the clean arctic areas). Categories were identified mainly using levoglucosan concentration level for wood combustion and air mass backward trajectories for other groups. Clear differences in WSOC concentrations and size distributions originating from different sources or source areas were observed, although there are also many other factors which might affect the results. E.g. the local conditions and sources of volatile organic compounds (VOCs) and aerosols as well as various transformation processes are likely to have an impact on the measured aerosol composition. Using the source categories, it was identified that especially the oxidation products of biogenic VOCs in summer had a clear effect on WSOC concentrations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

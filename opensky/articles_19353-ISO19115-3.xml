@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19353</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:53:00.885583</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:38:09.530122</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tyndall, Geoffrey S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0695-5241"
+                                    xlink:title="Tyndall, Geoffrey S."
+                                    xlink:actuate="onRequest">Tyndall, Geoffrey S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Product branching ratios for the gas-phase reactions of i-butanol, (CH3)2CHCH2OH, with OH radicals (251, 294, and 340 K) and Cl atoms (294 K) were quantified in an environmental chamber study and used to interpret i-butanol site-specific reactivity. i-Butyraldehyde, acetone, acetaldehyde, and formaldehyde were observed as major stable end products in both reaction systems with carbon mass balance indistinguishable from unity. Product branching ratios for OH oxidation were found to be temperature-dependent with the &#x3b1;, &#x3b2;, and &#x3b3; channels changing from 34 &#xb1; 6 to 47 &#xb1; 1%, from 58 &#xb1; 6 to 37 &#xb1; 9%, and from 8 &#xb1; 1 to 16 &#xb1; 4%, respectively, between 251 and 340 K. Recommended temperature-dependent site-specific modified Arrhenius expressions for the OH reaction rate coefficient are (cm3 molecule-1 s-1): k&#x3b1;(T) = 8.64 &#xd7; 10-18 &#xd7; T1.91exp(666/T); k&#x3b2;(T) = 5.15 &#xd7; 10-19 &#xd7; T2.04exp(1304/T); k&#x3b3;(T) = 3.20 &#xd7; 10-17 &#xd7; T1.78exp(107/T); kOH(T) = 2.10 &#xd7; 10-18 &#xd7; T2exp(&#x2212;23/T), where kTotal(T) = k&#x3b1;(T) + k&#x3b2;(T) + k&#x3b3;(T) + kOH(T). The expressions were constrained using the product branching ratios measured in this study and previous total phenomenological rate coefficient measurements. The site-specific expressions compare reasonably well with recent theoretical work. It is shown that use of i-butanol would result in acetone as the dominant degradation product under most atmospheric conditions.</gco:CharacterString>
+            <gco:CharacterString>Product branching ratios for the gas-phase reactions of i-butanol, (CH3)2CHCH2OH, with OH radicals (251, 294, and 340 K) and Cl atoms (294 K) were quantified in an environmental chamber study and used to interpret i-butanol site-specific reactivity. i-Butyraldehyde, acetone, acetaldehyde, and formaldehyde were observed as major stable end products in both reaction systems with carbon mass balance indistinguishable from unity. Product branching ratios for OH oxidation were found to be temperature-dependent with the α, β, and γ channels changing from 34 ± 6 to 47 ± 1%, from 58 ± 6 to 37 ± 9%, and from 8 ± 1 to 16 ± 4%, respectively, between 251 and 340 K. Recommended temperature-dependent site-specific modified Arrhenius expressions for the OH reaction rate coefficient are (cm3 molecule-1 s-1): kα(T) = 8.64 × 10-18 × T1.91exp(666/T); kβ(T) = 5.15 × 10-19 × T2.04exp(1304/T); kγ(T) = 3.20 × 10-17 × T1.78exp(107/T); kOH(T) = 2.10 × 10-18 × T2exp(−23/T), where kTotal(T) = kα(T) + kβ(T) + kγ(T) + kOH(T). The expressions were constrained using the product branching ratios measured in this study and previous total phenomenological rate coefficient measurements. The site-specific expressions compare reasonably well with recent theoretical work. It is shown that use of i-butanol would result in acetone as the dominant degradation product under most atmospheric conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

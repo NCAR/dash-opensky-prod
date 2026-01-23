@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23332</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:21:00.365476</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:15:04.966418</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Qian, Liying</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2430-1388"
+                                    xlink:title="Qian, Liying"
+                                    xlink:actuate="onRequest">Qian, Liying</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This work reports the analysis of the local-time variations of daytime CO2 in the Upper Mesosphere and Lower Thermosphere region as observed by the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument onboard the Thermosphere Ionosphere Mesosphere Energetics and Dynamics satellite. Results show that daytime SABER CO2 in the upper mesosphere between latitudes 30&#xb0;S and 50&#xb0;N is lower in the morning than in the afternoon. The same was found in the lower thermosphere but between latitudes 50&#xb0;S and 50&#xb0;N. The opposite was found in the upper mesosphere between 50&#xb0;S and 30&#xb0;S. These results are compared to simulations of CO2 by the Whole Atmosphere Community Climate Model-eXtended. It was found that the local-time variations of Whole Atmosphere Community Climate Model&#x2013;eXtended CO2 are weaker than SABER CO2. Model diagnostics indicated that these local-time variations in the model are driven primarily (secondarily) by strong vertical (meridional) gradients in Upper Mesosphere and Lower Thermosphere CO2 volume mixing ratios and strong local-time variations in vertical (meridional) winds. This work concludes that SABER CO2 shows significant local-time variations that are not well simulated by Whole Atmosphere Community Climate Model-eXtended, and we suggest that this is likely because of weaker tidal forcing in the model.</gco:CharacterString>
+            <gco:CharacterString>This work reports the analysis of the local-time variations of daytime CO2 in the Upper Mesosphere and Lower Thermosphere region as observed by the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument onboard the Thermosphere Ionosphere Mesosphere Energetics and Dynamics satellite. Results show that daytime SABER CO2 in the upper mesosphere between latitudes 30°S and 50°N is lower in the morning than in the afternoon. The same was found in the lower thermosphere but between latitudes 50°S and 50°N. The opposite was found in the upper mesosphere between 50°S and 30°S. These results are compared to simulations of CO2 by the Whole Atmosphere Community Climate Model-eXtended. It was found that the local-time variations of Whole Atmosphere Community Climate Model–eXtended CO2 are weaker than SABER CO2. Model diagnostics indicated that these local-time variations in the model are driven primarily (secondarily) by strong vertical (meridional) gradients in Upper Mesosphere and Lower Thermosphere CO2 volume mixing ratios and strong local-time variations in vertical (meridional) winds. This work concludes that SABER CO2 shows significant local-time variations that are not well simulated by Whole Atmosphere Community Climate Model-eXtended, and we suggest that this is likely because of weaker tidal forcing in the model.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

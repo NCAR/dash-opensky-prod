@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16819</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:25.731526</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:06:42.016655</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaser, Lisa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4835-8373"
+                                    xlink:title="Kaser, Lisa"
+                                    xlink:actuate="onRequest">Kaser, Lisa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +204,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +216,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +280,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +312,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Emissions of methane (CH&#x2084;) and volatile organic compounds (VOCs) from oil and gas production may have large impacts on air quality and climate change. Methane and VOCs were measured over the Haynesville and Marcellus shale gas plays on board the National Center for Atmospheric Research C-130 and NOAA WP-3D research aircraft in June-July of 2013. We used an eddy covariance technique to measure in situ fluxes of CH&#x2084; and benzene from both C-130 flights with high-resolution data (10&#x2009;Hz) and WP-3D flights with low-resolution data (1&#x2009;Hz). Correlation (R&#x2009;=&#x2009;0.65) between CH&#x2084; and benzene fluxes was observed when flying over shale gas operations, and the enhancement ratio of fluxes was consistent with the corresponding concentration observations. Fluxes calculated by the eddy covariance method show agreement with a mass balance approach within their combined uncertainties. In general, CH&#x2084; fluxes in the shale gas regions follow a lognormal distribution, with some deviations for relatively large fluxes (&gt;10&#x2009;&#xb5;g&#x2009;m&#x207b;&#xb2;&#x2009;s&#x207b;&#xb9;). Statistical analysis of the fluxes shows that a small number of facilities (i.e., ~10%) are responsible for up to ~40% of the total CH&#x2084; emissions in the two regions. We show that the airborne eddy covariance method can also be applied in some circumstances when meteorological conditions do not favor application of the mass balance method. We suggest that the airborne eddy covariance method is a reliable alternative and complementary analysis method to estimate emissions from oil and gas extraction.</gco:CharacterString>
+            <gco:CharacterString>Emissions of methane (CH₄) and volatile organic compounds (VOCs) from oil and gas production may have large impacts on air quality and climate change. Methane and VOCs were measured over the Haynesville and Marcellus shale gas plays on board the National Center for Atmospheric Research C-130 and NOAA WP-3D research aircraft in June-July of 2013. We used an eddy covariance technique to measure in situ fluxes of CH₄ and benzene from both C-130 flights with high-resolution data (10 Hz) and WP-3D flights with low-resolution data (1 Hz). Correlation (R = 0.65) between CH₄ and benzene fluxes was observed when flying over shale gas operations, and the enhancement ratio of fluxes was consistent with the corresponding concentration observations. Fluxes calculated by the eddy covariance method show agreement with a mass balance approach within their combined uncertainties. In general, CH₄ fluxes in the shale gas regions follow a lognormal distribution, with some deviations for relatively large fluxes (&gt;10 µg m⁻² s⁻¹). Statistical analysis of the fluxes shows that a small number of facilities (i.e., ~10%) are responsible for up to ~40% of the total CH₄ emissions in the two regions. We show that the airborne eddy covariance method can also be applied in some circumstances when meteorological conditions do not favor application of the mass balance method. We suggest that the airborne eddy covariance method is a reliable alternative and complementary analysis method to estimate emissions from oil and gas extraction.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6255</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:51.815575</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:17:45.120690</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>There have been relatively few studies of turbulent collision rate of sedimenting droplets in the context of cloud physics, for which both the gravitational settling and inertial effects must be simultaneously considered. In this study, direct numerical simulations (DNS) were used to study the geometric collision rates of cloud droplets. Both Stokes drag law and a nonlinear drag law were considered, but the droplet-droplet local aerodynamic interactions were not included. Typical droplet and turbulence parameters of convective clouds were used to determine the flow dissipation rate &#x3b5;, characteristic Stokes numbers, and the nondimensional terminal velocities. DNS results from a large number of runs covering the &#x3b5; range from 10 to 400 cm&#xb2; s&#x207b;&#xb3; and droplet sizes from 10 to 60 &#x3bc;m in radius are presented. These results show that air turbulence can increase the geometric collision kernel by up to 47%, relative to geometric collision by differential sedimentation. This is due to both a moderate enhancement of the radial relative velocity between droplets and a moderate level of pair nonuniform concentration due to local droplet clustering. The turbulence enhancements increase with the flow dissipation rate and flow Reynolds number. Comparisons with related DNS studies show that our results confirm and extend the previous findings. The mean settling velocity of droplets in a turbulent flow was also obtained, showing that a maximum increase relative to the terminal velocity occurs for 20 &#x3bc;m cloud droplets. This agrees with a previous theory based on simple vortex flows and confirms the importance of a new nondimensional parameter &#x3c4;p&#xb3;g&#xb2;/&#x3bd; for sedimenting droplets, where &#x3c4;p is the droplet inertial response time, g is the gravitational acceleration and &#x3bd; is the air kinematic viscosity. Limitations of DNS and future directions are also noted.</gco:CharacterString>
+            <gco:CharacterString>There have been relatively few studies of turbulent collision rate of sedimenting droplets in the context of cloud physics, for which both the gravitational settling and inertial effects must be simultaneously considered. In this study, direct numerical simulations (DNS) were used to study the geometric collision rates of cloud droplets. Both Stokes drag law and a nonlinear drag law were considered, but the droplet-droplet local aerodynamic interactions were not included. Typical droplet and turbulence parameters of convective clouds were used to determine the flow dissipation rate ε, characteristic Stokes numbers, and the nondimensional terminal velocities. DNS results from a large number of runs covering the ε range from 10 to 400 cm² s⁻³ and droplet sizes from 10 to 60 μm in radius are presented. These results show that air turbulence can increase the geometric collision kernel by up to 47%, relative to geometric collision by differential sedimentation. This is due to both a moderate enhancement of the radial relative velocity between droplets and a moderate level of pair nonuniform concentration due to local droplet clustering. The turbulence enhancements increase with the flow dissipation rate and flow Reynolds number. Comparisons with related DNS studies show that our results confirm and extend the previous findings. The mean settling velocity of droplets in a turbulent flow was also obtained, showing that a maximum increase relative to the terminal velocity occurs for 20 μm cloud droplets. This agrees with a previous theory based on simple vortex flows and confirms the importance of a new nondimensional parameter τp³g²/ν for sedimenting droplets, where τp is the droplet inertial response time, g is the gravitational acceleration and ν is the air kinematic viscosity. Limitations of DNS and future directions are also noted.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6467</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:49.142320</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:26:25.074236</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An open question in cloud physics is how rain forms in warm cumulus as rapidly as it is sometimes observed. In particular, the growth of cloud droplets across the size gap from 10 to 50 &#x3bc;m in radius has not been fully explained. In this paper, the authors investigate the growth of cloud droplets by collision--coalescence, taking into account both the gravitational mechanism and several enhancements of the collision--coalescence rate due to air turbulence. The kinetic collection equation (KCE) is solved with an accurate bin integral method and a newly developed parameterization of turbulent collection kernel derived from direct numerical simulation of droplet-laden turbulent flows. Three other formulations of the turbulent collection kernel are also considered so as to assess the dependence of the rain initiation time on the nature of the collection kernel. The results are compared to the base case using the Hall hydrodynamical--gravitational collection kernel. Under liquid water content and eddy dissipation rate values typical of small cumulus clouds, it is found that air turbulence has a significant impact on the collection kernel and thus on the time required to form drizzle drops. With the most realistic turbulent kernel, the air turbulence can shorten the time for the formation of drizzle drops by about 40% relative to the base case, applying measures based on either the radar reflectivity or the mass-weighted drop size. A methodology is also developed to unambiguously identify the three phases of droplet growth, namely, the autoconversion phase, the accretion phase, and the larger hydrometeor self-collection phase. The important observation is that even a moderate enhancement of collection kernel by turbulence can have a significant impact on the autoconversion phase of the growth.</gco:CharacterString>
+            <gco:CharacterString>An open question in cloud physics is how rain forms in warm cumulus as rapidly as it is sometimes observed. In particular, the growth of cloud droplets across the size gap from 10 to 50 μm in radius has not been fully explained. In this paper, the authors investigate the growth of cloud droplets by collision--coalescence, taking into account both the gravitational mechanism and several enhancements of the collision--coalescence rate due to air turbulence. The kinetic collection equation (KCE) is solved with an accurate bin integral method and a newly developed parameterization of turbulent collection kernel derived from direct numerical simulation of droplet-laden turbulent flows. Three other formulations of the turbulent collection kernel are also considered so as to assess the dependence of the rain initiation time on the nature of the collection kernel. The results are compared to the base case using the Hall hydrodynamical--gravitational collection kernel. Under liquid water content and eddy dissipation rate values typical of small cumulus clouds, it is found that air turbulence has a significant impact on the collection kernel and thus on the time required to form drizzle drops. With the most realistic turbulent kernel, the air turbulence can shorten the time for the formation of drizzle drops by about 40% relative to the base case, applying measures based on either the radar reflectivity or the mass-weighted drop size. A methodology is also developed to unambiguously identify the three phases of droplet growth, namely, the autoconversion phase, the accretion phase, and the larger hydrometeor self-collection phase. The important observation is that even a moderate enhancement of collection kernel by turbulence can have a significant impact on the autoconversion phase of the growth.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6522</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:14.441439</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:12:47.928383</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Measurements of HNo&#x2083; and N&#x2082;O&#x2085; using ion drift-chemical ionization mass spectrometry during the MILAGRO/MCMA-2006 campaign</gco:CharacterString>
+                  <gco:CharacterString>Measurements of HNo₃ and N₂O₅ using ion drift-chemical ionization mass spectrometry during the MILAGRO/MCMA-2006 campaign</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -247,7 +248,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An ion drift-chemical ionization mass spectrometer (ID-CIMS) was deployed in Mexico City between 7 and 31 March to measure gas-phase nitric acid (HNO&#x2083;) and dinitrogen pentoxide (N&#x2082;O&#x2085; during the Mexico City Metropolitan Area (MCMA)-2006 field campaign. The observation site was located at the Instituto Mexicano del Petr&#xf3;leo in the northern part of Mexico City urban area with major emissions of pollutants from residential, vehicular and industrial sources. Diurnally, HNO&#x2083; was less than 200 parts per trillion (ppt) during the night and early morning. The concentration of HNO&#x2083; increased steadily from around 09:00 a.m. central standard time (CST), reached a peak value of 0.5 to 3 parts per billion (ppb) in the early afternoon, and then declined sharply to less than half of the peak value near 05:00 p.m. CST. An inter-comparison between the ID-CIMS and an ion chromatograph/mass spectrometer (ICMS) showed a good agreement between the two HNO&#x2083; measurements (R&#xb2;=0.75). The HNO&#x2083; mixing ratio was found to anti-correlate with submicron-sized aerosol nitrate, suggesting that the gas-particle partitioning process was a major factor in determining the gaseous HNO&#x2083; concentration. Losses by irreversible reactions with mineral dust and via dry deposition also could be important at this site. Most of the times during the MCMA 2006 field campaign, N&#x2082;O&#x2085; was found to be below the detection limit (about 30 ppt for a 10 s integration time) of the ID-CIMS, because of high NO mixing ratio at the surface (&gt;100 ppb) during the night. An exception occurred on 26 March 2006, when about 40 ppt N2O&#x2085; was observed during the late afternoon and early evening hours under cloudy conditions before the build-up of NO at the surface site. The results revealed that during the MCMA-2006 field campaign HNO&#x2083; was primarily produced from the reaction of OH with NO&#x2082; and regulated by gas/particle transfer and dry deposition. The production of HNO&#x2083; from N2O&#x2085; hydrolysis during the nighttime was small because of high NO and low O&#x2083; concentrations near the surface.</gco:CharacterString>
+            <gco:CharacterString>An ion drift-chemical ionization mass spectrometer (ID-CIMS) was deployed in Mexico City between 7 and 31 March to measure gas-phase nitric acid (HNO₃) and dinitrogen pentoxide (N₂O₅ during the Mexico City Metropolitan Area (MCMA)-2006 field campaign. The observation site was located at the Instituto Mexicano del Petróleo in the northern part of Mexico City urban area with major emissions of pollutants from residential, vehicular and industrial sources. Diurnally, HNO₃ was less than 200 parts per trillion (ppt) during the night and early morning. The concentration of HNO₃ increased steadily from around 09:00 a.m. central standard time (CST), reached a peak value of 0.5 to 3 parts per billion (ppb) in the early afternoon, and then declined sharply to less than half of the peak value near 05:00 p.m. CST. An inter-comparison between the ID-CIMS and an ion chromatograph/mass spectrometer (ICMS) showed a good agreement between the two HNO₃ measurements (R²=0.75). The HNO₃ mixing ratio was found to anti-correlate with submicron-sized aerosol nitrate, suggesting that the gas-particle partitioning process was a major factor in determining the gaseous HNO₃ concentration. Losses by irreversible reactions with mineral dust and via dry deposition also could be important at this site. Most of the times during the MCMA 2006 field campaign, N₂O₅ was found to be below the detection limit (about 30 ppt for a 10 s integration time) of the ID-CIMS, because of high NO mixing ratio at the surface (&gt;100 ppb) during the night. An exception occurred on 26 March 2006, when about 40 ppt N2O₅ was observed during the late afternoon and early evening hours under cloudy conditions before the build-up of NO at the surface site. The results revealed that during the MCMA-2006 field campaign HNO₃ was primarily produced from the reaction of OH with NO₂ and regulated by gas/particle transfer and dry deposition. The production of HNO₃ from N2O₅ hydrolysis during the nighttime was small because of high NO and low O₃ concentrations near the surface.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

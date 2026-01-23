@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25247</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:05:00.982444</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:47:37.372091</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -108,7 +109,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The FastEddy&#xae; resident-GPU Accelerated large-eddy simulation framework: Moist dynamics extension, validation and sensitivities of modeling non-precipitating shallow cumulus clouds</gco:CharacterString>
+                  <gco:CharacterString>The FastEddy® resident-GPU Accelerated large-eddy simulation framework: Moist dynamics extension, validation and sensitivities of modeling non-precipitating shallow cumulus clouds</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mu&#xf1;oz-Esparza, Domingo</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2943-0376"
+                                    xlink:title="Muñoz-Esparza, Domingo"
+                                    xlink:actuate="onRequest">Muñoz-Esparza, Domingo</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sauer, Jeremy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6500-2152"
+                                    xlink:title="Sauer, Jeremy"
+                                    xlink:actuate="onRequest">Sauer, Jeremy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, Anders A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-2839"
+                                    xlink:title="Jensen, Anders A."
+                                    xlink:actuate="onRequest">Jensen, Anders A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xue, Lulin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5501-9134"
+                                    xlink:title="Xue, Lulin"
+                                    xlink:actuate="onRequest">Xue, Lulin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +208,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Herein we describe the moist dynamics formulation implemented within the graphics processing unit-resident large-eddy simulation FastEddy&#xae; model, which includes a simple saturation adjustment scheme for condensation and evaporation processes. Two LES model intercomparison exercises for non-precipitating shallow cumulus clouds are simulated in order to validate this model extension, including a static forcing and a time-dependent forcing case. Overall, we find our dynamical, thermodynamical and microphysical quantities, along with turbulence variability and fluxes, to be commensurate with the corresponding model intercomparison results. In addition, sensitivities to specific model settings are investigated. Among these settings, it is shown that boundary layer and cloud layer structure and characteristics are sensitive to use of higher-order advection schemes impacting the vertical distribution of cloud content and associated turbulence statistics. Increasing the timescale of the saturation scheme leads to enhanced liquid water presence and decreases vertical velocity variance within the cloud deck. In some cases, these sensitivities agree with the model-to-model variability reported in the intercomparison exercises, highlighting the important role of specific model implementation choices in the context of shallow cumulus convection simulations. These analyses and findings also provide the basis for future extensions and applications of FastEddy&#xae; for modeling moist convection and precipitation scenarios.</gco:CharacterString>
+            <gco:CharacterString>Herein we describe the moist dynamics formulation implemented within the graphics processing unit-resident large-eddy simulation FastEddy® model, which includes a simple saturation adjustment scheme for condensation and evaporation processes. Two LES model intercomparison exercises for non-precipitating shallow cumulus clouds are simulated in order to validate this model extension, including a static forcing and a time-dependent forcing case. Overall, we find our dynamical, thermodynamical and microphysical quantities, along with turbulence variability and fluxes, to be commensurate with the corresponding model intercomparison results. In addition, sensitivities to specific model settings are investigated. Among these settings, it is shown that boundary layer and cloud layer structure and characteristics are sensitive to use of higher-order advection schemes impacting the vertical distribution of cloud content and associated turbulence statistics. Increasing the timescale of the saturation scheme leads to enhanced liquid water presence and decreases vertical velocity variance within the cloud deck. In some cases, these sensitivities agree with the model-to-model variability reported in the intercomparison exercises, highlighting the important role of specific model implementation choices in the context of shallow cumulus convection simulations. These analyses and findings also provide the basis for future extensions and applications of FastEddy® for modeling moist convection and precipitation scenarios.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

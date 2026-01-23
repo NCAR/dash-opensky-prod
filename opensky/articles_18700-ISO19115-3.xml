@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18700</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:45:57.036880</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:44:24.793805</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +214,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +266,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +350,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +362,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +374,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +396,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Gas-phase volatile organic compounds (VOCs) were measured at three vertical levels between 0.6&#x2009;m and 5.4&#x2009;m in the Arctic boundary layer in Barrow, Alaska, for the Ocean-Atmosphere-Sea Ice-Snowpack (OASIS)-2009 field campaign during March-April 2009. C4-C8 nonmethane hydrocarbons (NMHCs) and oxygenated VOCs (OVOCs), including alcohols, aldehydes, and ketones, were quantified multiple times per hour, day and night, during the campaign using in situ fast gas chromatography-mass spectrometry. Three canister samples were also collected daily and subsequently analyzed for C2-C5 NMHCs. The NMHCs and aldehydes demonstrated an overall decrease in mixing ratios during the experiment, whereas acetone and 2-butanone showed increases. Calculations of time-integrated concentrations of Br atoms, &#x222b;[Br]dt, yielded values as high as (1.34&#x2009;&#xb1;&#x2009;0.27)&#x2009;&#xd7;&#x2009;1014&#x2009;cm-3&#x2009;s during the longest observed ozone depletion event (ODE) of the campaign and were correlated with the steady state Br calculated at the site during this time. Both chlorine and bromine chemistry contributed to the large perturbations on the production and losses of VOCs. Notably, acetaldehyde, propanal, and butanal mixing ratios dropped below the detection limit of the instrument (3 parts per trillion by volume (pptv) for acetaldehyde and propanal, 2&#x2009;pptv for butanal) during several ODEs due to Br chemistry. Chemical flux calculations of OVOC production and loss are consistent with localized high Cl-atom concentrations either regionally or within a very shallow surface layer, while the deeper Arctic boundary layer provides a continuous source of precursor alkanes to maintain the OVOC mixing ratios.</gco:CharacterString>
+            <gco:CharacterString>Gas-phase volatile organic compounds (VOCs) were measured at three vertical levels between 0.6 m and 5.4 m in the Arctic boundary layer in Barrow, Alaska, for the Ocean-Atmosphere-Sea Ice-Snowpack (OASIS)-2009 field campaign during March-April 2009. C4-C8 nonmethane hydrocarbons (NMHCs) and oxygenated VOCs (OVOCs), including alcohols, aldehydes, and ketones, were quantified multiple times per hour, day and night, during the campaign using in situ fast gas chromatography-mass spectrometry. Three canister samples were also collected daily and subsequently analyzed for C2-C5 NMHCs. The NMHCs and aldehydes demonstrated an overall decrease in mixing ratios during the experiment, whereas acetone and 2-butanone showed increases. Calculations of time-integrated concentrations of Br atoms, ∫[Br]dt, yielded values as high as (1.34 ± 0.27) × 1014 cm-3 s during the longest observed ozone depletion event (ODE) of the campaign and were correlated with the steady state Br calculated at the site during this time. Both chlorine and bromine chemistry contributed to the large perturbations on the production and losses of VOCs. Notably, acetaldehyde, propanal, and butanal mixing ratios dropped below the detection limit of the instrument (3 parts per trillion by volume (pptv) for acetaldehyde and propanal, 2 pptv for butanal) during several ODEs due to Br chemistry. Chemical flux calculations of OVOC production and loss are consistent with localized high Cl-atom concentrations either regionally or within a very shallow surface layer, while the deeper Arctic boundary layer provides a continuous source of precursor alkanes to maintain the OVOC mixing ratios.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6349</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:56.909647</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:17:57.412306</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sipil&#xe4;, M.</gco:CharacterString>
+                        <gco:CharacterString>Sipilä, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +148,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pet&#xe4;j&#xe4;, Tuukka</gco:CharacterString>
+                        <gco:CharacterString>Petäjä, Tuukka</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +188,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kyr&#xf6;, E.</gco:CharacterString>
+                        <gco:CharacterString>Kyrö, E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>K&#xfc;rten, A.</gco:CharacterString>
+                        <gco:CharacterString>Kürten, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +268,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study presents an evaluation of a pulse height condensation particle counter (PH-CPC) and an expansion condensation particle counter (E-CPC) in terms of measuring ambient and laboratory-generated molecular and ion clusters. Ambient molecular cluster concentrations were measured with both instruments as they were deployed in conjunction with an ion spectrometer and other aerosol instruments in Hyyti&#xe4;l&#xe4;, Finland at the SMEAR II station between 1 March and 30 June 2007. The observed cluster concentrations varied and ranged from some thousands to 100 000 cm&#x207b;&#xb3;. Both instruments showed similar (within a factor of ~5) concentrations. An average size of the detected clusters was approximately 1.8 nm. As the atmospheric measurement of sub 2-nm particles and molecular clusters is a challenging task, we conclude that most likely we were unable to detect the smallest clusters. Nevertheless, the reported concentrations are the best estimates to date for minimum cluster concentrations in a boreal forest environment.</gco:CharacterString>
+            <gco:CharacterString>This study presents an evaluation of a pulse height condensation particle counter (PH-CPC) and an expansion condensation particle counter (E-CPC) in terms of measuring ambient and laboratory-generated molecular and ion clusters. Ambient molecular cluster concentrations were measured with both instruments as they were deployed in conjunction with an ion spectrometer and other aerosol instruments in Hyytiälä, Finland at the SMEAR II station between 1 March and 30 June 2007. The observed cluster concentrations varied and ranged from some thousands to 100 000 cm⁻³. Both instruments showed similar (within a factor of ~5) concentrations. An average size of the detected clusters was approximately 1.8 nm. As the atmospheric measurement of sub 2-nm particles and molecular clusters is a challenging task, we conclude that most likely we were unable to detect the smallest clusters. Nevertheless, the reported concentrations are the best estimates to date for minimum cluster concentrations in a boreal forest environment.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

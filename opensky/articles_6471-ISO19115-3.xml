@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6471</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:24.737227</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:16:18.697894</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deierling, Wiebke</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7756-7019"
+                                    xlink:title="Deierling, Wiebke"
+                                    xlink:actuate="onRequest">Deierling, Wiebke</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study investigates the relationship of total lightning activity and updraft characteristics, such as updraft volume and maximum updraft speed, for a number of storms of different types occurring in the High Plains and in Northern Alabama. Ground-based Doppler and dual polarimetric radar observations were used to compute updraft characteristics. Also, ground-based total lightning data were available at both locations. Results show that time series of updraft volume in the charging zone (at temperatures colder than -5&#xb0;C) with vertical velocities greater than either 5 or 10 m s&#x207b;&#xb9; have clear relationships with total lightning activity (r = 0.93). Furthermore, these relationships between updraft volume and lightning activity for the storm types of the two climate regimes tend to converge when considering only the subfreezing layers of the clouds. Neither the maximum nor the mean updraft speed correlate as well with total lightning activity (r = &lt;0.8) as updraft volume. Through expanded study designed to explore further regime variability (or lack thereof) of updraft volume-lightning flash rate relationships, better or refined parameterizations for the numerical forecasting of lightning and/or detection and prediction of storm intensity could be realized.</gco:CharacterString>
+            <gco:CharacterString>This study investigates the relationship of total lightning activity and updraft characteristics, such as updraft volume and maximum updraft speed, for a number of storms of different types occurring in the High Plains and in Northern Alabama. Ground-based Doppler and dual polarimetric radar observations were used to compute updraft characteristics. Also, ground-based total lightning data were available at both locations. Results show that time series of updraft volume in the charging zone (at temperatures colder than -5°C) with vertical velocities greater than either 5 or 10 m s⁻¹ have clear relationships with total lightning activity (r = 0.93). Furthermore, these relationships between updraft volume and lightning activity for the storm types of the two climate regimes tend to converge when considering only the subfreezing layers of the clouds. Neither the maximum nor the mean updraft speed correlate as well with total lightning activity (r = &lt;0.8) as updraft volume. Through expanded study designed to explore further regime variability (or lack thereof) of updraft volume-lightning flash rate relationships, better or refined parameterizations for the numerical forecasting of lightning and/or detection and prediction of storm intensity could be realized.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

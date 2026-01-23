@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:592</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:10:29.298836</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:00:52.814314</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Baker, Allison</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2436-7838"
+                                    xlink:title="Baker, Allison"
+                                    xlink:actuate="onRequest">Baker, Allison</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Lossy compression of climate model output is desperately needed to reduce the massive storage burden on research centers. Lossy compression must be applied carefully to avoid inadvertently a&#xfb00;ecting any scienti&#xfb01;c analyses. At a minimum, the compressed datasets should not be visually different when compared with the original datasets. The DSSIM is a promising metric that is effective as classifying images as visually distinct or indistinct. Here we use the DSSIM to determine the optimal compression levels for climate datasets and then examine the behavior of the DSSIM applied to CESM-LENS data under multiple compression levels. We note that the DSSIM is not monotonic in the compression level and examine this behavior in more depth. We also obtain the optimal compression levels for time slices of each variable to get a feel for how these levels vary, and compute the optimal compression level for every variable. Finally, we look at how the optimal compression level obtained using the DSSIM is related to the file size of each compressed dataset.</gco:CharacterString>
+            <gco:CharacterString>Lossy compression of climate model output is desperately needed to reduce the massive storage burden on research centers. Lossy compression must be applied carefully to avoid inadvertently aﬀecting any scientiﬁc analyses. At a minimum, the compressed datasets should not be visually different when compared with the original datasets. The DSSIM is a promising metric that is effective as classifying images as visually distinct or indistinct. Here we use the DSSIM to determine the optimal compression levels for climate datasets and then examine the behavior of the DSSIM applied to CESM-LENS data under multiple compression levels. We note that the DSSIM is not monotonic in the compression level and examine this behavior in more depth. We also obtain the optimal compression levels for time slices of each variable to get a feel for how these levels vary, and compute the optimal compression level for every variable. Finally, we look at how the optimal compression level obtained using the DSSIM is related to the file size of each compressed dataset.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

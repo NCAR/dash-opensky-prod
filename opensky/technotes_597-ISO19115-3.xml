@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:597</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:02:47.863062</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:42:37.016933</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morss, Rebecca E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6267-3436"
+                                    xlink:title="Morss, Rebecca E."
+                                    xlink:actuate="onRequest">Morss, Rebecca E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lazrus, Heather</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1970-6228"
+                                    xlink:title="Lazrus, Heather"
+                                    xlink:actuate="onRequest">Lazrus, Heather</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This Technical Note presents methods and findings from a study of winter weather decision making at a major U.S. airport and associated strategies for improving the generation and communication of weather forecast uncertainty information. The research was implemented at Denver International Airport (DEN) from 2017&#x2013;2019, in collaboration with the NOAA Global Systems Laboratory (GSL). Data were collected from: 1) interviews with airport personnel involved in airside snow and ice management, and 2) observations of airport personnel's use of forecasts and decision making leading up to and during winter weather events. These data were analyzed, together with relevant documents, to investigate the current and potential future use of winter weather forecast information at DEN. The analysis examines DEN timelines for airside snow and ice management decisions and use of weather forecast information. It also examines DEN personnel's goals for snow and ice management, strategies for managing uncertainties, and perspectives on forecast uncertainty. Using these findings as a foundation, the study then identifies potential entry points for providing improved forecast uncertainty information to support DEN snow and ice management decisions. Along with developing the methodology and findings presented here, the study initiated and contributed to several related NOAA-led activities, aimed at improving operational decision support services for DEN and advancing stakeholder-oriented forecast evaluation. Another broader contribution of the study was building GSL's capacity to incorporate social sciences into their work. The methodology and aspects of the findings developed in this project are also applicable to other uncertainty communication and decision-making contexts.</gco:CharacterString>
+            <gco:CharacterString>This Technical Note presents methods and findings from a study of winter weather decision making at a major U.S. airport and associated strategies for improving the generation and communication of weather forecast uncertainty information. The research was implemented at Denver International Airport (DEN) from 2017–2019, in collaboration with the NOAA Global Systems Laboratory (GSL). Data were collected from: 1) interviews with airport personnel involved in airside snow and ice management, and 2) observations of airport personnel's use of forecasts and decision making leading up to and during winter weather events. These data were analyzed, together with relevant documents, to investigate the current and potential future use of winter weather forecast information at DEN. The analysis examines DEN timelines for airside snow and ice management decisions and use of weather forecast information. It also examines DEN personnel's goals for snow and ice management, strategies for managing uncertainties, and perspectives on forecast uncertainty. Using these findings as a foundation, the study then identifies potential entry points for providing improved forecast uncertainty information to support DEN snow and ice management decisions. Along with developing the methodology and findings presented here, the study initiated and contributed to several related NOAA-led activities, aimed at improving operational decision support services for DEN and advancing stakeholder-oriented forecast evaluation. Another broader contribution of the study was building GSL's capacity to incorporate social sciences into their work. The methodology and aspects of the findings developed in this project are also applicable to other uncertainty communication and decision-making contexts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

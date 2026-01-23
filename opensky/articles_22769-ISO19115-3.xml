@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22769</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:27:34.806916</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:30:28.303068</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Fei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2573-3828"
+                                    xlink:title="Chen, Fei"
+                                    xlink:actuate="onRequest">Chen, Fei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The community Noah land surface model with multiparameterization options (Noah-MP) provides a plethora of model configurations with varying complexity for land surface modeling. The practical application of this model requires a basic understanding of the relative abilities of its various parameterization configurations in representing spatiotemporal variability and hydrologic connectivity. We designed an ensemble of 288 experiments from multiparameterization schemes of six physical processes to assess and reduce the structural uncertainty for land surface modeling over 10 hydrologic regions in China for the period 2001&#x2013;2010. The observed latent heat (LH) was well reproduced by the ensemble. Meanwhile, most experiments underestimated sensible heat (SH) throughout the year and overestimated the cold season but underestimated the warm season terrestrial water storage anomaly (TWSA). The sensitive processes and best-performing schemes varied not only with regions but also among variables. The LH and SH were most sensitive to runoff-groundwater (RUN), surface heat exchange coefficient (SFC), and radiation transfer (RAD). The TWSA was dominated by RUN and RAD while largely influenced by soil moisture factor for stomatal resistance (BTR) and frozen soil permeability (INF) over some limited regions. By contrast, supercooled liquid water (FRZ) had little influence on all variables. Our optimization for individual variables produced high mean Taylor skill scores that ranged from 0.95&#x2013;0.99 for LH, 0.82&#x2013;0.99 for SH, and 0.63&#x2013;0.95 for TWSA depending on regions. The simultaneous optimization made trade-off among the three variables, which improved TWSA performance at the cost of reducing the skill for LH and SH over a few regions.</gco:CharacterString>
+            <gco:CharacterString>The community Noah land surface model with multiparameterization options (Noah-MP) provides a plethora of model configurations with varying complexity for land surface modeling. The practical application of this model requires a basic understanding of the relative abilities of its various parameterization configurations in representing spatiotemporal variability and hydrologic connectivity. We designed an ensemble of 288 experiments from multiparameterization schemes of six physical processes to assess and reduce the structural uncertainty for land surface modeling over 10 hydrologic regions in China for the period 2001–2010. The observed latent heat (LH) was well reproduced by the ensemble. Meanwhile, most experiments underestimated sensible heat (SH) throughout the year and overestimated the cold season but underestimated the warm season terrestrial water storage anomaly (TWSA). The sensitive processes and best-performing schemes varied not only with regions but also among variables. The LH and SH were most sensitive to runoff-groundwater (RUN), surface heat exchange coefficient (SFC), and radiation transfer (RAD). The TWSA was dominated by RUN and RAD while largely influenced by soil moisture factor for stomatal resistance (BTR) and frozen soil permeability (INF) over some limited regions. By contrast, supercooled liquid water (FRZ) had little influence on all variables. Our optimization for individual variables produced high mean Taylor skill scores that ranged from 0.95–0.99 for LH, 0.82–0.99 for SH, and 0.63–0.95 for TWSA depending on regions. The simultaneous optimization made trade-off among the three variables, which improved TWSA performance at the cost of reducing the skill for LH and SH over a few regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

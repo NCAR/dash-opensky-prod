@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42678</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:29.932730</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:58:06.359723</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -148,7 +149,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Tropical upper-tropospheric trends in ozone and carbon monoxide (2005&#x2013;2020): Observational and model results</gco:CharacterString>
+                  <gco:CharacterString>Tropical upper-tropospheric trends in ozone and carbon monoxide (2005–2020): Observational and model results</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gaubert, Benjamin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6595-0686"
+                                    xlink:title="Gaubert, Benjamin"
+                                    xlink:actuate="onRequest">Gaubert, Benjamin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bardeen, Charles</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5330-2788"
+                                    xlink:title="Bardeen, Charles"
+                                    xlink:actuate="onRequest">Bardeen, Charles</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +284,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;We analyze tropical ozone (O3) and carbon monoxide (CO) distributions in the upper troposphere (UT) for 2005&#x2013;2020 using Aura Microwave Limb Sounder (MLS) observations and simulations from the Whole Atmosphere Community Climate Model (WACCM) and two variants of the Community Atmosphere Model with Chemistry (CAM-chem), with each variant using different anthropogenic CO emissions. Trends and variability diagnostics are obtained from multiple linear regression. The MLS zonal mean O3 UT trend for 20&#xb0;&#x2009;S&#x2013;20&#xb0;&#x2009;N is +0.39&#x2009;&#xb1;&#x2009;0.28&#x2009;%&#x2009;yr&#x2212;1; the WACCM and CAM-chem simulations yield similar trends, although the WACCM result is somewhat smaller. Our analyses of gridded MLS data yield positive O3 trends (up to 1.4&#x2009;%&#x2009;yr&#x2212;1) over Indonesia and east of that region, as well as over Africa and the Atlantic. These positive mapped O3 trends are generally captured by the simulations but in a more muted way. We find broad similarities (and some differences) between mapped MLS UT O3 trends and corresponding mapped trends of tropospheric column ozone. The MLS zonal mean CO UT trend for 20&#xb0;&#x2009;S&#x2013;20&#xb0;&#x2009;N is &#x2212;0.25&#x2009;&#xb1;&#x2009;0.30&#x2009;%&#x2009;yr&#x2212;1, while the corresponding CAM-chem trend is 0.0&#x2009;&#xb1;&#x2009;0.14&#x2009;%&#x2009;yr&#x2212;1 when anthropogenic emissions are taken from the Community Emissions Data System (CEDS) version 2. The CAM-chem simulation driven by CAMS-GLOB-ANTv5 emissions yields a tropical mean CO UT trend of 0.22&#x2009;&#xb1;&#x2009;0.19&#x2009;%&#x2009;yr&#x2212;1, in contrast to the slightly negative MLS CO trend. Previously published analyses of total column CO data have shown negative trends.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Our tropical composition trend results contribute to continuing international assessments of tropospheric evolution.&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;We analyze tropical ozone (O3) and carbon monoxide (CO) distributions in the upper troposphere (UT) for 2005–2020 using Aura Microwave Limb Sounder (MLS) observations and simulations from the Whole Atmosphere Community Climate Model (WACCM) and two variants of the Community Atmosphere Model with Chemistry (CAM-chem), with each variant using different anthropogenic CO emissions. Trends and variability diagnostics are obtained from multiple linear regression. The MLS zonal mean O3 UT trend for 20° S–20° N is +0.39 ± 0.28 % yr−1; the WACCM and CAM-chem simulations yield similar trends, although the WACCM result is somewhat smaller. Our analyses of gridded MLS data yield positive O3 trends (up to 1.4 % yr−1) over Indonesia and east of that region, as well as over Africa and the Atlantic. These positive mapped O3 trends are generally captured by the simulations but in a more muted way. We find broad similarities (and some differences) between mapped MLS UT O3 trends and corresponding mapped trends of tropospheric column ozone. The MLS zonal mean CO UT trend for 20° S–20° N is −0.25 ± 0.30 % yr−1, while the corresponding CAM-chem trend is 0.0 ± 0.14 % yr−1 when anthropogenic emissions are taken from the Community Emissions Data System (CEDS) version 2. The CAM-chem simulation driven by CAMS-GLOB-ANTv5 emissions yields a tropical mean CO UT trend of 0.22 ± 0.19 % yr−1, in contrast to the slightly negative MLS CO trend. Previously published analyses of total column CO data have shown negative trends.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Our tropical composition trend results contribute to continuing international assessments of tropospheric evolution.&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:244</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:37.296887</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:29:57.404386</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>On 25 July 1976 the life cycle of a small, moderate thunderstorm which occurred in northeast Colorado was observed extensively by participants in the National Hail Research Experiment. This storm is the subject of a series of four papers. Studies of the storm environment showed that the storm grew in a weakly sheared environment (2x 10 &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; s &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;) with instability of 3 to 4&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;K. The storm moved toward 200&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; at 9 m s &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; and overtook low-level air, so that the relative inflow to the storm was from the southwest, resulting in new growth and updrafts at cloud base in that region. Radar observations show that the storm formed along a confluence line in a region of isolated convergence. The storm was multicellular in nature with new cells forming rather close (2-4 km) to the main radar echo. Although individual radar cells could be identified during the early stages of the storm, as the storm became more vigorous the reflectivity structure had a quasi-steady state appearance with the main reflectivity region in the southwestern portion of the storm. An unusual feature of this storm was the appearance of successively greater reflectivity values almost simultaneously over a large altitude interval. Observations near cloud base by the NCAR Queen Airs show peak updrafts of 3-4 m s &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; and downdrafts of only 1-2 m s &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;. Relatively little variation in equivalent potential temperature was observed. Apparently the storm did not form an organized downdraft which extended below cloud base.</gco:CharacterString>
+            <gco:CharacterString>On 25 July 1976 the life cycle of a small, moderate thunderstorm which occurred in northeast Colorado was observed extensively by participants in the National Hail Research Experiment. This storm is the subject of a series of four papers. Studies of the storm environment showed that the storm grew in a weakly sheared environment (2x 10 ï¿½ï¿½ï¿½ï¿½ï¿½ s ï¿½ï¿½ï¿½ï¿½ï¿½) with instability of 3 to 4ï¿½ï¿½K. The storm moved toward 200ï¿½ï¿½ at 9 m s ï¿½ï¿½ï¿½ï¿½ï¿½ and overtook low-level air, so that the relative inflow to the storm was from the southwest, resulting in new growth and updrafts at cloud base in that region. Radar observations show that the storm formed along a confluence line in a region of isolated convergence. The storm was multicellular in nature with new cells forming rather close (2-4 km) to the main radar echo. Although individual radar cells could be identified during the early stages of the storm, as the storm became more vigorous the reflectivity structure had a quasi-steady state appearance with the main reflectivity region in the southwestern portion of the storm. An unusual feature of this storm was the appearance of successively greater reflectivity values almost simultaneously over a large altitude interval. Observations near cloud base by the NCAR Queen Airs show peak updrafts of 3-4 m s ï¿½ï¿½ï¿½ï¿½ï¿½ and downdrafts of only 1-2 m s ï¿½ï¿½ï¿½ï¿½ï¿½. Relatively little variation in equivalent potential temperature was observed. Apparently the storm did not form an organized downdraft which extended below cloud base.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

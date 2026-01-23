@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6741</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:41.586564</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:38:17.894692</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Bulk scattering properties for the remote sensing of ice clouds. Part III: High-resolution spectral models from 100 to 3250 cm&#x207b;&#xb9;</gco:CharacterString>
+                  <gco:CharacterString>Bulk scattering properties for the remote sensing of ice clouds. Part III: High-resolution spectral models from 100 to 3250 cm⁻¹</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study reports on the development of bulk single-scattering models for ice clouds that are appropriate for use in hyperspectral radiative transfer cloud modeling over the spectral range from 100 to 3250 cm&#x207b;&#xb9;. The models are developed in a manner similar to that recently reported for the Moderate-Resolution Imaging Spectroradiometer (MODIS); therefore these models result in a consistent set of scattering properties from visible to far-infrared wavelengths. The models incorporate a new database of individual ice-particle scattering properties that includes droxtals, 3D bullet rosettes, hexagonal solid and hollow columns, aggregates, and plates. The database provides single-scattering properties for each habit in 45 size bins ranging from 2 to 9500 &#x3bc;m, and for 49 wavenumbers between 100 and 3250 cm&#x207b;&#xb9;, which is further interpolated to 3151 discrete wavenumbers on the basis of a third-order spline interpolation method. Bulk models are developed by integrating various properties over both particle habit and size distributions. Individual bulk models are developed for 18 effective diameters Deff, ranging from Deff = 10 &#x3bc;m to Deff = 180 &#x3bc;m. A total of 1117 particle size distributions are used in the analyses and are taken from analysis of the First International Satellite Cloud Climatology Project Regional Experiment (FIRE)-I, FIRE-II, Atmospheric Radiation Measurement Program intensive operation period (ARM-IOP), Tropical Rainfall Measuring Mission Kwajalein Experiment (TRMM-KWAJEX), and Cirrus Regional Study of Tropical Anvils and Cirrus Layers Florida-Area Cirrus Experiment (CRYSTAL-FACE) data. The models include microphysical and scattering properties such as median mass diameter, effective diameter, single-scattering albedo, asymmetry factor, and scattering phase function. The spectral models are appropriate for applications involving the interpretation of the radiometric measurements of ice clouds acquired by infrared spectrometers such as the Atmospheric Infrared Sounder (AIRS) on the NASA Aqua satellite and the Cross-Track Infrared Sounder (CrIS) on the upcoming National Polar-Orbiting Environmental Satellite System (NPOESS) platforms.</gco:CharacterString>
+            <gco:CharacterString>This study reports on the development of bulk single-scattering models for ice clouds that are appropriate for use in hyperspectral radiative transfer cloud modeling over the spectral range from 100 to 3250 cm⁻¹. The models are developed in a manner similar to that recently reported for the Moderate-Resolution Imaging Spectroradiometer (MODIS); therefore these models result in a consistent set of scattering properties from visible to far-infrared wavelengths. The models incorporate a new database of individual ice-particle scattering properties that includes droxtals, 3D bullet rosettes, hexagonal solid and hollow columns, aggregates, and plates. The database provides single-scattering properties for each habit in 45 size bins ranging from 2 to 9500 μm, and for 49 wavenumbers between 100 and 3250 cm⁻¹, which is further interpolated to 3151 discrete wavenumbers on the basis of a third-order spline interpolation method. Bulk models are developed by integrating various properties over both particle habit and size distributions. Individual bulk models are developed for 18 effective diameters Deff, ranging from Deff = 10 μm to Deff = 180 μm. A total of 1117 particle size distributions are used in the analyses and are taken from analysis of the First International Satellite Cloud Climatology Project Regional Experiment (FIRE)-I, FIRE-II, Atmospheric Radiation Measurement Program intensive operation period (ARM-IOP), Tropical Rainfall Measuring Mission Kwajalein Experiment (TRMM-KWAJEX), and Cirrus Regional Study of Tropical Anvils and Cirrus Layers Florida-Area Cirrus Experiment (CRYSTAL-FACE) data. The models include microphysical and scattering properties such as median mass diameter, effective diameter, single-scattering albedo, asymmetry factor, and scattering phase function. The spectral models are appropriate for applications involving the interpretation of the radiometric measurements of ice clouds acquired by infrared spectrometers such as the Atmospheric Infrared Sounder (AIRS) on the NASA Aqua satellite and the Cross-Track Infrared Sounder (CrIS) on the upcoming National Polar-Orbiting Environmental Satellite System (NPOESS) platforms.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6458</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:32.233067</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:25:23.937305</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bonan, Gordon B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0830-6437"
+                                    xlink:title="Bonan, Gordon B."
+                                    xlink:actuate="onRequest">Bonan, Gordon B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Levis, Samuel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4684-6995"
+                                    xlink:title="Levis, Samuel"
+                                    xlink:actuate="onRequest">Levis, Samuel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We investigate the response of a climate system model to two different methods for estimating snow cover fraction. In the control case, snow cover fraction changes gradually with snow depth; in the alternative scenarios (one with prescribed vegetation and one with dynamic vegetation), snow cover fraction initially increases with snow depth almost twice as fast as the control method. In cases where the vegetation was fixed (prescribed), the choice of snow cover parameterization resulted in a limited model response. Increased albedo associated with the high snow caused some moderate localized cooling (3-5&#xb0;C), mostly at very high latitudes (&gt;70&#xb0;N) and during the spring season. During the other seasons, however, the cooling was not very extensive. With dynamic vegetation the change is much more dramatic. The initial increases in snow cover fraction with the new parameterization lead to a large-scale southward retreat of boreal vegetation, widespread cooling, and persistent snow cover over much of the boreal region during the boreal summer. Large cold anomalies of up to 15&#xb0;C cover much of northern Eurasia and North America and the cooling is geographically extensive in the northern hemisphere extratropics, especially during the spring and summer seasons. This study demonstrates the potential for dynamic vegetation within climate models to be quite sensitive to modest forcing. This highlights the importance of dynamic vegetation, both as an amplifier of feedbacks in the climate system and as an essential consideration when implementing adjustments to existing model parameters and algorithms.</gco:CharacterString>
+            <gco:CharacterString>We investigate the response of a climate system model to two different methods for estimating snow cover fraction. In the control case, snow cover fraction changes gradually with snow depth; in the alternative scenarios (one with prescribed vegetation and one with dynamic vegetation), snow cover fraction initially increases with snow depth almost twice as fast as the control method. In cases where the vegetation was fixed (prescribed), the choice of snow cover parameterization resulted in a limited model response. Increased albedo associated with the high snow caused some moderate localized cooling (3-5°C), mostly at very high latitudes (&gt;70°N) and during the spring season. During the other seasons, however, the cooling was not very extensive. With dynamic vegetation the change is much more dramatic. The initial increases in snow cover fraction with the new parameterization lead to a large-scale southward retreat of boreal vegetation, widespread cooling, and persistent snow cover over much of the boreal region during the boreal summer. Large cold anomalies of up to 15°C cover much of northern Eurasia and North America and the cooling is geographically extensive in the northern hemisphere extratropics, especially during the spring and summer seasons. This study demonstrates the potential for dynamic vegetation within climate models to be quite sensitive to modest forcing. This highlights the importance of dynamic vegetation, both as an amplifier of feedbacks in the climate system and as an essential consideration when implementing adjustments to existing model parameters and algorithms.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

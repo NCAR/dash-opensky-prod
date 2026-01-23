@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11575</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:48:46.294954</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:36:59.271027</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sch&#xf6;n, R.</gco:CharacterString>
+                        <gco:CharacterString>Schön, R.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schmitt, Carl G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3829-6970"
+                                    xlink:title="Schmitt, Carl G."
+                                    xlink:actuate="onRequest">Schmitt, Carl G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xf6;hler, O.</gco:CharacterString>
+                        <gco:CharacterString>Möhler, O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The imaging unit of the novel cloud particle instrument Particle Habit Imaging and Polar Scattering (PHIPS) probe has been developed to image individual ice particles produced inside a large cloud chamber. The PHIPS produces images of single airborne ice crystals, illuminated with white light of an ultrafast flashlamp, which are captured at a maximum frequency of ~5 Hz by a charge-coupled device (CCD) camera with microscope optics. The imaging properties of the instrument were characterized by means of crystalline sodium hexafluorosilicate ice analogs, which are stable at room temperature. The optical resolving power of the system is ~2 &#x3bc;m. By using dedicated algorithms for image processing and analysis, the ice crystal images can be analyzed automatically in terms of size and selected shape parameters. PHIPS has been operated at the cloud simulation chamber facility Aerosol Interaction and Dynamics in the Atmosphere (AIDA) of the Karlsruhe Institute of Technology at different temperatures between &#x2212;17&#xb0; and &#x2212;4&#xb0;C in order to study the influence of the ambient conditions, that is, temperature and ice saturation ratio, on ice crystal habits. The area-equivalent size distributions deduced from the PHIPS images are compared with the retrieval results from Fourier transform infrared (FTIR) extinction spectroscopy in case of small (&lt;20 &#x3bc;m) and with single particle data from the cloud particle imager in case of larger (&gt;20 &#x3bc;m) ice particles. Good agreement is found for both particle size regimes.</gco:CharacterString>
+            <gco:CharacterString>The imaging unit of the novel cloud particle instrument Particle Habit Imaging and Polar Scattering (PHIPS) probe has been developed to image individual ice particles produced inside a large cloud chamber. The PHIPS produces images of single airborne ice crystals, illuminated with white light of an ultrafast flashlamp, which are captured at a maximum frequency of ~5 Hz by a charge-coupled device (CCD) camera with microscope optics. The imaging properties of the instrument were characterized by means of crystalline sodium hexafluorosilicate ice analogs, which are stable at room temperature. The optical resolving power of the system is ~2 μm. By using dedicated algorithms for image processing and analysis, the ice crystal images can be analyzed automatically in terms of size and selected shape parameters. PHIPS has been operated at the cloud simulation chamber facility Aerosol Interaction and Dynamics in the Atmosphere (AIDA) of the Karlsruhe Institute of Technology at different temperatures between −17° and −4°C in order to study the influence of the ambient conditions, that is, temperature and ice saturation ratio, on ice crystal habits. The area-equivalent size distributions deduced from the PHIPS images are compared with the retrieval results from Fourier transform infrared (FTIR) extinction spectroscopy in case of small (&lt;20 μm) and with single particle data from the cloud particle imager in case of larger (&gt;20 μm) ice particles. Good agreement is found for both particle size regimes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

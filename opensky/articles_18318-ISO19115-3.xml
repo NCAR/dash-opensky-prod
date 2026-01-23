@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18318</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:18.565309</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:53:17.456623</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We use daily maximum 8&#x2009;h average surface O&#x2083;concentrations (MDA8) for July 1995-2013, meteorological variables from the National Center for Environmental Prediction/National Center for Atmospheric Research Reanalysis, the North American Regional Reanalysis, and output from regional chemistry-climate simulations to assess relationships between O&#x2083; and weather in the western U.S. We also explore relationships among July O&#x2083;, satellite-derived NO&#x2082;, and meteorology. A primary objective of this study is to identify an effective method for correcting the effects of meteorology on July MDA8. We find significant correlations between July MDA8 O&#x2083; and meteorological variables for sites in or near Denver, Colorado, and Salt Lake City, Utah. The highest correlations were for 500&#x2009;hPa heights, surface temperatures, and 700&#x2009;hPa temperatures and zonal winds. We conclude that increased 500&#x2009;hPa heights lead to high July O&#x2083; in much of the western U.S., particularly in areas of elevated terrain near urban sources of NO&#x2082; and other O&#x2083; precursors. In addition to bringing warmer temperatures and fewer clouds, upper level ridges decrease winds and allow cyclic terrain-driven circulations to reduce transport away from sources. Because of strong, nearly linear responses of July MDA8 to 500&#x2009;hPa heights, it is not reasonable to use uncorrected trends in peak O&#x2083; for assessments of the effectiveness of emissions controls for much of the western U.S. Robust linear regressions for July MDA8 and tropospheric NO&#x2082; with 500&#x2009;hPa heights can be used to assess and correct trends in July MDA8 in the Intermountain West.</gco:CharacterString>
+            <gco:CharacterString>We use daily maximum 8 h average surface O₃concentrations (MDA8) for July 1995-2013, meteorological variables from the National Center for Environmental Prediction/National Center for Atmospheric Research Reanalysis, the North American Regional Reanalysis, and output from regional chemistry-climate simulations to assess relationships between O₃ and weather in the western U.S. We also explore relationships among July O₃, satellite-derived NO₂, and meteorology. A primary objective of this study is to identify an effective method for correcting the effects of meteorology on July MDA8. We find significant correlations between July MDA8 O₃ and meteorological variables for sites in or near Denver, Colorado, and Salt Lake City, Utah. The highest correlations were for 500 hPa heights, surface temperatures, and 700 hPa temperatures and zonal winds. We conclude that increased 500 hPa heights lead to high July O₃ in much of the western U.S., particularly in areas of elevated terrain near urban sources of NO₂ and other O₃ precursors. In addition to bringing warmer temperatures and fewer clouds, upper level ridges decrease winds and allow cyclic terrain-driven circulations to reduce transport away from sources. Because of strong, nearly linear responses of July MDA8 to 500 hPa heights, it is not reasonable to use uncorrected trends in peak O₃ for assessments of the effectiveness of emissions controls for much of the western U.S. Robust linear regressions for July MDA8 and tropospheric NO₂ with 500 hPa heights can be used to assess and correct trends in July MDA8 in the Intermountain West.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

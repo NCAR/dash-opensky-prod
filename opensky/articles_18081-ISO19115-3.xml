@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18081</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:51:16.805264</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:55:24.851204</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee-Taylor, Julia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0989-1113"
+                                    xlink:title="Lee-Taylor, Julia"
+                                    xlink:actuate="onRequest">Lee-Taylor, Julia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Madronich, Sasha</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0983-1313"
+                                    xlink:title="Madronich, Sasha"
+                                    xlink:actuate="onRequest">Madronich, Sasha</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +234,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent studies have shown that low volatility gas-phase species can be lost onto the smog chamber wall surfaces. Although this loss of organic vapors to walls could be substantial during experiments, its effect on secondary organic aerosol (SOA) formation has not been well characterized and quantified yet. Here the potential impact of chamber walls on the loss of gaseous organic species and SOA formation has been explored using the Generator for Explicit Chemistry and Kinetics of the Organics in the Atmosphere (GECKO-A) modeling tool, which explicitly represents SOA formation and gas&#x2013;wall partitioning. The model was compared with 41 smog chamber experiments of SOA formation under OH oxidation of alkane and alkene series (linear, cyclic and C12-branched alkanes and terminal, internal and 2-methyl alkenes with 7 to 17 carbon atoms) under high NOx conditions. Simulated trends match observed trends within and between homologous series. The loss of organic vapors to the chamber walls is found to affect SOA yields as well as the composition of the gas and the particle phases. Simulated distributions of the species in various phases suggest that nitrates, hydroxynitrates and carbonylesters could substantially be lost onto walls. The extent of this process depends on the rate of gas&#x2013;wall mass transfer, the vapor pressure of the species and the duration of the experiments. This work suggests that SOA yields inferred from chamber experiments could be underestimated up a factor of 2 due to the loss of organic vapors to chamber walls.</gco:CharacterString>
+            <gco:CharacterString>Recent studies have shown that low volatility gas-phase species can be lost onto the smog chamber wall surfaces. Although this loss of organic vapors to walls could be substantial during experiments, its effect on secondary organic aerosol (SOA) formation has not been well characterized and quantified yet. Here the potential impact of chamber walls on the loss of gaseous organic species and SOA formation has been explored using the Generator for Explicit Chemistry and Kinetics of the Organics in the Atmosphere (GECKO-A) modeling tool, which explicitly represents SOA formation and gas–wall partitioning. The model was compared with 41 smog chamber experiments of SOA formation under OH oxidation of alkane and alkene series (linear, cyclic and C12-branched alkanes and terminal, internal and 2-methyl alkenes with 7 to 17 carbon atoms) under high NOx conditions. Simulated trends match observed trends within and between homologous series. The loss of organic vapors to the chamber walls is found to affect SOA yields as well as the composition of the gas and the particle phases. Simulated distributions of the species in various phases suggest that nitrates, hydroxynitrates and carbonylesters could substantially be lost onto walls. The extent of this process depends on the rate of gas–wall mass transfer, the vapor pressure of the species and the duration of the experiments. This work suggests that SOA yields inferred from chamber experiments could be underestimated up a factor of 2 due to the loss of organic vapors to chamber walls.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

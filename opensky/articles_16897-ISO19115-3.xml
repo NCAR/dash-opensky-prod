@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16897</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:15.187075</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:05:45.800977</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wiltberger, Michael</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4844-3148"
+                                    xlink:title="Wiltberger, Michael"
+                                    xlink:actuate="onRequest">Wiltberger, Michael</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The efficiencies of pathways of thermospheric heating via soft electron precipitation in the dayside cusp region are investigated using the coupled magnetosphere-ionosphere-thermosphere model (CMIT). Event-based data-model comparisons show that the CMIT model is capable of reproducing the thermospheric mass density variations measured by the CHAMP satellite during both quite and active periods. During the 24 August 2005 storm event (Kp = 6-) while intense Joule heating rate occurs in the polar cusp region, including soft electron precipitation is important for accurately modeling the F region thermospheric mass density distribution near the cusp region. During the 27 July 2007 event (Kp = 2-) while little Joule heating rate occurs in the polar cusp region, the controlled CMIT simulations suggest that the direct pathway through the energy exchange between soft electrons and thermospheric neutrals is the dominant process during this event, which only has a small effect on the neutral temperature and mass density at 400&#x2009;km altitude. Comparisons between the two case studies show that the indirect pathway via increasing the F region Joule heating rate is a dominant process during the 24 August 2005 storm event, which is much more efficient than the direct heating process.</gco:CharacterString>
+            <gco:CharacterString>The efficiencies of pathways of thermospheric heating via soft electron precipitation in the dayside cusp region are investigated using the coupled magnetosphere-ionosphere-thermosphere model (CMIT). Event-based data-model comparisons show that the CMIT model is capable of reproducing the thermospheric mass density variations measured by the CHAMP satellite during both quite and active periods. During the 24 August 2005 storm event (Kp = 6-) while intense Joule heating rate occurs in the polar cusp region, including soft electron precipitation is important for accurately modeling the F region thermospheric mass density distribution near the cusp region. During the 27 July 2007 event (Kp = 2-) while little Joule heating rate occurs in the polar cusp region, the controlled CMIT simulations suggest that the direct pathway through the energy exchange between soft electrons and thermospheric neutrals is the dominant process during this event, which only has a small effect on the neutral temperature and mass density at 400 km altitude. Comparisons between the two case studies show that the indirect pathway via increasing the F region Joule heating rate is a dominant process during the 24 August 2005 storm event, which is much more efficient than the direct heating process.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

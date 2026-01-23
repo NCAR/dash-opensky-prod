@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24317</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:15:22.170266</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:28:27.139993</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>De Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>De Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +370,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ortega, Ivan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0067-617X"
+                                    xlink:title="Ortega, Ivan"
+                                    xlink:actuate="onRequest">Ortega, Ivan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -527,7 +532,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric acidity is increasingly determined by carbon dioxide and organic acids1,2,3. Among the latter, formic acid facilitates the nucleation of cloud droplets4 and contributes to the acidity of clouds and rainwater1,5. At present, chemistry&#x2013;climate models greatly underestimate the atmospheric burden of formic acid, because key processes related to its sources and sinks remain poorly understood2,6,7,8,9. Here we present atmospheric chamber experiments that show that formaldehyde is efficiently converted to gaseous formic acid via a multiphase pathway that involves its hydrated form, methanediol. In warm cloud droplets, methanediol undergoes fast outgassing but slow dehydration. Using a chemistry&#x2013;climate model, we estimate that the gas-phase oxidation of methanediol produces up to four times more formic acid than all other known chemical sources combined. Our findings reconcile model predictions and measurements of formic acid abundance. The additional formic acid burden increases atmospheric acidity by reducing the pH of clouds and rainwater by up to 0.3. The diol mechanism presented here probably applies to other aldehydes and may help to explain the high atmospheric levels of other organic acids that affect aerosol growth and cloud evolution.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric acidity is increasingly determined by carbon dioxide and organic acids1,2,3. Among the latter, formic acid facilitates the nucleation of cloud droplets4 and contributes to the acidity of clouds and rainwater1,5. At present, chemistry–climate models greatly underestimate the atmospheric burden of formic acid, because key processes related to its sources and sinks remain poorly understood2,6,7,8,9. Here we present atmospheric chamber experiments that show that formaldehyde is efficiently converted to gaseous formic acid via a multiphase pathway that involves its hydrated form, methanediol. In warm cloud droplets, methanediol undergoes fast outgassing but slow dehydration. Using a chemistry–climate model, we estimate that the gas-phase oxidation of methanediol produces up to four times more formic acid than all other known chemical sources combined. Our findings reconcile model predictions and measurements of formic acid abundance. The additional formic acid burden increases atmospheric acidity by reducing the pH of clouds and rainwater by up to 0.3. The diol mechanism presented here probably applies to other aldehydes and may help to explain the high atmospheric levels of other organic acids that affect aerosol growth and cloud evolution.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

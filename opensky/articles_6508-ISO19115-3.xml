@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6508</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:01:00.753816</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:29:57.043279</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Variability in HDO/H&#x2082;O abundance ratios in the tropical tropopause layer</gco:CharacterString>
+                  <gco:CharacterString>Variability in HDO/H₂O abundance ratios in the tropical tropopause layer</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The dehydration of air in the tropical tropopause layer (TTL) and mechanisms for the entry of water vapor into the stratosphere are investigated by an analysis of ACE-FTS profiles of temperature, water vapor, and the ratio [HDO]/[H&#x2082;O] expressed in &#x3b4;D notation. Month-to-month comparisons indicate greater seasonal variability than interannual variability between 25&#xb0;S - 25&#xb0;N, thus comparisons are made between February, April, August, and October averages for the years 2004 and 2005 combined. The data indicate a pattern of seasonal variability which is clearer in the Northern Hemisphere tropics and a relationship between minimum temperature, minimum water vapor, and maximum HDO depletion, which exists beyond the estimated uncertainty in these values. The range of values observed for HDO depletion and comparisons to modeled Rayleigh distillation curves indicate an important contribution from convection in addition to gradual dehydration. Multiple factors including the shape of the &#x3b4;D profiles suggest that a likely mechanism for the convective influence is the lofting of ice particles in the tropical troposphere.</gco:CharacterString>
+            <gco:CharacterString>The dehydration of air in the tropical tropopause layer (TTL) and mechanisms for the entry of water vapor into the stratosphere are investigated by an analysis of ACE-FTS profiles of temperature, water vapor, and the ratio [HDO]/[H₂O] expressed in δD notation. Month-to-month comparisons indicate greater seasonal variability than interannual variability between 25°S - 25°N, thus comparisons are made between February, April, August, and October averages for the years 2004 and 2005 combined. The data indicate a pattern of seasonal variability which is clearer in the Northern Hemisphere tropics and a relationship between minimum temperature, minimum water vapor, and maximum HDO depletion, which exists beyond the estimated uncertainty in these values. The range of values observed for HDO depletion and comparisons to modeled Rayleigh distillation curves indicate an important contribution from convection in addition to gradual dehydration. Multiple factors including the shape of the δD profiles suggest that a likely mechanism for the convective influence is the lofting of ice particles in the tropical troposphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

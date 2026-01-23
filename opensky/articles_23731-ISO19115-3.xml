@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23731</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:13:30.366074</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:41:50.164248</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +260,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +282,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We analyse historical (1850&#x2013;2014) atmospheric hydroxyl (OH) and methane lifetime data from Coupled Model Intercomparison Project Phase 6 (CMIP6)/Aerosols and Chemistry Model Intercomparison Project (AerChemMIP) simulations. Tropospheric OH changed little from 1850 up to around 1980, then increased by around 9&#x2009;% up to 2014, with an associated reduction in methane lifetime. The model-derived OH trends from 1980 to 2005 are broadly consistent with trends estimated by several studies that infer OH from inversions of methyl chloroform and associated measurements; most inversion studies indicate decreases in OH since 2005. However, the model results fall within observational uncertainty ranges. The upward trend in modelled OH since 1980 was mainly driven by changes in anthropogenic near-term climate forcer emissions (increases in anthropogenic nitrogen oxides and decreases in CO). Increases in halocarbon emissions since 1950 have made a small contribution to the increase in OH, whilst increases in aerosol-related emissions have slightly reduced OH. Halocarbon emissions have dramatically reduced the stratospheric methane lifetime by about 15&#x2009;%&#x2013;40&#x2009;%; most previous studies assumed a fixed stratospheric lifetime. Whilst the main driver of atmospheric methane increases since 1850 is emissions of methane itself, increased ozone precursor emissions have significantly modulated (in general reduced) methane trends. Halocarbon and aerosol emissions are found to have relatively small contributions to methane trends. These experiments do not isolate the effects of climate change on OH and methane evolution; however, we calculate residual terms that are due to the combined effects of climate change and non-linear interactions between drivers. These residual terms indicate that non-linear interactions are important and differ between the two methodologies we use for quantifying OH and methane drivers. All these factors need to be considered in order to fully explain OH and methane trends since 1850; these factors will also be important for future trends.</gco:CharacterString>
+            <gco:CharacterString>We analyse historical (1850–2014) atmospheric hydroxyl (OH) and methane lifetime data from Coupled Model Intercomparison Project Phase 6 (CMIP6)/Aerosols and Chemistry Model Intercomparison Project (AerChemMIP) simulations. Tropospheric OH changed little from 1850 up to around 1980, then increased by around 9 % up to 2014, with an associated reduction in methane lifetime. The model-derived OH trends from 1980 to 2005 are broadly consistent with trends estimated by several studies that infer OH from inversions of methyl chloroform and associated measurements; most inversion studies indicate decreases in OH since 2005. However, the model results fall within observational uncertainty ranges. The upward trend in modelled OH since 1980 was mainly driven by changes in anthropogenic near-term climate forcer emissions (increases in anthropogenic nitrogen oxides and decreases in CO). Increases in halocarbon emissions since 1950 have made a small contribution to the increase in OH, whilst increases in aerosol-related emissions have slightly reduced OH. Halocarbon emissions have dramatically reduced the stratospheric methane lifetime by about 15 %–40 %; most previous studies assumed a fixed stratospheric lifetime. Whilst the main driver of atmospheric methane increases since 1850 is emissions of methane itself, increased ozone precursor emissions have significantly modulated (in general reduced) methane trends. Halocarbon and aerosol emissions are found to have relatively small contributions to methane trends. These experiments do not isolate the effects of climate change on OH and methane evolution; however, we calculate residual terms that are due to the combined effects of climate change and non-linear interactions between drivers. These residual terms indicate that non-linear interactions are important and differ between the two methodologies we use for quantifying OH and methane drivers. All these factors need to be considered in order to fully explain OH and methane trends since 1850; these factors will also be important for future trends.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

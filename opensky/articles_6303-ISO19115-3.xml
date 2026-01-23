@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6303</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:56:03.518979</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:15:11.932319</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Emissions of CH&#x2084; and N&#x2082;O over the United States and Canada based on a receptor-oriented modeling framework and COBRA-NA atmospheric observations</gco:CharacterString>
+                  <gco:CharacterString>Emissions of CH₄ and N₂O over the United States and Canada based on a receptor-oriented modeling framework and COBRA-NA atmospheric observations</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present top-down emission constraints for two non-CO&#x2082; greenhouse gases in large areas of the U.S. and southern Canada during early summer. Collocated airborne measurements of methane and nitrous oxide acquired during the COBRA-NA campaign in May - June 2003, analyzed using a receptor-oriented Lagrangian particle dispersion model, provide robust validation of independent bottom-up emission estimates from the EDGAR and GEIA inventories. We find that the EDGAR CH&#x2084; emission rates are slightly low by a factor of 1.08 &#xb1; 0.15 (2&#x3c3;), while both EDGAR and GEIA N&#x2082;O emissions are significantly too low, by factors of 2.62 &#xb1; 0.50 and 3.05 &#xb1; 0.61, respectively, for this region. Potential footprint bias may expand the statistically retrieved uncertainties. Seasonality of agricultural N&#x2082;O emissions may help explain the discrepancy. Total anthropogenic U.S. and Canadian emissions would be 49 Tg CH&#x2084; and 4.3 Tg N&#x2082;O annually, if these inventory scaling factors applied to all of North America.</gco:CharacterString>
+            <gco:CharacterString>We present top-down emission constraints for two non-CO₂ greenhouse gases in large areas of the U.S. and southern Canada during early summer. Collocated airborne measurements of methane and nitrous oxide acquired during the COBRA-NA campaign in May - June 2003, analyzed using a receptor-oriented Lagrangian particle dispersion model, provide robust validation of independent bottom-up emission estimates from the EDGAR and GEIA inventories. We find that the EDGAR CH₄ emission rates are slightly low by a factor of 1.08 ± 0.15 (2σ), while both EDGAR and GEIA N₂O emissions are significantly too low, by factors of 2.62 ± 0.50 and 3.05 ± 0.61, respectively, for this region. Potential footprint bias may expand the statistically retrieved uncertainties. Seasonality of agricultural N₂O emissions may help explain the discrepancy. Total anthropogenic U.S. and Canadian emissions would be 49 Tg CH₄ and 4.3 Tg N₂O annually, if these inventory scaling factors applied to all of North America.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

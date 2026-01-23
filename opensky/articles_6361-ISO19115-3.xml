@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6361</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:37.092278</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:23:01.130973</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Massie, Steven T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4995-1566"
+                                    xlink:title="Massie, Steven T."
+                                    xlink:actuate="onRequest">Massie, Steven T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Extreme pyrocumulonimbus (pyroCb) blowups that pollute the stratosphere have been documented on at least five occasions. However, the frequency of these events is still uncertain. One published pyroCb case study, the Chisholm Fire in May 2001, was restricted to the convective phase and its immediate aftermath. Here and in a companion paper we describe the stratospheric impact of the Chisholm pyroCb. The companion paper focuses on nadir satellite views of the plume. This paper synthesizes a broad array of space-, balloon-, and ground-based profile measurements. The Chisholm pyroCb, which we identify as the singular cause of stratospheric aerosol increase in northern spring/summer of 2001, created a doubling of the zonal average aerosol optical depth in the lowermost stratosphere. The meridional spread of the plume was from the tropics (20&#xb0;N) to the high Arctic (79&#xb0;N) within the first month. The stratospheric Chisholm smoke became a hemispheric phenomenon in midlatitudes and northern tropics and persisted for at least 3 months. A size-resolved particle concentration profile over Laramie, Wyoming, indicated a lower stratospheric aerosol with a twofold to threefold increase in volume of particles with radii between 0.3 and 0.6 &#x3bc;m. We also find evidence of localized warming in the air masses of four of the lidar-measured smoke layers. This work contains the first reported stratospheric smoke layers measured by lidar at Ny &#xc5;lesund, Esrange, K&#xfc;hlungsborn, Garmisch-Partenkirchen, Boulder, and Mauna Loa. In addition, the first detection of smoke-enhanced aerosol extinction at near IR wavelengths by the Halogen Occultation Experiment (HALOE) is introduced.</gco:CharacterString>
+            <gco:CharacterString>Extreme pyrocumulonimbus (pyroCb) blowups that pollute the stratosphere have been documented on at least five occasions. However, the frequency of these events is still uncertain. One published pyroCb case study, the Chisholm Fire in May 2001, was restricted to the convective phase and its immediate aftermath. Here and in a companion paper we describe the stratospheric impact of the Chisholm pyroCb. The companion paper focuses on nadir satellite views of the plume. This paper synthesizes a broad array of space-, balloon-, and ground-based profile measurements. The Chisholm pyroCb, which we identify as the singular cause of stratospheric aerosol increase in northern spring/summer of 2001, created a doubling of the zonal average aerosol optical depth in the lowermost stratosphere. The meridional spread of the plume was from the tropics (20°N) to the high Arctic (79°N) within the first month. The stratospheric Chisholm smoke became a hemispheric phenomenon in midlatitudes and northern tropics and persisted for at least 3 months. A size-resolved particle concentration profile over Laramie, Wyoming, indicated a lower stratospheric aerosol with a twofold to threefold increase in volume of particles with radii between 0.3 and 0.6 μm. We also find evidence of localized warming in the air masses of four of the lidar-measured smoke layers. This work contains the first reported stratospheric smoke layers measured by lidar at Ny Ålesund, Esrange, Kühlungsborn, Garmisch-Partenkirchen, Boulder, and Mauna Loa. In addition, the first detection of smoke-enhanced aerosol extinction at near IR wavelengths by the Halogen Occultation Experiment (HALOE) is introduced.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

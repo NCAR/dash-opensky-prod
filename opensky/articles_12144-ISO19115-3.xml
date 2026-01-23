@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12144</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:26:01.782331</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:11:08.292467</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As part of the international multidisciplinary Ocean - Atmosphere - Sea Ice - Snowpack (OASIS) program we analyzed more than 500 terrestrial (melted) snow samples near Barrow, AK between February and April 2009 for light absorption, as well as H&#x2082;O&#x2082; and inorganic anion concentrations. For light absorption in the photochemically active region (300-450 nm) of surface snows, H&#x2082;O&#x2082; and NO&#x2083;&#x207b; make minor contributions (combined &lt; 9% typically), while HUmic LIke Substances (HULIS) and unknown chromophores each account for approximately half of the total absorption. We have identified four main sources for our residual chromophores (i.e., species other than H&#x2082;O&#x2082; or NO&#x2083;&#x207b;): (1) vegetation and organic debris impact mostly the lowest 20 cm of the snowpack, (2) marine inputs, which are identified by high Cl&#x207b; and SO&#x2084;&#xb2;&#x207b; contents, (3) deposition of diamond dust to surface snow, and (4) gas-phase exchange between the atmosphere and surface snow layers. The snow surfaces, and accompanying chromophore concentrations, are strongly modulated by winds and snowfall at Barrow. However, even with these physical controls on light absorption, we see an overall decline of light absorption in near-surface snow during the 7 weeks of our campaign, likely due to photo-bleaching of chromophores. While HULIS and unknown chromophores dominate light absorption by soluble species in Barrow snow, we know little about the photochemistry of these species, and thus we as a community are probably overlooking many snowpack photochemical reactions.</gco:CharacterString>
+            <gco:CharacterString>As part of the international multidisciplinary Ocean - Atmosphere - Sea Ice - Snowpack (OASIS) program we analyzed more than 500 terrestrial (melted) snow samples near Barrow, AK between February and April 2009 for light absorption, as well as H₂O₂ and inorganic anion concentrations. For light absorption in the photochemically active region (300-450 nm) of surface snows, H₂O₂ and NO₃⁻ make minor contributions (combined &lt; 9% typically), while HUmic LIke Substances (HULIS) and unknown chromophores each account for approximately half of the total absorption. We have identified four main sources for our residual chromophores (i.e., species other than H₂O₂ or NO₃⁻): (1) vegetation and organic debris impact mostly the lowest 20 cm of the snowpack, (2) marine inputs, which are identified by high Cl⁻ and SO₄²⁻ contents, (3) deposition of diamond dust to surface snow, and (4) gas-phase exchange between the atmosphere and surface snow layers. The snow surfaces, and accompanying chromophore concentrations, are strongly modulated by winds and snowfall at Barrow. However, even with these physical controls on light absorption, we see an overall decline of light absorption in near-surface snow during the 7 weeks of our campaign, likely due to photo-bleaching of chromophores. While HULIS and unknown chromophores dominate light absorption by soluble species in Barrow snow, we know little about the photochemistry of these species, and thus we as a community are probably overlooking many snowpack photochemical reactions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

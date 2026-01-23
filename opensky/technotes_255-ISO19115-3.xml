@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:255</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:10.707831</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:27:03.816507</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A System Plot Package is defined to be that group of routines used to form primitive plotter instructions. Only the most basic routines for scaling and plotting line segments, character strings, and annotated axes are included in this group. More complicated capabilities are available through the use of utility routines which use the System Plot Package. The utility routines are described in The SCD Graphics Utilities. The System Plot Package being used depends upon which computer the job is running on, but the applications program interface is unvarying. On the CDC 7600, the dd8O can use the System Plot Package loaded automatically by the NCAR 7600 operating system, while the Dicorned film and fiche recorders are presently run off-line and a metacode producing plot package must be used for them. On the CRAY-1, metacode is always produced and the target plotting device is selected for the generated metafile by using appropriate JCL commands. Users needing special capabilities, such as remote graphics or graphic-device independence, can produce a System Plot Package tailored to their own needs. The plotter is assumed to have some finite resolution, which, by default is 1024 by 1024 addressable positions. This can be changed by the user, using the SETI subroutine which is described herein. This document uses the default 2&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; x 2&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; resolution in its examples. Users should bear this in mind when interpreting the examples. The System Plot Package routines are divided into general categories. They are: Scaling, Plotting, Writing, Control, Status, Backgrounds, and Instruction Manipulation wherein each of these general categories is further explained.</gco:CharacterString>
+            <gco:CharacterString>A System Plot Package is defined to be that group of routines used to form primitive plotter instructions. Only the most basic routines for scaling and plotting line segments, character strings, and annotated axes are included in this group. More complicated capabilities are available through the use of utility routines which use the System Plot Package. The utility routines are described in The SCD Graphics Utilities. The System Plot Package being used depends upon which computer the job is running on, but the applications program interface is unvarying. On the CDC 7600, the dd8O can use the System Plot Package loaded automatically by the NCAR 7600 operating system, while the Dicorned film and fiche recorders are presently run off-line and a metacode producing plot package must be used for them. On the CRAY-1, metacode is always produced and the target plotting device is selected for the generated metafile by using appropriate JCL commands. Users needing special capabilities, such as remote graphics or graphic-device independence, can produce a System Plot Package tailored to their own needs. The plotter is assumed to have some finite resolution, which, by default is 1024 by 1024 addressable positions. This can be changed by the user, using the SETI subroutine which is described herein. This document uses the default 2ï¿½ï¿½ï¿½ï¿½ï¿½ x 2ï¿½ï¿½ï¿½ï¿½ï¿½ resolution in its examples. Users should bear this in mind when interpreting the examples. The System Plot Package routines are divided into general categories. They are: Scaling, Plotting, Writing, Control, Status, Backgrounds, and Instruction Manipulation wherein each of these general categories is further explained.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19323</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:53:03.904123</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:38:12.703882</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment was an aircraft-based field campaign conducted from Guam (14&#xb0;N, 145&#xb0;E) during January&#x2013;February 2014. Aircraft measurements included over 80 vertical profiles from the boundary layer to the upper troposphere (~15&#x2009;km). A large fraction of these profiles revealed layered structures with very low water vapor (relative humidity &lt;20%) and enhanced ozone, primarily in the lower-middle troposphere (~3&#x2013;9&#x2009;km). Comparing CONTRAST water vapor measurements with co-located profiles from National Centers for Environmental Prediction Global Forecast System (GFS) analyses, we find good agreement for dry layers, including profile-by-profile comparisons and statistical behavior. We then utilize GFS data to evaluate the frequency of occurrence and 3-D structure of dry layers for the CONTRAST period to provide perspective to the campaign measurements and evaluate the global climatological behavior based on a longer record. GFS data show that dry layers occur ~50-80% of the time in the subtropical troposphere, maximizing on the equatorward side of the subtropical jets in the winter hemisphere. Subtropical dry layers occur most frequently over isentropic levels ~320-340&#x2009;K, which extend into the extratropical upper troposphere-lower stratosphere (UTLS). Similar statistical behavior of dry, ozone-rich layers is found in long-term balloon measurements from Reunion Island (21&#xb0;S, 56&#xb0;E). The climatologically frequent occurrence of dry, ozone-rich layers, plus their vertical and spatial structures linked to the subtropical jets, all suggest that dry layers are linked to quasi-isentropic transport from the extratropical UTLS and suggest a ubiquitous UTLS influence on the subtropical middle troposphere.</gco:CharacterString>
+            <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment was an aircraft-based field campaign conducted from Guam (14°N, 145°E) during January–February 2014. Aircraft measurements included over 80 vertical profiles from the boundary layer to the upper troposphere (~15 km). A large fraction of these profiles revealed layered structures with very low water vapor (relative humidity &lt;20%) and enhanced ozone, primarily in the lower-middle troposphere (~3–9 km). Comparing CONTRAST water vapor measurements with co-located profiles from National Centers for Environmental Prediction Global Forecast System (GFS) analyses, we find good agreement for dry layers, including profile-by-profile comparisons and statistical behavior. We then utilize GFS data to evaluate the frequency of occurrence and 3-D structure of dry layers for the CONTRAST period to provide perspective to the campaign measurements and evaluate the global climatological behavior based on a longer record. GFS data show that dry layers occur ~50-80% of the time in the subtropical troposphere, maximizing on the equatorward side of the subtropical jets in the winter hemisphere. Subtropical dry layers occur most frequently over isentropic levels ~320-340 K, which extend into the extratropical upper troposphere-lower stratosphere (UTLS). Similar statistical behavior of dry, ozone-rich layers is found in long-term balloon measurements from Reunion Island (21°S, 56°E). The climatologically frequent occurrence of dry, ozone-rich layers, plus their vertical and spatial structures linked to the subtropical jets, all suggest that dry layers are linked to quasi-isentropic transport from the extratropical UTLS and suggest a ubiquitous UTLS influence on the subtropical middle troposphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

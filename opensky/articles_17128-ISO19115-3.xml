@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17128</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:25:48.034452</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:51:15.796713</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sharman, Robert D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2384-7517"
+                                    xlink:title="Sharman, Robert D."
+                                    xlink:actuate="onRequest">Sharman, Robert D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The climatology of the spatial structure functions of velocity and temperature for various altitudes (pressure levels) and latitude bands is constructed from the global rawinsonde network and from Aircraft Communications, Addressing, and Reporting System/Aircraft Meteorological Data Relay (ACARS/AMDAR) data for the tropics and Northern Hemisphere. The ACARS/AMDAR data provide very dense coverage of winds and temperature over common commercial aircraft flight tracks and allow computation of structure functions to scales approaching 1 km, while the inclusion of rawinsonde data provides information on larger scales approaching 10 000 km. When taken together these data extend coverage of the spatial statistics of the atmosphere from previous studies to include larger geographic regions, lower altitudes, and a wider range of spatial scales. Simple empirical fits are used to approximate the structure function behavior as a function of altitude and latitude in the Northern Hemisphere. Results produced for spatial scales less than ~2000 km are consistent with previous studies using other data sources. Estimates of the vertical and global horizontal structure of turbulence in terms of eddy dissipation rate &#x25b; and thermal structure constant CT2 are derived from the structure function levels at the smaller scales.</gco:CharacterString>
+            <gco:CharacterString>The climatology of the spatial structure functions of velocity and temperature for various altitudes (pressure levels) and latitude bands is constructed from the global rawinsonde network and from Aircraft Communications, Addressing, and Reporting System/Aircraft Meteorological Data Relay (ACARS/AMDAR) data for the tropics and Northern Hemisphere. The ACARS/AMDAR data provide very dense coverage of winds and temperature over common commercial aircraft flight tracks and allow computation of structure functions to scales approaching 1 km, while the inclusion of rawinsonde data provides information on larger scales approaching 10 000 km. When taken together these data extend coverage of the spatial statistics of the atmosphere from previous studies to include larger geographic regions, lower altitudes, and a wider range of spatial scales. Simple empirical fits are used to approximate the structure function behavior as a function of altitude and latitude in the Northern Hemisphere. Results produced for spatial scales less than ~2000 km are consistent with previous studies using other data sources. Estimates of the vertical and global horizontal structure of turbulence in terms of eddy dissipation rate ɛ and thermal structure constant CT2 are derived from the structure function levels at the smaller scales.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

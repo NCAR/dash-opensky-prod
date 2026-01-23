@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17075</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:27:37.287025</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:56:13.255933</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dudhia, Jimy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2394-6232"
+                                    xlink:title="Dudhia, Jimy"
+                                    xlink:actuate="onRequest">Dudhia, Jimy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The evolution of a superhurricane (Katrina, August 2005) was simulated using the Weather Research and Forecasting Model (WRF; version 3.1) with explicit (nonparameterized) spectral bin microphysics (SBM). The new computationally efficient spectral bin microphysical scheme (FAST-SBM) implemented to the WRF calculates at each time step and in each grid point the size distributions of atmospheric aerosols, water drops, cloud ice (ice crystals and aggregates), and graupel/hail. The tropical cyclone (TC) evolution was simulated during 72 h, beginning with its bypassing the Florida coast (27 August 2005) to its landfall just east of New Orleans, Louisiana (near the end of 29 August). The WRF/SBM was used to investigate the potential impact of aerosols ingested into Katrina's circulation during its passage through the Gulf of Mexico on Katrina's structure and intensity. It is shown that continental aerosols invigorated convection largely at TC periphery, which led to its weakening prior to landfall. Maximum weakening took place &#x223c;24 h before landfall, just after its intensity had reached its maximum. The minimum pressure increased by &#x223c;</gco:CharacterString>
+            <gco:CharacterString>The evolution of a superhurricane (Katrina, August 2005) was simulated using the Weather Research and Forecasting Model (WRF; version 3.1) with explicit (nonparameterized) spectral bin microphysics (SBM). The new computationally efficient spectral bin microphysical scheme (FAST-SBM) implemented to the WRF calculates at each time step and in each grid point the size distributions of atmospheric aerosols, water drops, cloud ice (ice crystals and aggregates), and graupel/hail. The tropical cyclone (TC) evolution was simulated during 72 h, beginning with its bypassing the Florida coast (27 August 2005) to its landfall just east of New Orleans, Louisiana (near the end of 29 August). The WRF/SBM was used to investigate the potential impact of aerosols ingested into Katrina's circulation during its passage through the Gulf of Mexico on Katrina's structure and intensity. It is shown that continental aerosols invigorated convection largely at TC periphery, which led to its weakening prior to landfall. Maximum weakening took place ∼24 h before landfall, just after its intensity had reached its maximum. The minimum pressure increased by ∼</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

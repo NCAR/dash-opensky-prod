@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18196</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:32:13.494240</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:53:54.337957</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dickinson, Katherine L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6390-200X"
+                                    xlink:title="Dickinson, Katherine L."
+                                    xlink:actuate="onRequest">Dickinson, Katherine L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Public health programs that control mosquitoes and other disease vectors have the added benefit of reducing residents' exposure to pest insects. We surveyed homeowners in Madison, Wisconsin, and used an economic valuation method, stated-choice experiments, to measure willingness to pay (WTP) for control of West Nile virus (WNV)-transmitting and nuisance mosquitoes under current and increased levels of WNV risk. Under current WNV risk levels (approximately 1 in 250,000), the average Madison survey respondent was not willing to pay for programs that targeted West Nile-transmitting mosquitoes only (WTP=&#x2212;$21, 95% [CI &#x2212;$63, $20]), while WTP for a reduction in nuisance mosquitoes was substantial (WTP=$147, 95% [CI $109, $186]). As the risk of WNV was increased, WTP for control of disease-carrying mosquitoes also increased (WTP=$158; 95% CI [$111, $206] at the highest risk level), but WTP for nuisance control remained high (WTP=$108; 95% CI [$78, $138]). Among homeowners in our sample, the "nuisance factor" was more important than the "disease factor" in terms of respondents' demand for mosquito control.</gco:CharacterString>
+            <gco:CharacterString>Public health programs that control mosquitoes and other disease vectors have the added benefit of reducing residents' exposure to pest insects. We surveyed homeowners in Madison, Wisconsin, and used an economic valuation method, stated-choice experiments, to measure willingness to pay (WTP) for control of West Nile virus (WNV)-transmitting and nuisance mosquitoes under current and increased levels of WNV risk. Under current WNV risk levels (approximately 1 in 250,000), the average Madison survey respondent was not willing to pay for programs that targeted West Nile-transmitting mosquitoes only (WTP=−$21, 95% [CI −$63, $20]), while WTP for a reduction in nuisance mosquitoes was substantial (WTP=$147, 95% [CI $109, $186]). As the risk of WNV was increased, WTP for control of disease-carrying mosquitoes also increased (WTP=$158; 95% CI [$111, $206] at the highest risk level), but WTP for nuisance control remained high (WTP=$108; 95% CI [$78, $138]). Among homeowners in our sample, the "nuisance factor" was more important than the "disease factor" in terms of respondents' demand for mosquito control.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

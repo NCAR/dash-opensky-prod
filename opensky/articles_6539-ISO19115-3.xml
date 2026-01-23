@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6539</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:10.791922</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:21:47.888783</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This literature review summarizes the environmental controls governing biogenic sesquiterpene (SQT) emissions and presents a compendium of numerous SQT-emitting plant species as well as the quantities and ratios of SQT species they have been observed to emit. The results of many enclosure-based studies indicate that temporal SQT emission variations appear to be dominated mainly by ambient temperatures although other factors contribute (e.g., seasonal variations). This implies that SQT emissions have increased significance at certain times of the year, especially in late spring to mid-summer. The strong temperature dependency of SQT emissions also creates the distinct possibility of increasing SQT emissions in a warmer climate. Disturbances to vegetation (from herbivores and possibly violent weather events) are clearly also important in controlling short-term SQT emissions bursts, though the relative contribution of disturbance-induced emissions is not known. Based on the biogenic SQT emissions studies reviewed here, SQT emission rates among numerous species have been observed to cover a wide range of values, and exhibit substantial variability between individuals and across species, as well as at different environmental and phenological states. These emission rates span several orders of magnitude (10s - 1000s of ng gDW&#x207b;&#xb9; h&#x207b;&#xb9;). Many of the higher rates were reported by early SQT studies, which may have included artificially-elevated SQT emission rates due to higher-than-ambient enclosure temperatures and disturbances to enclosed vegetation prior to and during sample collection. When predicting landscape-level SQT fluxes, modelers must consider the numerous sources of variability driving observed SQT emissions. Characterizations of landscape and global SQT fluxes are highly uncertain given differences and uncertainties in experimental protocols and measurements, the high variability in observed emission rates from different species, the selection of species that have been studied so far, and ambiguities regarding controls over emissions. This underscores the need for standardized experimental protocols, better characterization of disturbance-induced emissions, screening of dominant plant species, and the collection of multiple replicates from several individuals within a given species or genus as well as a better understanding of seasonal dependencies of SQT emissions in order to improve the representation of SQT emission rates.</gco:CharacterString>
+            <gco:CharacterString>This literature review summarizes the environmental controls governing biogenic sesquiterpene (SQT) emissions and presents a compendium of numerous SQT-emitting plant species as well as the quantities and ratios of SQT species they have been observed to emit. The results of many enclosure-based studies indicate that temporal SQT emission variations appear to be dominated mainly by ambient temperatures although other factors contribute (e.g., seasonal variations). This implies that SQT emissions have increased significance at certain times of the year, especially in late spring to mid-summer. The strong temperature dependency of SQT emissions also creates the distinct possibility of increasing SQT emissions in a warmer climate. Disturbances to vegetation (from herbivores and possibly violent weather events) are clearly also important in controlling short-term SQT emissions bursts, though the relative contribution of disturbance-induced emissions is not known. Based on the biogenic SQT emissions studies reviewed here, SQT emission rates among numerous species have been observed to cover a wide range of values, and exhibit substantial variability between individuals and across species, as well as at different environmental and phenological states. These emission rates span several orders of magnitude (10s - 1000s of ng gDW⁻¹ h⁻¹). Many of the higher rates were reported by early SQT studies, which may have included artificially-elevated SQT emission rates due to higher-than-ambient enclosure temperatures and disturbances to enclosed vegetation prior to and during sample collection. When predicting landscape-level SQT fluxes, modelers must consider the numerous sources of variability driving observed SQT emissions. Characterizations of landscape and global SQT fluxes are highly uncertain given differences and uncertainties in experimental protocols and measurements, the high variability in observed emission rates from different species, the selection of species that have been studied so far, and ambiguities regarding controls over emissions. This underscores the need for standardized experimental protocols, better characterization of disturbance-induced emissions, screening of dominant plant species, and the collection of multiple replicates from several individuals within a given species or genus as well as a better understanding of seasonal dependencies of SQT emissions in order to improve the representation of SQT emission rates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26336</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:17:40.289542</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:31:39.361818</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Macarewich, Sophia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6263-3044"
+                                    xlink:title="Macarewich, Sophia"
+                                    xlink:actuate="onRequest">Macarewich, Sophia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Monta&#xf1;ez, I. P.</gco:CharacterString>
+                        <gco:CharacterString>Montañez, I. P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Terrestrial plants have transformed Earth's surface environments by altering water, energy, and biogeochemical cycles. Studying vegetation-climate interaction in deep time has necessarily relied on modern-plant analogs to represent paleo-ecosystems-as methods for reconstructing paleo- and, in particular, extinct-plant function were lacking. This approach is potentially compromised given that plant physiology has evolved through time, and some paleo-plants have no clear modern analog. Advancements in the quantitative reconstruction of whole-plant function provide new opportunities to replace modern-plant analogs and capture age-specific vegetation-climate interactions. Here, we review recent investigations of paleo-plant performance through the integration of fossil and geologic data with process-based ecosystem- to Earth system-scale models to explore how early vascular plants responded to and influenced climate. First, we present an argument for characterizing extinct plants in terms of ecological and evolutionary theory to provide a framework for advancing reconstructed vegetation-climate interactions in deep time. We discuss the novel mechanistic understanding provided by applying these approaches to plants of the late Paleozoic ever-wet tropics and at higher latitudes. Finally, we discuss preliminary applications to paleo-plants in a state-of-the-art Earth system model to highlight the potential implications of different plant functional strategies on our understanding of vegetation-climate interactions in deep time. &#x25aa; For hundreds of millions of years, plants have been a keystone in maintaining the status of Earth's atmosphere, oceans, and climate. &#x25aa; Extinct plants have functioned differently across time, limiting our understanding of how processes on Earth interact to produce climate. &#x25aa; New methods, reviewed here, allow quantitative reconstruction of extinct-plant function based on the fossil record. &#x25aa; Integrating extinct plants into ecosystem and climate models will expand our understanding of vegetation's role in past environmental change.</gco:CharacterString>
+            <gco:CharacterString>Terrestrial plants have transformed Earth's surface environments by altering water, energy, and biogeochemical cycles. Studying vegetation-climate interaction in deep time has necessarily relied on modern-plant analogs to represent paleo-ecosystems-as methods for reconstructing paleo- and, in particular, extinct-plant function were lacking. This approach is potentially compromised given that plant physiology has evolved through time, and some paleo-plants have no clear modern analog. Advancements in the quantitative reconstruction of whole-plant function provide new opportunities to replace modern-plant analogs and capture age-specific vegetation-climate interactions. Here, we review recent investigations of paleo-plant performance through the integration of fossil and geologic data with process-based ecosystem- to Earth system-scale models to explore how early vascular plants responded to and influenced climate. First, we present an argument for characterizing extinct plants in terms of ecological and evolutionary theory to provide a framework for advancing reconstructed vegetation-climate interactions in deep time. We discuss the novel mechanistic understanding provided by applying these approaches to plants of the late Paleozoic ever-wet tropics and at higher latitudes. Finally, we discuss preliminary applications to paleo-plants in a state-of-the-art Earth system model to highlight the potential implications of different plant functional strategies on our understanding of vegetation-climate interactions in deep time. ▪ For hundreds of millions of years, plants have been a keystone in maintaining the status of Earth's atmosphere, oceans, and climate. ▪ Extinct plants have functioned differently across time, limiting our understanding of how processes on Earth interact to produce climate. ▪ New methods, reviewed here, allow quantitative reconstruction of extinct-plant function based on the fossil record. ▪ Integrating extinct plants into ecosystem and climate models will expand our understanding of vegetation's role in past environmental change.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

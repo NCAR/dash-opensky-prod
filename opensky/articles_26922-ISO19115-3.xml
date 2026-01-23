@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26922</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:50:16.637455</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:32:43.588611</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mayernik, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4122-0910"
+                                    xlink:title="Mayernik, Matthew"
+                                    xlink:actuate="onRequest">Mayernik, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Considerable attention has been devoted to the use of persistent identifiers for assets of interest to scientific and other communities alike over the last two decades. Among persistent identifiers, Digital Object Identifiers (DOIs) stand out quite prominently, with approximately 133 million DOIs assigned to various objects as of February 2017. While the assignment of DOIs to objects such as scientific publications has been in place for many years, their assignment to Earth science data sets is more recent. Applying persistent identifiers to data sets enables improved tracking of their use and reuse, facilitates the crediting of data producers, and aids reproducibility through associating research with the exact data set(s) used. Maintaining provenance &#x2013; i.e., tracing back lineage of significant scientific conclusions to the entities (data sets, algorithms, instruments, satellites, etc.) that lead to the conclusions, would be prohibitive without persistent identifiers. This paper provides a brief background on the use of persistent identifiers in general within the US, and DOIs more specifically. We examine their recent use for Earth science data sets, and outline successes and some remaining challenges. Among the challenges, for example, is the ability to conveniently and consistently obtain data citation statistics using the DOIs assigned by organizations that manage data sets.</gco:CharacterString>
+            <gco:CharacterString>Considerable attention has been devoted to the use of persistent identifiers for assets of interest to scientific and other communities alike over the last two decades. Among persistent identifiers, Digital Object Identifiers (DOIs) stand out quite prominently, with approximately 133 million DOIs assigned to various objects as of February 2017. While the assignment of DOIs to objects such as scientific publications has been in place for many years, their assignment to Earth science data sets is more recent. Applying persistent identifiers to data sets enables improved tracking of their use and reuse, facilitates the crediting of data producers, and aids reproducibility through associating research with the exact data set(s) used. Maintaining provenance – i.e., tracing back lineage of significant scientific conclusions to the entities (data sets, algorithms, instruments, satellites, etc.) that lead to the conclusions, would be prohibitive without persistent identifiers. This paper provides a brief background on the use of persistent identifiers in general within the US, and DOIs more specifically. We examine their recent use for Earth science data sets, and outline successes and some remaining challenges. Among the challenges, for example, is the ability to conveniently and consistently obtain data citation statistics using the DOIs assigned by organizations that manage data sets.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6681</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:49.953649</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:38:30.882603</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A global stratospheric ozone data set for 1979 - 2005 is described. Interannual variations are derived from analysis of Stratospheric Aerosol and Gas Experiment (SAGE I and II) profile measurements, combined with polar ozonesonde data from Syowa (69&#xb0;S) and Resolute (75&#xb0;N). These interannual changes are combined with a seasonally varying ozone climatology from Fortuin and Kelder [1998] to provide a monthly global data set. These data are intended for use in global modeling studies and for analysis of global variability and trends. In order to generate continuous fields from the gappy SAGE data, we use a regression fit that includes decadal trends, solar cycle, and QBO terms, and the spatial structure of these variations is studied in detail. Decadal trends are modeled using an equivalent effective stratospheric chlorine proxy. Ozone variability from the vertically integrated SAGE/sonde data set is compared with results derived from a merged Total Ozone Mapping Spectrometer/solar backscatter ultraviolet column ozone data set, showing good overall agreement (in particular for trends in extratropics). We also compare the SAGE data with ozonesonde measurements over Northern Hemisphere midlatitudes and find excellent agreement for lower stratospheric variability and trends. In the tropics, the SAGE ozone data show relatively large percentage decreases in the lower stratosphere. However, the vertically integrated SAGE data do not agree with column ozone trends in the tropics, so there is less confidence in the SAGE results in this region.</gco:CharacterString>
+            <gco:CharacterString>A global stratospheric ozone data set for 1979 - 2005 is described. Interannual variations are derived from analysis of Stratospheric Aerosol and Gas Experiment (SAGE I and II) profile measurements, combined with polar ozonesonde data from Syowa (69°S) and Resolute (75°N). These interannual changes are combined with a seasonally varying ozone climatology from Fortuin and Kelder [1998] to provide a monthly global data set. These data are intended for use in global modeling studies and for analysis of global variability and trends. In order to generate continuous fields from the gappy SAGE data, we use a regression fit that includes decadal trends, solar cycle, and QBO terms, and the spatial structure of these variations is studied in detail. Decadal trends are modeled using an equivalent effective stratospheric chlorine proxy. Ozone variability from the vertically integrated SAGE/sonde data set is compared with results derived from a merged Total Ozone Mapping Spectrometer/solar backscatter ultraviolet column ozone data set, showing good overall agreement (in particular for trends in extratropics). We also compare the SAGE data with ozonesonde measurements over Northern Hemisphere midlatitudes and find excellent agreement for lower stratospheric variability and trends. In the tropics, the SAGE ozone data show relatively large percentage decreases in the lower stratosphere. However, the vertically integrated SAGE data do not agree with column ozone trends in the tropics, so there is less confidence in the SAGE results in this region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

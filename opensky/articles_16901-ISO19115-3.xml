@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16901</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T22:40:16.005569</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:05:48.776454</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Thermospheric winds and temperatures must be correctly specified to understand the impacts of lower atmosphere processes on the upper atmosphere and to measure the global effects of high-latitude magnetospheric processes. Fabry-Perot interferometers can estimate these parameters by measuring the characteristic 630.0&#x2009;nm emission that is produced at around 250&#x2009;km altitude. These sophisticated instruments exist at only a few locations globally, so models are often employed to provide wind and temperature estimates elsewhere. This study is composed of two parts. First, observing system simulation experiments estimate the accuracy of Fabry-Perot interferometer observations using the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIEGCM) and the Whole Atmosphere Community Climate Model eXtended (WACCM-X). Atmospheric observational error sources are found to be very small across two test periods (September 2000 and September 2010) and using two different "truth" models. The largest magnitude wind observation error is found to be 16.9&#x2009;m/s, root-mean-square errors are 2.3&#x2009;m/s, and the bias is 0.9&#x2009;m/s. The largest-magnitude temperature observation error is found to be 63.7&#x2009;K, root-mean-square errors over the test period are 6.7&#x2009;K, and the bias is 2.8&#x2009;K. Modeled redline emission altitudes vary by over 100&#x2009;km, far more than was expected. Second, several models (TIEGCM, WACCM-X, the Horizontal Wind Model, and the Mass Spectrometer Incoherent Scatter model) are assessed using interferometer winds and temperatures from Cariri and Cajazeiras, Brazil, as ground truth. In the best cases, the models reproduce wind variability without systematic biases but show no ability to predict instantaneous values, although temperatures are modeled more accurately.</gco:CharacterString>
+            <gco:CharacterString>Thermospheric winds and temperatures must be correctly specified to understand the impacts of lower atmosphere processes on the upper atmosphere and to measure the global effects of high-latitude magnetospheric processes. Fabry-Perot interferometers can estimate these parameters by measuring the characteristic 630.0 nm emission that is produced at around 250 km altitude. These sophisticated instruments exist at only a few locations globally, so models are often employed to provide wind and temperature estimates elsewhere. This study is composed of two parts. First, observing system simulation experiments estimate the accuracy of Fabry-Perot interferometer observations using the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIEGCM) and the Whole Atmosphere Community Climate Model eXtended (WACCM-X). Atmospheric observational error sources are found to be very small across two test periods (September 2000 and September 2010) and using two different "truth" models. The largest magnitude wind observation error is found to be 16.9 m/s, root-mean-square errors are 2.3 m/s, and the bias is 0.9 m/s. The largest-magnitude temperature observation error is found to be 63.7 K, root-mean-square errors over the test period are 6.7 K, and the bias is 2.8 K. Modeled redline emission altitudes vary by over 100 km, far more than was expected. Second, several models (TIEGCM, WACCM-X, the Horizontal Wind Model, and the Mass Spectrometer Incoherent Scatter model) are assessed using interferometer winds and temperatures from Cariri and Cajazeiras, Brazil, as ground truth. In the best cases, the models reproduce wind variability without systematic biases but show no ability to predict instantaneous values, although temperatures are modeled more accurately.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

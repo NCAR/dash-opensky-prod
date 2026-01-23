@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22726</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:29:22.120645</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:34:36.371570</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Krumhardt, Kristen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8980-056X"
+                                    xlink:title="Krumhardt, Kristen"
+                                    xlink:actuate="onRequest">Krumhardt, Kristen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1273-2957"
+                                    xlink:title="Long, Matthew"
+                                    xlink:actuate="onRequest">Long, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Levy, Michael N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6553-2153"
+                                    xlink:title="Levy, Michael N."
+                                    xlink:actuate="onRequest">Levy, Michael N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lindsay, Keith</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3672-1665"
+                                    xlink:title="Lindsay, Keith"
+                                    xlink:actuate="onRequest">Lindsay, Keith</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +206,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Anthropogenic CO2 emissions are inundating the upper ocean, acidifying the water, and altering the habitat for marine phytoplankton. These changes are thought to be particularly influential for calcifying phytoplankton, namely, coccolithophores. Coccolithophores are widespread and account for a substantial portion of open ocean calcification; changes in their abundance, distribution, or level of calcification could have far-reaching ecological and biogeochemical impacts. Here, we isolate the effects of increasing CO2 on coccolithophores using an explicit coccolithophore phytoplankton functional type parameterization in the Community Earth System Model. Coccolithophore growth and calcification are sensitive to changing aqueous CO2. While holding circulation constant, we demonstrate that increasing CO2 concentrations cause coccolithophores in most areas to decrease calcium carbonate production relative to growth. However, several oceanic regions show large increases in calcification, such as the North Atlantic, Western Pacific, and parts of the Southern Ocean, due to an alleviation of carbon limitation for coccolithophore growth. Global annual calcification is 6% higher under present-day CO2 levels relative to preindustrial CO2 (1.5 compared to 1.4 Pg C/year). However, under 900 &#x11f;&#xfffd;&#x153;&#x2021; atm CO2, global annual calcification is 11% lower than under preindustrial CO2 levels (1.2 Pg C/year). Large portions of the ocean show greatly decreased coccolithophore calcification relative to growth, resulting in significant regional carbon export and air-sea CO2 exchange feedbacks. Our study implies that coccolithophores become more abundant but less calcified as CO2 increases with a tipping point in global calcification (changing from increasing to decreasing calcification relative to preindustrial) at approximately &#x2264;600 &#x11f;&#xfffd;&#x153;&#x2021; atm CO2.</gco:CharacterString>
+            <gco:CharacterString>Anthropogenic CO2 emissions are inundating the upper ocean, acidifying the water, and altering the habitat for marine phytoplankton. These changes are thought to be particularly influential for calcifying phytoplankton, namely, coccolithophores. Coccolithophores are widespread and account for a substantial portion of open ocean calcification; changes in their abundance, distribution, or level of calcification could have far-reaching ecological and biogeochemical impacts. Here, we isolate the effects of increasing CO2 on coccolithophores using an explicit coccolithophore phytoplankton functional type parameterization in the Community Earth System Model. Coccolithophore growth and calcification are sensitive to changing aqueous CO2. While holding circulation constant, we demonstrate that increasing CO2 concentrations cause coccolithophores in most areas to decrease calcium carbonate production relative to growth. However, several oceanic regions show large increases in calcification, such as the North Atlantic, Western Pacific, and parts of the Southern Ocean, due to an alleviation of carbon limitation for coccolithophore growth. Global annual calcification is 6% higher under present-day CO2 levels relative to preindustrial CO2 (1.5 compared to 1.4 Pg C/year). However, under 900 ğ�œ‡ atm CO2, global annual calcification is 11% lower than under preindustrial CO2 levels (1.2 Pg C/year). Large portions of the ocean show greatly decreased coccolithophore calcification relative to growth, resulting in significant regional carbon export and air-sea CO2 exchange feedbacks. Our study implies that coccolithophores become more abundant but less calcified as CO2 increases with a tipping point in global calcification (changing from increasing to decreasing calcification relative to preindustrial) at approximately ≤600 ğ�œ‡ atm CO2.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

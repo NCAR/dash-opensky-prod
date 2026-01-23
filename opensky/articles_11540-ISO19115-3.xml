@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11540</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:51:21.019049</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:08:44.644595</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wiltberger, Michael</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4844-3148"
+                                    xlink:title="Wiltberger, Michael"
+                                    xlink:actuate="onRequest">Wiltberger, Michael</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Multifluid-Lyon-Fedder-Mobarry (MFLFM) global simulation model incorporating an ionospheric cusp O&#x207a; outflow model based on an empirical relation between downward DC Poynting flux and O&#x207a; outflow flux regulated by the precipitating electron number flux (F(en)) is used to simulate the 31 August 2005 storm. A baseline run incorporating the original solar wind data is contrasted against a case where the solar wind dynamic pressure (P(dyn)) is artificially adjusted to see what effects this variable has on the O&#x207a; fluence generated in the model. Consistent with data, it is found that both the fluence and O&#x207a; outflow flux have a positive correlation with the solar wind dynamic pressure. Additionally, changes in P(dyn) affect the downward Poynting flux only marginally and regulates both outflow flux and cusp outflow area via F(en). Increases in P(dyn) lead to increased cusp electron precipitation, which has the physical effect of enhancing the upwelling O&#x207a; population available for outflow.</gco:CharacterString>
+            <gco:CharacterString>The Multifluid-Lyon-Fedder-Mobarry (MFLFM) global simulation model incorporating an ionospheric cusp O⁺ outflow model based on an empirical relation between downward DC Poynting flux and O⁺ outflow flux regulated by the precipitating electron number flux (F(en)) is used to simulate the 31 August 2005 storm. A baseline run incorporating the original solar wind data is contrasted against a case where the solar wind dynamic pressure (P(dyn)) is artificially adjusted to see what effects this variable has on the O⁺ fluence generated in the model. Consistent with data, it is found that both the fluence and O⁺ outflow flux have a positive correlation with the solar wind dynamic pressure. Additionally, changes in P(dyn) affect the downward Poynting flux only marginally and regulates both outflow flux and cusp outflow area via F(en). Increases in P(dyn) lead to increased cusp electron precipitation, which has the physical effect of enhancing the upwelling O⁺ population available for outflow.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

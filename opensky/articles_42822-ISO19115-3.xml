@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42822</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:34.732179</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:50.237407</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -83,6 +84,86 @@
    <gmd:dataSetURI>
       <gco:CharacterString>https://n2t.net/ark:/85065/d74172dk</gco:CharacterString>
    </gmd:dataSetURI>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.15485/1617203</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>NEON AOP Survey of Upper East River CO Watersheds: LAZ Files, LiDAR Surface Elevation, Terrain Elevation, and Canopy Height Rasters</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.15485/1909712</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Raw soil carbon dioxide, moisture, temperature and micrometeorological data in the East River Watershed, Colorado June 2021-June 2024. (DE-SC0021139)</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.15485/1989228</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #3</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Meteorological and hydrological parameters for 17 locations of meteorological stations of the East River Watershed</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource>
+            <gmd:CI_OnlineResource>
+               <gmd:linkage>
+                  <gmd:URL>https://doi.org/10.15485/1647654</gmd:URL>
+               </gmd:linkage>
+               <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+               </gmd:protocol>
+               <gmd:name>
+                  <gco:CharacterString>Related Dataset #4</gco:CharacterString>
+               </gmd:name>
+               <gmd:description>
+                  <gco:CharacterString>Sapflow and xylem water isotopes from Snodgrass Mountain, East River Watershed, Colorado USA</gco:CharacterString>
+               </gmd:description>
+            </gmd:CI_OnlineResource>
+         </gmd:extensionOnLineResource>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -307,7 +388,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gochis, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8668-4850"
+                                    xlink:title="Gochis, David"
+                                    xlink:actuate="onRequest">Gochis, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +440,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A declining spring snowpack is expected to have widespread effects on montane and subalpine forests in western North America and across the globe. The way that tree water demands respond to this change will have important impacts on forest health and downstream water subsidies. Here, we present data from a network of sap velocity sensors and xylem water isotope measurements from three common tree species (Picea engelmannii, Abies lasiocarpa and Populus tremuloides) across a hillslope transect in a subalpine watershed in the Upper Colorado River basin. We use these data to compare tree- and stand-level responses to the historically high spring snowpack but low summer rainfall of 2019 against the low spring snowpack but high summer rainfall amounts of 2021 and 2022. From the sap velocity data, we found that only 40&#x2009;% of the trees showed an increase in cumulative transpiration in response to the large snowpack year (2019), illustrating the absence of a common response to interannual spring snowpack variability. The trees that increased water use during the year with the large spring snowpack were all found in dense canopy stands &#x2013; irrespective of species &#x2013; while trees in open-canopy stands were more reliant on summer rains and, thus, more active during the years with modest snow and higher summer rain amounts. Using the sap velocity data along with supporting measurements of soil moisture and snow depth, we propose three mechanisms that lead to stand density modulating the tree-level response to changing seasonality of precipitation: Topographically mediated convergence zones have consistent access to recharge from snowmelt which supports denser stands with high water demands that are more reliant and sensitive to changing snow. Interception of summer rain in dense stands reduces the throughfall of summer rain to surface soils, limiting the sensitivity of the dense stands to changes in summer rain. Shading in dense stands allows the snowpack to persist deeper into the growing season, providing high local reliance on snow during the fore-summer (early-summer) drought period. Combining data generated from natural gradients in stand density, like this experiment, with results from controlled forest-thinning experiments can be used to develop a better understanding of the responses of forested ecosystems to futures with reduced spring snowpack.</gco:CharacterString>
+            <gco:CharacterString>A declining spring snowpack is expected to have widespread effects on montane and subalpine forests in western North America and across the globe. The way that tree water demands respond to this change will have important impacts on forest health and downstream water subsidies. Here, we present data from a network of sap velocity sensors and xylem water isotope measurements from three common tree species (Picea engelmannii, Abies lasiocarpa and Populus tremuloides) across a hillslope transect in a subalpine watershed in the Upper Colorado River basin. We use these data to compare tree- and stand-level responses to the historically high spring snowpack but low summer rainfall of 2019 against the low spring snowpack but high summer rainfall amounts of 2021 and 2022. From the sap velocity data, we found that only 40 % of the trees showed an increase in cumulative transpiration in response to the large snowpack year (2019), illustrating the absence of a common response to interannual spring snowpack variability. The trees that increased water use during the year with the large spring snowpack were all found in dense canopy stands – irrespective of species – while trees in open-canopy stands were more reliant on summer rains and, thus, more active during the years with modest snow and higher summer rain amounts. Using the sap velocity data along with supporting measurements of soil moisture and snow depth, we propose three mechanisms that lead to stand density modulating the tree-level response to changing seasonality of precipitation: Topographically mediated convergence zones have consistent access to recharge from snowmelt which supports denser stands with high water demands that are more reliant and sensitive to changing snow. Interception of summer rain in dense stands reduces the throughfall of summer rain to surface soils, limiting the sensitivity of the dense stands to changes in summer rain. Shading in dense stands allows the snowpack to persist deeper into the growing season, providing high local reliance on snow during the fore-summer (early-summer) drought period. Combining data generated from natural gradients in stand density, like this experiment, with results from controlled forest-thinning experiments can be used to develop a better understanding of the responses of forested ecosystems to futures with reduced spring snowpack.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

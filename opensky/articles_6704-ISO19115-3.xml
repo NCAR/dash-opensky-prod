@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6704</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:08.424709</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:39:21.557032</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Regional carbon fluxes from an observationally constrained dynamic ecosystem model: Impacts of disturbance, CO&#x2082; fertilization, and heterogeneous land cover</gco:CharacterString>
+                  <gco:CharacterString>Regional carbon fluxes from an observationally constrained dynamic ecosystem model: Impacts of disturbance, CO₂ fertilization, and heterogeneous land cover</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Ecosystem Demography (ED) model was parameterized with ecological, forest inventory, and historical land use observations in an intensively managed, wetland-rich forested landscape in the upper midwest United States. Model results were evaluated against a regional network of eddy covariance flux towers and analyzed about the roles of disturbance, forest management, and CO&#x2082; fertilization. The model captured modern regional vegetation structure with worst comparison in wetlands. Model net ecosystem exchange of CO&#x2082; (NEE) was highly correlated on monthly (r&#xb2; = 0.65) and annual (r&#xb2; = 0.53) timescales to 7 years of NEE observed at a 396-m-tall eddy covariance (EC) tower and to 2 years of growing season NEE from 13 regional stand-scale EC sites of varying cover and age (r&#xb2; = 0.64). Model summer NEE had higher than observed net uptake for the tall tower and mature hardwood sites, and correlation to growing season ecosystem respiration at these sites was poor (r&#xb2; = 0.09). Exclusion of forestry led to overestimation of aboveground living plant biomass accumulation by 109% between two forest inventory cycles (1996-2004). On the long-term (200 years), forestry significantly altered ecosystem cover and age, and increased NEE by 32%. CO&#x2082; fertilization over that time period increased NEE by 93% owing to a doubling of plant density. While the model showed that harvest and afforestation had smaller impacts on NEE than CO&#x2082; increase, the former were still significant and require consideration when making future NEE predictions or scaling plot-level data to regional and global flux estimates.</gco:CharacterString>
+            <gco:CharacterString>The Ecosystem Demography (ED) model was parameterized with ecological, forest inventory, and historical land use observations in an intensively managed, wetland-rich forested landscape in the upper midwest United States. Model results were evaluated against a regional network of eddy covariance flux towers and analyzed about the roles of disturbance, forest management, and CO₂ fertilization. The model captured modern regional vegetation structure with worst comparison in wetlands. Model net ecosystem exchange of CO₂ (NEE) was highly correlated on monthly (r² = 0.65) and annual (r² = 0.53) timescales to 7 years of NEE observed at a 396-m-tall eddy covariance (EC) tower and to 2 years of growing season NEE from 13 regional stand-scale EC sites of varying cover and age (r² = 0.64). Model summer NEE had higher than observed net uptake for the tall tower and mature hardwood sites, and correlation to growing season ecosystem respiration at these sites was poor (r² = 0.09). Exclusion of forestry led to overestimation of aboveground living plant biomass accumulation by 109% between two forest inventory cycles (1996-2004). On the long-term (200 years), forestry significantly altered ecosystem cover and age, and increased NEE by 32%. CO₂ fertilization over that time period increased NEE by 93% owing to a doubling of plant density. While the model showed that harvest and afforestation had smaller impacts on NEE than CO₂ increase, the former were still significant and require consideration when making future NEE predictions or scaling plot-level data to regional and global flux estimates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

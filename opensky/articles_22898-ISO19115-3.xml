@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22898</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:24:59.315129</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:24:07.831828</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -257,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, O.</gco:CharacterString>
+                        <gco:CharacterString>García, O.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +380,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Granados-Mu&#xf1;oz, M.</gco:CharacterString>
+                        <gco:CharacterString>Granados-Muñoz, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +480,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>From the earliest observations of ozone in the lower atmosphere in the 19th century, both measurement methods and the portion of the globe observed have evolved and changed. These methods have different uncertainties and biases, and the data records differ with respect to coverage (space and time), information content, and representativeness. In this study, various ozone measurement methods and ozone datasets are reviewed and selected for inclusion in the historical record of background ozone levels, based on relationship of the measurement technique to the modern UV absorption standard, absence of interfering pollutants, representativeness of the well-mixed boundary layer and expert judgement of their credibility. There are significant uncertainties with the 19th and early 20th-century measurements related to interference of other gases. Spectroscopic methods applied before 1960 have likely underestimated ozone by as much as 11% at the surface and by about 24% in the free troposphere, due to the use of differing ozone absorption coefficients. There is no unambiguous evidence in the measurement record back to 1896 that typical mid-latitude background surface ozone values were below about 20 nmol mol&#x2013;1, but there is robust evidence for increases in the temperate and polar regions of the northern hemisphere of 30-70%, with large uncertainty, between the period of historic observations, 1896-1975, and the modern period (1990&#x2013;2014). Independent historical observations from balloons and aircraft indicate similar changes in the free troposphere. Changes in the southern hemisphere are much less. Regional representativeness of the available observations remains a potential source of large errors, which are difficult to quantify. The great majority of validation and intercomparison studies of free tropospheric ozone measurement methods use ECC ozonesondes as reference. Compared to UV-absorption measurements they show a modest (~1-5% &#xb1;5%) high bias in the troposphere, but no evidence of a change with time. Umkehr, lidar, and FTIR methods all show modest low biases relative to ECCs, and so, using ECC sondes as a transfer standard, all appear to agree to within one standard deviation with the modern UV-absorption standard. Other sonde types show an increase of 5-20% in sensitivity to tropospheric ozone from 1970-1995. Biases and standard deviations of satellite retrieval comparisons are often 2-3 times larger than those of other free tropospheric measurements. The lack of information on temporal changes of bias for satellite measurements of tropospheric ozone is an area of concern for long-term trend studies.</gco:CharacterString>
+            <gco:CharacterString>From the earliest observations of ozone in the lower atmosphere in the 19th century, both measurement methods and the portion of the globe observed have evolved and changed. These methods have different uncertainties and biases, and the data records differ with respect to coverage (space and time), information content, and representativeness. In this study, various ozone measurement methods and ozone datasets are reviewed and selected for inclusion in the historical record of background ozone levels, based on relationship of the measurement technique to the modern UV absorption standard, absence of interfering pollutants, representativeness of the well-mixed boundary layer and expert judgement of their credibility. There are significant uncertainties with the 19th and early 20th-century measurements related to interference of other gases. Spectroscopic methods applied before 1960 have likely underestimated ozone by as much as 11% at the surface and by about 24% in the free troposphere, due to the use of differing ozone absorption coefficients. There is no unambiguous evidence in the measurement record back to 1896 that typical mid-latitude background surface ozone values were below about 20 nmol mol–1, but there is robust evidence for increases in the temperate and polar regions of the northern hemisphere of 30-70%, with large uncertainty, between the period of historic observations, 1896-1975, and the modern period (1990–2014). Independent historical observations from balloons and aircraft indicate similar changes in the free troposphere. Changes in the southern hemisphere are much less. Regional representativeness of the available observations remains a potential source of large errors, which are difficult to quantify. The great majority of validation and intercomparison studies of free tropospheric ozone measurement methods use ECC ozonesondes as reference. Compared to UV-absorption measurements they show a modest (~1-5% ±5%) high bias in the troposphere, but no evidence of a change with time. Umkehr, lidar, and FTIR methods all show modest low biases relative to ECCs, and so, using ECC sondes as a transfer standard, all appear to agree to within one standard deviation with the modern UV-absorption standard. Other sonde types show an increase of 5-20% in sensitivity to tropospheric ozone from 1970-1995. Biases and standard deviations of satellite retrieval comparisons are often 2-3 times larger than those of other free tropospheric measurements. The lack of information on temporal changes of bias for satellite measurements of tropospheric ozone is an area of concern for long-term trend studies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

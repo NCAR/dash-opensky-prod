@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24289</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:16:12.631678</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:30:13.791943</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Asher, Elizabeth</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8399-5730"
+                                    xlink:title="Asher, Elizabeth"
+                                    xlink:actuate="onRequest">Asher, Elizabeth</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +196,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A new airborne system, the Whole Air Sampling Pilotless Platform (WASPP), is described for the collection of whole air samples and in situ meteorological measurements onboard a commercial hexacopter. Rapid sample collection enables the collection &#x2264;15 air samples per flight in positively pressurized miniature canisters, subsequently analyzed on a mated analytical system for up to 80 nonmethane volatile organic compounds (VOCs). The WASPP is well suited to investigate VOC gradients in urban environments impacted by traffic, industry, and oil and natural gas (O&amp;NG) development, but has the sensitivity to characterize continental background conditions, as shown here using a subset of &gt;40 species. We document empirical tests to minimize the influence of rotor wash and other sampling artifacts and report favorable results of laboratory-based calibrations of the WASPP's meteorological sensors and field-based comparisons of WASPP's VOC measurements and horizontal wind velocity measurements. Airborne WASPP measurements can complement and enhance ground-based VOC monitoring efforts by providing substantial meteorological and VOC measurement capability across vertical and horizontal spatial scales. These measurements reveal strong vertical gradients in VOC mixing ratios, depending on local meteorology and sources. WASPP has wide applicability for pollution source identification and quantification of hazardous air pollutants and precursors of criteria pollutants, including monitoring O&amp;NG emissions or industry fenceline monitoring.</gco:CharacterString>
+            <gco:CharacterString>A new airborne system, the Whole Air Sampling Pilotless Platform (WASPP), is described for the collection of whole air samples and in situ meteorological measurements onboard a commercial hexacopter. Rapid sample collection enables the collection ≤15 air samples per flight in positively pressurized miniature canisters, subsequently analyzed on a mated analytical system for up to 80 nonmethane volatile organic compounds (VOCs). The WASPP is well suited to investigate VOC gradients in urban environments impacted by traffic, industry, and oil and natural gas (O&amp;NG) development, but has the sensitivity to characterize continental background conditions, as shown here using a subset of &gt;40 species. We document empirical tests to minimize the influence of rotor wash and other sampling artifacts and report favorable results of laboratory-based calibrations of the WASPP's meteorological sensors and field-based comparisons of WASPP's VOC measurements and horizontal wind velocity measurements. Airborne WASPP measurements can complement and enhance ground-based VOC monitoring efforts by providing substantial meteorological and VOC measurement capability across vertical and horizontal spatial scales. These measurements reveal strong vertical gradients in VOC mixing ratios, depending on local meteorology and sources. WASPP has wide applicability for pollution source identification and quantification of hazardous air pollutants and precursors of criteria pollutants, including monitoring O&amp;NG emissions or industry fenceline monitoring.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

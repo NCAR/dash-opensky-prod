@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18246</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:07:16.449254</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:26:17.777242</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Foehn winds are a prominent feature of the McMurdo Dry Valleys (MDVs) climate, and are responsible for periods of strong winds and warming. The foehn mechanism determined from a case study presented in earlier work is shown here to be robust for a set of the MDVs summer foehn events over the 1994&#x2013;2009 period using output from the Polar Weather Research and Forecasting Model (Polar WRF). Gap flow south of the MDVs is evidenced by the positive relationship between the pressure gradient and near-surface wind speed along the gap. Subsequently, mountain waves are generated and result in adiabatic warming and the downward transport of warm air into the MDVs, and differences in mountain wave characteristics depend on the ambient wind direction and the degree of flow nonlinearity. Pressure-driven channelling then brings warm foehn air downvalley. Although a large range of synoptic-scale circulation patterns can drive foehn events, the warmest foehn events are typically associated with blocking highs over the Australian sector of the Southern Ocean, leading to warm air advection over continental Antarctica. The episodic nature of foehn events, and the tenuous connections between such events and interannual modes of climate variability, suggests that intraseasonal variability may be more important for determining their frequency and magnitude. The extraordinarily warm austral summer of 2001/2002 across Antarctica shows that advection of warm maritime air into the continental interior and strong flow aloft result in warm foehn conditions and significant melt for the MDVs.</gco:CharacterString>
+            <gco:CharacterString>Foehn winds are a prominent feature of the McMurdo Dry Valleys (MDVs) climate, and are responsible for periods of strong winds and warming. The foehn mechanism determined from a case study presented in earlier work is shown here to be robust for a set of the MDVs summer foehn events over the 1994–2009 period using output from the Polar Weather Research and Forecasting Model (Polar WRF). Gap flow south of the MDVs is evidenced by the positive relationship between the pressure gradient and near-surface wind speed along the gap. Subsequently, mountain waves are generated and result in adiabatic warming and the downward transport of warm air into the MDVs, and differences in mountain wave characteristics depend on the ambient wind direction and the degree of flow nonlinearity. Pressure-driven channelling then brings warm foehn air downvalley. Although a large range of synoptic-scale circulation patterns can drive foehn events, the warmest foehn events are typically associated with blocking highs over the Australian sector of the Southern Ocean, leading to warm air advection over continental Antarctica. The episodic nature of foehn events, and the tenuous connections between such events and interannual modes of climate variability, suggests that intraseasonal variability may be more important for determining their frequency and magnitude. The extraordinarily warm austral summer of 2001/2002 across Antarctica shows that advection of warm maritime air into the continental interior and strong flow aloft result in warm foehn conditions and significant melt for the MDVs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

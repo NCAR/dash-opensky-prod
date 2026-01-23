@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12343</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:32:32.720232</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:54:33.700104</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schreiner, William S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3126-2674"
+                                    xlink:title="Schreiner, William S."
+                                    xlink:actuate="onRequest">Schreiner, William S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kuo, Ying-Hwa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8339-7271"
+                                    xlink:title="Kuo, Ying-Hwa"
+                                    xlink:actuate="onRequest">Kuo, Ying-Hwa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hunt, Douglas C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2662-4287"
+                                    xlink:title="Hunt, Douglas C."
+                                    xlink:actuate="onRequest">Hunt, Douglas C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We report preliminary results of a global 3-D ionospheric electron density reanalysis demonstration study during 2002-2011 based on multisource data assimilation. The monthly global ionospheric electron density reanalysis has been done by assimilating the quiet days ionospheric data into a data assimilation model constructed using the International Reference Ionosphere (IRI) 2007 model and a Kalman filter technique. These data include global navigation satellite system (GNSS) observations of ionospheric total electron content (TEC) from ground-based stations, ionospheric radio occultations by CHAMP, GRACE, COSMIC, SAC-C, Metop-A, and the TerraSAR-X satellites, and Jason-1 and 2 altimeter TEC measurements. The output of the reanalysis are 3-D gridded ionospheric electron densities with temporal and spatial resolutions of 1 h in universal time, 5&#xb0; in latitude, 10&#xb0; in longitude, and ~30 km in altitude. The climatological features of the reanalysis results, such as solar activity dependence, seasonal variations, and the global morphology of the ionosphere, agree well with those in the empirical models and observations. The global electron content derived from the international GNSS service global ionospheric maps, the observed electron density profiles from the Poker Flat Incoherent Scatter Radar during 2007-2010, and foF2 observed by the global ionosonde network during 2002-2011 are used to validate the reanalysis method. All comparisons show that the reanalysis have smaller deviations and biases than the IRI-2007 predictions. Especially after April 2006 when the six COSMIC satellites were launched, the reanalysis shows significant improvement over the IRI predictions. The obvious overestimation of the low-latitude ionospheric F region densities by the IRI model during the 23/24 solar minimum is corrected well by the reanalysis. The potential application and improvements of the reanalysis are also discussed.</gco:CharacterString>
+            <gco:CharacterString>We report preliminary results of a global 3-D ionospheric electron density reanalysis demonstration study during 2002-2011 based on multisource data assimilation. The monthly global ionospheric electron density reanalysis has been done by assimilating the quiet days ionospheric data into a data assimilation model constructed using the International Reference Ionosphere (IRI) 2007 model and a Kalman filter technique. These data include global navigation satellite system (GNSS) observations of ionospheric total electron content (TEC) from ground-based stations, ionospheric radio occultations by CHAMP, GRACE, COSMIC, SAC-C, Metop-A, and the TerraSAR-X satellites, and Jason-1 and 2 altimeter TEC measurements. The output of the reanalysis are 3-D gridded ionospheric electron densities with temporal and spatial resolutions of 1 h in universal time, 5° in latitude, 10° in longitude, and ~30 km in altitude. The climatological features of the reanalysis results, such as solar activity dependence, seasonal variations, and the global morphology of the ionosphere, agree well with those in the empirical models and observations. The global electron content derived from the international GNSS service global ionospheric maps, the observed electron density profiles from the Poker Flat Incoherent Scatter Radar during 2007-2010, and foF2 observed by the global ionosonde network during 2002-2011 are used to validate the reanalysis method. All comparisons show that the reanalysis have smaller deviations and biases than the IRI-2007 predictions. Especially after April 2006 when the six COSMIC satellites were launched, the reanalysis shows significant improvement over the IRI predictions. The obvious overestimation of the low-latitude ionospheric F region densities by the IRI model during the 23/24 solar minimum is corrected well by the reanalysis. The potential application and improvements of the reanalysis are also discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6475</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:44.250272</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:23:20.689868</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Maute, Astrid</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3393-0987"
+                                    xlink:title="Maute, Astrid"
+                                    xlink:actuate="onRequest">Maute, Astrid</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The influence of the high-latitude energy inputs and heating distributions on the global thermosphere are investigated by coupling a new empirical model of the Poynting flux with the NCAR-TIEGCM. First, in order to show the contribution of the electric field variability to the energy input and thermospheric temperature, model results are compared for simulations where Joule heating is calculated with the average electric field (called "simple Joule heating") and where Joule heating is adjusted according to the Poynting flux from the empirical model. In the northern (summer) hemisphere, the Poynting flux has a peak in the dayside cusp, which is missing in the altitude-integrated simple Joule heating. The hemispheric integral of the Poynting flux is approximately 30% larger than the integral of simple Joule heating, and the polar average (poleward of 40&#xb0;) temperature calculated with the Poynting flux increases by 85 - 95 K, which is more than 50% of the temperature increase caused by the polar energy inputs. Second, three different methods to distribute the Poynting flux in altitude are investigated. Different heating distributions cause a difference in the polar average of heating per unit mass as high as 40% at 160 km altitude. Consequently, the difference of the polar average temperature among these three cases is close to 30 - 50 K. These results suggest that not only the total amount of energy input, but the way that the energy is distributed in altitude is significant to the impact of the magnetosphere on the thermosphere and ionosphere.</gco:CharacterString>
+            <gco:CharacterString>The influence of the high-latitude energy inputs and heating distributions on the global thermosphere are investigated by coupling a new empirical model of the Poynting flux with the NCAR-TIEGCM. First, in order to show the contribution of the electric field variability to the energy input and thermospheric temperature, model results are compared for simulations where Joule heating is calculated with the average electric field (called "simple Joule heating") and where Joule heating is adjusted according to the Poynting flux from the empirical model. In the northern (summer) hemisphere, the Poynting flux has a peak in the dayside cusp, which is missing in the altitude-integrated simple Joule heating. The hemispheric integral of the Poynting flux is approximately 30% larger than the integral of simple Joule heating, and the polar average (poleward of 40°) temperature calculated with the Poynting flux increases by 85 - 95 K, which is more than 50% of the temperature increase caused by the polar energy inputs. Second, three different methods to distribute the Poynting flux in altitude are investigated. Different heating distributions cause a difference in the polar average of heating per unit mass as high as 40% at 160 km altitude. Consequently, the difference of the polar average temperature among these three cases is close to 30 - 50 K. These results suggest that not only the total amount of energy input, but the way that the energy is distributed in altitude is significant to the impact of the magnetosphere on the thermosphere and ionosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

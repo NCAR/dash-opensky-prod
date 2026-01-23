@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:7117</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:29.872641</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:01.885344</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -247,7 +248,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A coordinated aircraft - radar project that investigated the electric fields, cloud microphysics, and radar reflectivity of thunderstorm anvils near Kennedy Space Center is described. Measurements from two cases illustrate the extensive nature of the microphysics and electric field observations. As the aircraft flew from the edges of anvils into the interior, electric fields very frequently increased abruptly from ~1 to &gt;10 kV m&#xb9; even though the particle concentrations and radar reflectivity increased smoothly. The abrupt increase in field usually occurred when the aircraft entered regions with a reflectivity of 10 - 15 dBZ. We suggest that the abrupt increase in electric field was because the charge advection from the convective core did not occur across the entire breadth of the anvil and because the advection of charge was not constant in time. Also, some long-lived anvils showed enhancement of electric field and reflectivity far downwind of the convective core. Screening layers were not detected near the edges of the anvils. Comparisons of electric field magnitude with particle concentration or reflectivity for a combined data set that included all anvil measurements showed a threshold behavior. When the average reflectivity, such as in a 3-km cube, was less than approximately 5 dBZ, the electric field magnitude was &lt;3 kV m&#xb9;. Based on these findings, the Volume Averaged Height Integrated Radar Reflectivity (VAHIRR) is now being used by the NASA, the Air Force, the and Federal Aviation Administration in new Lightning Launch Commit Criteria as a diagnostic for high electric fields in anvils.</gco:CharacterString>
+            <gco:CharacterString>A coordinated aircraft - radar project that investigated the electric fields, cloud microphysics, and radar reflectivity of thunderstorm anvils near Kennedy Space Center is described. Measurements from two cases illustrate the extensive nature of the microphysics and electric field observations. As the aircraft flew from the edges of anvils into the interior, electric fields very frequently increased abruptly from ~1 to &gt;10 kV m¹ even though the particle concentrations and radar reflectivity increased smoothly. The abrupt increase in field usually occurred when the aircraft entered regions with a reflectivity of 10 - 15 dBZ. We suggest that the abrupt increase in electric field was because the charge advection from the convective core did not occur across the entire breadth of the anvil and because the advection of charge was not constant in time. Also, some long-lived anvils showed enhancement of electric field and reflectivity far downwind of the convective core. Screening layers were not detected near the edges of the anvils. Comparisons of electric field magnitude with particle concentration or reflectivity for a combined data set that included all anvil measurements showed a threshold behavior. When the average reflectivity, such as in a 3-km cube, was less than approximately 5 dBZ, the electric field magnitude was &lt;3 kV m¹. Based on these findings, the Volume Averaged Height Integrated Radar Reflectivity (VAHIRR) is now being used by the NASA, the Air Force, the and Federal Aviation Administration in new Lightning Launch Commit Criteria as a diagnostic for high electric fields in anvils.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

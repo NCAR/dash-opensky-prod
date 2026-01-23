@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6628</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:12.291289</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:39:29.633931</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this paper, ionospheric electron temperature (Te) data for more than two solar cycles measured by the incoherent scatter radars (ISR) at Millstone Hill (42.6&#xb0;N, 71.5&#xb0;W) and Arecibo (18.3&#xb0;N, 66.7&#xb0;W) are compared with the theoretical Te calculated from the National Center for Atmospheric Research Thermosphere-Ionosphere-Electrodynamics General Circulation Model (NCAR-TIEGCM) to investigate the temporal variations of Te. The comparisons are made for both low and high solar activity conditions and for three seasons: equinox, summer, and winter. The observations show that the diurnal variation of Te is characterized by morning and evening peaks at Arecibo and by a morning peak at Millstone Hill. The occurrence and strength of the peaks at Arecibo are significantly different from those at Millstone Hill. Daytime Te tends to increase with solar activity at both stations below &#x223c;300 km. Te above 300 km generally decreases with solar activity; however, it increases with solar activity in equinox and summer at Arecibo, whereas it does so only in summer at Millstone Hill. The TIEGCM model can reproduce these variations. However, the modeled evening peak is weaker than that from observations at Arecibo. The simulations show that the daytime bulge of Te tends to occur at low latitudes and high solar activity, as seen in the observations, and the significant morning peak at low solar activity over Arecibo is associated with the equatorial anomaly. Moreover, an interesting feature predicted by the model is that the midday Te at the F2 peak height increases with solar activity when F10.7 values are less than about 100 &#xd7; 10&amp;#8315&#xb2;&#xb2; W m&amp;#8315&#xb2; Hz&#x207b;&#xb9; or larger than 190 &#xd7; 10&amp;#8315&#xb2;&#xb2; W m&amp;#8315&#xb2; Hz&#x207b;&#xb9;1 at Millstone Hill; so does at Arecibo when F10.7 values are larger than 100 &#xd7; 10&amp;#8315&#xb2;&#xb2; W m&amp;#8315&#xb2; Hz&#x207b;&#xb9;. As a result, a positive correlation between daytime Te and Ne occurs under these conditions.</gco:CharacterString>
+            <gco:CharacterString>In this paper, ionospheric electron temperature (Te) data for more than two solar cycles measured by the incoherent scatter radars (ISR) at Millstone Hill (42.6°N, 71.5°W) and Arecibo (18.3°N, 66.7°W) are compared with the theoretical Te calculated from the National Center for Atmospheric Research Thermosphere-Ionosphere-Electrodynamics General Circulation Model (NCAR-TIEGCM) to investigate the temporal variations of Te. The comparisons are made for both low and high solar activity conditions and for three seasons: equinox, summer, and winter. The observations show that the diurnal variation of Te is characterized by morning and evening peaks at Arecibo and by a morning peak at Millstone Hill. The occurrence and strength of the peaks at Arecibo are significantly different from those at Millstone Hill. Daytime Te tends to increase with solar activity at both stations below ∼300 km. Te above 300 km generally decreases with solar activity; however, it increases with solar activity in equinox and summer at Arecibo, whereas it does so only in summer at Millstone Hill. The TIEGCM model can reproduce these variations. However, the modeled evening peak is weaker than that from observations at Arecibo. The simulations show that the daytime bulge of Te tends to occur at low latitudes and high solar activity, as seen in the observations, and the significant morning peak at low solar activity over Arecibo is associated with the equatorial anomaly. Moreover, an interesting feature predicted by the model is that the midday Te at the F2 peak height increases with solar activity when F10.7 values are less than about 100 × 10&amp;#8315²² W m&amp;#8315² Hz⁻¹ or larger than 190 × 10&amp;#8315²² W m&amp;#8315² Hz⁻¹1 at Millstone Hill; so does at Arecibo when F10.7 values are larger than 100 × 10&amp;#8315²² W m&amp;#8315² Hz⁻¹. As a result, a positive correlation between daytime Te and Ne occurs under these conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6679</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:38.009748</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:18.623805</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We use the Model of Ozone and Related Tracers (MOZART-2) driven by National Center for Environmental Prediction (NCEP) meteorology between 1980 and 2001 to examine the signature of the Arctic oscillation (AO) on tropospheric ozone during February and March. Regionally, the AO can modulate ozone by up to 5 parts per billion by volume (ppbv). We examine the modulation of ozone produced from Asian, American, and European emissions separately, the modulation of ozone produced from all tropospheric emissions, and the modulation of ozone transported from the stratosphere. During the positive phase of the AO, the simulations show a statistically significant decrease in zonally averaged ozone throughout the depth of the troposphere north of approximately 50&#xb0;N. This decrease is attributed to a decrease in the stratospheric component of ozone. The longitudinal response of ozone to the AO in the upper troposphere is dictated by the changes in tropopause height associated with the AO, such that lower (higher) heights imply increased (decreased) ozone. Locally, the modulation of stratospheric ozone dominates the ozone signal throughout the depth of the troposphere over Northern Canada and the Arctic, where the AO is correlated with ozone decreases. In other locations, the local response to the AO is governed by changes in the transport of ozone produced in the troposphere. These locations include the lower troposphere over the Atlantic basin, where ozone is negatively correlated with the AO, and the lower troposphere over Europe and Eastern Siberia, where ozone is positively correlated with the AO.</gco:CharacterString>
+            <gco:CharacterString>We use the Model of Ozone and Related Tracers (MOZART-2) driven by National Center for Environmental Prediction (NCEP) meteorology between 1980 and 2001 to examine the signature of the Arctic oscillation (AO) on tropospheric ozone during February and March. Regionally, the AO can modulate ozone by up to 5 parts per billion by volume (ppbv). We examine the modulation of ozone produced from Asian, American, and European emissions separately, the modulation of ozone produced from all tropospheric emissions, and the modulation of ozone transported from the stratosphere. During the positive phase of the AO, the simulations show a statistically significant decrease in zonally averaged ozone throughout the depth of the troposphere north of approximately 50°N. This decrease is attributed to a decrease in the stratospheric component of ozone. The longitudinal response of ozone to the AO in the upper troposphere is dictated by the changes in tropopause height associated with the AO, such that lower (higher) heights imply increased (decreased) ozone. Locally, the modulation of stratospheric ozone dominates the ozone signal throughout the depth of the troposphere over Northern Canada and the Arctic, where the AO is correlated with ozone decreases. In other locations, the local response to the AO is governed by changes in the transport of ozone produced in the troposphere. These locations include the lower troposphere over the Atlantic basin, where ozone is negatively correlated with the AO, and the lower troposphere over Europe and Eastern Siberia, where ozone is positively correlated with the AO.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

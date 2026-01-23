@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12785</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:26:53.775143</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:43:41.148116</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Probing into the impact of 3DVAR assimilation of surface PM&#x2081;&#x2080; observations over China using process analysis</gco:CharacterString>
+                  <gco:CharacterString>Probing into the impact of 3DVAR assimilation of surface PM₁₀ observations over China using process analysis</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Zhiquan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4917-7686"
+                                    xlink:title="Liu, Zhiquan"
+                                    xlink:actuate="onRequest">Liu, Zhiquan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The capability of assimilating surface PM&#x2081;&#x2080; (particulate matter with diameters less than 10 &#xb5;m) observations has been developed within the National Centers for Environmental Prediction Gridpoint Statistical Interpolation three-dimensional variational (3DVAR) data assimilation (DA) system. It provides aerosol analyses for the Goddard Chemistry Aerosol Radiation and Transport aerosol scheme within the Weather Research and Forecasting/Chemistry model. Control and assimilation experiments were performed for June 2011 over China to explore in detail the impact of assimilating surface PM&#x2081;&#x2080;. In the assimilation experiment, analyses were produced every 6&#x2009;h to adjust the mass concentrations of different aerosol species. The statistical results from two parallel experiments demonstrate that the assimilation of surface PM&#x2081;&#x2080; observations can significantly reduce the uncertainty of initial aerosol fields and effectively improve the subsequent aerosol forecasts for at least 12 h. However, the benefit from the assimilation of PM&#x2081;&#x2080; diminishes rapidly with forecast range. Process analysis for PM&#x2081;&#x2080; formation indicates that the rapidly diminishing DA impact on aerosol forecasts, especially in early forecast hours, was dominated by vertical mixing with an additional contribution from advection. Both processes were mainly related to unbalanced aerosol fields in the horizontal and vertical after assimilating surface observations. These findings illustrate the importance of adjusting aerosol emission rates and the initial aerosol vertical profile.</gco:CharacterString>
+            <gco:CharacterString>The capability of assimilating surface PM₁₀ (particulate matter with diameters less than 10 µm) observations has been developed within the National Centers for Environmental Prediction Gridpoint Statistical Interpolation three-dimensional variational (3DVAR) data assimilation (DA) system. It provides aerosol analyses for the Goddard Chemistry Aerosol Radiation and Transport aerosol scheme within the Weather Research and Forecasting/Chemistry model. Control and assimilation experiments were performed for June 2011 over China to explore in detail the impact of assimilating surface PM₁₀. In the assimilation experiment, analyses were produced every 6 h to adjust the mass concentrations of different aerosol species. The statistical results from two parallel experiments demonstrate that the assimilation of surface PM₁₀ observations can significantly reduce the uncertainty of initial aerosol fields and effectively improve the subsequent aerosol forecasts for at least 12 h. However, the benefit from the assimilation of PM₁₀ diminishes rapidly with forecast range. Process analysis for PM₁₀ formation indicates that the rapidly diminishing DA impact on aerosol forecasts, especially in early forecast hours, was dominated by vertical mixing with an additional contribution from advection. Both processes were mainly related to unbalanced aerosol fields in the horizontal and vertical after assimilating surface observations. These findings illustrate the importance of adjusting aerosol emission rates and the initial aerosol vertical profile.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6305</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:05.957816</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:18:22.602301</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Global observations of HNO&#x2083; from the High Resolution Dynamics Limb Sounder (HIRDLS): First results</gco:CharacterString>
+                  <gco:CharacterString>Global observations of HNO₃ from the High Resolution Dynamics Limb Sounder (HIRDLS): First results</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -377,7 +382,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Massie, Steven T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4995-1566"
+                                    xlink:title="Massie, Steven T."
+                                    xlink:actuate="onRequest">Massie, Steven T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -457,7 +464,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present the first evaluation of the HNO&#x2083; data product (version 2.04.09) from the High Resolution Dynamics Limb Sounder (HIRDLS) on the Earth Observing System (EOS) Aura satellite. The HIRDLS instrument obtains between 5000 and 7000 HNO&#x2083; profiles per day. HIRDLS HNO&#x2083; data are generally good over the latitude range of 64&#xb0;S to 80&#xb0;N and pressure range 100 to 10 hPa, with some profiles, depending on latitude, having useful information between 100 to 161 hPa. The individual profile "measured" precision is between 10 and 15%, but can be much larger if the HNO&#x2083; abundance is low or outside the 100 hPa to 10 hPa range. Global results are compared with the HNO&#x2083; observations from version 2.2 of the EOS Aura Microwave Limb Sounder (MLS), and it is found that large-scale features are consistent between the two instruments. HIRDLS HNO&#x2083; is biased 0-20% low relative to Aura MLS in the mid-to-high latitudes and biased high in the tropical stratosphere. HIRDLS HNO&#x2083; is also compared with Atmospheric Chemistry Experiment Fourier Transform Spectrometer (ACE-FTS). In these mostly high-latitude comparisons the HIRDLS HNO&#x2083; data are biased 10-30% low, depending on altitude. Finally, the HIRDLS HNO&#x2083; is compared to in situ data taken by the NOAA Chemical Ionization Mass Spectrometer (CIMS) instrument flown during the 2005 NASA Houston Aura Validation Experiment (AVE) and the ability of HIRDLS to measure HNO&#x2083; in the UTLS region is examined.</gco:CharacterString>
+            <gco:CharacterString>We present the first evaluation of the HNO₃ data product (version 2.04.09) from the High Resolution Dynamics Limb Sounder (HIRDLS) on the Earth Observing System (EOS) Aura satellite. The HIRDLS instrument obtains between 5000 and 7000 HNO₃ profiles per day. HIRDLS HNO₃ data are generally good over the latitude range of 64°S to 80°N and pressure range 100 to 10 hPa, with some profiles, depending on latitude, having useful information between 100 to 161 hPa. The individual profile "measured" precision is between 10 and 15%, but can be much larger if the HNO₃ abundance is low or outside the 100 hPa to 10 hPa range. Global results are compared with the HNO₃ observations from version 2.2 of the EOS Aura Microwave Limb Sounder (MLS), and it is found that large-scale features are consistent between the two instruments. HIRDLS HNO₃ is biased 0-20% low relative to Aura MLS in the mid-to-high latitudes and biased high in the tropical stratosphere. HIRDLS HNO₃ is also compared with Atmospheric Chemistry Experiment Fourier Transform Spectrometer (ACE-FTS). In these mostly high-latitude comparisons the HIRDLS HNO₃ data are biased 10-30% low, depending on altitude. Finally, the HIRDLS HNO₃ is compared to in situ data taken by the NOAA Chemical Ionization Mass Spectrometer (CIMS) instrument flown during the 2005 NASA Houston Aura Validation Experiment (AVE) and the ability of HIRDLS to measure HNO₃ in the UTLS region is examined.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

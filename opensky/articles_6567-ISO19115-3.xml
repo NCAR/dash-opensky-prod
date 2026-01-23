@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6567</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:50.634601</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:20:42.584608</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dikpati, Mausumi</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2227-0488"
+                                    xlink:title="Dikpati, Mausumi"
+                                    xlink:actuate="onRequest">Dikpati, Mausumi</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>K&#xe4;pyl&#xe4;, P.</gco:CharacterString>
+                        <gco:CharacterString>Käpylä, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rempel, Matthias</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5850-3119"
+                                    xlink:title="Rempel, Matthias"
+                                    xlink:actuate="onRequest">Rempel, Matthias</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gilman, Peter A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1639-6252"
+                                    xlink:title="Gilman, Peter A."
+                                    xlink:actuate="onRequest">Gilman, Peter A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +254,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Context. The solar magnetic activity and cycle are linked to an internal dynamo. Numerical simulations are an efficient and accurate tool to investigate such intricate dynamical processes. Aims. We present the results of an international numerical benchmark study based on two-dimensional axisymmetric mean field solar dynamo models in spherical geometry. The purpose of this work is to provide reference cases that can be analyzed in detail and that can help in further development and validation of numerical codes that solve such kinematic problems. Methods. The results of eight numerical codes solving the induction equation in the framework of mean field theory are compared for three increasingly computationally intensive models of the solar dynamo: an &#x3b1;&#x3a9; dynamo with constant magnetic diffusivity, an &#x3b1;&#x3a9; dynamo with magnetic diffusivity sharply varying with depth and an example of a flux-transport Babcock-Leighton dynamo which includes a non-local source term and one large single cell of meridional circulation per hemisphere. All cases include a realistic profile of differential rotation and thus a sharp tachocline. Results. The most important finding of this study is that all codes agree quantitatively to within less than a percent for the &#x3b1;&#x3a9; dynamo cases and within a few percent for the flux-transport case. Both the critical dynamo numbers for the onset of dynamo action and the corresponding cycle periods are reasonably well recovered by all codes. Detailed comparisons of butterfly diagrams and specific cuts of both toroidal and poloidal fields at given latitude and radius confirm the good quantitative agreement. Conclusions. We believe that such a benchmark study will be a very useful tool since it provides detailed standard cases for comparison and reference.</gco:CharacterString>
+            <gco:CharacterString>Context. The solar magnetic activity and cycle are linked to an internal dynamo. Numerical simulations are an efficient and accurate tool to investigate such intricate dynamical processes. Aims. We present the results of an international numerical benchmark study based on two-dimensional axisymmetric mean field solar dynamo models in spherical geometry. The purpose of this work is to provide reference cases that can be analyzed in detail and that can help in further development and validation of numerical codes that solve such kinematic problems. Methods. The results of eight numerical codes solving the induction equation in the framework of mean field theory are compared for three increasingly computationally intensive models of the solar dynamo: an αΩ dynamo with constant magnetic diffusivity, an αΩ dynamo with magnetic diffusivity sharply varying with depth and an example of a flux-transport Babcock-Leighton dynamo which includes a non-local source term and one large single cell of meridional circulation per hemisphere. All cases include a realistic profile of differential rotation and thus a sharp tachocline. Results. The most important finding of this study is that all codes agree quantitatively to within less than a percent for the αΩ dynamo cases and within a few percent for the flux-transport case. Both the critical dynamo numbers for the onset of dynamo action and the corresponding cycle periods are reasonably well recovered by all codes. Detailed comparisons of butterfly diagrams and specific cuts of both toroidal and poloidal fields at given latitude and radius confirm the good quantitative agreement. Conclusions. We believe that such a benchmark study will be a very useful tool since it provides detailed standard cases for comparison and reference.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

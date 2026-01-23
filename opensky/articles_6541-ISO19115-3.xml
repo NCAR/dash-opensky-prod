@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6541</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:01.232474</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:12:15.086454</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Studies in the past several years have documented the climatology of warm-season precipitation-episode statistics (propagation speed, span, and duration) over the United States using a national composited radar dataset. These climatological studies have recently been extended to other continents, including Asia, Africa, and Australia. However, continental regions outside the United States have insufficient radar coverage, and the newer studies have had to rely on geostationary satellite data at infrared (IR) frequencies as a proxy for rainfall. It is well known that the use of IR brightness temperatures to infer rainfall is subject to large errors. In this study, the statistics of warm-season precipitation episodes derived from radar and satellite IR measurements over the United States are compared and biases introduced by the satellite data are evaluated. It is found that the satellite span and duration statistics are highly dependent upon the brightness temperature threshold used but with the appropriate choices of thresholds can be brought into good agreement with those based upon radar data. The propagation-speed statistics of satellite events are on average &#x223c;4 m s&#x207b;&#xb9; faster than radar events and are relatively insensitive to the brightness temperature threshold. A simple correction procedure based upon the difference between the steering winds for the precipitation core and the winds at the level of maximum anvil outflow is developed.</gco:CharacterString>
+            <gco:CharacterString>Studies in the past several years have documented the climatology of warm-season precipitation-episode statistics (propagation speed, span, and duration) over the United States using a national composited radar dataset. These climatological studies have recently been extended to other continents, including Asia, Africa, and Australia. However, continental regions outside the United States have insufficient radar coverage, and the newer studies have had to rely on geostationary satellite data at infrared (IR) frequencies as a proxy for rainfall. It is well known that the use of IR brightness temperatures to infer rainfall is subject to large errors. In this study, the statistics of warm-season precipitation episodes derived from radar and satellite IR measurements over the United States are compared and biases introduced by the satellite data are evaluated. It is found that the satellite span and duration statistics are highly dependent upon the brightness temperature threshold used but with the appropriate choices of thresholds can be brought into good agreement with those based upon radar data. The propagation-speed statistics of satellite events are on average ∼4 m s⁻¹ faster than radar events and are relatively insensitive to the brightness temperature threshold. A simple correction procedure based upon the difference between the steering winds for the precipitation core and the winds at the level of maximum anvil outflow is developed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

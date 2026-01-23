@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19350</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:49:42.195097</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:39:16.919849</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Les r&#xe9;sultats exceptionnels de Iasi, sondeur atmosph&#xe9;rique hyperspectral de Metop</gco:CharacterString>
+                  <gco:CharacterString>Les résultats exceptionnels de Iasi, sondeur atmosphérique hyperspectral de Metop</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schl&#xfc;ssel, P.</gco:CharacterString>
+                        <gco:CharacterString>Schlüssel, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>La deuxi&#xe8;me conf&#xe9;rence internationale Iasi (Infrared Atmospheric Sounding Interferometer), qui s'est tenue &#xe0; S&#xe9;vrier (Haute-Savoie) du 24 au 29 janvier 2010, a rassembl&#xe9; 150 scientifiques de tous horizons pour faire le point sur l'instrument Iasi, le traitement des donn&#xe9;es, les r&#xe9;sultats de son exploitation, trois ans apr&#xe8;s sa mise en service, et pour envisager les suites du programme. Dans cet article, on pr&#xe9;sente l'instrument mont&#xe9; sur les trois satellites Metop d'Eumetsat qui se succ&#xe9;deront jusqu'en 2020. On illustre succinctement les extraordinaires performances de cet instrument devenu r&#xe9;f&#xe9;rence pour l'inter&#xe9;talonnage de capteurs infrarouges. Apr&#xe8;s un rappel sur l'organisation du traitement des donn&#xe9;es, les perspectives &#xe0; court et moyen termes sont mises en lumi&#xe8;re. La partie principale traite des r&#xe9;sultats les plus r&#xe9;cents expos&#xe9;s &#xe0; la conf&#xe9;rence dans les diff&#xe9;rents domaines d'application de Iasi : la pr&#xe9;vision num&#xe9;rique, l'&#xe9;tude de la composition atmosph&#xe9;rique, les applications op&#xe9;rationnelles de la chimie atmosph&#xe9;rique et le suivi du changement climatique. Le dernier paragraphe est consacr&#xe9; au futur avec les &#xe9;volutions attendues des produits et les perspectives de l'apr&#xe8;s Iasi avec le sondeur infrarouge sur M&#xe9;t&#xe9;osat troisi&#xe8;me g&#xe9;n&#xe9;ration et le sondeur Iasi nouvelle g&#xe9;n&#xe9;ration.</gco:CharacterString>
+            <gco:CharacterString>La deuxième conférence internationale Iasi (Infrared Atmospheric Sounding Interferometer), qui s'est tenue à Sévrier (Haute-Savoie) du 24 au 29 janvier 2010, a rassemblé 150 scientifiques de tous horizons pour faire le point sur l'instrument Iasi, le traitement des données, les résultats de son exploitation, trois ans après sa mise en service, et pour envisager les suites du programme. Dans cet article, on présente l'instrument monté sur les trois satellites Metop d'Eumetsat qui se succéderont jusqu'en 2020. On illustre succinctement les extraordinaires performances de cet instrument devenu référence pour l'interétalonnage de capteurs infrarouges. Après un rappel sur l'organisation du traitement des données, les perspectives à court et moyen termes sont mises en lumière. La partie principale traite des résultats les plus récents exposés à la conférence dans les différents domaines d'application de Iasi : la prévision numérique, l'étude de la composition atmosphérique, les applications opérationnelles de la chimie atmosphérique et le suivi du changement climatique. Le dernier paragraphe est consacré au futur avec les évolutions attendues des produits et les perspectives de l'après Iasi avec le sondeur infrarouge sur Météosat troisième génération et le sondeur Iasi nouvelle génération.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22696</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:27:38.185478</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:30:49.859446</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Swain, Daniel L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4276-3092"
+                                    xlink:title="Swain, Daniel L."
+                                    xlink:actuate="onRequest">Swain, Daniel L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Atmospheric rivers (ARs) often generate extreme precipitation, with AR temperature strongly influencing hydrologic impacts by altering the timing and magnitude of runoff. Long-term changes in AR temperatures, therefore, have important implications for regional hydroclimate&#x2014;especially in locations where a shift to more rain-dominated AR precipitation could affect flood risk and/or water storage in snowpack. In this study, we provide the first climatology of AR temperature across five U.S. West Coast subregions. We then assess trends in landfalling AR temperatures for each subregion from 1980 to 2016 using three reanalysis products. We find AR warming at seasonal and monthly scales. Cool-season warming ranges from 0.69 to 1.65 &#xb0;C over the study period. We detect monthly scale warming of &gt;2 &#xb0;C, with the most widespread warming occurring in November and March. To understand the causes of AR warming, we quantify the density of AR tracks from genesis to landfall and analyze along-track AR temperature for each month and landfall region. We investigate three possible influences on AR temperature trends at landfall:along-track temperatures prior to landfall, background temperatures over the landfall region, and AR temperature over the coastal ocean adjacent to the region of landfall. Generally, AR temperatures at landfall more closely match coastal and background temperature trends than along-track AR temperature trends. The seasonal asymmetry of the AR warming and the heterogeneity of influences have important implications for regional water storage and flood risk&#x2014;demonstrating that changes in AR characteristics are complex and may not be directly inferred from changes in the background climate.</gco:CharacterString>
+            <gco:CharacterString>Atmospheric rivers (ARs) often generate extreme precipitation, with AR temperature strongly influencing hydrologic impacts by altering the timing and magnitude of runoff. Long-term changes in AR temperatures, therefore, have important implications for regional hydroclimate—especially in locations where a shift to more rain-dominated AR precipitation could affect flood risk and/or water storage in snowpack. In this study, we provide the first climatology of AR temperature across five U.S. West Coast subregions. We then assess trends in landfalling AR temperatures for each subregion from 1980 to 2016 using three reanalysis products. We find AR warming at seasonal and monthly scales. Cool-season warming ranges from 0.69 to 1.65 °C over the study period. We detect monthly scale warming of &gt;2 °C, with the most widespread warming occurring in November and March. To understand the causes of AR warming, we quantify the density of AR tracks from genesis to landfall and analyze along-track AR temperature for each month and landfall region. We investigate three possible influences on AR temperature trends at landfall:along-track temperatures prior to landfall, background temperatures over the landfall region, and AR temperature over the coastal ocean adjacent to the region of landfall. Generally, AR temperatures at landfall more closely match coastal and background temperature trends than along-track AR temperature trends. The seasonal asymmetry of the AR warming and the heterogeneity of influences have important implications for regional water storage and flood risk—demonstrating that changes in AR characteristics are complex and may not be directly inferred from changes in the background climate.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

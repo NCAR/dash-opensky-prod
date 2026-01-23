@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42501</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:50.892362</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:59:11.691550</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barth, Mary</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9252-0286"
+                                    xlink:title="Barth, Mary"
+                                    xlink:actuate="onRequest">Barth, Mary</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brandt, R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2158-9638"
+                                    xlink:title="Brandt, R."
+                                    xlink:actuate="onRequest">Brandt, R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +234,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Organic acids represent an important class of compounds in the atmosphere, but there is limited research investigating their chemical production, particularly in the northeast United States. To improve our understanding of organic acid sources, a modeling analysis was performed for air masses reaching the summit of Whiteface Mountain (WFM), New York, where measurements of organic acids in cloud water have been collected. The analysis focuses on a pollution event associated with a heat wave that occurred on 1&#x2013;2&amp;nbsp;July&amp;nbsp;2018 that exhibited unusually high concentrations of formic (HCOOH), acetic (CH3COOH), and oxalic (OxAc) acid in cloud water. The gas-phase production of organic acids for this pollution event was modeled using a combination of the regional transport model Weather Research and Forecasting Model with Chemistry (WRF-Chem), which gives information on transport and environmental factors affecting air parcels reaching WFM, and the Lagrangian chemical box model BOXMOX, which allows analysis of chemistry with different chemical mechanisms. Two chemical mechanisms are used in BOXMOX: (1)&amp;nbsp;the Model for Ozone and Related chemical Tracers (MOZART T1) and (2)&amp;nbsp;the Master Chemical Mechanism (MCM) version&amp;nbsp;3.3.1. The WRF-Chem results show that air parcels sampled during the pollution event at WFM originated in central Missouri, which has strong biogenic emissions of isoprene. Many air parcels were influenced by emissions of nitrogen oxides (NOx) from the Chicago metropolitan area. The gas-phase oxidation of isoprene and its related oxidation products was the major source of HCOOH and CH3COOH, but both mechanisms substantially underproduced both acids compared to observations. A simple gas&#x2013;aqueous mechanism was included to investigate the role of aqueous chemistry in organic acid production. Aqueous chemistry did not produce more HCOOH or CH3COOH, suggesting missing chemical sources of both acids. However this aqueous chemistry was able to explain the elevated concentrations of OxAc. Anthropogenic NOx emissions from Chicago had little overall impact on the production of all three organic acids. Further studies are required to better constrain gas and aqueous production of low-molecular-weight organic acids.</gco:CharacterString>
+            <gco:CharacterString>Organic acids represent an important class of compounds in the atmosphere, but there is limited research investigating their chemical production, particularly in the northeast United States. To improve our understanding of organic acid sources, a modeling analysis was performed for air masses reaching the summit of Whiteface Mountain (WFM), New York, where measurements of organic acids in cloud water have been collected. The analysis focuses on a pollution event associated with a heat wave that occurred on 1–2&amp;nbsp;July&amp;nbsp;2018 that exhibited unusually high concentrations of formic (HCOOH), acetic (CH3COOH), and oxalic (OxAc) acid in cloud water. The gas-phase production of organic acids for this pollution event was modeled using a combination of the regional transport model Weather Research and Forecasting Model with Chemistry (WRF-Chem), which gives information on transport and environmental factors affecting air parcels reaching WFM, and the Lagrangian chemical box model BOXMOX, which allows analysis of chemistry with different chemical mechanisms. Two chemical mechanisms are used in BOXMOX: (1)&amp;nbsp;the Model for Ozone and Related chemical Tracers (MOZART T1) and (2)&amp;nbsp;the Master Chemical Mechanism (MCM) version&amp;nbsp;3.3.1. The WRF-Chem results show that air parcels sampled during the pollution event at WFM originated in central Missouri, which has strong biogenic emissions of isoprene. Many air parcels were influenced by emissions of nitrogen oxides (NOx) from the Chicago metropolitan area. The gas-phase oxidation of isoprene and its related oxidation products was the major source of HCOOH and CH3COOH, but both mechanisms substantially underproduced both acids compared to observations. A simple gas–aqueous mechanism was included to investigate the role of aqueous chemistry in organic acid production. Aqueous chemistry did not produce more HCOOH or CH3COOH, suggesting missing chemical sources of both acids. However this aqueous chemistry was able to explain the elevated concentrations of OxAc. Anthropogenic NOx emissions from Chicago had little overall impact on the production of all three organic acids. Further studies are required to better constrain gas and aqueous production of low-molecular-weight organic acids.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

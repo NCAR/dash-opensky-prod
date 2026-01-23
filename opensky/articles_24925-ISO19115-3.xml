@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24925</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:08:33.489229</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:56:04.054344</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observations show strong correlations between large-scale ozone and temperature variations in the tropical lower stratosphere across a wide range of timescales. We quantify this behavior using monthly records of ozone and temperature data from Southern Hemisphere Additional Ozonesonde (SHADOZ) tropical balloon measurements (1998-2016), along with global satellite data from Aura microwave limb sounder and GPS radio occultation over 2004-2018. The observational data demonstrate strong in-phase ozone-temperature coherence spanning sub-seasonal, annual and interannual timescales, and the slope of the temperature-ozone relationship (T/O3) varies as a function of timescale and altitude. We compare the observations to idealized calculations based on the coupled zonal mean thermodynamic and ozone continuity equations, including ozone radiative feedbacks on temperature, where both temperature and ozone respond in a coupled manner to variations in the tropical upwelling Brewer-Dobson circulation. These calculations can approximately explain the observed (T/O3) amplitude and phase relationships, including sensitivity to timescale and altitude, and highlight distinct balances for "fast" variations (periods &lt;&#x2009;150&#x2009;d, controlled by transport across background vertical gradients) and "slow" coupling (seasonal and interannual variations, controlled by radiative balances).</gco:CharacterString>
+            <gco:CharacterString>Observations show strong correlations between large-scale ozone and temperature variations in the tropical lower stratosphere across a wide range of timescales. We quantify this behavior using monthly records of ozone and temperature data from Southern Hemisphere Additional Ozonesonde (SHADOZ) tropical balloon measurements (1998-2016), along with global satellite data from Aura microwave limb sounder and GPS radio occultation over 2004-2018. The observational data demonstrate strong in-phase ozone-temperature coherence spanning sub-seasonal, annual and interannual timescales, and the slope of the temperature-ozone relationship (T/O3) varies as a function of timescale and altitude. We compare the observations to idealized calculations based on the coupled zonal mean thermodynamic and ozone continuity equations, including ozone radiative feedbacks on temperature, where both temperature and ozone respond in a coupled manner to variations in the tropical upwelling Brewer-Dobson circulation. These calculations can approximately explain the observed (T/O3) amplitude and phase relationships, including sensitivity to timescale and altitude, and highlight distinct balances for "fast" variations (periods &lt; 150 d, controlled by transport across background vertical gradients) and "slow" coupling (seasonal and interannual variations, controlled by radiative balances).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

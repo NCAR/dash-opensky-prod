@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:595</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:26:38.611081</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:53:54.913477</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Neale, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4222-3918"
+                                    xlink:title="Neale, Richard"
+                                    xlink:actuate="onRequest">Neale, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Conley, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0061-9906"
+                                    xlink:title="Conley, Andrew J."
+                                    xlink:actuate="onRequest">Conley, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lauritzen, Peter H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7066-138X"
+                                    xlink:title="Lauritzen, Peter H."
+                                    xlink:actuate="onRequest">Lauritzen, Peter H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Williamson, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0042-6410"
+                                    xlink:title="Williamson, David"
+                                    xlink:actuate="onRequest">Williamson, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This report presents the details of the governing equations, physical parameterizations, and numerical algorithms de&#xfb01;ning the version of the NCAR Community Atmosphere Model des-ignated CAM 4.0. The material provides an overview of the major model components, and the way in which they interact as the numerical integration proceeds. Details on the coding implementation, along with in-depth information on running the CAM 4.0 code, are given in a separate technical report entitled ' 'User's Guide to Community Atmosphere ModelCAM 4.0" [Eaton, 2010]. As before, it is our objective that this model provide NCAR and the university research community with a reliable, well documented atmospheric general circulation model. This version of the CAM 4.0 incorporates a number enhancements to the physics package (e.g. adjustments to the deep convection algorithm including the addition of Convective Momentum Transports (CMT), a transition to the &#xfb01;nite volume dynamical core as default and the option to run a computationally highly scaleable dynamical core). The ability to transition between CAM-standalone and fully coupled experiment frameworks is much improved in CAM 4.0. We believe that collectively these improvements provide the research community with a signi&#xfb01;cantly improved atmospheric modeling capability.</gco:CharacterString>
+            <gco:CharacterString>This report presents the details of the governing equations, physical parameterizations, and numerical algorithms deﬁning the version of the NCAR Community Atmosphere Model des-ignated CAM 4.0. The material provides an overview of the major model components, and the way in which they interact as the numerical integration proceeds. Details on the coding implementation, along with in-depth information on running the CAM 4.0 code, are given in a separate technical report entitled ' 'User's Guide to Community Atmosphere ModelCAM 4.0" [Eaton, 2010]. As before, it is our objective that this model provide NCAR and the university research community with a reliable, well documented atmospheric general circulation model. This version of the CAM 4.0 incorporates a number enhancements to the physics package (e.g. adjustments to the deep convection algorithm including the addition of Convective Momentum Transports (CMT), a transition to the ﬁnite volume dynamical core as default and the option to run a computationally highly scaleable dynamical core). The ability to transition between CAM-standalone and fully coupled experiment frameworks is much improved in CAM 4.0. We believe that collectively these improvements provide the research community with a signiﬁcantly improved atmospheric modeling capability.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

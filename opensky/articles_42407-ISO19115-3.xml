@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42407</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:04.199603</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:57:03.897537</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Leguy, Gunter</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9963-8076"
+                                    xlink:title="Leguy, Gunter"
+                                    xlink:actuate="onRequest">Leguy, Gunter</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lipscomb, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7100-3730"
+                                    xlink:title="Lipscomb, William"
+                                    xlink:actuate="onRequest">Lipscomb, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +272,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A major impact of anthropogenic climate change is the crossing of tipping points, which may have severe consequences such as the complete mass loss of the Greenland ice sheet (GrIS). At present, the GrIS is losing mass at an accelerated rate, largely due to a steep decrease in its surface mass balance (SMB; the balance between snow accumulation and surface ablation from melt and associated runoff). Previous work on the magnitude and nature of a threshold for GrIS complete melt remains controversial. Here, we explore a potential SMB threshold for complete melt of the GrIS; the impact and interplay of surface melt and glacial isostatic adjustment (GIA) in determining this threshold; and whether the GrIS exhibits characteristics commonly associated with tipping points, such as sensitivity to external forcing. To this end, we force the Community Ice Sheet Model&amp;nbsp;v.2 (CISM2) by cycling different SMB climatologies previously calculated at multiple elevation classes with the Community Earth System Model&amp;nbsp;v.2 (CESM2) in a two-way coupled CESM2&#x2013;CISM2 transient simulation of the global climate and GrIS under high CO2 forcing. The SMB calculation in CESM2 has been evaluated with contemporary observations and high-resolution modelling and includes an advanced representation of surface melt and snow&#x2013;firn processes. We find a positive SMB threshold for complete GrIS melt of 230&#x2009;&#xb1;&#x2009;84&#x2009;Gt&#x2009;yr&#x2212;1, corresponding to a 60&#x2009;% decrease in SMB and to a global mean warming of +3.4&#x2009;K compared to pre-industrial CESM2&#x2013;CISM2 simulated values. In our simulations, a small change in the initial SMB forcing (from 255 to 230&#x2009;Gt&#x2009;yr&#x2212;1) and global mean warming above pre-industrial levels (from +3.2 to +3.4&#x2009;K) causes an abrupt change in the GrIS final volume (from 50&#x2009;% mass to nearly complete deglaciation). This nonlinear behaviour is caused by the SMB&#x2013;elevation feedback, which responds to changes in surface topography due to surface melt and GIA. The GrIS tips from &#x223c;&#x2009;50&#x2009;% mass towards nearly complete melt when the impact of melt-induced surface lowering outweighs that of GIA-induced bedrock uplift and the (initially positive) SMB becomes and remains negative for at least a few thousand years. We also find that the GrIS tips towards nearly complete melt when the ice margin in the central west unpins from a coastal region with high topography and SMB. We show that if we keep the SMB fixed (i.e.&amp;nbsp;no SMB&#x2013;elevation feedback) in this relatively confined region, the ice sheet retreat is halted and nearly complete GrIS melt is prevented even though the initial SMB forcing is past the threshold. Based on the minimum GrIS configuration in previous paleo-ice-sheet modelling studies, we suggest that the surface topography in the central west might have played a role in preventing larger GrIS loss during the last interglacial period &#x223c;&#x2009;130&#x2013;115&#x2009;kyr&#x2009;BP.</gco:CharacterString>
+            <gco:CharacterString>A major impact of anthropogenic climate change is the crossing of tipping points, which may have severe consequences such as the complete mass loss of the Greenland ice sheet (GrIS). At present, the GrIS is losing mass at an accelerated rate, largely due to a steep decrease in its surface mass balance (SMB; the balance between snow accumulation and surface ablation from melt and associated runoff). Previous work on the magnitude and nature of a threshold for GrIS complete melt remains controversial. Here, we explore a potential SMB threshold for complete melt of the GrIS; the impact and interplay of surface melt and glacial isostatic adjustment (GIA) in determining this threshold; and whether the GrIS exhibits characteristics commonly associated with tipping points, such as sensitivity to external forcing. To this end, we force the Community Ice Sheet Model&amp;nbsp;v.2 (CISM2) by cycling different SMB climatologies previously calculated at multiple elevation classes with the Community Earth System Model&amp;nbsp;v.2 (CESM2) in a two-way coupled CESM2–CISM2 transient simulation of the global climate and GrIS under high CO2 forcing. The SMB calculation in CESM2 has been evaluated with contemporary observations and high-resolution modelling and includes an advanced representation of surface melt and snow–firn processes. We find a positive SMB threshold for complete GrIS melt of 230 ± 84 Gt yr−1, corresponding to a 60 % decrease in SMB and to a global mean warming of +3.4 K compared to pre-industrial CESM2–CISM2 simulated values. In our simulations, a small change in the initial SMB forcing (from 255 to 230 Gt yr−1) and global mean warming above pre-industrial levels (from +3.2 to +3.4 K) causes an abrupt change in the GrIS final volume (from 50 % mass to nearly complete deglaciation). This nonlinear behaviour is caused by the SMB–elevation feedback, which responds to changes in surface topography due to surface melt and GIA. The GrIS tips from ∼ 50 % mass towards nearly complete melt when the impact of melt-induced surface lowering outweighs that of GIA-induced bedrock uplift and the (initially positive) SMB becomes and remains negative for at least a few thousand years. We also find that the GrIS tips towards nearly complete melt when the ice margin in the central west unpins from a coastal region with high topography and SMB. We show that if we keep the SMB fixed (i.e.&amp;nbsp;no SMB–elevation feedback) in this relatively confined region, the ice sheet retreat is halted and nearly complete GrIS melt is prevented even though the initial SMB forcing is past the threshold. Based on the minimum GrIS configuration in previous paleo-ice-sheet modelling studies, we suggest that the surface topography in the central west might have played a role in preventing larger GrIS loss during the last interglacial period ∼ 130–115 kyr BP.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

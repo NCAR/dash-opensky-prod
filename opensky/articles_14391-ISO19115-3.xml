@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14391</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:06:16.829284</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:24:15.768903</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Swenson, Sean</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2923-1203"
+                                    xlink:title="Swenson, Sean"
+                                    xlink:actuate="onRequest">Swenson, Sean</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Streamflow of the Colorado River Basin is the most overallocated in the world. Recent assessment indicates that demand for this renewable resource will soon outstrip supply, suggesting that limited groundwater reserves will play an increasingly important role in meeting future water needs. Here we analyze 9&#x2009;years (December 2004 to November 2013) of observations from the NASA Gravity Recovery and Climate Experiment mission and find that during this period of sustained drought, groundwater accounted for 50.1&#x2009;km3 of the total 64.8&#x2009;km3 of freshwater loss. The rapid rate of depletion of groundwater storage (-5.6&#x2009;&#xb1;&#x2009;0.4&#x2009;km3&#x2009;yr-1) far exceeded the rate of depletion of Lake Powell and Lake Mead. Results indicate that groundwater may comprise a far greater fraction of Basin water use than previously recognized, in particular during drought, and that its disappearance may threaten the long-term ability to meet future allocations to the seven Basin states.</gco:CharacterString>
+            <gco:CharacterString>Streamflow of the Colorado River Basin is the most overallocated in the world. Recent assessment indicates that demand for this renewable resource will soon outstrip supply, suggesting that limited groundwater reserves will play an increasingly important role in meeting future water needs. Here we analyze 9 years (December 2004 to November 2013) of observations from the NASA Gravity Recovery and Climate Experiment mission and find that during this period of sustained drought, groundwater accounted for 50.1 km3 of the total 64.8 km3 of freshwater loss. The rapid rate of depletion of groundwater storage (-5.6 ± 0.4 km3 yr-1) far exceeded the rate of depletion of Lake Powell and Lake Mead. Results indicate that groundwater may comprise a far greater fraction of Basin water use than previously recognized, in particular during drought, and that its disappearance may threaten the long-term ability to meet future allocations to the seven Basin states.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

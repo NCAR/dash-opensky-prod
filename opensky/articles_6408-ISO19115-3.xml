@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6408</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:43.637534</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:20:52.833154</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vivekanandan, Jothiram</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0952-2169"
+                                    xlink:title="Vivekanandan, Jothiram"
+                                    xlink:actuate="onRequest">Vivekanandan, Jothiram</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study the authors evaluate two algorithms, the so-called beta (&#x3b2;) and constrained methods, proposed for retrieving the governing parameters of the "normalized" gamma drop size distribution (DSD) from dual-polarization radar measurements. The &#x3b2; method treats the drop axis ratio as a variable and computes drop shape and DSD parameters from radar reflectivity (ZH), differential reflectivity (ZDR), and specific differential phase shift (KDP). The constrained method assumes that the axis-ratio relation is fixed and computes DSD parameters from ZH, ZDR, and an empirical relation between the DSD slope and shape parameters. The two techniques are evaluated for polarimetric X-band radar observations by comparing retrieved DSD parameters with disdrometer observations and examining simulated radar parameters for consistency. Error effects on the &#x3b2; method and constrained method retrievals are analyzed. The &#x3b2; approach is found to be sensitive to errors in KDP and to be less consistent with observations. Large retrieved &#x3b2; values are found to be associated with large retrieved DSD shape parameters and small median drop diameters. The constrained method provides reasonable rain DSD retrievals that agree better with disdrometer observations.</gco:CharacterString>
+            <gco:CharacterString>In this study the authors evaluate two algorithms, the so-called beta (β) and constrained methods, proposed for retrieving the governing parameters of the "normalized" gamma drop size distribution (DSD) from dual-polarization radar measurements. The β method treats the drop axis ratio as a variable and computes drop shape and DSD parameters from radar reflectivity (ZH), differential reflectivity (ZDR), and specific differential phase shift (KDP). The constrained method assumes that the axis-ratio relation is fixed and computes DSD parameters from ZH, ZDR, and an empirical relation between the DSD slope and shape parameters. The two techniques are evaluated for polarimetric X-band radar observations by comparing retrieved DSD parameters with disdrometer observations and examining simulated radar parameters for consistency. Error effects on the β method and constrained method retrievals are analyzed. The β approach is found to be sensitive to errors in KDP and to be less consistent with observations. Large retrieved β values are found to be associated with large retrieved DSD shape parameters and small median drop diameters. The constrained method provides reasonable rain DSD retrievals that agree better with disdrometer observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

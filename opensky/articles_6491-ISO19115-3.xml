@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6491</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:15.205772</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:12:50.446583</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We quantified fine scale sources and sinks of gas phase acetaldehyde in two forested ecosystems in the US. During the daytime, the upper canopy behaved as a net source while at lower heights, reduced emission rates or net uptake were observed. At night, uptake generally predominated throughout the canopies. Net ecosystem emission rates were inversely related to foliar density due to the extinction of light in the canopy and a respective decrease of the acetaldehyde compensation point. This is supported by branch level studies revealing much higher compensation points in the light than in the dark for poplar (Populus deltoides) and holly oak (Quercus ilex) implying a higher light/temperature sensitivity for acetaldehyde production relative to consumption. The view of stomata as the major pathway for acetaldehyde exchange is supported by strong linear correlations between branch transpiration rates and acetaldehyde exchange velocities for both species. In addition, natural abundance carbon isotope analysis of gas-phase acetaldehyde during poplar branch fumigation experiments revealed a significant kinetic isotope effect of 5.1&#xb1;0.3&#x2030; associated with the uptake of acetaldehyde. Similar experiments with dry dead poplar leaves showed no fractionation or uptake of acetaldehyde, confirming that this is only a property of living leaves. We suggest that acetaldehyde belongs to a potentially large list of plant metabolites where stomatal resistance can exert long term control over both emission and uptake rates due to the presence of both source(s) and sink(s) within the leaf which strongly buffer large changes in concentrations in the substomatal airspace due to changes in stomatal resistance. We conclude that the exchange of acetaldehyde between plant canopies and the atmosphere is fundamentally controlled by ambient acetaldehyde concentrations, stomatal resistance, and the compensation point which is a function of light/temperature.</gco:CharacterString>
+            <gco:CharacterString>We quantified fine scale sources and sinks of gas phase acetaldehyde in two forested ecosystems in the US. During the daytime, the upper canopy behaved as a net source while at lower heights, reduced emission rates or net uptake were observed. At night, uptake generally predominated throughout the canopies. Net ecosystem emission rates were inversely related to foliar density due to the extinction of light in the canopy and a respective decrease of the acetaldehyde compensation point. This is supported by branch level studies revealing much higher compensation points in the light than in the dark for poplar (Populus deltoides) and holly oak (Quercus ilex) implying a higher light/temperature sensitivity for acetaldehyde production relative to consumption. The view of stomata as the major pathway for acetaldehyde exchange is supported by strong linear correlations between branch transpiration rates and acetaldehyde exchange velocities for both species. In addition, natural abundance carbon isotope analysis of gas-phase acetaldehyde during poplar branch fumigation experiments revealed a significant kinetic isotope effect of 5.1±0.3‰ associated with the uptake of acetaldehyde. Similar experiments with dry dead poplar leaves showed no fractionation or uptake of acetaldehyde, confirming that this is only a property of living leaves. We suggest that acetaldehyde belongs to a potentially large list of plant metabolites where stomatal resistance can exert long term control over both emission and uptake rates due to the presence of both source(s) and sink(s) within the leaf which strongly buffer large changes in concentrations in the substomatal airspace due to changes in stomatal resistance. We conclude that the exchange of acetaldehyde between plant canopies and the atmosphere is fundamentally controlled by ambient acetaldehyde concentrations, stomatal resistance, and the compensation point which is a function of light/temperature.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

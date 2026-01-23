@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:13026</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:15:37.686661</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:38:34.907282</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, J&#xf8;rgen B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2504-1277"
+                                    xlink:title="Jensen, Jørgen B."
+                                    xlink:actuate="onRequest">Jensen, Jørgen B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Clouds over the Southern Ocean exist in a pristine environment that results in unique microphysical properties. However, in situ observations of these clouds are rare, and the dominant precipitation processes are unknown. Uncertainties in their life cycles and radiative properties make them interesting from a weather and climate perspective. Data from the standard cloud physics payload during the High-performance Instrumented Airborne Platform for Environmental Research (HIAPER) Pole-to-Pole Observations global transects provide a unique snapshot the nature of low-level clouds in the Southern Ocean. High quantities of supercooled liquid water (up to 0.47gm&#x207b;&#xb3;) were observed in clouds as cold as -22&#xb0;C during two flights in different seasons and different meteorological conditions, supporting climatologies inferred from satellite observations. Cloud droplet concentrations were calculated from mean droplet size and liquid water concentrations, and were in the range of 30&#x2013;120cm&#x207b;&#xb3;, which is fairly typical for the pristine Southern Ocean environment. Ice in nonprecipitating or lightly precipitating clouds was found to be rare, while drizzle drops with diameter greater than 100&#x3bc;m formed through warm rain processes were widespread. Large, pristine crystals were commonly seen in very low concentrations below cloud base.</gco:CharacterString>
+            <gco:CharacterString>Clouds over the Southern Ocean exist in a pristine environment that results in unique microphysical properties. However, in situ observations of these clouds are rare, and the dominant precipitation processes are unknown. Uncertainties in their life cycles and radiative properties make them interesting from a weather and climate perspective. Data from the standard cloud physics payload during the High-performance Instrumented Airborne Platform for Environmental Research (HIAPER) Pole-to-Pole Observations global transects provide a unique snapshot the nature of low-level clouds in the Southern Ocean. High quantities of supercooled liquid water (up to 0.47gm⁻³) were observed in clouds as cold as -22°C during two flights in different seasons and different meteorological conditions, supporting climatologies inferred from satellite observations. Cloud droplet concentrations were calculated from mean droplet size and liquid water concentrations, and were in the range of 30–120cm⁻³, which is fairly typical for the pristine Southern Ocean environment. Ice in nonprecipitating or lightly precipitating clouds was found to be rare, while drizzle drops with diameter greater than 100μm formed through warm rain processes were widespread. Large, pristine crystals were commonly seen in very low concentrations below cloud base.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

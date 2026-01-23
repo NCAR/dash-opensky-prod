@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25866</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:14.576489</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:58:13.032124</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Goldhaber, Steve</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0719-3776"
+                                    xlink:title="Goldhaber, Steve"
+                                    xlink:actuate="onRequest">Goldhaber, Steve</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We implement the GEOS-Chem chemistry module as a chemical mechanism in version 2 of the Community Earth System Model (CESM). Our implementation allows the state-of-the-science GEOS-Chem chemistry module to be used with identical emissions, meteorology, and climate feedbacks as the CAM-chem chemistry module within CESM. We use coupling interfaces to allow GEOS-Chem to operate almost unchanged within CESM. Aerosols are converted at each time step between the GEOS-Chem bulk representation and the size-resolved representation of CESM's Modal Aerosol Model (MAM4). Land-type information needed for dry-deposition calculations in GEOS-Chem is communicated through a coupler, allowing online land&#x2013;atmosphere interactions. Wet scavenging in GEOS-Chem is replaced with the Neu and Prather scheme, and a common emissions approach is developed for both CAM-chem and GEOS-Chem in CESM. We compare how GEOS-Chem embedded in CESM (C-GC) compares to the existing CAM-chem chemistry option (C-CC) when used to simulate atmospheric chemistry in 2016, with identical meteorology and emissions. We compare the atmospheric composition and deposition tendencies between the two simulations and evaluate the residual differences between C-GC and its use as a stand-alone chemistry transport model in the GEOS-Chem High Performance configuration (S-GC). We find that stratospheric ozone agrees well between the three models, with differences of less than 10&#x2009;% in the core of the ozone layer, but that ozone in the troposphere is generally lower in C-GC than in either C-CC or S-GC. This is likely due to greater tropospheric concentrations of bromine, although other factors such as water vapor may contribute to lesser or greater extents depending on the region. This difference in tropospheric ozone is not uniform, with tropospheric ozone in C-GC being 30&#x2009;% lower in the Southern Hemisphere when compared with S-GC but within 10&#x2009;% in the Northern Hemisphere. This suggests differences in the effects of anthropogenic emissions. Aerosol concentrations in C-GC agree with those in S-GC at low altitudes in the tropics but are over 100&#x2009;% greater in the upper troposphere due to differences in the representation of convective scavenging. We also find that water vapor concentrations vary substantially between the stand-alone and CESM-implemented version of GEOS-Chem, as the simulated hydrological cycle in CESM diverges from that represented in the source NASA Modern-Era Retrospective analysis for Research and Applications (Version 2; MERRA-2) reanalysis meteorology which is used directly in the GEOS-Chem chemistry transport model (CTM).Our implementation of GEOS-Chem as a chemistry option in CESM (including full chemistry&#x2013;climate feedback) is publicly available and is being considered for inclusion in the CESM main code repository. This work is a significant step in the MUlti-Scale Infrastructure for Chemistry and Aerosols (MUSICA) project, enabling two communities of atmospheric researchers (CESM and GEOS-Chem) to share expertise through a common modeling framework, thereby accelerating progress in atmospheric science.</gco:CharacterString>
+            <gco:CharacterString>We implement the GEOS-Chem chemistry module as a chemical mechanism in version 2 of the Community Earth System Model (CESM). Our implementation allows the state-of-the-science GEOS-Chem chemistry module to be used with identical emissions, meteorology, and climate feedbacks as the CAM-chem chemistry module within CESM. We use coupling interfaces to allow GEOS-Chem to operate almost unchanged within CESM. Aerosols are converted at each time step between the GEOS-Chem bulk representation and the size-resolved representation of CESM's Modal Aerosol Model (MAM4). Land-type information needed for dry-deposition calculations in GEOS-Chem is communicated through a coupler, allowing online land–atmosphere interactions. Wet scavenging in GEOS-Chem is replaced with the Neu and Prather scheme, and a common emissions approach is developed for both CAM-chem and GEOS-Chem in CESM. We compare how GEOS-Chem embedded in CESM (C-GC) compares to the existing CAM-chem chemistry option (C-CC) when used to simulate atmospheric chemistry in 2016, with identical meteorology and emissions. We compare the atmospheric composition and deposition tendencies between the two simulations and evaluate the residual differences between C-GC and its use as a stand-alone chemistry transport model in the GEOS-Chem High Performance configuration (S-GC). We find that stratospheric ozone agrees well between the three models, with differences of less than 10 % in the core of the ozone layer, but that ozone in the troposphere is generally lower in C-GC than in either C-CC or S-GC. This is likely due to greater tropospheric concentrations of bromine, although other factors such as water vapor may contribute to lesser or greater extents depending on the region. This difference in tropospheric ozone is not uniform, with tropospheric ozone in C-GC being 30 % lower in the Southern Hemisphere when compared with S-GC but within 10 % in the Northern Hemisphere. This suggests differences in the effects of anthropogenic emissions. Aerosol concentrations in C-GC agree with those in S-GC at low altitudes in the tropics but are over 100 % greater in the upper troposphere due to differences in the representation of convective scavenging. We also find that water vapor concentrations vary substantially between the stand-alone and CESM-implemented version of GEOS-Chem, as the simulated hydrological cycle in CESM diverges from that represented in the source NASA Modern-Era Retrospective analysis for Research and Applications (Version 2; MERRA-2) reanalysis meteorology which is used directly in the GEOS-Chem chemistry transport model (CTM).Our implementation of GEOS-Chem as a chemistry option in CESM (including full chemistry–climate feedback) is publicly available and is being considered for inclusion in the CESM main code repository. This work is a significant step in the MUlti-Scale Infrastructure for Chemistry and Aerosols (MUSICA) project, enabling two communities of atmospheric researchers (CESM and GEOS-Chem) to share expertise through a common modeling framework, thereby accelerating progress in atmospheric science.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

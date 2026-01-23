@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25162</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:09:53.076584</gco:DateTime>
+      <gco:DateTime>2025-12-26T16:06:14.857711</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anthes, Richard A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8499-6268"
+                                    xlink:title="Anthes, Richard A."
+                                    xlink:actuate="onRequest">Anthes, Richard A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kuo, Ying-Hwa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8339-7271"
+                                    xlink:title="Kuo, Ying-Hwa"
+                                    xlink:actuate="onRequest">Kuo, Ying-Hwa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schreiner, William S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3126-2674"
+                                    xlink:title="Schreiner, William S."
+                                    xlink:actuate="onRequest">Schreiner, William S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper summarizes the radio occultation (RO) technique for remote sounding of the Earth's atmosphere using the Global Positioning System (GPS) satellites and GPS receivers on low-Earth orbiting (LEO) satellites. As the LEO satellites rise and set with respect to the GPS satellites, the radio waves from the GPS satellites are refracted by the Earth's atmosphere. Precise measurements of the bending angle of the radio waves are used to derive vertical profiles of atmospheric refractivity, which is a function of electron density in the ionosphere and temperature and water vapor in the stratosphere and troposphere. Results from the GPS/MET, CHAMP, and SAC-C RO missions are summarized, and examples of soundings are presented. Analysis of the CHAMP and SAC-C data indicates that approximately 45% of CHAMP and SAC-C retrieved radio occultation profiles reach below 1 km altitude, compared to only 35% for GPS/MET. All missions exhibit a negative refractivity bias in the lower troposphere of between 1% and 2% compared to NWP models. When constrained to the tropics, only about 20% of the CHAMP occultation profiles reach 1 km from the surface. Taiwan's National Space Program Office (NSPO), the University Corporation for Atmospheric Research (UCAR), the Jet Propulsion Laboratory (JPL), the Naval Research Laboratory (NRL), and many partners in the university community are developing COSMIC (Constellation Observing System for Meteorology, Ionosphere and Climate), a follow-on project for weather and climate, space weather, and geodetic science. COSMIC plans to launch six satellites in 2005. Each satellite will retrieve 400-500 daily profiles&#x2020; of key ionospheric and atmospheric properties from the tracked GPS radio signals as they are occulted behind the Earth limb. The radio occultation sounding data from COSMIC will contribute significantly to atmospheric research, weather forecasting, and climate modeling.</gco:CharacterString>
+            <gco:CharacterString>This paper summarizes the radio occultation (RO) technique for remote sounding of the Earth's atmosphere using the Global Positioning System (GPS) satellites and GPS receivers on low-Earth orbiting (LEO) satellites. As the LEO satellites rise and set with respect to the GPS satellites, the radio waves from the GPS satellites are refracted by the Earth's atmosphere. Precise measurements of the bending angle of the radio waves are used to derive vertical profiles of atmospheric refractivity, which is a function of electron density in the ionosphere and temperature and water vapor in the stratosphere and troposphere. Results from the GPS/MET, CHAMP, and SAC-C RO missions are summarized, and examples of soundings are presented. Analysis of the CHAMP and SAC-C data indicates that approximately 45% of CHAMP and SAC-C retrieved radio occultation profiles reach below 1 km altitude, compared to only 35% for GPS/MET. All missions exhibit a negative refractivity bias in the lower troposphere of between 1% and 2% compared to NWP models. When constrained to the tropics, only about 20% of the CHAMP occultation profiles reach 1 km from the surface. Taiwan's National Space Program Office (NSPO), the University Corporation for Atmospheric Research (UCAR), the Jet Propulsion Laboratory (JPL), the Naval Research Laboratory (NRL), and many partners in the university community are developing COSMIC (Constellation Observing System for Meteorology, Ionosphere and Climate), a follow-on project for weather and climate, space weather, and geodetic science. COSMIC plans to launch six satellites in 2005. Each satellite will retrieve 400-500 daily profiles† of key ionospheric and atmospheric properties from the tracked GPS radio signals as they are occulted behind the Earth limb. The radio occultation sounding data from COSMIC will contribute significantly to atmospheric research, weather forecasting, and climate modeling.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6803</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:24.078158</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:34:48.574203</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the Tropospheric Ozone Production about the Spring Equinox (TOPSE) program, aircraft flights during April 7-11, 2000 revealed a large area air mass capped below -500 m altitude over Hudson Bay, Canada in which ozone was reduced from normal levels of 30-40 ppbv to as low as 0.5 ppbv. From some of the in-situ aircraft measurements, back-trajectory calculations, the tropospheric column of BrO derived from GOME satellite measurements, and results from a regional model, we conclude that the event did not originate from triggering of reactive halogen release in the sub-Arctic region of Hudson Bay but resulted from such an event occurring at higher latitudes over the islands of the northern Canada Archipelago and nearby Arctic Ocean with subsequent transport over a distance of 1,000-1,500 km to Hudson Bay. BrO x remained active during this transport despite considerable changes in the conditions of the underlying surface suggesting that chemical recycling during transport dominated any local halogen input from the surface. If all of the tropospheric column density of BrO is distributed uniformly within the surface layer, then the mixing ratio of BrO derived from the satellite measurements is at least a factor of 2-3 larger than derived indirectly from in situ aircraft measurements of the NO/NO&#x2082; ratio.</gco:CharacterString>
+            <gco:CharacterString>During the Tropospheric Ozone Production about the Spring Equinox (TOPSE) program, aircraft flights during April 7-11, 2000 revealed a large area air mass capped below -500 m altitude over Hudson Bay, Canada in which ozone was reduced from normal levels of 30-40 ppbv to as low as 0.5 ppbv. From some of the in-situ aircraft measurements, back-trajectory calculations, the tropospheric column of BrO derived from GOME satellite measurements, and results from a regional model, we conclude that the event did not originate from triggering of reactive halogen release in the sub-Arctic region of Hudson Bay but resulted from such an event occurring at higher latitudes over the islands of the northern Canada Archipelago and nearby Arctic Ocean with subsequent transport over a distance of 1,000-1,500 km to Hudson Bay. BrO x remained active during this transport despite considerable changes in the conditions of the underlying surface suggesting that chemical recycling during transport dominated any local halogen input from the surface. If all of the tropospheric column density of BrO is distributed uniformly within the surface layer, then the mixing ratio of BrO derived from the satellite measurements is at least a factor of 2-3 larger than derived indirectly from in situ aircraft measurements of the NO/NO₂ ratio.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

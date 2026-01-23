@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6863</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:24.961064</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:37:25.211427</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Patton, Edward G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5431-9541"
+                                    xlink:title="Patton, Edward G."
+                                    xlink:actuate="onRequest">Patton, Edward G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sullivan, Peter P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-6328"
+                                    xlink:title="Sullivan, Peter P."
+                                    xlink:actuate="onRequest">Sullivan, Peter P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Predictive skill for outdoor sound propagation is assessed using high-resolution atmospheric fields from large-eddy simulations (LES). Propagation calculations through the full LES fields are compared to calculations through subsets of the LES fields that have been processed in typical ways, such as mean vertical profiles and instantaneous vertical profiles synchronized to the sound propagation. It is found that mean sound pressure levels can be predicted with low errors from the mean profiles, except in refractive shadow regions. Prediction of sound pressure levels for short-duration events is much less accurate, with errors of 8-10&#x2004;dB for near-ground propagation being typical.</gco:CharacterString>
+            <gco:CharacterString>Predictive skill for outdoor sound propagation is assessed using high-resolution atmospheric fields from large-eddy simulations (LES). Propagation calculations through the full LES fields are compared to calculations through subsets of the LES fields that have been processed in typical ways, such as mean vertical profiles and instantaneous vertical profiles synchronized to the sound propagation. It is found that mean sound pressure levels can be predicted with low errors from the mean profiles, except in refractive shadow regions. Prediction of sound pressure levels for short-duration events is much less accurate, with errors of 8-10 dB for near-ground propagation being typical.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

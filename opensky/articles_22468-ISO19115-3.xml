@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22468</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:29:38.913880</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:35:44.365119</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xfc;lmenst&#xe4;dt, J.</gco:CharacterString>
+                        <gco:CharacterString>Mülmenstädt, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of aerosols on cloud properties is one of the largest uncertainties in the anthropogenic radiative forcing of the climate. Significant progress has been made in constraining this forcing using observations, but uncertainty remains, particularly in the magnitude of cloud rapid adjustments to aerosol perturbations. Cloud liquid water path (LWP) is the leading control on liquid-cloud albedo, making it important to observationally constrain the aerosol impact on LWP. Previous modelling and observational studies have shown that multiple processes play a role in determining the LWP response to aerosol perturbations, but that the aerosol effect can be difficult to isolate. Following previous studies using mediating variables, this work investigates use of the relationship between cloud droplet number concentration (Nd) and LWP for constraining the role of aerosols. Using joint-probability histograms to account for the non-linear relationship, this work finds a relationship that is broadly consistent with previous studies. There is significant geographical variation in the relationship, partly due to role of meteorological factors (particularly relative humidity). The Nd&#x2013;LWP relationship is negative in the majority of regions, suggesting that aerosol-induced LWP reductions could offset a significant fraction of the instantaneous radiative forcing from aerosol&#x2013;cloud interactions (RFaci). However, variations in the Nd&#x2013;LWP relationship in response to volcanic and shipping aerosol perturbations indicate that the Nd&#x2013;LWP relationship overestimates the causal Nd impact on LWP due to the role of confounding factors. The weaker LWP reduction implied by these "natural experiments" means that this work provides an upper bound to the radiative forcing from aerosol-induced changes in the LWP.</gco:CharacterString>
+            <gco:CharacterString>The impact of aerosols on cloud properties is one of the largest uncertainties in the anthropogenic radiative forcing of the climate. Significant progress has been made in constraining this forcing using observations, but uncertainty remains, particularly in the magnitude of cloud rapid adjustments to aerosol perturbations. Cloud liquid water path (LWP) is the leading control on liquid-cloud albedo, making it important to observationally constrain the aerosol impact on LWP. Previous modelling and observational studies have shown that multiple processes play a role in determining the LWP response to aerosol perturbations, but that the aerosol effect can be difficult to isolate. Following previous studies using mediating variables, this work investigates use of the relationship between cloud droplet number concentration (Nd) and LWP for constraining the role of aerosols. Using joint-probability histograms to account for the non-linear relationship, this work finds a relationship that is broadly consistent with previous studies. There is significant geographical variation in the relationship, partly due to role of meteorological factors (particularly relative humidity). The Nd–LWP relationship is negative in the majority of regions, suggesting that aerosol-induced LWP reductions could offset a significant fraction of the instantaneous radiative forcing from aerosol–cloud interactions (RFaci). However, variations in the Nd–LWP relationship in response to volcanic and shipping aerosol perturbations indicate that the Nd–LWP relationship overestimates the causal Nd impact on LWP due to the role of confounding factors. The weaker LWP reduction implied by these "natural experiments" means that this work provides an upper bound to the radiative forcing from aerosol-induced changes in the LWP.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

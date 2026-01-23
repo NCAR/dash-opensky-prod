@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10392</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:25:34.865439</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:51:09.242946</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The importance of considering depth-resolved photochemistry in snow: A radiative-transfer study of NO&#x2082; and OH production in Ny-&#xc5;lesund (Svalbard) snowpacks</gco:CharacterString>
+                  <gco:CharacterString>The importance of considering depth-resolved photochemistry in snow: A radiative-transfer study of NO₂ and OH production in Ny-Ålesund (Svalbard) snowpacks</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -130,7 +131,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee-Taylor, Julia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0989-1113"
+                                    xlink:title="Lee-Taylor, Julia"
+                                    xlink:actuate="onRequest">Lee-Taylor, Julia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -150,7 +153,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Solar visible radiation can penetrate 2-30 cm (e-folding depth) into snowpacks and photolyse nitrate anions and hydrogen peroxide contained in the snow. Photolysis rate coefficients, J, for NO&#x2083;&#x207b; and H&#x2082;O&#x2082; photolysis are presented for a melting and a fresh snowpack at Ny-&#xc5;lesund, Svalbard. Calculations of (a) transfer velocities, &#x1d65;, and molecular fluxes of gaseous NO&#x2082; from the snowpack and (b) depth-integrated production rates of OH radicals within the snowpack are presented. The results show the importance of considering the depth dependence, i.e. not just the snow surface, when modelling snowpack photochemistry. Neglecting photochemistry under the snow surface can result in an apparent larger molecular flux of NO&#x2082; from NO&#x2083;&#x207b; photolysis than the melting snowpack. However, when the depth-resolved molecular fluxes of NO&#x2082; within the snowpack are calculated, a larger NO&#x2082; flux may be apparent in the melting snowpack than the fresh snowpack. For solar zenith angles of 60&#xb0;, 70&#xb0; and 80&#xb0; the modelled molecular fluxes of NO&#x2082; from fresh snowpack are 11.6, 5.6 and 1.7 nmol m&#x207b;&#xb2;h&#x207b;&#xb9;, respectively, and those for melting snowpack are 19.7, 9.1 and 2.9 nmol m&#x207b;&#xb2;h&#x207b;&#xb9;, respectively.</gco:CharacterString>
+            <gco:CharacterString>Solar visible radiation can penetrate 2-30 cm (e-folding depth) into snowpacks and photolyse nitrate anions and hydrogen peroxide contained in the snow. Photolysis rate coefficients, J, for NO₃⁻ and H₂O₂ photolysis are presented for a melting and a fresh snowpack at Ny-Ålesund, Svalbard. Calculations of (a) transfer velocities, ᵥ, and molecular fluxes of gaseous NO₂ from the snowpack and (b) depth-integrated production rates of OH radicals within the snowpack are presented. The results show the importance of considering the depth dependence, i.e. not just the snow surface, when modelling snowpack photochemistry. Neglecting photochemistry under the snow surface can result in an apparent larger molecular flux of NO₂ from NO₃⁻ photolysis than the melting snowpack. However, when the depth-resolved molecular fluxes of NO₂ within the snowpack are calculated, a larger NO₂ flux may be apparent in the melting snowpack than the fresh snowpack. For solar zenith angles of 60°, 70° and 80° the modelled molecular fluxes of NO₂ from fresh snowpack are 11.6, 5.6 and 1.7 nmol m⁻²h⁻¹, respectively, and those for melting snowpack are 19.7, 9.1 and 2.9 nmol m⁻²h⁻¹, respectively.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

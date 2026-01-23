@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6277</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:28.558765</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:19:19.445864</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vitt, Francis M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8684-214X"
+                                    xlink:title="Vitt, Francis M."
+                                    xlink:actuate="onRequest">Vitt, Francis M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We have analyzed a set of simulations aimed at understanding the mechanisms that drive observed trends in the lower stratosphere after 1970. The simulations were performed using a version of the Community Atmosphere Model version 3 (CAM3) updated with interactive tropospheric and stratospheric chemistry. Even with a relatively low model top (&#x2248;40 km), this model shows good ability at reproducing a variety of large-scale changes in climate and chemical composition in the stratosphere when forced with the observed sea-surface temperatures and surface concentrations of long-lived trace gases and ozone-depleting substances. We then used the same model framework to differentiate the role of chemically active composition (ozone, methane, and chlorofluorocarbons) and CO&#x2082; changes on observed trends in the stratosphere. Among the sensitivity factors analyzed, our simulations indicate that changes in CO&#x2082; over the simulated period do not lead to significantly different total ozone trend; however, changes in CO&#x2082; lead to important differences in ozone in the upper part of the model. On the other hand, changes in surface methane concentration are shown to play a significant role in driving changes in the globally averaged total ozone column, through a combination of changes in tropospheric and stratospheric ozone columns. We also show that the correlation between a change in tropical mean age of air and in vertical velocity breaks down above 20 hPa, in association with increased isentropic mixing above that level. Finally, we show that our model is capable of reproducing trends in the tropical age of air that were found in other studies; our simulations also indicate a significant impact of keeping methane and ozone-depleting substances at their 1970 levels, indicating the potentially important role of controlling methane emissions.</gco:CharacterString>
+            <gco:CharacterString>We have analyzed a set of simulations aimed at understanding the mechanisms that drive observed trends in the lower stratosphere after 1970. The simulations were performed using a version of the Community Atmosphere Model version 3 (CAM3) updated with interactive tropospheric and stratospheric chemistry. Even with a relatively low model top (≈40 km), this model shows good ability at reproducing a variety of large-scale changes in climate and chemical composition in the stratosphere when forced with the observed sea-surface temperatures and surface concentrations of long-lived trace gases and ozone-depleting substances. We then used the same model framework to differentiate the role of chemically active composition (ozone, methane, and chlorofluorocarbons) and CO₂ changes on observed trends in the stratosphere. Among the sensitivity factors analyzed, our simulations indicate that changes in CO₂ over the simulated period do not lead to significantly different total ozone trend; however, changes in CO₂ lead to important differences in ozone in the upper part of the model. On the other hand, changes in surface methane concentration are shown to play a significant role in driving changes in the globally averaged total ozone column, through a combination of changes in tropospheric and stratospheric ozone columns. We also show that the correlation between a change in tropical mean age of air and in vertical velocity breaks down above 20 hPa, in association with increased isentropic mixing above that level. Finally, we show that our model is capable of reproducing trends in the tropical age of air that were found in other studies; our simulations also indicate a significant impact of keeping methane and ozone-depleting substances at their 1970 levels, indicating the potentially important role of controlling methane emissions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

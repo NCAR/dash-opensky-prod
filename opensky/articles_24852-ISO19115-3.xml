@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24852</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:10:01.125620</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:59:35.455363</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cervone, Guido</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6509-0735"
+                                    xlink:title="Cervone, Guido"
+                                    xlink:actuate="onRequest">Cervone, Guido</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Alessandrini, Stefano</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2977-5697"
+                                    xlink:title="Alessandrini, Stefano"
+                                    xlink:actuate="onRequest">Alessandrini, Stefano</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +222,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To accurately plan and manage wind power plants, not only does the time-varying wind resource at the site of interest need to be assessed but also the uncertainty connected to this estimate. Numerical weather prediction (NWP) models at the mesoscale represent a valuable way to characterize the wind resource offshore, given the challenges connected with measuring hub-height wind speed. The boundary condition and parametric uncertainty associated with modeled wind speed is often estimated by running a model ensemble. However, creating an NWP ensemble of long-term wind resource data over a large region represents a computational challenge. Here, we propose two approaches to temporally extrapolate wind speed boundary condition and parametric uncertainty using a more convenient setup in which a mesoscale ensemble is run over a short-term period (1 year), and only a single model covers the desired long-term period (20 year). We quantify hub-height wind speed boundary condition and parametric uncertainty from the short-term model ensemble as its normalized across-ensemble standard deviation. Then, we develop and apply a gradient-boosting model and an analog ensemble approach to temporally extrapolate such uncertainty to the full 20-year period, for which only a single model run is available. As a test case, we consider offshore wind resource characterization in the California Outer Continental Shelf. Both of the proposed approaches provide accurate estimates of the long-term wind speed boundary condition and parametric uncertainty across the region (R2&gt;0.75), with the gradient-boosting model slightly outperforming the analog ensemble in terms of bias and centered root-mean-square error. At the three offshore wind energy lease areas in the region, we find a long-term median hourly uncertainty between 10&#x2009;% and 14&#x2009;% of the mean hub-height wind speed values. Finally, we assess the physical variability in the uncertainty estimates. In general, we find that the wind speed uncertainty increases closer to land. Also, neutral conditions have smaller uncertainty than the stable and unstable cases, and the modeled wind speed in winter has less boundary condition and parametric sensitivity than summer.</gco:CharacterString>
+            <gco:CharacterString>To accurately plan and manage wind power plants, not only does the time-varying wind resource at the site of interest need to be assessed but also the uncertainty connected to this estimate. Numerical weather prediction (NWP) models at the mesoscale represent a valuable way to characterize the wind resource offshore, given the challenges connected with measuring hub-height wind speed. The boundary condition and parametric uncertainty associated with modeled wind speed is often estimated by running a model ensemble. However, creating an NWP ensemble of long-term wind resource data over a large region represents a computational challenge. Here, we propose two approaches to temporally extrapolate wind speed boundary condition and parametric uncertainty using a more convenient setup in which a mesoscale ensemble is run over a short-term period (1 year), and only a single model covers the desired long-term period (20 year). We quantify hub-height wind speed boundary condition and parametric uncertainty from the short-term model ensemble as its normalized across-ensemble standard deviation. Then, we develop and apply a gradient-boosting model and an analog ensemble approach to temporally extrapolate such uncertainty to the full 20-year period, for which only a single model run is available. As a test case, we consider offshore wind resource characterization in the California Outer Continental Shelf. Both of the proposed approaches provide accurate estimates of the long-term wind speed boundary condition and parametric uncertainty across the region (R2&gt;0.75), with the gradient-boosting model slightly outperforming the analog ensemble in terms of bias and centered root-mean-square error. At the three offshore wind energy lease areas in the region, we find a long-term median hourly uncertainty between 10 % and 14 % of the mean hub-height wind speed values. Finally, we assess the physical variability in the uncertainty estimates. In general, we find that the wind speed uncertainty increases closer to land. Also, neutral conditions have smaller uncertainty than the stable and unstable cases, and the modeled wind speed in winter has less boundary condition and parametric sensitivity than summer.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

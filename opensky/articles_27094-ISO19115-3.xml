@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27094</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T20:03:02.711066</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:51:38.637954</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tang, Wenfu</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0107-4496"
+                                    xlink:title="Tang, Wenfu"
+                                    xlink:actuate="onRequest">Tang, Wenfu</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gaubert, Benjamin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6595-0686"
+                                    xlink:title="Gaubert, Benjamin"
+                                    xlink:actuate="onRequest">Gaubert, Benjamin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ziskin, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9968-1210"
+                                    xlink:title="Ziskin, Daniel"
+                                    xlink:actuate="onRequest">Ziskin, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Raeder, Kevin D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6166-7154"
+                                    xlink:title="Raeder, Kevin D."
+                                    xlink:actuate="onRequest">Raeder, Kevin D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +222,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +244,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Measurements Of Pollution In The Troposphere (MOPITT) is an ideal instrument to understand the impact of (1) assimilating multispectral and joint retrievals versus single spectral products, (2) assimilating satellite profile products versus column products, and (3) assimilating multispectral and joint retrievals versus assimilating individual products separately. We use the Community Atmosphere Model with chemistry with the Data Assimilation Research Testbed (CAM-chem+DART) to assimilate different MOPITT carbon monoxide (CO) products to address these three questions. Both anthropogenic and fire CO emissions are optimized in the data assimilation experiments. The results are compared with independent CO observations from TROPOspheric Monitoring Instrument (TROPOMI), the Total Carbon Column Observing Network (TCCON), NOAA Carbon Cycle Greenhouse Gases (CCGG) sites, In-service Aircraft for a Global Observing System (IAGOS), and Western wildfire Experiment for Cloud chemistry, Aerosol absorption and Nitrogen (WE-CAN). We find that (1) assimilating the MOPITT joint (multispectral; near-IR and thermal IR) column product leads to better model&#x2013;observation agreement at and near the surface than assimilating the MOPITT thermal-IR-only column retrieval. (2) Assimilating column products has a larger impact and improvement for background and large-scale CO compared to assimilating profile products due to vertical localization in profile assimilation. However, profile assimilation can outperform column assimilations in fire-impacted regions and near the surface. (3) Assimilating multispectral and joint products results in similar or slightly better agreement with observations compared to assimilating the single spectral products separately.</gco:CharacterString>
+            <gco:CharacterString>The Measurements Of Pollution In The Troposphere (MOPITT) is an ideal instrument to understand the impact of (1) assimilating multispectral and joint retrievals versus single spectral products, (2) assimilating satellite profile products versus column products, and (3) assimilating multispectral and joint retrievals versus assimilating individual products separately. We use the Community Atmosphere Model with chemistry with the Data Assimilation Research Testbed (CAM-chem+DART) to assimilate different MOPITT carbon monoxide (CO) products to address these three questions. Both anthropogenic and fire CO emissions are optimized in the data assimilation experiments. The results are compared with independent CO observations from TROPOspheric Monitoring Instrument (TROPOMI), the Total Carbon Column Observing Network (TCCON), NOAA Carbon Cycle Greenhouse Gases (CCGG) sites, In-service Aircraft for a Global Observing System (IAGOS), and Western wildfire Experiment for Cloud chemistry, Aerosol absorption and Nitrogen (WE-CAN). We find that (1) assimilating the MOPITT joint (multispectral; near-IR and thermal IR) column product leads to better model–observation agreement at and near the surface than assimilating the MOPITT thermal-IR-only column retrieval. (2) Assimilating column products has a larger impact and improvement for background and large-scale CO compared to assimilating profile products due to vertical localization in profile assimilation. However, profile assimilation can outperform column assimilations in fire-impacted regions and near the surface. (3) Assimilating multispectral and joint products results in similar or slightly better agreement with observations compared to assimilating the single spectral products separately.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

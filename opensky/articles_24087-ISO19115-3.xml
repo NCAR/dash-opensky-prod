@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24087</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:20:23.965636</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:12:53.010862</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thompson, Gregory</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2519-932X"
+                                    xlink:title="Thompson, Gregory"
+                                    xlink:actuate="onRequest">Thompson, Gregory</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of different hydrometeor advection schemes on TC structure and intensity forecasts is examined through the evaluation of HWRF's simulation of tropical cyclones using the operational Ferrier&#x2013;Aligo (FA) microphysics that uses total condensate advection versus the same scheme but with separate hydrometeor advection (FA-adv). Results showed that FA-adv simulated larger storms. Idealized simulations revealed that the cause of the simulation differences is the characteristics of the vertical profile of cloud water (Qc), which has a sharp gradient near 850 hPa, and rainwater (Qr), which is vertically uniform below the melting layer. In FA, the resultant total condensate profile has a gradient near 850 hPa that is smaller than that of Qc but larger than that of Qr. In FA when the total condensate is advected and partitioned back to Qc and Qr, the advection of Qc is underestimated and that of Qr is overestimated than that in FA-adv. The separate advection of hydrometeors in the FA-adv scheme corrected this problem and caused the difference in microphysics and dynamics fields between the two schemes. The greater vertical advection of Qc in FA-adv represents a continual source of extra diabatic heating that leads to a greater integrated kinetic energy (IKE) in the storm simulated by FA-adv than FA. However, the radial distribution of the azimuthally averaged additional diabatic heating in FA-adv caused a sea level pressure adjustment that leads to a weaker maximum wind speed. The warming in the outer rainbands strengthens wind away from the inner core, which causes the simulated storm size to increase.</gco:CharacterString>
+            <gco:CharacterString>The impact of different hydrometeor advection schemes on TC structure and intensity forecasts is examined through the evaluation of HWRF's simulation of tropical cyclones using the operational Ferrier–Aligo (FA) microphysics that uses total condensate advection versus the same scheme but with separate hydrometeor advection (FA-adv). Results showed that FA-adv simulated larger storms. Idealized simulations revealed that the cause of the simulation differences is the characteristics of the vertical profile of cloud water (Qc), which has a sharp gradient near 850 hPa, and rainwater (Qr), which is vertically uniform below the melting layer. In FA, the resultant total condensate profile has a gradient near 850 hPa that is smaller than that of Qc but larger than that of Qr. In FA when the total condensate is advected and partitioned back to Qc and Qr, the advection of Qc is underestimated and that of Qr is overestimated than that in FA-adv. The separate advection of hydrometeors in the FA-adv scheme corrected this problem and caused the difference in microphysics and dynamics fields between the two schemes. The greater vertical advection of Qc in FA-adv represents a continual source of extra diabatic heating that leads to a greater integrated kinetic energy (IKE) in the storm simulated by FA-adv than FA. However, the radial distribution of the azimuthally averaged additional diabatic heating in FA-adv caused a sea level pressure adjustment that leads to a weaker maximum wind speed. The warming in the outer rainbands strengthens wind away from the inner core, which causes the simulated storm size to increase.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

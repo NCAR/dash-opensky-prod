@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42483</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:58:36.822466</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:06:31.612148</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Qian, Liying</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2430-1388"
+                                    xlink:title="Qian, Liying"
+                                    xlink:actuate="onRequest">Qian, Liying</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Recent studies of TWINS Lyman- &#x3b1; observations have reported an increase in geocoronal column brightness during geomagnetic storms, indicating enhanced exospheric hydrogen atom density ( N H ). This suggests a complex role of exospheric neutrals in determining storm-time magnetosphere dynamics and their energy release through charge-exchange processes. We developed a Model for Analyzing Terrestrial Exosphere (MATE) to investigate storm-time exospheric behaviors and their physical drivers. MATE traces test hydrogen atoms backward in time from locations in the exosphere to a nominal exobase altitude of 500 km, employing Newtonian mechanics with gravitational force. The model then calculates the phase-space densities (PSDs) of test hydrogen atoms at the exobase using the Maxwellian distribution with physics-based exobase conditions from the TIMEGCM upper atmosphere model. MATE maps PSDs at the exobase to the exosphere using Liouville&#x2019;s Theorem under collisionless assumptions and derives N H by integrating the PSDs across velocity space. We conducted MATE simulation before, during, and after a minor geomagnetic storm from 12 to 18 June 2008, and compared the model results with N H estimates from the TWINS geocorona data. MATE reproduces storm-time density enhancements soon after the minimum Dst is reached, matching well with a general trend of TWINS N H estimates. The results suggest that upper atmospheric heating during a geomagnetic storm increases the number of ballistic and escaping hydrogen atoms entering the exosphere from the exobase, thereby boosting N H . However, the magnitude of modeled N H mismatches the TWINS N H estimates. The potential mechanisms of this density discrepancy include the physics excluded in the MATE model &#x2014; such as neutral-neutral collisions, neutral-plasma charge exchange, solar radiation pressure, and photoionization &#x2014; as well as the higher exobase hydrogen density of TIMEGCM compared to typical empirical values, which will be addressed in future.</gco:CharacterString>
+            <gco:CharacterString>Recent studies of TWINS Lyman- α observations have reported an increase in geocoronal column brightness during geomagnetic storms, indicating enhanced exospheric hydrogen atom density ( N H ). This suggests a complex role of exospheric neutrals in determining storm-time magnetosphere dynamics and their energy release through charge-exchange processes. We developed a Model for Analyzing Terrestrial Exosphere (MATE) to investigate storm-time exospheric behaviors and their physical drivers. MATE traces test hydrogen atoms backward in time from locations in the exosphere to a nominal exobase altitude of 500 km, employing Newtonian mechanics with gravitational force. The model then calculates the phase-space densities (PSDs) of test hydrogen atoms at the exobase using the Maxwellian distribution with physics-based exobase conditions from the TIMEGCM upper atmosphere model. MATE maps PSDs at the exobase to the exosphere using Liouville’s Theorem under collisionless assumptions and derives N H by integrating the PSDs across velocity space. We conducted MATE simulation before, during, and after a minor geomagnetic storm from 12 to 18 June 2008, and compared the model results with N H estimates from the TWINS geocorona data. MATE reproduces storm-time density enhancements soon after the minimum Dst is reached, matching well with a general trend of TWINS N H estimates. The results suggest that upper atmospheric heating during a geomagnetic storm increases the number of ballistic and escaping hydrogen atoms entering the exosphere from the exobase, thereby boosting N H . However, the magnitude of modeled N H mismatches the TWINS N H estimates. The potential mechanisms of this density discrepancy include the physics excluded in the MATE model — such as neutral-neutral collisions, neutral-plasma charge exchange, solar radiation pressure, and photoionization — as well as the higher exobase hydrogen density of TIMEGCM compared to typical empirical values, which will be addressed in future.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

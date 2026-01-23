@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22877</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:02.852147</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:26:44.992767</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brady, Esther C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7833-2249"
+                                    xlink:title="Brady, Esther C."
+                                    xlink:actuate="onRequest">Brady, Esther C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Forcings and feedbacks controlling the seasonally sea ice-free Arctic Ocean during the mid-Piacenzian Warm period (3.264&#x2013;3.025 Ma, MPWP), a period when CO2 level, geography, and topography were similar to present day, remain unclear given that many complex Earth System Models with comparatively higher skills at simulating twentieth century Arctic sea ice tend to produce perennial Arctic sea ice for this period. We demonstrate that explicitly simulating aerosol-cloud interactions and the exclusion of industrial pollutants from model forcing conditions is key to simulating seasonally sea ice-free Arctic Ocean of MPWP. The absence of industrial pollutants leads to fewer and larger cloud droplets over the high-latitude Northern Europe and North Pacific, which allows greater absorption of solar radiation at the surface during the early summer. This enhanced absorption triggers the seasonally runaway sea ice surface albedo feedback that gives rise to September sea ice-free Arctic Ocean and strongly amplified northern high-latitude surface warmth.</gco:CharacterString>
+            <gco:CharacterString>Forcings and feedbacks controlling the seasonally sea ice-free Arctic Ocean during the mid-Piacenzian Warm period (3.264–3.025 Ma, MPWP), a period when CO2 level, geography, and topography were similar to present day, remain unclear given that many complex Earth System Models with comparatively higher skills at simulating twentieth century Arctic sea ice tend to produce perennial Arctic sea ice for this period. We demonstrate that explicitly simulating aerosol-cloud interactions and the exclusion of industrial pollutants from model forcing conditions is key to simulating seasonally sea ice-free Arctic Ocean of MPWP. The absence of industrial pollutants leads to fewer and larger cloud droplets over the high-latitude Northern Europe and North Pacific, which allows greater absorption of solar radiation at the surface during the early summer. This enhanced absorption triggers the seasonally runaway sea ice surface albedo feedback that gives rise to September sea ice-free Arctic Ocean and strongly amplified northern high-latitude surface warmth.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

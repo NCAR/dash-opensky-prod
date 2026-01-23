@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26443</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:00:30.136961</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:06:10.753904</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impacts of the El Ni&#xf1;o-Southern Oscillation (ENSO) are expected to change under increasing greenhouse gas concentrations, but the large internal variability of ENSO and its teleconnections makes it challenging to detect such changes in a single realization of nature. In this study, we explore both the internal variability and radiatively forced changes of boreal wintertime ENSO teleconnection patterns through the analysis of 30-member initial condition ensembles of the Seamless System for Prediction and EArth System Research (SPEAR), a coupled global climate model developed by the NOAA Geophysical Fluid Dynamics Laboratory. We focus on the projected changes of the large-scale circulation, temperature, and precipitation patterns associated with ENSO for 1951&#x2013;2100 under moderate and high emissions scenarios (SSP2-4.5 and SSP5-8.5). We determine the time of emergence of these changes from the noise of internal climate variability, by determining the time when the amplitude of the ensemble mean change in the running 30-year ENSO composites first exceeds the 1951-1980 composite anomaly amplitude by at least one ensemble standard deviation. Overall, the high internal variability of ENSO teleconnection patterns primarily limits their expected emergence to tropical and subtropical regions before 2100, where some regions experience robust changes in ENSO-related temperature, precipitation, and 500 hPa geopotential height patterns by the middle of the twenty-first century. The earliest expected emergence generally occurs over tropical South America and Southeast Asia, indicating that an enhanced risk of ENSO-related extreme weather in that region could be detected within the next few decades. For signals that are expected to emerge after 2050, both internal climate variability and scenario uncertainty contribute similarly to a time of emergence uncertainty on the order of a few decades. We further explore the diversity of ENSO teleconnections within the SPEAR large ensemble during the historical period, and demonstrate that historical relationships between tropical sea surface temperatures and ENSO teleconnections are skillful predictors of projected changes in the Northern Hemisphere El Ni&#xf1;o 500 hPa geopotential height pattern.</gco:CharacterString>
+            <gco:CharacterString>The impacts of the El Niño-Southern Oscillation (ENSO) are expected to change under increasing greenhouse gas concentrations, but the large internal variability of ENSO and its teleconnections makes it challenging to detect such changes in a single realization of nature. In this study, we explore both the internal variability and radiatively forced changes of boreal wintertime ENSO teleconnection patterns through the analysis of 30-member initial condition ensembles of the Seamless System for Prediction and EArth System Research (SPEAR), a coupled global climate model developed by the NOAA Geophysical Fluid Dynamics Laboratory. We focus on the projected changes of the large-scale circulation, temperature, and precipitation patterns associated with ENSO for 1951–2100 under moderate and high emissions scenarios (SSP2-4.5 and SSP5-8.5). We determine the time of emergence of these changes from the noise of internal climate variability, by determining the time when the amplitude of the ensemble mean change in the running 30-year ENSO composites first exceeds the 1951-1980 composite anomaly amplitude by at least one ensemble standard deviation. Overall, the high internal variability of ENSO teleconnection patterns primarily limits their expected emergence to tropical and subtropical regions before 2100, where some regions experience robust changes in ENSO-related temperature, precipitation, and 500 hPa geopotential height patterns by the middle of the twenty-first century. The earliest expected emergence generally occurs over tropical South America and Southeast Asia, indicating that an enhanced risk of ENSO-related extreme weather in that region could be detected within the next few decades. For signals that are expected to emerge after 2050, both internal climate variability and scenario uncertainty contribute similarly to a time of emergence uncertainty on the order of a few decades. We further explore the diversity of ENSO teleconnections within the SPEAR large ensemble during the historical period, and demonstrate that historical relationships between tropical sea surface temperatures and ENSO teleconnections are skillful predictors of projected changes in the Northern Hemisphere El Niño 500 hPa geopotential height pattern.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42970</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:33.426556</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:40.234200</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Given relatively abundant paleo-proxies, the study of the last interglacial (LIG, &#x223c;&#x2009;129&#x2013;116&#x2009;000 years ago, ka) is valuable to understanding the responses and feedback of the Southern Ocean and Antarctica in a warmer-than-preindustrial climate. The Paleoclimate Modelling Intercomparison Project Phase 4 (PMIP4) coordinated LIG model simulations which focus on 127&#x2009;ka. Here we evaluate 12 PMIP4 127&#x2009;ka Tier 1 model simulations against four recent paleoclimate syntheses of LIG sea and air temperatures and sea ice concentrations. The four syntheses include 99 reconstructions, and all syntheses support the presence of a warmer Southern Ocean, with reduced sea ice and a warmer Antarctica at 127&#x2009;ka compared to the preindustrial. The PMIP4 127&#x2009;ka Tier 1 simulations, forced solely by orbital parameters and greenhouse gas concentrations, do not capture the magnitude of this warming. Here we follow up on previous work that suggests the importance of preceding deglaciation meltwater release into the North Atlantic for the early last interglacial climate. We run a 3000-year 128&#x2009;ka simulation using HadCM3 with a 0.25&#x2009;Sv North Atlantic freshwater hosing, which approximates the PMIP4 127&#x2009;ka Tier 2 H11 (Heinrich event 11) simulation. The hosed 128&#x2009;ka HadCM3 simulation captures much of the warming and sea ice loss shown in the four data syntheses at 127&#x2009;ka relative to preindustrial: south of 40&#xb0;&#x2009;S, modeled annual sea surface temperature (SST) rises by 1.3&#x2009;&#xb1;&#x2009;0.6&#x2009;&#xb0;C, while reconstructed average anomalies range from 2.2 to 2.7&#x2009;&#xb0;C; modeled summer SST increases by 1.1&#x2009;&#xb1;&#x2009;0.7&#x2009;&#xb0;C, close to the 1.2&#x2013;2.2&#x2009;&#xb0;C reconstructed average anomalies; September sea ice area (SIA) is reduced by 40&#x2009;%, similar to the reconstructed 40&#x2009;% reduction of sea ice concentration (SIC); over the Antarctic Ice Sheet, modeled annual surface air temperature (SAT) increases by 2.6&#x2009;&#xb1;&#x2009;0.4&#x2009;&#xb0;C, even larger than reconstructed average anomalies of 2.2&#x2009;&#xb0;C. Our results suggest that the impacts of meltwater from deglaciating ice sheets need to be considered to simulate the Southern Ocean and Antarctic changes at 127&#x2009;ka.</gco:CharacterString>
+            <gco:CharacterString>Given relatively abundant paleo-proxies, the study of the last interglacial (LIG, ∼ 129–116 000 years ago, ka) is valuable to understanding the responses and feedback of the Southern Ocean and Antarctica in a warmer-than-preindustrial climate. The Paleoclimate Modelling Intercomparison Project Phase 4 (PMIP4) coordinated LIG model simulations which focus on 127 ka. Here we evaluate 12 PMIP4 127 ka Tier 1 model simulations against four recent paleoclimate syntheses of LIG sea and air temperatures and sea ice concentrations. The four syntheses include 99 reconstructions, and all syntheses support the presence of a warmer Southern Ocean, with reduced sea ice and a warmer Antarctica at 127 ka compared to the preindustrial. The PMIP4 127 ka Tier 1 simulations, forced solely by orbital parameters and greenhouse gas concentrations, do not capture the magnitude of this warming. Here we follow up on previous work that suggests the importance of preceding deglaciation meltwater release into the North Atlantic for the early last interglacial climate. We run a 3000-year 128 ka simulation using HadCM3 with a 0.25 Sv North Atlantic freshwater hosing, which approximates the PMIP4 127 ka Tier 2 H11 (Heinrich event 11) simulation. The hosed 128 ka HadCM3 simulation captures much of the warming and sea ice loss shown in the four data syntheses at 127 ka relative to preindustrial: south of 40° S, modeled annual sea surface temperature (SST) rises by 1.3 ± 0.6 °C, while reconstructed average anomalies range from 2.2 to 2.7 °C; modeled summer SST increases by 1.1 ± 0.7 °C, close to the 1.2–2.2 °C reconstructed average anomalies; September sea ice area (SIA) is reduced by 40 %, similar to the reconstructed 40 % reduction of sea ice concentration (SIC); over the Antarctic Ice Sheet, modeled annual surface air temperature (SAT) increases by 2.6 ± 0.4 °C, even larger than reconstructed average anomalies of 2.2 °C. Our results suggest that the impacts of meltwater from deglaciating ice sheets need to be considered to simulate the Southern Ocean and Antarctic changes at 127 ka.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

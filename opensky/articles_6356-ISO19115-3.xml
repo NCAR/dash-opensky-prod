@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6356</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:57:40.310622</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:20:21.080834</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Seasonal variations of the nighttime O(&#xb9;S) and OH airglow emission rates at mid-to-high latitudes in the context of the large-scale circulation</gco:CharacterString>
+                  <gco:CharacterString>Seasonal variations of the nighttime O(¹S) and OH airglow emission rates at mid-to-high latitudes in the context of the large-scale circulation</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The seasonal climatology of the O(&#xb9;S) and OH nighttime airglow in the mesosphere and lower thermosphere (MLT) for the mid-to-high latitude region is explored in the context of the large-scale general circulation. Multiple years of the Wind Imaging Interferometer (WINDII) satellite data from November 1991 to August 1997 are monthly averaged to depict the global patterns of the seasonal variations of the airglow volume emission rates for various altitudes and local times. These observations are compared with the simulations of the Thermosphere-Ionosphere-Mesosphere Electrodynamics General Circulation Model (TIME-GCM). Both the WINDII and the TIME-GCM results display the semi-annual and annual variations of the O(&#xb9;S) and OH airglow emission rates for specific altitudes and local times. The TIME-GCM reproduces most of the emission variation signatures observed by WINDII, but provides additional information on vertical advection and downward mixing of atomic oxygen. The study indicates that vertical advection associated with the tides and the large-scale circulation plays a major role in the airglow seasonal variations. The annual influence of the large-scale circulation appears more clearly in the mesosphere than in the lower thermosphere, while the semi-annual variation occurs only in the lower thermosphere.</gco:CharacterString>
+            <gco:CharacterString>The seasonal climatology of the O(¹S) and OH nighttime airglow in the mesosphere and lower thermosphere (MLT) for the mid-to-high latitude region is explored in the context of the large-scale general circulation. Multiple years of the Wind Imaging Interferometer (WINDII) satellite data from November 1991 to August 1997 are monthly averaged to depict the global patterns of the seasonal variations of the airglow volume emission rates for various altitudes and local times. These observations are compared with the simulations of the Thermosphere-Ionosphere-Mesosphere Electrodynamics General Circulation Model (TIME-GCM). Both the WINDII and the TIME-GCM results display the semi-annual and annual variations of the O(¹S) and OH airglow emission rates for specific altitudes and local times. The TIME-GCM reproduces most of the emission variation signatures observed by WINDII, but provides additional information on vertical advection and downward mixing of atomic oxygen. The study indicates that vertical advection associated with the tides and the large-scale circulation plays a major role in the airglow seasonal variations. The annual influence of the large-scale circulation appears more clearly in the mesosphere than in the lower thermosphere, while the semi-annual variation occurs only in the lower thermosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

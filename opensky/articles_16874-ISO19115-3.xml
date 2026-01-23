@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16874</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:57.710097</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:05:17.563827</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bergman, John</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9538-6465"
+                                    xlink:title="Bergman, John"
+                                    xlink:actuate="onRequest">Bergman, John</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Multimodel ensembles of back trajectories calculated from four different analysis data sets and two different trajectory formulations ("diabatic" and "kinematic") are analyzed to investigate seasonal mean boundary layer-to-"tropopause" (100&#x2009;hPa) transport in the tropics. Transport paths are separated into two legs: "convective uplift" (boundary layer to detrainment) and "radiative ascent" (detrainment to tropopause). The following three diagnostic measures are used: source location, source-to-tropopause transport time, and the source "influence" (i.e., the fraction of air with short transport times) at 100&#x2009;hPa. Ensemble means and standard deviations identify "robust features" (i.e., common to all ensemble members) while experimental hybrid calculations explain model-to-model discrepancies. Convective uplift is a major contributor to uncertainties in boundary layer-to-tropopause transport times and source locations. Spatial patterns of boundary layer influence at 100&#x2009;hPa are nevertheless robust. Detrainment-to-tropopause transport times are robust despite substantial model-to-model variations of convective detrainment height because ascent rates are faster at low altitudes than at high altitudes. Detrainment-to-tropopause transport also has robust horizontal spatial patterns for both convective sources and convective influence, particularly during boreal winter. Most model-to-model discrepancies occur at small spatial scales and are associated with differing distributions of convection. The location of maximum convective influence associated with the Asian summer monsoon is a notable exception. This exceptionally large discrepancy is associated primarily with radiative ascent. The fact that the observed maxima of important tropospheric constituents are collocated with the maximum convective influence for the diabatic calculations but not for the kinematic calculations suggests that diabatic trajectories could be more reliable in this region.</gco:CharacterString>
+            <gco:CharacterString>Multimodel ensembles of back trajectories calculated from four different analysis data sets and two different trajectory formulations ("diabatic" and "kinematic") are analyzed to investigate seasonal mean boundary layer-to-"tropopause" (100 hPa) transport in the tropics. Transport paths are separated into two legs: "convective uplift" (boundary layer to detrainment) and "radiative ascent" (detrainment to tropopause). The following three diagnostic measures are used: source location, source-to-tropopause transport time, and the source "influence" (i.e., the fraction of air with short transport times) at 100 hPa. Ensemble means and standard deviations identify "robust features" (i.e., common to all ensemble members) while experimental hybrid calculations explain model-to-model discrepancies. Convective uplift is a major contributor to uncertainties in boundary layer-to-tropopause transport times and source locations. Spatial patterns of boundary layer influence at 100 hPa are nevertheless robust. Detrainment-to-tropopause transport times are robust despite substantial model-to-model variations of convective detrainment height because ascent rates are faster at low altitudes than at high altitudes. Detrainment-to-tropopause transport also has robust horizontal spatial patterns for both convective sources and convective influence, particularly during boreal winter. Most model-to-model discrepancies occur at small spatial scales and are associated with differing distributions of convection. The location of maximum convective influence associated with the Asian summer monsoon is a notable exception. This exceptionally large discrepancy is associated primarily with radiative ascent. The fact that the observed maxima of important tropospheric constituents are collocated with the maximum convective influence for the diabatic calculations but not for the kinematic calculations suggests that diabatic trajectories could be more reliable in this region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

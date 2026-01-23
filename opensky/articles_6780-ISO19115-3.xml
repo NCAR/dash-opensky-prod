@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6780</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:32.322172</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:05.552372</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper synthesizes a variety of atmospheric and oceanic data to examine the large-scale energy budget of the Arctic. Assessment of the atmospheric budget relies primarily on the ERA-40 reanalysis. The seasonal cycles of vertically integrated atmospheric energy storage and the convergence of energy transport from ERA-40, as evaluated for the polar cap (defined by the 70&#xb0;N latitude circle), in general compare well with realizations from the National Centers for Environmental Prediction/National Center for Atmospheric Research reanalysis over the period 1979 - 2001. However, shortcomings in top of atmosphere radiation, as compared to satellite data, and the net surface flux, contribute to large energy budget residuals in ERA-40. The seasonal cycle of atmospheric energy storage is strongly modulated by the net surface flux, which is also the primary driver of seasonal changes in heat storage within the Arctic Ocean. Averaged for an Arctic Ocean domain, the July net surface flux from ERA-40 of -100 W m&amp;#8315&#xb2; (i.e., into the ocean), associated with sea ice melt and oceanic sensible heat gain, exceeds the atmospheric energy transport convergence of 91 W m&#x207b;&#xb2;. During winter (for which budget residuals are large), oceanic sensible heat loss and sea ice growth yield an upward surface flux of 50-60 W m&#x207b;&#xb2;, complemented with an atmospheric energy convergence of 80-90 W m&#x207b;&#xb2; to provide a net radiation loss to space of 175-180 W m&#x207b;&#xb2;.</gco:CharacterString>
+            <gco:CharacterString>This paper synthesizes a variety of atmospheric and oceanic data to examine the large-scale energy budget of the Arctic. Assessment of the atmospheric budget relies primarily on the ERA-40 reanalysis. The seasonal cycles of vertically integrated atmospheric energy storage and the convergence of energy transport from ERA-40, as evaluated for the polar cap (defined by the 70°N latitude circle), in general compare well with realizations from the National Centers for Environmental Prediction/National Center for Atmospheric Research reanalysis over the period 1979 - 2001. However, shortcomings in top of atmosphere radiation, as compared to satellite data, and the net surface flux, contribute to large energy budget residuals in ERA-40. The seasonal cycle of atmospheric energy storage is strongly modulated by the net surface flux, which is also the primary driver of seasonal changes in heat storage within the Arctic Ocean. Averaged for an Arctic Ocean domain, the July net surface flux from ERA-40 of -100 W m&amp;#8315² (i.e., into the ocean), associated with sea ice melt and oceanic sensible heat gain, exceeds the atmospheric energy transport convergence of 91 W m⁻². During winter (for which budget residuals are large), oceanic sensible heat loss and sea ice growth yield an upward surface flux of 50-60 W m⁻², complemented with an atmospheric energy convergence of 80-90 W m⁻² to provide a net radiation loss to space of 175-180 W m⁻².</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

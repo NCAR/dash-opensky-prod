@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22678</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:26:47.703899</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:28:47.259580</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sharman, Robert D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2384-7517"
+                                    xlink:title="Sharman, Robert D."
+                                    xlink:actuate="onRequest">Sharman, Robert D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trier, Stanley B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6537-173X"
+                                    xlink:title="Trier, Stanley B."
+                                    xlink:actuate="onRequest">Trier, Stanley B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We propose near-cloud turbulence (NCT) diagnostics for use in aviation turbulence forecasting, using a convective gravity wave drag (CGWD) parameterization scheme. The NCT diagnostics are obtained based on (i) CGWD and (ii) minimum Richardson number including the effects of convective gravity waves (CGWs). The feasibility of the NCT diagnostics is examined using numerical simulation results of real turbulence cases related to the breaking of CGWs, which occurred over eastern Missouri and southwestern Illinois in the United States on 9&#x2013;10 March 2006, and near Fukuoka, Japan, on 2 September 2007. On 9&#x2013;10 March 2006, several instances of moderate-or-greater (MOG)-intensity turbulence were reported above shallow but active convection over the central United States, while on 2 September 2007, severe turbulence was encountered above dissipating convection near Fukuoka, Japan. The high-resolution simulation results for both turbulence events show that CGWs and their breaking provide favorable environments for turbulence generation. For two simulated real cases, nonzero NCT diagnostics are reasonably well matched with observed turbulence encounters. The global distribution of CGWD calculated using global reanalysis data revealed a high potential of MOG turbulence in the tropics and the midlatitudes, which can be clearly distinguished from the traditional clear-air turbulence index where high potentials of MOG turbulence are diagnosed in the midlatitudes associated with the strong vertical wind shears near jet streams. These results imply that the proposed NCT diagnostics are useful for forecasting turbulence related to the breaking of CGWs, especially, in tropical regions.</gco:CharacterString>
+            <gco:CharacterString>We propose near-cloud turbulence (NCT) diagnostics for use in aviation turbulence forecasting, using a convective gravity wave drag (CGWD) parameterization scheme. The NCT diagnostics are obtained based on (i) CGWD and (ii) minimum Richardson number including the effects of convective gravity waves (CGWs). The feasibility of the NCT diagnostics is examined using numerical simulation results of real turbulence cases related to the breaking of CGWs, which occurred over eastern Missouri and southwestern Illinois in the United States on 9–10 March 2006, and near Fukuoka, Japan, on 2 September 2007. On 9–10 March 2006, several instances of moderate-or-greater (MOG)-intensity turbulence were reported above shallow but active convection over the central United States, while on 2 September 2007, severe turbulence was encountered above dissipating convection near Fukuoka, Japan. The high-resolution simulation results for both turbulence events show that CGWs and their breaking provide favorable environments for turbulence generation. For two simulated real cases, nonzero NCT diagnostics are reasonably well matched with observed turbulence encounters. The global distribution of CGWD calculated using global reanalysis data revealed a high potential of MOG turbulence in the tropics and the midlatitudes, which can be clearly distinguished from the traditional clear-air turbulence index where high potentials of MOG turbulence are diagnosed in the midlatitudes associated with the strong vertical wind shears near jet streams. These results imply that the proposed NCT diagnostics are useful for forecasting turbulence related to the breaking of CGWs, especially, in tropical regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15236</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:29:10.880534</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:00:19.972981</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The seasonal and latitudinal differences of the correlations between daytime ionospheric F 2 peak electron density (N m F 2) and solar activity indices in the east Asian/Australian sector have been analyzed using data from 15 ionosonde stations at different geomagnetic latitudes during 1969&#x2dc;1990. It is found that the characteristics of the correlations between N m F 2 and solar activity indices have significant seasonal and latitudinal variations and hemispheric asymmetry. At middle and high latitudes, there is a clear saturation trend in N m F 2 as solar activity increases in summer. However, there is no apparent saturation trend in winter, rather a tendency of nonlinear increase of N m F 2 with solar activity. This nonlinear increasing effect is more pronounced in the Northern Hemisphere. In the equatorial anomaly region, the saturation effect is stronger, and the equinox has the strongest saturation effect. All seasons considered, the equatorial anomaly region has the strongest saturation effect, followed by the magnetic equatorial region. The saturation effect becomes relatively weak at middle latitudes. At higher latitudes and in the Northern Hemisphere, there is even a trend of nonlinear increase of N m F 2 with solar activity. Our results indicate that thermospheric global circulation is probably an important factor that introduces seasonal, latitudinal, and north-south differences in the correlations between N m F 2 and solar activity indices.</gco:CharacterString>
+            <gco:CharacterString>The seasonal and latitudinal differences of the correlations between daytime ionospheric F 2 peak electron density (N m F 2) and solar activity indices in the east Asian/Australian sector have been analyzed using data from 15 ionosonde stations at different geomagnetic latitudes during 1969˜1990. It is found that the characteristics of the correlations between N m F 2 and solar activity indices have significant seasonal and latitudinal variations and hemispheric asymmetry. At middle and high latitudes, there is a clear saturation trend in N m F 2 as solar activity increases in summer. However, there is no apparent saturation trend in winter, rather a tendency of nonlinear increase of N m F 2 with solar activity. This nonlinear increasing effect is more pronounced in the Northern Hemisphere. In the equatorial anomaly region, the saturation effect is stronger, and the equinox has the strongest saturation effect. All seasons considered, the equatorial anomaly region has the strongest saturation effect, followed by the magnetic equatorial region. The saturation effect becomes relatively weak at middle latitudes. At higher latitudes and in the Northern Hemisphere, there is even a trend of nonlinear increase of N m F 2 with solar activity. Our results indicate that thermospheric global circulation is probably an important factor that introduces seasonal, latitudinal, and north-south differences in the correlations between N m F 2 and solar activity indices.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

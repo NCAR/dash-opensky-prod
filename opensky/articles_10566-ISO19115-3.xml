@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10566</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:27:55.002597</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:57:00.235566</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Scientists have observed large increases in melting on the Greenland Ice Sheet in recent decades. But what is happening in Antarctica? Temperature increases during the past 50&#x2013;100 years have been recorded for the Antarctic Peninsula and West Antarctica. Melting over Antarctica has been monitored since 1979 using spaceborne passive microwave observations. The sign of the melting trends over Antarctica is variable at regional scales, depending on the period analyzed and on the indices used, with the continent-averaged trend being negligible.</gco:CharacterString>
+            <gco:CharacterString>Scientists have observed large increases in melting on the Greenland Ice Sheet in recent decades. But what is happening in Antarctica? Temperature increases during the past 50–100 years have been recorded for the Antarctic Peninsula and West Antarctica. Melting over Antarctica has been monitored since 1979 using spaceborne passive microwave observations. The sign of the melting trends over Antarctica is variable at regional scales, depending on the period analyzed and on the indices used, with the continent-averaged trend being negligible.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

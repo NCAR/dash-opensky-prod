@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:558</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:45:59.615717</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:23:39.943130</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Towler, Erin L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1784-1346"
+                                    xlink:title="Towler, Erin L."
+                                    xlink:actuate="onRequest">Towler, Erin L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Streamflow drought refers to a significant decrease in surface water availability and has spatial and temporal characteristics that can occur in every watershed region. Here, we present a companion paper describing the background and contents of a streamflow drought indicator dataset that we recently published. The dataset consists of multiple indicators that can be used to characterize streamflow droughts in the major watershed regions of the conterminous U.S. (CONUS). The dataset is derived from the daily streamflow data from U.S. Geological Survey (USGS) Hydro-Climatic Data Network 2009 (HCDN-2009). This study describes the three main categories of streamflow drought - low flow characteristics, deficit characteristics, and independent drought event characteristics &#x2013; as well as the indicators for each category. Indicators for the dataset are selected based on their advantages and popularity in scientific studies and operational usage. Indicators are calculated for annual, seasonal, and monthly time scales to represent drought features under different climate conditions and streamflow regimes. The resulting dataset offers a comprehensive source of streamflow drought features on regional and national scale within CONUS. This data can be used by diverse users to help evaluate the spatial and temporal characteristics of streamflow droughts from region to region.</gco:CharacterString>
+            <gco:CharacterString>Streamflow drought refers to a significant decrease in surface water availability and has spatial and temporal characteristics that can occur in every watershed region. Here, we present a companion paper describing the background and contents of a streamflow drought indicator dataset that we recently published. The dataset consists of multiple indicators that can be used to characterize streamflow droughts in the major watershed regions of the conterminous U.S. (CONUS). The dataset is derived from the daily streamflow data from U.S. Geological Survey (USGS) Hydro-Climatic Data Network 2009 (HCDN-2009). This study describes the three main categories of streamflow drought - low flow characteristics, deficit characteristics, and independent drought event characteristics – as well as the indicators for each category. Indicators for the dataset are selected based on their advantages and popularity in scientific studies and operational usage. Indicators are calculated for annual, seasonal, and monthly time scales to represent drought features under different climate conditions and streamflow regimes. The resulting dataset offers a comprehensive source of streamflow drought features on regional and national scale within CONUS. This data can be used by diverse users to help evaluate the spatial and temporal characteristics of streamflow droughts from region to region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

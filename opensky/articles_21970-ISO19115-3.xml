@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21970</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:35:17.753175</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:50:02.483868</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +196,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Airborne in situ observations during the Convective Transport of Active Species in the Tropics campaign in January-February 2014 revealed a large region over the tropical western Pacific where the midtroposphere had a layered structure with a distinct chemical signature of high ozone and low water vapor (HOLW). The observed anticorrelation between ozone and water vapor is a strong indication of transport from the midlatitude upper troposphere and lower stratosphere. This work presents a diagnosis of stratospheric air in the tropical western Pacific midtroposphere through isentropic transport and mixing.Using the Chemical Lagrangian Model of the Stratosphere, we characterize and quantify the contribution of transported stratospheric air to the observed HOLW layers. The result indicates that the isentropic transport is an effective process for stratospheric air to mix into the tropical midtroposphere. Using the modeled stratospheric tracer and 3-D back trajectories, we identified that 60% of the observed HOLW air masses contain significant stratospheric influence. We have also examined possible contribution to the HOLW layer from ozone production related to biomass burning emissions. Clear chemical signature of this process is found in&#x223c;8% of the HOLW air masses, identified by positive correlations among O3, HCN, and CO. This analysis provides the first quantitative diagnosis of the contribution from the stratosphere-to-troposphere transport, highlights the importance of mixing in chemical transport, and demonstrates the limitations of pure Lagrangian trajectory calculations in quantifying transport.</gco:CharacterString>
+            <gco:CharacterString>Airborne in situ observations during the Convective Transport of Active Species in the Tropics campaign in January-February 2014 revealed a large region over the tropical western Pacific where the midtroposphere had a layered structure with a distinct chemical signature of high ozone and low water vapor (HOLW). The observed anticorrelation between ozone and water vapor is a strong indication of transport from the midlatitude upper troposphere and lower stratosphere. This work presents a diagnosis of stratospheric air in the tropical western Pacific midtroposphere through isentropic transport and mixing.Using the Chemical Lagrangian Model of the Stratosphere, we characterize and quantify the contribution of transported stratospheric air to the observed HOLW layers. The result indicates that the isentropic transport is an effective process for stratospheric air to mix into the tropical midtroposphere. Using the modeled stratospheric tracer and 3-D back trajectories, we identified that 60% of the observed HOLW air masses contain significant stratospheric influence. We have also examined possible contribution to the HOLW layer from ozone production related to biomass burning emissions. Clear chemical signature of this process is found in∼8% of the HOLW air masses, identified by positive correlations among O3, HCN, and CO. This analysis provides the first quantitative diagnosis of the contribution from the stratosphere-to-troposphere transport, highlights the importance of mixing in chemical transport, and demonstrates the limitations of pure Lagrangian trajectory calculations in quantifying transport.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

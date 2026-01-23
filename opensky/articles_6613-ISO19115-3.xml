@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6613</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:09.314749</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:39:23.597415</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper compares six statistical downscaling models (SDMs) and three regional climate models (RCMs) in their ability to downscale daily precipitation statistics in a region of complex topography. The six SDMs include regression methods, weather typing methods, a conditional weather generator, and a bias correction and spatial disaggregation approach. The comparison is carried out over the European Alps for current and future (2071&#x2013;2100) climate. The evaluation of simulated precipitation for the current climate shows that the SDMs and RCMs tend to have similar biases but that they differ with respect to interannual variations. The SDMs strongly underestimate the magnitude of the year-to-year variations. Clear differences emerge also with respect to the year-to-year anomaly correlation skill: In winter, over complex terrain, the better RCMs achieve significantly higher skills than the SDMs. Over flat terrain and in summer, the differences are smaller. Scenario results using A2 emissions show that in winter mean precipitation tends to increase north of about 45&#xb0;N and insignificant or opposite changes are found to the south. There is good agreement between the downscaling models for most precipitation statistics. In summer, there is still good qualitative agreement between the RCMs but large differences between the SDMs and between the SDMs and the RCMs. According to the RCMs, there is a strong trend toward drier conditions including longer periods of drought. The SDMs, on the other hand, show mostly nonsignificant or even opposite changes. Overall, the present analysis suggests that downscaling does significantly contribute to the uncertainty in regional climate scenarios, especially for the summer precipitation climate.</gco:CharacterString>
+            <gco:CharacterString>This paper compares six statistical downscaling models (SDMs) and three regional climate models (RCMs) in their ability to downscale daily precipitation statistics in a region of complex topography. The six SDMs include regression methods, weather typing methods, a conditional weather generator, and a bias correction and spatial disaggregation approach. The comparison is carried out over the European Alps for current and future (2071–2100) climate. The evaluation of simulated precipitation for the current climate shows that the SDMs and RCMs tend to have similar biases but that they differ with respect to interannual variations. The SDMs strongly underestimate the magnitude of the year-to-year variations. Clear differences emerge also with respect to the year-to-year anomaly correlation skill: In winter, over complex terrain, the better RCMs achieve significantly higher skills than the SDMs. Over flat terrain and in summer, the differences are smaller. Scenario results using A2 emissions show that in winter mean precipitation tends to increase north of about 45°N and insignificant or opposite changes are found to the south. There is good agreement between the downscaling models for most precipitation statistics. In summer, there is still good qualitative agreement between the RCMs but large differences between the SDMs and between the SDMs and the RCMs. According to the RCMs, there is a strong trend toward drier conditions including longer periods of drought. The SDMs, on the other hand, show mostly nonsignificant or even opposite changes. Overall, the present analysis suggests that downscaling does significantly contribute to the uncertainty in regional climate scenarios, especially for the summer precipitation climate.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

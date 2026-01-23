@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6551</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:12.820794</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:21:53.035086</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +320,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, H.</gco:CharacterString>
+                        <gco:CharacterString>Vömel, H.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +360,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We compare Tropospheric Emission Spectrometer (TES) version 2 (V002) nadir ozone profiles with ozonesonde profiles from the Intercontinental Chemical Transport Experiment Ozonesonde Network Study, the World Ozone and Ultraviolet Data Center, the Global Monitoring Division of the Earth System Research Laboratory, and the Southern Hemisphere Additional Ozonesonde archives. Approximately 1600 coincidences spanning 72.5&#xb0; S-80.3&#xb0;N from October 2004 to October 2006 are found. The TES averaging kernel and constraint are applied to the ozonesonde data to account for the TES measurement sensitivity and vertical resolution. TES sonde differences are examined in six latitude zones after excluding profiles with thick high clouds. Values for the bias and standard deviation are determined using correlations of mean values of TES ozone and sonde ozone in the upper troposphere (UT) and lower troposphere (LT). The UT biases range from 2.9 to 10.6 ppbv, and the LT biases range from 3.7 to 9.2 ppbv, excluding the Arctic and Antarctic LT where TES sensitivity is low. A similar approach is used to assess seasonal differences in the northern midlatitudes where the density and frequency of sonde measurements are greatest. These results are briefly compared to TES V001 ozone validation work which also used ozonesondes but was carried out prior to improvements in the radiometric calibration and ozone retrieval in V002. Overall, the large number of TES and sonde comparisons indicate a positive bias of approximately 3-10 ppbv for the TES V002 nadir ozone data set and have helped to identify areas of potential improvement for future retrieval versions.</gco:CharacterString>
+            <gco:CharacterString>We compare Tropospheric Emission Spectrometer (TES) version 2 (V002) nadir ozone profiles with ozonesonde profiles from the Intercontinental Chemical Transport Experiment Ozonesonde Network Study, the World Ozone and Ultraviolet Data Center, the Global Monitoring Division of the Earth System Research Laboratory, and the Southern Hemisphere Additional Ozonesonde archives. Approximately 1600 coincidences spanning 72.5° S-80.3°N from October 2004 to October 2006 are found. The TES averaging kernel and constraint are applied to the ozonesonde data to account for the TES measurement sensitivity and vertical resolution. TES sonde differences are examined in six latitude zones after excluding profiles with thick high clouds. Values for the bias and standard deviation are determined using correlations of mean values of TES ozone and sonde ozone in the upper troposphere (UT) and lower troposphere (LT). The UT biases range from 2.9 to 10.6 ppbv, and the LT biases range from 3.7 to 9.2 ppbv, excluding the Arctic and Antarctic LT where TES sensitivity is low. A similar approach is used to assess seasonal differences in the northern midlatitudes where the density and frequency of sonde measurements are greatest. These results are briefly compared to TES V001 ozone validation work which also used ozonesondes but was carried out prior to improvements in the radiometric calibration and ozone retrieval in V002. Overall, the large number of TES and sonde comparisons indicate a positive bias of approximately 3-10 ppbv for the TES V002 nadir ozone data set and have helped to identify areas of potential improvement for future retrieval versions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

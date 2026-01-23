@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6677</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:41.294865</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:28:44.407402</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schmitt, Carl G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3829-6970"
+                                    xlink:title="Schmitt, Carl G."
+                                    xlink:actuate="onRequest">Schmitt, Carl G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Cirrus clouds in mid- and high latitudes are frequently composed of bullet rosette- and column-shaped ice crystals, which can have hollow ends. Bullet rosette-shaped ice crystals are composed of a number of bullets radiating from a central point. Research has shown that the light-scattering properties of ice particles with hollow ends are different from the scattering properties of solid ice particles. Knowledge of the frequency of occurrence of hollow particles is important to more accurately calculate the radiative properties of cirrus clouds. This note presents the results of a survey of cirrus cloud ice crystal replicas imaged from balloon-borne Formvar (polyvinyl formal) replicators. Fifty percent to 80% of the replicated bullet rosette&#x2013; and column-shaped particles had hollow ends. In bullets longer than 150 &#x3bc;m in length, the length of the hollows of the bullets averaged 88% of the total length of the bullet. The combined length of both hollow portions of column-shaped ice crystals varied from 50% of the length of the column for 30-&#x3bc;m-long columns to 80% of the length of the columns longer than 200 &#x3bc;m. Asymmetry parameter values estimated from cirrus cloud aircraft particle size distributions are higher by 0.014 when hollow crystals are considered. This difference leads to a 2.5 W m&amp;#8315&#xb2; increase for hollow crystals at the surface for a 0.5 optical depth cloud, demonstrating the importance of the incorporation of hollow particle scattering characteristics into radiative transfer calculations.</gco:CharacterString>
+            <gco:CharacterString>Cirrus clouds in mid- and high latitudes are frequently composed of bullet rosette- and column-shaped ice crystals, which can have hollow ends. Bullet rosette-shaped ice crystals are composed of a number of bullets radiating from a central point. Research has shown that the light-scattering properties of ice particles with hollow ends are different from the scattering properties of solid ice particles. Knowledge of the frequency of occurrence of hollow particles is important to more accurately calculate the radiative properties of cirrus clouds. This note presents the results of a survey of cirrus cloud ice crystal replicas imaged from balloon-borne Formvar (polyvinyl formal) replicators. Fifty percent to 80% of the replicated bullet rosette– and column-shaped particles had hollow ends. In bullets longer than 150 μm in length, the length of the hollows of the bullets averaged 88% of the total length of the bullet. The combined length of both hollow portions of column-shaped ice crystals varied from 50% of the length of the column for 30-μm-long columns to 80% of the length of the columns longer than 200 μm. Asymmetry parameter values estimated from cirrus cloud aircraft particle size distributions are higher by 0.014 when hollow crystals are considered. This difference leads to a 2.5 W m&amp;#8315² increase for hollow crystals at the surface for a 0.5 optical depth cloud, demonstrating the importance of the incorporation of hollow particle scattering characteristics into radiative transfer calculations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

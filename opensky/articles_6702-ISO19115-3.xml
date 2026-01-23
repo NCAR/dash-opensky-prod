@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6702</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:10.588864</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:36:49.302762</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Anne K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2384-5033"
+                                    xlink:title="Smith, Anne K."
+                                    xlink:actuate="onRequest">Smith, Anne K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Thermosphere, Ionosphere, Mesosphere, Energetics, and Dynamics (TIMED)/Sounding of the Atmosphere Using Broadband Emission Radiometry (SABER) temperature observations are used to study the global structure and variability of the mesopause altitude and temperature. There are two distinctly different mesopause altitude levels: the higher level at 95-100 km and the lower level below &#x223c;86 km. The mesopause of the middle- and high-latitude regions is at the lower altitude in the summer hemisphere for about 120 days around summer solstice and is at the higher altitude during other seasons. At the equator the mesopause is at the higher altitude for all seasons. In addition to the seasonal variation in middle and high latitudes, the mesopause altitude and temperature undergo modulation by diurnal and semidiurnal tides at all latitudes. The mesopause is about 1 km higher at most latitudes and 6-9 K warmer at middle to high latitudes around December solstice than it is around June solstice. These can also be interpreted as hemispheric asymmetry between mesopause altitude and temperature at solstice. Possible causes of the asymmetry as related to solar forcing and gravity wave forcing are discussed.</gco:CharacterString>
+            <gco:CharacterString>Thermosphere, Ionosphere, Mesosphere, Energetics, and Dynamics (TIMED)/Sounding of the Atmosphere Using Broadband Emission Radiometry (SABER) temperature observations are used to study the global structure and variability of the mesopause altitude and temperature. There are two distinctly different mesopause altitude levels: the higher level at 95-100 km and the lower level below ∼86 km. The mesopause of the middle- and high-latitude regions is at the lower altitude in the summer hemisphere for about 120 days around summer solstice and is at the higher altitude during other seasons. At the equator the mesopause is at the higher altitude for all seasons. In addition to the seasonal variation in middle and high latitudes, the mesopause altitude and temperature undergo modulation by diurnal and semidiurnal tides at all latitudes. The mesopause is about 1 km higher at most latitudes and 6-9 K warmer at middle to high latitudes around December solstice than it is around June solstice. These can also be interpreted as hemispheric asymmetry between mesopause altitude and temperature at solstice. Possible causes of the asymmetry as related to solar forcing and gravity wave forcing are discussed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

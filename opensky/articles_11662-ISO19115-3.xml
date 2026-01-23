@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11662</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:24:50.278468</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:49:12.668845</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -287,7 +288,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The longest total solar eclipse of this century occurred in East and South Asia on 22 July 2009. The eclipse was accompanied with a medium magnetic storm, whose main phase onset occurred ~27 min after the passage of the Moon's umbral shadow. Using TEC data from 60 GPS stations, we construct differential TEC maps to investigate the ionosphere response to the solar eclipse in central China in the range of 26&#xb0;N&#x2013;36&#xb0;N, 108&#xb0;E&#x2013;118&#xb0;E (i.e., the magnetic latitude 15&#xb0;N&#x2013;25&#xb0;N). During the eclipse's totality, a "shadow" in the ionosphere shown as TEC depletion area was formed ~100 km south of the Moon's umbral path with a maximum decrease of 5 TECU. The TEC depletion area moved eastward, following the movement of the totality area with a time lag of ~10 min. Enhancements of TEC due to the storm are observed after the main phase onset. The relative drop of TEC due to the solar eclipse is evidently larger at lower latitudes than that at higher ones and around noontime than that in the morning. By modeling work, we find that the latitudinal dependence of the TEC response may result from latitudinal variation of magnetic inclination, which influences the diffusion of ionization among different layers. Besides, the local time dependence of TEC response is closely related to the local time variation of background atmosphere density, which affects the electron loss efficiency in the ionosphere.</gco:CharacterString>
+            <gco:CharacterString>The longest total solar eclipse of this century occurred in East and South Asia on 22 July 2009. The eclipse was accompanied with a medium magnetic storm, whose main phase onset occurred ~27 min after the passage of the Moon's umbral shadow. Using TEC data from 60 GPS stations, we construct differential TEC maps to investigate the ionosphere response to the solar eclipse in central China in the range of 26°N–36°N, 108°E–118°E (i.e., the magnetic latitude 15°N–25°N). During the eclipse's totality, a "shadow" in the ionosphere shown as TEC depletion area was formed ~100 km south of the Moon's umbral path with a maximum decrease of 5 TECU. The TEC depletion area moved eastward, following the movement of the totality area with a time lag of ~10 min. Enhancements of TEC due to the storm are observed after the main phase onset. The relative drop of TEC due to the solar eclipse is evidently larger at lower latitudes than that at higher ones and around noontime than that in the morning. By modeling work, we find that the latitudinal dependence of the TEC response may result from latitudinal variation of magnetic inclination, which influences the diffusion of ionization among different layers. Besides, the local time dependence of TEC response is closely related to the local time variation of background atmosphere density, which affects the electron loss efficiency in the ionosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

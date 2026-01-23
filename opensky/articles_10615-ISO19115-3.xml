@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10615</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:46:33.381591</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:32:43.156167</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We calculate the sensitivity of outgoing longwave radiation (OLR) to the global vertical distribution of tropospheric ozone using ozone profile estimates from Aura Tropospheric Emission Spectrometer (Aura-TES) along with the partial derivatives of spectral radiance with respect to ozone from the Aura-TES operational retrieval algorithm. Accounting for anisotropy, we calculate top of atmosphere instantaneous radiative kernels (IRKs), in W/m&#xb2;/ppb, for infrared ozone absorption from 985 to 1080 cm&#x207b;&#xb9;. Zonal mean distributions for August 2006 show significant variations in the IRK between clear and cloudy sky, ocean and land, and day and night over land. For all sky (clear and cloudy conditions), OLR is significantly less sensitive to ozone in the middle and lower troposphere due to clouds, especially in the tropics. We also compute the longwave radiative effect (LWRE), i.e., the reduction in OLR due to absorption by tropospheric ozone, and find a global average LWRE of 0.33 &#xb1; 0.02&#x208b; &#x2080;.&#x2080;&#x2080;&#x2087;&#x207a;&#x2070;.&#x2070;&#xb9;&#x2078; W/m&#xb2; (with uncertainty and bias) for tropospheric ozone with significant variability (&#x3c3; = 0.23W/m&#xb2;) under all sky conditions for August 2006. For clear sky, tropical conditions we examine the effect of water vapor in reducing the LWRE from tropospheric ozone.</gco:CharacterString>
+            <gco:CharacterString>We calculate the sensitivity of outgoing longwave radiation (OLR) to the global vertical distribution of tropospheric ozone using ozone profile estimates from Aura Tropospheric Emission Spectrometer (Aura-TES) along with the partial derivatives of spectral radiance with respect to ozone from the Aura-TES operational retrieval algorithm. Accounting for anisotropy, we calculate top of atmosphere instantaneous radiative kernels (IRKs), in W/m²/ppb, for infrared ozone absorption from 985 to 1080 cm⁻¹. Zonal mean distributions for August 2006 show significant variations in the IRK between clear and cloudy sky, ocean and land, and day and night over land. For all sky (clear and cloudy conditions), OLR is significantly less sensitive to ozone in the middle and lower troposphere due to clouds, especially in the tropics. We also compute the longwave radiative effect (LWRE), i.e., the reduction in OLR due to absorption by tropospheric ozone, and find a global average LWRE of 0.33 ± 0.02₋ ₀.₀₀₇⁺⁰.⁰¹⁸ W/m² (with uncertainty and bias) for tropospheric ozone with significant variability (σ = 0.23W/m²) under all sky conditions for August 2006. For clear sky, tropical conditions we examine the effect of water vapor in reducing the LWRE from tropospheric ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

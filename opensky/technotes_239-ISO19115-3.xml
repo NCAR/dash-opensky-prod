@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:239</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:56.098686</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:32:51.463704</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>On 27 July 1976, a relatively small, weak storm was investigated by the NCAR/NOAA instrumented sailplane in coordination with NCAR Queen Air 306D. The potential instability was weak on this day, and the investigated storm probably was initiated from the observed surface convergence which resulted from outflow of an older storm to the northwest and/or surface topography. The sailplane made an extended penetration from 1635 to 1715 covering &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;3400 m in altitude with weak updrafts initially, growing to moderately strong updrafts and then finally weak downdrafts. Ice particle concentration and size both increased throughout the penetration to about 100 l &#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; and 2-4 mm graupel. The Queen Air measured fairly weak updrafts at cloud base and mixed thermodynamic conditions. Later subcloud passes (&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd;1700) revealed decaying conditions, weak downdrafts and lower &amp;#x0398 e values. The storm had the characteristic life cycle of a simple rainshower.</gco:CharacterString>
+            <gco:CharacterString>On 27 July 1976, a relatively small, weak storm was investigated by the NCAR/NOAA instrumented sailplane in coordination with NCAR Queen Air 306D. The potential instability was weak on this day, and the investigated storm probably was initiated from the observed surface convergence which resulted from outflow of an older storm to the northwest and/or surface topography. The sailplane made an extended penetration from 1635 to 1715 covering ï¿½ï¿½ï¿½3400 m in altitude with weak updrafts initially, growing to moderately strong updrafts and then finally weak downdrafts. Ice particle concentration and size both increased throughout the penetration to about 100 l ï¿½ï¿½ï¿½ï¿½ï¿½ and 2-4 mm graupel. The Queen Air measured fairly weak updrafts at cloud base and mixed thermodynamic conditions. Later subcloud passes (ï¿½ï¿½ï¿½1700) revealed decaying conditions, weak downdrafts and lower &amp;#x0398 e values. The storm had the characteristic life cycle of a simple rainshower.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

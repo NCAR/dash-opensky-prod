@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14477</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:04.283157</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:21:48.160367</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Changing emissions can alter the surface O&#x2083; seasonal cycle, as detected from northeastern U.S. (NE) observations during recent decades. Under continued regional precursor emission controls (&gt;80% decreases in NE NOx by 2100), the NE surface O&#x2083; seasonal cycle reverses (to a winter maximum) in 21st century transient chemistry-climate simulations. Over polluted regions, regional NOx largely controls the shape of surface O&#x2083; seasonal cycles. In the absence of regional NOx controls, climate warming contributes to a higher surface O&#x2083; summertime peak over the NE. A doubling of the global CH&#x2084; abundance by 2100 partially offsets summertime surface O&#x2083; decreases attained via NOx reductions and contributes to raising surface O&#x2083; during December-March when the O&#x2083; lifetime is longer. The similarity between surface O&#x2083; seasonal cycles over the NE and the Intermountain West by 2100 indicates a NE transition to a region representative of baseline surface O&#x2083; conditions.</gco:CharacterString>
+            <gco:CharacterString>Changing emissions can alter the surface O₃ seasonal cycle, as detected from northeastern U.S. (NE) observations during recent decades. Under continued regional precursor emission controls (&gt;80% decreases in NE NOx by 2100), the NE surface O₃ seasonal cycle reverses (to a winter maximum) in 21st century transient chemistry-climate simulations. Over polluted regions, regional NOx largely controls the shape of surface O₃ seasonal cycles. In the absence of regional NOx controls, climate warming contributes to a higher surface O₃ summertime peak over the NE. A doubling of the global CH₄ abundance by 2100 partially offsets summertime surface O₃ decreases attained via NOx reductions and contributes to raising surface O₃ during December-March when the O₃ lifetime is longer. The similarity between surface O₃ seasonal cycles over the NE and the Intermountain West by 2100 indicates a NE transition to a region representative of baseline surface O₃ conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16651</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:00:20.917954</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:09:00.779787</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Simple Ocean Data Assimilation, version 2.2.4 (SODA 2.2.4), analysis for the period of 1960-2010 is used to study the variability of Pacific subtropical cells (STCs) and its causal relation with tropical climate variability. Results show that the interior STC transport into the equatorial basin through 9&#xb0;S and 9&#xb0;N is well connected with equatorial sea surface temperature (SST) (9&#xb0;S-9&#xb0;N, 180&#xb0;-90&#xb0;W). The highest correlation at interannual time scales is contributed by the western interior STC transport within 160&#xb0;E and 130&#xb0;W. It is known that the ENSO recharge-discharge cycle experiences five stages: the recharging stage, recharged stage, warmest SST stage, discharging stage, and discharged stage. A correlation analysis of interior STC transport convergence, equatorial warm water volume (WWV), wind stress curl, and SST identifies the time intervals between the five stages, which are 8, 10, 2, and 8 months, respectively. A composite analysis for El Ni&#xf1;o-developing and La Ni&#xf1;a-developing events is also performed. The composited ENSO evolutions are in accordance with the recharge&#x2013;discharge theory and the corresponding time lags between the above denoted five stages are 4-12, 6, 2, and 4 months, respectively. For stronger El Ni&#xf1;o events, the discharge due to interior STC transport at 9&#xb0;N terminates earlier than that at 9&#xb0;S because of the southward migration of westerly winds following the El Ni&#xf1;o peak phase. This study clarifies subsurface transport processes and their time intervals, which are useful for refinement of theoretical models and for evaluating coupled ocean&#x2013;atmosphere general circulation model results.</gco:CharacterString>
+            <gco:CharacterString>The Simple Ocean Data Assimilation, version 2.2.4 (SODA 2.2.4), analysis for the period of 1960-2010 is used to study the variability of Pacific subtropical cells (STCs) and its causal relation with tropical climate variability. Results show that the interior STC transport into the equatorial basin through 9°S and 9°N is well connected with equatorial sea surface temperature (SST) (9°S-9°N, 180°-90°W). The highest correlation at interannual time scales is contributed by the western interior STC transport within 160°E and 130°W. It is known that the ENSO recharge-discharge cycle experiences five stages: the recharging stage, recharged stage, warmest SST stage, discharging stage, and discharged stage. A correlation analysis of interior STC transport convergence, equatorial warm water volume (WWV), wind stress curl, and SST identifies the time intervals between the five stages, which are 8, 10, 2, and 8 months, respectively. A composite analysis for El Niño-developing and La Niña-developing events is also performed. The composited ENSO evolutions are in accordance with the recharge–discharge theory and the corresponding time lags between the above denoted five stages are 4-12, 6, 2, and 4 months, respectively. For stronger El Niño events, the discharge due to interior STC transport at 9°N terminates earlier than that at 9°S because of the southward migration of westerly winds following the El Niño peak phase. This study clarifies subsurface transport processes and their time intervals, which are useful for refinement of theoretical models and for evaluating coupled ocean–atmosphere general circulation model results.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

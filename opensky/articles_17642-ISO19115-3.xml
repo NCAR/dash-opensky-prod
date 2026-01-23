@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17642</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:29.360846</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:04:38.004364</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this paper we report the detection of a large-scale gravity wave propagating over an extremely large horizontal distance in the thermosphere on 28 July 2006. Specifically, after being launched at the northern auroral region on the dayside, this wave propagated equatorward with phase speeds on the order of &#x223c;720 m/s and finally almost traveled around the Earth once horizontally in the thermosphere prior to dissipation. The time taken to dissipate is about 15.5 h. It is the farthest-traveling large-scale gravity wave currently tracked by satellite measurements, made possible by a sudden injection of energy in an unusually clean propagation environment. This experiment of opportunity serves as an important step in furthering our theoretical understanding of gravity wave propagation and dissipation in the thermosphere.</gco:CharacterString>
+            <gco:CharacterString>In this paper we report the detection of a large-scale gravity wave propagating over an extremely large horizontal distance in the thermosphere on 28 July 2006. Specifically, after being launched at the northern auroral region on the dayside, this wave propagated equatorward with phase speeds on the order of ∼720 m/s and finally almost traveled around the Earth once horizontally in the thermosphere prior to dissipation. The time taken to dissipate is about 15.5 h. It is the farthest-traveling large-scale gravity wave currently tracked by satellite measurements, made possible by a sudden injection of energy in an unusually clean propagation environment. This experiment of opportunity serves as an important step in furthering our theoretical understanding of gravity wave propagation and dissipation in the thermosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

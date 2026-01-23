@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:521</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:04.824983</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:28:24.421615</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lazrus, Heather</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1970-6228"
+                                    xlink:title="Lazrus, Heather"
+                                    xlink:actuate="onRequest">Lazrus, Heather</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Since 2000, the National Oceanic and Atmospheric Administration has identified eight droughts nationwide as billion-dollar weather disasters based on both damages and costs, such as from crop loss. The most recent widespread drought during 2011, which affected much of Oklahoma, resulted in estimated damages and costs of over $10 billion. Drought can result in crop, pasture, and forest damage; increased livestock and wildlife mortality; increased fire hazard; threats to aquatic and wildlife habitats; increased water demand; and reduced water supplies. Nestled in south-central Oklahoma, the karst Arbuckle-Simpson aquifer underlies more than 500 square miles and is the sole-source of the area's 140 springs. The aquifer sustains flow in headwater streams, including the Blue River &#x2013; the only free-flowing river in Oklahoma. The springs, streams, and aquifer are the principal source of drinking water for 150,000 people in Ada, Sulphur, Tishomingo, and the surrounding rural areas. Drought is part of the region's history, and the variability in this climate feature challenges city utility managers, Chickasaw spiritualists, ranchers, the National Park Service, rural water district managers, and others who rely on the Arbuckle-Simpson water. This report, serving as a component of grant NOAA-OAR-CPO-2011-2002561 awarded to the National Center for Atmospheric Research (NCAR), outlines the climatological history of the Arbuckle-Simpson region. It provides context for the ethnographic research led by Dr. Heather Lazrus, NCAR principal investigator.</gco:CharacterString>
+            <gco:CharacterString>Since 2000, the National Oceanic and Atmospheric Administration has identified eight droughts nationwide as billion-dollar weather disasters based on both damages and costs, such as from crop loss. The most recent widespread drought during 2011, which affected much of Oklahoma, resulted in estimated damages and costs of over $10 billion. Drought can result in crop, pasture, and forest damage; increased livestock and wildlife mortality; increased fire hazard; threats to aquatic and wildlife habitats; increased water demand; and reduced water supplies. Nestled in south-central Oklahoma, the karst Arbuckle-Simpson aquifer underlies more than 500 square miles and is the sole-source of the area's 140 springs. The aquifer sustains flow in headwater streams, including the Blue River – the only free-flowing river in Oklahoma. The springs, streams, and aquifer are the principal source of drinking water for 150,000 people in Ada, Sulphur, Tishomingo, and the surrounding rural areas. Drought is part of the region's history, and the variability in this climate feature challenges city utility managers, Chickasaw spiritualists, ranchers, the National Park Service, rural water district managers, and others who rely on the Arbuckle-Simpson water. This report, serving as a component of grant NOAA-OAR-CPO-2011-2002561 awarded to the National Center for Atmospheric Research (NCAR), outlines the climatological history of the Arbuckle-Simpson region. It provides context for the ethnographic research led by Dr. Heather Lazrus, NCAR principal investigator.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22901</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:25:21.586506</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:24:56.781390</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morrison, Hugh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8480-9787"
+                                    xlink:title="Morrison, Hugh"
+                                    xlink:actuate="onRequest">Morrison, Hugh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Many flavors of multicategory, multimoment bulk microphysics schemes (BMPs) have various treatments of rimed ice. In this study, we compare three two-moment schemes available in the WRF Model&#x2014;Milbrandt&#x2013;Yau (MY2), National Severe Storms Laboratory (NSSL), and the two-category configuration of the Predicted Particle Properties (P3) scheme&#x2014;focusing on differences in rimed-ice representation and their impacts on surface rain and ice. Idealized supercell simulations are performed. A polarimetric radar data simulator is used to evaluate their ability to reproduce the ZDR arc and hail signature in the forward-flank downdraft, well-known supercell polarimetric signatures that are potentially sensitive to rimed-ice parameterization. Both the MY2 and NSSL schemes simulate enhanced surface ZDR bands, but neither scheme simulates a ZDR arc commonly identified in observation-based studies. Surface ZDR in the default P3 scheme is homogeneous in the supercell's forward flank, and is due to the scheme's restrictive minimum rain particle size distribution (PSD) slope bound preventing the presence of larger drops creating a ZDR arc. The NSSL scheme simulates the location of the hail signature in the forward-flank downdraft more consistent with observations than the other two schemes. Large hail in MY2 sediments well downstream of the updraft (atypically compared to observations) near the surface. The sedimentation of large ice in the default P3 scheme is limited by a restrictive maximum ice number-weighted mean diameter limit within the scheme, precluding the scheme's ability to reduce ZDR (and &#x3c1;HV compared to the MY2 and NSSL schemes) near the surface.</gco:CharacterString>
+            <gco:CharacterString>Many flavors of multicategory, multimoment bulk microphysics schemes (BMPs) have various treatments of rimed ice. In this study, we compare three two-moment schemes available in the WRF Model—Milbrandt–Yau (MY2), National Severe Storms Laboratory (NSSL), and the two-category configuration of the Predicted Particle Properties (P3) scheme—focusing on differences in rimed-ice representation and their impacts on surface rain and ice. Idealized supercell simulations are performed. A polarimetric radar data simulator is used to evaluate their ability to reproduce the ZDR arc and hail signature in the forward-flank downdraft, well-known supercell polarimetric signatures that are potentially sensitive to rimed-ice parameterization. Both the MY2 and NSSL schemes simulate enhanced surface ZDR bands, but neither scheme simulates a ZDR arc commonly identified in observation-based studies. Surface ZDR in the default P3 scheme is homogeneous in the supercell's forward flank, and is due to the scheme's restrictive minimum rain particle size distribution (PSD) slope bound preventing the presence of larger drops creating a ZDR arc. The NSSL scheme simulates the location of the hail signature in the forward-flank downdraft more consistent with observations than the other two schemes. Large hail in MY2 sediments well downstream of the updraft (atypically compared to observations) near the surface. The sedimentation of large ice in the default P3 scheme is limited by a restrictive maximum ice number-weighted mean diameter limit within the scheme, precluding the scheme's ability to reduce ZDR (and ρHV compared to the MY2 and NSSL schemes) near the surface.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

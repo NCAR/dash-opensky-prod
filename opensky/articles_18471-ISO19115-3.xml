@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18471</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:10.168699</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:53:07.840955</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grubi&#x161;i&#x107;, Vanda</gco:CharacterString>
+                        <gco:CharacterString>Grubišić, Vanda</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The coupling between mountain waves in the free atmosphere and rotors in the boundary layer is investigated using a two-dimensional numerical model and linear wave theory. Uniformly stratified flow past a single mountain is examined. Depending on background stratification and mountain width, different wave regimes are simulated, from weakly to strongly nonlinear and from hydrostatic to non-hydrostatic. Acting in conjunction with surface friction, mountain waves cause the boundary layer to separate from the ground, causing the development of atmospheric rotors in the majority of the simulated flows. The rotors with largest vertical extent and strongest reverse flow near the ground are found to develop when the wave field is nonlinear and moderately non-hydrostatic, in line with linear theory predictions showing that the largest wave amplitudes develop in such conditions. In contrast, in near-hydrostatic flows boundary-layer rotors form even if the wave amplitude predicted by linear theory is relatively small. In such cases, rotors appear to be decoupled from the wave field aloft by low-level wave breaking. In fact, rotor formation is caused by short-wavelength modes propagating horizontally along an elevated and stably stratified jet below the neutrally stratified wave-breaking region. Once formed, atmospheric rotors trigger non-hydrostatic wave modes that can penetrate through the finite-depth neutral layer above the jet and propagate into the free atmosphere. In all simulated cases, non-hydrostatic effects&#x2014;i.e. sharp vertical accelerations&#x2014;appear to be essential for rotor formation, regardless of the degree of hydrostaticity in the primary wave field.</gco:CharacterString>
+            <gco:CharacterString>The coupling between mountain waves in the free atmosphere and rotors in the boundary layer is investigated using a two-dimensional numerical model and linear wave theory. Uniformly stratified flow past a single mountain is examined. Depending on background stratification and mountain width, different wave regimes are simulated, from weakly to strongly nonlinear and from hydrostatic to non-hydrostatic. Acting in conjunction with surface friction, mountain waves cause the boundary layer to separate from the ground, causing the development of atmospheric rotors in the majority of the simulated flows. The rotors with largest vertical extent and strongest reverse flow near the ground are found to develop when the wave field is nonlinear and moderately non-hydrostatic, in line with linear theory predictions showing that the largest wave amplitudes develop in such conditions. In contrast, in near-hydrostatic flows boundary-layer rotors form even if the wave amplitude predicted by linear theory is relatively small. In such cases, rotors appear to be decoupled from the wave field aloft by low-level wave breaking. In fact, rotor formation is caused by short-wavelength modes propagating horizontally along an elevated and stably stratified jet below the neutrally stratified wave-breaking region. Once formed, atmospheric rotors trigger non-hydrostatic wave modes that can penetrate through the finite-depth neutral layer above the jet and propagate into the free atmosphere. In all simulated cases, non-hydrostatic effects—i.e. sharp vertical accelerations—appear to be essential for rotor formation, regardless of the degree of hydrostaticity in the primary wave field.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

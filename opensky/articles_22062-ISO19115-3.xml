@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22062</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:34:25.530309</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:47:45.367311</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We use a global model, TOMCAT, and an inverse model, INVICAT, to estimate emissions of ethane (C2H6) between 2008 and 2014 by assimilating surface flask observations. We find that baseline global emissions in 2008 need to increase by a factor of 2.04-2.11 in order for the model to capture C2H6 observations, indicating large biases in current emission inventories. Most of this increase occurs over North America and Eurasia, with temperate North American emissions accounting for 23-26% of the total global emission increase and temperate Eurasian emissions accounting for 35-37%. Further to this, recent peer-reviewed analysis of long-term observational records shows an increase in C2H6 in the Northern Hemisphere since ~2009. Our results indicate that annual global emissions of C2H6 have increased at a rate of 0.27 &#xb1; 0.54-0.33 &#xb1; 0.44 Tg/yr2 between 2008 and 2014. A statistically significant positive trend of 0.20 &#xb1; 0.11-0.24 &#xb1; 0.13 Tg/yr2 (p &#x2264; 0.01) is found in temperate North America, resulting in emissions that are 31-32% larger in 2014 than in 2008. Our results corroborate previous studies' conclusions that a rapid increase in oil and natural gas production in United States over this time period is likely a large driver of the change in emissions.</gco:CharacterString>
+            <gco:CharacterString>We use a global model, TOMCAT, and an inverse model, INVICAT, to estimate emissions of ethane (C2H6) between 2008 and 2014 by assimilating surface flask observations. We find that baseline global emissions in 2008 need to increase by a factor of 2.04-2.11 in order for the model to capture C2H6 observations, indicating large biases in current emission inventories. Most of this increase occurs over North America and Eurasia, with temperate North American emissions accounting for 23-26% of the total global emission increase and temperate Eurasian emissions accounting for 35-37%. Further to this, recent peer-reviewed analysis of long-term observational records shows an increase in C2H6 in the Northern Hemisphere since ~2009. Our results indicate that annual global emissions of C2H6 have increased at a rate of 0.27 ± 0.54-0.33 ± 0.44 Tg/yr2 between 2008 and 2014. A statistically significant positive trend of 0.20 ± 0.11-0.24 ± 0.13 Tg/yr2 (p ≤ 0.01) is found in temperate North America, resulting in emissions that are 31-32% larger in 2014 than in 2008. Our results corroborate previous studies' conclusions that a rapid increase in oil and natural gas production in United States over this time period is likely a large driver of the change in emissions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

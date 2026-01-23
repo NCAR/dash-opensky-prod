@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22760</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:25:57.631260</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:26:33.752120</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Feng, Jin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4454-5785"
+                                    xlink:title="Feng, Jin"
+                                    xlink:actuate="onRequest">Feng, Jin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hu, Aixue</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1337-287X"
+                                    xlink:title="Hu, Aixue"
+                                    xlink:actuate="onRequest">Hu, Aixue</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Rossby waves can cross the equator and connect the Northern Hemisphere (NH) and Southern Hemisphere (SH), or be blocked in the vicinity of the equator. This work explores the windows and barriers for the cross-equatorial waves (CEWs) by the wave ray ensemble method. The eastern Pacific and Atlantic regions are identified as common windows in both boreal winter and summer, while the Africa&#x2013;Indian Ocean section exists as a window only in boreal summer. The western&#x2013;central Pacific is found to be a barrier section. These results are consistent with correlation analysis of reanalysis data. Moreover, the dependence on the wavenumber of CEWs is investigated, revealing that they are restricted to long waves with zonal wavenumbers less than 6 and that their wavenumber vectors exhibit a northwest-southeast (southwest-northeast) tilt when they cross the equator from the NH to SH (from the SH to NH). This long-wave dominance of CEWs results from the spectral-selective filtering mechanism, which suggests that long waves have narrower equatorial barriers than short waves. Finally, the main wave duct associated with each window is obtained by the global passing CEW density distribution. The results indicate that the main CEW ducts roughly follow a great circle-like pathway, except for the Africa&#x2013;Indian Ocean window in boreal summer, which may be modulated by the cross-equatorial monsoonal flow.</gco:CharacterString>
+            <gco:CharacterString>Rossby waves can cross the equator and connect the Northern Hemisphere (NH) and Southern Hemisphere (SH), or be blocked in the vicinity of the equator. This work explores the windows and barriers for the cross-equatorial waves (CEWs) by the wave ray ensemble method. The eastern Pacific and Atlantic regions are identified as common windows in both boreal winter and summer, while the Africa–Indian Ocean section exists as a window only in boreal summer. The western–central Pacific is found to be a barrier section. These results are consistent with correlation analysis of reanalysis data. Moreover, the dependence on the wavenumber of CEWs is investigated, revealing that they are restricted to long waves with zonal wavenumbers less than 6 and that their wavenumber vectors exhibit a northwest-southeast (southwest-northeast) tilt when they cross the equator from the NH to SH (from the SH to NH). This long-wave dominance of CEWs results from the spectral-selective filtering mechanism, which suggests that long waves have narrower equatorial barriers than short waves. Finally, the main wave duct associated with each window is obtained by the global passing CEW density distribution. The results indicate that the main CEW ducts roughly follow a great circle-like pathway, except for the Africa–Indian Ocean window in boreal summer, which may be modulated by the cross-equatorial monsoonal flow.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26582</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:15:27.150626</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:26:15.487453</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Haupt, Sue Ellen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1142-7184"
+                                    xlink:title="Haupt, Sue Ellen"
+                                    xlink:actuate="onRequest">Haupt, Sue Ellen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1746-0746"
+                                    xlink:title="Kosović, Branko"
+                                    xlink:actuate="onRequest">Kosović, Branko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +192,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brummet, Thomas</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5365-273X"
+                                    xlink:title="Brummet, Thomas"
+                                    xlink:actuate="onRequest">Brummet, Thomas</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +214,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>DeCastro, Amy L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7496-6516"
+                                    xlink:title="DeCastro, Amy L."
+                                    xlink:actuate="onRequest">DeCastro, Amy L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +246,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gagne, David John</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0469-2740"
+                                    xlink:title="Gagne, David John"
+                                    xlink:actuate="onRequest">Gagne, David John</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hawbecker, Patrick</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2641-6464"
+                                    xlink:title="Hawbecker, Patrick"
+                                    xlink:actuate="onRequest">Hawbecker, Patrick</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +280,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Juliano, Timothy W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0417-0886"
+                                    xlink:title="Juliano, Timothy W."
+                                    xlink:actuate="onRequest">Juliano, Timothy W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +362,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Mesoscale to Microscale Coupling team, part of the U.S. Department of Energy Atmosphere to Electrons (A2e) initiative, has studied various important challenges related to coupling mesoscale models to microscale models for the use case of wind energy development and operation. Several coupling methods and techniques for generating turbulence at the microscale that is subgrid to the mesoscale have been evaluated for a variety of cases. Case studies included flat-terrain, complex-terrain, and offshore environments. Methods were developed to bridge the terra incognita, which scales from about 100&#x2009;m through the depth of the boundary layer. The team used wind-relevant metrics and archived code, case information, and assessment tools and is making those widely available. Lessons learned and discerned best practices are described in the context of the cases studied for the purpose of enabling further deployment of wind energy.</gco:CharacterString>
+            <gco:CharacterString>The Mesoscale to Microscale Coupling team, part of the U.S. Department of Energy Atmosphere to Electrons (A2e) initiative, has studied various important challenges related to coupling mesoscale models to microscale models for the use case of wind energy development and operation. Several coupling methods and techniques for generating turbulence at the microscale that is subgrid to the mesoscale have been evaluated for a variety of cases. Case studies included flat-terrain, complex-terrain, and offshore environments. Methods were developed to bridge the terra incognita, which scales from about 100 m through the depth of the boundary layer. The team used wind-relevant metrics and archived code, case information, and assessment tools and is making those widely available. Lessons learned and discerned best practices are described in the context of the cases studied for the purpose of enabling further deployment of wind energy.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

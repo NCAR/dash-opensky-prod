@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21994</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:36:54.569412</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:53:39.726671</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bailey, Adriana</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2614-1560"
+                                    xlink:title="Bailey, Adriana"
+                                    xlink:actuate="onRequest">Bailey, Adriana</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>General circulation models (GCMs) predict that the global hydrological cycle will change in response to anthropogenic warming. However, these predictions remain uncertain, in particular, for precipitation (Intergovernmental Panel on Climate Change, 2013, https://doi.org/10.1017/CBO9781107415324.004). Held and Soden (2006, https://doi.org/10.1175/JCLI3990.1) suggest that as lower tropospheric water vapor concentration increases in a warming climate, the atmospheric circulation and convective mass fluxes will weaken. Unfortunately, this process is difficult to constrain, as convective mass fluxes are poorly observed and incompletely simulated in GCMs. Here we demonstrate that stable hydrogen isotope ratios in tropical atmospheric water vapor can trace changes in temperature, atmospheric circulation, and convective mass flux in a warming world. We evaluate changes in temperature, the distribution of water vapor, vertical velocity (&#x3c9;), advection, and water isotopes in vapor (&#x3b4;DV). Using water isotope-enabled GCM experiments for modern versus high-CO2 atmospheres, we identify spatial patterns of circulation change over the tropical Pacific. We find that slowing circulation in the tropical Pacific moistens the lower troposphere and weakens convective mass flux, both of which impact the &#x3b4;D of water vapor in the midtroposphere. Our findings constitute a critical demonstration of how water isotope ratios in the tropical Pacific respond to changes in radiative forcing and atmospheric warming. Moreover, as changes in &#x3b4;DV can be observed by satellites, our results develop new metrics for the detection of global warming impacts to the hydrological cycle and, specifically, the strength of the Walker circulation.</gco:CharacterString>
+            <gco:CharacterString>General circulation models (GCMs) predict that the global hydrological cycle will change in response to anthropogenic warming. However, these predictions remain uncertain, in particular, for precipitation (Intergovernmental Panel on Climate Change, 2013, https://doi.org/10.1017/CBO9781107415324.004). Held and Soden (2006, https://doi.org/10.1175/JCLI3990.1) suggest that as lower tropospheric water vapor concentration increases in a warming climate, the atmospheric circulation and convective mass fluxes will weaken. Unfortunately, this process is difficult to constrain, as convective mass fluxes are poorly observed and incompletely simulated in GCMs. Here we demonstrate that stable hydrogen isotope ratios in tropical atmospheric water vapor can trace changes in temperature, atmospheric circulation, and convective mass flux in a warming world. We evaluate changes in temperature, the distribution of water vapor, vertical velocity (ω), advection, and water isotopes in vapor (δDV). Using water isotope-enabled GCM experiments for modern versus high-CO2 atmospheres, we identify spatial patterns of circulation change over the tropical Pacific. We find that slowing circulation in the tropical Pacific moistens the lower troposphere and weakens convective mass flux, both of which impact the δD of water vapor in the midtroposphere. Our findings constitute a critical demonstration of how water isotope ratios in the tropical Pacific respond to changes in radiative forcing and atmospheric warming. Moreover, as changes in δDV can be observed by satellites, our results develop new metrics for the detection of global warming impacts to the hydrological cycle and, specifically, the strength of the Walker circulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

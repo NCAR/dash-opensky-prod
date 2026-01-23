@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15283</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:31:05.643204</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:05:47.516809</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Early Eocene arctic climate sensitivity to pCO&#x2082; and basin geography</gco:CharacterString>
+                  <gco:CharacterString>Early Eocene arctic climate sensitivity to pCO₂ and basin geography</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present results from new early Eocene (&#x223c;55-45 Ma) climate modeling experiments with the NCAR Community Climate System Model. These experiments test the sensitivity of climate to a large increase in atmospheric greenhouse gases, such as may have occurred at the Paleocene-Eocene (P-E) boundary (&#x223c;55.5 Ma), and also allow us to explore the role of Arctic basin configuration on climate. Experiments were run with pCO&#x2082; at 560 and 2240 ppm, and a third experiment, at 2240 ppm, incorporates a passage to a neighboring ocean to explore the potential effect of the ocean on Arctic warming, were the Arctic not isolated. Quadrupling pCO&#x2082; warms the Arctic by &#x223c;8&#xb0;C in the annual average, doubles atmospheric moisture content in this region and eliminates Arctic sea ice, consistent with proxy estimates of warming at the P-E boundary. Opening the Arctic Ocean warms mean annual sea surface temperature by an additional &#x223c;4&#xb0;C.</gco:CharacterString>
+            <gco:CharacterString>We present results from new early Eocene (∼55-45 Ma) climate modeling experiments with the NCAR Community Climate System Model. These experiments test the sensitivity of climate to a large increase in atmospheric greenhouse gases, such as may have occurred at the Paleocene-Eocene (P-E) boundary (∼55.5 Ma), and also allow us to explore the role of Arctic basin configuration on climate. Experiments were run with pCO₂ at 560 and 2240 ppm, and a third experiment, at 2240 ppm, incorporates a passage to a neighboring ocean to explore the potential effect of the ocean on Arctic warming, were the Arctic not isolated. Quadrupling pCO₂ warms the Arctic by ∼8°C in the annual average, doubles atmospheric moisture content in this region and eliminates Arctic sea ice, consistent with proxy estimates of warming at the P-E boundary. Opening the Arctic Ocean warms mean annual sea surface temperature by an additional ∼4°C.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

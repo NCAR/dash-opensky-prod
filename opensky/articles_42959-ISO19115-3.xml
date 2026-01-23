@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42959</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:32.441129</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:45.458749</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ayarzag&#xfc;ena, B.</gco:CharacterString>
+                        <gco:CharacterString>Ayarzagüena, B.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +228,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>de la C&#xe1;mara, A.</gco:CharacterString>
+                        <gco:CharacterString>de la Cámara, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +268,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a-Serrano, J.</gco:CharacterString>
+                        <gco:CharacterString>García-Serrano, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -367,7 +368,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +450,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;Two-way coupling between the stratosphere and troposphere is recognized as an important source of subseasonal-to-seasonal (S2S) predictability and can open windows of opportunity for improved forecasts. Model biases can, however, lead to a poor representation of such coupling processes; drifts in a model's circulation related to model biases, resolution, and parameterizations have the potential to feed back on the circulation and affect stratosphere&#x2013;troposphere coupling. We introduce a set of diagnostics using readily available data that can be used to reveal these biases and then apply these diagnostics to 22 S2S forecast systems.&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the Northern Hemisphere, nearly all S2S forecast systems underestimate the strength of the observed upward coupling from the troposphere to the stratosphere, downward coupling within the stratosphere, and the persistence of lower-stratospheric temperature anomalies. While downward coupling from the lower stratosphere to the near surface is well represented in the multi-model ensemble mean, there is substantial intermodel spread likely related to how well each model represents tropospheric stationary waves.&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the Southern Hemisphere, the stratospheric vortex is oversensitive to upward-propagating wave flux in the forecast systems. Forecast systems generally overestimate the strength of downward coupling from the lower stratosphere to the troposphere, even as most underestimate the radiative persistence in the lower stratosphere. In both hemispheres, models with higher lids and a better representation of tropospheric quasi-stationary waves generally perform better at simulating these coupling processes.&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;Two-way coupling between the stratosphere and troposphere is recognized as an important source of subseasonal-to-seasonal (S2S) predictability and can open windows of opportunity for improved forecasts. Model biases can, however, lead to a poor representation of such coupling processes; drifts in a model's circulation related to model biases, resolution, and parameterizations have the potential to feed back on the circulation and affect stratosphere–troposphere coupling. We introduce a set of diagnostics using readily available data that can be used to reveal these biases and then apply these diagnostics to 22 S2S forecast systems.&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the Northern Hemisphere, nearly all S2S forecast systems underestimate the strength of the observed upward coupling from the troposphere to the stratosphere, downward coupling within the stratosphere, and the persistence of lower-stratospheric temperature anomalies. While downward coupling from the lower stratosphere to the near surface is well represented in the multi-model ensemble mean, there is substantial intermodel spread likely related to how well each model represents tropospheric stationary waves.&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the Southern Hemisphere, the stratospheric vortex is oversensitive to upward-propagating wave flux in the forecast systems. Forecast systems generally overestimate the strength of downward coupling from the lower stratosphere to the troposphere, even as most underestimate the radiative persistence in the lower stratosphere. In both hemispheres, models with higher lids and a better representation of tropospheric quasi-stationary waves generally perform better at simulating these coupling processes.&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

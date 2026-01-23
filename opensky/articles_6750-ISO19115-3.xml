@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6750</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:41.278795</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:26.666089</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +320,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A set of coupled ocean-atmosphere(-vegetation) simulations using state of the art climate models is now available for the Last Glacial Maximum (LGM) and the Mid-Holocene (MH) through the second phase of the Paleoclimate Modeling Intercomparison Project (PMIP2). Here we quantify the latitudinal shift of the location of the Intertropical Convergence Zone (ITCZ) in the tropical regions during boreal summer and the change in precipitation in the northern part of the ITCZ. For both periods the shift is more pronounced over the continents and East Asia. The maritime continent is the region where the largest spread is found between models. We also clearly establish that the larger the increase in the meridional temperature gradient in the tropical Atlantic during summer at the MH, the larger the change in precipitation over West Africa. The vegetation feedback is however not as large as found in previous studies, probably due to model differences in the control simulation. Finally, we show that the feedback from snow and sea-ice at mid and high latitudes contributes for half of the cooling in the Northern Hemisphere for the LGM, with the remaining being achieved by the reduced CO&#x2082; and water vapour in the atmosphere. For the MH the snow and albedo feedbacks strengthen the spring cooling and enhance the boreal summer warming, whereas water vapour reinforces the late summer warming. These feedbacks are modest in the Southern Hemisphere. For the LGM most of the surface cooling is due to CO&#x2082; and water vapour.</gco:CharacterString>
+            <gco:CharacterString>A set of coupled ocean-atmosphere(-vegetation) simulations using state of the art climate models is now available for the Last Glacial Maximum (LGM) and the Mid-Holocene (MH) through the second phase of the Paleoclimate Modeling Intercomparison Project (PMIP2). Here we quantify the latitudinal shift of the location of the Intertropical Convergence Zone (ITCZ) in the tropical regions during boreal summer and the change in precipitation in the northern part of the ITCZ. For both periods the shift is more pronounced over the continents and East Asia. The maritime continent is the region where the largest spread is found between models. We also clearly establish that the larger the increase in the meridional temperature gradient in the tropical Atlantic during summer at the MH, the larger the change in precipitation over West Africa. The vegetation feedback is however not as large as found in previous studies, probably due to model differences in the control simulation. Finally, we show that the feedback from snow and sea-ice at mid and high latitudes contributes for half of the cooling in the Northern Hemisphere for the LGM, with the remaining being achieved by the reduced CO₂ and water vapour in the atmosphere. For the MH the snow and albedo feedbacks strengthen the spring cooling and enhance the boreal summer warming, whereas water vapour reinforces the late summer warming. These feedbacks are modest in the Southern Hemisphere. For the LGM most of the surface cooling is due to CO₂ and water vapour.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

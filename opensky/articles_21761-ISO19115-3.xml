@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21761</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:36:42.528492</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:53:18.163363</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trenberth, Kevin E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1445-1000"
+                                    xlink:title="Trenberth, Kevin E."
+                                    xlink:actuate="onRequest">Trenberth, Kevin E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>As observations and atmospheric reanalyses have improved, the diagnostics that can be computed with confidence also increase. Accordingly, a new formulation of the energetics of the atmosphere is laid out, with a view to advancing diagnostic studies of Earth's energy budget and flows. It is utilized to produce assessments of the vertically integrated divergences in both the atmosphere and ocean. Careful conservation of mass is required, with special attention given to the hydrological cycle and redistribution of mass associated with precipitation and evaporation, and a new method for ensuring this is developed. It guarantees that the atmospheric divergence is associated with moisture and precipitation, unlike previous methods. A new term, identified as associated with the enthalpy of precipitation, is included in a preliminary way. It is sensitive to the formulation, and the use of temperature in degrees Celsius instead of Kelvin greatly reduces errors and produces the extra term with values up to about &#xb1;5 W m&#x2212;2. New results for 2000 to 2016 are presented for the vertical-mean and annual-mean diabatic atmospheric heating, atmospheric moistening, and total atmospheric energy divergence. Results for the atmospheric divergence are combined with top-of-atmosphere radiation observations to deduce total surface energy fluxes. Along with estimates of changes in ocean heat content, the Atlantic Ocean meridional heat transports are recomputed for March 2000 through 2013. The new results are compared with previous estimates and an assessment is made of the effects of the new mass balance, change in temperature scale, and the extra precipitation enthalpy term.</gco:CharacterString>
+            <gco:CharacterString>As observations and atmospheric reanalyses have improved, the diagnostics that can be computed with confidence also increase. Accordingly, a new formulation of the energetics of the atmosphere is laid out, with a view to advancing diagnostic studies of Earth's energy budget and flows. It is utilized to produce assessments of the vertically integrated divergences in both the atmosphere and ocean. Careful conservation of mass is required, with special attention given to the hydrological cycle and redistribution of mass associated with precipitation and evaporation, and a new method for ensuring this is developed. It guarantees that the atmospheric divergence is associated with moisture and precipitation, unlike previous methods. A new term, identified as associated with the enthalpy of precipitation, is included in a preliminary way. It is sensitive to the formulation, and the use of temperature in degrees Celsius instead of Kelvin greatly reduces errors and produces the extra term with values up to about ±5 W m−2. New results for 2000 to 2016 are presented for the vertical-mean and annual-mean diabatic atmospheric heating, atmospheric moistening, and total atmospheric energy divergence. Results for the atmospheric divergence are combined with top-of-atmosphere radiation observations to deduce total surface energy fluxes. Along with estimates of changes in ocean heat content, the Atlantic Ocean meridional heat transports are recomputed for March 2000 through 2013. The new results are compared with previous estimates and an assessment is made of the effects of the new mass balance, change in temperature scale, and the extra precipitation enthalpy term.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

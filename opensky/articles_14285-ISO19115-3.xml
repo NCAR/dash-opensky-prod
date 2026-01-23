@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14285</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:22.437728</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:22:49.726756</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thompson, Gregory</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2519-932X"
+                                    xlink:title="Thompson, Gregory"
+                                    xlink:actuate="onRequest">Thompson, Gregory</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Eidhammer, Trude</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2281-9351"
+                                    xlink:title="Eidhammer, Trude"
+                                    xlink:actuate="onRequest">Eidhammer, Trude</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aerosols influence cloud and precipitation development in complex ways due to myriad feedbacks at a variety of scales from individual clouds through entire storm systems. This paper describes the implementation, testing, and results of a newly modified bulk microphysical parameterization with explicit cloud droplet nucleation and ice activation by aerosols. Idealized tests and a high-resolution, convection-permitting, continental-scale, 72-h simulation with five sensitivity experiments showed that increased aerosol number concentration results in more numerous cloud droplets of overall smaller size and delays precipitation development. Furthermore, the smaller droplet sizes cause the expected increased cloud albedo effect and more subtle longwave radiation effects. Although increased aerosols generally hindered the warm-rain processes, regions of mixed-phase clouds were impacted in slightly unexpected ways with more precipitation falling north of a synoptic-scale warm front. Aerosol impacts to regions of light precipitation, less than approximately 2.5 mm h&#x2212;1, were far greater than impacts to regions with higher precipitation rates. Comparisons of model forecasts with five different aerosol states versus surface precipitation measurements revealed that even a large-scale storm system with nearly a thousand observing locations did not indicate which experiment produced a more correct final forecast, indicating a need for far longer-duration simulations due to the magnitude of both model forecast error and observational uncertainty. Last, since aerosols affect cloud and precipitation phase and amount, there are resulting implications to a variety of end-user applications such as surface sensible weather and aircraft icing.</gco:CharacterString>
+            <gco:CharacterString>Aerosols influence cloud and precipitation development in complex ways due to myriad feedbacks at a variety of scales from individual clouds through entire storm systems. This paper describes the implementation, testing, and results of a newly modified bulk microphysical parameterization with explicit cloud droplet nucleation and ice activation by aerosols. Idealized tests and a high-resolution, convection-permitting, continental-scale, 72-h simulation with five sensitivity experiments showed that increased aerosol number concentration results in more numerous cloud droplets of overall smaller size and delays precipitation development. Furthermore, the smaller droplet sizes cause the expected increased cloud albedo effect and more subtle longwave radiation effects. Although increased aerosols generally hindered the warm-rain processes, regions of mixed-phase clouds were impacted in slightly unexpected ways with more precipitation falling north of a synoptic-scale warm front. Aerosol impacts to regions of light precipitation, less than approximately 2.5 mm h−1, were far greater than impacts to regions with higher precipitation rates. Comparisons of model forecasts with five different aerosol states versus surface precipitation measurements revealed that even a large-scale storm system with nearly a thousand observing locations did not indicate which experiment produced a more correct final forecast, indicating a need for far longer-duration simulations due to the magnitude of both model forecast error and observational uncertainty. Last, since aerosols affect cloud and precipitation phase and amount, there are resulting implications to a variety of end-user applications such as surface sensible weather and aircraft icing.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

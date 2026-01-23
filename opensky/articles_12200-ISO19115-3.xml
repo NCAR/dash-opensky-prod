@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12200</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:26:32.849800</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:11:59.491732</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Two identical liquid water content (LWC) King probes--one total water content/liquid water content (TWC/LWC) Nevzorov probe and two constant-temperature T probes that are different in size to distinguish particles of different densities and diameters (section 2c)--were flown during the Alliance Icing Research Study (AIRS) II field campaign in the fall of 2003. This paper assesses measurements performed during several flights in mostly stratiform clouds. The two LWC King probes tracked well; however, discrepancies of up to 0.1 g m&#x207b;&#xb3; for 1-s LWC measurements of 0.3 g m&#x207b;&#xb3; were observed. Agreement between probes of different geometry and size was generally favorable, while levels of disagreement between the probes changed during numerous cloud penetrations from less than 20% up to a factor of 2, varying with flight conditions and microphysical structure of the cloud. Disagreement between probes was even larger when detecting ice water content (IWC). Measurement differences were attributed to different collection efficiencies resulting from preferred particle size, shape, and density and local aerodynamic effects around the aircraft. Measurements from a single probe are subject to uncertainty at a single point in time beyond the noise and drift level of the instrument. This uncertainty is evaluated considering particle habit, diameter, and density, and probe geometry and size, in addition to particle impact, breakup/splash, and bounce. From a working point of view, the intercomparison of several probes is subject to real but unknown spatial differences because of different locations between air samples. Comparison of identical probes is not appropriate because each measurement in itself is unique by definition. Thus, instead of duplication of instruments, subject to these levels of agreement, the use of a single probe is a practical approach while remaining aware of its limitations and capabilities.</gco:CharacterString>
+            <gco:CharacterString>Two identical liquid water content (LWC) King probes--one total water content/liquid water content (TWC/LWC) Nevzorov probe and two constant-temperature T probes that are different in size to distinguish particles of different densities and diameters (section 2c)--were flown during the Alliance Icing Research Study (AIRS) II field campaign in the fall of 2003. This paper assesses measurements performed during several flights in mostly stratiform clouds. The two LWC King probes tracked well; however, discrepancies of up to 0.1 g m⁻³ for 1-s LWC measurements of 0.3 g m⁻³ were observed. Agreement between probes of different geometry and size was generally favorable, while levels of disagreement between the probes changed during numerous cloud penetrations from less than 20% up to a factor of 2, varying with flight conditions and microphysical structure of the cloud. Disagreement between probes was even larger when detecting ice water content (IWC). Measurement differences were attributed to different collection efficiencies resulting from preferred particle size, shape, and density and local aerodynamic effects around the aircraft. Measurements from a single probe are subject to uncertainty at a single point in time beyond the noise and drift level of the instrument. This uncertainty is evaluated considering particle habit, diameter, and density, and probe geometry and size, in addition to particle impact, breakup/splash, and bounce. From a working point of view, the intercomparison of several probes is subject to real but unknown spatial differences because of different locations between air samples. Comparison of identical probes is not appropriate because each measurement in itself is unique by definition. Thus, instead of duplication of instruments, subject to these levels of agreement, the use of a single probe is a practical approach while remaining aware of its limitations and capabilities.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

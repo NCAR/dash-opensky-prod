@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6189</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:14.978210</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:24:50.865111</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global observations of cloud and humidity distributions in the upper troposphere within all geophysical conditions are critically important in order to monitor the present climate and to provide necessary data for validation of climate models to project future climate change. Towards this end, tropical oceanic distributions of thin cirrus optical depth (T) effective diameter (De), and relative humidity with respect to ice (RHi) within cirrus (RHic) are simultaneously derived from the Atmospheric Infrared Sounder (AIRS). Corresponding increases in De and cloud temperature are shown for cirrus with T&gt;0.25 that demonstrate quantitative consistency to other surface-based, in situ and satellite retrievals. However, inferred cirrus properties are shown to be less certain for increasingly tenuous cirrus. In-cloud supersaturation is observed for 8&#x2013;12% of thin cirrus and is several factors higher than all-sky conditions; even higher frequencies are shown for the coldest and thinnest cirrus. Spatial and temporal variations in RHic correspond to cloud frequency while regional variability in RHic is observed to be most prominent over the N. Indian Ocean basin. The largest cloud/clear sky RHi anomalies tend to occur in dry regions associated with vertical descent in the sub-tropics, while the smallest occur in moist ascending regions in the tropics. The characteristics of RHic frequency distributions depend on t and a peak frequency is located between 60&#x2013;80% that illustrates RHic is on average biased dry. The geometrical thickness of cirrus is typically less than the vertical resolution of AIRS temperature and specific humidity profiles and thus leads to the observed dry bias, shown with coincident cloud vertical structure obtained from the Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO). The joint distributions of thin cirrus microphysics and humidity derived from AIRS provide unique and important regional and global-scale insights on upper tropospheric processes not available from surface, in situ, and other contemporary satellite observing platforms.</gco:CharacterString>
+            <gco:CharacterString>Global observations of cloud and humidity distributions in the upper troposphere within all geophysical conditions are critically important in order to monitor the present climate and to provide necessary data for validation of climate models to project future climate change. Towards this end, tropical oceanic distributions of thin cirrus optical depth (T) effective diameter (De), and relative humidity with respect to ice (RHi) within cirrus (RHic) are simultaneously derived from the Atmospheric Infrared Sounder (AIRS). Corresponding increases in De and cloud temperature are shown for cirrus with T&gt;0.25 that demonstrate quantitative consistency to other surface-based, in situ and satellite retrievals. However, inferred cirrus properties are shown to be less certain for increasingly tenuous cirrus. In-cloud supersaturation is observed for 8–12% of thin cirrus and is several factors higher than all-sky conditions; even higher frequencies are shown for the coldest and thinnest cirrus. Spatial and temporal variations in RHic correspond to cloud frequency while regional variability in RHic is observed to be most prominent over the N. Indian Ocean basin. The largest cloud/clear sky RHi anomalies tend to occur in dry regions associated with vertical descent in the sub-tropics, while the smallest occur in moist ascending regions in the tropics. The characteristics of RHic frequency distributions depend on t and a peak frequency is located between 60–80% that illustrates RHic is on average biased dry. The geometrical thickness of cirrus is typically less than the vertical resolution of AIRS temperature and specific humidity profiles and thus leads to the observed dry bias, shown with coincident cloud vertical structure obtained from the Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO). The joint distributions of thin cirrus microphysics and humidity derived from AIRS provide unique and important regional and global-scale insights on upper tropospheric processes not available from surface, in situ, and other contemporary satellite observing platforms.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26213</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:56:14.345204</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:55:58.265678</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -447,7 +448,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -457,7 +460,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +472,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -487,7 +494,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Emissions and secondary photochemical products from the Daesan petrochemical complex (DPCC), on the west coast of South Korea, were measured from the NASA DC-8 research aircraft during the Korea-United States Air Quality campaign in 2016. The chemical evolution of petrochemical emissions was examined utilizing near-source and downwind plume transects. Small alkenes, such as ethene (C2H4), propene (C3H6), and 1,3-butadiene (C4H6), dominated the hydroxyl (OH) radical reactivity near the source region. The oxidation of these alkenes in the petrochemical plumes led to efficient conversion of nitrogen oxides (NOx) to nitric acid (HNO3), peroxycarboxylic nitric anhydrides (PANs), and alkyl nitrates (ANs), where the sum of the speciated reactive nitrogen contributes more than 80% of NOy within a few hours. Large enhancements of short-lived NOx oxidation products, such as hydroxy nitrates (HNs) and peroxyacrylic nitric anhydride, were observed, in conjunction with high ozone levels of up to 250 ppb, which are attributed to oxidation of alkenes such as 1,3-butadiene. Instantaneous ozone production rates, P(O3), near and downwind of the DPCC ranged from 9 to 24 ppb h&#x2212;1, which were higher than those over Seoul. Ozone production efficiencies ranged from 6 to 10 downwind of the DPCC and were lower than 10 over Seoul. The contributions of alkenes to the instantaneous secondary organic aerosol (SOA) production rate, P(SOA), were estimated to be comparable to those of more common SOA precursors such as aromatics at intermediate distances from the DPCC. A model case study constrained to an extensive set of observations provided a diagnostic of petrochemical plume chemistry. The simulated plume chemistry reproduced the observed evolution of ozone and short-lived reactive nitrogen compounds, such as PANs and HNs as well as the rate and efficiency of ozone production. The simulated peroxy nitrates (PNs) budget included large contributions (approximately 30%) from unmeasured PNs including peroxyhydroxyacetic nitric anhydride and peroxybenzoic nitric anhydride. The large, predicted levels of these PAN compounds suggest their potential importance in chemical evolution of petrochemical plumes. One unique feature of the DPCC plumes is the substantial contribution of 1,3-butadiene to ozone and potentially SOA production. This work suggests that reductions in small alkene, especially 1,3-butadiene, emissions from the DPCC should be a priority for reducing downwind ozone.</gco:CharacterString>
+            <gco:CharacterString>Emissions and secondary photochemical products from the Daesan petrochemical complex (DPCC), on the west coast of South Korea, were measured from the NASA DC-8 research aircraft during the Korea-United States Air Quality campaign in 2016. The chemical evolution of petrochemical emissions was examined utilizing near-source and downwind plume transects. Small alkenes, such as ethene (C2H4), propene (C3H6), and 1,3-butadiene (C4H6), dominated the hydroxyl (OH) radical reactivity near the source region. The oxidation of these alkenes in the petrochemical plumes led to efficient conversion of nitrogen oxides (NOx) to nitric acid (HNO3), peroxycarboxylic nitric anhydrides (PANs), and alkyl nitrates (ANs), where the sum of the speciated reactive nitrogen contributes more than 80% of NOy within a few hours. Large enhancements of short-lived NOx oxidation products, such as hydroxy nitrates (HNs) and peroxyacrylic nitric anhydride, were observed, in conjunction with high ozone levels of up to 250 ppb, which are attributed to oxidation of alkenes such as 1,3-butadiene. Instantaneous ozone production rates, P(O3), near and downwind of the DPCC ranged from 9 to 24 ppb h−1, which were higher than those over Seoul. Ozone production efficiencies ranged from 6 to 10 downwind of the DPCC and were lower than 10 over Seoul. The contributions of alkenes to the instantaneous secondary organic aerosol (SOA) production rate, P(SOA), were estimated to be comparable to those of more common SOA precursors such as aromatics at intermediate distances from the DPCC. A model case study constrained to an extensive set of observations provided a diagnostic of petrochemical plume chemistry. The simulated plume chemistry reproduced the observed evolution of ozone and short-lived reactive nitrogen compounds, such as PANs and HNs as well as the rate and efficiency of ozone production. The simulated peroxy nitrates (PNs) budget included large contributions (approximately 30%) from unmeasured PNs including peroxyhydroxyacetic nitric anhydride and peroxybenzoic nitric anhydride. The large, predicted levels of these PAN compounds suggest their potential importance in chemical evolution of petrochemical plumes. One unique feature of the DPCC plumes is the substantial contribution of 1,3-butadiene to ozone and potentially SOA production. This work suggests that reductions in small alkene, especially 1,3-butadiene, emissions from the DPCC should be a priority for reducing downwind ozone.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

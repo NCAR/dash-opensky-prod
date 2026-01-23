@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23530</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:17:20.966664</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:04:57.149270</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Newton, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9310-1967"
+                                    xlink:title="Newton, Richard"
+                                    xlink:actuate="onRequest">Newton, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>High-vertical-resolution temperature measurements from GPS radio occultation data show frequent upper-tropospheric inversions over the equatorial Indian Ocean during the summer monsoon season. Each year, around 30% of profiles in this region have temperature inversions near 15 km during the monsoon season, peaking during July&#x2013;September. This work describes the space&#x2013;time behavior of these inversions, and their links to transient deep convection. The Indian Ocean inversions occur episodically several times each summer, with a time scale of 1&#x2013;2 weeks, and are quasi stationary or slowly eastward moving. Strong inversions are characterized by cold anomalies in the upper-troposphere (12&#x2013;15 km), warm anomalies in the tropopause layer (16&#x2013;18 km), and strong zonal wind anomalies that are coherent with temperature anomalies. Temperature and wind anomalies are centered over the equator and show a characteristic eastward phase tilt with height with a vertical wavelength near 5 km, consistent with a Kelvin wave structure. Composites of outgoing longwave radiation (OLR) show that strong inversions are linked to enhanced deep convection over the equatorial Indian Ocean, preceding the inversions by ~2&#x2013;6 days. These characteristics suggest that the inversions are linked to convectively forced Kelvin waves, which are Doppler shifted by the easterly monsoonal winds such that they remain quasi stationary in the equatorial Indian Ocean. These large-scale waves influence circulation on the equatorial side of the Indian monsoon anticyclone; they may provide a positive feedback to the underlying convection, and are possibly linked with regions of shear-induced turbulence.</gco:CharacterString>
+            <gco:CharacterString>High-vertical-resolution temperature measurements from GPS radio occultation data show frequent upper-tropospheric inversions over the equatorial Indian Ocean during the summer monsoon season. Each year, around 30% of profiles in this region have temperature inversions near 15 km during the monsoon season, peaking during July–September. This work describes the space–time behavior of these inversions, and their links to transient deep convection. The Indian Ocean inversions occur episodically several times each summer, with a time scale of 1–2 weeks, and are quasi stationary or slowly eastward moving. Strong inversions are characterized by cold anomalies in the upper-troposphere (12–15 km), warm anomalies in the tropopause layer (16–18 km), and strong zonal wind anomalies that are coherent with temperature anomalies. Temperature and wind anomalies are centered over the equator and show a characteristic eastward phase tilt with height with a vertical wavelength near 5 km, consistent with a Kelvin wave structure. Composites of outgoing longwave radiation (OLR) show that strong inversions are linked to enhanced deep convection over the equatorial Indian Ocean, preceding the inversions by ~2–6 days. These characteristics suggest that the inversions are linked to convectively forced Kelvin waves, which are Doppler shifted by the easterly monsoonal winds such that they remain quasi stationary in the equatorial Indian Ocean. These large-scale waves influence circulation on the equatorial side of the Indian monsoon anticyclone; they may provide a positive feedback to the underlying convection, and are possibly linked with regions of shear-induced turbulence.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

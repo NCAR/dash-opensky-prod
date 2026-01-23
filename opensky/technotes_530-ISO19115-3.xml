@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:530</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:24.623838</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:04:54.197428</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hammerling, Dorit</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3583-3611"
+                                    xlink:title="Hammerling, Dorit"
+                                    xlink:actuate="onRequest">Hammerling, Dorit</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Geophysical Statistics project group within the Institute for Mathematics Applied to Geosciences (IMAGe) has been making use of Matrix Algebra on GPU and Multicore Architectures (MAGMA) to accelerate the Cholesky decomposition. The acceleration is motivated by a) Its frequent use in key computations in the spatial statistics R 'fields' package, b) Major bottleneck in 'fields' package execution and c) Operations involving big matrices make it suitable for parallelization. The Cholesky Decomposition was accelerated last summer using the MAGMA library. However, the performance of the accelerated version on multiple GPUs was observed to be unconventional - a) Execution time on multiple GPUs was higher in comparison to single GPU execution and b) Deep copy and in-place algorithms had opposite impacts on performance when executed on one and multiple GPUs. Our CPU and GPU profiling, conducted this summer, explains the unconventional behavior observed in the multi-GPU executions. The profiling provided insight to further accelerate the Cholesky Decomposition hierarchically&#x2013; a) accelerating the underlying C function, b) reducing the function call overhead in R and c) optimizing the R environment. We were able to optimize the code and the environment to get a speedup greater than 75x (single precision) and 65x (double precision) for large matrices. We also found a potential way to improve the MAGMA functions by replacing the communications with direct device-to-device calls.</gco:CharacterString>
+            <gco:CharacterString>The Geophysical Statistics project group within the Institute for Mathematics Applied to Geosciences (IMAGe) has been making use of Matrix Algebra on GPU and Multicore Architectures (MAGMA) to accelerate the Cholesky decomposition. The acceleration is motivated by a) Its frequent use in key computations in the spatial statistics R 'fields' package, b) Major bottleneck in 'fields' package execution and c) Operations involving big matrices make it suitable for parallelization. The Cholesky Decomposition was accelerated last summer using the MAGMA library. However, the performance of the accelerated version on multiple GPUs was observed to be unconventional - a) Execution time on multiple GPUs was higher in comparison to single GPU execution and b) Deep copy and in-place algorithms had opposite impacts on performance when executed on one and multiple GPUs. Our CPU and GPU profiling, conducted this summer, explains the unconventional behavior observed in the multi-GPU executions. The profiling provided insight to further accelerate the Cholesky Decomposition hierarchically– a) accelerating the underlying C function, b) reducing the function call overhead in R and c) optimizing the R environment. We were able to optimize the code and the environment to get a speedup greater than 75x (single precision) and 65x (double precision) for large matrices. We also found a potential way to improve the MAGMA functions by replacing the communications with direct device-to-device calls.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

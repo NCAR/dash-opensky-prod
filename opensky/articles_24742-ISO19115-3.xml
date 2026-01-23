@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24742</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:11:16.694547</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:02:34.304514</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>The response of middle thermosphere (&#x223c;160 km) composition to the 20-21 November 2003 superstorm</gco:CharacterString>
+                  <gco:CharacterString>The response of middle thermosphere (∼160 km) composition to the 20-21 November 2003 superstorm</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yu, Tingting</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3926-6829"
+                                    xlink:title="Yu, Tingting"
+                                    xlink:actuate="onRequest">Yu, Tingting</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cai, Xuguang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4632-1697"
+                                    xlink:title="Cai, Xuguang"
+                                    xlink:actuate="onRequest">Cai, Xuguang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>TIMED/GUVI limb measurements and first-principles simulations from the Thermosphere Ionosphere Electrodynamics Global Circulation Model (TIEGCM) are used to investigate thermospheric atomic oxygen (O) and molecular nitrogen (N2) responses in the middle thermosphere on a constant pressure surface (&#x223c;160 km) to the November 20 and 21, 2003 superstorm. The consistency between GUVI observations and TIEGCM simulated composition changes allows us to utilize TIEGCM outputs to investigate the storm-time behaviors of O and N2 systematically. Diagnostic analysis shows that horizontal and vertical advection are the two main processes that determine the storm-induced perturbations in the middle thermosphere. Molecular diffusion has a relatively smaller magnitude than the two advection processes, acting to compensate for the changes caused by the transport partly. Contributions from chemistry and eddy diffusion are negligible. During the storm initial and main phases, composition variations at high latitudes are determined by both horizontal and vertical advection. At middle-low latitudes, horizontal advection is the main driver for the composition changes where O mass mixing ratio urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0001 decreases (N2 mass mixing ratio urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0002 increases); whereas horizontal and vertical advection combined to dominate the changes in the regions where urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0003 increases (urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0004 decreases). Over the entire storm period, horizontal advection plays a significant role in transporting high-latitude composition perturbations globally. Our results also demonstrate that storm-time temperature changes are not the direct cause of the composition perturbations on constant pressure surfaces.</gco:CharacterString>
+            <gco:CharacterString>TIMED/GUVI limb measurements and first-principles simulations from the Thermosphere Ionosphere Electrodynamics Global Circulation Model (TIEGCM) are used to investigate thermospheric atomic oxygen (O) and molecular nitrogen (N2) responses in the middle thermosphere on a constant pressure surface (∼160 km) to the November 20 and 21, 2003 superstorm. The consistency between GUVI observations and TIEGCM simulated composition changes allows us to utilize TIEGCM outputs to investigate the storm-time behaviors of O and N2 systematically. Diagnostic analysis shows that horizontal and vertical advection are the two main processes that determine the storm-induced perturbations in the middle thermosphere. Molecular diffusion has a relatively smaller magnitude than the two advection processes, acting to compensate for the changes caused by the transport partly. Contributions from chemistry and eddy diffusion are negligible. During the storm initial and main phases, composition variations at high latitudes are determined by both horizontal and vertical advection. At middle-low latitudes, horizontal advection is the main driver for the composition changes where O mass mixing ratio urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0001 decreases (N2 mass mixing ratio urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0002 increases); whereas horizontal and vertical advection combined to dominate the changes in the regions where urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0003 increases (urn:x-wiley:21699380:media:jgra56767:jgra56767-math-0004 decreases). Over the entire storm period, horizontal advection plays a significant role in transporting high-latitude composition perturbations globally. Our results also demonstrate that storm-time temperature changes are not the direct cause of the composition perturbations on constant pressure surfaces.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

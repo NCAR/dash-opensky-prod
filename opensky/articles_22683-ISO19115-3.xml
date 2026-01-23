@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22683</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:27:06.031560</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:29:25.990320</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, Holger</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1223-3429"
+                                    xlink:title="Vömel, Holger"
+                                    xlink:actuate="onRequest">Vömel, Holger</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Improving measurements of water vapour in the upper troposphere and lower stratosphere (UTLS) is a priority for the atmospheric science community. In this work, UTLS water vapour profiles derived from Atmospheric Chemistry Experiment (ACE) satellite measurements are assessed with coincident ground-based measurements taken at a high Arctic observatory at Eureka, Nunavut, Canada. Additional comparisons to satellite measurements taken by the Atmospheric Infrared Sounder (AIRS), Michelson Interferometer for Passive Atmospheric Sounding (MIPAS), Microwave Limb Sounder (MLS), Scanning Imaging Absorption Spectrometer for Atmospheric CHartography (SCIAMACHY), and Tropospheric Emission Spectrometer (TES) are included to put the ACE Fourier transform spectrometer (ACE-FTS) and ACE Measurement of Aerosol Extinction in the Stratosphere and Troposphere Retrieved by Occultation (ACE-MAESTRO) results in context. Measurements of water vapour profiles at Eureka are made using a Bruker 125HR solar absorption Fourier transform infrared spectrometer at the Polar Environment Atmospheric Research Laboratory (PEARL) and radiosondes launched from the Eureka Weather Station. Radiosonde measurements used in this study were processed with software developed by the Global Climate Observing System (GCOS) Reference Upper-Air Network (GRUAN) to account for known biases and calculate uncertainties in a well-documented and consistent manner. ACE-FTS measurements were within 11&#x2009;ppmv (parts per million by volume; 13&#x2009;%) of 125HR measurements between 6 and 14&#x2009;km. Between 8 and 14&#x2009;km ACE-FTS profiles showed a small wet bias of approximately 8&#x2009;% relative to the 125HR. ACE-FTS water vapour profiles had mean differences of 13&#x2009;ppmv (32&#x2009;%) or better when compared to coincident radiosonde profiles at altitudes between 6 and 14&#x2009;km; mean differences were within 6&#x2009;ppmv (12&#x2009;%) between 7 and 11&#x2009;km. ACE-MAESTRO profiles showed a small dry bias relative to the 125HR of approximately 7&#x2009;% between 6 and 9&#x2009;km and 10&#x2009;% between 10 and 14&#x2009;km. ACE-MAESTRO profiles agreed within 30&#x2009;ppmv (36&#x2009;%) of the radiosondes between 7 and 14&#x2009;km. ACE-FTS and ACE-MAESTRO comparison results show closer agreement with the radiosondes and PEARL 125HR overall than other satellite datasets &#x2013; except for AIRS. Close agreement was observed between AIRS and the 125HR and radiosonde measurements, with mean differences within 5&#x2009;% and correlation coefficients above 0.83 in the troposphere between 1 and 7&#x2009;km. Comparisons to MLS at altitudes around 10&#x2009;km showed a dry bias, e.g. mean differences between MLS and radiosondes were &#x2212;25.6&#x2009;%. SCIAMACHY comparisons were very limited due to minimal overlap between the vertical extent of the measurements. TES had no temporal overlap with the radiosonde dataset used in this study. Comparisons between TES and the 125HR showed a wet bias of approximately 25&#x2009;% in the UTLS and mean differences within 14&#x2009;% below 5&#x2009;km.</gco:CharacterString>
+            <gco:CharacterString>Improving measurements of water vapour in the upper troposphere and lower stratosphere (UTLS) is a priority for the atmospheric science community. In this work, UTLS water vapour profiles derived from Atmospheric Chemistry Experiment (ACE) satellite measurements are assessed with coincident ground-based measurements taken at a high Arctic observatory at Eureka, Nunavut, Canada. Additional comparisons to satellite measurements taken by the Atmospheric Infrared Sounder (AIRS), Michelson Interferometer for Passive Atmospheric Sounding (MIPAS), Microwave Limb Sounder (MLS), Scanning Imaging Absorption Spectrometer for Atmospheric CHartography (SCIAMACHY), and Tropospheric Emission Spectrometer (TES) are included to put the ACE Fourier transform spectrometer (ACE-FTS) and ACE Measurement of Aerosol Extinction in the Stratosphere and Troposphere Retrieved by Occultation (ACE-MAESTRO) results in context. Measurements of water vapour profiles at Eureka are made using a Bruker 125HR solar absorption Fourier transform infrared spectrometer at the Polar Environment Atmospheric Research Laboratory (PEARL) and radiosondes launched from the Eureka Weather Station. Radiosonde measurements used in this study were processed with software developed by the Global Climate Observing System (GCOS) Reference Upper-Air Network (GRUAN) to account for known biases and calculate uncertainties in a well-documented and consistent manner. ACE-FTS measurements were within 11 ppmv (parts per million by volume; 13 %) of 125HR measurements between 6 and 14 km. Between 8 and 14 km ACE-FTS profiles showed a small wet bias of approximately 8 % relative to the 125HR. ACE-FTS water vapour profiles had mean differences of 13 ppmv (32 %) or better when compared to coincident radiosonde profiles at altitudes between 6 and 14 km; mean differences were within 6 ppmv (12 %) between 7 and 11 km. ACE-MAESTRO profiles showed a small dry bias relative to the 125HR of approximately 7 % between 6 and 9 km and 10 % between 10 and 14 km. ACE-MAESTRO profiles agreed within 30 ppmv (36 %) of the radiosondes between 7 and 14 km. ACE-FTS and ACE-MAESTRO comparison results show closer agreement with the radiosondes and PEARL 125HR overall than other satellite datasets – except for AIRS. Close agreement was observed between AIRS and the 125HR and radiosonde measurements, with mean differences within 5 % and correlation coefficients above 0.83 in the troposphere between 1 and 7 km. Comparisons to MLS at altitudes around 10 km showed a dry bias, e.g. mean differences between MLS and radiosondes were −25.6 %. SCIAMACHY comparisons were very limited due to minimal overlap between the vertical extent of the measurements. TES had no temporal overlap with the radiosonde dataset used in this study. Comparisons between TES and the 125HR showed a wet bias of approximately 25 % in the UTLS and mean differences within 14 % below 5 km.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

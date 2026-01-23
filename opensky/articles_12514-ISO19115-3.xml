@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12514</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:30:55.951343</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:51:12.309712</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study the effect of dust aerosol on upper tropospheric cirrus clouds through heterogeneous ice nucleation is investigated in the Community Atmospheric Model version 5 (CAM5) with two ice nucleation parameterizations. Both parameterizations consider homogeneous and heterogeneous nucleation and the competition between the two mechanisms in cirrus clouds, but differ significantly in the number concentration of heterogeneous ice nuclei (IN) from dust. Heterogeneous nucleation on dust aerosol reduces the occurrence frequency of homogeneous nucleation and thus the ice crystal number concentration in the Northern Hemisphere (NH) cirrus clouds compared to simulations with pure homogeneous nucleation. Global and annual mean shortwave and longwave cloud forcing are reduced by up to 2.0 &#xb1; 0.1 W m&#x207b;&#xb2; (1&#x3c3; uncertainty) and 2.4 &#xb1; 0.1 W m&#x207b;&#xb2;, respectively due to the presence of dust IN, with the net cloud forcing change of -0.40 &#xb1; 0.20 W m&#x207b;&#xb2;. Comparison of model simulations with in situ aircraft data obtained in NH mid-latitudes suggests that homogeneous ice nucleation may play an important role in the ice nucleation at these regions with temperatures of 205-230 K. However, simulations overestimate observed ice crystal number concentrations in the tropical tropopause regions with temperatures of 190-205 K, and overestimate the frequency of occurrence of high ice crystal number concentration (&gt; 200 L&#x207b;&#xb9;) and underestimate the frequency of low ice crystal number concentration (&lt; 30 L&#x207b;&#xb9;) at NH mid-latitudes. These results highlight the importance of quantifying the number concentrations and properties of heterogeneous IN (including dust aerosol) in the upper troposphere from the global perspective.</gco:CharacterString>
+            <gco:CharacterString>In this study the effect of dust aerosol on upper tropospheric cirrus clouds through heterogeneous ice nucleation is investigated in the Community Atmospheric Model version 5 (CAM5) with two ice nucleation parameterizations. Both parameterizations consider homogeneous and heterogeneous nucleation and the competition between the two mechanisms in cirrus clouds, but differ significantly in the number concentration of heterogeneous ice nuclei (IN) from dust. Heterogeneous nucleation on dust aerosol reduces the occurrence frequency of homogeneous nucleation and thus the ice crystal number concentration in the Northern Hemisphere (NH) cirrus clouds compared to simulations with pure homogeneous nucleation. Global and annual mean shortwave and longwave cloud forcing are reduced by up to 2.0 ± 0.1 W m⁻² (1σ uncertainty) and 2.4 ± 0.1 W m⁻², respectively due to the presence of dust IN, with the net cloud forcing change of -0.40 ± 0.20 W m⁻². Comparison of model simulations with in situ aircraft data obtained in NH mid-latitudes suggests that homogeneous ice nucleation may play an important role in the ice nucleation at these regions with temperatures of 205-230 K. However, simulations overestimate observed ice crystal number concentrations in the tropical tropopause regions with temperatures of 190-205 K, and overestimate the frequency of occurrence of high ice crystal number concentration (&gt; 200 L⁻¹) and underestimate the frequency of low ice crystal number concentration (&lt; 30 L⁻¹) at NH mid-latitudes. These results highlight the importance of quantifying the number concentrations and properties of heterogeneous IN (including dust aerosol) in the upper troposphere from the global perspective.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18009</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:52:36.303248</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:58:15.026915</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Meehl, Gerald A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8760-9534"
+                                    xlink:title="Meehl, Gerald A."
+                                    xlink:actuate="onRequest">Meehl, Gerald A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Multi-model simulations show a post-Pinatubo eruption sequence of Pacific sea surface temperatures (SSTs) that includes a La Ni&#xf1;a-like pattern the third northern winter after an eruption, opposite in sign to what was observed after Pinatubo. This leads to the loss of hindcast skill for years in the 1990s affected by the Pinatubo eruption because the post-eruption internal variability of the climate system did not match the multi-model forced response. Agung (1963) and El Chich&#xf3;n (1982) happened to have post-eruption Pacific SST sequences more similar to the multi-model response and thus do not degrade prediction skill as measured by anomaly pattern correlation in the hindcasts. Thus, decadal hindcast skill is reduced if the post-eruption randomly occurring internal El Ni&#xf1;o variability in the observations deviates from the multi-model forced response that, by definition, averages out internal variability in favor of the forced response.</gco:CharacterString>
+            <gco:CharacterString>Multi-model simulations show a post-Pinatubo eruption sequence of Pacific sea surface temperatures (SSTs) that includes a La Niña-like pattern the third northern winter after an eruption, opposite in sign to what was observed after Pinatubo. This leads to the loss of hindcast skill for years in the 1990s affected by the Pinatubo eruption because the post-eruption internal variability of the climate system did not match the multi-model forced response. Agung (1963) and El Chichón (1982) happened to have post-eruption Pacific SST sequences more similar to the multi-model response and thus do not degrade prediction skill as measured by anomaly pattern correlation in the hindcasts. Thus, decadal hindcast skill is reduced if the post-eruption randomly occurring internal El Niño variability in the observations deviates from the multi-model forced response that, by definition, averages out internal variability in favor of the forced response.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

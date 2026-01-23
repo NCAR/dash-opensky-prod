@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21735</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:37:42.237185</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:55:54.327502</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -128,7 +129,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Fast time response measurements of particle size distributions in the 3&#x2013;60&#x202f;nm size range with the nucleation mode aerosol size spectrometer</gco:CharacterString>
+                  <gco:CharacterString>Fast time response measurements of particle size distributions in the 3–60 nm size range with the nucleation mode aerosol size spectrometer</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Reeves, John Michael</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6817-5323"
+                                    xlink:title="Reeves, John Michael"
+                                    xlink:actuate="onRequest">Reeves, John Michael</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Earth's radiation budget is affected by new particle formation (NPF) and the growth of these nanometre-scale particles to larger sizes where they can directly scatter light or act as cloud condensation nuclei (CCN). Large uncertainties remain in the magnitude and spatiotemporal distribution of nucleation (less than 10&#x202f;nm diameter) and Aitken (10&#x2013;60&#x202f;nm diameter) mode particles. Acquiring size-distribution measurements of these particles over large regions of the free troposphere is most easily accomplished with research aircraft. We report on the design and performance of an airborne instrument, the nucleation mode aerosol size spectrometer (NMASS), which provides size-selected aerosol concentration measurements that can be differenced to identify aerosol properties and processes or inverted to obtain a full size distribution between 3 and 60&#x202f;nm. By maintaining constant downstream pressure the instrument operates reliably over a large range of ambient pressures and during rapid changes in altitude, making it ideal for aircraft measurements from the boundary layer to the stratosphere. We describe the modifications, operating principles, extensive calibrations, and laboratory and in-flight performance of two NMASS instruments operated in parallel as a 10-channel battery of condensation particle counters (CPCs) in the NASA Atmospheric Tomography Mission (ATom) to investigate NPF and growth to cloud-active sizes in the remote free troposphere. An inversion technique to obtain size distributions from the discrete concentConcentrations measured by the two NMASS instruments flying in parallel are self-consistent and also consistent with measurements made with an optical particle counter. Extensive laboratory calibrations with a range of particle sizes and compositions show repeatability of the response function of the instrument to within 5&#x2013;8&#x202f;% and no sensitivity in sizing performance to particle composition. Particle number, surface area, and volume concentrations from the data inversion are determined to better than 20&#x202f;% for typical particle size distributions. The excellent performance of the NMASS systems provides a strong analytical foundation to explore NPF around the globe in the ATom dataset.</gco:CharacterString>
+            <gco:CharacterString>Earth's radiation budget is affected by new particle formation (NPF) and the growth of these nanometre-scale particles to larger sizes where they can directly scatter light or act as cloud condensation nuclei (CCN). Large uncertainties remain in the magnitude and spatiotemporal distribution of nucleation (less than 10 nm diameter) and Aitken (10–60 nm diameter) mode particles. Acquiring size-distribution measurements of these particles over large regions of the free troposphere is most easily accomplished with research aircraft. We report on the design and performance of an airborne instrument, the nucleation mode aerosol size spectrometer (NMASS), which provides size-selected aerosol concentration measurements that can be differenced to identify aerosol properties and processes or inverted to obtain a full size distribution between 3 and 60 nm. By maintaining constant downstream pressure the instrument operates reliably over a large range of ambient pressures and during rapid changes in altitude, making it ideal for aircraft measurements from the boundary layer to the stratosphere. We describe the modifications, operating principles, extensive calibrations, and laboratory and in-flight performance of two NMASS instruments operated in parallel as a 10-channel battery of condensation particle counters (CPCs) in the NASA Atmospheric Tomography Mission (ATom) to investigate NPF and growth to cloud-active sizes in the remote free troposphere. An inversion technique to obtain size distributions from the discrete concentConcentrations measured by the two NMASS instruments flying in parallel are self-consistent and also consistent with measurements made with an optical particle counter. Extensive laboratory calibrations with a range of particle sizes and compositions show repeatability of the response function of the instrument to within 5–8 % and no sensitivity in sizing performance to particle composition. Particle number, surface area, and volume concentrations from the data inversion are determined to better than 20 % for typical particle size distributions. The excellent performance of the NMASS systems provides a strong analytical foundation to explore NPF around the globe in the ATom dataset.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

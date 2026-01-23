@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12243</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:33:05.786727</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:55:44.353198</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cantrell, Chris A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3844-1560"
+                                    xlink:title="Cantrell, Chris A."
+                                    xlink:actuate="onRequest">Cantrell, Chris A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The hydroxyl (OH) and hydroperoxyl (HO&#x2082;) radicals, collectively called HOx, play central roles in tropospheric chemistry. Accurate measurements of OH and HO&#x2082; are critical to examine our understanding of atmospheric chemistry. Intercomparisons of different techniques for detecting OH and HO&#x2082; are vital to evaluate their measurement capabilities. Three instruments that measured OH and/or HO&#x2082; radicals were deployed on the NASA DC-8 aircraft throughout Arctic Research of the Composition of the Troposphere from Aircraft and Satellites (ARCTAS) in the spring and summer of 2008. One instrument was the Penn State Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS) for OH and HO&#x2082; measurements based on Laser-Induced Fluorescence (LIF) spectroscopy. A second instrument was the NCAR Selected-Ion Chemical Ionization Mass Spectrometer (SI-CIMS) for OH measurement. A third instrument was the NCAR Peroxy Radical Chemical Ionization Mass Spectrometer (PeRCIMS) for HO&#x2082; measurement. Formal intercomparison of LIF and CIMS was conducted for the first time on a same aircraft platform. The three instruments were calibrated by quantitative photolysis of water vapor by ultraviolet (UV) light at 184.9 nm with three different calibration systems. The absolute accuracies were &#xb1;32% (2&#x3c3;) for the LIF instrument, &#xb1;65% (2&#x3c3;) for the SI-CIMS instrument, and &#xb1;50% (2&#x3c3;) for the PeRCIMS instrument. In general, good agreement was obtained between the CIMS and LIF measurements of both OH and HO&#x2082; measurements. Linear regression of the entire data set yields [OH]CIMS = 0.89 &#xd7; [OH]LIF + 2.8 &#xd7; 104 cm&#x207b;&#xb3; with a correlation coefficient r&#xb2; = 0.72 for OH, and [HO&#x2082;]CIMS = 0.86 &#xd7; [HO&#x2082;]LIF + 3.9 parts per trillion by volume (pptv, equivalent to pmol mol&#x207b;&#xb9;) with a correlation coefficient r&#xb2; = 0.72 for HO&#x2082;. In general, the difference between CIMS and LIF instruments for OH and HO&#x2082; measurements can be explained by their combined measurement uncertainties. Comparison with box model results shows some similarities for both the CIMS and LIF measurements. First, the observed-to-modeled HO2 ratio increases greatly for higher NO mixing ratios, indicating that the model may not properly account for HOx sources that correlate with NO. Second, the observed-to-modeled OH ratio increases with increasing isoprene mixing ratios, suggesting either incomplete understanding of isoprene chemistry in the model or interferences in the measurements in environments where biogenic emissions dominate ambient volatile organic compounds.</gco:CharacterString>
+            <gco:CharacterString>The hydroxyl (OH) and hydroperoxyl (HO₂) radicals, collectively called HOx, play central roles in tropospheric chemistry. Accurate measurements of OH and HO₂ are critical to examine our understanding of atmospheric chemistry. Intercomparisons of different techniques for detecting OH and HO₂ are vital to evaluate their measurement capabilities. Three instruments that measured OH and/or HO₂ radicals were deployed on the NASA DC-8 aircraft throughout Arctic Research of the Composition of the Troposphere from Aircraft and Satellites (ARCTAS) in the spring and summer of 2008. One instrument was the Penn State Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS) for OH and HO₂ measurements based on Laser-Induced Fluorescence (LIF) spectroscopy. A second instrument was the NCAR Selected-Ion Chemical Ionization Mass Spectrometer (SI-CIMS) for OH measurement. A third instrument was the NCAR Peroxy Radical Chemical Ionization Mass Spectrometer (PeRCIMS) for HO₂ measurement. Formal intercomparison of LIF and CIMS was conducted for the first time on a same aircraft platform. The three instruments were calibrated by quantitative photolysis of water vapor by ultraviolet (UV) light at 184.9 nm with three different calibration systems. The absolute accuracies were ±32% (2σ) for the LIF instrument, ±65% (2σ) for the SI-CIMS instrument, and ±50% (2σ) for the PeRCIMS instrument. In general, good agreement was obtained between the CIMS and LIF measurements of both OH and HO₂ measurements. Linear regression of the entire data set yields [OH]CIMS = 0.89 × [OH]LIF + 2.8 × 104 cm⁻³ with a correlation coefficient r² = 0.72 for OH, and [HO₂]CIMS = 0.86 × [HO₂]LIF + 3.9 parts per trillion by volume (pptv, equivalent to pmol mol⁻¹) with a correlation coefficient r² = 0.72 for HO₂. In general, the difference between CIMS and LIF instruments for OH and HO₂ measurements can be explained by their combined measurement uncertainties. Comparison with box model results shows some similarities for both the CIMS and LIF measurements. First, the observed-to-modeled HO2 ratio increases greatly for higher NO mixing ratios, indicating that the model may not properly account for HOx sources that correlate with NO. Second, the observed-to-modeled OH ratio increases with increasing isoprene mixing ratios, suggesting either incomplete understanding of isoprene chemistry in the model or interferences in the measurements in environments where biogenic emissions dominate ambient volatile organic compounds.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

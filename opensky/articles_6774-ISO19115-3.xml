@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6774</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:44.253214</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:41.823254</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In this study, it is shown that the NCAR and GFDL GCMs exhibit a marked difference in climate sensitivity of clouds and radiative fluxes in response to doubled CO&#x2082; and &#xb1;2-K SST perturbations. The GFDL model predicted a substantial decrease in cloud amount and an increase in cloud condensate in the warmer climate, but produced a much weaker change in net cloud radiative forcing (CRF) than the NCAR model. Using a multiple linear regression (MLR) method, the full-sky radiative flux change at the top of the atmosphere was successfully decomposed into individual components associated with the clear sky and different types of clouds. The authors specifically examined the cloud feedbacks due to the cloud amount and cloud condensate changes involving low, mid-, and high clouds between 60&#xb0;S and 60&#xb0;N. It was found that the NCAR and GFDL models predicted the same sign of individual longwave and shortwave feedbacks resulting from the change in cloud amount and cloud condensate for all three types of clouds (low, mid, and high) despite the different cloud and radiation schemes used in the models. However, since the individual longwave and shortwave feedbacks resulting from the change in cloud amount and cloud condensate generally have the opposite signs, the net cloud feedback is a subtle residual of all. Strong cancellations between individual cloud feedbacks may result in a weak net cloud feedback. This result is consistent with the findings of the previous studies, which used different approaches to diagnose cloud feedbacks. This study indicates that the proposed MLR approach provides an easy way to efficiently expose the similarity and discrepancy of individual cloud feedback processes between GCMs, which are hidden in the total cloud feedback measured by CRF. Most importantly, this method has the potential to be applied to satellite measurements. Thus, it may serve as a reliable and efficient method to investigate cloud feedback mechanisms on short-term scales by comparing simulations with available observations, which may provide a useful way to identify the cause for the wide spread of cloud feedbacks in GCMs.</gco:CharacterString>
+            <gco:CharacterString>In this study, it is shown that the NCAR and GFDL GCMs exhibit a marked difference in climate sensitivity of clouds and radiative fluxes in response to doubled CO₂ and ±2-K SST perturbations. The GFDL model predicted a substantial decrease in cloud amount and an increase in cloud condensate in the warmer climate, but produced a much weaker change in net cloud radiative forcing (CRF) than the NCAR model. Using a multiple linear regression (MLR) method, the full-sky radiative flux change at the top of the atmosphere was successfully decomposed into individual components associated with the clear sky and different types of clouds. The authors specifically examined the cloud feedbacks due to the cloud amount and cloud condensate changes involving low, mid-, and high clouds between 60°S and 60°N. It was found that the NCAR and GFDL models predicted the same sign of individual longwave and shortwave feedbacks resulting from the change in cloud amount and cloud condensate for all three types of clouds (low, mid, and high) despite the different cloud and radiation schemes used in the models. However, since the individual longwave and shortwave feedbacks resulting from the change in cloud amount and cloud condensate generally have the opposite signs, the net cloud feedback is a subtle residual of all. Strong cancellations between individual cloud feedbacks may result in a weak net cloud feedback. This result is consistent with the findings of the previous studies, which used different approaches to diagnose cloud feedbacks. This study indicates that the proposed MLR approach provides an easy way to efficiently expose the similarity and discrepancy of individual cloud feedback processes between GCMs, which are hidden in the total cloud feedback measured by CRF. Most importantly, this method has the potential to be applied to satellite measurements. Thus, it may serve as a reliable and efficient method to investigate cloud feedback mechanisms on short-term scales by comparing simulations with available observations, which may provide a useful way to identify the cause for the wide spread of cloud feedbacks in GCMs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

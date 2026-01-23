@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24725</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:11:31.240539</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:03:28.863899</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -317,7 +318,7 @@
                   <gco:CharacterString>Related Dataset #12</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>TCCON data from Orl&#xe9;ans (FR), Release GGG2014.R1</gco:CharacterString>
+                  <gco:CharacterString>TCCON data from Orléans (FR), Release GGG2014.R1</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -397,7 +398,7 @@
                   <gco:CharacterString>Related Dataset #16</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>TCCON data from R&#xe9;union Island (RE), Release GGG2014.R1</gco:CharacterString>
+                  <gco:CharacterString>TCCON data from Réunion Island (RE), Release GGG2014.R1</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -457,7 +458,7 @@
                   <gco:CharacterString>Related Dataset #19</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>TCCON data from Sodankyl&#xe4; (FI), Release GGG2014.R0</gco:CharacterString>
+                  <gco:CharacterString>TCCON data from Sodankylä (FI), Release GGG2014.R0</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -647,7 +648,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>De Mazi&#xe8;re, M.</gco:CharacterString>
+                        <gco:CharacterString>De Mazière, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -677,7 +678,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, O. E.</gco:CharacterString>
+                        <gco:CharacterString>García, O. E.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -707,7 +708,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -897,7 +900,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ortega, Ivan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0067-617X"
+                                    xlink:title="Ortega, Ivan"
+                                    xlink:actuate="onRequest">Ortega, Ivan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -977,7 +982,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>R&#xf6;hling, A. N.</gco:CharacterString>
+                        <gco:CharacterString>Röhling, A. N.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -1057,7 +1062,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>T&#xe9;, Y.</gco:CharacterString>
+                        <gco:CharacterString>Té, Y.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -1187,7 +1192,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Sentinel-5 Precursor (S5P) mission with the TROPOspheric Monitoring Instrument (TROPOMI) on board has been measuring solar radiation backscattered by the Earth's atmosphere and surface since its launch on 13 October 2017. In this paper, we present for the first time the S5P operational methane (CH4) and carbon monoxide (CO) products' validation results covering a period of about 3 years using global Total Carbon Column Observing Network (TCCON) and Infrared Working Group of the Network for the Detection of Atmospheric Composition Change (NDACC-IRWG) network data, accounting for a priori alignment and smoothing uncertainties in the validation, and testing the sensitivity of validation results towards the application of advanced co-location criteria. We found that the S5P standard and bias-corrected CH4 data over land surface for the recommended quality filtering fulfil the mission requirements. The systematic difference of the bias-corrected total column-averaged dry air mole fraction of methane (XCH4) data with respect to TCCON data is &#x2212;0.26&#xb1;0.56&#x2009;% in comparison to &#x2212;0.68&#xb1;0.74&#x2009;% for the standard XCH4 data, with a correlation of 0.6 for most stations. The bias shows a seasonal dependence. We found that the S5P CO data over all surfaces for the recommended quality filtering generally fulfil the missions requirements, with a few exceptions, which are mostly due to co-location mismatches and limited availability of data. The systematic difference between the S5P total column-averaged dry air mole fraction of carbon monoxide (XCO) and the TCCON data is on average 9.22&#xb1;3.45&#x2009;% (standard TCCON XCO) and 2.45&#xb1;3.38&#x2009;% (unscaled TCCON XCO). We found that the systematic difference between the S5P CO column and NDACC CO column (excluding two outlier stations) is on average 6.5&#xb1;3.54&#x2009;%. We found a correlation of above 0.9 for most TCCON and NDACC stations. The study shows the high quality of S5P CH4 and CO data by validating the products against reference global TCCON and NDACC stations covering a wide range of latitudinal bands, atmospheric conditions and surface conditions.</gco:CharacterString>
+            <gco:CharacterString>The Sentinel-5 Precursor (S5P) mission with the TROPOspheric Monitoring Instrument (TROPOMI) on board has been measuring solar radiation backscattered by the Earth's atmosphere and surface since its launch on 13 October 2017. In this paper, we present for the first time the S5P operational methane (CH4) and carbon monoxide (CO) products' validation results covering a period of about 3 years using global Total Carbon Column Observing Network (TCCON) and Infrared Working Group of the Network for the Detection of Atmospheric Composition Change (NDACC-IRWG) network data, accounting for a priori alignment and smoothing uncertainties in the validation, and testing the sensitivity of validation results towards the application of advanced co-location criteria. We found that the S5P standard and bias-corrected CH4 data over land surface for the recommended quality filtering fulfil the mission requirements. The systematic difference of the bias-corrected total column-averaged dry air mole fraction of methane (XCH4) data with respect to TCCON data is −0.26±0.56 % in comparison to −0.68±0.74 % for the standard XCH4 data, with a correlation of 0.6 for most stations. The bias shows a seasonal dependence. We found that the S5P CO data over all surfaces for the recommended quality filtering generally fulfil the missions requirements, with a few exceptions, which are mostly due to co-location mismatches and limited availability of data. The systematic difference between the S5P total column-averaged dry air mole fraction of carbon monoxide (XCO) and the TCCON data is on average 9.22±3.45 % (standard TCCON XCO) and 2.45±3.38 % (unscaled TCCON XCO). We found that the systematic difference between the S5P CO column and NDACC CO column (excluding two outlier stations) is on average 6.5±3.54 %. We found a correlation of above 0.9 for most TCCON and NDACC stations. The study shows the high quality of S5P CH4 and CO data by validating the products against reference global TCCON and NDACC stations covering a wide range of latitudinal bands, atmospheric conditions and surface conditions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

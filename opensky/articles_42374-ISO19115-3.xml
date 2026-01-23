@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42374</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:50.120819</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:59:09.138302</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,7 +98,7 @@
                   <gco:CharacterString>Related Dataset #1</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>DLR in situ cloud measurements during HALO-(AC)&#xb3; Arctic airborne campaign</gco:CharacterString>
+                  <gco:CharacterString>DLR in situ cloud measurements during HALO-(AC)³ Arctic airborne campaign</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Maherndl, N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1517-1534"
+                                    xlink:title="Maherndl, N."
+                                    xlink:actuate="onRequest">Maherndl, N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bansemer, Aaron R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3714-1099"
+                                    xlink:title="Bansemer, Aaron R."
+                                    xlink:actuate="onRequest">Bansemer, Aaron R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +282,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lucke, J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6724-864X"
+                                    xlink:title="Lucke, J."
+                                    xlink:actuate="onRequest">Lucke, J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +324,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Observations show that the ice water content (IWC) in mixed-phase clouds (MPCs) tends to occur in clusters. However, it is not sufficiently understood which ice crystal formation and growth processes play a dominant role in IWC clustering in clouds. One important ice growth process is riming, which occurs when liquid water droplets freeze onto ice crystals upon contact. Here we use airborne measurements of MPCs at mid- and high-latitudes to investigate the spatial variability of ice clusters in clouds and how this variability is linked to riming. We use data from the IMPACTS (mid-latitudes) and the HALO-(AC)3 (high-latitudes) aircraft campaigns, where spatially and temporally colocated cloud radar and in situ measurements were collected. We derive riming and IWC by combining cloud radar and in situ measurements. Ice cluster scales in clouds are quantified using pair correlation functions. During all analyzed flight segments, riming is responsible for 66&#x2009;% and 63&#x2009;% of the total IWC during IMPACTS and HALO-(AC)3, respectively. In mid-latitude MPCs, riming does not significantly change IWC cluster scales but increases the probability of cluster occurrence. In cold-air-outbreak MPCs observed during HALO-(AC)3, riming leads to additional in-cloud IWC clustering at spatial scales of 3&#x2013;5&#x2009;km due to the presence of mesoscale updraft features. An increased liquid water path might increase the effect, but it is not a necessary criterion. These results can be used to evaluate and constrain models' representations of MPCs.</gco:CharacterString>
+            <gco:CharacterString>Observations show that the ice water content (IWC) in mixed-phase clouds (MPCs) tends to occur in clusters. However, it is not sufficiently understood which ice crystal formation and growth processes play a dominant role in IWC clustering in clouds. One important ice growth process is riming, which occurs when liquid water droplets freeze onto ice crystals upon contact. Here we use airborne measurements of MPCs at mid- and high-latitudes to investigate the spatial variability of ice clusters in clouds and how this variability is linked to riming. We use data from the IMPACTS (mid-latitudes) and the HALO-(AC)3 (high-latitudes) aircraft campaigns, where spatially and temporally colocated cloud radar and in situ measurements were collected. We derive riming and IWC by combining cloud radar and in situ measurements. Ice cluster scales in clouds are quantified using pair correlation functions. During all analyzed flight segments, riming is responsible for 66 % and 63 % of the total IWC during IMPACTS and HALO-(AC)3, respectively. In mid-latitude MPCs, riming does not significantly change IWC cluster scales but increases the probability of cluster occurrence. In cold-air-outbreak MPCs observed during HALO-(AC)3, riming leads to additional in-cloud IWC clustering at spatial scales of 3–5 km due to the presence of mesoscale updraft features. An increased liquid water path might increase the effect, but it is not a necessary criterion. These results can be used to evaluate and constrain models' representations of MPCs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

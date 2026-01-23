@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24421</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:14:40.112288</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:10:35.156176</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cai, Xuguang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4632-1697"
+                                    xlink:title="Cai, Xuguang"
+                                    xlink:actuate="onRequest">Cai, Xuguang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +174,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Qian, Liying</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2430-1388"
+                                    xlink:title="Qian, Liying"
+                                    xlink:actuate="onRequest">Qian, Liying</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8878-5126"
+                                    xlink:title="Pedatella, Nicholas M."
+                                    xlink:actuate="onRequest">Pedatella, Nicholas M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We conducted observational and modeling studies of thermospheric composition and ionospheric total electron content (TEC) variations during two geomagnetically quiet periods (maximum Kp = 1.7) at solar minimum. Daytime thermospheric O and N2 column density ratio (&#x2211;O/N2) observed by Global-scale Observations of the Limb and Disk and TEC from a network of ground-based Global Navigation Satellites System receivers both exhibited large (&#x223c;30% of reference values) and long-lived (5-11 h) day-to-day variations in roughly the same mid-latitude geographic regions. Numerical simulations replicated the observed variability, though not perfectly. Analysis of the simulations suggested that the variations were mainly generated in the high-latitudes and were subsequently advected equatorward and westward. When high-latitudes input was turned off in simulations, the variations were negligible. This suggested the potentially important role of high-latitude geomagnetic forcing in thermospheric composition and ionospheric density variations at mid-latitudes even during some "geomagnetically quiet" periods at solar-minimum.</gco:CharacterString>
+            <gco:CharacterString>We conducted observational and modeling studies of thermospheric composition and ionospheric total electron content (TEC) variations during two geomagnetically quiet periods (maximum Kp = 1.7) at solar minimum. Daytime thermospheric O and N2 column density ratio (∑O/N2) observed by Global-scale Observations of the Limb and Disk and TEC from a network of ground-based Global Navigation Satellites System receivers both exhibited large (∼30% of reference values) and long-lived (5-11 h) day-to-day variations in roughly the same mid-latitude geographic regions. Numerical simulations replicated the observed variability, though not perfectly. Analysis of the simulations suggested that the variations were mainly generated in the high-latitudes and were subsequently advected equatorward and westward. When high-latitudes input was turned off in simulations, the variations were negligible. This suggested the potentially important role of high-latitude geomagnetic forcing in thermospheric composition and ionospheric density variations at mid-latitudes even during some "geomagnetically quiet" periods at solar-minimum.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

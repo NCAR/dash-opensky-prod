@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25008</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:09:29.858372</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:58:20.283296</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,7 +98,7 @@
                   <gco:CharacterString>Related Dataset #1</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Data Release for Retreat and Regrowth of the Greenland Ice Sheet During the Last Interglacial as Simulated by the CESM2-CISM2 Coupled Climate&#x2013;Ice Sheet Model</gco:CharacterString>
+                  <gco:CharacterString>Data Release for Retreat and Regrowth of the Greenland Ice Sheet During the Last Interglacial as Simulated by the CESM2-CISM2 Coupled Climate–Ice Sheet Model</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -117,7 +118,7 @@
                   <gco:CharacterString>Related Dataset #2</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Global biomes for the Last Interglacial period (127-119 ka) simulated by BIOME4 using CESM2-CISM2 coupled climate&#x2013;ice sheet model data</gco:CharacterString>
+                  <gco:CharacterString>Global biomes for the Last Interglacial period (127-119 ka) simulated by BIOME4 using CESM2-CISM2 coupled climate–ice sheet model data</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sommers, Aleah</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8718-0603"
+                                    xlink:title="Sommers, Aleah"
+                                    xlink:actuate="onRequest">Sommers, Aleah</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lipscomb, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7100-3730"
+                                    xlink:title="Lipscomb, William"
+                                    xlink:actuate="onRequest">Lipscomb, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +244,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brady, Esther C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7833-2249"
+                                    xlink:title="Brady, Esther C."
+                                    xlink:actuate="onRequest">Brady, Esther C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +256,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kluzek, Erik</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1606-9219"
+                                    xlink:title="Kluzek, Erik"
+                                    xlink:actuate="onRequest">Kluzek, Erik</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +268,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Leguy, Gunter</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9963-8076"
+                                    xlink:title="Leguy, Gunter"
+                                    xlink:actuate="onRequest">Leguy, Gunter</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +280,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Thayer-Calder, Katherine</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1501-8444"
+                                    xlink:title="Thayer-Calder, Katherine"
+                                    xlink:actuate="onRequest">Thayer-Calder, Katherine</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +292,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tomas, Robert A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8907-0424"
+                                    xlink:title="Tomas, Robert A."
+                                    xlink:actuate="onRequest">Tomas, Robert A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>

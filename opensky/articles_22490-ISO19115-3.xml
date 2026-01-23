@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22490</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:04:37.450476</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:48:09.958477</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The calculation of limb radiance as a function of tangent height is shown to require the vertical distribution of temperature and the pressure at one level. Conversely, given the limb radiance curve and the pressure corresponding to one tangent point, it is possible to determine the temperature profile as a function of height relative to the given level, using an iterative technique. If the given pressure is incorrect, there will be systematic errors in the inferred temperatures. This feature may he used to determine the correct pressure by requiring that temperatures inferred from measurements in two spectral regions of differing opacities agree. Results of inverting synthesized realistic data are presented. The data include the effects of water vapor and ozone contamination of the carbon dioxide signal, instrument field of view, and random and systematic noise for real atmospheres having small-scale vertical structure. Results indicate that the temperature may be obtained from the tropopause to 60 km with an rms error &lt;3K. The thickness between the 10- and 1-mb surfaces may also he determined to &#xb1;50 m. For measurements spaced 1000 km apart in mid-latitudes, this will yield thermal winds to &#xb1;7 m sec&#x2212;1. Contemplated improvements in the alogrithm and the likelihood of achieving smaller noise figures than those used in the study indicate that better temperature and thickness accuracies and inferences to higher altitudes should he attainable with a real instrument.</gco:CharacterString>
+            <gco:CharacterString>The calculation of limb radiance as a function of tangent height is shown to require the vertical distribution of temperature and the pressure at one level. Conversely, given the limb radiance curve and the pressure corresponding to one tangent point, it is possible to determine the temperature profile as a function of height relative to the given level, using an iterative technique. If the given pressure is incorrect, there will be systematic errors in the inferred temperatures. This feature may he used to determine the correct pressure by requiring that temperatures inferred from measurements in two spectral regions of differing opacities agree. Results of inverting synthesized realistic data are presented. The data include the effects of water vapor and ozone contamination of the carbon dioxide signal, instrument field of view, and random and systematic noise for real atmospheres having small-scale vertical structure. Results indicate that the temperature may be obtained from the tropopause to 60 km with an rms error &lt;3K. The thickness between the 10- and 1-mb surfaces may also he determined to ±50 m. For measurements spaced 1000 km apart in mid-latitudes, this will yield thermal winds to ±7 m sec−1. Contemplated improvements in the alogrithm and the likelihood of achieving smaller noise figures than those used in the study indicate that better temperature and thickness accuracies and inferences to higher altitudes should he attainable with a real instrument.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

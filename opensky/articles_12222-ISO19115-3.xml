@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12222</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:33:54.692174</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:57:26.131301</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Yue, Jia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0577-5289"
+                                    xlink:title="Yue, Jia"
+                                    xlink:actuate="onRequest">Yue, Jia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Thermosphere Ionosphere Mesosphere Electrodynamics General Circulation Model (TIME-GCM) is used to simulate the quasi-two-day wave (QTDW) modulation of the ionospheric dynamo and electron density. The QTDW can directly penetrate into the lower thermosphere and modulate the neutral winds at a period of two days. The QTDW modulation of the tidal amplitudes is not evident. The QTDW in zonal and meridional winds results in a quasi-two-day oscillation (QTDO) of the dynamo electric fields at southern midlatitudes, which is mapped into the conjugate northern magnetic midlatitudes. The QTDO of the electric fields in the E region is transmitted along the magnetic field lines to the F region and leads to the QTDOs of the vertical ion drift and total electron content (TEC) at low and mid latitudes. The QTDO of the vertical ion drift near the magnetic equator leads to the 2-day oscillation of the fountain effect. The QTDO of the TEC has two peaks at &#xb1;25 magnetic latitude (Mlat) and one near the dip equator. The equatorial peak is nearly out of phase with the ones at &#xb1;25 Mlat. The vertical ion drift at midlatitudes extends the QTDW response of the TEC to midlatitudes from the Equatorial Ionospheric Anomaly (EIA). Most differently from previous reports, we discover that the QTDW winds couple into the F region ionosphere through both the fountain effect and the middle latitude dynamos.</gco:CharacterString>
+            <gco:CharacterString>The Thermosphere Ionosphere Mesosphere Electrodynamics General Circulation Model (TIME-GCM) is used to simulate the quasi-two-day wave (QTDW) modulation of the ionospheric dynamo and electron density. The QTDW can directly penetrate into the lower thermosphere and modulate the neutral winds at a period of two days. The QTDW modulation of the tidal amplitudes is not evident. The QTDW in zonal and meridional winds results in a quasi-two-day oscillation (QTDO) of the dynamo electric fields at southern midlatitudes, which is mapped into the conjugate northern magnetic midlatitudes. The QTDO of the electric fields in the E region is transmitted along the magnetic field lines to the F region and leads to the QTDOs of the vertical ion drift and total electron content (TEC) at low and mid latitudes. The QTDO of the vertical ion drift near the magnetic equator leads to the 2-day oscillation of the fountain effect. The QTDO of the TEC has two peaks at ±25 magnetic latitude (Mlat) and one near the dip equator. The equatorial peak is nearly out of phase with the ones at ±25 Mlat. The vertical ion drift at midlatitudes extends the QTDW response of the TEC to midlatitudes from the Equatorial Ionospheric Anomaly (EIA). Most differently from previous reports, we discover that the QTDW winds couple into the F region ionosphere through both the fountain effect and the middle latitude dynamos.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

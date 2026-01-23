@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15212</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:28:19.803558</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:58:03.950490</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fan, Yuhong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1027-0795"
+                                    xlink:title="Fan, Yuhong"
+                                    xlink:actuate="onRequest">Fan, Yuhong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To explore the possible causes of the observed asymmetric helicity flux in emerging active regions between the leading and following polarities reported in a recent study by Tian &amp; Alexander, we examine the subsurface evolution of buoyantly rising &#x3a9;-shaped flux tubes using three-dimensional, spherical-shell anelastic MHD simulations. We find that due to the asymmetric stretching of the &#x3a9;-shaped tube by the Coriolis force, the leading side of the emerging tube has a greater field strength, is more buoyant, and remains more cohesive compared to the following side. As a result, the magnetic field lines in the leading leg show more coherent values of local twist &#x3b1; &#x2261; (&#x2207; &#xd7; B) &#xb7; B/B 2, whereas the values in the following leg show large fluctuations and are of mixed sign. On average, however, the field lines in the leading leg do not show a systematically greater mean twist compared to the following leg. Due to the higher rise velocity of the leading leg, the upward helicity flux through a horizontal cross section at each depth in the upper half of the convection zone is significantly greater in the leading polarity region than that in the following leg. This may contribute to the observed asymmetric helicity flux in emerging active regions. Furthermore, based on a simplified model of active region flux emergence into the corona by Longcope &amp; Welsch, we show that a stronger field strength in the leading tube can result in a faster rotation of the leading polarity sunspot driven by torsional Alfv&#xe9;n waves during flux emergence into the corona, contributing to a greater helicity injection rate in the leading polarity of an emerging active region.</gco:CharacterString>
+            <gco:CharacterString>To explore the possible causes of the observed asymmetric helicity flux in emerging active regions between the leading and following polarities reported in a recent study by Tian &amp; Alexander, we examine the subsurface evolution of buoyantly rising Ω-shaped flux tubes using three-dimensional, spherical-shell anelastic MHD simulations. We find that due to the asymmetric stretching of the Ω-shaped tube by the Coriolis force, the leading side of the emerging tube has a greater field strength, is more buoyant, and remains more cohesive compared to the following side. As a result, the magnetic field lines in the leading leg show more coherent values of local twist α ≡ (∇ × B) · B/B 2, whereas the values in the following leg show large fluctuations and are of mixed sign. On average, however, the field lines in the leading leg do not show a systematically greater mean twist compared to the following leg. Due to the higher rise velocity of the leading leg, the upward helicity flux through a horizontal cross section at each depth in the upper half of the convection zone is significantly greater in the leading polarity region than that in the following leg. This may contribute to the observed asymmetric helicity flux in emerging active regions. Furthermore, based on a simplified model of active region flux emergence into the corona by Longcope &amp; Welsch, we show that a stronger field strength in the leading tube can result in a faster rotation of the leading polarity sunspot driven by torsional Alfvén waves during flux emergence into the corona, contributing to a greater helicity injection rate in the leading polarity of an emerging active region.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

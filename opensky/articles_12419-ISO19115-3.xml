@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12419</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:30:19.544581</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:49:58.646433</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Madronich, Sasha</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0983-1313"
+                                    xlink:title="Madronich, Sasha"
+                                    xlink:actuate="onRequest">Madronich, Sasha</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The gas phase oxidation of organic species is a multigenerational process involving a large number of secondary compounds. Most secondary organic species are water-soluble multifunctional oxygenated molecules. The fully explicit chemical mechanism GECKO-A (Generator of Explicit Chemistry and Kinetics of Organics in the Atmosphere) is used to describe the oxidation of organics in the gas phase and their mass transfer to the aqueous phase. The oxidation of three hydrocarbons of atmospheric interest (isoprene, octane and &#x3b1;-pinene) is investigated for various NOx conditions. The simulated oxidative trajectories are examined in a new two dimensional space defined by the mean oxidation state and the solubility. The amount of dissolved organic matter was found to be very low (yield less than 2% on carbon atom basis) under a water content typical of deliquescent aerosols. For cloud water content, 50% (isoprene oxidation) to 70% (octane oxidation) of the carbon atoms are found in the aqueous phase after the removal of the parent hydrocarbons for low NOx conditions. For high NOx conditions, this ratio is only 5% in the isoprene oxidation case, but remains large for &#x3b1;-pinene and octane oxidation cases (40% and 60%, respectively). Although the model does not yet include chemical reactions in the aqueous phase, much of this dissolved organic matter should be processed in cloud drops and modify both oxidation rates and the speciation of organic species.</gco:CharacterString>
+            <gco:CharacterString>The gas phase oxidation of organic species is a multigenerational process involving a large number of secondary compounds. Most secondary organic species are water-soluble multifunctional oxygenated molecules. The fully explicit chemical mechanism GECKO-A (Generator of Explicit Chemistry and Kinetics of Organics in the Atmosphere) is used to describe the oxidation of organics in the gas phase and their mass transfer to the aqueous phase. The oxidation of three hydrocarbons of atmospheric interest (isoprene, octane and α-pinene) is investigated for various NOx conditions. The simulated oxidative trajectories are examined in a new two dimensional space defined by the mean oxidation state and the solubility. The amount of dissolved organic matter was found to be very low (yield less than 2% on carbon atom basis) under a water content typical of deliquescent aerosols. For cloud water content, 50% (isoprene oxidation) to 70% (octane oxidation) of the carbon atoms are found in the aqueous phase after the removal of the parent hydrocarbons for low NOx conditions. For high NOx conditions, this ratio is only 5% in the isoprene oxidation case, but remains large for α-pinene and octane oxidation cases (40% and 60%, respectively). Although the model does not yet include chemical reactions in the aqueous phase, much of this dissolved organic matter should be processed in cloud drops and modify both oxidation rates and the speciation of organic species.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

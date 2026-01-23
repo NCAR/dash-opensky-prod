@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14273</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:06:06.410153</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:23:56.572233</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rotunno, Richard</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3906-8785"
+                                    xlink:title="Rotunno, Richard"
+                                    xlink:actuate="onRequest">Rotunno, Richard</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kosovi&#x107;, Branko</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1746-0746"
+                                    xlink:title="Kosović, Branko"
+                                    xlink:actuate="onRequest">Kosović, Branko</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jim&#xe9;nez Munoz, Pedro A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9936-1890"
+                                    xlink:title="Jiménez Munoz, Pedro A."
+                                    xlink:actuate="onRequest">Jiménez Munoz, Pedro A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dudhia, Jimy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2394-6232"
+                                    xlink:title="Dudhia, Jimy"
+                                    xlink:actuate="onRequest">Dudhia, Jimy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +206,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Mesoscale numerical weather prediction models using fine-grid [O(1) km] meshes for weather forecasting, environmental assessment, and other applications capture aspects of larger-than-grid-mesh size, convectively induced secondary circulations (CISCs) such as cells and rolls that occur in the convective planetary boundary layer (PBL). However, 1-km grid spacing is too large for the simulation of the interaction of CISCs with smaller-scale turbulence. The existence of CISCs also violates the neglect of horizontal gradients of turbulent quantities in current PBL schemes. Both aspects&#x2014;poorly resolved CISCs and a violation of the assumptions behind PBL schemes&#x2014;are examples of what occurs in Wyngaard's "terra incognita," where horizontal grid spacing is comparable to the scale of the simulated motions. Thus, model CISCs (M-CISCs) cannot be simulated reliably. This paper describes how the superadiabatic layer in the lower convective PBL together with increased horizontal resolution allow the critical Rayleigh number to be exceeded and thus allow generation of M-CISCs like those in nature; and how the M-CISCs eventually neutralize the virtual temperature stratification, lowering the Rayleigh number and stopping their growth. Two options for removing M-CISCs while retaining their fluxes are 1) introducing nonlocal closure schemes for more effective removal of heat from the surface and 2) restricting the effective Rayleigh number to remain subcritical. It is demonstrated that CISCs are correctly handled by large-eddy simulation (LES) and thus may provide a way to improve representation of them or their effects. For some applications, it may suffice to allow M-CISCs to develop, but account for their shortcomings during interpretation.</gco:CharacterString>
+            <gco:CharacterString>Mesoscale numerical weather prediction models using fine-grid [O(1) km] meshes for weather forecasting, environmental assessment, and other applications capture aspects of larger-than-grid-mesh size, convectively induced secondary circulations (CISCs) such as cells and rolls that occur in the convective planetary boundary layer (PBL). However, 1-km grid spacing is too large for the simulation of the interaction of CISCs with smaller-scale turbulence. The existence of CISCs also violates the neglect of horizontal gradients of turbulent quantities in current PBL schemes. Both aspects—poorly resolved CISCs and a violation of the assumptions behind PBL schemes—are examples of what occurs in Wyngaard's "terra incognita," where horizontal grid spacing is comparable to the scale of the simulated motions. Thus, model CISCs (M-CISCs) cannot be simulated reliably. This paper describes how the superadiabatic layer in the lower convective PBL together with increased horizontal resolution allow the critical Rayleigh number to be exceeded and thus allow generation of M-CISCs like those in nature; and how the M-CISCs eventually neutralize the virtual temperature stratification, lowering the Rayleigh number and stopping their growth. Two options for removing M-CISCs while retaining their fluxes are 1) introducing nonlocal closure schemes for more effective removal of heat from the surface and 2) restricting the effective Rayleigh number to remain subcritical. It is demonstrated that CISCs are correctly handled by large-eddy simulation (LES) and thus may provide a way to improve representation of them or their effects. For some applications, it may suffice to allow M-CISCs to develop, but account for their shortcomings during interpretation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

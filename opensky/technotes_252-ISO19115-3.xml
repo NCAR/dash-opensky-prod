@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:252</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T18:02:43.314989</gco:DateTime>
+      <gco:DateTime>2025-12-26T17:30:11.262514</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A digitized ocean current data set for use in ocean model or diagnostic computer studies is described. Various sources of observed ocean currents are examined, and surface current data from pilot charts prepared by the U.S. Naval Oceanographic Office (NAVOCEANO) are used in the data set. The pilot chart data are long-term means of over four million ship drift records compiled since 1900 by NAVOCEANO. The ocean current data set prepared from these data and presented here combines the following: 1) current speeds and directions are digitized on a global 5&#xef;&#xbf;&#xbd;&#xef;&#xbf;&#xbd; latitude-longitude grid; 2) current speeds are in cm/sec; 3) current speeds and directions are given for each season; 4) u and v components as well as resultant current speeds are included; 5) the data are stored on magnetic tape and are accessible for computer use.</gco:CharacterString>
+            <gco:CharacterString>A digitized ocean current data set for use in ocean model or diagnostic computer studies is described. Various sources of observed ocean currents are examined, and surface current data from pilot charts prepared by the U.S. Naval Oceanographic Office (NAVOCEANO) are used in the data set. The pilot chart data are long-term means of over four million ship drift records compiled since 1900 by NAVOCEANO. The ocean current data set prepared from these data and presented here combines the following: 1) current speeds and directions are digitized on a global 5ï¿½ï¿½ latitude-longitude grid; 2) current speeds are in cm/sec; 3) current speeds and directions are given for each season; 4) u and v components as well as resultant current speeds are included; 5) the data are stored on magnetic tape and are accessible for computer use.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

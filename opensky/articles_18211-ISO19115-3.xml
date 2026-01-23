@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18211</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:16:47.804579</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:40:30.067313</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gilleland, Eric</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8058-7643"
+                                    xlink:title="Gilleland, Eric"
+                                    xlink:actuate="onRequest">Gilleland, Eric</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, Barbara G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5855-9427"
+                                    xlink:title="Brown, Barbara G."
+                                    xlink:actuate="onRequest">Brown, Barbara G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ammann, Caspar</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0373-0637"
+                                    xlink:title="Ammann, Caspar"
+                                    xlink:actuate="onRequest">Ammann, Caspar</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Concurrently high values of the maximum potential wind speed of updrafts (Wmax) and 0&#x2013;6&#x2009;km wind shear (Shear) have been found to represent conducive environments for severe weather, which subsequently provides a way to study severe weather in future climates. Here, we employ a model for the product of these variables (WmSh) from the National Center for Atmospheric Research/United States National Center for Environmental Prediction reanalysis over North America conditioned on their having extreme energy in the spatial field in order to project the predominant spatial patterns of WmSh. The approach is based on the Heffernan and Tawn conditional extreme value model. Results suggest that this technique estimates the spatial behavior of WmSh well, which allows for exploring possible changes in the patterns over time. While the model enables a method for inferring the uncertainty in the patterns, such analysis is difficult with the currently available inference approach. A variation of the method is also explored to investigate how this type of model might be used to qualitatively understand how the spatial patterns of WmSh correspond to extreme river flow events. A case study for river flows from three rivers in northwestern Tennessee is studied, and it is found that advection of WmSh from the Gulf of Mexico prevails while elsewhere, WmSh is generally very low during such extreme events.</gco:CharacterString>
+            <gco:CharacterString>Concurrently high values of the maximum potential wind speed of updrafts (Wmax) and 0–6 km wind shear (Shear) have been found to represent conducive environments for severe weather, which subsequently provides a way to study severe weather in future climates. Here, we employ a model for the product of these variables (WmSh) from the National Center for Atmospheric Research/United States National Center for Environmental Prediction reanalysis over North America conditioned on their having extreme energy in the spatial field in order to project the predominant spatial patterns of WmSh. The approach is based on the Heffernan and Tawn conditional extreme value model. Results suggest that this technique estimates the spatial behavior of WmSh well, which allows for exploring possible changes in the patterns over time. While the model enables a method for inferring the uncertainty in the patterns, such analysis is difficult with the currently available inference approach. A variation of the method is also explored to investigate how this type of model might be used to qualitatively understand how the spatial patterns of WmSh correspond to extreme river flow events. A case study for river flows from three rivers in northwestern Tennessee is studied, and it is found that advection of WmSh from the Gulf of Mexico prevails while elsewhere, WmSh is generally very low during such extreme events.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

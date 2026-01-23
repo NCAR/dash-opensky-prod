@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18238</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:39.596564</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:28:50.357937</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaser, Lisa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4835-8373"
+                                    xlink:title="Kaser, Lisa"
+                                    xlink:actuate="onRequest">Kaser, Lisa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Isoprene and 2-methyl-3-buten-2-ol (232-MBO) are the dominant biogenic VOCs released throughout the US, thus requiring simultaneous measurements. Recent measurements suggest the presence of isoprene in 232-MBO dominated ecosystems, however analytical difficulties make it problematic to detect both species independently. Based on a new chemical ionization scheme we use eddy covariance measurements to selectively measure fluxes of both species without analytical interference at the Manitou Experimental Forest (MEF) in Colorado. Our measurements show a concentration ratio between isoprene and 232 MBO of 0.24 (ppbv/ppbv), and a flux ratio of 0.10 ([ppbv m/s]/[ppbv m/s]). Daytime average emission factors of isoprene and 232 MBO were 1.4 &#xb1; 0.3 and 16.0 &#xb1; 3.0 mg/m2/h respectively. Both compounds exhibit light and temperature dependent fluxes. These findings suggest that isoprene is both locally produced and transported to the measurement site dominated by ponderosa pine. This makes it difficult to use MVK and MAC as tracers for estimating the photochemical age of isoprene chemistry at this site. Further our measurements suggest that isoprene can contribute to about 15% of the OH reactivity relative to 232 MBO.</gco:CharacterString>
+            <gco:CharacterString>Isoprene and 2-methyl-3-buten-2-ol (232-MBO) are the dominant biogenic VOCs released throughout the US, thus requiring simultaneous measurements. Recent measurements suggest the presence of isoprene in 232-MBO dominated ecosystems, however analytical difficulties make it problematic to detect both species independently. Based on a new chemical ionization scheme we use eddy covariance measurements to selectively measure fluxes of both species without analytical interference at the Manitou Experimental Forest (MEF) in Colorado. Our measurements show a concentration ratio between isoprene and 232 MBO of 0.24 (ppbv/ppbv), and a flux ratio of 0.10 ([ppbv m/s]/[ppbv m/s]). Daytime average emission factors of isoprene and 232 MBO were 1.4 ± 0.3 and 16.0 ± 3.0 mg/m2/h respectively. Both compounds exhibit light and temperature dependent fluxes. These findings suggest that isoprene is both locally produced and transported to the measurement site dominated by ponderosa pine. This makes it difficult to use MVK and MAC as tracers for estimating the photochemical age of isoprene chemistry at this site. Further our measurements suggest that isoprene can contribute to about 15% of the OH reactivity relative to 232 MBO.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

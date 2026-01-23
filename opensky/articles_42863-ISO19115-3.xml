@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42863</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:25.027300</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:28.456598</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sun, Juanzhen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6048-6362"
+                                    xlink:title="Sun, Juanzhen"
+                                    xlink:actuate="onRequest">Sun, Juanzhen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Smartphone pressure observations have demonstrated significant potential to complement traditional pressure monitoring. However, challenges remain in correcting biases and further leveraging these observations for practical applications. In this study, we used tropical cyclones (TCs) Lekima in 2019, Hagupit in 2020 and In-fa in 2021 as examples to conduct bias correction on labeled smartphone pressure data from the Moji Weather app. We propose a quality control procedure utilizing random forest machine learning models. By applying this quality control approach to the selected TCs, we discovered that the performance of the method for labeled data significantly surpassed that for unlabeled data developed in a previous study, reducing the mean absolute error from 3.105 to 0.904&#x2009;hPa. The bias-corrected smartphone data were then supplemented with weather station data for sea-level-pressure analyses and compared with the analyses that used only weather station data. The significantly higher spatial resolution and broader coverage of the smartphone data led to notable differences between the two analysis fields. Additionally, we compared the minimum sea-level pressure of TCs derived from smartphone data, weather station observations and the best-track dataset from the Shanghai Typhoon Institute (STI) of the China Meteorological Administration. We found that the best track published by STI consistently underestimated the minimum sea-level pressure, with a median difference of 0.51&#x2009;hPa in the three TC cases.</gco:CharacterString>
+            <gco:CharacterString>Smartphone pressure observations have demonstrated significant potential to complement traditional pressure monitoring. However, challenges remain in correcting biases and further leveraging these observations for practical applications. In this study, we used tropical cyclones (TCs) Lekima in 2019, Hagupit in 2020 and In-fa in 2021 as examples to conduct bias correction on labeled smartphone pressure data from the Moji Weather app. We propose a quality control procedure utilizing random forest machine learning models. By applying this quality control approach to the selected TCs, we discovered that the performance of the method for labeled data significantly surpassed that for unlabeled data developed in a previous study, reducing the mean absolute error from 3.105 to 0.904 hPa. The bias-corrected smartphone data were then supplemented with weather station data for sea-level-pressure analyses and compared with the analyses that used only weather station data. The significantly higher spatial resolution and broader coverage of the smartphone data led to notable differences between the two analysis fields. Additionally, we compared the minimum sea-level pressure of TCs derived from smartphone data, weather station observations and the best-track dataset from the Shanghai Typhoon Institute (STI) of the China Meteorological Administration. We found that the best track published by STI consistently underestimated the minimum sea-level pressure, with a median difference of 0.51 hPa in the three TC cases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

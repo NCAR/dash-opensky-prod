@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24633</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:12:43.427279</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:06:02.464244</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brasseur, Guy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6794-9497"
+                                    xlink:title="Brasseur, Guy"
+                                    xlink:actuate="onRequest">Brasseur, Guy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gaubert, Benjamin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6595-0686"
+                                    xlink:title="Gaubert, Benjamin"
+                                    xlink:actuate="onRequest">Gaubert, Benjamin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +294,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In order to fight the spread of the global COVID-19 pandemic, most of the world's countries have taken control measures such as lockdowns during a few weeks to a few months. These lockdowns had significant impacts on economic and personal activities in many countries. Several studies using satellite and surface observations have reported important changes in the spatial and temporal distributions of atmospheric pollutants and greenhouse gases. Global and regional chemistry-transport model studies are being performed in order to analyze the impact of these lockdowns on the distribution of atmospheric compounds. These modeling studies aim at evaluating the impact of the regional lockdowns at the global scale. In order to provide input for the global and regional model simulations, a dataset providing adjustment factors (AFs) that can easily be applied to current global and regional emission inventories has been developed. This dataset provides, for the January&#x2013;August 2020 period, gridded AFs at a 0.1&#xd7;0.1 latitude&#x2013;longitude degree resolution on a daily or monthly basis for the transportation (road, air and ship traffic), power generation, industry and residential sectors. The quantification of AFs is based on activity data collected from different databases and previously published studies. A range of AFs are provided at each grid point for model sensitivity studies. The emission AFs developed in this study are applied to the CAMS global inventory (CAMS-GLOB-ANT_v4.2_R1.1), and the changes in emissions of the main pollutants are discussed for different regions of the world and the first 6 months of 2020. Maximum decreases in the total emissions are found in February in eastern China, with an average reduction of 20&#x2009;%&#x2013;30&#x2009;% in NOx, NMVOCs (non-methane volatile organic compounds) and SO2 relative to the reference emissions. In the other regions, the maximum changes occur in April, with average reductions of 20&#x2009;%&#x2013;30&#x2009;% for NOx, NMVOCs and CO in Europe and North America and larger decreases (30&#x2009;%&#x2013;50&#x2009;%) in South America. In India and African regions, NOx and NMVOC emissions are reduced on average by 15&#x2009;%&#x2013;30&#x2009;%. For the other species, the maximum reductions are generally less than 15&#x2009;%, except in South America, where large decreases in CO and BC (black carbon) are estimated. As discussed in the paper, reductions vary highly across regions and sectors due to the differences in the duration of the lockdowns before partial or complete recovery.</gco:CharacterString>
+            <gco:CharacterString>In order to fight the spread of the global COVID-19 pandemic, most of the world's countries have taken control measures such as lockdowns during a few weeks to a few months. These lockdowns had significant impacts on economic and personal activities in many countries. Several studies using satellite and surface observations have reported important changes in the spatial and temporal distributions of atmospheric pollutants and greenhouse gases. Global and regional chemistry-transport model studies are being performed in order to analyze the impact of these lockdowns on the distribution of atmospheric compounds. These modeling studies aim at evaluating the impact of the regional lockdowns at the global scale. In order to provide input for the global and regional model simulations, a dataset providing adjustment factors (AFs) that can easily be applied to current global and regional emission inventories has been developed. This dataset provides, for the January–August 2020 period, gridded AFs at a 0.1×0.1 latitude–longitude degree resolution on a daily or monthly basis for the transportation (road, air and ship traffic), power generation, industry and residential sectors. The quantification of AFs is based on activity data collected from different databases and previously published studies. A range of AFs are provided at each grid point for model sensitivity studies. The emission AFs developed in this study are applied to the CAMS global inventory (CAMS-GLOB-ANT_v4.2_R1.1), and the changes in emissions of the main pollutants are discussed for different regions of the world and the first 6 months of 2020. Maximum decreases in the total emissions are found in February in eastern China, with an average reduction of 20 %–30 % in NOx, NMVOCs (non-methane volatile organic compounds) and SO2 relative to the reference emissions. In the other regions, the maximum changes occur in April, with average reductions of 20 %–30 % for NOx, NMVOCs and CO in Europe and North America and larger decreases (30 %–50 %) in South America. In India and African regions, NOx and NMVOC emissions are reduced on average by 15 %–30 %. For the other species, the maximum reductions are generally less than 15 %, except in South America, where large decreases in CO and BC (black carbon) are estimated. As discussed in the paper, reductions vary highly across regions and sectors due to the differences in the duration of the lockdowns before partial or complete recovery.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

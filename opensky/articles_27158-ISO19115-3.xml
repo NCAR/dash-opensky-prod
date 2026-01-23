@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:27158</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:52:59.684812</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:35:49.401385</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Molina, Maria</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8539-8916"
+                                    xlink:title="Molina, Maria"
+                                    xlink:actuate="onRequest">Molina, Maria</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richter, Jadwiga H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7048-0781"
+                                    xlink:title="Richter, Jadwiga H."
+                                    xlink:actuate="onRequest">Richter, Jadwiga H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Glanville, Anne A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5487-1229"
+                                    xlink:title="Glanville, Anne A."
+                                    xlink:actuate="onRequest">Glanville, Anne A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dagon, Katherine</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4518-8225"
+                                    xlink:title="Dagon, Katherine"
+                                    xlink:actuate="onRequest">Dagon, Katherine</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +166,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Berner, Judith</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2168-0431"
+                                    xlink:title="Berner, Judith"
+                                    xlink:actuate="onRequest">Berner, Judith</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hu, Aixue</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1337-287X"
+                                    xlink:title="Hu, Aixue"
+                                    xlink:actuate="onRequest">Hu, Aixue</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Meehl, Gerald A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8760-9534"
+                                    xlink:title="Meehl, Gerald A."
+                                    xlink:actuate="onRequest">Meehl, Gerald A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +212,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study focuses on assessing the representation and predictability of North American weather regimes, which are persistent large-scale atmospheric patterns, in a set of initialized subseasonal reforecasts created using the Community Earth System Model, version 2 (CESM2). The k-means clustering was used to extract four key North American (10&#xb0;&#x2013;70&#xb0;N, 150&#xb0;&#x2013;40&#xb0;W) weather regimes within ERA5 reanalysis, which were used to interpret CESM2 subseasonal forecast performance. Results show that CESM2 can recreate the climatology of the four main North American weather regimes with skill but exhibits biases during later lead times with overoccurrence of the West Coast high regime and underoccurrence of the Greenland high and Alaskan ridge regimes. Overall, the West Coast high and Pacific trough regimes exhibited higher predictability within CESM2, partly related to El Ni&#xf1;o. Despite biases, several reforecasts were skillful and exhibited high predictability during later lead times, which could be partly attributed to skillful representation of the atmosphere from the tropics to extratropics upstream of North America. The high predictability at the subseasonal time scale of these case-study examples was manifested as an "ensemble realignment," in which most ensemble members agreed on a prediction despite ensemble trajectory dispersion during earlier lead times. Weather regimes were also shown to project distinct temperature and precipitation anomalies across North America that largely agree with observational products. This study further demonstrates that unsupervised learning methods can be used to uncover sources and limits of subseasonal predictability, along with systematic biases present in numerical prediction systems.</gco:CharacterString>
+            <gco:CharacterString>This study focuses on assessing the representation and predictability of North American weather regimes, which are persistent large-scale atmospheric patterns, in a set of initialized subseasonal reforecasts created using the Community Earth System Model, version 2 (CESM2). The k-means clustering was used to extract four key North American (10°–70°N, 150°–40°W) weather regimes within ERA5 reanalysis, which were used to interpret CESM2 subseasonal forecast performance. Results show that CESM2 can recreate the climatology of the four main North American weather regimes with skill but exhibits biases during later lead times with overoccurrence of the West Coast high regime and underoccurrence of the Greenland high and Alaskan ridge regimes. Overall, the West Coast high and Pacific trough regimes exhibited higher predictability within CESM2, partly related to El Niño. Despite biases, several reforecasts were skillful and exhibited high predictability during later lead times, which could be partly attributed to skillful representation of the atmosphere from the tropics to extratropics upstream of North America. The high predictability at the subseasonal time scale of these case-study examples was manifested as an "ensemble realignment," in which most ensemble members agreed on a prediction despite ensemble trajectory dispersion during earlier lead times. Weather regimes were also shown to project distinct temperature and precipitation anomalies across North America that largely agree with observational products. This study further demonstrates that unsupervised learning methods can be used to uncover sources and limits of subseasonal predictability, along with systematic biases present in numerical prediction systems.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

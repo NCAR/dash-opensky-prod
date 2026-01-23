@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16959</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:15.821642</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:03:48.562052</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Madronich, Sasha</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0983-1313"
+                                    xlink:title="Madronich, Sasha"
+                                    xlink:actuate="onRequest">Madronich, Sasha</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tyndall, Geoffrey S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0695-5241"
+                                    xlink:title="Tyndall, Geoffrey S."
+                                    xlink:actuate="onRequest">Tyndall, Geoffrey S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee-Taylor, Julia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0989-1113"
+                                    xlink:title="Lee-Taylor, Julia"
+                                    xlink:actuate="onRequest">Lee-Taylor, Julia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +196,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orlando, John J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2879-0844"
+                                    xlink:title="Orlando, John J."
+                                    xlink:actuate="onRequest">Orlando, John J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study presents the first modeling estimates of the potential effect of gas-and particle-phase organic photolysis reactions on the formation and lifetime of secondary organic aerosols (SOAs). Typically only photolysis of smaller organic molecules (e.g., formaldehyde) for which explicit data exist is included in chemistry-climate models. Here, we specifically examine the photolysis of larger molecules that actively partition between the gas and particle phases. The chemical mechanism generator GECKO-A is used to explicitly model SOA formation from &#x3b1;-pinene, toluene, and C&#x2081;&#x2082; and C&#x2081;&#x2086; n-alkane reactions with OH at low and high NOx. Simulations are conducted for typical mid-latitude conditions and a solar zenith angle of 45&#xb0; (permanent daylight). The results show that after 4 days of chemical aging under those conditions (equivalent to 8 days in the summer mid-latitudes), gas-phase photolysis leads to a moderate decrease in SOA yields, i.e., ~15 % (low NOx) to ~45 % (high NOx) for &#x3b1;-pinene, ~15 % for toluene, ~25 % for C&#x2081;&#x2082; n-alkane, and ~10 % for C&#x2081;&#x2086; n-alkane. The small effect of gas-phase photolysis on low-volatility n-alkanes such as C&#x2081;&#x2086; n-alkane is due to the rapid partitioning of early-generation products to the particle phase, where they are protected from gas-phase photolysis. Minor changes are found in the volatility distribution of organic products and in oxygen to carbon ratios. The decrease in SOA mass is increasingly more important after a day of chemical processing, suggesting that most laboratory experiments are likely too short to quantify the effect of gas-phase photolysis on SOA yields. Our results also suggest that many molecules containing chromophores are preferentially partitioned into the particle phase before they can be photolyzed in the gas phase. Given the growing experimental evidence that these molecules can undergo in-particle photolysis, we performed sensitivity simulations using an empirically estimated SOA photolysis rate of JSOA = 4 &#xd7; 10&#x207b;&#x2074; JNO&#x2082;. Modeling results indicate that this photolytic loss rate would decrease SOA mass by 40-60 % for most species after 10 days of equivalent atmospheric aging at mid-latitudes in the summer. It should be noted that in our simulations we do not consider in-particle or aqueous-phase reactions which could modify the chemical composition of the particle and thus the quantity of photolabile species. The atmospheric implications of our results are significant for both the SOA global distribution and lifetime. GEOS-Chem global model results suggest that particle-phase photolytic reactions could be an important loss process for SOA in the atmosphere, removing aerosols from the troposphere on timescales of less than 7 days that are comparable to wet deposition.</gco:CharacterString>
+            <gco:CharacterString>This study presents the first modeling estimates of the potential effect of gas-and particle-phase organic photolysis reactions on the formation and lifetime of secondary organic aerosols (SOAs). Typically only photolysis of smaller organic molecules (e.g., formaldehyde) for which explicit data exist is included in chemistry-climate models. Here, we specifically examine the photolysis of larger molecules that actively partition between the gas and particle phases. The chemical mechanism generator GECKO-A is used to explicitly model SOA formation from α-pinene, toluene, and C₁₂ and C₁₆ n-alkane reactions with OH at low and high NOx. Simulations are conducted for typical mid-latitude conditions and a solar zenith angle of 45° (permanent daylight). The results show that after 4 days of chemical aging under those conditions (equivalent to 8 days in the summer mid-latitudes), gas-phase photolysis leads to a moderate decrease in SOA yields, i.e., ~15 % (low NOx) to ~45 % (high NOx) for α-pinene, ~15 % for toluene, ~25 % for C₁₂ n-alkane, and ~10 % for C₁₆ n-alkane. The small effect of gas-phase photolysis on low-volatility n-alkanes such as C₁₆ n-alkane is due to the rapid partitioning of early-generation products to the particle phase, where they are protected from gas-phase photolysis. Minor changes are found in the volatility distribution of organic products and in oxygen to carbon ratios. The decrease in SOA mass is increasingly more important after a day of chemical processing, suggesting that most laboratory experiments are likely too short to quantify the effect of gas-phase photolysis on SOA yields. Our results also suggest that many molecules containing chromophores are preferentially partitioned into the particle phase before they can be photolyzed in the gas phase. Given the growing experimental evidence that these molecules can undergo in-particle photolysis, we performed sensitivity simulations using an empirically estimated SOA photolysis rate of JSOA = 4 × 10⁻⁴ JNO₂. Modeling results indicate that this photolytic loss rate would decrease SOA mass by 40-60 % for most species after 10 days of equivalent atmospheric aging at mid-latitudes in the summer. It should be noted that in our simulations we do not consider in-particle or aqueous-phase reactions which could modify the chemical composition of the particle and thus the quantity of photolabile species. The atmospheric implications of our results are significant for both the SOA global distribution and lifetime. GEOS-Chem global model results suggest that particle-phase photolytic reactions could be an important loss process for SOA in the atmosphere, removing aerosols from the troposphere on timescales of less than 7 days that are comparable to wet deposition.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

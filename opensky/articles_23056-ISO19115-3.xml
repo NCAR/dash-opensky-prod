@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23056</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:22:49.015017</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:19:05.238772</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fried, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5230-3527"
+                                    xlink:title="Fried, Alan"
+                                    xlink:actuate="onRequest">Fried, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +252,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We examine O3 production and its sensitivity to precursor gases and boundary layer mixing in Korea by using a 3-D global chemistry transport model and extensive observations during the KORea-US cooperative Air Quality field study in Korea, which occurred in May&#x2013;June 2016. During the campaign, observed aromatic species onboard the NASA DC-8 aircraft, especially toluene, showed high mixing ratios of up to 10 ppbv, emphasizing the importance of aromatic chemistry in O3 production. To examine the role of VOCs and NOx in O3 chemistry, we first implement a detailed aromatic chemistry scheme in the model, which reduces the normalized mean bias of simulated O3 mixing ratios from &#x2013;26% to &#x2013;13%. Aromatic chemistry also increases the average net O3 production in Korea by 37%. Corrections of daytime PBL heights, which are overestimated in the model compared to lidar observations, increase the net O3 production rate by ~10%. In addition, increasing NOx emissions by 50% in the model shows best performance in reproducing O3 production characteristics, which implies that NOx emissions are underestimated in the current emissions inventory. Sensitivity tests show that a 30% decrease in anthropogenic NOx emissions in Korea increases the O3 production efficiency throughout the country, making rural regions ~2 times more efficient in producing O3 per NOx consumed. Simulated O3 levels overall decrease in the peninsula except for urban and other industrial areas, with the largest increase (~6 ppbv) in the Seoul Metropolitan Area (SMA). However, with simultaneous reductions in both NOx and VOCs emissions by 30%, O3 decreases in most of the country, including the SMA. This implies the importance of concurrent emission reductions for both NOx and VOCs in order to effectively reduce O3 levels in Korea.</gco:CharacterString>
+            <gco:CharacterString>We examine O3 production and its sensitivity to precursor gases and boundary layer mixing in Korea by using a 3-D global chemistry transport model and extensive observations during the KORea-US cooperative Air Quality field study in Korea, which occurred in May–June 2016. During the campaign, observed aromatic species onboard the NASA DC-8 aircraft, especially toluene, showed high mixing ratios of up to 10 ppbv, emphasizing the importance of aromatic chemistry in O3 production. To examine the role of VOCs and NOx in O3 chemistry, we first implement a detailed aromatic chemistry scheme in the model, which reduces the normalized mean bias of simulated O3 mixing ratios from –26% to –13%. Aromatic chemistry also increases the average net O3 production in Korea by 37%. Corrections of daytime PBL heights, which are overestimated in the model compared to lidar observations, increase the net O3 production rate by ~10%. In addition, increasing NOx emissions by 50% in the model shows best performance in reproducing O3 production characteristics, which implies that NOx emissions are underestimated in the current emissions inventory. Sensitivity tests show that a 30% decrease in anthropogenic NOx emissions in Korea increases the O3 production efficiency throughout the country, making rural regions ~2 times more efficient in producing O3 per NOx consumed. Simulated O3 levels overall decrease in the peninsula except for urban and other industrial areas, with the largest increase (~6 ppbv) in the Seoul Metropolitan Area (SMA). However, with simultaneous reductions in both NOx and VOCs emissions by 30%, O3 decreases in most of the country, including the SMA. This implies the importance of concurrent emission reductions for both NOx and VOCs in order to effectively reduce O3 levels in Korea.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

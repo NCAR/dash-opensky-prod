@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18092</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:52:05.982893</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:57:17.997236</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Jing</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6584-0647"
+                                    xlink:title="Liu, Jing"
+                                    xlink:actuate="onRequest">Liu, Jing</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burns, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6024-0020"
+                                    xlink:title="Burns, Alan"
+                                    xlink:actuate="onRequest">Burns, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +204,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ionospheric F&#x2082; region peak densities (NmF2) are expected to have a positive correlation with total electron content (TEC), and electron densities usually show an anticorrelation with electron temperatures near the ionospheric F&#x2082; peak. However, during the 17 March 2015 great storm, the observed TEC, NmF2, and electron temperatures of the storm-enhanced density (SED) over Millstone Hill (42.6&#xb0;N, 71.5&#xb0;W, 72&#xb0; dip angle) show a quiet different picture. Compared with the quiet time ionosphere, TEC, the F&#x2082; region electron density peak height (hmF2), and electron temperatures above ~220&#x2009;km increased, but NmF2 decreased significantly within the SED. This SED occurred where there was a negative ionospheric storm effect near the F&#x2082; peak and below it, but a positive storm effect in the topside ionosphere. Thus, this SED event was a SED in TEC but not in NmF2. The very low ionospheric densities below the F&#x2082; peak resulted in a much reduced downward heat conduction for the electrons, trapping the heat in the topside in the presence of heat source above. This, in turn, increased the topside scale height so that even though electron densities at the F&#x2082; peak were depleted, TEC increased in the SED. The depletion in NmF2 was probably caused by an increase in the density of the molecular neutrals, resulting in enhanced recombination. In addition, the storm time topside ionospheric electron density profiles were much closer to diffusive equilibrium than the nonstorm time profiles, indicating less daytime plasma flow between the ionosphere and the plasmasphere.</gco:CharacterString>
+            <gco:CharacterString>Ionospheric F₂ region peak densities (NmF2) are expected to have a positive correlation with total electron content (TEC), and electron densities usually show an anticorrelation with electron temperatures near the ionospheric F₂ peak. However, during the 17 March 2015 great storm, the observed TEC, NmF2, and electron temperatures of the storm-enhanced density (SED) over Millstone Hill (42.6°N, 71.5°W, 72° dip angle) show a quiet different picture. Compared with the quiet time ionosphere, TEC, the F₂ region electron density peak height (hmF2), and electron temperatures above ~220 km increased, but NmF2 decreased significantly within the SED. This SED occurred where there was a negative ionospheric storm effect near the F₂ peak and below it, but a positive storm effect in the topside ionosphere. Thus, this SED event was a SED in TEC but not in NmF2. The very low ionospheric densities below the F₂ peak resulted in a much reduced downward heat conduction for the electrons, trapping the heat in the topside in the presence of heat source above. This, in turn, increased the topside scale height so that even though electron densities at the F₂ peak were depleted, TEC increased in the SED. The depletion in NmF2 was probably caused by an increase in the density of the molecular neutrals, resulting in enhanced recombination. In addition, the storm time topside ionospheric electron density profiles were much closer to diffusive equilibrium than the nonstorm time profiles, indicating less daytime plasma flow between the ionosphere and the plasmasphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

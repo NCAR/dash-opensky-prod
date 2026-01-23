@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6331</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:19.089445</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:25:00.162167</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -247,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fried, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5230-3527"
+                                    xlink:title="Fried, Alan"
+                                    xlink:actuate="onRequest">Fried, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>OH and HO&#x2082; were measured with the Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS) as part of a large measurement suite from the NASA DC-8 aircraft during the Intercontinental Chemical Transport Experiment-A (INTEX-A). This mission, which was conducted mainly over North America and the western Atlantic Ocean in summer 2004, was an excellent test of atmospheric oxidation chemistry. The HOx results from INTEX-A are compared to those from previous campaigns and to results for other related measurements from INTEX-A. Throughout the troposphere, observed OH was generally 0.95 of modeled OH; below 8 km, observed HO&#x2082; was generally 1.20 of modeled HO&#x2082;. This observed-to-modeled comparison is similar to that for TRACE-P, another midlatitude study for which the median observed-to-modeled ratio was 1.08 for OH and 1.34 for HO&#x2082;, and to that for PEM-TB, a tropical study for which the median observed-to-modeled ratio was 1.17 for OH and 0.97 for HO&#x2082;. HO&#x2082; behavior above 8 km was markedly different. The observed-to-modeled HO&#x2082; ratio increased from ~1.2 at 8 km to ~3 at 11 km with the observed-to-modeled ratio correlating with NO. Above 8 km, the observed-to-modeled HO&#x2082; and observed NO were both considerably greater than observations from previous campaigns. In addition, the observed-to-modeled HO&#x2082;/OH, which is sensitive to cycling reactions between OH and HO&#x2082;, increased from ~1.5 at 8 km to almost 3.5 at 11 km. These discrepancies suggest a large unknown HOx source and additional reactants that cycle HOx from OH to HO&#x2082;. In the continental planetary boundary layer, the observed-to-modeled OH ratio increased from 1 when isoprene was less than 0.1 ppbv to over 4 when isoprene was greater than 2 ppbv, suggesting that forests throughout the United States are emitting unknown HOx sources. Progress in resolving these discrepancies requires a focused research activity devoted to further examination of possible unknown OH sinks and HOx sources.</gco:CharacterString>
+            <gco:CharacterString>OH and HO₂ were measured with the Airborne Tropospheric Hydrogen Oxides Sensor (ATHOS) as part of a large measurement suite from the NASA DC-8 aircraft during the Intercontinental Chemical Transport Experiment-A (INTEX-A). This mission, which was conducted mainly over North America and the western Atlantic Ocean in summer 2004, was an excellent test of atmospheric oxidation chemistry. The HOx results from INTEX-A are compared to those from previous campaigns and to results for other related measurements from INTEX-A. Throughout the troposphere, observed OH was generally 0.95 of modeled OH; below 8 km, observed HO₂ was generally 1.20 of modeled HO₂. This observed-to-modeled comparison is similar to that for TRACE-P, another midlatitude study for which the median observed-to-modeled ratio was 1.08 for OH and 1.34 for HO₂, and to that for PEM-TB, a tropical study for which the median observed-to-modeled ratio was 1.17 for OH and 0.97 for HO₂. HO₂ behavior above 8 km was markedly different. The observed-to-modeled HO₂ ratio increased from ~1.2 at 8 km to ~3 at 11 km with the observed-to-modeled ratio correlating with NO. Above 8 km, the observed-to-modeled HO₂ and observed NO were both considerably greater than observations from previous campaigns. In addition, the observed-to-modeled HO₂/OH, which is sensitive to cycling reactions between OH and HO₂, increased from ~1.5 at 8 km to almost 3.5 at 11 km. These discrepancies suggest a large unknown HOx source and additional reactants that cycle HOx from OH to HO₂. In the continental planetary boundary layer, the observed-to-modeled OH ratio increased from 1 when isoprene was less than 0.1 ppbv to over 4 when isoprene was greater than 2 ppbv, suggesting that forests throughout the United States are emitting unknown HOx sources. Progress in resolving these discrepancies requires a focused research activity devoted to further examination of possible unknown OH sinks and HOx sources.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

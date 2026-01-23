@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:19443</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:52:32.565267</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:37:53.550157</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -317,7 +318,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bardeen, Charles</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5330-2788"
+                                    xlink:title="Bardeen, Charles"
+                                    xlink:actuate="onRequest">Bardeen, Charles</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +480,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The February&#x2013;March 2014 deployment of the National Aeronautics and Space Administration (NASA) Airborne Tropical Tropopause Experiment (ATTREX) provided unique in situ measurements in the western Pacific tropical tropopause layer (TTL). Six flights were conducted from Guam with the long-range, high-altitude, unmanned Global Hawk aircraft. The ATTREX Global Hawk payload provided measurements of water vapor, meteorological conditions, cloud properties, tracer and chemical radical concentrations, and radiative fluxes. The campaign was partially coincident with the Convective Transport of Active Species in the Tropics (CONTRAST) and the Coordinated Airborne Studies in the Tropics (CAST) airborne campaigns based in Guam using lower-altitude aircraft (see companion articles in this issue). The ATTREX dataset is being used for investigations of TTL cloud, transport, dynamical, and chemical processes, as well as for evaluation and improvement of global-model representations of TTL processes.</gco:CharacterString>
+            <gco:CharacterString>The February–March 2014 deployment of the National Aeronautics and Space Administration (NASA) Airborne Tropical Tropopause Experiment (ATTREX) provided unique in situ measurements in the western Pacific tropical tropopause layer (TTL). Six flights were conducted from Guam with the long-range, high-altitude, unmanned Global Hawk aircraft. The ATTREX Global Hawk payload provided measurements of water vapor, meteorological conditions, cloud properties, tracer and chemical radical concentrations, and radiative fluxes. The campaign was partially coincident with the Convective Transport of Active Species in the Tropics (CONTRAST) and the Coordinated Airborne Studies in the Tropics (CAST) airborne campaigns based in Guam using lower-altitude aircraft (see companion articles in this issue). The ATTREX dataset is being used for investigations of TTL cloud, transport, dynamical, and chemical processes, as well as for evaluation and improvement of global-model representations of TTL processes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

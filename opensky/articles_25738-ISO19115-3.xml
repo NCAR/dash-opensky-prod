@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25738</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:59:40.165927</gco:DateTime>
+      <gco:DateTime>2025-12-24T20:04:02.648894</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                   <gco:CharacterString>Related Dataset #3</gco:CharacterString>
                </gmd:name>
                <gmd:description>
-                  <gco:CharacterString>Raw files for broadband and spectral albedo measurements of the sea ice surface during the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) campaign in the Central Arctic Ocean, April &#x2013; September 2020</gco:CharacterString>
+                  <gco:CharacterString>Raw files for broadband and spectral albedo measurements of the sea ice surface during the Multidisciplinary drifting Observatory for the Study of Arctic Climate (MOSAiC) campaign in the Central Arctic Ocean, April – September 2020</gco:CharacterString>
                </gmd:description>
             </gmd:CI_OnlineResource>
          </gmd:extensionOnLineResource>
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Clemens-Sewall, D.</gco:CharacterString>
+                        <gco:CharacterString>Clemens-Sewall, David</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Holland, Marika M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5621-8939"
+                                    xlink:title="Holland, Marika M."
+                                    xlink:actuate="onRequest">Holland, Marika M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Vertical heat conduction through young ice is a major source of wintertime sea ice growth in the Arctic. However, field observations indicate that young ice preferentially accumulates wind-blown snow, resulting in greater snow thickness on young ice than would be expected from precipitation alone, and hence greater snow thickness on young ice than climate models represent. As snow has a low thermal conductivity, this additional snow thickness due to redistribution will reduce the actual heat conduction. We present new observations from the Multidisciplinary drifting Observatory for the Study of Arctic Climate Expedition which show that young ice rapidly accumulates a snow thickness of 2.5&#x2013;8 cm, when wind-blown snow is available from the nearby mature ice. By applying a simple redistribution scheme and heat flux model to simulated conditions from the Community Earth System Model 2.0, we suggest that neglecting this snow redistribution onto young ice could result in the potential overestimation of conductive heat flux&#x2014;and hence ice growth rates&#x2014;by 3&#x2013;8% on average in the Arctic in the winter in the absence of climate feedbacks. The impacts of snow redistribution are highest in the springtime and in coastal regions.</gco:CharacterString>
+            <gco:CharacterString>Vertical heat conduction through young ice is a major source of wintertime sea ice growth in the Arctic. However, field observations indicate that young ice preferentially accumulates wind-blown snow, resulting in greater snow thickness on young ice than would be expected from precipitation alone, and hence greater snow thickness on young ice than climate models represent. As snow has a low thermal conductivity, this additional snow thickness due to redistribution will reduce the actual heat conduction. We present new observations from the Multidisciplinary drifting Observatory for the Study of Arctic Climate Expedition which show that young ice rapidly accumulates a snow thickness of 2.5–8 cm, when wind-blown snow is available from the nearby mature ice. By applying a simple redistribution scheme and heat flux model to simulated conditions from the Community Earth System Model 2.0, we suggest that neglecting this snow redistribution onto young ice could result in the potential overestimation of conductive heat flux—and hence ice growth rates—by 3–8% on average in the Arctic in the winter in the absence of climate feedbacks. The impacts of snow redistribution are highest in the springtime and in coastal regions.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

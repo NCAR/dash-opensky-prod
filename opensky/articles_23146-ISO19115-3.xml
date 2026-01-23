@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23146</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:21:49.108313</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:16:33.277046</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A large number of studies have shown that equatorial plasma bubbles (EPBs) occur mainly after sunset, and they usually drift eastward. However, in this paper, an unusual EPB event was simultaneously observed by an all-sky imager and the global navigation satellite system (GNSS) network in southern China, during the recovery phase of a geomagnetic storm that happened on 6&#x2013;8 November 2015. Observations from both techniques show that the EPBs appeared near dawn. Interestingly, the observational results show that the EPBs continued to develop after sunrise, and they disappeared about 1&#x2009;h after sunrise. The development stage of EPBs lasted for at least about 3&#x2009;h. To our knowledge, this is the first time that the evolution of EPBs developing around sunrise was observed by an all-sky imager and the GNSS network. Our observation showed that the EPBs drifted westward, which was different from the usual eastward drifts of post-sunset EPBs. The simulation from the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIE-GCM) suggest that the westward drift of EPBs should be related to the enhanced westward winds at storm time. Besides this, bifurcation and merging processes of EPBs were observed by the all-sky imager in the event. Associated with the development of EPBs, an increase in the peak height of the ionospheric F region was also observed near sunrise, and we suggest the enhanced upward vertical plasma drift during the geomagnetic storm plays a major role in triggering the EPBs near sunrise.</gco:CharacterString>
+            <gco:CharacterString>A large number of studies have shown that equatorial plasma bubbles (EPBs) occur mainly after sunset, and they usually drift eastward. However, in this paper, an unusual EPB event was simultaneously observed by an all-sky imager and the global navigation satellite system (GNSS) network in southern China, during the recovery phase of a geomagnetic storm that happened on 6–8 November 2015. Observations from both techniques show that the EPBs appeared near dawn. Interestingly, the observational results show that the EPBs continued to develop after sunrise, and they disappeared about 1 h after sunrise. The development stage of EPBs lasted for at least about 3 h. To our knowledge, this is the first time that the evolution of EPBs developing around sunrise was observed by an all-sky imager and the GNSS network. Our observation showed that the EPBs drifted westward, which was different from the usual eastward drifts of post-sunset EPBs. The simulation from the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIE-GCM) suggest that the westward drift of EPBs should be related to the enhanced westward winds at storm time. Besides this, bifurcation and merging processes of EPBs were observed by the all-sky imager in the event. Associated with the development of EPBs, an increase in the peak height of the ionospheric F region was also observed near sunrise, and we suggest the enhanced upward vertical plasma drift during the geomagnetic storm plays a major role in triggering the EPBs near sunrise.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

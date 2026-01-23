@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18212</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:15:46.802241</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:38:53.299005</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -327,7 +328,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Le Qu&#xe9;r&#xe9;, C.</gco:CharacterString>
+                        <gco:CharacterString>Le Quéré, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -607,7 +610,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Methane is an important greenhouse gas, responsible for about 20% of the warming induced by long-lived greenhouse gases since pre-industrial times. By reacting with hydroxyl radicals, methane reduces the oxidizing capacity of the atmosphere and generates ozone in the troposphere. Although most sources and sinks of methane have been identified, their relative contributions to atmospheric methane levels are highly uncertain. As such, the factors responsible for the observed stabilization of atmospheric methane levels in the early 2000s, and the renewed rise after 2006, remain unclear. Here, we construct decadal budgets for methane sources and sinks between 1980 and 2010, using a combination of atmospheric measurements and results from chemical transport models, ecosystem models, climate chemistry models and inventories of anthropogenic emissions. The resultant budgets suggest that data-driven approaches and ecosystem models overestimate total natural emissions. We build three contrasting emission scenarios &#x2014; which differ in fossil fuel and microbial emissions &#x2014; to explain the decadal variability in atmospheric methane levels detected, here and in previous studies, since 1985. Although uncertainties in emission trends do not allow definitive conclusions to be drawn, we show that the observed stabilization of methane levels between 1999 and 2006 can potentially be explained by decreasing-to-stable fossil fuel emissions, combined with stable-to-increasing microbial emissions. We show that a rise in natural wetland emissions and fossil fuel emissions probably accounts for the renewed increase in global methane levels after 2006, although the relative contribution of these two sources remains uncertain.</gco:CharacterString>
+            <gco:CharacterString>Methane is an important greenhouse gas, responsible for about 20% of the warming induced by long-lived greenhouse gases since pre-industrial times. By reacting with hydroxyl radicals, methane reduces the oxidizing capacity of the atmosphere and generates ozone in the troposphere. Although most sources and sinks of methane have been identified, their relative contributions to atmospheric methane levels are highly uncertain. As such, the factors responsible for the observed stabilization of atmospheric methane levels in the early 2000s, and the renewed rise after 2006, remain unclear. Here, we construct decadal budgets for methane sources and sinks between 1980 and 2010, using a combination of atmospheric measurements and results from chemical transport models, ecosystem models, climate chemistry models and inventories of anthropogenic emissions. The resultant budgets suggest that data-driven approaches and ecosystem models overestimate total natural emissions. We build three contrasting emission scenarios — which differ in fossil fuel and microbial emissions — to explain the decadal variability in atmospheric methane levels detected, here and in previous studies, since 1985. Although uncertainties in emission trends do not allow definitive conclusions to be drawn, we show that the observed stabilization of methane levels between 1999 and 2006 can potentially be explained by decreasing-to-stable fossil fuel emissions, combined with stable-to-increasing microbial emissions. We show that a rise in natural wetland emissions and fossil fuel emissions probably accounts for the renewed increase in global methane levels after 2006, although the relative contribution of these two sources remains uncertain.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

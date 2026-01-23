@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16883</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:00.159763</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:02:51.416300</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For ensemble-based data assimilation, localization is used to limit the impact of observations on physically distant state variables to reduce spurious error correlations caused by limited ensemble size. Traditionally, the localization value applied is spatially homogeneous. Yet there are potentially larger errors and different covariance length scales in precipitation systems, and that may justify the use of different localization functions for precipitating and nonprecipitating regions. Here this is examined using empirical localization functions (ELFs). Using output from an ensemble observing system simulation experiment (OSSE), ELFs provide estimates of horizontal and vertical localization for different observation types in regions with and without precipitation. For temperature and u- and &#x3c5;-wind observations, the ELFs for precipitating regions are shown to have smaller horizontal localization scales than for nonprecipitating regions. However, the ELFs for precipitating regions generally have larger vertical localization scales than for nonprecipitating regions. The ELFs are smoothed and then applied in three additional OSSEs. Spatially homogeneous ELFs are found to improve performance relative to a commonly used localization function with compact support. When different ELFs are applied in precipitating and nonprecipitating regions, performance is further improved, but varying ELFs by observation type was not found to be as important. Imbalance in initial states caused by use of different localization functions is diagnosed by the domain-averaged surface pressure tendency. Forecasts from analyses with ELFs have smaller surface pressure tendencies than the standard localization, indicating improved initial balance with ELFs.</gco:CharacterString>
+            <gco:CharacterString>For ensemble-based data assimilation, localization is used to limit the impact of observations on physically distant state variables to reduce spurious error correlations caused by limited ensemble size. Traditionally, the localization value applied is spatially homogeneous. Yet there are potentially larger errors and different covariance length scales in precipitation systems, and that may justify the use of different localization functions for precipitating and nonprecipitating regions. Here this is examined using empirical localization functions (ELFs). Using output from an ensemble observing system simulation experiment (OSSE), ELFs provide estimates of horizontal and vertical localization for different observation types in regions with and without precipitation. For temperature and u- and υ-wind observations, the ELFs for precipitating regions are shown to have smaller horizontal localization scales than for nonprecipitating regions. However, the ELFs for precipitating regions generally have larger vertical localization scales than for nonprecipitating regions. The ELFs are smoothed and then applied in three additional OSSEs. Spatially homogeneous ELFs are found to improve performance relative to a commonly used localization function with compact support. When different ELFs are applied in precipitating and nonprecipitating regions, performance is further improved, but varying ELFs by observation type was not found to be as important. Imbalance in initial states caused by use of different localization functions is diagnosed by the domain-averaged surface pressure tendency. Forecasts from analyses with ELFs have smaller surface pressure tendencies than the standard localization, indicating improved initial balance with ELFs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

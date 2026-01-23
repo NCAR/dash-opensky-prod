@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6695</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:38.056516</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:37:59.461465</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Heymsfield, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4107-7533"
+                                    xlink:title="Heymsfield, Andrew J."
+                                    xlink:actuate="onRequest">Heymsfield, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bansemer, Aaron R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3714-1099"
+                                    xlink:title="Bansemer, Aaron R."
+                                    xlink:actuate="onRequest">Bansemer, Aaron R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This two-part study attempts to find appropriate mass dimension and terminal velocity relationships that, when considered together with particle size distributions (PSD), agree with coincident measurements of ice water content (IWC), and with variables related to higher moments such as the mean mass-weighted fall speed. Reliable relationships are required for improving microphysical parameterizations for weather forecast models and developing methods for evaluating them, subjects addressed in detail in Part II of this study. Here, a range of values from 1.5 to 2.3 is assumed for the exponent b in the mass dimension relationship, m = aD b, where D is the maximum particle dimension, to bound its likely value for sizes above about 100 &#x3bc;m. Measured IWC and size spectra are used to find appropriate values for the coefficient a. It is demonstrated that all values of the exponent b, with appropriate a coefficients, can fit the IWC measurements. Coincident information on particle cross-sectional areas with the m(D) relationships is used to develop general fall velocity relationships of the form Vt = AD B. These assessments use five midlatitude, synoptically generated ice layers, and 10 low-latitude, convectively generated ice cloud layers, spanning the temperature range from -60&#xb0; to 0&#xb0;C. The coefficients a and A and exponent B are represented in terms of the exponent b and are shown to be temperature-dependent for the synoptic clouds and relatively independent of it in the convective clouds, a result of particle mixing through the cloud column. Consistency is found with earlier results and with analytic considerations. It is found that the fall velocity is inversely proportional to the air density to approximately the exponent 0.54, close to values assumed in earlier studies.</gco:CharacterString>
+            <gco:CharacterString>This two-part study attempts to find appropriate mass dimension and terminal velocity relationships that, when considered together with particle size distributions (PSD), agree with coincident measurements of ice water content (IWC), and with variables related to higher moments such as the mean mass-weighted fall speed. Reliable relationships are required for improving microphysical parameterizations for weather forecast models and developing methods for evaluating them, subjects addressed in detail in Part II of this study. Here, a range of values from 1.5 to 2.3 is assumed for the exponent b in the mass dimension relationship, m = aD b, where D is the maximum particle dimension, to bound its likely value for sizes above about 100 μm. Measured IWC and size spectra are used to find appropriate values for the coefficient a. It is demonstrated that all values of the exponent b, with appropriate a coefficients, can fit the IWC measurements. Coincident information on particle cross-sectional areas with the m(D) relationships is used to develop general fall velocity relationships of the form Vt = AD B. These assessments use five midlatitude, synoptically generated ice layers, and 10 low-latitude, convectively generated ice cloud layers, spanning the temperature range from -60° to 0°C. The coefficients a and A and exponent B are represented in terms of the exponent b and are shown to be temperature-dependent for the synoptic clouds and relatively independent of it in the convective clouds, a result of particle mixing through the cloud column. Consistency is found with earlier results and with analytic considerations. It is found that the fall velocity is inversely proportional to the air density to approximately the exponent 0.54, close to values assumed in earlier studies.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:501</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:34:05.186284</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:58:00.823303</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Richmond, Arthur D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6708-1023"
+                                    xlink:title="Richmond, Arthur D."
+                                    xlink:actuate="onRequest">Richmond, Arthur D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +222,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The ion convection and auroral precipitation are important inputs to the global thermospheric energy and momentum balance. In the NCAR TGCM, they are described by analytical models whose characteristics are specified by three parameters: total polar cap potential drop &#x3a8; IMF By component, and hemispheric power input HP. The characteristics of the ion convection model are determined from electric potential patterns derived from ionospheric electrodynamic mapping on 3 days using incoherent scatter radars, satellites and magnetometers. These characteristics are sorted in By and compared with various models that have been described in the literature. NOAA and DMSP satellite electron precipitation data over 20 days have been averaged to specify the characteristics of the auroral precipitation. The relationship of hemispheric power to other parameters is explored. Finally, a specific period is examined and the parameterization is adjusted to fit the observations. Updates to the parameterizations since 1989 are then described in the section 6 before the Conclusions. All parameterizations, original and 2012 values, are listed along with cross-referenced equation and figure numbers in Table A of Appendix A.</gco:CharacterString>
+            <gco:CharacterString>The ion convection and auroral precipitation are important inputs to the global thermospheric energy and momentum balance. In the NCAR TGCM, they are described by analytical models whose characteristics are specified by three parameters: total polar cap potential drop Ψ IMF By component, and hemispheric power input HP. The characteristics of the ion convection model are determined from electric potential patterns derived from ionospheric electrodynamic mapping on 3 days using incoherent scatter radars, satellites and magnetometers. These characteristics are sorted in By and compared with various models that have been described in the literature. NOAA and DMSP satellite electron precipitation data over 20 days have been averaged to specify the characteristics of the auroral precipitation. The relationship of hemispheric power to other parameters is explored. Finally, a specific period is examined and the parameterization is adjusted to fit the observations. Updates to the parameterizations since 1989 are then described in the section 6 before the Conclusions. All parameterizations, original and 2012 values, are listed along with cross-referenced equation and figure numbers in Table A of Appendix A.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

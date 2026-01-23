@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22051</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:35:04.134726</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:49:38.043590</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>J&#xf6;ckel, P.</gco:CharacterString>
+                        <gco:CharacterString>Jöckel, P.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +332,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ladst&#xe4;dter, F.</gco:CharacterString>
+                        <gco:CharacterString>Ladstädter, F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +472,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Simulated stratospheric temperatures over the period 1979-2016 in models from the Chemistry-Climate Model Initiative are compared with recently updated and extended satellite data sets. The multimodel mean global temperature trends over 1979-2005 are -0.88 &#xb1; 0.23, -0.70 &#xb1; 0.16, and -0.50 &#xb1; 0.12 K/decade for the Stratospheric Sounding Unit (SSU) channels 3 (~40-50 km), 2 (~35-45 km), and 1 (~25-35 km), respectively (with 95% confidence intervals). These are within the uncertainty bounds of the observed temperature trends from two reprocessed SSU data sets. In the lower stratosphere, the multimodel mean trend in global temperature for the Microwave Sounding Unit channel 4 (~13-22 km) is -0.25 &#xb1; 0.12 K/decade over 1979-2005, consistent with observed estimates from three versions of this satellite record. The models and an extended satellite data set comprised of SSU with the Advanced Microwave Sounding Unit-A show weaker global stratospheric cooling over 1998-2016 compared to the period of intensive ozone depletion (1979-1997). This is due to the reduction in ozone-induced cooling from the slowdown of ozone trends and the onset of ozone recovery since the late 1990s. In summary, the results show much better consistency between simulated and satellite-observed stratospheric temperature trends than was reported by Thompson et al. (2012, https://doi-org.cuucar.idm.oclc.org/10.1038/nature11579) for the previous versions of the SSU record and chemistry-climate models. The improved agreement mainly comes from updates to the satellite records; the range of stratospheric temperature trends over 1979-2005 simulated in Chemistry-Climate Model Initiative models is comparable to the previous generation of chemistry-climate models.</gco:CharacterString>
+            <gco:CharacterString>Simulated stratospheric temperatures over the period 1979-2016 in models from the Chemistry-Climate Model Initiative are compared with recently updated and extended satellite data sets. The multimodel mean global temperature trends over 1979-2005 are -0.88 ± 0.23, -0.70 ± 0.16, and -0.50 ± 0.12 K/decade for the Stratospheric Sounding Unit (SSU) channels 3 (~40-50 km), 2 (~35-45 km), and 1 (~25-35 km), respectively (with 95% confidence intervals). These are within the uncertainty bounds of the observed temperature trends from two reprocessed SSU data sets. In the lower stratosphere, the multimodel mean trend in global temperature for the Microwave Sounding Unit channel 4 (~13-22 km) is -0.25 ± 0.12 K/decade over 1979-2005, consistent with observed estimates from three versions of this satellite record. The models and an extended satellite data set comprised of SSU with the Advanced Microwave Sounding Unit-A show weaker global stratospheric cooling over 1998-2016 compared to the period of intensive ozone depletion (1979-1997). This is due to the reduction in ozone-induced cooling from the slowdown of ozone trends and the onset of ozone recovery since the late 1990s. In summary, the results show much better consistency between simulated and satellite-observed stratospheric temperature trends than was reported by Thompson et al. (2012, https://doi-org.cuucar.idm.oclc.org/10.1038/nature11579) for the previous versions of the SSU record and chemistry-climate models. The improved agreement mainly comes from updates to the satellite records; the range of stratospheric temperature trends over 1979-2005 simulated in Chemistry-Climate Model Initiative models is comparable to the previous generation of chemistry-climate models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

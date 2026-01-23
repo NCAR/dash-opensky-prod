@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10238</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:05:27.216288</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:46:23.120537</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Climate-carbon cycle feedback analysis: Results from the C&#x2074;MIP model intercomparison</gco:CharacterString>
+                  <gco:CharacterString>Climate-carbon cycle feedback analysis: Results from the C⁴MIP model intercomparison</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -280,7 +281,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lindsay, Keith</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3672-1665"
+                                    xlink:title="Lindsay, Keith"
+                                    xlink:actuate="onRequest">Lindsay, Keith</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -410,7 +413,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Eleven coupled climate-carbon cycle models used a common protocol to study the coupling between climate change and the carbon cycle. The models were forced by historical emissions and the Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) A2 anthropogenic emissions of CO&#x2082; for the 1850-2100 time period. For each model, two simulations were performed in order to isolate the impact of climate change on the land and ocean carbon cycle, and therefore the climate feedback on the atmospheric CO&#x2082; concentration growth rate. There was unanimous agreement among the models that future climate change will reduce the efficiency of the earth system to absorb the anthropogenic carbon perturbation. A larger fraction of anthropogenic CO&#x2082; will stay airborne if climate change is accounted for. By the end of the twenty-first century, this additional CO&#x2082; varied between 20 and 200 ppm for the two extreme models, the majority of the models lying between 50 and 100 ppm. The higher CO&#x2082; levels led to an additional climate warming ranging between 0.1&#xb0; and 1.5&#xb0;C. All models simulated a negative sensitivity for both the land and the ocean carbon cycle to future climate. However, there was still a large uncertainty on the magnitude of these sensitivities. Eight models attributed most of the changes to the land, while three attributed it to the ocean. Also, a majority of the models located the reduction of land carbon uptake in the Tropics. However, the attribution of the land sensitivity to changes in net primary productivity versus changes in respiration is still subject to debate; no consensus emerged among the models.</gco:CharacterString>
+            <gco:CharacterString>Eleven coupled climate-carbon cycle models used a common protocol to study the coupling between climate change and the carbon cycle. The models were forced by historical emissions and the Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) A2 anthropogenic emissions of CO₂ for the 1850-2100 time period. For each model, two simulations were performed in order to isolate the impact of climate change on the land and ocean carbon cycle, and therefore the climate feedback on the atmospheric CO₂ concentration growth rate. There was unanimous agreement among the models that future climate change will reduce the efficiency of the earth system to absorb the anthropogenic carbon perturbation. A larger fraction of anthropogenic CO₂ will stay airborne if climate change is accounted for. By the end of the twenty-first century, this additional CO₂ varied between 20 and 200 ppm for the two extreme models, the majority of the models lying between 50 and 100 ppm. The higher CO₂ levels led to an additional climate warming ranging between 0.1° and 1.5°C. All models simulated a negative sensitivity for both the land and the ocean carbon cycle to future climate. However, there was still a large uncertainty on the magnitude of these sensitivities. Eight models attributed most of the changes to the land, while three attributed it to the ocean. Also, a majority of the models located the reduction of land carbon uptake in the Tropics. However, the attribution of the land sensitivity to changes in net primary productivity versus changes in respiration is still subject to debate; no consensus emerged among the models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -496,7 +499,7 @@
          <gmd:resourceConstraints>
             <gmd:MD_LegalConstraints>
                <gmd:useLimitation>
-                  <gco:CharacterString>Copyright 2006 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 of the U.S. Copyright Act or that satisfies the conditions specified in Section 108 of the U.S. Copyright Act (17 USC &#xa7;108, as revised by P.L. 94-553) does not require the AMS's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statement, requires written permission or a license form the AMS. Additional details are provided in the AMS Copyright Policy, available on the AMS Web site located at (http://www.ametsoc.org/AMS) or from the AMS at 617-227-2425 or copyright@ametsoc.org.</gco:CharacterString>
+                  <gco:CharacterString>Copyright 2006 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 of the U.S. Copyright Act or that satisfies the conditions specified in Section 108 of the U.S. Copyright Act (17 USC §108, as revised by P.L. 94-553) does not require the AMS's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statement, requires written permission or a license form the AMS. Additional details are provided in the AMS Copyright Policy, available on the AMS Web site located at (http://www.ametsoc.org/AMS) or from the AMS at 617-227-2425 or copyright@ametsoc.org.</gco:CharacterString>
                </gmd:useLimitation>
                <gmd:otherConstraints>
                   <gco:CharacterString>None</gco:CharacterString>

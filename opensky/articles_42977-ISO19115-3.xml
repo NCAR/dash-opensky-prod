@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42977</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:54:26.154622</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:55:26.410727</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tirpitz, J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9346-7758"
+                                    xlink:title="Tirpitz, J."
+                                    xlink:actuate="onRequest">Tirpitz, J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brockway, N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8352-0340"
+                                    xlink:title="Brockway, N."
+                                    xlink:actuate="onRequest">Brockway, N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +336,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Biomass burning (BB) affects air quality and climate by releasing large quantities of gaseous and particulate pollutants into the atmosphere. Photochemical processing during daylight transforms these emissions, influencing their overall environmental impact. Accurately quantifying the photochemical drivers, namely actinic flux and photolysis frequencies, is crucial to constraining this chemistry. However, the complex radiative transfer within BB plumes presents a significant challenge for both direct observations and numerical models. This study introduces an expanded version of the 1D VLIDORT-QS radiative transfer (RT) model, named VLIDORT for photochemistry (VPC). VPC is designed for photochemical and remote sensing applications, particularly in BB plumes and other complex scenarios. To validate VPC and investigate photochemical conditions within BB plumes, the model was used to simulate spatial distributions of actinic fluxes and photolysis frequencies for the Shady wildfire (Idaho, US, 2019) based on plume composition data from the NOAA/NASA FIREX-AQ (Fire Influence on Regional to Global Environments and Air Quality) campaign. Comparison between modeling results and observations by the CAFS (charged-coupled device actinic flux spectroradiometer) yields a modeling accuracy of 10&#x2009;%&#x2013;20&#x2009;%. Systematic biases between the model and observations are within 2&#x2009;%, indicating that the uncertainties are most likely due to variability in the input data caused by the inhomogeneity of the plume as well as 3D RT effects not captured in the model. Random uncertainties are largest in the ultraviolet (UV) spectral range, where they are dominated by uncertainties in the plume particle size distribution and brown carbon (BrC) absorptive properties. The modeled actinic fluxes show a decrease from the plume top to the bottom of the plume with a strong spectral dependence caused by BrC absorption, which darkens the plume towards shorter wavelengths. In the visible (Vis) spectral range, actinic fluxes above the plume are enhanced by up to 60&#x2009;%. In contrast, in the UV, actinic fluxes above the plume are not affected or even reduced by up to 10&#x2009;%. Strong reductions exceeding an order of magnitude in and below the plume occur for both spectral ranges but are more pronounced in the UV.</gco:CharacterString>
+            <gco:CharacterString>Biomass burning (BB) affects air quality and climate by releasing large quantities of gaseous and particulate pollutants into the atmosphere. Photochemical processing during daylight transforms these emissions, influencing their overall environmental impact. Accurately quantifying the photochemical drivers, namely actinic flux and photolysis frequencies, is crucial to constraining this chemistry. However, the complex radiative transfer within BB plumes presents a significant challenge for both direct observations and numerical models. This study introduces an expanded version of the 1D VLIDORT-QS radiative transfer (RT) model, named VLIDORT for photochemistry (VPC). VPC is designed for photochemical and remote sensing applications, particularly in BB plumes and other complex scenarios. To validate VPC and investigate photochemical conditions within BB plumes, the model was used to simulate spatial distributions of actinic fluxes and photolysis frequencies for the Shady wildfire (Idaho, US, 2019) based on plume composition data from the NOAA/NASA FIREX-AQ (Fire Influence on Regional to Global Environments and Air Quality) campaign. Comparison between modeling results and observations by the CAFS (charged-coupled device actinic flux spectroradiometer) yields a modeling accuracy of 10 %–20 %. Systematic biases between the model and observations are within 2 %, indicating that the uncertainties are most likely due to variability in the input data caused by the inhomogeneity of the plume as well as 3D RT effects not captured in the model. Random uncertainties are largest in the ultraviolet (UV) spectral range, where they are dominated by uncertainties in the plume particle size distribution and brown carbon (BrC) absorptive properties. The modeled actinic fluxes show a decrease from the plume top to the bottom of the plume with a strong spectral dependence caused by BrC absorption, which darkens the plume towards shorter wavelengths. In the visible (Vis) spectral range, actinic fluxes above the plume are enhanced by up to 60 %. In contrast, in the UV, actinic fluxes above the plume are not affected or even reduced by up to 10 %. Strong reductions exceeding an order of magnitude in and below the plume occur for both spectral ranges but are more pronounced in the UV.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

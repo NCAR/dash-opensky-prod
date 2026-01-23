@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26701</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:13:07.597598</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:20:30.960668</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Malasala, Murali Nageswara Rao</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7087-6225"
+                                    xlink:title="Malasala, Murali Nageswara Rao"
+                                    xlink:actuate="onRequest">Malasala, Murali Nageswara Rao</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Taiwan is highly susceptible to global warming, experiencing a 1.4 &#xb0;C increase in air temperature from 1911 to 2005, which is twice the average for the Northern Hemisphere. This has potentially led to higher rates of respiratory and cardiovascular mortality. Accurately predicting maximum temperatures during the summer season is crucial, but numerical weather models become less accurate and more uncertain beyond five days. To enhance the reliability of a forecast, post-processing techniques are essential for addressing systematic errors. In September 2020, the NOAA NCEP implemented the Global Ensemble Forecast System version 12 (GEFSv12) to help manage climate risks. This study developed a Hybrid statistical post-processing method that combines Artificial Neural Networks (ANN) and quantile mapping (QQ) approaches to predict daily maximum temperatures (Tmax) and their extremes in Taiwan during the summer season. The Hybrid technique, utilizing deep learning techniques, was applied to the GEFSv12 reforecast data and evaluated against ERA5 reanalysis. The Hybrid technique was the most effective among the three techniques tested. It had the lowest bias and RMSE and the highest correlation coefficient and Index of Agreement. It successfully reduced the warm bias and overestimation of Tmax extreme days. This led to improved prediction skills for all forecast lead times. Compared to ANN and QQ, the Hybrid method proved to be more effective in predicting daily Tmax, including extreme Tmax during summer, on extended-range time-scale deterministic and ensemble probabilistic forecasts over Taiwan.</gco:CharacterString>
+            <gco:CharacterString>Taiwan is highly susceptible to global warming, experiencing a 1.4 °C increase in air temperature from 1911 to 2005, which is twice the average for the Northern Hemisphere. This has potentially led to higher rates of respiratory and cardiovascular mortality. Accurately predicting maximum temperatures during the summer season is crucial, but numerical weather models become less accurate and more uncertain beyond five days. To enhance the reliability of a forecast, post-processing techniques are essential for addressing systematic errors. In September 2020, the NOAA NCEP implemented the Global Ensemble Forecast System version 12 (GEFSv12) to help manage climate risks. This study developed a Hybrid statistical post-processing method that combines Artificial Neural Networks (ANN) and quantile mapping (QQ) approaches to predict daily maximum temperatures (Tmax) and their extremes in Taiwan during the summer season. The Hybrid technique, utilizing deep learning techniques, was applied to the GEFSv12 reforecast data and evaluated against ERA5 reanalysis. The Hybrid technique was the most effective among the three techniques tested. It had the lowest bias and RMSE and the highest correlation coefficient and Index of Agreement. It successfully reduced the warm bias and overestimation of Tmax extreme days. This led to improved prediction skills for all forecast lead times. Compared to ANN and QQ, the Hybrid method proved to be more effective in predicting daily Tmax, including extreme Tmax during summer, on extended-range time-scale deterministic and ensemble probabilistic forecasts over Taiwan.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

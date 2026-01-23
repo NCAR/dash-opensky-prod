@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24561</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:13:42.464675</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:08:24.903693</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -197,7 +198,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Nitrogen oxides (NOx&#x2009;=&#x2009;NO&#x2009;+&#x2009;NO2) play a crucial role in the formation of ozone and secondary inorganic and organic aerosols, thus affecting human health, global radiation budget, and climate. The diurnal and spatial variations in NO2 are functions of emissions, advection, deposition, vertical mixing, and chemistry. Their observations, therefore, provide useful constraints in our understanding of these factors. We employ a Regional chEmical and trAnsport model (REAM) to analyze the observed temporal (diurnal cycles) and spatial distributions of NO2 concentrations and tropospheric vertical column densities (TVCDs) using aircraft in situ measurements and surface EPA Air Quality System (AQS) observations as well as the measurements of TVCDs by satellite instruments (OMI: the Ozone Monitoring Instrument; GOME-2A: Global Ozone Monitoring Experiment &#x2013; 2A), ground-based Pandora, and the Airborne Compact Atmospheric Mapper (ACAM) instrument in July 2011 during the DISCOVER-AQ campaign over the Baltimore&#x2013;Washington region. The model simulations at 36 and 4&#x2009;km resolutions are in reasonably good agreement with the regional mean temporospatial NO2 observations in the daytime. However, we find significant overestimations (underestimations) of model-simulated NO2 (O3) surface concentrations during nighttime, which can be mitigated by enhancing nocturnal vertical mixing in the model. Another discrepancy is that Pandora-measured NO2 TVCDs show much less variation in the late afternoon than simulated in the model. The higher-resolution 4&#x2009;km simulations tend to show larger biases compared to the observations due largely to the larger spatial variations in NOx emissions in the model when the model spatial resolution is increased from 36 to 4&#x2009;km. OMI, GOME-2A, and the high-resolution aircraft ACAM observations show a more dispersed distribution of NO2 vertical column densities (VCDs) and lower VCDs in urban regions than corresponding 36 and 4&#x2009;km model simulations, likely reflecting the spatial distribution bias of NOx emissions in the National Emissions Inventory (NEI) 2011.</gco:CharacterString>
+            <gco:CharacterString>Nitrogen oxides (NOx = NO + NO2) play a crucial role in the formation of ozone and secondary inorganic and organic aerosols, thus affecting human health, global radiation budget, and climate. The diurnal and spatial variations in NO2 are functions of emissions, advection, deposition, vertical mixing, and chemistry. Their observations, therefore, provide useful constraints in our understanding of these factors. We employ a Regional chEmical and trAnsport model (REAM) to analyze the observed temporal (diurnal cycles) and spatial distributions of NO2 concentrations and tropospheric vertical column densities (TVCDs) using aircraft in situ measurements and surface EPA Air Quality System (AQS) observations as well as the measurements of TVCDs by satellite instruments (OMI: the Ozone Monitoring Instrument; GOME-2A: Global Ozone Monitoring Experiment – 2A), ground-based Pandora, and the Airborne Compact Atmospheric Mapper (ACAM) instrument in July 2011 during the DISCOVER-AQ campaign over the Baltimore–Washington region. The model simulations at 36 and 4 km resolutions are in reasonably good agreement with the regional mean temporospatial NO2 observations in the daytime. However, we find significant overestimations (underestimations) of model-simulated NO2 (O3) surface concentrations during nighttime, which can be mitigated by enhancing nocturnal vertical mixing in the model. Another discrepancy is that Pandora-measured NO2 TVCDs show much less variation in the late afternoon than simulated in the model. The higher-resolution 4 km simulations tend to show larger biases compared to the observations due largely to the larger spatial variations in NOx emissions in the model when the model spatial resolution is increased from 36 to 4 km. OMI, GOME-2A, and the high-resolution aircraft ACAM observations show a more dispersed distribution of NO2 vertical column densities (VCDs) and lower VCDs in urban regions than corresponding 36 and 4 km model simulations, likely reflecting the spatial distribution bias of NOx emissions in the National Emissions Inventory (NEI) 2011.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

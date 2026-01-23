@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6533</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:16.832333</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:12:55.017851</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>&#x17d;agar, Nedjeljka</gco:CharacterString>
+                        <gco:CharacterString>Žagar, Nedjeljka</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>&#x17d;agar, M.</gco:CharacterString>
+                        <gco:CharacterString>Žagar, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +158,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kora&#x10d;in, D.</gco:CharacterString>
+                        <gco:CharacterString>Koračin, D.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +178,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Orli&#x107;, M.</gco:CharacterString>
+                        <gco:CharacterString>Orlić, M.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +188,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vilibi&#x107;, I.</gco:CharacterString>
+                        <gco:CharacterString>Vilibić, I.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +198,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dadi&#x107;, V.</gco:CharacterString>
+                        <gco:CharacterString>Dadić, V.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the summertime bora episode of 22 - 25 June 1995, characterized by hazardous weather conditions with strong winds of over 20 m s&#x207b;&#xb9;, two satellite-tracked drifters were present in the Adriatic shelf area. One was on the open sea south of the Istrian Peninsula, while the other, which measured the surface current of 70 cm s&#x207b;&#xb9;, was tracked along the western coastal strip. An oceanographic model, forced by the outputs of mesoscale meteorological models and by river discharges, was applied to simulate drifter trajectories during the event. Process-oriented studies performed to determine governing forcings for the drifter movements in different areas of the Adriatic revealed that strong current along the western Adriatic coast resulted from a combined influence of the wind stress and the river discharges. The wind was responsible for the strong drifter movements, while the baroclinic current due to the coastal buoyancy fluxes prevented the drifter from moving close to the shore and from colliding with the coast. At the same time, drifter movements in the open sea resulted from the wind action solely. Differences in the alongshore and offshore vertical density profiles, primarily due to the river inflows, caused 3 times stronger currents in the coastal area as compared to the currents in the open sea. The proper formulation of the drag coefficient was crucial for the successful simulations of the drifter trajectories, as simulations with increased values of the drag coefficient reproduced well the effects of the sea surface roughness and atmospheric instability above the sea.</gco:CharacterString>
+            <gco:CharacterString>During the summertime bora episode of 22 - 25 June 1995, characterized by hazardous weather conditions with strong winds of over 20 m s⁻¹, two satellite-tracked drifters were present in the Adriatic shelf area. One was on the open sea south of the Istrian Peninsula, while the other, which measured the surface current of 70 cm s⁻¹, was tracked along the western coastal strip. An oceanographic model, forced by the outputs of mesoscale meteorological models and by river discharges, was applied to simulate drifter trajectories during the event. Process-oriented studies performed to determine governing forcings for the drifter movements in different areas of the Adriatic revealed that strong current along the western Adriatic coast resulted from a combined influence of the wind stress and the river discharges. The wind was responsible for the strong drifter movements, while the baroclinic current due to the coastal buoyancy fluxes prevented the drifter from moving close to the shore and from colliding with the coast. At the same time, drifter movements in the open sea resulted from the wind action solely. Differences in the alongshore and offshore vertical density profiles, primarily due to the river inflows, caused 3 times stronger currents in the coastal area as compared to the currents in the open sea. The proper formulation of the drag coefficient was crucial for the successful simulations of the drifter trajectories, as simulations with increased values of the drag coefficient reproduced well the effects of the sea surface roughness and atmospheric instability above the sea.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

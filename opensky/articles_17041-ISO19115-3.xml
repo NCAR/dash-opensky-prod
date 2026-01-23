@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17041</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:27:54.219970</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:56:58.662900</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Regional air quality simulations were conducted for summers 2001&#x2013;2005 in the eastern US and subjected to extensive evaluation using various ground and airborne measurements. A brief climate evaluation focused on transport by comparing modeled dominant map types with ones from reanalysis. Reasonable agreement was found for their frequency of occurrence and distinctness of circulation patterns. The two most frequent map types from reanalysis were the Bermuda High (22%) and passage of a Canadian cold frontal over the northeastern US (20%). The model captured their frequency of occurrence at 25% and 18% respectively. The simulated five average distributions of 1-h ozone (O&#x2083;) daily maxima using the Community Multiscale Air Quality (CMAQ) modeling system reproduced salient features in observations. This suggests that the ability of the regional climate model to depict transport processes accurately is critical for reasonable simulations of surface O&#x2083;. Comparison of mean bias, root mean square error, and index of agreement for CMAQ summer surface 8-h O&#x2083; daily maxima and observations showed &#x2013;0.6&#xb1;14 nmol/mol, 14 nmol/mol, and 71% respectively. CMAQ performed best in moderately polluted conditions and less satisfactorily in highly polluted ones. This highlights the common problem of overestimating/underestimating lower/higher modeled O&#x2083; levels. Diagnostic analysis suggested that significant overestimation of inland nighttime low O&#x2083; mixing ratios may be attributed to underestimates of nitric oxide (NO) emissions at night. The absence of the second daily peak in simulations for the Appledore Island marine site possibly resulted from coarse grid resolution misrepresentation of land surface type. Comparison with shipboard measurements suggested that CMAQ has an inherent problem of underpredicting O&#x2083; levels in continental outflow. Modeled O&#x2083; vertical profiles exhibited a lack of structure indicating that key processes missing from CMAQ, such as lightning produced NO and stratospheric intrusions, are important for accurate upper tropospheric representations.</gco:CharacterString>
+            <gco:CharacterString>Regional air quality simulations were conducted for summers 2001–2005 in the eastern US and subjected to extensive evaluation using various ground and airborne measurements. A brief climate evaluation focused on transport by comparing modeled dominant map types with ones from reanalysis. Reasonable agreement was found for their frequency of occurrence and distinctness of circulation patterns. The two most frequent map types from reanalysis were the Bermuda High (22%) and passage of a Canadian cold frontal over the northeastern US (20%). The model captured their frequency of occurrence at 25% and 18% respectively. The simulated five average distributions of 1-h ozone (O₃) daily maxima using the Community Multiscale Air Quality (CMAQ) modeling system reproduced salient features in observations. This suggests that the ability of the regional climate model to depict transport processes accurately is critical for reasonable simulations of surface O₃. Comparison of mean bias, root mean square error, and index of agreement for CMAQ summer surface 8-h O₃ daily maxima and observations showed –0.6±14 nmol/mol, 14 nmol/mol, and 71% respectively. CMAQ performed best in moderately polluted conditions and less satisfactorily in highly polluted ones. This highlights the common problem of overestimating/underestimating lower/higher modeled O₃ levels. Diagnostic analysis suggested that significant overestimation of inland nighttime low O₃ mixing ratios may be attributed to underestimates of nitric oxide (NO) emissions at night. The absence of the second daily peak in simulations for the Appledore Island marine site possibly resulted from coarse grid resolution misrepresentation of land surface type. Comparison with shipboard measurements suggested that CMAQ has an inherent problem of underpredicting O₃ levels in continental outflow. Modeled O₃ vertical profiles exhibited a lack of structure indicating that key processes missing from CMAQ, such as lightning produced NO and stratospheric intrusions, are important for accurate upper tropospheric representations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

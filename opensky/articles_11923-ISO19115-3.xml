@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11923</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:36:48.709340</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:03:27.652906</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Holland, Marika M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5621-8939"
+                                    xlink:title="Holland, Marika M."
+                                    xlink:actuate="onRequest">Holland, Marika M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bailey, David A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6584-0663"
+                                    xlink:title="Bailey, David A."
+                                    xlink:actuate="onRequest">Bailey, David A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Community Climate System Model, version 4 has revisions across all components. For sea ice, the most notable improvements are the incorporation of a new shortwave radiative transfer scheme and the capabilities that this enables. This scheme uses inherent optical properties to define scattering and absorption characteristics of snow, ice, and included shortwave absorbers and explicitly allows for melt ponds and aerosols. The deposition and cycling of aerosols in sea ice is now included, and a new parameterization derives ponded water from the surface meltwater flux. Taken together, this provides a more sophisticated, accurate, and complete treatment of sea ice radiative transfer. In preindustrial CO&#x2082; simulations, the radiative impact of ponds and aerosols on Arctic sea ice is 1.1 W m&#x207b;&#xb2; annually, with aerosols accounting for up to 8 W m&#x207b;&#xb2; of enhanced June shortwave absorption in the Barents and Kara Seas and with ponds accounting for over 10 W m&#x207b;&#xb2; in shelf regions in July. In double CO&#x2082; (2XCO&#x2082;) simulations with the same aerosol deposition, ponds have a larger effect, whereas aerosol effects are reduced, thereby modifying the surface albedo feedback. Although the direct forcing is modest, because aerosols and ponds influence the albedo, the response is amplified. In simulations with no ponds or aerosols in sea ice, the Arctic ice is over 1 m thicker and retains more summer ice cover. Diagnosis of a twentieth-century simulation indicates an increased radiative forcing from aerosols and melt ponds, which could play a role in twentieth-century Arctic sea ice reductions. In contrast, ponds and aerosol deposition have little effect on Antarctic sea ice for all climates considered.</gco:CharacterString>
+            <gco:CharacterString>The Community Climate System Model, version 4 has revisions across all components. For sea ice, the most notable improvements are the incorporation of a new shortwave radiative transfer scheme and the capabilities that this enables. This scheme uses inherent optical properties to define scattering and absorption characteristics of snow, ice, and included shortwave absorbers and explicitly allows for melt ponds and aerosols. The deposition and cycling of aerosols in sea ice is now included, and a new parameterization derives ponded water from the surface meltwater flux. Taken together, this provides a more sophisticated, accurate, and complete treatment of sea ice radiative transfer. In preindustrial CO₂ simulations, the radiative impact of ponds and aerosols on Arctic sea ice is 1.1 W m⁻² annually, with aerosols accounting for up to 8 W m⁻² of enhanced June shortwave absorption in the Barents and Kara Seas and with ponds accounting for over 10 W m⁻² in shelf regions in July. In double CO₂ (2XCO₂) simulations with the same aerosol deposition, ponds have a larger effect, whereas aerosol effects are reduced, thereby modifying the surface albedo feedback. Although the direct forcing is modest, because aerosols and ponds influence the albedo, the response is amplified. In simulations with no ponds or aerosols in sea ice, the Arctic ice is over 1 m thicker and retains more summer ice cover. Diagnosis of a twentieth-century simulation indicates an increased radiative forcing from aerosols and melt ponds, which could play a role in twentieth-century Arctic sea ice reductions. In contrast, ponds and aerosol deposition have little effect on Antarctic sea ice for all climates considered.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

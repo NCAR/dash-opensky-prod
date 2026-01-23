@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23639</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:15:37.850029</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:46:07.189492</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -108,7 +109,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>1.5&#xa0;years of TROPOMI CO measurements: Comparisons to MOPITT and ATom</gco:CharacterString>
+                  <gco:CharacterString>1.5 years of TROPOMI CO measurements: Comparisons to MOPITT and ATom</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mart&#xed;nez-Alonso, Sara-Eva</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5185-8670"
+                                    xlink:title="Martínez-Alonso, Sara-Eva"
+                                    xlink:actuate="onRequest">Martínez-Alonso, Sara-Eva</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Deeter, Merritt N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3555-0518"
+                                    xlink:title="Deeter, Merritt N."
+                                    xlink:actuate="onRequest">Deeter, Merritt N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Worden, Helen M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5949-9307"
+                                    xlink:title="Worden, Helen M."
+                                    xlink:actuate="onRequest">Worden, Helen M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +284,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We have analyzed TROPOspheric Monitoring Instrument (TROPOMI) carbon monoxide (CO) data acquired between November 2017 and March 2019 with respect to other satellite (MOPITT, Measurement Of Pollution In The Troposphere) and airborne (ATom, Atmospheric Tomography mission) datasets to better understand TROPOMI's contribution to the global tropospheric CO record (2000 to present). MOPITT and TROPOMI are two of only a few satellite instruments to ever derive CO from solar-reflected radiances. Therefore, it is particularly important to understand how these two datasets compare. Our results indicate that TROPOMI CO retrievals over land show excellent agreement with respect to MOPITT: relative biases and their SD (i.e., accuracy and precision) are on average &#x2212;3.73%&#xb1;11.51%, &#x2212;2.24%&#xb1;12.38%, and &#x2212;3.22%&#xb1;11.13% compared to the MOPITT TIR (thermal infrared), NIR (near infrared), and TIR&#x2009;+&#x2009;NIR (multispectral) products, respectively. TROPOMI and MOPITT data also show good agreement in terms of temporal and spatial patterns. Despite depending on solar-reflected radiances for its measurements, TROPOMI can also retrieve CO over bodies of water if clouds are present by approximating partial columns under cloud tops using scaled, model-based reference CO profiles. We quantify the bias of TROPOMI total column retrievals over bodies of water with respect to colocated in situ ATom CO profiles after smoothing the latter with the TROPOMI column averaging kernels (AKs), which account for signal attenuation under clouds (relative bias and its SD&#x2009;=3.25%&#xb1;11.46&#x2009;%). In addition, we quantify enull (the null-space error), which accounts for differences between the shape of the TROPOMI reference profile and that of the ATom true profile (enull=2.16%&#xb1;2.23&#x2009;%). For comparisons of TROPOMI and MOPITT retrievals over open water we compare TROPOMI total CO columns to their colocated MOPITT TIR counterparts. Relative bias and its SD are 2.98&#x2009;%&#xb1;15.71&#x2009;% on average. We investigate the impact of discrepancies between the a priori and reference CO profiles (used by MOPITT and TROPOMI, respectively) on CO retrieval biases by applying a null-space adjustment (based on the MOPITT a priori) to the TROPOMI total column values. The effect of this adjustment on MOPITT and TROPOMI biases is minor, typically 1&#x2013;2 percentage points.</gco:CharacterString>
+            <gco:CharacterString>We have analyzed TROPOspheric Monitoring Instrument (TROPOMI) carbon monoxide (CO) data acquired between November 2017 and March 2019 with respect to other satellite (MOPITT, Measurement Of Pollution In The Troposphere) and airborne (ATom, Atmospheric Tomography mission) datasets to better understand TROPOMI's contribution to the global tropospheric CO record (2000 to present). MOPITT and TROPOMI are two of only a few satellite instruments to ever derive CO from solar-reflected radiances. Therefore, it is particularly important to understand how these two datasets compare. Our results indicate that TROPOMI CO retrievals over land show excellent agreement with respect to MOPITT: relative biases and their SD (i.e., accuracy and precision) are on average −3.73%±11.51%, −2.24%±12.38%, and −3.22%±11.13% compared to the MOPITT TIR (thermal infrared), NIR (near infrared), and TIR + NIR (multispectral) products, respectively. TROPOMI and MOPITT data also show good agreement in terms of temporal and spatial patterns. Despite depending on solar-reflected radiances for its measurements, TROPOMI can also retrieve CO over bodies of water if clouds are present by approximating partial columns under cloud tops using scaled, model-based reference CO profiles. We quantify the bias of TROPOMI total column retrievals over bodies of water with respect to colocated in situ ATom CO profiles after smoothing the latter with the TROPOMI column averaging kernels (AKs), which account for signal attenuation under clouds (relative bias and its SD =3.25%±11.46 %). In addition, we quantify enull (the null-space error), which accounts for differences between the shape of the TROPOMI reference profile and that of the ATom true profile (enull=2.16%±2.23 %). For comparisons of TROPOMI and MOPITT retrievals over open water we compare TROPOMI total CO columns to their colocated MOPITT TIR counterparts. Relative bias and its SD are 2.98 %±15.71 % on average. We investigate the impact of discrepancies between the a priori and reference CO profiles (used by MOPITT and TROPOMI, respectively) on CO retrieval biases by applying a null-space adjustment (based on the MOPITT a priori) to the TROPOMI total column values. The effect of this adjustment on MOPITT and TROPOMI biases is minor, typically 1–2 percentage points.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

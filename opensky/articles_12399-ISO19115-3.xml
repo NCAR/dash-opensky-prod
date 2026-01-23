@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12399</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:31:51.122745</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:53:14.871193</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Axisa, Duncan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7406-9049"
+                                    xlink:title="Axisa, Duncan"
+                                    xlink:actuate="onRequest">Axisa, Duncan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The combined effect of humidity and aerosol on cloud droplet spectral width (&#x3c3;) in continental monsoon clouds is a topic of significant relevance for precipitation and radiation budgets over monsoon regions. The droplet spectral width in polluted, dry premonsoon conditions and moist monsoon conditions observed near the Himalayan Foothills region during Cloud Aerosol Interaction and Precipitation Enhancement EXperiment (CAIPEEX) is the focus of this study. Here &#x3c3; is small in premonsoon clouds developing from dry boundary layers. This is attributed to numerous aerosol particles and the absence/suppression of collision-coalescence during premonsoon. For polluted and dry premonsoon clouds, &#x3c3; is constant with height. In contrast to premonsoon clouds, &#x3c3; in monsoon clouds increases with height irrespective of whether they are polluted or clean. The mean radius of polluted monsoon clouds is half that of clean monsoon clouds. In monsoon clouds, both mean radius and &#x3c3; decreased with total cloud droplet number concentration (CDNC). The spectral widths of premonsoon clouds were independent of total droplet number concentrations, but both &#x3c3; and mean radius decreased with small droplet (diameter &lt; 20 &#x3bc;m) number concentrations in the diluted part of the cloud. Observational evidence is provided for the formation of large droplets in the adiabatic regions of monsoon clouds. The number concentration of small droplets is found to decrease in the diluted cloud volumes that may be characterized by various spectral widths or mean droplet radii.</gco:CharacterString>
+            <gco:CharacterString>The combined effect of humidity and aerosol on cloud droplet spectral width (σ) in continental monsoon clouds is a topic of significant relevance for precipitation and radiation budgets over monsoon regions. The droplet spectral width in polluted, dry premonsoon conditions and moist monsoon conditions observed near the Himalayan Foothills region during Cloud Aerosol Interaction and Precipitation Enhancement EXperiment (CAIPEEX) is the focus of this study. Here σ is small in premonsoon clouds developing from dry boundary layers. This is attributed to numerous aerosol particles and the absence/suppression of collision-coalescence during premonsoon. For polluted and dry premonsoon clouds, σ is constant with height. In contrast to premonsoon clouds, σ in monsoon clouds increases with height irrespective of whether they are polluted or clean. The mean radius of polluted monsoon clouds is half that of clean monsoon clouds. In monsoon clouds, both mean radius and σ decreased with total cloud droplet number concentration (CDNC). The spectral widths of premonsoon clouds were independent of total droplet number concentrations, but both σ and mean radius decreased with small droplet (diameter &lt; 20 μm) number concentrations in the diluted part of the cloud. Observational evidence is provided for the formation of large droplets in the adiabatic regions of monsoon clouds. The number concentration of small droplets is found to decrease in the diluted cloud volumes that may be characterized by various spectral widths or mean droplet radii.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

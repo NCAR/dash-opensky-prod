@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14539</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:04:55.240737</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:21:17.540924</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper demonstrates the significance of ion-neutral coupling to ionospheric data assimilation for ionospheric specification and forecast. Ensemble Kalman Filter (EnKF) is used to assimilate synthetic electron density profiles sampled according to the Formosa Satellite 3/Constellation Observing System for Meteorology, Ionosphere, and Climate into the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIEGCM). The combination of the EnKF and first-principles TIEGCM allows a self-consistent treatment of thermosphere and ionosphere coupling in the data assimilation and forecast. Because thermospheric variables affect ionospheric electron densities, different combinations of an observed ionospheric state variable (electron density), and unobserved ionospheric and thermospheric state variables (atomic oxygen ion density, neutral temperature, winds, and composition) are included as part of the EnKF state vector in experiments. In the EnKF, the unobserved state variables are estimated and made dynamically and chemically consistent with the observed state variable, thus improving the performance of the data assimilation system. The impact on ensemble forecast is further examined by initializing the TIEGCM with the assimilation analysis. The main findings are the following: (1) by incorporating ion-neutral coupling into the EnKF, the ionospheric electron density analysis, and forecast can be considerably improved. (2) Thermospheric composition is the most significant state variable that affects ionospheric analysis and forecast. (3) Thermospheric variables have a much longer impact on ionospheric forecast (&gt;24&#x2009;h) than ionospheric variables (2 to 3&#x2009;h). (4) In the TIEGCM, the effect of assimilating electron densities is not completely transmitted to the forecast step unless the densities of ion species are estimated.</gco:CharacterString>
+            <gco:CharacterString>This paper demonstrates the significance of ion-neutral coupling to ionospheric data assimilation for ionospheric specification and forecast. Ensemble Kalman Filter (EnKF) is used to assimilate synthetic electron density profiles sampled according to the Formosa Satellite 3/Constellation Observing System for Meteorology, Ionosphere, and Climate into the Thermosphere-Ionosphere-Electrodynamics General Circulation Model (TIEGCM). The combination of the EnKF and first-principles TIEGCM allows a self-consistent treatment of thermosphere and ionosphere coupling in the data assimilation and forecast. Because thermospheric variables affect ionospheric electron densities, different combinations of an observed ionospheric state variable (electron density), and unobserved ionospheric and thermospheric state variables (atomic oxygen ion density, neutral temperature, winds, and composition) are included as part of the EnKF state vector in experiments. In the EnKF, the unobserved state variables are estimated and made dynamically and chemically consistent with the observed state variable, thus improving the performance of the data assimilation system. The impact on ensemble forecast is further examined by initializing the TIEGCM with the assimilation analysis. The main findings are the following: (1) by incorporating ion-neutral coupling into the EnKF, the ionospheric electron density analysis, and forecast can be considerably improved. (2) Thermospheric composition is the most significant state variable that affects ionospheric analysis and forecast. (3) Thermospheric variables have a much longer impact on ionospheric forecast (&gt;24 h) than ionospheric variables (2 to 3 h). (4) In the TIEGCM, the effect of assimilating electron densities is not completely transmitted to the forecast step unless the densities of ion species are estimated.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

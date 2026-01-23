@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18505</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:36.312096</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:49:54.596622</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kinnison, Douglas E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3418-0834"
+                                    xlink:title="Kinnison, Douglas E."
+                                    xlink:actuate="onRequest">Kinnison, Douglas E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +166,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, Rolando R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6963-4592"
+                                    xlink:title="García, Rolando R."
+                                    xlink:actuate="onRequest">García, Rolando R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Anne K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2384-5033"
+                                    xlink:title="Smith, Anne K."
+                                    xlink:actuate="onRequest">Smith, Anne K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +202,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Neely, Ryan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4560-4812"
+                                    xlink:title="Neely, Ryan"
+                                    xlink:actuate="onRequest">Neely, Ryan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +214,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Conley, Andrew J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0061-9906"
+                                    xlink:title="Conley, Andrew J."
+                                    xlink:actuate="onRequest">Conley, Andrew J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +226,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vitt, Francis M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8684-214X"
+                                    xlink:title="Vitt, Francis M."
+                                    xlink:actuate="onRequest">Vitt, Francis M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +298,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Community Earth System Model (CESM1) CAM4-chem has been used to perform the Chemistry Climate Model Initiative (CCMI) reference and sensitivity simulations. In this model, the Community Atmospheric Model version 4 (CAM4) is fully coupled to tropospheric and stratospheric chemistry. Details and specifics of each configuration, including new developments and improvements are described. CESM1 CAM4-chem is a low-top model that reaches up to approximately 40&#x202f;km and uses a horizontal resolution of 1.9&#xb0; latitude and 2.5&#xb0; longitude. For the specified dynamics experiments, the model is nudged to Modern-Era Retrospective Analysis for Research and Applications (MERRA) reanalysis. We summarize the performance of the three reference simulations suggested by CCMI, with a focus on the last 15 years of the simulation when most observations are available. Comparisons with selected data sets are employed to demonstrate the general performance of the model. We highlight new data sets that are suited for multi-model evaluation studies. Most important improvements of the model are the treatment of stratospheric aerosols and the corresponding adjustments for radiation and optics, the updated chemistry scheme including improved polar chemistry and stratospheric dynamics and improved dry deposition rates. These updates lead to a very good representation of tropospheric ozone within 20&#x202f;% of values from available observations for most regions. In particular, the trend and magnitude of surface ozone is much improved compared to earlier versions of the model. Furthermore, stratospheric column ozone of the Southern Hemisphere in winter and spring is reasonably well represented. All experiments still underestimate CO most significantly in Northern Hemisphere spring and show a significant underestimation of hydrocarbons based on surface observations.</gco:CharacterString>
+            <gco:CharacterString>The Community Earth System Model (CESM1) CAM4-chem has been used to perform the Chemistry Climate Model Initiative (CCMI) reference and sensitivity simulations. In this model, the Community Atmospheric Model version 4 (CAM4) is fully coupled to tropospheric and stratospheric chemistry. Details and specifics of each configuration, including new developments and improvements are described. CESM1 CAM4-chem is a low-top model that reaches up to approximately 40 km and uses a horizontal resolution of 1.9° latitude and 2.5° longitude. For the specified dynamics experiments, the model is nudged to Modern-Era Retrospective Analysis for Research and Applications (MERRA) reanalysis. We summarize the performance of the three reference simulations suggested by CCMI, with a focus on the last 15 years of the simulation when most observations are available. Comparisons with selected data sets are employed to demonstrate the general performance of the model. We highlight new data sets that are suited for multi-model evaluation studies. Most important improvements of the model are the treatment of stratospheric aerosols and the corresponding adjustments for radiation and optics, the updated chemistry scheme including improved polar chemistry and stratospheric dynamics and improved dry deposition rates. These updates lead to a very good representation of tropospheric ozone within 20 % of values from available observations for most regions. In particular, the trend and magnitude of surface ozone is much improved compared to earlier versions of the model. Furthermore, stratospheric column ozone of the Southern Hemisphere in winter and spring is reasonably well represented. All experiments still underestimate CO most significantly in Northern Hemisphere spring and show a significant underestimation of hydrocarbons based on surface observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

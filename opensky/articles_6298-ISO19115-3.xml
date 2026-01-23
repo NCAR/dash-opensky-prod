@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6298</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:42.818240</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:14:14.279507</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The application of water isotopes to estimate the glacial-interglacial cycle of temperature (T) assumes the validity of the present-day spatial relationship between Ta and &#x3b4;&#xb9;&#x2078;O in precipitation (&#x3b4;&#xb9;&#x2078;Op) to estimate temporal changes of the temperature at a fixed location. We explored how and why the spatial relationship between annual mean Ta &#x2212; &#x3b4;&#xb9;&#x2078;Op is different from the temporal relationship at one location. Our general circulation-isotope model exhibits a spatial slope of 1.22&#x2030;/&#xb0;C between annual mean temperature at the top of the inversion layer (Ti ) and &#x3b4;&#xb9;&#x2078;Op over Antarctica, comparable to the observed value of 1.25&#x2030;/&#xb0;C from Dahe et al. (1999) and using the Phillpot and Zillman (1970) relationship between surface temperature and the temperature of the inversion layer. Over the Southern Ocean (45&#xb0;&#x2212;60&#xb0;S), local evaporation accounts for 50% of precipitation, and this evaporative flux (mean &#x3b4;&#xb9;&#x2078;Oe of ~&#x2212;1&#x2030;) increases the &#x3b4;&#xb9;&#x2078;O of vapor (mean &#x3b4;&#xb9;&#x2078;Ov of ~&#x2212;16&#x2030;). During the Last Glacial Maximum (LGM; 21,000 years ago), the isotopic composition of the vapor near the ice edge (~60&#xb0;S) is calculated to be similar to the present values because evaporative recharge also accounts for ~50% of the precipitation over the Southern Ocean. As a result, the isotopic composition of vapor during the LGM is close to the present values at the ice edge. The apparent temporal slope over eastern Antarctica is half of the observed spatial slope. Our LGM experiment estimates an Antarctic mean annual temperature decrease of 13&#xb0;C at Vostok, much larger than previous estimates. Our experiments with two specifications of LGM sea surface temperatures suggest that the value of the temporal slope is related to the temperature decrease over the Southern Ocean.</gco:CharacterString>
+            <gco:CharacterString>The application of water isotopes to estimate the glacial-interglacial cycle of temperature (T) assumes the validity of the present-day spatial relationship between Ta and δ¹⁸O in precipitation (δ¹⁸Op) to estimate temporal changes of the temperature at a fixed location. We explored how and why the spatial relationship between annual mean Ta − δ¹⁸Op is different from the temporal relationship at one location. Our general circulation-isotope model exhibits a spatial slope of 1.22‰/°C between annual mean temperature at the top of the inversion layer (Ti ) and δ¹⁸Op over Antarctica, comparable to the observed value of 1.25‰/°C from Dahe et al. (1999) and using the Phillpot and Zillman (1970) relationship between surface temperature and the temperature of the inversion layer. Over the Southern Ocean (45°−60°S), local evaporation accounts for 50% of precipitation, and this evaporative flux (mean δ¹⁸Oe of ~−1‰) increases the δ¹⁸O of vapor (mean δ¹⁸Ov of ~−16‰). During the Last Glacial Maximum (LGM; 21,000 years ago), the isotopic composition of the vapor near the ice edge (~60°S) is calculated to be similar to the present values because evaporative recharge also accounts for ~50% of the precipitation over the Southern Ocean. As a result, the isotopic composition of vapor during the LGM is close to the present values at the ice edge. The apparent temporal slope over eastern Antarctica is half of the observed spatial slope. Our LGM experiment estimates an Antarctic mean annual temperature decrease of 13°C at Vostok, much larger than previous estimates. Our experiments with two specifications of LGM sea surface temperatures suggest that the value of the temporal slope is related to the temperature decrease over the Southern Ocean.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

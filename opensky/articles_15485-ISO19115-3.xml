@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:15485</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:30:41.811603</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:04:28.365385</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -200,7 +201,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Garc&#xed;a, A.</gco:CharacterString>
+                        <gco:CharacterString>García, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -210,7 +211,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -220,7 +223,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -230,7 +235,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -250,7 +257,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -260,7 +269,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -300,7 +311,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The impact of Mexico City (MCMA) emissions is examined by studying its effects on air quality, photochemistry, and on ozone production regimes by combining model products and aircraft observations from the MILAGRO experiment during March 2006. The modeled influence of MCMA emissions to enhancements in surface level NOx, CO, and O&#x2083; concentrations (10-30% increase) are confined to distances &lt;200 km, near surface. However, the extent of the influence is significantly larger at higher altitudes. Broader MCMA impacts (some 900 km Northeast of the city) are shown for specific outflow conditions in which enhanced ozone, NOy, and MTBE mixing ratios over the Gulf of Mexico are linked to MCMA by source tagged tracers and sensitivity runs. This study shows that the "footprint" of MCMA on average is fairly local, with exception to reactive nitrogen, which can be transported long range in the form of PAN, acting as a reservoir and source of NOx with important regional ozone formation implications. The simulated effect of MCMA emissions of anthropogenic aerosol on photochemistry showed a maximum regional decrease of 40% in J[NO&#x2082;&#x2192;NO+O], and resulting in the reduction of ozone production by 5-10%. Observed ozone production efficiencies are evaluated as a function of distance from MCMA, and by modeled influence from MCMA. These tend to be much lower closer to MCMA, or in those points where modeled contribution from MCMA is large. This research shows that MCMA emissions do effect on regional air quality and photochemistry, both contributing large amounts of ozone and its precursors, but with caveat that aerosol concentrations hinder formation of ozone to its potential due to its reduction in photolysis rates.</gco:CharacterString>
+            <gco:CharacterString>The impact of Mexico City (MCMA) emissions is examined by studying its effects on air quality, photochemistry, and on ozone production regimes by combining model products and aircraft observations from the MILAGRO experiment during March 2006. The modeled influence of MCMA emissions to enhancements in surface level NOx, CO, and O₃ concentrations (10-30% increase) are confined to distances &lt;200 km, near surface. However, the extent of the influence is significantly larger at higher altitudes. Broader MCMA impacts (some 900 km Northeast of the city) are shown for specific outflow conditions in which enhanced ozone, NOy, and MTBE mixing ratios over the Gulf of Mexico are linked to MCMA by source tagged tracers and sensitivity runs. This study shows that the "footprint" of MCMA on average is fairly local, with exception to reactive nitrogen, which can be transported long range in the form of PAN, acting as a reservoir and source of NOx with important regional ozone formation implications. The simulated effect of MCMA emissions of anthropogenic aerosol on photochemistry showed a maximum regional decrease of 40% in J[NO₂→NO+O], and resulting in the reduction of ozone production by 5-10%. Observed ozone production efficiencies are evaluated as a function of distance from MCMA, and by modeled influence from MCMA. These tend to be much lower closer to MCMA, or in those points where modeled contribution from MCMA is large. This research shows that MCMA emissions do effect on regional air quality and photochemistry, both contributing large amounts of ozone and its precursors, but with caveat that aerosol concentrations hinder formation of ozone to its potential due to its reduction in photolysis rates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

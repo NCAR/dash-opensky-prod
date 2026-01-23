@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6434</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:55:58.679990</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:14:52.339156</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This note assesses the improvements in dual-Doppler wind syntheses by employing a multipass Barnes objective analysis in the interpolation of radial velocities to a Cartesian grid, as opposed to a more typical single-pass Barnes objective analysis. Steeper response functions can be obtained by multipass objective analyses; that is, multipass objective analyses are less damping at well-resolved wavelengths (e.g., 8-20&#x2206;, where &#x2206; is the data spacing) than single-pass objective analyses, while still suppressing small-scale (&lt;4&#x2206;) noise. Synthetic dual-Doppler data were generated from a three-dimensional numerical simulation of a supercell thunderstorm in a way that emulates the data collection by two mobile radars. The synthetic radial velocity data from a pair of simulated radars were objectively analyzed to a grid, after which the three-dimensional wind field was retrieved by iteratively computing the horizontal divergence and integrating the anelastic mass continuity equation. Experiments with two passes and three passes of the Barnes filter were performed, in addition to a single-pass objective analysis. Comparison of the analyzed three-dimensional wind fields to the model wind fields suggests that multipass objective analysis of radial velocity data prior to dual-Doppler wind synthesis is probably worth the added computational cost. The improvements in the wind syntheses derived from multipass objective analyses are even more apparent for higher-order fields such as vorticity and divergence, and for trajectory calculations and pressure/buoyancy retrievals.</gco:CharacterString>
+            <gco:CharacterString>This note assesses the improvements in dual-Doppler wind syntheses by employing a multipass Barnes objective analysis in the interpolation of radial velocities to a Cartesian grid, as opposed to a more typical single-pass Barnes objective analysis. Steeper response functions can be obtained by multipass objective analyses; that is, multipass objective analyses are less damping at well-resolved wavelengths (e.g., 8-20∆, where ∆ is the data spacing) than single-pass objective analyses, while still suppressing small-scale (&lt;4∆) noise. Synthetic dual-Doppler data were generated from a three-dimensional numerical simulation of a supercell thunderstorm in a way that emulates the data collection by two mobile radars. The synthetic radial velocity data from a pair of simulated radars were objectively analyzed to a grid, after which the three-dimensional wind field was retrieved by iteratively computing the horizontal divergence and integrating the anelastic mass continuity equation. Experiments with two passes and three passes of the Barnes filter were performed, in addition to a single-pass objective analysis. Comparison of the analyzed three-dimensional wind fields to the model wind fields suggests that multipass objective analysis of radial velocity data prior to dual-Doppler wind synthesis is probably worth the added computational cost. The improvements in the wind syntheses derived from multipass objective analyses are even more apparent for higher-order fields such as vorticity and divergence, and for trajectory calculations and pressure/buoyancy retrievals.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

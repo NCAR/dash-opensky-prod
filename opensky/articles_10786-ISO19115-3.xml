@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10786</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:38:32.219640</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:06:57.398492</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bryan, George H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2444-3039"
+                                    xlink:title="Bryan, George H."
+                                    xlink:actuate="onRequest">Bryan, George H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morrison, Hugh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8480-9787"
+                                    xlink:title="Morrison, Hugh"
+                                    xlink:actuate="onRequest">Morrison, Hugh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Idealized simulations of the 15 May 2009 squall line from VORTEX2 are evaluated in this study. Four different microphysical setups are used, with either single-moment (1M) or double-moment (2M) microphysics, and either hail or graupel as the dense (rimed) ice species. Three different horizontal grid spacings are used: &#x2206;x = 4, 1, or 0.25 km (with identical vertical grids). Overall, results show that simulated squall lines are sensitive to both microphysical setup and horizontal resolution, although some quantities (i.e., surface rainfall) are more sensitive to &#x394;x in this study. Simulations with larger &#x394;x are slower to develop, produce more precipitation, and have higher cloud tops, all of which are attributable to larger convective cells that do not entrain mid-level air. The highest-resolution simulations have substantially more cloudwater evaporation which is partly attributable to the development of resolved turbulence. For a given &#x2206;x, the 1M simulations produce less rain, more intense cold pools, and do not have trailing stratiform precipitation at the surface, owing to excessive rainwater evaporation. The simulations with graupel as the dense ice species have unrealistically wide convective regions. Comparison against analyses from VORTEX2 data show that the 2M setup with hail and &#x2206;x = 0.25 km produces the most realistic simulation because: this simulation produces realistic distributions of reflectivity associated with convective, transition, and trailing-stratiform regions; the cold pool properties are reasonably close to analyses from VORTEX2; and relative humidity in the cold pool is closest to observations.</gco:CharacterString>
+            <gco:CharacterString>Idealized simulations of the 15 May 2009 squall line from VORTEX2 are evaluated in this study. Four different microphysical setups are used, with either single-moment (1M) or double-moment (2M) microphysics, and either hail or graupel as the dense (rimed) ice species. Three different horizontal grid spacings are used: ∆x = 4, 1, or 0.25 km (with identical vertical grids). Overall, results show that simulated squall lines are sensitive to both microphysical setup and horizontal resolution, although some quantities (i.e., surface rainfall) are more sensitive to Δx in this study. Simulations with larger Δx are slower to develop, produce more precipitation, and have higher cloud tops, all of which are attributable to larger convective cells that do not entrain mid-level air. The highest-resolution simulations have substantially more cloudwater evaporation which is partly attributable to the development of resolved turbulence. For a given ∆x, the 1M simulations produce less rain, more intense cold pools, and do not have trailing stratiform precipitation at the surface, owing to excessive rainwater evaporation. The simulations with graupel as the dense ice species have unrealistically wide convective regions. Comparison against analyses from VORTEX2 data show that the 2M setup with hail and ∆x = 0.25 km produces the most realistic simulation because: this simulation produces realistic distributions of reflectivity associated with convective, transition, and trailing-stratiform regions; the cold pool properties are reasonably close to analyses from VORTEX2; and relative humidity in the cold pool is closest to observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10439</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:28:01.061871</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:57:15.665396</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -307,7 +308,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +450,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Uncertainties in sea-level projections for the 21st century have focused ice sheet modelling efforts to include the processes that are thought to be contributing to the recently observed rapid changes at ice sheet margins. This effort is still in its infancy, however, leaving us unable to make reliable predictions of ice sheet responses to a warming climate if such glacier accelerations were to increase in size and frequency. The geological record, however, has long identified examples of nonlinear ice sheet response to climate forcing (Shackleton NJ, Opdyke ND. 1973. Oxygen isotope and paleomagnetic stratigraphy of equatorial Pacific core V28&#x2013;239, late Pliocene to latest Pleistocene. Geological Society of America Memoirs145: 449&#x2013;464; Fairbanks RG. 1989. A 17,000 year glacio-eustatic sea level record: influence of glacial melting rates on the Younger Dryas event and deep ocean circulation. Nature342: 637&#x2013;642; Bard E, Hamelin B, Arnold M, Montaggioni L, Cabioch G, Faure G, Rougerie F. 1996. Sea level record from Tahiti corals and the timing of deglacial meltwater discharge. Nature 382: 241&#x2013;244), thus suggesting an alternative strategy for constraining the rate and magnitude of sea-level change that we might expect by the end of this century.</gco:CharacterString>
+            <gco:CharacterString>Uncertainties in sea-level projections for the 21st century have focused ice sheet modelling efforts to include the processes that are thought to be contributing to the recently observed rapid changes at ice sheet margins. This effort is still in its infancy, however, leaving us unable to make reliable predictions of ice sheet responses to a warming climate if such glacier accelerations were to increase in size and frequency. The geological record, however, has long identified examples of nonlinear ice sheet response to climate forcing (Shackleton NJ, Opdyke ND. 1973. Oxygen isotope and paleomagnetic stratigraphy of equatorial Pacific core V28–239, late Pliocene to latest Pleistocene. Geological Society of America Memoirs145: 449–464; Fairbanks RG. 1989. A 17,000 year glacio-eustatic sea level record: influence of glacial melting rates on the Younger Dryas event and deep ocean circulation. Nature342: 637–642; Bard E, Hamelin B, Arnold M, Montaggioni L, Cabioch G, Faure G, Rougerie F. 1996. Sea level record from Tahiti corals and the timing of deglacial meltwater discharge. Nature 382: 241–244), thus suggesting an alternative strategy for constraining the rate and magnitude of sea-level change that we might expect by the end of this century.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

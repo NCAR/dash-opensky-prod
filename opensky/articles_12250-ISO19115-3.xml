@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12250</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:38:51.328850</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:07:36.639875</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pet&#xe4;j&#xe4;, T.</gco:CharacterString>
+                        <gco:CharacterString>Petäjä, T.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, James N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4677-8224"
+                                    xlink:title="Smith, James N."
+                                    xlink:actuate="onRequest">Smith, James N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Measurements of size-resolved cloud condensation nuclei (CCN) concentrations, subsaturated hygroscopic growth, size distribution, and chemical composition were collected from March through May, 2007, in the remote Boreal forests of Hyyti&#xe4;l&#xe4;, Finland, as part of the European Integrated project on Aerosol Cloud Climate and Air Quality Interactions (EUCAARI) campaign. Hygroscopicity parameter, &#x3ba;, distributions were derived independently from Continuous Flow-Streamwise Thermal Gradient CCN Chamber (CFSTGC) and Hygroscopicity Tandem Differential Mobility Analyzer (HTDMA) measurements. CFSTGC-derived &#x3ba; values for 40, 60, and 80 nm particles range mostly between 0.10 and 0.40 with an average characteristic of highly oxidized organics of 0.20 &#xb1; 0.10, indicating that organics play a dominant role for this environment. HTDMA-derived &#x3ba; were generally 30% lower. Diurnal trends of &#x3ba; show a minimum at sunrise and a maximum in the late afternoon; this trend covaries with inorganic mass fraction and the m/z 44 organic mass fraction given by a quadrupole aerosol mass spectrometer, further illustrating the importance of organics in aerosol hygroscopicity. The chemical dispersion inferred from the observed &#x3ba; distributions indicates that while 60 and 80 nm dispersion increases around midday, 40 nm dispersion remains constant. Additionally, 80 nm particles show a markedly higher level of chemical dispersion than both 40 and 60 nm particles. An analysis of droplet activation kinetics for the sizes considered indicates that most of the CCN activate as rapidly as (NH&#x2084;)&#x2082;SO&#x2084; calibration aerosol</gco:CharacterString>
+            <gco:CharacterString>Measurements of size-resolved cloud condensation nuclei (CCN) concentrations, subsaturated hygroscopic growth, size distribution, and chemical composition were collected from March through May, 2007, in the remote Boreal forests of Hyytiälä, Finland, as part of the European Integrated project on Aerosol Cloud Climate and Air Quality Interactions (EUCAARI) campaign. Hygroscopicity parameter, κ, distributions were derived independently from Continuous Flow-Streamwise Thermal Gradient CCN Chamber (CFSTGC) and Hygroscopicity Tandem Differential Mobility Analyzer (HTDMA) measurements. CFSTGC-derived κ values for 40, 60, and 80 nm particles range mostly between 0.10 and 0.40 with an average characteristic of highly oxidized organics of 0.20 ± 0.10, indicating that organics play a dominant role for this environment. HTDMA-derived κ were generally 30% lower. Diurnal trends of κ show a minimum at sunrise and a maximum in the late afternoon; this trend covaries with inorganic mass fraction and the m/z 44 organic mass fraction given by a quadrupole aerosol mass spectrometer, further illustrating the importance of organics in aerosol hygroscopicity. The chemical dispersion inferred from the observed κ distributions indicates that while 60 and 80 nm dispersion increases around midday, 40 nm dispersion remains constant. Additionally, 80 nm particles show a markedly higher level of chemical dispersion than both 40 and 60 nm particles. An analysis of droplet activation kinetics for the sizes considered indicates that most of the CCN activate as rapidly as (NH₄)₂SO₄ calibration aerosol</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

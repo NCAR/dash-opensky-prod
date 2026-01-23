@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16569</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:02:01.063675</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:16:05.827840</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Measurements of CH&#x2083;O&#x2082;NO&#x2082; in the upper troposphere</gco:CharacterString>
+                  <gco:CharacterString>Measurements of CH₃O₂NO₂ in the upper troposphere</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ullmann, Kirk</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4724-9634"
+                                    xlink:title="Ullmann, Kirk"
+                                    xlink:actuate="onRequest">Ullmann, Kirk</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hall, Samuel R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2060-7112"
+                                    xlink:title="Hall, Samuel R."
+                                    xlink:actuate="onRequest">Hall, Samuel R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Methyl peroxy nitrate (CH&#x2083;O&#x2082;NO&#x2082;) is a non-acyl peroxy nitrate that is important for photochemistry at low temperatures characteristic of the upper troposphere. We report the first measurements of CH&#x2083;O&#x2082;NO&#x2082;, which we achieved through a new aircraft inlet configuration, combined with thermal-dissociation laser-induced fluorescence (TD-LIF) detection of NO&#x2082;, and describe the accuracy, specificity, and interferences to CH&#x2083;O&#x2082;NO&#x2082; measurements. CH&#x2083;O&#x2082;NO&#x2082; is predicted to be a ubiquitous interference to upper-tropospheric NO&#x2082; measurements. We describe an experimental strategy for obtaining NO&#x2082; observations free of the CH&#x2083;O&#x2082;NO&#x2082; interference. Using these new methods, we made observations during two recent aircraft campaigns: the Deep Convective Clouds and Chemistry (DC-3) and the Studies of Emissions and Atmospheric Composition, Clouds, and Climate Coupling by Regional Surveys (SEAC4RS) experiments. The CH&#x2083;O&#x2082;NO&#x2082; measurements we report have a detection limit (S/N = 2) of 15 pptv at 1 min averaging on a background of 200 pptv NO&#x2082; and an accuracy of &#xb1;40%. Observations are used to constrain the interference of pernitric acid (HO&#x2082;NO&#x2082;) to the CH&#x2083;O&#x2082;NO&#x2082; measurements, as HO&#x2082;NO&#x2082; partially decomposes (~11%) along with CH&#x2083;O&#x2082;NO&#x2082; in the heated CH&#x2083;O&#x2082;NO&#x2082; channel used to detect CH&#x2083;O&#x2082;NO&#x2082;.</gco:CharacterString>
+            <gco:CharacterString>Methyl peroxy nitrate (CH₃O₂NO₂) is a non-acyl peroxy nitrate that is important for photochemistry at low temperatures characteristic of the upper troposphere. We report the first measurements of CH₃O₂NO₂, which we achieved through a new aircraft inlet configuration, combined with thermal-dissociation laser-induced fluorescence (TD-LIF) detection of NO₂, and describe the accuracy, specificity, and interferences to CH₃O₂NO₂ measurements. CH₃O₂NO₂ is predicted to be a ubiquitous interference to upper-tropospheric NO₂ measurements. We describe an experimental strategy for obtaining NO₂ observations free of the CH₃O₂NO₂ interference. Using these new methods, we made observations during two recent aircraft campaigns: the Deep Convective Clouds and Chemistry (DC-3) and the Studies of Emissions and Atmospheric Composition, Clouds, and Climate Coupling by Regional Surveys (SEAC4RS) experiments. The CH₃O₂NO₂ measurements we report have a detection limit (S/N = 2) of 15 pptv at 1 min averaging on a background of 200 pptv NO₂ and an accuracy of ±40%. Observations are used to constrain the interference of pernitric acid (HO₂NO₂) to the CH₃O₂NO₂ measurements, as HO₂NO₂ partially decomposes (~11%) along with CH₃O₂NO₂ in the heated CH₃O₂NO₂ channel used to detect CH₃O₂NO₂.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

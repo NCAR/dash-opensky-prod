@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17281</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:24:27.792672</gco:DateTime>
+      <gco:DateTime>2025-12-26T14:48:27.491434</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Barlage, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7322-6102"
+                                    xlink:title="Barlage, Michael J."
+                                    xlink:actuate="onRequest">Barlage, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Numerous studies have attempted to address the land-precipitation coupling, but scientists' understanding remains limited and discrepancies still exist from different studies. A new parameter &#x393; is proposed here to estimate the land-precipitation coupling strength based on the ratio of the covariance between monthly or seasonal precipitation and evaporation anomalies (from their climatological means) over the variance of precipitation anomalies. The &#x393; value is easy to compute and insensitive to the horizontal scales used; however, it does not provide causality. A relatively high &#x393; is a necessary - but not sufficient - condition for a relatively strong land-precipitation coupling. A computation of &#x393; values using two global reanalyses (ECMWF and NCEP), one regional reanalysis [North American Regional Reanalysis (NARR)], and observed precipitation along with Variable Infiltration Capacity (VIC)-derived evaporation data indicates that the land-precipitation coupling is stronger in summer and weaker in winter. The strongest coupling (i.e., hot spots) occurs over the western and central parts of North America, part of the Eurasia midlatitude, and Sahel in boreal summer and over most of Australia, Argentina, and South Africa in austral summer. The Community Climate System Model, version 3 (CCSM3) shows much higher &#x393; values, consistent with the strong coupling shown by its atmosphere-land coupled components in previous studies. Its overall spatial pattern of &#x393; values is not affected much over most regions by the doubling of CO&#x2082; in CCSM3. The &#x393; values from the Regional Atmospheric Modeling System (RAMS) are more realistic than those from CCSM3; however, they are still higher than those from observations over North America.</gco:CharacterString>
+            <gco:CharacterString>Numerous studies have attempted to address the land-precipitation coupling, but scientists' understanding remains limited and discrepancies still exist from different studies. A new parameter Γ is proposed here to estimate the land-precipitation coupling strength based on the ratio of the covariance between monthly or seasonal precipitation and evaporation anomalies (from their climatological means) over the variance of precipitation anomalies. The Γ value is easy to compute and insensitive to the horizontal scales used; however, it does not provide causality. A relatively high Γ is a necessary - but not sufficient - condition for a relatively strong land-precipitation coupling. A computation of Γ values using two global reanalyses (ECMWF and NCEP), one regional reanalysis [North American Regional Reanalysis (NARR)], and observed precipitation along with Variable Infiltration Capacity (VIC)-derived evaporation data indicates that the land-precipitation coupling is stronger in summer and weaker in winter. The strongest coupling (i.e., hot spots) occurs over the western and central parts of North America, part of the Eurasia midlatitude, and Sahel in boreal summer and over most of Australia, Argentina, and South Africa in austral summer. The Community Climate System Model, version 3 (CCSM3) shows much higher Γ values, consistent with the strong coupling shown by its atmosphere-land coupled components in previous studies. Its overall spatial pattern of Γ values is not affected much over most regions by the doubling of CO₂ in CCSM3. The Γ values from the Regional Atmospheric Modeling System (RAMS) are more realistic than those from CCSM3; however, they are still higher than those from observations over North America.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

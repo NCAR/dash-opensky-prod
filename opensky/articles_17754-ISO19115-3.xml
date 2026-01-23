@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17754</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:53:33.885264</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:00:08.963563</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Long, Matthew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1273-2957"
+                                    xlink:title="Long, Matthew"
+                                    xlink:actuate="onRequest">Long, Matthew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lindsay, Keith</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3672-1665"
+                                    xlink:title="Lindsay, Keith"
+                                    xlink:actuate="onRequest">Lindsay, Keith</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We investigate variability in the surface ocean carbonate ion concentration ([CO&#x2083;&#xb2;&#x207b;]) on the basis of a~long control simulation with an Earth System Model. The simulation is run with a prescribed, pre-industrial atmospheric CO&#x2082; concentration for 1000 years, permitting investigation of natural [CO&#x2083;&#xb2;&#x207b;] variability on interannual to multi-decadal timescales. We find high interannual variability in surface [CO&#x2083;&#xb2;&#x207b;] in the tropical Pacific and at the boundaries between the subtropical and subpolar gyres in the Northern Hemisphere, and relatively low interannual variability in the centers of the subtropical gyres and in the Southern Ocean. Statistical analysis of modeled [CO&#x2083;&#xb2;&#x207b;] variance and autocorrelation suggests that significant anthropogenic trends in the saturation state of aragonite (&#x3a9;aragonite) are already or nearly detectable at the sustained, open-ocean time series sites, whereas several decades of observations are required to detect anthropogenic trends in &#x3a9;aragonite in the tropical Pacific, North Pacific, and North Atlantic. The detection timescale for anthropogenic trends in pH is shorter than that for &#x3a9;aragonite, due to smaller noise-to-signal ratios and lower autocorrelation in pH. In the tropical Pacific, the leading mode of surface [CO&#x2083;&#xb2;&#x207b;] variability is primarily driven by variations in the vertical advection of dissolved inorganic carbon (DIC) in association with El Ni&#xf1;o-Southern Oscillation. In the North Pacific, surface [CO&#x2083;&#xb2;&#x207b;] variability is caused by circulation-driven variations in surface DIC and strongly correlated with the Pacific Decadal Oscillation, with peak spectral power at 20-30-year periods. North Atlantic [CO&#x2083;&#xb2;&#x207b;] variability is also driven by variations in surface DIC, and exhibits weak correlations with both the North Atlantic Oscillation and the Atlantic Multidecadal Oscillation. As the scientific community seeks to detect the anthropogenic influence on ocean carbonate chemistry, these results will aid the interpretation of trends calculated from spatially and temporally sparse observations.</gco:CharacterString>
+            <gco:CharacterString>We investigate variability in the surface ocean carbonate ion concentration ([CO₃²⁻]) on the basis of a~long control simulation with an Earth System Model. The simulation is run with a prescribed, pre-industrial atmospheric CO₂ concentration for 1000 years, permitting investigation of natural [CO₃²⁻] variability on interannual to multi-decadal timescales. We find high interannual variability in surface [CO₃²⁻] in the tropical Pacific and at the boundaries between the subtropical and subpolar gyres in the Northern Hemisphere, and relatively low interannual variability in the centers of the subtropical gyres and in the Southern Ocean. Statistical analysis of modeled [CO₃²⁻] variance and autocorrelation suggests that significant anthropogenic trends in the saturation state of aragonite (Ωaragonite) are already or nearly detectable at the sustained, open-ocean time series sites, whereas several decades of observations are required to detect anthropogenic trends in Ωaragonite in the tropical Pacific, North Pacific, and North Atlantic. The detection timescale for anthropogenic trends in pH is shorter than that for Ωaragonite, due to smaller noise-to-signal ratios and lower autocorrelation in pH. In the tropical Pacific, the leading mode of surface [CO₃²⁻] variability is primarily driven by variations in the vertical advection of dissolved inorganic carbon (DIC) in association with El Niño-Southern Oscillation. In the North Pacific, surface [CO₃²⁻] variability is caused by circulation-driven variations in surface DIC and strongly correlated with the Pacific Decadal Oscillation, with peak spectral power at 20-30-year periods. North Atlantic [CO₃²⁻] variability is also driven by variations in surface DIC, and exhibits weak correlations with both the North Atlantic Oscillation and the Atlantic Multidecadal Oscillation. As the scientific community seeks to detect the anthropogenic influence on ocean carbonate chemistry, these results will aid the interpretation of trends calculated from spatially and temporally sparse observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

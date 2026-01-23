@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24472</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:13:50.031638</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:08:43.948634</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -227,7 +228,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Nitrous acid (HONO) is an important radical precursor that can impact secondary pollutant levels, especially in urban environments. Due to uncertainties in its heterogeneous formation mechanisms, models often under predict HONO concentrations. A number of heterogeneous sources at the ground have been proposed but there is no consensus about which play a significant role in the urban boundary layer. We present a new one-dimensional chemistry and transport model which performs surface chemistry based on molecular collisions and chemical conversion, allowing us to add detailed HONO formation chemistry at the ground. We conducted model runs for the 2010 CalNex campaign, finding good agreement with observations for key species such as O3, NOx, and HOx. With the ground sources implemented, the model captures the diurnal and vertical profile of the HONO observations. Primary HOx production from HONO photolysis is 2&#x2013;3 times more important than O3 or HCHO photolysis at mid-day, below 10 m. The HONO concentration, and its contribution to HOx, decreases quickly with altitude. Heterogeneous chemistry at the ground provided a HONO source of 2.5 &#xd7; 1011 molecules cm&#x2212;2 s&#x2212;1 during the day and 5 &#xd7; 1010 molecules cm&#x2212;2 s&#x2212;1 at night. The night time source was dominated by NO2 hydrolysis. During the day, photolysis of surface HNO3/nitrate contributed 45%&#x2013;60% and photo-enhanced conversion of NO2 contributed 20%&#x2013;45%. Sensitivity studies addressing the uncertainties in both photolytic mechanisms show that, while the relative contribution of either source can vary, HNO3/nitrate is required to produce a surface HONO source that is strong enough to explain observations.</gco:CharacterString>
+            <gco:CharacterString>Nitrous acid (HONO) is an important radical precursor that can impact secondary pollutant levels, especially in urban environments. Due to uncertainties in its heterogeneous formation mechanisms, models often under predict HONO concentrations. A number of heterogeneous sources at the ground have been proposed but there is no consensus about which play a significant role in the urban boundary layer. We present a new one-dimensional chemistry and transport model which performs surface chemistry based on molecular collisions and chemical conversion, allowing us to add detailed HONO formation chemistry at the ground. We conducted model runs for the 2010 CalNex campaign, finding good agreement with observations for key species such as O3, NOx, and HOx. With the ground sources implemented, the model captures the diurnal and vertical profile of the HONO observations. Primary HOx production from HONO photolysis is 2–3 times more important than O3 or HCHO photolysis at mid-day, below 10 m. The HONO concentration, and its contribution to HOx, decreases quickly with altitude. Heterogeneous chemistry at the ground provided a HONO source of 2.5 × 1011 molecules cm−2 s−1 during the day and 5 × 1010 molecules cm−2 s−1 at night. The night time source was dominated by NO2 hydrolysis. During the day, photolysis of surface HNO3/nitrate contributed 45%–60% and photo-enhanced conversion of NO2 contributed 20%–45%. Sensitivity studies addressing the uncertainties in both photolytic mechanisms show that, while the relative contribution of either source can vary, HNO3/nitrate is required to produce a surface HONO source that is strong enough to explain observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

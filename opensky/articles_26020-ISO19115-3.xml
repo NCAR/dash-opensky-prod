@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26020</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:54:41.059743</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:39:43.700538</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Malasala, Murali Nageswara Rao</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7087-6225"
+                                    xlink:title="Malasala, Murali Nageswara Rao"
+                                    xlink:actuate="onRequest">Malasala, Murali Nageswara Rao</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Investigating the trends and changes in rainfall over vulnerable regions is of huge importance in this global warming era. The present study intensively investigates the rainfall over the Indian state, Andhra Pradesh (AP), and its 13 districts using a high-resolution (0.25&#xb0;&#xd7;0.25&#xb0;) gridded rainfall analysis dataset from India Meteorological Department (IMD) for the study period of 118 years (1901-2018). For this, normality, homogeneity, persistence, and change-point tests are performed and changes in the district-level rainfall in the present global warming period (1991-2018) as compared to the pre-global warming period (1901-1990) is also analyzed. The results suggest that the long-term average annual rainfall over AP is 882 mm and most of the rainfall is contributed by the monsoon (55.7%) and the post-monsoon rainfall (32.8%). The coefficient of variation is low (high) during monsoon (winter). The coastal region receives more rainfall than the inland districts. The post-monsoon rainfall over AP is more consistent than in other seasons, and the persistence is only during the southwest monsoon season. The southwest monsoon and post-monsoon rainfall have increased (by about 10%) over most of the districts in the recent period. The Nino3.4 region SST (South Oscillation Index; SOI) has a significant negative (positive) relationship with southwest summer monsoon rainfall in most of the districts. The relationship of Nino 3.4 SST and DMI is strikingly similar for post-monsoon and has significantly weakened in recent decades. This study is useful for proper planning and mitigation measures for the agricultural and water resources sector at the district level over AP in this global warming era.</gco:CharacterString>
+            <gco:CharacterString>Investigating the trends and changes in rainfall over vulnerable regions is of huge importance in this global warming era. The present study intensively investigates the rainfall over the Indian state, Andhra Pradesh (AP), and its 13 districts using a high-resolution (0.25°×0.25°) gridded rainfall analysis dataset from India Meteorological Department (IMD) for the study period of 118 years (1901-2018). For this, normality, homogeneity, persistence, and change-point tests are performed and changes in the district-level rainfall in the present global warming period (1991-2018) as compared to the pre-global warming period (1901-1990) is also analyzed. The results suggest that the long-term average annual rainfall over AP is 882 mm and most of the rainfall is contributed by the monsoon (55.7%) and the post-monsoon rainfall (32.8%). The coefficient of variation is low (high) during monsoon (winter). The coastal region receives more rainfall than the inland districts. The post-monsoon rainfall over AP is more consistent than in other seasons, and the persistence is only during the southwest monsoon season. The southwest monsoon and post-monsoon rainfall have increased (by about 10%) over most of the districts in the recent period. The Nino3.4 region SST (South Oscillation Index; SOI) has a significant negative (positive) relationship with southwest summer monsoon rainfall in most of the districts. The relationship of Nino 3.4 SST and DMI is strikingly similar for post-monsoon and has significantly weakened in recent decades. This study is useful for proper planning and mitigation measures for the agricultural and water resources sector at the district level over AP in this global warming era.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

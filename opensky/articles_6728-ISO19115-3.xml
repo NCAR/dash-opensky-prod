@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6728</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:28.545891</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:37:34.563435</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -247,7 +248,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -337,7 +340,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We use in situ measurements of water vapor (H&#x2082;O), ozone (O&#x2083;), carbon dioxide (CO&#x2082;), carbon monoxide (CO), nitric oxide (NO), and total reactive nitrogen (NOy) obtained during the CRYSTAL-FACE campaign in July 2002 to study summertime transport in the subtropical lowermost stratosphere. We use an objective methodology to distinguish the latitudinal origin of the sampled air masses despite the influence of convection, and we calculate backward trajectories to elucidate their recent geographical history. The methodology consists of exploring the statistical behavior of the data by performing multivariate clustering and agglomerative hierarchical clustering calculations and projecting cluster groups onto principal component space to identify air masses of like composition and hence presumed origin. The statistically derived cluster groups are then examined in physical space using tracer-tracer correlation plots. Interpretation of the principal component analysis suggests that the variability in the data is accounted for primarily by the mean age of air in the stratosphere, followed by the age of the convective influence, and last by the extent of convective influence, potentially related to the latitude of convective injection (Dessler and Sherwood, 2004). We find that high-latitude stratospheric air is the dominant source region during the beginning of the campaign while tropical air is the dominant source region during the rest of the campaign. Influence of convection from both local and nonlocal events is frequently observed. The identification of air mass origin is confirmed with backward trajectories, and the behavior of the trajectories is associated with the North American monsoon circulation.</gco:CharacterString>
+            <gco:CharacterString>We use in situ measurements of water vapor (H₂O), ozone (O₃), carbon dioxide (CO₂), carbon monoxide (CO), nitric oxide (NO), and total reactive nitrogen (NOy) obtained during the CRYSTAL-FACE campaign in July 2002 to study summertime transport in the subtropical lowermost stratosphere. We use an objective methodology to distinguish the latitudinal origin of the sampled air masses despite the influence of convection, and we calculate backward trajectories to elucidate their recent geographical history. The methodology consists of exploring the statistical behavior of the data by performing multivariate clustering and agglomerative hierarchical clustering calculations and projecting cluster groups onto principal component space to identify air masses of like composition and hence presumed origin. The statistically derived cluster groups are then examined in physical space using tracer-tracer correlation plots. Interpretation of the principal component analysis suggests that the variability in the data is accounted for primarily by the mean age of air in the stratosphere, followed by the age of the convective influence, and last by the extent of convective influence, potentially related to the latitude of convective injection (Dessler and Sherwood, 2004). We find that high-latitude stratospheric air is the dominant source region during the beginning of the campaign while tropical air is the dominant source region during the rest of the campaign. Influence of convection from both local and nonlocal events is frequently observed. The identification of air mass origin is confirmed with backward trajectories, and the behavior of the trajectories is associated with the North American monsoon circulation.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6437</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:59:05.543925</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:24:21.538224</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +232,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>During the National Aeronautics and Space Administration (NASA) Intercontinental Chemical Transport Experiment, Phase B (INTEX-B), in the spring of 2006, airborne measurements were made in the United States Pacific Northwest of the major inorganic ions and the water-soluble organic carbon (WSOC) of submicron (PM&#x2081;.&#x2080;) aerosol. An atmospheric trajectory (HYSPLIT) and a Lagrangian particle dispersion model (Flexpart) quantifying source contributions for carbon monoxide (CO) were used to segregate air masses into those of primarily Asian influence (&gt;75% Asian CO) or North American influence (&gt;75% North American CO). Of the measured compounds, fine particle mass mostly consisted of water-soluble organic carbon and sulfate, with median sulfate and WSOC concentrations in two to four times higher, respectively, in North American air masses versus transported Asian air masses. The fraction of WSOC to sulfate in transported Asian air masses was significantly lower than one at altitudes above 3 km due to depleted organic aerosol, opposite to what has been observed closer to Asia and in the northeastern United States, where organic components were at higher concentrations than sulfate in the free troposphere. The observations could be explained by loss of sulfate and organic aerosol by precipitation scavenging, with reformation of mainly sulfate during advection from Asia to North America. In contrast to free tropospheric measurements, for all air masses below approximately 2 km altitude median WSOC-sulfate ratios were consistently between one and two. WSOC sources were investigated by multivariate linear regression analyses of WSOC and volatile organic compounds (VOCs). In Asian air masses, of the WSOC variability that could be explained (49%), most was related to fossil fuel combustion VOCs, compared to North American air masses, where 75% of the WSOC variability was explained through a nearly equal combination of fossil fuel combustion and biogenic VOCs. Distinct WSOC plumes encountered during the experiment were also studied. A plume observed near the California Central Valley at 0.6 km altitude was related to both fossil fuel combustion and biogenic VOCs. Another Central Valley plume observed over Nevada at 3 to 5 km, in a region of cloud detrainment, was mostly related to biogenic VOCs.</gco:CharacterString>
+            <gco:CharacterString>During the National Aeronautics and Space Administration (NASA) Intercontinental Chemical Transport Experiment, Phase B (INTEX-B), in the spring of 2006, airborne measurements were made in the United States Pacific Northwest of the major inorganic ions and the water-soluble organic carbon (WSOC) of submicron (PM₁.₀) aerosol. An atmospheric trajectory (HYSPLIT) and a Lagrangian particle dispersion model (Flexpart) quantifying source contributions for carbon monoxide (CO) were used to segregate air masses into those of primarily Asian influence (&gt;75% Asian CO) or North American influence (&gt;75% North American CO). Of the measured compounds, fine particle mass mostly consisted of water-soluble organic carbon and sulfate, with median sulfate and WSOC concentrations in two to four times higher, respectively, in North American air masses versus transported Asian air masses. The fraction of WSOC to sulfate in transported Asian air masses was significantly lower than one at altitudes above 3 km due to depleted organic aerosol, opposite to what has been observed closer to Asia and in the northeastern United States, where organic components were at higher concentrations than sulfate in the free troposphere. The observations could be explained by loss of sulfate and organic aerosol by precipitation scavenging, with reformation of mainly sulfate during advection from Asia to North America. In contrast to free tropospheric measurements, for all air masses below approximately 2 km altitude median WSOC-sulfate ratios were consistently between one and two. WSOC sources were investigated by multivariate linear regression analyses of WSOC and volatile organic compounds (VOCs). In Asian air masses, of the WSOC variability that could be explained (49%), most was related to fossil fuel combustion VOCs, compared to North American air masses, where 75% of the WSOC variability was explained through a nearly equal combination of fossil fuel combustion and biogenic VOCs. Distinct WSOC plumes encountered during the experiment were also studied. A plume observed near the California Central Valley at 0.6 km altitude was related to both fossil fuel combustion and biogenic VOCs. Another Central Valley plume observed over Nevada at 3 to 5 km, in a region of cloud detrainment, was mostly related to biogenic VOCs.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

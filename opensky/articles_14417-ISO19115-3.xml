@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14417</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:03:47.964845</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:20:02.501528</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Low, Boon C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5098-6344"
+                                    xlink:title="Low, Boon C."
+                                    xlink:actuate="onRequest">Low, Boon C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Magnetic field topology frozen in ideal magnetohydrodynamics (MHD) and its breakage in near-ideal MHD are reviewed in two parts, clarifying and expanding basic concepts. The first part gives a physically complete description of the frozen field topology derived from magnetic flux conservation as the fundamental property, treating four conceptually related topics: Eulerian and Lagrangian descriptions of three dimensional (3D) MHD, Chandrasekhar-Kendall and Euler-potential field representations, magnetic helicity, and inviscid vortex dynamics as a fluid system in physical contrast to ideal MHD. A corollary of these developments clarifies the challenge of achieving a high degree of the frozen-in condition in numerical MHD. The second part treats field-topology breakage centered around the Parker Magnetostatic Theorem on a general incompatibility of a continuous magnetic field with the dual demand of force-free equilibrium and an arbitrarily prescribed, 3D field topology. Preserving field topology as a global constraint readily results in formation of tangential magnetic discontinuities, or, equivalently, electric current-sheets of zero thickness. A similar incompatibility is present in the steady force-thermal balance of a heated radiating fluid subject to an anisotropic thermal flux conducted strictly along its frozen-in magnetic field in the low-&#x3b2; limit. In a weakly resistive fluid the thinning of current sheets by these general incompatibilities inevitably results in sheet dissipation, resistive heating and topological changes in the field notwithstanding the small resistivity. Strong Faraday induction drives but also macroscopically limits this mode of energy dissipation, trapping or storing free energy in self-organized ideal-MHD structures. This property of MHD turbulence captured by the Taylor hypothesis is reviewed in relation to the Sun's corona, calling for a basic quantitative description of the breakdown of flux conservation in the low-resistivity limit. A cylindrical initial-boundary value problem provides specificity in the general MHD ideas presented.</gco:CharacterString>
+            <gco:CharacterString>Magnetic field topology frozen in ideal magnetohydrodynamics (MHD) and its breakage in near-ideal MHD are reviewed in two parts, clarifying and expanding basic concepts. The first part gives a physically complete description of the frozen field topology derived from magnetic flux conservation as the fundamental property, treating four conceptually related topics: Eulerian and Lagrangian descriptions of three dimensional (3D) MHD, Chandrasekhar-Kendall and Euler-potential field representations, magnetic helicity, and inviscid vortex dynamics as a fluid system in physical contrast to ideal MHD. A corollary of these developments clarifies the challenge of achieving a high degree of the frozen-in condition in numerical MHD. The second part treats field-topology breakage centered around the Parker Magnetostatic Theorem on a general incompatibility of a continuous magnetic field with the dual demand of force-free equilibrium and an arbitrarily prescribed, 3D field topology. Preserving field topology as a global constraint readily results in formation of tangential magnetic discontinuities, or, equivalently, electric current-sheets of zero thickness. A similar incompatibility is present in the steady force-thermal balance of a heated radiating fluid subject to an anisotropic thermal flux conducted strictly along its frozen-in magnetic field in the low-β limit. In a weakly resistive fluid the thinning of current sheets by these general incompatibilities inevitably results in sheet dissipation, resistive heating and topological changes in the field notwithstanding the small resistivity. Strong Faraday induction drives but also macroscopically limits this mode of energy dissipation, trapping or storing free energy in self-organized ideal-MHD structures. This property of MHD turbulence captured by the Taylor hypothesis is reviewed in relation to the Sun's corona, calling for a basic quantitative description of the breakdown of flux conservation in the low-resistivity limit. A cylindrical initial-boundary value problem provides specificity in the general MHD ideas presented.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

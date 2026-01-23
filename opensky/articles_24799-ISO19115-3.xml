@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24799</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:11:19.052550</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:02:59.065882</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -537,7 +538,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -577,7 +580,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Wintertime episodes of high aerosol concentrations occur frequently in urban and agricultural basins and valleys worldwide. These episodes often arise following development of persistent cold-air pools (PCAPs) that limit mixing and modify chemistry. While field campaigns targeting either basin meteorology or wintertime pollution chemistry have been conducted, coupling between interconnected chemical and meteorological processes remains an insufficiently studied research area. Gaps in understanding the coupled chemical&#x2013;meteorological interactions that drive high-pollution events make identification of the most effective air-basin specific emission control strategies challenging. To address this, a September 2019 workshop occurred with the goal of planning a future research campaign to investigate air quality in western U.S. basins. Approximately 120 people participated, representing 50 institutions and five countries. Workshop participants outlined the rationale and design for a comprehensive wintertime study that would couple atmospheric chemistry and boundary layer and complex-terrain meteorology within western U.S. basins. Participants concluded the study should focus on two regions with contrasting aerosol chemistry: three populated valleys within Utah (Salt Lake, Utah, and Cache Valleys) and the San Joaquin Valley in California. This paper describes the scientific rationale for a campaign that will acquire chemical and meteorological datasets using airborne platforms with extensive range, coupled to surface-based measurements focusing on sampling within the near-surface boundary layer, and transport and mixing processes within this layer, with high vertical resolution at a number of representative sites. No prior wintertime basin-focused campaign has provided the breadth of observations necessary to characterize the meteorological&#x2013;chemical linkages outlined here, nor to validate complex processes within coupled atmosphere&#x2013;chemistry models.</gco:CharacterString>
+            <gco:CharacterString>Wintertime episodes of high aerosol concentrations occur frequently in urban and agricultural basins and valleys worldwide. These episodes often arise following development of persistent cold-air pools (PCAPs) that limit mixing and modify chemistry. While field campaigns targeting either basin meteorology or wintertime pollution chemistry have been conducted, coupling between interconnected chemical and meteorological processes remains an insufficiently studied research area. Gaps in understanding the coupled chemical–meteorological interactions that drive high-pollution events make identification of the most effective air-basin specific emission control strategies challenging. To address this, a September 2019 workshop occurred with the goal of planning a future research campaign to investigate air quality in western U.S. basins. Approximately 120 people participated, representing 50 institutions and five countries. Workshop participants outlined the rationale and design for a comprehensive wintertime study that would couple atmospheric chemistry and boundary layer and complex-terrain meteorology within western U.S. basins. Participants concluded the study should focus on two regions with contrasting aerosol chemistry: three populated valleys within Utah (Salt Lake, Utah, and Cache Valleys) and the San Joaquin Valley in California. This paper describes the scientific rationale for a campaign that will acquire chemical and meteorological datasets using airborne platforms with extensive range, coupled to surface-based measurements focusing on sampling within the near-surface boundary layer, and transport and mixing processes within this layer, with high vertical resolution at a number of representative sites. No prior wintertime basin-focused campaign has provided the breadth of observations necessary to characterize the meteorological–chemical linkages outlined here, nor to validate complex processes within coupled atmosphere–chemistry models.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

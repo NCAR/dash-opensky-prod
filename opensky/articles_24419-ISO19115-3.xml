@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24419</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:08:52.823195</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:56:44.091024</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -187,7 +188,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jo, Duseong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7794-1277"
+                                    xlink:title="Jo, Duseong"
+                                    xlink:actuate="onRequest">Jo, Duseong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +330,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hodzic, Alma</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6198-7927"
+                                    xlink:title="Hodzic, Alma"
+                                    xlink:actuate="onRequest">Hodzic, Alma</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -547,7 +552,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The inorganic fraction of fine particles affects numerous physicochemical processes in the atmosphere. However, there is large uncertainty in its burden and composition due to limited global measurements. Here, we present observations from eleven different aircraft campaigns from around the globe and investigate how aerosol pH and ammonium balance change from polluted to remote regions, such as over the oceans. Both parameters show increasing acidity with remoteness, at all altitudes, with pH decreasing from about 3 to about &#x2212;1 and ammonium balance decreasing from almost 1 to nearly 0. We compare these observations against nine widely used chemical transport models and find that the simulations show more scatter (generally R2&#x2009;&lt;&#x2009;0.50) and typically predict less acidic aerosol in the most remote regions. These differences in observations and predictions are likely to result in underestimating the model-predicted direct radiative cooling effect for sulfate, nitrate, and ammonium aerosol by 15&#x2013;39%.</gco:CharacterString>
+            <gco:CharacterString>The inorganic fraction of fine particles affects numerous physicochemical processes in the atmosphere. However, there is large uncertainty in its burden and composition due to limited global measurements. Here, we present observations from eleven different aircraft campaigns from around the globe and investigate how aerosol pH and ammonium balance change from polluted to remote regions, such as over the oceans. Both parameters show increasing acidity with remoteness, at all altitudes, with pH decreasing from about 3 to about −1 and ammonium balance decreasing from almost 1 to nearly 0. We compare these observations against nine widely used chemical transport models and find that the simulations show more scatter (generally R2 &lt; 0.50) and typically predict less acidic aerosol in the most remote regions. These differences in observations and predictions are likely to result in underestimating the model-predicted direct radiative cooling effect for sulfate, nitrate, and ammonium aerosol by 15–39%.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

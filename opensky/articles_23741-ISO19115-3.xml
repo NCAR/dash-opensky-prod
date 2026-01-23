@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23741</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:13:19.913025</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:41:31.626290</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -417,7 +418,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mickelson, Sheri</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6101-1975"
+                                    xlink:title="Mickelson, Sheri"
+                                    xlink:actuate="onRequest">Mickelson, Sheri</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -437,7 +440,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Strand, Warren G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9740-0104"
+                                    xlink:title="Strand, Warren G."
+                                    xlink:actuate="onRequest">Strand, Warren G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -447,7 +452,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Paul, Kevin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8155-8038"
+                                    xlink:title="Paul, Kevin"
+                                    xlink:actuate="onRequest">Paul, Kevin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -457,7 +464,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Nienhouse, Eric J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6508-5402"
+                                    xlink:title="Nienhouse, Eric J."
+                                    xlink:actuate="onRequest">Nienhouse, Eric J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -467,7 +476,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dennis, John M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2119-8242"
+                                    xlink:title="Dennis, John M."
+                                    xlink:actuate="onRequest">Dennis, John M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +488,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vertenstein, Mariana</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9486-9994"
+                                    xlink:title="Vertenstein, Mariana"
+                                    xlink:actuate="onRequest">Vertenstein, Mariana</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -497,7 +510,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The complexity of each Coupled Model Intercomparison Project grows with every new generation. The Phase 5 effort saw a dramatic increase in the number of experiments that were performed and the number of variables that were requested compared to its previous generation, Phase 3. The large increase in data volume stressed the resources of several centers including at the National Center for Atmospheric Research. During Phase 5, we missed several deadlines and we struggled to get the data out to the community for analysis. In preparation for the current generation, Phase 6, we examined the weaknesses in our workflow and addressed the performance issues with new software tools. Through this investment, we were able to publish approximately 565&#x2009;TB of compressed data to the community, with another 30&#x2009;TB yet to be published. When compared to the volumes we produced in the previous generation, 165&#x2009;TB of uncompressed data, we were able to provide 6 times the amount of data and we accomplish this within one-third of the time. This provided us with an approximate 18 times faster speedup. While this paper discusses the improvements we have made to our own workflow for the Coupled Model Intercomparison Project Phase 6 (CMIP6), we hope to encourage other centers to evaluate and invest in their own workflows in order to be successful in these types of modeling campaigns.</gco:CharacterString>
+            <gco:CharacterString>The complexity of each Coupled Model Intercomparison Project grows with every new generation. The Phase 5 effort saw a dramatic increase in the number of experiments that were performed and the number of variables that were requested compared to its previous generation, Phase 3. The large increase in data volume stressed the resources of several centers including at the National Center for Atmospheric Research. During Phase 5, we missed several deadlines and we struggled to get the data out to the community for analysis. In preparation for the current generation, Phase 6, we examined the weaknesses in our workflow and addressed the performance issues with new software tools. Through this investment, we were able to publish approximately 565 TB of compressed data to the community, with another 30 TB yet to be published. When compared to the volumes we produced in the previous generation, 165 TB of uncompressed data, we were able to provide 6 times the amount of data and we accomplish this within one-third of the time. This provided us with an approximate 18 times faster speedup. While this paper discusses the improvements we have made to our own workflow for the Coupled Model Intercomparison Project Phase 6 (CMIP6), we hope to encourage other centers to evaluate and invest in their own workflows in order to be successful in these types of modeling campaigns.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

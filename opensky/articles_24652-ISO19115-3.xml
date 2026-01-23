@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24652</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:12:15.692607</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:04:44.638594</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Smith, Warren P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8933-8993"
+                                    xlink:title="Smith, Warren P."
+                                    xlink:actuate="onRequest">Smith, Warren P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4373-1121"
+                                    xlink:title="Honomichl, Shawn B."
+                                    xlink:actuate="onRequest">Honomichl, Shawn B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +234,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study characterizes the representation of convective transport by a Lagrangian trajectory model driven by kinematic (pressure tendency &#x3c9;) vertical velocity. Four (re)analysis wind products are used in backward trajectory calculations with the TRAJ3D model, and their representations of convective transport are analyzed. Two observation-based diagnostics are used for the evaluation: a database of observed convective cloud tops derived from satellite measurements and a set of transit time distributions (TTDs) derived from an airborne campaign during January&#x2013;February 2014 in a domain over the Tropical Western Pacific (TWP). The analysis is designed to derive trajectory-based TTDs that can be directly evaluated using the observation-based TTDs. The results indicate a broad consistency between two independent TTD derivations characterizing vertical transport over the TWP, with a significant portion of convective transport processes represented in trajectory experiments driven by the selected (re)analysis wind products. The convective and boundary layer source regions of upper tropospheric air parcels are shown to be consistent with the climatological flow regime within the TWP. Furthermore, contributions of convection are identified in the &#x3c9; fields of the (re)analysis wind data sets, as indicated by the spatiotemporal correlation of enhanced vertical velocity and observed convection. These results demonstrate the successful application of two observation-based diagnostics and quantify the ability for kinematic trajectory models to represent convective transport processes.</gco:CharacterString>
+            <gco:CharacterString>This study characterizes the representation of convective transport by a Lagrangian trajectory model driven by kinematic (pressure tendency ω) vertical velocity. Four (re)analysis wind products are used in backward trajectory calculations with the TRAJ3D model, and their representations of convective transport are analyzed. Two observation-based diagnostics are used for the evaluation: a database of observed convective cloud tops derived from satellite measurements and a set of transit time distributions (TTDs) derived from an airborne campaign during January–February 2014 in a domain over the Tropical Western Pacific (TWP). The analysis is designed to derive trajectory-based TTDs that can be directly evaluated using the observation-based TTDs. The results indicate a broad consistency between two independent TTD derivations characterizing vertical transport over the TWP, with a significant portion of convective transport processes represented in trajectory experiments driven by the selected (re)analysis wind products. The convective and boundary layer source regions of upper tropospheric air parcels are shown to be consistent with the climatological flow regime within the TWP. Furthermore, contributions of convection are identified in the ω fields of the (re)analysis wind data sets, as indicated by the spatiotemporal correlation of enhanced vertical velocity and observed convection. These results demonstrate the successful application of two observation-based diagnostics and quantify the ability for kinematic trajectory models to represent convective transport processes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

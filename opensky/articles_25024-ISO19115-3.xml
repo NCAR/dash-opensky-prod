@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25024</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:08:05.095578</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:55:04.377724</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8878-5126"
+                                    xlink:title="Pedatella, Nicholas M."
+                                    xlink:actuate="onRequest">Pedatella, Nicholas M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The present study investigates the impact of assimilating electron density profiles from the Constellation Observing System for Meteorology, Ionosphere, and Climate-2 (COSMIC-2) mission in a whole atmosphere data assimilation system. The observations are assimilated into the Whole Atmosphere Community Climate Model with thermosphere-ionosphere eXtension (WACCMX) using the Data Assimilation Research Testbed (DART) ensemble adjustment Kalman filter. Assimilation of the COSMIC-2 electron density profiles during the evaluation time period of 25&#x2013;30 April 2020 leads to improvement in both the 1 hr forecast and analysis electron densities in WACCMX + DART. Compared to a control experiment that does not assimilate COSMIC-2 observations, the assimilation of the COSMIC-2 electron density profiles reduces the 1 hr forecast root mean square error (RMSE) and bias with respect to COSMIC-2 observations at 300 km by 6.76% and 24.91%, respectively. Assimilation of the COSMIC-2 electron density profiles does not significantly influence the RMSE and bias with respect to ground-based Global Navigation Satellite System vertical total electron content observations. The equatorial vertical plasma drift velocity in WACCMX + DART is changed by &#xb1;5&#x2013;10 ms&#x2212;1 due to the assimilation of the COSMIC-2 electron density profiles, indicating that the model representation of the electrodynamics of the low latitude ionosphere are significantly impacted by the assimilation of COSMIC-2 observations.</gco:CharacterString>
+            <gco:CharacterString>The present study investigates the impact of assimilating electron density profiles from the Constellation Observing System for Meteorology, Ionosphere, and Climate-2 (COSMIC-2) mission in a whole atmosphere data assimilation system. The observations are assimilated into the Whole Atmosphere Community Climate Model with thermosphere-ionosphere eXtension (WACCMX) using the Data Assimilation Research Testbed (DART) ensemble adjustment Kalman filter. Assimilation of the COSMIC-2 electron density profiles during the evaluation time period of 25–30 April 2020 leads to improvement in both the 1 hr forecast and analysis electron densities in WACCMX + DART. Compared to a control experiment that does not assimilate COSMIC-2 observations, the assimilation of the COSMIC-2 electron density profiles reduces the 1 hr forecast root mean square error (RMSE) and bias with respect to COSMIC-2 observations at 300 km by 6.76% and 24.91%, respectively. Assimilation of the COSMIC-2 electron density profiles does not significantly influence the RMSE and bias with respect to ground-based Global Navigation Satellite System vertical total electron content observations. The equatorial vertical plasma drift velocity in WACCMX + DART is changed by ±5–10 ms−1 due to the assimilation of the COSMIC-2 electron density profiles, indicating that the model representation of the electrodynamics of the low latitude ionosphere are significantly impacted by the assimilation of COSMIC-2 observations.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

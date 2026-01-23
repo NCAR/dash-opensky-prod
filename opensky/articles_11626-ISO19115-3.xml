@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11626</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:46:36.964090</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:32:47.255878</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A compilation of paleoceanographic data and a coupled atmosphere-ocean climate model were used to examine global ocean surface temperatures of the Last Interglacial (LIG) period, and to produce the first quantitative estimate of the role that ocean thermal expansion likely played in driving sea level rise above present day during the LIG. Our analysis of the paleoclimatic data suggests a peak LIG global sea surface temperature (SST) warming of 0.7 &#xb1; 0.6&#xb0;C compared to the late Holocene. Our LIG climate model simulation suggests a slight cooling of global average SST relative to preindustrial conditions (&#x394;SST = &#x2212;0.4&#xb0;C), with a reduction in atmospheric water vapor in the Southern Hemisphere driven by a northward shift of the Intertropical Convergence Zone, and substantially reduced seasonality in the Southern Hemisphere. Taken together, the model and paleoceanographic data imply a minimal contribution of ocean thermal expansion to LIG sea level rise above present day. Uncertainty remains, but it seems unlikely that thermosteric sea level rise exceeded 0.4 &#xb1; 0.3 m during the LIG. This constraint, along with estimates of the sea level contributions from the Greenland Ice Sheet, glaciers and ice caps, implies that 4.1 to 5.8 m of sea level rise during the Last Interglacial period was derived from the Antarctic Ice Sheet. These results reemphasize the concern that both the Antarctic and Greenland Ice Sheets may be more sensitive to temperature than widely thought.</gco:CharacterString>
+            <gco:CharacterString>A compilation of paleoceanographic data and a coupled atmosphere-ocean climate model were used to examine global ocean surface temperatures of the Last Interglacial (LIG) period, and to produce the first quantitative estimate of the role that ocean thermal expansion likely played in driving sea level rise above present day during the LIG. Our analysis of the paleoclimatic data suggests a peak LIG global sea surface temperature (SST) warming of 0.7 ± 0.6°C compared to the late Holocene. Our LIG climate model simulation suggests a slight cooling of global average SST relative to preindustrial conditions (ΔSST = −0.4°C), with a reduction in atmospheric water vapor in the Southern Hemisphere driven by a northward shift of the Intertropical Convergence Zone, and substantially reduced seasonality in the Southern Hemisphere. Taken together, the model and paleoceanographic data imply a minimal contribution of ocean thermal expansion to LIG sea level rise above present day. Uncertainty remains, but it seems unlikely that thermosteric sea level rise exceeded 0.4 ± 0.3 m during the LIG. This constraint, along with estimates of the sea level contributions from the Greenland Ice Sheet, glaciers and ice caps, implies that 4.1 to 5.8 m of sea level rise during the Last Interglacial period was derived from the Antarctic Ice Sheet. These results reemphasize the concern that both the Antarctic and Greenland Ice Sheets may be more sensitive to temperature than widely thought.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

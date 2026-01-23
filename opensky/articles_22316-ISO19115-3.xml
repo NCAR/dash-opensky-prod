@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22316</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:31:10.482180</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:39:42.749870</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ortega, Ivan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0067-617X"
+                                    xlink:title="Ortega, Ivan"
+                                    xlink:actuate="onRequest">Ortega, Ivan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Buchholz, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8124-2455"
+                                    xlink:title="Buchholz, Rebecca"
+                                    xlink:actuate="onRequest">Buchholz, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Retrievals of vertical profiles of key atmospheric gases provide a critical long-term record from ground-based Fourier transform infrared (FTIR) solar absorption measurements. However, the characterization of the retrieved vertical profile structure can be difficult to validate, especially for gases with large vertical gradients and spatial&#x2013;temporal variability such as water vapor. In this work, we evaluate the accuracy of the most common water vapor isotope (H162O, hereafter WV) FTIR retrievals in the lower and upper troposphere&#x2013;lower stratosphere. Coincident high-quality vertically resolved WV profile measurements obtained from 2010 to 2016 with balloon-borne NOAA frost point hygrometers (FPHs) are used as reference to evaluate the performance of the retrieved profiles at two sites: Boulder (BLD), Colorado, and at the mountaintop observatory of Mauna Loa (MLO), Hawaii. For a meaningful comparison, the spatial&#x2013;temporal variability has been investigated. We present results of comparisons among FTIR retrievals with unsmoothed and smoothed FPH profiles to assess WV vertical gradients. Additionally, we evaluate the quantitative impact of different a priori profiles in the retrieval of WV. An orthogonal linear regression analysis shows the best correlation among tropospheric layers using ERA-Interim (ERA-I) a priori profiles and biases are lower for unsmoothed comparisons. In Boulder, we found a negative bias of 0.02&#xb1;1.9&#x2009;% (r=0.95) for the 1.5&#x2013;3&#x2009;km layer. A larger negative bias of 11.1&#xb1;3.5&#x2009;% (r=0.97) was found in the lower free troposphere layer of 3&#x2013;5&#x2009;km attributed to rapid vertical change of WV, which is not always captured by the retrievals. The bias improves in the 5&#x2013;7.5&#x2009;km layer (1.0&#xb1;5.3&#x2009;%, r=0.94). The bias remains at about 13&#x2009;% for layers above 7.5&#x2009;km but below 13.5&#x2009;km. At MLO the spatial mismatch is significantly larger due to the launch of the sonde being farther from the FTIR location. Nevertheless, we estimate a negative bias of 5.9&#xb1;4.6&#x2009;% (r=0.93) for the 3.5&#x2013;5.5&#x2009;km layer and 9.9&#xb1;3.7&#x2009;% (r=0.93) for the 5.5&#x2013;7.5&#x2009;km layer, and we measure positive biases of 6.2&#xb1;3.6&#x2009;% (r=0.95) for the 7.5&#x2013;10&#x2009;km layer and 12.6&#x2009;% and greater values above 10&#x2009;km. The agreement for the first layer is significantly better at BLD because the air masses are similar for both FTIR and FPH. Furthermore, for the first time we study the influence of different WV a priori profiles in the retrieval of selected gas profiles. Using NDACC standard retrievals we present results for hydrogen cyanide (HCN), carbon monoxide (CO), and ethane (C2H6) by taking NOAA FPH profiles as the ground truth and evaluating the impact of other WV profiles. We show that the effect is minor for C2H6 (bias &lt;0.5&#x2009;% for all WV sources) among all vertical layers. However, for HCN we found significant biases between 6&#x2009;% for layers close to the surface and 2&#x2009;% for the upper troposphere depending on the WV profile source. The best results (reduced bias and precision and r values closer to unity) are always found for pre-retrieved WV. Therefore, we recommend first retrieving WV to use in subsequent retrieval of gases.</gco:CharacterString>
+            <gco:CharacterString>Retrievals of vertical profiles of key atmospheric gases provide a critical long-term record from ground-based Fourier transform infrared (FTIR) solar absorption measurements. However, the characterization of the retrieved vertical profile structure can be difficult to validate, especially for gases with large vertical gradients and spatial–temporal variability such as water vapor. In this work, we evaluate the accuracy of the most common water vapor isotope (H162O, hereafter WV) FTIR retrievals in the lower and upper troposphere–lower stratosphere. Coincident high-quality vertically resolved WV profile measurements obtained from 2010 to 2016 with balloon-borne NOAA frost point hygrometers (FPHs) are used as reference to evaluate the performance of the retrieved profiles at two sites: Boulder (BLD), Colorado, and at the mountaintop observatory of Mauna Loa (MLO), Hawaii. For a meaningful comparison, the spatial–temporal variability has been investigated. We present results of comparisons among FTIR retrievals with unsmoothed and smoothed FPH profiles to assess WV vertical gradients. Additionally, we evaluate the quantitative impact of different a priori profiles in the retrieval of WV. An orthogonal linear regression analysis shows the best correlation among tropospheric layers using ERA-Interim (ERA-I) a priori profiles and biases are lower for unsmoothed comparisons. In Boulder, we found a negative bias of 0.02±1.9 % (r=0.95) for the 1.5–3 km layer. A larger negative bias of 11.1±3.5 % (r=0.97) was found in the lower free troposphere layer of 3–5 km attributed to rapid vertical change of WV, which is not always captured by the retrievals. The bias improves in the 5–7.5 km layer (1.0±5.3 %, r=0.94). The bias remains at about 13 % for layers above 7.5 km but below 13.5 km. At MLO the spatial mismatch is significantly larger due to the launch of the sonde being farther from the FTIR location. Nevertheless, we estimate a negative bias of 5.9±4.6 % (r=0.93) for the 3.5–5.5 km layer and 9.9±3.7 % (r=0.93) for the 5.5–7.5 km layer, and we measure positive biases of 6.2±3.6 % (r=0.95) for the 7.5–10 km layer and 12.6 % and greater values above 10 km. The agreement for the first layer is significantly better at BLD because the air masses are similar for both FTIR and FPH. Furthermore, for the first time we study the influence of different WV a priori profiles in the retrieval of selected gas profiles. Using NDACC standard retrievals we present results for hydrogen cyanide (HCN), carbon monoxide (CO), and ethane (C2H6) by taking NOAA FPH profiles as the ground truth and evaluating the impact of other WV profiles. We show that the effect is minor for C2H6 (bias &lt;0.5 % for all WV sources) among all vertical layers. However, for HCN we found significant biases between 6 % for layers close to the surface and 2 % for the upper troposphere depending on the WV profile source. The best results (reduced bias and precision and r values closer to unity) are always found for pre-retrieved WV. Therefore, we recommend first retrieving WV to use in subsequent retrieval of gases.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

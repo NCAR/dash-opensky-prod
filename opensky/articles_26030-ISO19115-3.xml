@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26030</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:57:05.552090</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:57:43.451206</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -287,7 +288,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Soil moisture is a critical land surface variable, impacting the water, energy, and carbon cycles. While in situ soil moisture monitoring networks are still developing, there is no cohesive strategy or framework to coordinate, integrate, or disseminate these diverse data sources in a synergistic way that can improve our ability to understand climate variability at the national, state, and local levels. Thus, a national strategy is needed to guide network deployment, sustainable network operation, data integration and dissemination, and user-focused product development. The National Coordinated Soil Moisture Monitoring Network (NCSMMN) is a federally led, multi-institution effort that aims to address these needs by capitalizing on existing wide-ranging soil moisture monitoring activities, increasing the utility of observational data, and supporting their strategic application to the full range of decision-making needs. The goals of the NCSMMN are to 1) establish a national "network of networks" that effectively demonstrates data integration and operational coordination of diverse in situ networks; 2) build a community of practice around soil moisture measurement, interpretation, and application&#x2014;a "network of people" that links data providers, researchers, and the public; and 3) support research and development (R&amp;D) on techniques to merge in situ soil moisture data with remotely sensed and modeled hydrologic data to create user-friendly soil moisture maps and associated tools. The overarching mission of the NCSMMN is to provide coordinated high-quality, nationwide soil moisture information for the public good by supporting applications like drought and flood monitoring, water resource management, agricultural and forestry planning, and fire danger ratings.</gco:CharacterString>
+            <gco:CharacterString>Soil moisture is a critical land surface variable, impacting the water, energy, and carbon cycles. While in situ soil moisture monitoring networks are still developing, there is no cohesive strategy or framework to coordinate, integrate, or disseminate these diverse data sources in a synergistic way that can improve our ability to understand climate variability at the national, state, and local levels. Thus, a national strategy is needed to guide network deployment, sustainable network operation, data integration and dissemination, and user-focused product development. The National Coordinated Soil Moisture Monitoring Network (NCSMMN) is a federally led, multi-institution effort that aims to address these needs by capitalizing on existing wide-ranging soil moisture monitoring activities, increasing the utility of observational data, and supporting their strategic application to the full range of decision-making needs. The goals of the NCSMMN are to 1) establish a national "network of networks" that effectively demonstrates data integration and operational coordination of diverse in situ networks; 2) build a community of practice around soil moisture measurement, interpretation, and application—a "network of people" that links data providers, researchers, and the public; and 3) support research and development (R&amp;D) on techniques to merge in situ soil moisture data with remotely sensed and modeled hydrologic data to create user-friendly soil moisture maps and associated tools. The overarching mission of the NCSMMN is to provide coordinated high-quality, nationwide soil moisture information for the public good by supporting applications like drought and flood monitoring, water resource management, agricultural and forestry planning, and fire danger ratings.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

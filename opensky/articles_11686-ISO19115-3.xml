@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11686</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:35:08.035307</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:59:50.597594</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Marsh, Daniel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6699-494X"
+                                    xlink:title="Marsh, Daniel"
+                                    xlink:actuate="onRequest">Marsh, Daniel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Sudden changes in stratospheric chlorine species in the polar northern atmosphere, caused by the Solar Proton Events (SPEs) of 17 and 20 January 2005, have been investigated and compared with version 4 of the Whole Atmosphere Community Climate Model (WACCM4). We used Aura Microwave Limb Sounder (MLS) measurements to monitor the variability of ClO, HCl, HOCl and Michelson Interferometer for Passive Atmospheric Sounder (MIPAS) on ENVISAT to retrieve ClONO&#x2082;. SPE-induced chlorine activation has been identified. HCl decrease occurred at nearly all the investigated altitudes (i.e., 10-0.5 hPa) with the strongest decrease (of about 0.25 ppbv) on 21 January. HOCl was found to be the main active chlorine species under nighttime conditions (with increases of more than 0.2 ppbv) whereas both HOCl and ClO enhancements (about 0.1 ppbv) have been observed at the polar night terminator. Further, small ClO decreases (of less than 0.1 ppbv) and ClONO&#x2082; enhancements (about 0.2 ppbv) have been observed at higher latitudes (i.e., at nighttime) roughly above 2 hPa. While WACCM4 reproduces most of the SPE-induced variability in the chlorine species fairly well, in some particular regions discrepancies between the modeled and measured temporal evolution of the abundances of chlorine species were found. HOCl changes are modelled very well with respect to both magnitude and geographic distribution. ClO decreases are reproduced at high latitudes, whereas ClO enhancements in the terminator region are underestimated and attributed to background variations. WACCM4 also reproduces the HCl depletion in the mesosphere but it does not show the observed decrease below about 2 hPa. Finally, WACCM4 simulations indicate that the observed ClONO&#x2082; increase is dominated by background variability, although SPE-induced production might contribute by 0.1 ppbv.</gco:CharacterString>
+            <gco:CharacterString>Sudden changes in stratospheric chlorine species in the polar northern atmosphere, caused by the Solar Proton Events (SPEs) of 17 and 20 January 2005, have been investigated and compared with version 4 of the Whole Atmosphere Community Climate Model (WACCM4). We used Aura Microwave Limb Sounder (MLS) measurements to monitor the variability of ClO, HCl, HOCl and Michelson Interferometer for Passive Atmospheric Sounder (MIPAS) on ENVISAT to retrieve ClONO₂. SPE-induced chlorine activation has been identified. HCl decrease occurred at nearly all the investigated altitudes (i.e., 10-0.5 hPa) with the strongest decrease (of about 0.25 ppbv) on 21 January. HOCl was found to be the main active chlorine species under nighttime conditions (with increases of more than 0.2 ppbv) whereas both HOCl and ClO enhancements (about 0.1 ppbv) have been observed at the polar night terminator. Further, small ClO decreases (of less than 0.1 ppbv) and ClONO₂ enhancements (about 0.2 ppbv) have been observed at higher latitudes (i.e., at nighttime) roughly above 2 hPa. While WACCM4 reproduces most of the SPE-induced variability in the chlorine species fairly well, in some particular regions discrepancies between the modeled and measured temporal evolution of the abundances of chlorine species were found. HOCl changes are modelled very well with respect to both magnitude and geographic distribution. ClO decreases are reproduced at high latitudes, whereas ClO enhancements in the terminator region are underestimated and attributed to background variations. WACCM4 also reproduces the HCl depletion in the mesosphere but it does not show the observed decrease below about 2 hPa. Finally, WACCM4 simulations indicate that the observed ClONO₂ increase is dominated by background variability, although SPE-induced production might contribute by 0.1 ppbv.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

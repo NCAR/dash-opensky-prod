@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10579</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:47:08.997607</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:33:56.782338</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Measurements from the High Resolution Dynamics Limb Sounder (HIRDLS) on NASA's Aura satellite are used to quantify gravity wave momentum fluxes generated from monsoon regions across the globe over the 3 years 2005-2007. Momentum fluxes in the altitude range 16-60 km over eight individual monsoon regions in both hemispheres are examined and compared to convective data from National Oceanic and Atmospheric Administration's Outgoing Longwave Radiation time series and precipitation data from the Tropical Rainfall Monitoring Mission. Good correlations are observed over seven of these eight regions, the exception being the North American monsoon region. An increase in measured momentum flux of approximately 50% is observed over the 10&#xb0;N-30&#xb0;N latitude band during the boreal monsoon period, with around half of the annual momentum flux for this latitude range measured during this period; however, the limited correspondence in the North American region suggests that at least some of this increase may be due to other processes.</gco:CharacterString>
+            <gco:CharacterString>Measurements from the High Resolution Dynamics Limb Sounder (HIRDLS) on NASA's Aura satellite are used to quantify gravity wave momentum fluxes generated from monsoon regions across the globe over the 3 years 2005-2007. Momentum fluxes in the altitude range 16-60 km over eight individual monsoon regions in both hemispheres are examined and compared to convective data from National Oceanic and Atmospheric Administration's Outgoing Longwave Radiation time series and precipitation data from the Tropical Rainfall Monitoring Mission. Good correlations are observed over seven of these eight regions, the exception being the North American monsoon region. An increase in measured momentum flux of approximately 50% is observed over the 10°N-30°N latitude band during the boreal monsoon period, with around half of the annual momentum flux for this latitude range measured during this period; however, the limited correspondence in the North American region suggests that at least some of this increase may be due to other processes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:43153</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:53:44.304969</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:53:40.322510</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hamitouche, M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5723-3492"
+                                    xlink:title="Hamitouche, M."
+                                    xlink:actuate="onRequest">Hamitouche, M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>He, Cenlin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7367-2815"
+                                    xlink:title="He, Cenlin"
+                                    xlink:actuate="onRequest">He, Cenlin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lin, Tzu-Shun</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5741-8585"
+                                    xlink:title="Lin, Tzu-Shun"
+                                    xlink:actuate="onRequest">Lin, Tzu-Shun</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +184,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Accurate estimation of flow discharge is crucial for hydrological modelling, water resources planning, and flood prediction. This study examines seven common runoff schemes within the widely used Noah-Multi-parameterisation (Noah-MP) land surface model (LSM) and evaluates their performance using ERA5-Land runoff data as a benchmark for assessing runoff and in situ streamflow observations for evaluating discharge across the globe. Then, to assess the sensitivity of global river discharge to runoff, we simulate the discharge using the Catchment-based Macro-scale Floodplain (CaMa-Flood) model across various climatic regions. The results indicate significant variability in the accuracy of the runoff schemes, with model experiments that use TOPMODEL-based runoff schemes, which are based on topography, underestimating runoff across many regions, particularly in the Northern Hemisphere, while experiments using the other runoff schemes, including default Schaake free-drainage scheme from Noah, BATS (Biosphere&#x2013;Atmosphere Transfer Scheme), Variable Infiltration Capacity (VIC) scheme, and Xinanjiang scheme (XAJ), showed improved performance. Dynamic VIC consistently overestimated runoff globally. Seasonal analysis reveals substantial regional and seasonal variability. ERA5-Land and several Noah-MP schemes successfully replicated general discharge patterns of in situ observations, with ERA5-Land and Noah-MP Schaake scheme simulations closely aligning with observed data. The Noah-MP simulations demonstrated robust versatility across various land covers, soil types, basin sizes, and topographies, indicating its broad applicability. Despite overall good performance, significant biases in high-flow extremes highlight the need for continued model improvement or calibration. These findings are critical for improving global hydrological models, which are essential for developing more reliable water resources management strategies and adapting to the growing challenges posed by climate change, such as shifts in water availability and extreme flood events.</gco:CharacterString>
+            <gco:CharacterString>Accurate estimation of flow discharge is crucial for hydrological modelling, water resources planning, and flood prediction. This study examines seven common runoff schemes within the widely used Noah-Multi-parameterisation (Noah-MP) land surface model (LSM) and evaluates their performance using ERA5-Land runoff data as a benchmark for assessing runoff and in situ streamflow observations for evaluating discharge across the globe. Then, to assess the sensitivity of global river discharge to runoff, we simulate the discharge using the Catchment-based Macro-scale Floodplain (CaMa-Flood) model across various climatic regions. The results indicate significant variability in the accuracy of the runoff schemes, with model experiments that use TOPMODEL-based runoff schemes, which are based on topography, underestimating runoff across many regions, particularly in the Northern Hemisphere, while experiments using the other runoff schemes, including default Schaake free-drainage scheme from Noah, BATS (Biosphere–Atmosphere Transfer Scheme), Variable Infiltration Capacity (VIC) scheme, and Xinanjiang scheme (XAJ), showed improved performance. Dynamic VIC consistently overestimated runoff globally. Seasonal analysis reveals substantial regional and seasonal variability. ERA5-Land and several Noah-MP schemes successfully replicated general discharge patterns of in situ observations, with ERA5-Land and Noah-MP Schaake scheme simulations closely aligning with observed data. The Noah-MP simulations demonstrated robust versatility across various land covers, soil types, basin sizes, and topographies, indicating its broad applicability. Despite overall good performance, significant biases in high-flow extremes highlight the need for continued model improvement or calibration. These findings are critical for improving global hydrological models, which are essential for developing more reliable water resources management strategies and adapting to the growing challenges posed by climate change, such as shifts in water availability and extreme flood events.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24145</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:08:45.088048</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:32:56.619678</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Burkepile, Joan R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9959-6048"
+                                    xlink:title="Burkepile, Joan R."
+                                    xlink:actuate="onRequest">Burkepile, Joan R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fan, Yuhong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1027-0795"
+                                    xlink:title="Fan, Yuhong"
+                                    xlink:actuate="onRequest">Fan, Yuhong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gibson, Sarah E.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9831-2640"
+                                    xlink:title="Gibson, Sarah E."
+                                    xlink:actuate="onRequest">Gibson, Sarah E.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +324,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Sun Coronal Ejection Tracker (SunCET) is an extreme ultraviolet imager and spectrograph instrument concept for tracking coronal mass ejections through the region where they experience the majority of their acceleration: the difficult-to-observe middle corona. It contains a wide field of view (0&#x2013;4 R) imager and a 1 &#xc5; spectral-resolution-irradiance spectrograph spanning 170&#x2013;340 &#xc5;. It leverages new detector technology to read out different areas of the detector with different integration times, resulting in what we call "simultaneous high dynamic range", as opposed to the traditional high dynamic range camera technique of subsequent full-frame images that are then combined in post-processing. This allows us to image the bright solar disk with short integration time, the middle corona with a long integration time, and the spectra with their own, independent integration time. Thus, SunCET does not require the use of an opaque or filtered occulter. SunCET is also compact &#x2013; ~15 15 10 cm in volume &#x2013; making it an ideal instrument for a CubeSat or a small, complementary addition to a larger mission. Indeed, SunCET is presently in a NASA-funded, competitive Phase A as a CubeSat and has also been proposed to NASA as an instrument onboard a 184 kg Mission of Opportunity.</gco:CharacterString>
+            <gco:CharacterString>The Sun Coronal Ejection Tracker (SunCET) is an extreme ultraviolet imager and spectrograph instrument concept for tracking coronal mass ejections through the region where they experience the majority of their acceleration: the difficult-to-observe middle corona. It contains a wide field of view (0–4 R) imager and a 1 Å spectral-resolution-irradiance spectrograph spanning 170–340 Å. It leverages new detector technology to read out different areas of the detector with different integration times, resulting in what we call "simultaneous high dynamic range", as opposed to the traditional high dynamic range camera technique of subsequent full-frame images that are then combined in post-processing. This allows us to image the bright solar disk with short integration time, the middle corona with a long integration time, and the spectra with their own, independent integration time. Thus, SunCET does not require the use of an opaque or filtered occulter. SunCET is also compact – ~15 15 10 cm in volume – making it an ideal instrument for a CubeSat or a small, complementary addition to a larger mission. Indeed, SunCET is presently in a NASA-funded, competitive Phase A as a CubeSat and has also been proposed to NASA as an instrument onboard a 184 kg Mission of Opportunity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

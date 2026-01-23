@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6670</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:01:18.035541</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:30:41.555417</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +202,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present a new dynamic model that describes coupling between standing inertial or ion-acoustic-gyroradius-scale shear Alfv&#xe9;n waves, compressional modes, and auroral density disturbances. The model is applied to the excitation of field line resonances (FLRs) in dipolar and stretched geomagnetic fields in Earth's magnetosphere. Magnetosphere-ionosphere coupling is included by accounting for the closure of magnetospheric field-aligned currents (FACs) through Pedersen currents in the ionosphere. A second new aspect is that the height-integrated Pedersen conductivity is treated as a dynamic parameter by electrodynamically coupling the two-dimensional finite element wave model "Topo" to the ionospheric ionization model "Global Airglow Model (GLOW)." We demonstrate that field line stretching brings the equatorial plasma &#x3b2; above unity, where the reduced MHD formulism for low-frequency plasma breaks down. As an application of our model, we study a specific FLR event observed on 31 January 1997, when the NASA FAST satellite was over the Canadian Auroral Network for the OPEN Program Unified Study (CANOPUS) Gillam station. Using geomagnetic fields computed from the T96 magnetic field model, we show that auroral electron precipitation produces strong Pedersen conductivity enhancements that control the final amplitude and width of the excited FLR, along with the amplitude of associated density fluctuations. The predictions of the model are generally consistent with observations of this event.</gco:CharacterString>
+            <gco:CharacterString>We present a new dynamic model that describes coupling between standing inertial or ion-acoustic-gyroradius-scale shear Alfvén waves, compressional modes, and auroral density disturbances. The model is applied to the excitation of field line resonances (FLRs) in dipolar and stretched geomagnetic fields in Earth's magnetosphere. Magnetosphere-ionosphere coupling is included by accounting for the closure of magnetospheric field-aligned currents (FACs) through Pedersen currents in the ionosphere. A second new aspect is that the height-integrated Pedersen conductivity is treated as a dynamic parameter by electrodynamically coupling the two-dimensional finite element wave model "Topo" to the ionospheric ionization model "Global Airglow Model (GLOW)." We demonstrate that field line stretching brings the equatorial plasma β above unity, where the reduced MHD formulism for low-frequency plasma breaks down. As an application of our model, we study a specific FLR event observed on 31 January 1997, when the NASA FAST satellite was over the Canadian Auroral Network for the OPEN Program Unified Study (CANOPUS) Gillam station. Using geomagnetic fields computed from the T96 magnetic field model, we show that auroral electron precipitation produces strong Pedersen conductivity enhancements that control the final amplitude and width of the excited FLR, along with the amplitude of associated density fluctuations. The predictions of the model are generally consistent with observations of this event.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

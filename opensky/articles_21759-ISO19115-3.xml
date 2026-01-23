@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21759</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:37:29.932814</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:55:21.512228</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emmons, Louisa K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2325-6212"
+                                    xlink:title="Emmons, Louisa K."
+                                    xlink:actuate="onRequest">Emmons, Louisa K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +282,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study quantifies future changes in tropospheric ozone (O3) using a simple parameterisation of source&#x2013;receptor relationships based on simulations from a range of models participating in the Task Force on Hemispheric Transport of Air Pollutants (TF-HTAP) experiments. Surface and tropospheric O3 changes are calculated globally and across 16 regions from perturbations in precursor emissions (NOx, CO, volatile organic compounds &#x2013; VOCs) and methane (CH4) abundance only, neglecting any impact from climate change. A source attribution is provided for each source region along with an estimate of uncertainty based on the spread of the results from the models. Tests against model simulations using the Hadley Centre Global Environment Model version 2 &#x2013; Earth system configuration (HadGEM2-ES) confirm that the approaches used within the parameterisation perform well for most regions. The O3 response to changes in CH4 abundance is slightly larger in the TF-HTAP Phase 2 than in the TF-HTAP Phase 1 assessment (2010) and provides further evidence that controlling CH4 is important for limiting future O3 concentrations. Different treatments of chemistry and meteorology in models remain one of the largest uncertainties in calculating the O3 response to perturbations in CH4 abundance and precursor emissions, particularly over the Middle East and south Asia regions. Emission changes for the future Evaluating the CLimate and Air Quality ImPacts of Short-livEd Pollutants (ECLIPSE) scenarios and a subset of preliminary Shared Socioeconomic Pathways (SSPs) indicate that surface O3 concentrations will increase regionally by 1 to 8ppbv in 2050. Source attribution analysis highlights the growing importance of CH4 in the future under current legislation. A change in the global tropospheric O3 radiative forcing of +0.07Wm&#x2212;2 from 2010 to 2050 is predicted using the ECLIPSE scenarios and SSPs, based solely on changes in CH4 abundance and tropospheric O3 precursor emissions and neglecting any influence of climate change. Current legislation is shown to be inadequate in limiting the future degradation of surface ozone air quality and enhancement of near-term climate warming. More stringent future emission controls provide a large reduction in both surface O3 concentrations and O3 radiative forcing. The parameterisation provides a simple tool to highlight the different impacts and associated uncertainties of local and hemispheric emission control strategies on both surface air quality and the near-term climate forcing by tropospheric O3.</gco:CharacterString>
+            <gco:CharacterString>This study quantifies future changes in tropospheric ozone (O3) using a simple parameterisation of source–receptor relationships based on simulations from a range of models participating in the Task Force on Hemispheric Transport of Air Pollutants (TF-HTAP) experiments. Surface and tropospheric O3 changes are calculated globally and across 16 regions from perturbations in precursor emissions (NOx, CO, volatile organic compounds – VOCs) and methane (CH4) abundance only, neglecting any impact from climate change. A source attribution is provided for each source region along with an estimate of uncertainty based on the spread of the results from the models. Tests against model simulations using the Hadley Centre Global Environment Model version 2 – Earth system configuration (HadGEM2-ES) confirm that the approaches used within the parameterisation perform well for most regions. The O3 response to changes in CH4 abundance is slightly larger in the TF-HTAP Phase 2 than in the TF-HTAP Phase 1 assessment (2010) and provides further evidence that controlling CH4 is important for limiting future O3 concentrations. Different treatments of chemistry and meteorology in models remain one of the largest uncertainties in calculating the O3 response to perturbations in CH4 abundance and precursor emissions, particularly over the Middle East and south Asia regions. Emission changes for the future Evaluating the CLimate and Air Quality ImPacts of Short-livEd Pollutants (ECLIPSE) scenarios and a subset of preliminary Shared Socioeconomic Pathways (SSPs) indicate that surface O3 concentrations will increase regionally by 1 to 8ppbv in 2050. Source attribution analysis highlights the growing importance of CH4 in the future under current legislation. A change in the global tropospheric O3 radiative forcing of +0.07Wm−2 from 2010 to 2050 is predicted using the ECLIPSE scenarios and SSPs, based solely on changes in CH4 abundance and tropospheric O3 precursor emissions and neglecting any influence of climate change. Current legislation is shown to be inadequate in limiting the future degradation of surface ozone air quality and enhancement of near-term climate warming. More stringent future emission controls provide a large reduction in both surface O3 concentrations and O3 radiative forcing. The parameterisation provides a simple tool to highlight the different impacts and associated uncertainties of local and hemispheric emission control strategies on both surface air quality and the near-term climate forcing by tropospheric O3.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

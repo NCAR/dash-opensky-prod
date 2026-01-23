@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:26544</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T15:15:43.945115</gco:DateTime>
+      <gco:DateTime>2025-12-24T19:26:56.781805</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A severe derecho impacted the Midwestern United States on 10 August 2020, causing over $12 billion (U.S. dollars) in damage, and producing peak winds estimated at 63 m s&#x2212;1, with the worst impacts in Iowa. The event was not forecast well by operational forecasters, nor even by operational and quasi-operational convection-allowing models. In the present study, nine simulations are performed using the Limited Area Model version of the Finite-Volume-Cubed-Sphere model (FV3-LAM) with three horizontal grid spacings and two physics suites. In addition, when a prototype of the Rapid Refresh Forecast System (RRFS) physics is used, sensitivity tests are performed to examine the impact of using the Grell-Freitas (GF) convective scheme. Several unusual results are obtained. With both the RRFS (not using GF) and Global Forecast System (GFS) physics suites, simulations using relatively coarse 13- and 25-km horizontal grid spacing do a much better job of showing an organized convective system in Iowa during the daylight hours of 10 August than the 3-km grid spacing runs. In addition, the RRFS run with 25-km grid spacing becomes much worse when the GF convective scheme is used. The 3-km RRFS run that does not use the GF scheme develops spurious nocturnal convection the night before the derecho, removing instability and preventing the derecho from being simulated at all. When GF is used, the spurious storms are removed and an excellent forecast is obtained with an intense bowing echo, exceptionally strong cold pool, and roughly 50 m s&#x2212;1 surface wind gusts.</gco:CharacterString>
+            <gco:CharacterString>A severe derecho impacted the Midwestern United States on 10 August 2020, causing over $12 billion (U.S. dollars) in damage, and producing peak winds estimated at 63 m s−1, with the worst impacts in Iowa. The event was not forecast well by operational forecasters, nor even by operational and quasi-operational convection-allowing models. In the present study, nine simulations are performed using the Limited Area Model version of the Finite-Volume-Cubed-Sphere model (FV3-LAM) with three horizontal grid spacings and two physics suites. In addition, when a prototype of the Rapid Refresh Forecast System (RRFS) physics is used, sensitivity tests are performed to examine the impact of using the Grell-Freitas (GF) convective scheme. Several unusual results are obtained. With both the RRFS (not using GF) and Global Forecast System (GFS) physics suites, simulations using relatively coarse 13- and 25-km horizontal grid spacing do a much better job of showing an organized convective system in Iowa during the daylight hours of 10 August than the 3-km grid spacing runs. In addition, the RRFS run with 25-km grid spacing becomes much worse when the GF convective scheme is used. The 3-km RRFS run that does not use the GF scheme develops spurious nocturnal convection the night before the derecho, removing instability and preventing the derecho from being simulated at all. When GF is used, the spurious storms are removed and an excellent forecast is obtained with an intense bowing echo, exceptionally strong cold pool, and roughly 50 m s−1 surface wind gusts.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

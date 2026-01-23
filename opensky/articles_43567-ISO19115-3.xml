@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:43567</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:46:53.760308</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:48:35.676685</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Matthes, H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9913-7696"
+                                    xlink:title="Matthes, H."
+                                    xlink:actuate="onRequest">Matthes, H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gagne&#x2010;Landmann, A.</gco:CharacterString>
+                        <gco:CharacterString>Gagne‐Landmann, A.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sch&#xe4;del, C.</gco:CharacterString>
+                        <gco:CharacterString>Schädel, C.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wieder, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7116-1985"
+                                    xlink:title="Wieder, William"
+                                    xlink:actuate="onRequest">Wieder, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +322,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>&lt;p&gt;Permafrost is undergoing rapid changes due to climate warming, potentially exposing a vast reservoir of carbon to be released to the atmosphere, causing a positive feedback cycle. Despite the importance of this feedback, its specifics remain poorly constrained, because representing permafrost dynamics still poses a significant challenge for Earth System Models (ESMs). This review assesses the current state of permafrost representation in land surface models (LSMs) used in ESMs and offline permafrost models, highlighting both the progress made and the remaining gaps.&lt;/p&gt;&lt;p&gt;We identify several key physical processes crucial for permafrost dynamics, including soil thermal regimes, freeze&#x2013;thaw cycles, and soil hydrology, which are underrepresented in many models. While some LSMs have advanced significantly in incorporating these processes, others lack fundamental elements such as latent heat of freeze&#x2013;thaw, deep soil columns, and Arctic vegetation dynamics. Offline permafrost models provide valuable insights, offering detailed process testing and aiding the prioritization of improvements in coupled LSMs.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Our analysis reveals that while significant progress has been made in incorporating permafrost-related processes into coupled LSMs, many small-scale processes crucial for permafrost dynamics remain underrepresented. This is particularly important for capturing the complex interactions between physical and biogeochemical processes required to model permafrost carbon dynamics. We recommend leveraging advancements from offline permafrost models and progressively integrating them into LSMs, while recognizing the computational and technical challenges that may arise in coupled simulations. We highlight the importance of enhancing the representation of physical processes, including through improvements in model resolution and complexity, as this is a fundamental precursor to accurately incorporate biogeochemical processes and capture the permafrost carbon feedback.&lt;/p&gt;</gco:CharacterString>
+            <gco:CharacterString>&lt;p&gt;Permafrost is undergoing rapid changes due to climate warming, potentially exposing a vast reservoir of carbon to be released to the atmosphere, causing a positive feedback cycle. Despite the importance of this feedback, its specifics remain poorly constrained, because representing permafrost dynamics still poses a significant challenge for Earth System Models (ESMs). This review assesses the current state of permafrost representation in land surface models (LSMs) used in ESMs and offline permafrost models, highlighting both the progress made and the remaining gaps.&lt;/p&gt;&lt;p&gt;We identify several key physical processes crucial for permafrost dynamics, including soil thermal regimes, freeze–thaw cycles, and soil hydrology, which are underrepresented in many models. While some LSMs have advanced significantly in incorporating these processes, others lack fundamental elements such as latent heat of freeze–thaw, deep soil columns, and Arctic vegetation dynamics. Offline permafrost models provide valuable insights, offering detailed process testing and aiding the prioritization of improvements in coupled LSMs.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Our analysis reveals that while significant progress has been made in incorporating permafrost-related processes into coupled LSMs, many small-scale processes crucial for permafrost dynamics remain underrepresented. This is particularly important for capturing the complex interactions between physical and biogeochemical processes required to model permafrost carbon dynamics. We recommend leveraging advancements from offline permafrost models and progressively integrating them into LSMs, while recognizing the computational and technical challenges that may arise in coupled simulations. We highlight the importance of enhancing the representation of physical processes, including through improvements in model resolution and complexity, as this is a fundamental precursor to accurately incorporate biogeochemical processes and capture the permafrost carbon feedback.&lt;/p&gt;</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

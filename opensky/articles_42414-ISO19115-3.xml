@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42414</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:06.530892</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:57:10.651708</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -217,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +230,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +334,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Reactive halogens catalytically destroy O3 and therefore affect (1) stratospheric O3 depletion and (2) the oxidative capacity of the troposphere. Reactive halogens also partition into the aerosol phase, but what governs halogen-aerosol partitioning is poorly constrained in models. In this work, we present global-scale measurements of non-sea-salt aerosol (nSSA) bromine and iodine taken during the NASA Atmospheric Tomography Mission (ATom). Using the Particle Analysis by Laser Mass Spectrometry instrument, we found that bromine and iodine are present in 8&#x2009;%&#x2013;26&#x2009;% (interquartile range, IQR) and 12&#x2009;%&#x2013;44&#x2009;% (IQR) of accumulation-mode nSSA, respectively. Despite being commonly found in nSSA, the concentrations of bromine and iodine in nSSA were low but potentially important, at 0.11&#x2013;0.57&#x2009;pmol&#x2009;mol&#x2212;1 (IQR) and 0.04&#x2013;0.24&#x2009;pmol&#x2009;mol&#x2212;1 (IQR), respectively. In the troposphere, we find two distinct sources of bromine and iodine for nSSA: (1)&amp;nbsp;a primary source from biomass burning and (2)&amp;nbsp;a pervasive secondary source. In the stratosphere, nSSA bromine and iodine concentrations increased with increasing O3 concentrations; however, higher concentrations of stratospheric nSSA bromine and iodine were found in organic-rich particles that originated in the troposphere. Finally, we compared our ATom nSSA iodine measurements to the global chemical transport model GEOS-Chem (Goddard Earth Observing System); nSSA bromine concentrations could not be compared because they were not tracked in the model. We found that the model compared well to our ATom nSSA iodine measurements in the background atmosphere but not in the marine boundary layer, biomass burning plumes, or stratosphere.</gco:CharacterString>
+            <gco:CharacterString>Reactive halogens catalytically destroy O3 and therefore affect (1) stratospheric O3 depletion and (2) the oxidative capacity of the troposphere. Reactive halogens also partition into the aerosol phase, but what governs halogen-aerosol partitioning is poorly constrained in models. In this work, we present global-scale measurements of non-sea-salt aerosol (nSSA) bromine and iodine taken during the NASA Atmospheric Tomography Mission (ATom). Using the Particle Analysis by Laser Mass Spectrometry instrument, we found that bromine and iodine are present in 8 %–26 % (interquartile range, IQR) and 12 %–44 % (IQR) of accumulation-mode nSSA, respectively. Despite being commonly found in nSSA, the concentrations of bromine and iodine in nSSA were low but potentially important, at 0.11–0.57 pmol mol−1 (IQR) and 0.04–0.24 pmol mol−1 (IQR), respectively. In the troposphere, we find two distinct sources of bromine and iodine for nSSA: (1)&amp;nbsp;a primary source from biomass burning and (2)&amp;nbsp;a pervasive secondary source. In the stratosphere, nSSA bromine and iodine concentrations increased with increasing O3 concentrations; however, higher concentrations of stratospheric nSSA bromine and iodine were found in organic-rich particles that originated in the troposphere. Finally, we compared our ATom nSSA iodine measurements to the global chemical transport model GEOS-Chem (Goddard Earth Observing System); nSSA bromine concentrations could not be compared because they were not tracked in the model. We found that the model compared well to our ATom nSSA iodine measurements in the background atmosphere but not in the marine boundary layer, biomass burning plumes, or stratosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

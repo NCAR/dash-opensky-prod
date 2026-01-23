@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6806</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:26.241929</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:40:10.218224</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Validation of MIPAS ClONO&#x2082; measurements</gco:CharacterString>
+                  <gco:CharacterString>Validation of MIPAS ClONO₂ measurements</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -317,7 +318,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -567,7 +570,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Altitude profiles of ClONO2 retrieved with the IMK (Institut f&#xfc;r Meteorologie und Klimaforschung) science-oriented data processor from MIPAS/Envisat (Michelson Interferometer for Passive Atmospheric Sounding on Envisat) mid-infrared limb emission measurements between July 2002 and March 2004 have been validated by comparison with balloon-borne (Mark IV, FIRS2, MIPAS-B), airborne (MIPAS-STR), ground-based (Spitsbergen, Thule, Kiruna, Harestua, Jungfraujoch, Iza&#xf1;a, Wollongong, Lauder), and spaceborne (ACE-FTS) observations. With few exceptions we found very good agreement between these instruments and MIPAS with no evidence for any bias in most cases and altitude regions. For balloon-borne measurements typical absolute mean differences are below 0.05 ppbv over the whole altitude range from 10 to 39 km. In case of ACE-FTS observations mean differences are below 0.03 ppbv for observations below 26 km. Above this altitude the comparison with ACE-FTS is affected by the photochemically induced diurnal variation of ClONO&amp;#x2082. Correction for this by use of a chemical transport model led to an overcompensation of the photochemical effect by up to 0.1 ppbv at altitudes of 30&#x2013;35 km in case of MIPAS-ACE-FTS comparisons while for the balloon-borne observations no such inconsistency has been detected. The comparison of MIPAS derived total column amounts with ground-based observations revealed no significant bias in the MIPAS data. Mean differences between MIPAS and FTIR column abundances are 0.11&#xb1;0.12&#xd7;10&lt;sup&gt;14&lt;/sup&gt; cm&lt;sup&gt;-2&lt;/sup&gt; (1.0&#xb1;1.1%) and &#x2212;0.09&#xb1;0.19&#xd7;10&lt;sup&gt;14&lt;/sup&gt; cm&lt;sup&gt;-2&lt;/sup&gt; (&#x2212;0.8&#xb1;1.7%), depending on the coincidence criterion applied. x&amp;#x00B2 tests have been performed to assess the combined precision estimates of MIPAS and the related instruments. When no exact coincidences were available as in case of MIPAS--FTIR or MIPAS--ACE-FTS comparisons it has been necessary to take into consideration a coincidence error term to account for x&amp;#x00B2 deviations. From the resulting x&amp;#x00B2 profiles there is no evidence for a systematic over/underestimation of the MIPAS random error analysis.</gco:CharacterString>
+            <gco:CharacterString>Altitude profiles of ClONO2 retrieved with the IMK (Institut für Meteorologie und Klimaforschung) science-oriented data processor from MIPAS/Envisat (Michelson Interferometer for Passive Atmospheric Sounding on Envisat) mid-infrared limb emission measurements between July 2002 and March 2004 have been validated by comparison with balloon-borne (Mark IV, FIRS2, MIPAS-B), airborne (MIPAS-STR), ground-based (Spitsbergen, Thule, Kiruna, Harestua, Jungfraujoch, Izaña, Wollongong, Lauder), and spaceborne (ACE-FTS) observations. With few exceptions we found very good agreement between these instruments and MIPAS with no evidence for any bias in most cases and altitude regions. For balloon-borne measurements typical absolute mean differences are below 0.05 ppbv over the whole altitude range from 10 to 39 km. In case of ACE-FTS observations mean differences are below 0.03 ppbv for observations below 26 km. Above this altitude the comparison with ACE-FTS is affected by the photochemically induced diurnal variation of ClONO&amp;#x2082. Correction for this by use of a chemical transport model led to an overcompensation of the photochemical effect by up to 0.1 ppbv at altitudes of 30–35 km in case of MIPAS-ACE-FTS comparisons while for the balloon-borne observations no such inconsistency has been detected. The comparison of MIPAS derived total column amounts with ground-based observations revealed no significant bias in the MIPAS data. Mean differences between MIPAS and FTIR column abundances are 0.11±0.12×10&lt;sup&gt;14&lt;/sup&gt; cm&lt;sup&gt;-2&lt;/sup&gt; (1.0±1.1%) and −0.09±0.19×10&lt;sup&gt;14&lt;/sup&gt; cm&lt;sup&gt;-2&lt;/sup&gt; (−0.8±1.7%), depending on the coincidence criterion applied. x&amp;#x00B2 tests have been performed to assess the combined precision estimates of MIPAS and the related instruments. When no exact coincidences were available as in case of MIPAS--FTIR or MIPAS--ACE-FTS comparisons it has been necessary to take into consideration a coincidence error term to account for x&amp;#x00B2 deviations. From the resulting x&amp;#x00B2 profiles there is no evidence for a systematic over/underestimation of the MIPAS random error analysis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

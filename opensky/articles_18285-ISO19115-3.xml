@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18285</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:51:18.673456</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:55:31.368028</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Xu, Yangyang</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7173-7761"
+                                    xlink:title="Xu, Yangyang"
+                                    xlink:actuate="onRequest">Xu, Yangyang</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Himalayan mountain glaciers and the snowpack over the Tibetan Plateau provide the headwater of several major rivers in Asia. In situ observations of snow cover extent since the 1960s suggest that the snowpack in the region have retreated significantly, accompanied by a surface warming of 2-2.5&#x202f;&#xb0;C observed over the peak altitudes (5000&#x202f;m). Using a high-resolution ocean&#x2013;atmosphere global climate model and an observationally constrained black carbon (BC) aerosol forcing, we attribute the observed altitude dependence of the warming trends as well as the spatial pattern of reductions in snow depths and snow cover extent to various anthropogenic factors. At the Tibetan Plateau altitudes, the increase in atmospheric CO&#x2082; concentration exerted a warming of 1.7&#x202f;&#xb0;C, BC 1.3&#x202f;&#xb0;C where as cooling aerosols cause about 0.7&#x202f;&#xb0;C cooling, bringing the net simulated warming consistent with the anomalously large observed warming. We therefore conclude that BC together with CO&#x2082; has contributed to the snow retreat trends. In particular, BC increase is the major factor in the strong elevation dependence of the observed surface warming. The atmospheric warming by BC as well as its surface darkening of snow is coupled with the positive snow albedo feedbacks to account for the disproportionately large role of BC in high-elevation regions. These findings reveal that BC impact needs to be properly accounted for in future regional climate projections, in particular on high-altitude cryosphere.</gco:CharacterString>
+            <gco:CharacterString>Himalayan mountain glaciers and the snowpack over the Tibetan Plateau provide the headwater of several major rivers in Asia. In situ observations of snow cover extent since the 1960s suggest that the snowpack in the region have retreated significantly, accompanied by a surface warming of 2-2.5 °C observed over the peak altitudes (5000 m). Using a high-resolution ocean–atmosphere global climate model and an observationally constrained black carbon (BC) aerosol forcing, we attribute the observed altitude dependence of the warming trends as well as the spatial pattern of reductions in snow depths and snow cover extent to various anthropogenic factors. At the Tibetan Plateau altitudes, the increase in atmospheric CO₂ concentration exerted a warming of 1.7 °C, BC 1.3 °C where as cooling aerosols cause about 0.7 °C cooling, bringing the net simulated warming consistent with the anomalously large observed warming. We therefore conclude that BC together with CO₂ has contributed to the snow retreat trends. In particular, BC increase is the major factor in the strong elevation dependence of the observed surface warming. The atmospheric warming by BC as well as its surface darkening of snow is coupled with the positive snow albedo feedbacks to account for the disproportionately large role of BC in high-elevation regions. These findings reveal that BC impact needs to be properly accounted for in future regional climate projections, in particular on high-altitude cryosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

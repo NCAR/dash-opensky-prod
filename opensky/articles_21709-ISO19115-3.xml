@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:21709</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:37:54.067946</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:56:20.072238</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Campos, Teresa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7226-3569"
+                                    xlink:title="Campos, Teresa"
+                                    xlink:actuate="onRequest">Campos, Teresa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cantrell, Chris A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3844-1560"
+                                    xlink:title="Cantrell, Chris A."
+                                    xlink:actuate="onRequest">Cantrell, Chris A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +224,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Flocke, Frank M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2661-6394"
+                                    xlink:title="Flocke, Frank M."
+                                    xlink:actuate="onRequest">Flocke, Frank M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -227,7 +236,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fried, Alan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5230-3527"
+                                    xlink:title="Fried, Alan"
+                                    xlink:actuate="onRequest">Fried, Alan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hills, Alan J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9460-4080"
+                                    xlink:title="Hills, Alan J."
+                                    xlink:actuate="onRequest">Hills, Alan J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +270,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +292,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kaser, Lisa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4835-8373"
+                                    xlink:title="Kaser, Lisa"
+                                    xlink:actuate="onRequest">Kaser, Lisa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +334,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Montzka, Denise D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2536-8341"
+                                    xlink:title="Montzka, Denise D."
+                                    xlink:actuate="onRequest">Montzka, Denise D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +366,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stell, Meghan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8712-437X"
+                                    xlink:title="Stell, Meghan"
+                                    xlink:actuate="onRequest">Stell, Meghan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -387,7 +408,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -407,7 +430,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The evolution of organic aerosols (OAs) and their precursors in the boundary layer (BL) of the Colorado Front Range during the Front Range Air Pollution and Photochemistry &#xc9;xperiment (FRAPP&#xc9;, July-August 2014) was analyzed by in situ measurements and chemical transport modeling. Measurements indicated significant production of secondary OA (SOA), with enhancement ratio of OA with respect to carbon monoxide (CO) reaching 0.085&#xb1;0.003&#x202f;&#xb5;g&#x202f;m&#x2212;3 ppbv&#x2212;1. At background mixing ratios of CO, up to &#x2009;&#x223c;&#x2009;&#x202f;1.8&#x202f;&#xb5;g&#x202f;m&#x2212;3 background OA was observed, suggesting significant non-combustion contribution to OA in the Front Range. The mean concentration of OA in plumes with a high influence of oil and natural gas (O&amp;G) emissions was &#x2009;&#x223c;&#x2009;&#x202f;40&#x202f;% higher than in urban-influenced plumes. Positive matrix factorization (PMF) confirmed a dominant contribution of secondary, oxygenated OA (OOA) in the boundary layer instead of fresh, hydrocarbon-like OA (HOA). Combinations of primary OA (POA) volatility assumptions, aging of semi-volatile species, and different emission estimates from the O&amp;G sector were used in the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) simulation scenarios. The assumption of semi-volatile POA resulted in greater than a factor of 10 lower POA concentrations compared to PMF-resolved HOA. Including top-down modified O&amp;G emissions resulted in substantially better agreements in modeled ethane, toluene, hydroxyl radical, and ozone compared to measurements in the high-O&amp;G-influenced plumes. By including emissions from the O&amp;G sector using the top-down approach, it was estimated that the O&amp;G sector contributed to &#x2009;&lt;&#x2009;&#x202f;5&#x202f;% of total OA, but up to 38&#x202f;% of anthropogenic SOA (aSOA) in the region. The best agreement between the measured and simulated median OA was achieved by limiting the extent of biogenic hydrocarbon aging and consequently biogenic SOA (bSOA) production. Despite a lower production of bSOA in this scenario, contribution of bSOA to total SOA remained high at 40-54&#x202f;%. Future studies aiming at a better emissions characterization of POA and intermediate-volatility organic compounds (IVOCs) from the O&amp;G sector are valuable.</gco:CharacterString>
+            <gco:CharacterString>The evolution of organic aerosols (OAs) and their precursors in the boundary layer (BL) of the Colorado Front Range during the Front Range Air Pollution and Photochemistry Éxperiment (FRAPPÉ, July-August 2014) was analyzed by in situ measurements and chemical transport modeling. Measurements indicated significant production of secondary OA (SOA), with enhancement ratio of OA with respect to carbon monoxide (CO) reaching 0.085±0.003 µg m−3 ppbv−1. At background mixing ratios of CO, up to  ∼  1.8 µg m−3 background OA was observed, suggesting significant non-combustion contribution to OA in the Front Range. The mean concentration of OA in plumes with a high influence of oil and natural gas (O&amp;G) emissions was  ∼  40 % higher than in urban-influenced plumes. Positive matrix factorization (PMF) confirmed a dominant contribution of secondary, oxygenated OA (OOA) in the boundary layer instead of fresh, hydrocarbon-like OA (HOA). Combinations of primary OA (POA) volatility assumptions, aging of semi-volatile species, and different emission estimates from the O&amp;G sector were used in the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) simulation scenarios. The assumption of semi-volatile POA resulted in greater than a factor of 10 lower POA concentrations compared to PMF-resolved HOA. Including top-down modified O&amp;G emissions resulted in substantially better agreements in modeled ethane, toluene, hydroxyl radical, and ozone compared to measurements in the high-O&amp;G-influenced plumes. By including emissions from the O&amp;G sector using the top-down approach, it was estimated that the O&amp;G sector contributed to  &lt;  5 % of total OA, but up to 38 % of anthropogenic SOA (aSOA) in the region. The best agreement between the measured and simulated median OA was achieved by limiting the extent of biogenic hydrocarbon aging and consequently biogenic SOA (bSOA) production. Despite a lower production of bSOA in this scenario, contribution of bSOA to total SOA remained high at 40-54 %. Future studies aiming at a better emissions characterization of POA and intermediate-volatility organic compounds (IVOCs) from the O&amp;G sector are valuable.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

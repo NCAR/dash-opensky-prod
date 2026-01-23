@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6824</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:48.554774</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:35:52.359080</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Fei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2573-3828"
+                                    xlink:title="Chen, Fei"
+                                    xlink:actuate="onRequest">Chen, Fei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Manning, Kevin W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0009-0009-4548-9886"
+                                    xlink:title="Manning, Kevin W."
+                                    xlink:actuate="onRequest">Manning, Kevin W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Trier, Stanley B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6537-173X"
+                                    xlink:title="Trier, Stanley B."
+                                    xlink:actuate="onRequest">Trier, Stanley B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +214,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Oncley, Steven</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0829-7462"
+                                    xlink:title="Oncley, Steven"
+                                    xlink:actuate="onRequest">Oncley, Steven</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +256,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This paper describes important characteristics of an uncoupled high-resolution land data assimilation system (HRLDAS) and presents a systematic evaluation of 18-month-long HRLDAS numerical experiments, conducted in two nested domains (with 12- and 4-km grid spacing) for the period from 1 January 2001 to 30 June 2002, in the context of the International H&#x2082;O Project (IHOP_2002). HRLDAS was developed at the National Center for Atmospheric Research (NCAR) to initialize land-state variables of the coupled Weather Research and Forecasting (WRF) - land surface model (LSM) for high-resolution applications. Both uncoupled HRDLAS and coupled WRF are executed on the same grid, sharing the same LSM, land use, soil texture, terrain height, time-varying vegetation fields, and LSM parameters to ensure the same soil moisture climatological description between the two modeling systems so that HRLDAS soil state variables can be used to initialize WRF - LSM without conversion and interpolation. If HRLDAS is initialized with soil conditions previously spun up from other models, it requires roughly 8 - 10 months for HRLDAS to reach quasi equilibrium and is highly dependent on soil texture. However, the HRLDAS surface heat fluxes can reach quasi-equilibrium state within 3 months for most soil texture categories. Atmospheric forcing conditions used to drive HRLDAS were evaluated against Oklahoma Mesonet data, and the response of HRLDAS to typical errors in each atmospheric forcing variable was examined. HRLDAS-simulated finescale (4 km) soil moisture, temperature, and surface heat fluxes agreed well with the Oklahoma Mesonet and IHOP_2002 field data. One case study shows high correlation between HRLDAS evaporation and the low-level water vapor field derived from radar analysis.</gco:CharacterString>
+            <gco:CharacterString>This paper describes important characteristics of an uncoupled high-resolution land data assimilation system (HRLDAS) and presents a systematic evaluation of 18-month-long HRLDAS numerical experiments, conducted in two nested domains (with 12- and 4-km grid spacing) for the period from 1 January 2001 to 30 June 2002, in the context of the International H₂O Project (IHOP_2002). HRLDAS was developed at the National Center for Atmospheric Research (NCAR) to initialize land-state variables of the coupled Weather Research and Forecasting (WRF) - land surface model (LSM) for high-resolution applications. Both uncoupled HRDLAS and coupled WRF are executed on the same grid, sharing the same LSM, land use, soil texture, terrain height, time-varying vegetation fields, and LSM parameters to ensure the same soil moisture climatological description between the two modeling systems so that HRLDAS soil state variables can be used to initialize WRF - LSM without conversion and interpolation. If HRLDAS is initialized with soil conditions previously spun up from other models, it requires roughly 8 - 10 months for HRLDAS to reach quasi equilibrium and is highly dependent on soil texture. However, the HRLDAS surface heat fluxes can reach quasi-equilibrium state within 3 months for most soil texture categories. Atmospheric forcing conditions used to drive HRLDAS were evaluated against Oklahoma Mesonet data, and the response of HRLDAS to typical errors in each atmospheric forcing variable was examined. HRLDAS-simulated finescale (4 km) soil moisture, temperature, and surface heat fluxes agreed well with the Oklahoma Mesonet and IHOP_2002 field data. One case study shows high correlation between HRLDAS evaporation and the low-level water vapor field derived from radar analysis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

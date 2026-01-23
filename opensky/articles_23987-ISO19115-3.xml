@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23987</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:10:26.446540</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:36:21.348959</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Park, Mijeong</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3881-3763"
+                                    xlink:title="Park, Mijeong"
+                                    xlink:actuate="onRequest">Park, Mijeong</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +272,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>V&#xf6;mel, Holger</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1223-3429"
+                                    xlink:title="Vömel, Holger"
+                                    xlink:actuate="onRequest">Vömel, Holger</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +294,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Since June 2017, the Stratospheric Aerosol and Gas Experiment III instrument on the International Space Station (SAGE III/ISS) has been providing vertical profiles of upper tropospheric to stratospheric water vapor (SWV) retrieved from solar occultation transmission measurements. The goal of this study is to evaluate the publicly released SAGE III/ISS beta version 5.1 WV retrieval through intercomparison with independent satellite- and balloon-based measurements, and to present recommendations for SAGE III/ISS data quality screening criteria. Overall, we find that SAGE III/ISS provides high quality water vapor measurements. Low quality profiles are predominately due to retrieval instabilities in the upper stratosphere that cause step-like changes in the profile, and aerosol/cloud-related interferences (below &#x223c;20 km). Above 35 km, the retrieved uncertainty and noise in the data rapidly grow with increasing altitude due to relatively low extinction signal from water vapor. Below the tropopause, retrieved uncertainty increases with decreasing altitude due to enhanced molecular scattering and aerosol extinction. After screening low-quality data using the procedures described herein, SAGE III/ISS WV is shown to be in good agreement with independent satellite and balloon-based measurements. From 20 to 40 km, SAGE III/ISS WV v5.1 data exhibit a bias of 0.0 to &#x2212;0.5 ppmv (&#x223c;10%) relative to the independent data, depending on the instrument and altitude. Despite its status as a beta version, the level of SAGE III/ISS WV agreement with independent data is similar to previous SAGE instruments, and therefore the data are suitable for scientific studies of SWV.</gco:CharacterString>
+            <gco:CharacterString>Since June 2017, the Stratospheric Aerosol and Gas Experiment III instrument on the International Space Station (SAGE III/ISS) has been providing vertical profiles of upper tropospheric to stratospheric water vapor (SWV) retrieved from solar occultation transmission measurements. The goal of this study is to evaluate the publicly released SAGE III/ISS beta version 5.1 WV retrieval through intercomparison with independent satellite- and balloon-based measurements, and to present recommendations for SAGE III/ISS data quality screening criteria. Overall, we find that SAGE III/ISS provides high quality water vapor measurements. Low quality profiles are predominately due to retrieval instabilities in the upper stratosphere that cause step-like changes in the profile, and aerosol/cloud-related interferences (below ∼20 km). Above 35 km, the retrieved uncertainty and noise in the data rapidly grow with increasing altitude due to relatively low extinction signal from water vapor. Below the tropopause, retrieved uncertainty increases with decreasing altitude due to enhanced molecular scattering and aerosol extinction. After screening low-quality data using the procedures described herein, SAGE III/ISS WV is shown to be in good agreement with independent satellite and balloon-based measurements. From 20 to 40 km, SAGE III/ISS WV v5.1 data exhibit a bias of 0.0 to −0.5 ppmv (∼10%) relative to the independent data, depending on the instrument and altitude. Despite its status as a beta version, the level of SAGE III/ISS WV agreement with independent data is similar to previous SAGE instruments, and therefore the data are suitable for scientific studies of SWV.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

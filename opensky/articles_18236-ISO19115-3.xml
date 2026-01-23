@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18236</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:06:32.723688</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:24:49.718203</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Relationship between column-density and surface mixing ratio: Statistical analysis of O&#x2083; and NO&#x2082; data from the July 2011 Maryland DISCOVER-AQ mission</gco:CharacterString>
+                  <gco:CharacterString>Relationship between column-density and surface mixing ratio: Statistical analysis of O₃ and NO₂ data from the July 2011 Maryland DISCOVER-AQ mission</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -177,7 +178,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Weinheimer, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6175-8286"
+                                    xlink:title="Weinheimer, Andrew"
+                                    xlink:actuate="onRequest">Weinheimer, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -297,7 +300,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>To investigate the ability of column (or partial column) information to represent surface air quality, results of linear regression analyses between surface mixing ratio data and column abundances for O&#x2083; and NO&#x2082; are presented for the July 2011 Maryland deployment of the DISCOVER-AQ mission. Data collected by the P-3B aircraft, ground-based Pandora spectrometers, Aura/OMI satellite instrument, and simulations for July 2011 from the CMAQ air quality model during this deployment provide a large and varied data set, allowing this problem to be approached from multiple perspectives. O&#x2083; columns typically exhibited a statistically significant and high degree of correlation with surface data (R&#xb2; &gt; 0.64) in the P-3B data set, a moderate degree of correlation (0.16 &lt; R&#xb2; &lt; 0.64) in the CMAQ data set, and a low degree of correlation (R&#xb2; &lt; 0.16) in the Pandora and OMI data sets. NO&#x2082; columns typically exhibited a low to moderate degree of correlation with surface data in each data set. The results of linear regression analyses for O&#x2083; exhibited smaller errors relative to the observations than NO&#x2082; regressions. These results suggest that O&#x2083; partial column observations from future satellite instruments with sufficient sensitivity to the lower troposphere can be meaningful for surface air quality analysis.</gco:CharacterString>
+            <gco:CharacterString>To investigate the ability of column (or partial column) information to represent surface air quality, results of linear regression analyses between surface mixing ratio data and column abundances for O₃ and NO₂ are presented for the July 2011 Maryland deployment of the DISCOVER-AQ mission. Data collected by the P-3B aircraft, ground-based Pandora spectrometers, Aura/OMI satellite instrument, and simulations for July 2011 from the CMAQ air quality model during this deployment provide a large and varied data set, allowing this problem to be approached from multiple perspectives. O₃ columns typically exhibited a statistically significant and high degree of correlation with surface data (R² &gt; 0.64) in the P-3B data set, a moderate degree of correlation (0.16 &lt; R² &lt; 0.64) in the CMAQ data set, and a low degree of correlation (R² &lt; 0.16) in the Pandora and OMI data sets. NO₂ columns typically exhibited a low to moderate degree of correlation with surface data in each data set. The results of linear regression analyses for O₃ exhibited smaller errors relative to the observations than NO₂ regressions. These results suggest that O₃ partial column observations from future satellite instruments with sufficient sensitivity to the lower troposphere can be meaningful for surface air quality analysis.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

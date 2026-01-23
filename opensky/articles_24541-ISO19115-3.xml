@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24541</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:13:41.436077</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:08:20.768906</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jenney, Andrea Michelle</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3784-6627"
+                                    xlink:title="Jenney, Andrea Michelle"
+                                    xlink:actuate="onRequest">Jenney, Andrea Michelle</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Teleconnections from the Madden&#x2013;Julian Oscillation (MJO) are a key source of predictability of weather on the extended timescale of about 10&#x2013;40&#x2009;d. The MJO teleconnection is sensitive to a number of factors, including the mean dry static stability, the mean flow, and the propagation and intensity characteristics of the MJO, which are traditionally difficult to separate across models. Each of these factors may evolve in response to increasing greenhouse gas emissions, which will impact MJO teleconnections and potentially impact predictability on extended timescales. Current state-of-the-art climate models do not agree on how MJO teleconnections over central and eastern North America will change in a future climate. Here, we use results from the Coupled Model Intercomparison Project Phase 6 (CMIP6) historical and SSP585 experiments in concert with a linear baroclinic model (LBM) to separate and investigate alternate mechanisms explaining why and how boreal winter (January) MJO teleconnections over the North Pacific and North America may change in a future climate and to identify key sources of inter-model uncertainty. LBM simulations suggest that a weakening teleconnection due to increases in tropical dry static stability alone is robust across CMIP6 models and that uncertainty in mean state winds is a key driver of uncertainty in future MJO teleconnections. Uncertainty in future changes to the MJO's intensity, eastward propagation speed, zonal wavenumber, and eastward propagation extent are other important sources of uncertainty in future MJO teleconnections. We find no systematic relationship between future changes in the Rossby wave source and the MJO teleconnection or between changes to the zonal wind or stationary Rossby wave number and the MJO teleconnection over the North Pacific and North America. LBM simulations suggest a reduction of the boreal winter MJO teleconnection over the North Pacific and an uncertain change over North America, with large spread over both regions that lends to weak confidence in the overall outlook. While quantitatively determining the relative importance of MJO versus mean state uncertainties in determining future teleconnections remains a challenge, the LBM simulations suggest that uncertainty in the mean state winds is a larger contributor to the uncertainty in future projections of the MJO teleconnection than the MJO.</gco:CharacterString>
+            <gco:CharacterString>Teleconnections from the Madden–Julian Oscillation (MJO) are a key source of predictability of weather on the extended timescale of about 10–40 d. The MJO teleconnection is sensitive to a number of factors, including the mean dry static stability, the mean flow, and the propagation and intensity characteristics of the MJO, which are traditionally difficult to separate across models. Each of these factors may evolve in response to increasing greenhouse gas emissions, which will impact MJO teleconnections and potentially impact predictability on extended timescales. Current state-of-the-art climate models do not agree on how MJO teleconnections over central and eastern North America will change in a future climate. Here, we use results from the Coupled Model Intercomparison Project Phase 6 (CMIP6) historical and SSP585 experiments in concert with a linear baroclinic model (LBM) to separate and investigate alternate mechanisms explaining why and how boreal winter (January) MJO teleconnections over the North Pacific and North America may change in a future climate and to identify key sources of inter-model uncertainty. LBM simulations suggest that a weakening teleconnection due to increases in tropical dry static stability alone is robust across CMIP6 models and that uncertainty in mean state winds is a key driver of uncertainty in future MJO teleconnections. Uncertainty in future changes to the MJO's intensity, eastward propagation speed, zonal wavenumber, and eastward propagation extent are other important sources of uncertainty in future MJO teleconnections. We find no systematic relationship between future changes in the Rossby wave source and the MJO teleconnection or between changes to the zonal wind or stationary Rossby wave number and the MJO teleconnection over the North Pacific and North America. LBM simulations suggest a reduction of the boreal winter MJO teleconnection over the North Pacific and an uncertain change over North America, with large spread over both regions that lends to weak confidence in the overall outlook. While quantitatively determining the relative importance of MJO versus mean state uncertainties in determining future teleconnections remains a challenge, the LBM simulations suggest that uncertainty in the mean state winds is a larger contributor to the uncertainty in future projections of the MJO teleconnection than the MJO.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

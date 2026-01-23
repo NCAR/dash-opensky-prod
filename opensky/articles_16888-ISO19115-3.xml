@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:16888</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:55:00.981924</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:02:54.900637</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bukovsky, Melissa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6415-965X"
+                                    xlink:title="Bukovsky, Melissa"
+                                    xlink:actuate="onRequest">Bukovsky, Melissa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gochis, David</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8668-4850"
+                                    xlink:title="Gochis, David"
+                                    xlink:actuate="onRequest">Gochis, David</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hammerling, Dorit</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3583-3611"
+                                    xlink:title="Hammerling, Dorit"
+                                    xlink:actuate="onRequest">Hammerling, Dorit</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>McCrary, Rachel</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0741-6773"
+                                    xlink:title="McCrary, Rachel"
+                                    xlink:actuate="onRequest">McCrary, Rachel</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mearns, Linda O.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2875-5830"
+                                    xlink:title="Mearns, Linda O."
+                                    xlink:actuate="onRequest">Mearns, Linda O.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +198,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This study presents climate change results from the North American Regional Climate Change Assessment Program (NARCCAP) suite of dynamically downscaled simulations for the North American monsoon system in the southwestern United States and northwestern Mexico. The focus is on changes in precipitation and the processes driving the projected changes from the regional climate simulations and their driving coupled atmosphere--ocean global climate models. The effect of known biases on the projections is also examined. Overall, there is strong ensemble agreement for a large decrease in precipitation during the monsoon season; however, this agreement and the magnitude of the ensemble-mean change is likely deceiving, as the greatest decreases are produced by the simulations that are the most biased in the baseline/current climate. Furthermore, some of the greatest decreases in precipitation are being driven by changes in processes/phenomena that are less credible (e.g., changes in El Ni&#xf1;o-Southern Oscillation, when it is initially not simulated well). In other simulations, the processes driving the precipitation change may be plausible, but other biases (e.g., biases in low-level moisture or precipitation intensity) appear to be affecting the magnitude of the projected changes. The most and least credible simulations are clearly identified, while the other simulations are mixed in their abilities to produce projections of value.</gco:CharacterString>
+            <gco:CharacterString>This study presents climate change results from the North American Regional Climate Change Assessment Program (NARCCAP) suite of dynamically downscaled simulations for the North American monsoon system in the southwestern United States and northwestern Mexico. The focus is on changes in precipitation and the processes driving the projected changes from the regional climate simulations and their driving coupled atmosphere--ocean global climate models. The effect of known biases on the projections is also examined. Overall, there is strong ensemble agreement for a large decrease in precipitation during the monsoon season; however, this agreement and the magnitude of the ensemble-mean change is likely deceiving, as the greatest decreases are produced by the simulations that are the most biased in the baseline/current climate. Furthermore, some of the greatest decreases in precipitation are being driven by changes in processes/phenomena that are less credible (e.g., changes in El Niño-Southern Oscillation, when it is initially not simulated well). In other simulations, the processes driving the precipitation change may be plausible, but other biases (e.g., biases in low-level moisture or precipitation intensity) appear to be affecting the magnitude of the projected changes. The most and least credible simulations are clearly identified, while the other simulations are mixed in their abilities to produce projections of value.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

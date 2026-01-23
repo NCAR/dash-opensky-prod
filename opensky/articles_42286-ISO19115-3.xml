@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42286</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:57:58.485625</gco:DateTime>
+      <gco:DateTime>2025-12-24T18:04:47.358453</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Bartsch, A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3737-7931"
+                                    xlink:title="Bartsch, A."
+                                    xlink:actuate="onRequest">Bartsch, A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-2968-3023"
+                                    xlink:title="Lawrence, David M."
+                                    xlink:actuate="onRequest">Lawrence, David M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +262,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Matthes, H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9913-7696"
+                                    xlink:title="Matthes, H."
+                                    xlink:actuate="onRequest">Matthes, H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +274,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rutter, N.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5008-3575"
+                                    xlink:title="Rutter, N."
+                                    xlink:actuate="onRequest">Rutter, N.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -317,7 +326,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Arctic poses many challenges for Earth system and snow physics models, which are commonly unable to simulate crucial Arctic snowpack processes,such as vapour gradients and rain-on-snow-induced ice layers. These limitations raise concerns about the current understanding of Arctic warming and its impact on biodiversity, livelihoods, permafrost, and the global carbon budget. Recognizing that models are shaped by human choices, 18 Arctic researchers were interviewed to delve into the decision-making process behind model construction. Although data availability, issues of scale, internal model consistency, and historical and numerical model legacies were cited as obstacles to developing an Arctic snowpack model, no opinion was unanimous. Divergences were not merely scientific disagreements about the Arctic snowpack but reflected the broader research context. Inadequate and insufficient resources, partly driven by short-term priorities dominating research landscapes, impeded progress. Nevertheless, modellers were found to be both adaptable to shifting strategic research priorities&amp;nbsp;&#x2013; an adaptability demonstrated by the fact that interdisciplinary collaborations were the key motivation for model development&amp;nbsp;&#x2013; and anchored in the past. This anchoring and non-epistemic values led to diverging opinions about whether existing models were &#x201c;good enough&#x201d; and whether investing time and effort to build a new model was a useful strategy when addressing pressing research challenges. Moving forward, we recommend that both stakeholders and modellers be involved in future snow model intercomparison projects in order to drive developments that address snow model limitations currently impeding progress in various disciplines. We also argue for more transparency about the contextual factors that shape research decisions. Otherwise, the reality of our scientific process will remain hidden, limiting the changes necessary to our research practice.</gco:CharacterString>
+            <gco:CharacterString>The Arctic poses many challenges for Earth system and snow physics models, which are commonly unable to simulate crucial Arctic snowpack processes,such as vapour gradients and rain-on-snow-induced ice layers. These limitations raise concerns about the current understanding of Arctic warming and its impact on biodiversity, livelihoods, permafrost, and the global carbon budget. Recognizing that models are shaped by human choices, 18 Arctic researchers were interviewed to delve into the decision-making process behind model construction. Although data availability, issues of scale, internal model consistency, and historical and numerical model legacies were cited as obstacles to developing an Arctic snowpack model, no opinion was unanimous. Divergences were not merely scientific disagreements about the Arctic snowpack but reflected the broader research context. Inadequate and insufficient resources, partly driven by short-term priorities dominating research landscapes, impeded progress. Nevertheless, modellers were found to be both adaptable to shifting strategic research priorities&amp;nbsp;– an adaptability demonstrated by the fact that interdisciplinary collaborations were the key motivation for model development&amp;nbsp;– and anchored in the past. This anchoring and non-epistemic values led to diverging opinions about whether existing models were “good enough” and whether investing time and effort to build a new model was a useful strategy when addressing pressing research challenges. Moving forward, we recommend that both stakeholders and modellers be involved in future snow model intercomparison projects in order to drive developments that address snow model limitations currently impeding progress in various disciplines. We also argue for more transparency about the contextual factors that shape research decisions. Otherwise, the reality of our scientific process will remain hidden, limiting the changes necessary to our research practice.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

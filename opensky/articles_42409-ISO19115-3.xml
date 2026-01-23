@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42409</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:04.860242</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:57:06.356260</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -277,7 +278,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lenschow, Donald H.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4353-0098"
+                                    xlink:title="Lenschow, Donald H."
+                                    xlink:actuate="onRequest">Lenschow, Donald H.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +310,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The classical theory of homogeneous isotropic turbulence predicts that the ratio of transverse to longitudinal structure functions or power spectra is equal to 4/3 in the inertial subrange. For the typical turbulence cascade in the inertial subrange, it also predicts a power law scaling with an exponent of +2/3 and -5/3 for the structure functions and the power spectra, respectively. The goal of this study is to document the statistics of those ratios and exponents derived from aircraft observations, quantify their departures from theoretical predictions, and point out the differences among the aircraft. We estimate the transverse-to-longitudinal ratios and the scaling exponents from in situ high-rate turbulence measurements collected by three research aircraft during four field experiments in two regimes of the marine atmospheric boundary layer: shallow trade-wind convection and subtropical stratocumulus. The bulk values representing the inertial subrange were derived by fitting power law formulae to the structure functions and to the power spectra computed separately for the three components of the turbulent wind velocity measured in horizontal flight segments. The composite scale-by-scale transverse-to-longitudinal ratios were derived by averaging over the segments at common non-dimensional scales. The variability in the results can be attributed to how the wind velocity components are measured on each aircraft. The differences related to environmental conditions, e.g. between characteristic levels and regimes of the boundary layer, are of secondary importance. Experiment-averaged transverse-to-longitudinal ratios are 23&#x2009;%&#x2013;45&#x2009;% smaller than predicted by the theory. The deviations of average scaling exponents with respect to the theoretical values range from &#x2212;34&#x2009;% to +47&#x2009;% for structure functions and from &#x2212;24&#x2009;% to +22&#x2009;% for power spectra, depending on experiment and velocity component. The composite scale-by-scale transverse-to-longitudinal ratios decrease and increasingly depart from 4/3 with decreasing scale, in contrast to previous experimental studies on local isotropy. The reason for the disagreement in transverse-to-longitudinal ratios between the observations and the theory remains uncertain.</gco:CharacterString>
+            <gco:CharacterString>The classical theory of homogeneous isotropic turbulence predicts that the ratio of transverse to longitudinal structure functions or power spectra is equal to 4/3 in the inertial subrange. For the typical turbulence cascade in the inertial subrange, it also predicts a power law scaling with an exponent of +2/3 and -5/3 for the structure functions and the power spectra, respectively. The goal of this study is to document the statistics of those ratios and exponents derived from aircraft observations, quantify their departures from theoretical predictions, and point out the differences among the aircraft. We estimate the transverse-to-longitudinal ratios and the scaling exponents from in situ high-rate turbulence measurements collected by three research aircraft during four field experiments in two regimes of the marine atmospheric boundary layer: shallow trade-wind convection and subtropical stratocumulus. The bulk values representing the inertial subrange were derived by fitting power law formulae to the structure functions and to the power spectra computed separately for the three components of the turbulent wind velocity measured in horizontal flight segments. The composite scale-by-scale transverse-to-longitudinal ratios were derived by averaging over the segments at common non-dimensional scales. The variability in the results can be attributed to how the wind velocity components are measured on each aircraft. The differences related to environmental conditions, e.g. between characteristic levels and regimes of the boundary layer, are of secondary importance. Experiment-averaged transverse-to-longitudinal ratios are 23 %–45 % smaller than predicted by the theory. The deviations of average scaling exponents with respect to the theoretical values range from −34 % to +47 % for structure functions and from −24 % to +22 % for power spectra, depending on experiment and velocity component. The composite scale-by-scale transverse-to-longitudinal ratios decrease and increasingly depart from 4/3 with decreasing scale, in contrast to previous experimental studies on local isotropy. The reason for the disagreement in transverse-to-longitudinal ratios between the observations and the theory remains uncertain.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12891</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:27:13.841884</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:44:57.640753</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fox, Andrew M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4027-4538"
+                                    xlink:title="Fox, Andrew M."
+                                    xlink:actuate="onRequest">Fox, Andrew M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Variations to the global wetland CH&#x2084; source strength in response to changes in orbital insolation patterns and atmospheric CO&#x2082; concentration ([CO&#x2082;]a) are hypothesized to play an important role in determining glacial-interglacial variations in atmospheric CH&#x2084; concentration ([CH&#x2084;]a). Here the interactive effects of temperature, a major controlling variable determining wetland CH&#x2084; flux, and the low [CO&#x2082;]a of glacial intervals are investigated for the first time. We measured the temperature dependence of CH&#x2084; emissions from replicated mesocosms (n = 8 per CO&#x2082; treatment) collected from a minerotrophic fen and an ombrotrophic bog incubated in either ambient (c. 400 ppm) or glacial (c. 200 ppm) [CO&#x2082;]a located in the United Kingdom. CH&#x2084; fluxes were measured at 5&#xb0;C, 10&#xb0;C, 15&#xb0;C, 20&#xb0;C, and 25&#xb0;C and then in reverse order over a 20 day period under each [CO&#x2082;]a treatment. Results showed that the Q10 temperature response of CH&#x2084; emissions from the Carex/Juncus-dominated fen declined significantly by approximately 39% under glacial [CO&#x2082;]a (ambient [CO&#x2082;]a = 2.60, glacial [CO&#x2082;]a = 1.60; P &lt; 0.01). By contrast, the response of CH&#x2084; emissions from the Sphagnum-dominated bog remained unaltered (ambient [CO&#x2082;]a = 3.67, glacial [CO&#x2082;]a = 3.67; P &gt; 0.05). This contrasting response may be linked to differences in plant species assemblage and the varying impact of CO&#x2082; starvation on plant productivity and carbon availability in the rhizosphere. Furthermore, our results provide empirical evidence to support recent model-based indications that glacial-interglacial variations in [CH&#x2084;]a may be explained by changes in wetland CH&#x2084; source strength in response to orbitally forced changes in climate and [CO&#x2082;]a.</gco:CharacterString>
+            <gco:CharacterString>Variations to the global wetland CH₄ source strength in response to changes in orbital insolation patterns and atmospheric CO₂ concentration ([CO₂]a) are hypothesized to play an important role in determining glacial-interglacial variations in atmospheric CH₄ concentration ([CH₄]a). Here the interactive effects of temperature, a major controlling variable determining wetland CH₄ flux, and the low [CO₂]a of glacial intervals are investigated for the first time. We measured the temperature dependence of CH₄ emissions from replicated mesocosms (n = 8 per CO₂ treatment) collected from a minerotrophic fen and an ombrotrophic bog incubated in either ambient (c. 400 ppm) or glacial (c. 200 ppm) [CO₂]a located in the United Kingdom. CH₄ fluxes were measured at 5°C, 10°C, 15°C, 20°C, and 25°C and then in reverse order over a 20 day period under each [CO₂]a treatment. Results showed that the Q10 temperature response of CH₄ emissions from the Carex/Juncus-dominated fen declined significantly by approximately 39% under glacial [CO₂]a (ambient [CO₂]a = 2.60, glacial [CO₂]a = 1.60; P &lt; 0.01). By contrast, the response of CH₄ emissions from the Sphagnum-dominated bog remained unaltered (ambient [CO₂]a = 3.67, glacial [CO₂]a = 3.67; P &gt; 0.05). This contrasting response may be linked to differences in plant species assemblage and the varying impact of CO₂ starvation on plant productivity and carbon availability in the rhizosphere. Furthermore, our results provide empirical evidence to support recent model-based indications that glacial-interglacial variations in [CH₄]a may be explained by changes in wetland CH₄ source strength in response to orbitally forced changes in climate and [CO₂]a.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

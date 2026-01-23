@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22742</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:28:15.868805</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:32:18.131347</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Davis, Nicholas A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5691-2020"
+                                    xlink:title="Davis, Nicholas A."
+                                    xlink:actuate="onRequest">Davis, Nicholas A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +150,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Variations in the width and strength of the Hadley cells are associated with many radiative, thermodynamic, and dynamical forcings. The physical mechanisms driving these responses remain unclear, in part because of the interactive nature of eddy-mean flow adjustment. Here, a modeling framework is developed which separates the mean flow and time-mean eddy flow in a gray radiation general circulation model with simple representations of ocean heat transport and ozone. In the absence of eddies, with moist convection and weak numerical damping, the Hadley cell is confined to the upper troposphere and has a vanishingly small poleward momentum flux. Eddies allow the cell to extend down to the surface, double its heat transport, and flux momentum poleward, the latter two being basic consequences of a deepening of the circulation. Because of convection and damping&#x2014;which mimics, in part, the effect of eddy stresses&#x2014;previous work may have underestimated the impact of eddies on earth's circulation. Quasigeostrophic eddy fluxes are sufficient to produce Hadley and Ferrel cells, but with a substantially greater Hadley cell strength than when all eddy impacts are considered, including eddy fluxes of moisture, mass, and momentum and eddy impacts on surface fluxes and clouds.</gco:CharacterString>
+            <gco:CharacterString>Variations in the width and strength of the Hadley cells are associated with many radiative, thermodynamic, and dynamical forcings. The physical mechanisms driving these responses remain unclear, in part because of the interactive nature of eddy-mean flow adjustment. Here, a modeling framework is developed which separates the mean flow and time-mean eddy flow in a gray radiation general circulation model with simple representations of ocean heat transport and ozone. In the absence of eddies, with moist convection and weak numerical damping, the Hadley cell is confined to the upper troposphere and has a vanishingly small poleward momentum flux. Eddies allow the cell to extend down to the surface, double its heat transport, and flux momentum poleward, the latter two being basic consequences of a deepening of the circulation. Because of convection and damping—which mimics, in part, the effect of eddy stresses—previous work may have underestimated the impact of eddies on earth's circulation. Quasigeostrophic eddy fluxes are sufficient to produce Hadley and Ferrel cells, but with a substantially greater Hadley cell strength than when all eddy impacts are considered, including eddy fluxes of moisture, mass, and momentum and eddy impacts on surface fluxes and clouds.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

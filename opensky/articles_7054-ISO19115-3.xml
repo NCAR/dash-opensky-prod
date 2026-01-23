@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:7054</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:04:42.652186</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:43:45.017452</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The strength and orientation of the interplanetary magnetic field (IMF) has a strong effect on the high-latitude plasma convection pattern, thereby influencing the speed and direction of polar thermospheric winds. The possibility of similar IMF control over the compositional response of the thermosphere during geomagnetic disturbances has not been fully investigated. This study finds that the y-component of the IMF (IMF &#x392;y) exerts significant control over the development and subsequent equatorward transport of composition disturbances during periods of heightened geomagnetic activity. This is determined using the NCAR-TIMEGCM to simulate the thermospheric conditions during the first 3 weeks far-ultraviolet (FUV) imaging operations of the Dynamics Explorer 1 (DE-1) mission in 1981. The images reveal changes in the relative thermospheric column abundance of O versus N&#x2082; (&#x3a3;O/N&#x2082;). These changes are reproduced by the model, incorporating variable IMF strength and orientation as inputs. It is found that simple reversal of IMF &#x392;&#x3b3; leads to subsequent changes in &#x3a3;O/N&#x2082; at middle latitudes by as much as 30%. This is a manifestation of the effect identified in the companion to this report (Crowley et al., 2006). The study confirms the hypothesis of Immel et al. (1997) that IMF-&#x392;&#x3b3; effects on middle-latitude thermospheric composition are important, though more complex than expected. Contrary to previous predictions, early morning local times are shown to be more likely to suffer large decreases in &#x3a3;O/N&#x2082; when &#x392;&#x3b3; is negative. However, the overall magnitude of high-latitude Joule heating is found to be greater when &#x392;y is positive.</gco:CharacterString>
+            <gco:CharacterString>The strength and orientation of the interplanetary magnetic field (IMF) has a strong effect on the high-latitude plasma convection pattern, thereby influencing the speed and direction of polar thermospheric winds. The possibility of similar IMF control over the compositional response of the thermosphere during geomagnetic disturbances has not been fully investigated. This study finds that the y-component of the IMF (IMF Βy) exerts significant control over the development and subsequent equatorward transport of composition disturbances during periods of heightened geomagnetic activity. This is determined using the NCAR-TIMEGCM to simulate the thermospheric conditions during the first 3 weeks far-ultraviolet (FUV) imaging operations of the Dynamics Explorer 1 (DE-1) mission in 1981. The images reveal changes in the relative thermospheric column abundance of O versus N₂ (ΣO/N₂). These changes are reproduced by the model, incorporating variable IMF strength and orientation as inputs. It is found that simple reversal of IMF Βγ leads to subsequent changes in ΣO/N₂ at middle latitudes by as much as 30%. This is a manifestation of the effect identified in the companion to this report (Crowley et al., 2006). The study confirms the hypothesis of Immel et al. (1997) that IMF-Βγ effects on middle-latitude thermospheric composition are important, though more complex than expected. Contrary to previous predictions, early morning local times are shown to be more likely to suffer large decreases in ΣO/N₂ when Βγ is negative. However, the overall magnitude of high-latitude Joule heating is found to be greater when Βy is positive.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

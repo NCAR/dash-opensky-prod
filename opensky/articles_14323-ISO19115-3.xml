@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14323</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:06:20.819943</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:24:23.911176</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pedatella, Nicholas M.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8878-5126"
+                                    xlink:title="Pedatella, Nicholas M."
+                                    xlink:actuate="onRequest">Pedatella, Nicholas M.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Raeder, Kevin D.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6166-7154"
+                                    xlink:title="Raeder, Kevin D."
+                                    xlink:actuate="onRequest">Raeder, Kevin D.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Anderson, Jeffrey L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6227-6983"
+                                    xlink:title="Anderson, Jeffrey L."
+                                    xlink:actuate="onRequest">Anderson, Jeffrey L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +154,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Liu, Hanli</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6370-0704"
+                                    xlink:title="Liu, Hanli"
+                                    xlink:actuate="onRequest">Liu, Hanli</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +176,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We present results pertaining to the assimilation of real lower, middle, and upper atmosphere observations in the Whole Atmosphere Community Climate Model (WACCM) using the Data Assimilation Research Testbed (DART) ensemble adjustment Kalman filter. The ability to assimilate lower atmosphere observations of aircraft and radiosonde temperature and winds, satellite drift winds, and Constellation Observing System for Meteorology, Ionosphere, and Climate refractivity along with middle/upper atmosphere temperature observations from SABER and Aura MLS is demonstrated. The WACCM+DART data assimilation system is shown to be able to reproduce the salient features, and variability, of the troposphere present in the National Centers for Environmental Prediction/National Center for Atmospheric Research Re-Analysis. In the mesosphere, the fit of WACCM+DART to observations is found to be slightly worse when only lower atmosphere observations are assimilated compared to a control experiment that is reflective of the model climatological variability. This differs from previous results which found that assimilation of lower atmosphere observations improves the fit to mesospheric observations. This discrepancy is attributed to the fact that due to the gravity wave drag parameterizations, the model climatology differs significantly from the observations in the mesosphere, and this is not corrected by the assimilation of lower atmosphere observations. The fit of WACCM+DART to mesospheric observations is, however, significantly improved compared to the control experiment when middle/upper atmosphere observations are assimilated. We find that assimilating SABER observations reduces the root-mean-square error and bias of WACCM+DART relative to the independent Aura MLS observations by &#x223c;50%, demonstrating that assimilation of middle/upper atmosphere observations is essential for accurate specification of the mesosphere and lower thermosphere region in WACCM+DART. Last, we demonstrate that WACCM+DART is able to follow the dynamical and chemical variability during the 2009 sudden stratosphere warming, illustrating the capability of WACCM+DART to generate high-quality atmospheric reanalysis from the surface to the lower thermosphere.</gco:CharacterString>
+            <gco:CharacterString>We present results pertaining to the assimilation of real lower, middle, and upper atmosphere observations in the Whole Atmosphere Community Climate Model (WACCM) using the Data Assimilation Research Testbed (DART) ensemble adjustment Kalman filter. The ability to assimilate lower atmosphere observations of aircraft and radiosonde temperature and winds, satellite drift winds, and Constellation Observing System for Meteorology, Ionosphere, and Climate refractivity along with middle/upper atmosphere temperature observations from SABER and Aura MLS is demonstrated. The WACCM+DART data assimilation system is shown to be able to reproduce the salient features, and variability, of the troposphere present in the National Centers for Environmental Prediction/National Center for Atmospheric Research Re-Analysis. In the mesosphere, the fit of WACCM+DART to observations is found to be slightly worse when only lower atmosphere observations are assimilated compared to a control experiment that is reflective of the model climatological variability. This differs from previous results which found that assimilation of lower atmosphere observations improves the fit to mesospheric observations. This discrepancy is attributed to the fact that due to the gravity wave drag parameterizations, the model climatology differs significantly from the observations in the mesosphere, and this is not corrected by the assimilation of lower atmosphere observations. The fit of WACCM+DART to mesospheric observations is, however, significantly improved compared to the control experiment when middle/upper atmosphere observations are assimilated. We find that assimilating SABER observations reduces the root-mean-square error and bias of WACCM+DART relative to the independent Aura MLS observations by ∼50%, demonstrating that assimilation of middle/upper atmosphere observations is essential for accurate specification of the mesosphere and lower thermosphere region in WACCM+DART. Last, we demonstrate that WACCM+DART is able to follow the dynamical and chemical variability during the 2009 sudden stratosphere warming, illustrating the capability of WACCM+DART to generate high-quality atmospheric reanalysis from the surface to the lower thermosphere.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

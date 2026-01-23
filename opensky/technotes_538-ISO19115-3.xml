@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::technotes:538</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:05.001487</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:48:48.112877</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Jensen, Tara L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4066-0965"
+                                    xlink:title="Jensen, Tara L."
+                                    xlink:actuate="onRequest">Jensen, Tara L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, Barbara G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5855-9427"
+                                    xlink:title="Brown, Barbara G."
+                                    xlink:actuate="onRequest">Brown, Barbara G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -147,7 +152,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lazo, Jeffrey K.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8051-4516"
+                                    xlink:title="Lazo, Jeffrey K."
+                                    xlink:actuate="onRequest">Lazo, Jeffrey K.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Haupt, Sue Ellen</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1142-7184"
+                                    xlink:title="Haupt, Sue Ellen"
+                                    xlink:actuate="onRequest">Haupt, Sue Ellen</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>This technical note summarizes metrics that have been defined to assess the quality of forecasts of solar irradiance and solar power production forecasting. A set of six base metrics is proposed to meet the needs of users of solar power forecasts. Four of these metrics-Mean Absolute Error, Root Mean Square Error, Distribution of Forecast Errors, and Categorical Statistics&#x2014;provide statistical insights on overall forecast performance and aid in the comparison of different forecast models or to validate a single forecast model output against actual values. Two remaining base metrics translate forecast performance to economic value that will provide insights into the benefits realized with improved forecast accuracy. These six metrics provide a starting point for evaluation of the accuracy, precision, and value of solar forecasts. A set of enhanced metrics is also proposed to provide more detailed insights into forecast performance. Each proposed metric is defined with emphasis on the insight provided by the metric, its calculation process described, and its application illustrated with an example of a use case. Similar metrics are grouped together. Where possible, less technical metrics are described first and more difficult/more technical metrics are presented later. The base and enhanced metrics and their application are described in this report. A summary of discussions with stakeholders and guidelines for application of the metrics are presented in the appendices.</gco:CharacterString>
+            <gco:CharacterString>This technical note summarizes metrics that have been defined to assess the quality of forecasts of solar irradiance and solar power production forecasting. A set of six base metrics is proposed to meet the needs of users of solar power forecasts. Four of these metrics-Mean Absolute Error, Root Mean Square Error, Distribution of Forecast Errors, and Categorical Statistics—provide statistical insights on overall forecast performance and aid in the comparison of different forecast models or to validate a single forecast model output against actual values. Two remaining base metrics translate forecast performance to economic value that will provide insights into the benefits realized with improved forecast accuracy. These six metrics provide a starting point for evaluation of the accuracy, precision, and value of solar forecasts. A set of enhanced metrics is also proposed to provide more detailed insights into forecast performance. Each proposed metric is defined with emphasis on the insight provided by the metric, its calculation process described, and its application illustrated with an example of a use case. Similar metrics are grouped together. Where possible, less technical metrics are described first and more difficult/more technical metrics are presented later. The base and enhanced metrics and their application are described in this report. A summary of discussions with stakeholders and guidelines for application of the metrics are presented in the appendices.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

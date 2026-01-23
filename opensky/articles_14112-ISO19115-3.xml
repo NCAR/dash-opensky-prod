@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14112</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:08:58.843877</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:29:31.834503</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Temperature and precipitation extremes are examined in the Geoengineering Model Intercomparison Project experiment G1, wherein an instantaneous quadrupling of CO2 from its preindustrial control value is offset by a commensurate reduction in solar irradiance. Compared to the preindustrial climate, changes in climate extremes under G1 are generally much smaller than under 4 &#xd7; CO2 alone. However, it is also the case that extremes of temperature and precipitation in G1 differ significantly from those under preindustrial conditions. Probability density functions of standardized anomalies of monthly surface temperature T and precipitation T in G1 exhibit an extension of the high-T tail over land, of the low-T tail over ocean, and a shift of T to drier conditions. Using daily model output, we analyzed the frequency of extreme events, such as the coldest night (TNn), warmest day (TXx), and maximum 5 day precipitation amount, and also duration indicators such as cold and warm spells and consecutive dry days. The strong heating at northern high latitudes simulated under 4 &#xd7; CO2 is much alleviated in G1, but significant warming remains, particularly for TNn compared to TXx. Internal feedbacks lead to regional increases in absorbed solar radiation at the surface, increasing temperatures over Northern Hemisphere land in summer. Conversely, significant cooling occurs over the tropical oceans, increasing cold spell duration there. Globally, G1 is more effective in reducing changes in temperature extremes compared to precipitation extremes and for reducing changes in precipitation extremes versus means but somewhat less effective at reducing changes in temperature extremes compared to means.</gco:CharacterString>
+            <gco:CharacterString>Temperature and precipitation extremes are examined in the Geoengineering Model Intercomparison Project experiment G1, wherein an instantaneous quadrupling of CO2 from its preindustrial control value is offset by a commensurate reduction in solar irradiance. Compared to the preindustrial climate, changes in climate extremes under G1 are generally much smaller than under 4 × CO2 alone. However, it is also the case that extremes of temperature and precipitation in G1 differ significantly from those under preindustrial conditions. Probability density functions of standardized anomalies of monthly surface temperature T and precipitation T in G1 exhibit an extension of the high-T tail over land, of the low-T tail over ocean, and a shift of T to drier conditions. Using daily model output, we analyzed the frequency of extreme events, such as the coldest night (TNn), warmest day (TXx), and maximum 5 day precipitation amount, and also duration indicators such as cold and warm spells and consecutive dry days. The strong heating at northern high latitudes simulated under 4 × CO2 is much alleviated in G1, but significant warming remains, particularly for TNn compared to TXx. Internal feedbacks lead to regional increases in absorbed solar radiation at the surface, increasing temperatures over Northern Hemisphere land in summer. Conversely, significant cooling occurs over the tropical oceans, increasing cold spell duration there. Globally, G1 is more effective in reducing changes in temperature extremes compared to precipitation extremes and for reducing changes in precipitation extremes versus means but somewhat less effective at reducing changes in temperature extremes compared to means.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

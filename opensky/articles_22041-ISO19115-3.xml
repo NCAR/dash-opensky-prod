@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:22041</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:34:27.167520</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:48:01.752617</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -207,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7377-2114"
+                                    xlink:title="Pan, Laura L."
+                                    xlink:actuate="onRequest">Pan, Laura L.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +220,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schauffler, Sue</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4516-3378"
+                                    xlink:title="Schauffler, Sue"
+                                    xlink:actuate="onRequest">Schauffler, Sue</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +242,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We infer surface fluxes of bromoform (CHBr3) and dibromoform (CH2Br2) from aircraft observations over the western Pacific using a tagged version of the GEOS-Chem global 3-D atmospheric chemistry model and a maximum a posteriori inverse model. Using GEOS-Chem (GC) as an intermediary, we find that the distribution of a priori ocean emissions of these gases are reasonably consistent with observed atmospheric mole fractions of CHBr3 (r&#x2009;=&#x2009;0.62) and CH2Br2 (r&#x2009;=&#x2009;0.38). These a priori emissions result in a positive model bias in CHBr3 peaking in the marine boundary layer, but reproduce observed values of CH2Br2 with no significant bias by virtue of its longer atmospheric lifetime. Using GEOS-Chem, we find that observed variations in atmospheric CHBr3 are determined equally by sources over the western Pacific and those outside the study region, but observed variations in CH2Br2 are determined mainly by sources outside the western Pacific. Numerical closed-loop experiments show that the spatial and temporal distribution of boundary layer aircraft data have the potential to substantially improve current knowledge of these fluxes, with improvements related to data density. Using the aircraft data, we estimate aggregated regional fluxes of 3.6&#xb1;0.3&#xd7;108 and 0.7&#xb1;0.1&#xd7;108g month-1 for CHBr3 and CH2Br2 over 130-155&#xb0;E and 0-12&#xb0;N, respectively, which represent reductions of 20%-40% of the prior inventories by Ord&#xf3;&#xf1;ez et al. (2012) and substantial spatial deviations from different a priori inventories. We find no evidence to support a robust linear relationship between CHBr3 and CH2Br2 oceanic emissions, as used by previous studies. We find that over regions with dense observation coverage, our choice of a priori inventory does not significantly impact our reported a posteriori flux estimates.</gco:CharacterString>
+            <gco:CharacterString>We infer surface fluxes of bromoform (CHBr3) and dibromoform (CH2Br2) from aircraft observations over the western Pacific using a tagged version of the GEOS-Chem global 3-D atmospheric chemistry model and a maximum a posteriori inverse model. Using GEOS-Chem (GC) as an intermediary, we find that the distribution of a priori ocean emissions of these gases are reasonably consistent with observed atmospheric mole fractions of CHBr3 (r = 0.62) and CH2Br2 (r = 0.38). These a priori emissions result in a positive model bias in CHBr3 peaking in the marine boundary layer, but reproduce observed values of CH2Br2 with no significant bias by virtue of its longer atmospheric lifetime. Using GEOS-Chem, we find that observed variations in atmospheric CHBr3 are determined equally by sources over the western Pacific and those outside the study region, but observed variations in CH2Br2 are determined mainly by sources outside the western Pacific. Numerical closed-loop experiments show that the spatial and temporal distribution of boundary layer aircraft data have the potential to substantially improve current knowledge of these fluxes, with improvements related to data density. Using the aircraft data, we estimate aggregated regional fluxes of 3.6±0.3×108 and 0.7±0.1×108g month-1 for CHBr3 and CH2Br2 over 130-155°E and 0-12°N, respectively, which represent reductions of 20%-40% of the prior inventories by Ordóñez et al. (2012) and substantial spatial deviations from different a priori inventories. We find no evidence to support a robust linear relationship between CHBr3 and CH2Br2 oceanic emissions, as used by previous studies. We find that over regions with dense observation coverage, our choice of a priori inventory does not significantly impact our reported a posteriori flux estimates.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

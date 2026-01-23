@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:42411</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-10T19:55:08.169036</gco:DateTime>
+      <gco:DateTime>2025-12-24T17:57:15.466699</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -237,7 +238,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gonz&#xe1;lez Abad, G.</gco:CharacterString>
+                        <gco:CharacterString>González Abad, G.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +258,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Ayazpour, Z.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6865-4025"
+                                    xlink:title="Ayazpour, Z."
+                                    xlink:actuate="onRequest">Ayazpour, Z.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +280,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Apel, Eric C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9421-818X"
+                                    xlink:title="Apel, Eric C."
+                                    xlink:actuate="onRequest">Apel, Eric C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +292,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +314,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Formaldehyde (HCHO) in the atmosphere is an intermediate product from the oxidation of methane and non-methane volatile organic compounds. In remote marine regions, HCHO variability is closely related to atmospheric oxidation capacity, and modeled HCHO in these regions is usually added as a global satellite HCHO background. Thus, it is important to understand and validate the levels of satellite HCHO over the remote oceans. Here we intercompare three satellite retrievals of total HCHO columns from the Ozone Monitoring Instrument Smithsonian Astrophysical Observatory (OMI SAO (v004)) algorithm, Ozone Mapping and Profiler Suite on Suomi National Polar-orbiting Partnership Smithsonian Astrophysical Observatory (OMPS-NPP SAO) algorithm, and Ozone Monitoring Instrument Belgian Institute for Space Aeronomy (OMI BIRA) algorithm and validate them against in situ observations from the NASA Atmospheric Tomography Mission (ATom) mission. All retrievals are correlated with ATom-integrated columns over remote oceans, with OMI SAO (v004) showing the best agreement. This is also reflected in the mean bias (MB) for OMI SAO (&#x2212;0.73&#x2009;&#xb1;&#x2009;0.87)&#x2009;&#xd7;&#x2009;1015&#x2009;molec.&#x2009;cm&#x2212;2, OMPS SAO (&#x2212;0.76&#x2009;&#xb1;&#x2009;0.88)&#x2009;&#xd7;&#x2009;1015&#x2009;molec.&#x2009;cm&#x2212;2, and OMI BIRA (&#x2212;1.40&#x2009;&#xb1;&#x2009;1.11)&#x2009;&#xd7;&#x2009;1015&#x2009;molec.&#x2009;cm&#x2212;2. We recommend the OMI-SAO (v004) retrieval for remote-ocean atmosphere studies. Three satellite HCHO retrievals and in situ ATom columns all generally captured the spatial and seasonal distributions of HCHO in the remote-ocean atmosphere. Retrieval bias varies by latitude and season, but a persistent low bias is found in all products at high latitudes, and the general low bias is most severe for the OMI BIRA product. Examination of retrieval components reveals that slant column corrections have a larger impact on the retrievals over remote marine regions, while AMFs play a smaller role. This study informs us that the potential latitude-dependent biases in the retrievals require further investigation for improvement and should be considered when using marine HCHO satellite data, and vertical profiles from in situ instruments are crucial for validating satellite retrievals.</gco:CharacterString>
+            <gco:CharacterString>Formaldehyde (HCHO) in the atmosphere is an intermediate product from the oxidation of methane and non-methane volatile organic compounds. In remote marine regions, HCHO variability is closely related to atmospheric oxidation capacity, and modeled HCHO in these regions is usually added as a global satellite HCHO background. Thus, it is important to understand and validate the levels of satellite HCHO over the remote oceans. Here we intercompare three satellite retrievals of total HCHO columns from the Ozone Monitoring Instrument Smithsonian Astrophysical Observatory (OMI SAO (v004)) algorithm, Ozone Mapping and Profiler Suite on Suomi National Polar-orbiting Partnership Smithsonian Astrophysical Observatory (OMPS-NPP SAO) algorithm, and Ozone Monitoring Instrument Belgian Institute for Space Aeronomy (OMI BIRA) algorithm and validate them against in situ observations from the NASA Atmospheric Tomography Mission (ATom) mission. All retrievals are correlated with ATom-integrated columns over remote oceans, with OMI SAO (v004) showing the best agreement. This is also reflected in the mean bias (MB) for OMI SAO (−0.73 ± 0.87) × 1015 molec. cm−2, OMPS SAO (−0.76 ± 0.88) × 1015 molec. cm−2, and OMI BIRA (−1.40 ± 1.11) × 1015 molec. cm−2. We recommend the OMI-SAO (v004) retrieval for remote-ocean atmosphere studies. Three satellite HCHO retrievals and in situ ATom columns all generally captured the spatial and seasonal distributions of HCHO in the remote-ocean atmosphere. Retrieval bias varies by latitude and season, but a persistent low bias is found in all products at high latitudes, and the general low bias is most severe for the OMI BIRA product. Examination of retrieval components reveals that slant column corrections have a larger impact on the retrievals over remote marine regions, while AMFs play a smaller role. This study informs us that the potential latitude-dependent biases in the retrievals require further investigation for improvement and should be considered when using marine HCHO satellite data, and vertical profiles from in situ instruments are crucial for validating satellite retrievals.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18371</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:50:41.828536</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:54:39.200750</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -387,7 +388,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brown, William O.J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2220-0671"
+                                    xlink:title="Brown, William O.J."
+                                    xlink:actuate="onRequest">Brown, William O.J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -417,7 +420,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stossmeister, Gregory J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1182-3120"
+                                    xlink:title="Stossmeister, Gregory J."
+                                    xlink:actuate="onRequest">Stossmeister, Gregory J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -497,7 +502,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The Deep Propagating Gravity Wave Experiment (DEEPWAVE) was designed to quantify gravity wave (GW) dynamics and effects from orographic and other sources to regions of dissipation at high altitudes. The core DEEPWAVE field phase took place from May through July 2014 using a comprehensive suite of airborne and ground-based instruments providing measurements from Earth's surface to &#x223c;100 km. Austral winter was chosen to observe deep GW propagation to high altitudes. DEEPWAVE was based on South Island, New Zealand, to provide access to the New Zealand and Tasmanian "hotspots" of GW activity and additional GW sources over the Southern Ocean and Tasman Sea. To observe GWs up to &#x223c;100 km, DEEPWAVE utilized three new instruments built specifically for the National Science Foundation (NSF)/National Center for Atmospheric Research (NCAR) Gulfstream V (GV): a Rayleigh lidar, a sodium resonance lidar, and an advanced mesosphere temperature mapper. These measurements were supplemented by in situ probes, dropsondes, and a microwave temperature profiler on the GV and by in situ probes and a Doppler lidar aboard the German DLR Falcon. Extensive ground-based instrumentation and radiosondes were deployed on South Island, Tasmania, and Southern Ocean islands. Deep orographic GWs were a primary target but multiple flights also observed deep GWs arising from deep convection, jet streams, and frontal systems. Highlights include the following: 1) strong orographic GW forcing accompanying strong cross-mountain flows, 2) strong high-altitude responses even when orographic forcing was weak, 3) large-scale GWs at high altitudes arising from jet stream sources, and 4) significant flight-level energy fluxes and often very large momentum fluxes at high altitudes.</gco:CharacterString>
+            <gco:CharacterString>The Deep Propagating Gravity Wave Experiment (DEEPWAVE) was designed to quantify gravity wave (GW) dynamics and effects from orographic and other sources to regions of dissipation at high altitudes. The core DEEPWAVE field phase took place from May through July 2014 using a comprehensive suite of airborne and ground-based instruments providing measurements from Earth's surface to ∼100 km. Austral winter was chosen to observe deep GW propagation to high altitudes. DEEPWAVE was based on South Island, New Zealand, to provide access to the New Zealand and Tasmanian "hotspots" of GW activity and additional GW sources over the Southern Ocean and Tasman Sea. To observe GWs up to ∼100 km, DEEPWAVE utilized three new instruments built specifically for the National Science Foundation (NSF)/National Center for Atmospheric Research (NCAR) Gulfstream V (GV): a Rayleigh lidar, a sodium resonance lidar, and an advanced mesosphere temperature mapper. These measurements were supplemented by in situ probes, dropsondes, and a microwave temperature profiler on the GV and by in situ probes and a Doppler lidar aboard the German DLR Falcon. Extensive ground-based instrumentation and radiosondes were deployed on South Island, Tasmania, and Southern Ocean islands. Deep orographic GWs were a primary target but multiple flights also observed deep GWs arising from deep convection, jet streams, and frontal systems. Highlights include the following: 1) strong orographic GW forcing accompanying strong cross-mountain flows, 2) strong high-altitude responses even when orographic forcing was weak, 3) large-scale GWs at high altitudes arising from jet stream sources, and 4) significant flight-level energy fluxes and often very large momentum fluxes at high altitudes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

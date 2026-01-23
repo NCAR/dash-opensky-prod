@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24042</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:17:52.709844</gco:DateTime>
+      <gco:DateTime>2025-12-25T15:06:41.778449</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -137,7 +138,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Adames, &#xc1;. F.</gco:CharacterString>
+                        <gco:CharacterString>Adames, Á. F.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +158,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -247,7 +250,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We compare the performance of several modes of variability across six U.S. climate modeling groups, with a focus on identifying robust improvements in recent models [including those participating in phase 6 of the Coupled Model Intercomparison Project (CMIP)] compared to previous versions. In particular, we examine the representation of the Madden&#x2013;Julian oscillation (MJO), El Ni&#xf1;o&#x2013;Southern Oscillation (ENSO), the Pacific decadal oscillation (PDO), the quasi-biennial oscillation (QBO) in the tropical stratosphere, and the dominant modes of extratropical variability, including the southern annular mode (SAM), the northern annular mode (NAM) [and the closely related North Atlantic Oscillation (NAO)], and the Pacific&#x2013;North American pattern (PNA). Where feasible, we explore the processes driving these improvements through the use of "intermediary" experiments that utilize model versions between CMIP3/5 and CMIP6 as well as targeted sensitivity experiments in which individual modeling parameters are altered. We find clear and systematic improvements in the MJO and QBO and in the teleconnection patterns associated with the PDO and ENSO. Some gains arise from better process representation, while others (e.g., the QBO) from higher resolution that allows for a greater range of interactions. Our results demonstrate that the incremental development processes in multiple climate model groups lead to more realistic simulations over time.</gco:CharacterString>
+            <gco:CharacterString>We compare the performance of several modes of variability across six U.S. climate modeling groups, with a focus on identifying robust improvements in recent models [including those participating in phase 6 of the Coupled Model Intercomparison Project (CMIP)] compared to previous versions. In particular, we examine the representation of the Madden–Julian oscillation (MJO), El Niño–Southern Oscillation (ENSO), the Pacific decadal oscillation (PDO), the quasi-biennial oscillation (QBO) in the tropical stratosphere, and the dominant modes of extratropical variability, including the southern annular mode (SAM), the northern annular mode (NAM) [and the closely related North Atlantic Oscillation (NAO)], and the Pacific–North American pattern (PNA). Where feasible, we explore the processes driving these improvements through the use of "intermediary" experiments that utilize model versions between CMIP3/5 and CMIP6 as well as targeted sensitivity experiments in which individual modeling parameters are altered. We find clear and systematic improvements in the MJO and QBO and in the teleconnection patterns associated with the PDO and ENSO. Some gains arise from better process representation, while others (e.g., the QBO) from higher resolution that allows for a greater range of interactions. Our results demonstrate that the incremental development processes in multiple climate model groups lead to more realistic simulations over time.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

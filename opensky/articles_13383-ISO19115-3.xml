@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:13383</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T01:13:25.393006</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:34:04.206317</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Mills, Michael J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8054-1346"
+                                    xlink:title="Mills, Michael J."
+                                    xlink:actuate="onRequest">Mills, Michael J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +160,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>For the first time the global extent of a mid stratospheric new particle layer is addressed, using the National Center for Atmospheric Research Community Earth System Model, version 1 (CESM1), with the high-top atmosphere component, the Whole Atmosphere Community Climate Model (WACCM). The CESM1(WACCM) version has been configured for pure sulfate formation in the stratosphere, including the formation of late winter to spring condensation nuclei (CN), or small particle, layers of enhanced concentration in the polar regions. CESM1(WACCM) adequately reproduces, with some differences, a layer of observed (r&#x2009;&gt;&#x2009;3-10&#x2009;nm) particles originating in the polar stratosphere as measured in both the Antarctic and northern mid latitude regions. The austral CN layer in August has nearly a symmetrical maximum in concentration within the 60&#x2013;65&#xb0;S latitude band and extends to 15&#xb0;S. In comparison in February, the Northern Hemisphere CN layer has less symmetry and extends to only 30&#xb0;N. CN concentrations in the mid stratosphere are variable due to the polar formation of the CN layer in each hemisphere, and the CN layer accounts for&#x2009;&gt;&#x2009;50-90% of the r&#x2009;&gt;&#x2009;3&#x2009;nm particles in the stratospheric column poleward of 30&#xb0;S and 35&#xb0;N during winter and spring. The increase in CN concentration during the formation of the austral layer is not necessarily smooth. There may be fluctuations related to changes in temperature, partitioning of sulfuric acid, and the competition between nucleation, condensation, and coagulation. CESM1(WACCM) also predicts fall CN layers in both hemispheres. There are no observations to compare with this prediction.</gco:CharacterString>
+            <gco:CharacterString>For the first time the global extent of a mid stratospheric new particle layer is addressed, using the National Center for Atmospheric Research Community Earth System Model, version 1 (CESM1), with the high-top atmosphere component, the Whole Atmosphere Community Climate Model (WACCM). The CESM1(WACCM) version has been configured for pure sulfate formation in the stratosphere, including the formation of late winter to spring condensation nuclei (CN), or small particle, layers of enhanced concentration in the polar regions. CESM1(WACCM) adequately reproduces, with some differences, a layer of observed (r &gt; 3-10 nm) particles originating in the polar stratosphere as measured in both the Antarctic and northern mid latitude regions. The austral CN layer in August has nearly a symmetrical maximum in concentration within the 60–65°S latitude band and extends to 15°S. In comparison in February, the Northern Hemisphere CN layer has less symmetry and extends to only 30°N. CN concentrations in the mid stratosphere are variable due to the polar formation of the CN layer in each hemisphere, and the CN layer accounts for &gt; 50-90% of the r &gt; 3 nm particles in the stratospheric column poleward of 30°S and 35°N during winter and spring. The increase in CN concentration during the formation of the austral layer is not necessarily smooth. There may be fluctuations related to changes in temperature, partitioning of sulfuric acid, and the competition between nucleation, condensation, and coagulation. CESM1(WACCM) also predicts fall CN layers in both hemispheres. There are no observations to compare with this prediction.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

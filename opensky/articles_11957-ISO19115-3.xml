@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:11957</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:37:33.845489</gco:DateTime>
+      <gco:DateTime>2025-12-26T04:04:52.066938</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -497,7 +498,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Airborne and ground-based measurements during the CalNex (California Research at the Nexus of Air Quality and Climate Change) field study in May/June 2010 show a weekend effect in ozone in the South Coast Air Basin (SoCAB) consistent with previous observations. The well-known and much-studied weekend ozone effect has been attributed to weekend reductions in nitrogen oxide (NOx = NO + NO&#x2082;) emissions, which affect ozone levels via two processes: (1) reduced ozone loss by titration and (2) enhanced photochemical production of ozone due to an increased ratio of non-methane volatile organic compounds (VOCs) to NOx. In accord with previous assessments, the 2010 airborne and ground-based data show an average decrease in NOx of 46 &#xb1; 11% and 34 &#xb1; 4%, respectively, and an average increase in VOC/NOx ratio of 48 &#xb1; 8% and 43 &#xb1; 22%, respectively, on weekends. This work extends current understanding of the weekend ozone effect in the SoCAB by identifying its major causes and quantifying their relative importance from the available CalNex data. Increased weekend production of a VOC-NOx oxidation product, peroxyacetyl nitrate, compared to a radical termination product, nitric acid, indicates a significant contribution from increased photochemical production on weekends. Weekday-to-weekend differences in the products of NOx oxidation show 45 &#xb1; 13% and 42 &#xb1; 12% more extensive photochemical processing and, when compared with odd oxygen (Ox = O&#x2083; + NO&#x2082;), 51 &#xb1; 14% and 22 &#xb1; 17% greater ozone production efficiency on weekends in the airborne and ground-based data, respectively, indicating that both contribute to higher weekend ozone levels in the SoCAB.</gco:CharacterString>
+            <gco:CharacterString>Airborne and ground-based measurements during the CalNex (California Research at the Nexus of Air Quality and Climate Change) field study in May/June 2010 show a weekend effect in ozone in the South Coast Air Basin (SoCAB) consistent with previous observations. The well-known and much-studied weekend ozone effect has been attributed to weekend reductions in nitrogen oxide (NOx = NO + NO₂) emissions, which affect ozone levels via two processes: (1) reduced ozone loss by titration and (2) enhanced photochemical production of ozone due to an increased ratio of non-methane volatile organic compounds (VOCs) to NOx. In accord with previous assessments, the 2010 airborne and ground-based data show an average decrease in NOx of 46 ± 11% and 34 ± 4%, respectively, and an average increase in VOC/NOx ratio of 48 ± 8% and 43 ± 22%, respectively, on weekends. This work extends current understanding of the weekend ozone effect in the SoCAB by identifying its major causes and quantifying their relative importance from the available CalNex data. Increased weekend production of a VOC-NOx oxidation product, peroxyacetyl nitrate, compared to a radical termination product, nitric acid, indicates a significant contribution from increased photochemical production on weekends. Weekday-to-weekend differences in the products of NOx oxidation show 45 ± 13% and 42 ± 12% more extensive photochemical processing and, when compared with odd oxygen (Ox = O₃ + NO₂), 51 ± 14% and 22 ± 17% greater ozone production efficiency on weekends in the airborne and ground-based data, respectively, indicating that both contribute to higher weekend ozone levels in the SoCAB.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24127</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:09:16.615288</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:33:21.020104</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Johnston, Benjamin R.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-5622-1257"
+                                    xlink:title="Johnston, Benjamin R."
+                                    xlink:actuate="onRequest">Johnston, Benjamin R.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Randel, William</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5999-7162"
+                                    xlink:title="Randel, William"
+                                    xlink:actuate="onRequest">Randel, William</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Sjoberg, Jeremiah</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-7606-0566"
+                                    xlink:title="Sjoberg, Jeremiah"
+                                    xlink:actuate="onRequest">Sjoberg, Jeremiah</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global navigation satellite system (GNSS) radio occultation (RO) receivers onboard the recently-launched COSMIC-2 (C2) satellite constellation provide an unprecedented number of high vertical resolution moisture profiles throughout the tropical and subtropical atmosphere. In this study, the distribution and variability of water vapor was investigated using specific humidity retrievals from C2 observations and compared to collocated ERA5 and MERRA-2 reanalysis profiles within 40&#xb0;N to 40&#xb0;S from September to December 2019, which is prior to the assimilation of C2 in the reanalyses. Negative C2 moisture biases are evident within the boundary layer, so we focused on levels above the boundary layer in this study. Overall, C2 specific humidity shows excellent agreement with that of ERA5 and has larger differences with that of MERRA-2. In the tropical mid-troposphere, C2 shows positive biases compared to ERA5 (6&#x2013;12%) and larger negative biases with MERRA-2 (15&#x2013;30%). Strong correlations are observed between C2 and reanalysis specific humidity in the subtropics (&gt;0.8) whereas correlations are slightly weaker in the deep tropics, especially for MERRA-2. Profile pairs with large moisture differences often occur in areas with sharp moisture gradients, highlighting the importance of measurement resolution. Locations which demonstrated weaker humidity correlations in active convection regions show that ERA5 has a negative specific humidity bias at 3 km in higher moisture environments, whereas MERRA-2 displays a large positive bias at 7 km. However, additional explanations for profile pairs with large moisture differences remain unclear and require further study.</gco:CharacterString>
+            <gco:CharacterString>Global navigation satellite system (GNSS) radio occultation (RO) receivers onboard the recently-launched COSMIC-2 (C2) satellite constellation provide an unprecedented number of high vertical resolution moisture profiles throughout the tropical and subtropical atmosphere. In this study, the distribution and variability of water vapor was investigated using specific humidity retrievals from C2 observations and compared to collocated ERA5 and MERRA-2 reanalysis profiles within 40°N to 40°S from September to December 2019, which is prior to the assimilation of C2 in the reanalyses. Negative C2 moisture biases are evident within the boundary layer, so we focused on levels above the boundary layer in this study. Overall, C2 specific humidity shows excellent agreement with that of ERA5 and has larger differences with that of MERRA-2. In the tropical mid-troposphere, C2 shows positive biases compared to ERA5 (6–12%) and larger negative biases with MERRA-2 (15–30%). Strong correlations are observed between C2 and reanalysis specific humidity in the subtropics (&gt;0.8) whereas correlations are slightly weaker in the deep tropics, especially for MERRA-2. Profile pairs with large moisture differences often occur in areas with sharp moisture gradients, highlighting the importance of measurement resolution. Locations which demonstrated weaker humidity correlations in active convection regions show that ERA5 has a negative specific humidity bias at 3 km in higher moisture environments, whereas MERRA-2 displays a large positive bias at 7 km. However, additional explanations for profile pairs with large moisture differences remain unclear and require further study.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

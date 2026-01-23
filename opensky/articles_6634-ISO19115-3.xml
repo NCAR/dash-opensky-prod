@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6634</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T16:00:53.214754</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:29:34.291513</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Guenther, Alex B.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6283-8288"
+                                    xlink:title="Guenther, Alex B."
+                                    xlink:actuate="onRequest">Guenther, Alex B.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Volatile Organic Compound (VOC) emissions from fires in tropical forest fuels were quantified using Proton-Transfer-Reaction Mass Spectrometry (PTRMS), Fourier Transform Infrared Spectroscopy (FTIR) and gas chromatography (GC) coupled to PTRMS (GC-PTR-MS). We investigated VOC emissions from 19 controlled laboratory fires at the USFS (United States Forest Service) Fire Sciences Laboratory and 16 fires during an intensive airborne field campaign during the peak of the burning season in Brazil in 2004. The VOC emissions were dominated by oxygenated VOCs (OVOC) (OVOC/NMHC &#x223c;4:1, NMHC: non-methane hydrocarbons) The specificity of the PTR-MS instrument, which measures the mass to charge ratio of VOCs ionized by H&#x2083;O&#x207a; ions, was validated by gas chromatography and by intercomparing in-situ measurements with those obtained from an open path FTIR instrument. Emission ratios for methyl vinyl ketone, methacrolein, crotonaldehyde, acrylonitrile and pyrrole were measured in the field for the first time. Our measurements show a higher contribution of OVOCs than previously assumed for modeling purposes. Comparison of fresh (&lt;15 min) and aged (&gt;1 h-1 d) smoke suggests altered emission ratios due to gas phase chemistry for acetone but not for acetaldehyde and methanol. Emission ratios for numerous, important, reactive VOCs with respect to acetonitrile (a biomass burning tracer) are presented.</gco:CharacterString>
+            <gco:CharacterString>Volatile Organic Compound (VOC) emissions from fires in tropical forest fuels were quantified using Proton-Transfer-Reaction Mass Spectrometry (PTRMS), Fourier Transform Infrared Spectroscopy (FTIR) and gas chromatography (GC) coupled to PTRMS (GC-PTR-MS). We investigated VOC emissions from 19 controlled laboratory fires at the USFS (United States Forest Service) Fire Sciences Laboratory and 16 fires during an intensive airborne field campaign during the peak of the burning season in Brazil in 2004. The VOC emissions were dominated by oxygenated VOCs (OVOC) (OVOC/NMHC ∼4:1, NMHC: non-methane hydrocarbons) The specificity of the PTR-MS instrument, which measures the mass to charge ratio of VOCs ionized by H₃O⁺ ions, was validated by gas chromatography and by intercomparing in-situ measurements with those obtained from an open path FTIR instrument. Emission ratios for methyl vinyl ketone, methacrolein, crotonaldehyde, acrylonitrile and pyrrole were measured in the field for the first time. Our measurements show a higher contribution of OVOCs than previously assumed for modeling purposes. Comparison of fresh (&lt;15 min) and aged (&gt;1 h-1 d) smoke suggests altered emission ratios due to gas phase chemistry for acetone but not for acetaldehyde and methanol. Emission ratios for numerous, important, reactive VOCs with respect to acetonitrile (a biomass burning tracer) are presented.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

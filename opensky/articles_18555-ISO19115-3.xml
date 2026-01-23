@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18555</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:57.830643</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:50:44.774415</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Otto-Bliesner, Bette</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1911-1598"
+                                    xlink:title="Otto-Bliesner, Bette"
+                                    xlink:actuate="onRequest">Otto-Bliesner, Bette</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -127,7 +130,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brady, Esther C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7833-2249"
+                                    xlink:title="Brady, Esther C."
+                                    xlink:actuate="onRequest">Brady, Esther C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +142,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fasullo, John T.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-1216-892X"
+                                    xlink:title="Fasullo, John T."
+                                    xlink:actuate="onRequest">Fasullo, John T.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +164,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Landrum, Laura</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6003-1146"
+                                    xlink:title="Landrum, Laura"
+                                    xlink:actuate="onRequest">Landrum, Laura</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +186,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Rosenbloom, Nan</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7389-3346"
+                                    xlink:title="Rosenbloom, Nan"
+                                    xlink:actuate="onRequest">Rosenbloom, Nan</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +208,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Strand, Warren G.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-9740-0104"
+                                    xlink:title="Strand, Warren G."
+                                    xlink:actuate="onRequest">Strand, Warren G.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +230,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>The climate of the past millennium provides a baseline for understanding the background of natural climate variability upon which current anthropogenic changes are superimposed. As this period also contains high data density from proxy sources (e.g., ice cores, stalagmites, corals, tree rings, and sediments), it provides a unique opportunity for understanding both global and regional-scale climate responses to natural forcing. Toward that end, an ensemble of simulations with the Community Earth System Model (CESM) for the period 850&#x2013;2005 (the CESM Last Millennium Ensemble, or CESM-LME) is now available to the community. This ensemble includes simulations forced with the transient evolution of solar intensity, volcanic emissions, greenhouse gases, aerosols, land-use conditions, and orbital parameters, both together and individually. The CESM-LME thus allows for evaluation of the relative contributions of external forcing and internal variability to changes evident in the paleoclimate data record, as well as providing a longer-term perspective for understanding events in the modern instrumental period. It also constitutes a dynamically consistent framework within which to diagnose mechanisms of regional variability. Results demonstrate an important influence of internal variability on regional responses of the climate system during the past millennium. All the forcings, particularly large volcanic eruptions, are found to be regionally influential during the preindustrial period, while anthropogenic greenhouse gas and aerosol changes dominate the forced variability of the mid- to late twentieth century.</gco:CharacterString>
+            <gco:CharacterString>The climate of the past millennium provides a baseline for understanding the background of natural climate variability upon which current anthropogenic changes are superimposed. As this period also contains high data density from proxy sources (e.g., ice cores, stalagmites, corals, tree rings, and sediments), it provides a unique opportunity for understanding both global and regional-scale climate responses to natural forcing. Toward that end, an ensemble of simulations with the Community Earth System Model (CESM) for the period 850–2005 (the CESM Last Millennium Ensemble, or CESM-LME) is now available to the community. This ensemble includes simulations forced with the transient evolution of solar intensity, volcanic emissions, greenhouse gases, aerosols, land-use conditions, and orbital parameters, both together and individually. The CESM-LME thus allows for evaluation of the relative contributions of external forcing and internal variability to changes evident in the paleoclimate data record, as well as providing a longer-term perspective for understanding events in the modern instrumental period. It also constitutes a dynamically consistent framework within which to diagnose mechanisms of regional variability. Results demonstrate an important influence of internal variability on regional responses of the climate system during the past millennium. All the forcings, particularly large volcanic eruptions, are found to be regionally influential during the preindustrial period, while anthropogenic greenhouse gas and aerosol changes dominate the forced variability of the mid- to late twentieth century.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

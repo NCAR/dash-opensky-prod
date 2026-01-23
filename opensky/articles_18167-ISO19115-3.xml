@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18167</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:49:07.593729</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:38:05.033093</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Christensen-Dalsgaard, J&#xf8;rgen</gco:CharacterString>
+                        <gco:CharacterString>Christensen-Dalsgaard, Jørgen</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -647,7 +648,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>NASA's Kepler Mission uses transit photometry to determine the frequency of Earth-size planets in or near the habitable zone of Sun-like stars. The mission reached a milestone toward meeting that goal: the discovery of its first rocky planet, Kepler-10b. Two distinct sets of transit events were detected: (1) a 152 &#xb1; 4 ppm dimming lasting 1.811 &#xb1; 0.024 hr with ephemeris T [BJD] =2454964.57375&#x207a;&#x2070;'&#x2070;&#x2070;&#x2070;&#x2076;&#x2070; &#x208b;&#x2080;.&#x2080;&#x2080;&#x2080;&#x2088;&#x2082; + N*0.837495&#x207a;&#x2070;'&#x2070;&#x2070;&#x2070;&#x2070;&#x2070;&#x2074; &#x208b;&#x2080;.&#x2080;&#x2080;&#x2080;&#x2080;&#x2080;&#x2085; days and (2) a 376 &#xb1; 9 ppm dimming lasting 6.86 &#xb1; 0.07 hr with ephemeris T [BJD] =2454971.6761&#x207a;&#x2070;'&#x2070;&#x2070;&#xb2;&#x2070; &#x208b;&#x2080;.&#x2080;&#x2080;&#x2082;&#x2083; + N*45.29485&#x207a;&#x2070;'&#x2070;&#x2070;&#x2070;&#x2076;&#x2075; &#x208b;&#x2080;.&#x2080;&#x2080;&#x2080;&#x2087;&#x2086; days. Statistical tests on the photometric and pixel flux time series established the viability of the planet candidates triggering ground-based follow-up observations. Forty precision Doppler measurements were used to confirm that the short-period transit event is due to a planetary companion. The parent star is bright enough for asteroseismic analysis. Photometry was collected at 1 minute cadence for &gt;4 months from which we detected 19 distinct pulsation frequencies. Modeling the frequencies resulted in precise knowledge of the fundamental stellar properties. Kepler-10 is a relatively old (11.9 &#xb1; 4.5 Gyr) but otherwise Sun-like main-sequence star with T eff = 5627 &#xb1; 44 K, M &#x22c6; = 0.895 &#xb1; 0.060 M &#x2299;, and R &#x22c6; = 1.056 &#xb1; 0.021 R &#x2299;. Physical models simultaneously fit to the transit light curves and the precision Doppler measurements yielded tight constraints on the properties of Kepler-10b that speak to its rocky composition: M P = 4.56&#x207a;&#xb9;'&#xb9;&#x2077; &#x208b;&#x2081;.&#x2082;&#x2089; M &#x2295;, R P = 1.416&#x207a;&#x2070;'&#x2070;&#xb3;&#xb3; &#x208b;&#x2080;.&#x2080;&#x2083;&#x2086; R &#x2295;, and &#x3c1;P = 8.8&#x207a;&#xb2;'&#xb9; &#x208b;&#x2082;.&#x2089; g cm&#x207b;&#xb3;. Kepler-10b is the smallest transiting exoplanet discovered to date.</gco:CharacterString>
+            <gco:CharacterString>NASA's Kepler Mission uses transit photometry to determine the frequency of Earth-size planets in or near the habitable zone of Sun-like stars. The mission reached a milestone toward meeting that goal: the discovery of its first rocky planet, Kepler-10b. Two distinct sets of transit events were detected: (1) a 152 ± 4 ppm dimming lasting 1.811 ± 0.024 hr with ephemeris T [BJD] =2454964.57375⁺⁰'⁰⁰⁰⁶⁰ ₋₀.₀₀₀₈₂ + N*0.837495⁺⁰'⁰⁰⁰⁰⁰⁴ ₋₀.₀₀₀₀₀₅ days and (2) a 376 ± 9 ppm dimming lasting 6.86 ± 0.07 hr with ephemeris T [BJD] =2454971.6761⁺⁰'⁰⁰²⁰ ₋₀.₀₀₂₃ + N*45.29485⁺⁰'⁰⁰⁰⁶⁵ ₋₀.₀₀₀₇₆ days. Statistical tests on the photometric and pixel flux time series established the viability of the planet candidates triggering ground-based follow-up observations. Forty precision Doppler measurements were used to confirm that the short-period transit event is due to a planetary companion. The parent star is bright enough for asteroseismic analysis. Photometry was collected at 1 minute cadence for &gt;4 months from which we detected 19 distinct pulsation frequencies. Modeling the frequencies resulted in precise knowledge of the fundamental stellar properties. Kepler-10 is a relatively old (11.9 ± 4.5 Gyr) but otherwise Sun-like main-sequence star with T eff = 5627 ± 44 K, M ⋆ = 0.895 ± 0.060 M ⊙, and R ⋆ = 1.056 ± 0.021 R ⊙. Physical models simultaneously fit to the transit light curves and the precision Doppler measurements yielded tight constraints on the properties of Kepler-10b that speak to its rocky composition: M P = 4.56⁺¹'¹⁷ ₋₁.₂₉ M ⊕, R P = 1.416⁺⁰'⁰³³ ₋₀.₀₃₆ R ⊕, and ρP = 8.8⁺²'¹ ₋₂.₉ g cm⁻³. Kepler-10b is the smallest transiting exoplanet discovered to date.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

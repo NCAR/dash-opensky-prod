@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12607</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:28:57.988686</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:47:34.546342</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -147,7 +148,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lamarque, Jean-Fran&#xe7;ois</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4225-5074"
+                                    xlink:title="Lamarque, Jean-François"
+                                    xlink:actuate="onRequest">Lamarque, Jean-François</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -477,7 +480,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Ozone (O&#x2083;) from 17 atmospheric chemistry models taking part in the Atmospheric Chemistry and Climate Model Intercomparison Project (ACCMIP) has been used to calculate tropospheric ozone radiative forcings (RFs). All models applied a common set of anthropogenic emissions, which are better constrained for the present-day than the past. Future anthropogenic emissions follow the four Representative Concentration Pathway (RCP) scenarios, which define a relatively narrow range of possible air pollution emissions. We calculate a value for the pre-industrial (1750) to present-day (2010) tropospheric ozone RF of 410 mW m&#x207b;&#xb2;. The model range of pre-industrial to present-day changes in O&#x2083; produces a spread (&#xb1;1 standard deviation) in RFs of &#xb1;17%. Three different radiation schemes were used -- we find differences in RFs between schemes (for the same ozone fields) of &#xb1;10%. Applying two different tropopause definitions gives differences in RFs of &#xb1;3%. Given additional (unquantified) uncertainties associated with emissions, climate-chemistry interactions and land-use change, we estimate an overall uncertainty of &#xb1;30% for the tropospheric ozone RF. Experiments carried out by a subset of six models attribute tropospheric ozone RF to increased emissions of methane (44&#xb1;12%), nitrogen oxides (31 &#xb1; 9%), carbon monoxide (15 &#xb1; 3%) and non-methane volatile organic compounds (9 &#xb1; 2%); earlier studies attributed more of the tropospheric ozone RF to methane and less to nitrogen oxides. Normalising RFs to changes in tropospheric column ozone, we find a global mean normalised RF of 42 mW m&#x207b;&#xb2; DU&#x207b;&#xb9;, a value similar to previous work. Using normalised RFs and future tropospheric column ozone projections we calculate future tropospheric ozone RFs (mW m&#x207b;&#xb2;; relative to 1750) for the four future scenarios (RCP2.6, RCP4.5, RCP6.0 and RCP8.5) of 350, 420, 370 and 460 (in 2030), and 200, 300, 280 and 600 (in 2100). Models show some coherent responses of ozone to climate change: decreases in the tropical lower troposphere, associated with increases in water vapour; and increases in the sub-tropical to mid-latitude upper troposphere, associated with increases in lightning and stratosphere-to-troposphere transport. Climate change has relatively small impacts on global mean tropospheric ozone RF.</gco:CharacterString>
+            <gco:CharacterString>Ozone (O₃) from 17 atmospheric chemistry models taking part in the Atmospheric Chemistry and Climate Model Intercomparison Project (ACCMIP) has been used to calculate tropospheric ozone radiative forcings (RFs). All models applied a common set of anthropogenic emissions, which are better constrained for the present-day than the past. Future anthropogenic emissions follow the four Representative Concentration Pathway (RCP) scenarios, which define a relatively narrow range of possible air pollution emissions. We calculate a value for the pre-industrial (1750) to present-day (2010) tropospheric ozone RF of 410 mW m⁻². The model range of pre-industrial to present-day changes in O₃ produces a spread (±1 standard deviation) in RFs of ±17%. Three different radiation schemes were used -- we find differences in RFs between schemes (for the same ozone fields) of ±10%. Applying two different tropopause definitions gives differences in RFs of ±3%. Given additional (unquantified) uncertainties associated with emissions, climate-chemistry interactions and land-use change, we estimate an overall uncertainty of ±30% for the tropospheric ozone RF. Experiments carried out by a subset of six models attribute tropospheric ozone RF to increased emissions of methane (44±12%), nitrogen oxides (31 ± 9%), carbon monoxide (15 ± 3%) and non-methane volatile organic compounds (9 ± 2%); earlier studies attributed more of the tropospheric ozone RF to methane and less to nitrogen oxides. Normalising RFs to changes in tropospheric column ozone, we find a global mean normalised RF of 42 mW m⁻² DU⁻¹, a value similar to previous work. Using normalised RFs and future tropospheric column ozone projections we calculate future tropospheric ozone RFs (mW m⁻²; relative to 1750) for the four future scenarios (RCP2.6, RCP4.5, RCP6.0 and RCP8.5) of 350, 420, 370 and 460 (in 2030), and 200, 300, 280 and 600 (in 2100). Models show some coherent responses of ozone to climate change: decreases in the tropical lower troposphere, associated with increases in water vapour; and increases in the sub-tropical to mid-latitude upper troposphere, associated with increases in lightning and stratosphere-to-troposphere transport. Climate change has relatively small impacts on global mean tropospheric ozone RF.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

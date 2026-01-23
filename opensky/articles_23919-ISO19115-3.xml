@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:23919</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T19:13:34.975609</gco:DateTime>
+      <gco:DateTime>2025-12-25T06:41:59.987991</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Previous research has found a relationship between the equatorward extent of snow cover and low-level baroclinicity, suggesting a link between the development and trajectory of midlatitude cyclones and the extent of preexisting snow cover. Midlatitude cyclones are more frequent 50&#x2013;350 km south of the snow boundary, coincident with weak maxima in the environmental Eady growth rate. The snow line is projected to recede poleward with increasing greenhouse gas emissions, possibly affecting the development and track of midlatitude cyclones during Northern Hemisphere winter. Detailed examination of the physical implications of a modified snow boundary on the life cycle of individual storms has, to date, not been undertaken. This study investigates the impact of a receding snow boundary on two cyclogenesis events using Weather Research and Forecasting Model simulations initialized with observed and projected future changes to snow extent as a surface boundary condition. Potential vorticity diagnosis of the modified cyclone simulations isolates how changes in surface temperature, static stability, and relative vorticity arising from the altered boundary affect the developing cyclone. We find that the surface warm anomaly associated with snow removal lowered heights near the center of the two cyclones investigated, strengthening their cyclonic circulation. However, the direct effect of snow removal is mitigated by the stability response and an indirect relative vorticity response to snow removal. Because of these opposing effects, it is suggested that the immediate effect of receding snow cover on midlatitude cyclones is likely minimal and depends on the stage of the cyclone life cycle.</gco:CharacterString>
+            <gco:CharacterString>Previous research has found a relationship between the equatorward extent of snow cover and low-level baroclinicity, suggesting a link between the development and trajectory of midlatitude cyclones and the extent of preexisting snow cover. Midlatitude cyclones are more frequent 50–350 km south of the snow boundary, coincident with weak maxima in the environmental Eady growth rate. The snow line is projected to recede poleward with increasing greenhouse gas emissions, possibly affecting the development and track of midlatitude cyclones during Northern Hemisphere winter. Detailed examination of the physical implications of a modified snow boundary on the life cycle of individual storms has, to date, not been undertaken. This study investigates the impact of a receding snow boundary on two cyclogenesis events using Weather Research and Forecasting Model simulations initialized with observed and projected future changes to snow extent as a surface boundary condition. Potential vorticity diagnosis of the modified cyclone simulations isolates how changes in surface temperature, static stability, and relative vorticity arising from the altered boundary affect the developing cyclone. We find that the surface warm anomaly associated with snow removal lowered heights near the center of the two cyclones investigated, strengthening their cyclonic circulation. However, the direct effect of snow removal is mitigated by the stability response and an indirect relative vorticity response to snow removal. Because of these opposing effects, it is suggested that the immediate effect of receding snow cover on midlatitude cyclones is likely minimal and depends on the stage of the cyclone life cycle.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6854</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:01:15.171512</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:34:16.415048</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -177,7 +178,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aims.The primary objective of this study is to search for and identify wave modes within a sunspot penumbra. Methods.Infrared spectropolarimetric time series data are inverted using a model comprising two atmospheric components in each spatial pixel. Fourier phase difference analysis is performed on the line-of-sight velocities retrieved from both components to determine time delays between the velocity signals. In addition, the vertical separation between the signals in the two components is calculated from the Stokes velocity response functions. Results.The inversion yields two atmospheric components, one permeated by a nearly horizontal magnetic field, the other with a less-inclined magnetic field. Time delays between the oscillations in the two components in the frequency range 2.5-4.5 mHz are combined with speeds of atmospheric wave modes to determine wave travel distances. These are compared to expected path lengths obtained from response functions of the observed spectral lines in the different atmospheric components. Fast-mode (i.e., modified p-mode) waves exhibit the best agreement with the observations when propagating toward the sunspot at an angle &#x223c;50&#xb0; to the vertical.</gco:CharacterString>
+            <gco:CharacterString>Aims.The primary objective of this study is to search for and identify wave modes within a sunspot penumbra. Methods.Infrared spectropolarimetric time series data are inverted using a model comprising two atmospheric components in each spatial pixel. Fourier phase difference analysis is performed on the line-of-sight velocities retrieved from both components to determine time delays between the velocity signals. In addition, the vertical separation between the signals in the two components is calculated from the Stokes velocity response functions. Results.The inversion yields two atmospheric components, one permeated by a nearly horizontal magnetic field, the other with a less-inclined magnetic field. Time delays between the oscillations in the two components in the frequency range 2.5-4.5 mHz are combined with speeds of atmospheric wave modes to determine wave travel distances. These are compared to expected path lengths obtained from response functions of the observed spectral lines in the different atmospheric components. Fast-mode (i.e., modified p-mode) waves exhibit the best agreement with the observations when propagating toward the sunspot at an angle ∼50° to the vertical.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

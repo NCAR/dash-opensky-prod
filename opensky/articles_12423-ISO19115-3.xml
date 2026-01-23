@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12423</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:29:48.587975</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:48:54.188646</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hunt, Douglas C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2662-4287"
+                                    xlink:title="Hunt, Douglas C."
+                                    xlink:actuate="onRequest">Hunt, Douglas C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +270,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Kuo, Ying-Hwa</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8339-7271"
+                                    xlink:title="Kuo, Ying-Hwa"
+                                    xlink:actuate="onRequest">Kuo, Ying-Hwa</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -307,7 +312,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Schreiner, William S.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3126-2674"
+                                    xlink:title="Schreiner, William S."
+                                    xlink:actuate="onRequest">Schreiner, William S.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +364,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global Positioning System (GPS) radio occultation (RO) has provided continuous observations of the Earth's atmosphere since 2001 with global coverage, all-weather capability, and high accuracy and vertical resolution in the upper troposphere and lower stratosphere (UTLS). Precise time measurements enable long-term stability but careful processing is needed. Here we provide climate-oriented atmospheric scientists with multicenter-based results on the long-term stability of RO climatological fields for trend studies. We quantify the structural uncertainty of atmospheric trends estimated from the RO record, which arises from current processing schemes of six international RO processing centers, DMI Copenhagen, EUM Darmstadt, GFZ Potsdam, JPL Pasadena, UCAR Boulder, and WEGC Graz. Monthly-mean zonal-mean fields of bending angle, refractivity, dry pressure, dry geopotential height, and dry temperature from the CHAMP mission are compared for September 2001 to September 2008. We find that structural uncertainty is lowest in the tropics and mid-latitudes (50&#xb0; S to 50&#xb0; N) from 8 km to 25 km for all inspected RO variables. In this region, the structural uncertainty in trends over 7 yr is &lt;0.03% for bending angle, refractivity, and pressure, &lt;3 m for geopotential height of pressure levels, and &lt;0.06 K for temperature; low enough for detecting a climate change signal within about a decade. Larger structural uncertainty above about 25 km and at high latitudes is attributable to differences in the processing schemes, which undergo continuous improvements. Though current use of RO for reliable climate trend assessment is bound to 50&#xb0; S to 50&#xb0; N, our results show that quality, consistency, and reproducibility are favorable in the UTLS for the establishment of a climate benchmark record.</gco:CharacterString>
+            <gco:CharacterString>Global Positioning System (GPS) radio occultation (RO) has provided continuous observations of the Earth's atmosphere since 2001 with global coverage, all-weather capability, and high accuracy and vertical resolution in the upper troposphere and lower stratosphere (UTLS). Precise time measurements enable long-term stability but careful processing is needed. Here we provide climate-oriented atmospheric scientists with multicenter-based results on the long-term stability of RO climatological fields for trend studies. We quantify the structural uncertainty of atmospheric trends estimated from the RO record, which arises from current processing schemes of six international RO processing centers, DMI Copenhagen, EUM Darmstadt, GFZ Potsdam, JPL Pasadena, UCAR Boulder, and WEGC Graz. Monthly-mean zonal-mean fields of bending angle, refractivity, dry pressure, dry geopotential height, and dry temperature from the CHAMP mission are compared for September 2001 to September 2008. We find that structural uncertainty is lowest in the tropics and mid-latitudes (50° S to 50° N) from 8 km to 25 km for all inspected RO variables. In this region, the structural uncertainty in trends over 7 yr is &lt;0.03% for bending angle, refractivity, and pressure, &lt;3 m for geopotential height of pressure levels, and &lt;0.06 K for temperature; low enough for detecting a climate change signal within about a decade. Larger structural uncertainty above about 25 km and at high latitudes is attributable to differences in the processing schemes, which undergo continuous improvements. Though current use of RO for reliable climate trend assessment is bound to 50° S to 50° N, our results show that quality, consistency, and reproducibility are favorable in the UTLS for the establishment of a climate benchmark record.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

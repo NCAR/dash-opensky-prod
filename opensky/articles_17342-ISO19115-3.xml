@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17342</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:57:27.348105</gco:DateTime>
+      <gco:DateTime>2025-12-26T16:39:47.380074</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -157,7 +158,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Results from an initial feasibility study to test whether Global Positioning System (GPS) navigation can be combined with more traditional acoustic methods to measure ocean current profiles are presented. A typical acoustic current profiler such as PEGASUS measures currents by ranging on two acoustic sources (one-way beacons or two-way transponders) as it falls or rises through the water column. These sources must be previously deployed on the bottom, and their positions accurately determined via the attending research vessel. As discussed below, this procedure introduces a number of complications. In particular, any unresolved errors in the source deployment will remain as systematic errors in the resulting velocity data. The method described here replaces the bottom-mounted sources with hydrophones drifting near the ocean surface. The positions of these hydrophones are computed every few seconds using GPS. This feasibility test shows that a combined GPS-acoustic system can approach accuracy levels found in the standard method. Furthermore, systematic errors can be significantly reduced. Random errors are estimated to be approximately &#xb1;1&#x2013;2 cm s&#x207b;&#xb9; dependent on station geometry.</gco:CharacterString>
+            <gco:CharacterString>Results from an initial feasibility study to test whether Global Positioning System (GPS) navigation can be combined with more traditional acoustic methods to measure ocean current profiles are presented. A typical acoustic current profiler such as PEGASUS measures currents by ranging on two acoustic sources (one-way beacons or two-way transponders) as it falls or rises through the water column. These sources must be previously deployed on the bottom, and their positions accurately determined via the attending research vessel. As discussed below, this procedure introduces a number of complications. In particular, any unresolved errors in the source deployment will remain as systematic errors in the resulting velocity data. The method described here replaces the bottom-mounted sources with hydrophones drifting near the ocean surface. The positions of these hydrophones are computed every few seconds using GPS. This feasibility test shows that a combined GPS-acoustic system can approach accuracy levels found in the standard method. Furthermore, systematic errors can be significantly reduced. Random errors are estimated to be approximately ±1–2 cm s⁻¹ dependent on station geometry.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

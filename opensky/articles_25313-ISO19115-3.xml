@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:25313</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:07:17.891193</gco:DateTime>
+      <gco:DateTime>2025-12-24T22:52:41.401227</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lawrence, Peter J.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4843-4903"
+                                    xlink:title="Lawrence, Peter J."
+                                    xlink:actuate="onRequest">Lawrence, Peter J.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +172,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Grabowski, Wojciech</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9496-4462"
+                                    xlink:title="Grabowski, Wojciech"
+                                    xlink:actuate="onRequest">Grabowski, Wojciech</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +194,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Medeiros, Brian</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2188-4784"
+                                    xlink:title="Medeiros, Brian"
+                                    xlink:actuate="onRequest">Medeiros, Brian</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +206,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morrison, Monica</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4228-8247"
+                                    xlink:title="Morrison, Monica"
+                                    xlink:actuate="onRequest">Morrison, Monica</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +218,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Prein, Andreas</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6250-179X"
+                                    xlink:title="Prein, Andreas"
+                                    xlink:actuate="onRequest">Prein, Andreas</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -257,7 +270,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Shrestha, Gyami</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-7150-8731"
+                                    xlink:title="Shrestha, Gyami"
+                                    xlink:actuate="onRequest">Shrestha, Gyami</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +282,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Stephens, Britton</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-1966-6182"
+                                    xlink:title="Stephens, Britton"
+                                    xlink:actuate="onRequest">Stephens, Britton</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -287,7 +304,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Humanity faces growing risks due to climate change; however, there is no single near-term pathway that can limit warming to well below 2&#xb0;C (IPCC 2018). A coordinated, large-scale collaboration between physical, life, and social science research, engineering, and practitioner communities is needed to understand and comprehensively assess how a portfolio of climate interventions would behave in real-world scenarios (Long and Shepherd 2014). Assessments of research and implementation strategies for carbon dioxide removal (CDR) and solar radiation modification (SRM) interventions, also known as geoengineering, have largely remained separated (National Research Council 2015b,a), while the need for investigating a portfolio of combined climate intervention scenarios including adaptation, mitigation, CDR, and SRM is becoming more evident (e.g., Jones et al. 2018; MacMartin et al. 2018; Lawrence et al. 2018; Tilmes et al. 2020; Buck et al. 2020). The Community Climate Intervention Strategies (CCIS) Steering Committee was established to answer this call and to enhance collaboration between the disparate research groups needed to develop an interdisciplinary and international climate intervention research program. During the summer of 2020, CCIS hosted an eight-part webinar series that outlined the state of science of various climate intervention approaches and highlighted the need for portfolio-based assessments of climate interventions. A total of 27 international experts addressed the state of science information on future climate scenario development, integrated assessment modeling, SRM, CDR, observational needs, societal and ecological impacts, education and outreach, and ethics and governance. As a follow-up to the webinar series, the CCIS team convened the CCIS workshop in October 2020 with interdisciplinary and international participation of approximately 60% physical and biological scientists, and the remainder consisted of social scientists, communication and education specialists, local stakeholders, policymakers, and representatives from nonprofit organizations. Outcomes of the workshop included recommendations to 1) create seven science-themed working groups as part of the CCIS research framework, 2) develop a CCIS communication and resource hub to facilitate exchange between scientists, stakeholders, and policymakers, and 3) integrate communication and interdisciplinary research design specialists within working groups and the CCIS program at large. These outcomes will be the basis for synergizing existing climate intervention research, identifying research priorities and needs, and initiating future interdisciplinary projects.</gco:CharacterString>
+            <gco:CharacterString>Humanity faces growing risks due to climate change; however, there is no single near-term pathway that can limit warming to well below 2°C (IPCC 2018). A coordinated, large-scale collaboration between physical, life, and social science research, engineering, and practitioner communities is needed to understand and comprehensively assess how a portfolio of climate interventions would behave in real-world scenarios (Long and Shepherd 2014). Assessments of research and implementation strategies for carbon dioxide removal (CDR) and solar radiation modification (SRM) interventions, also known as geoengineering, have largely remained separated (National Research Council 2015b,a), while the need for investigating a portfolio of combined climate intervention scenarios including adaptation, mitigation, CDR, and SRM is becoming more evident (e.g., Jones et al. 2018; MacMartin et al. 2018; Lawrence et al. 2018; Tilmes et al. 2020; Buck et al. 2020). The Community Climate Intervention Strategies (CCIS) Steering Committee was established to answer this call and to enhance collaboration between the disparate research groups needed to develop an interdisciplinary and international climate intervention research program. During the summer of 2020, CCIS hosted an eight-part webinar series that outlined the state of science of various climate intervention approaches and highlighted the need for portfolio-based assessments of climate interventions. A total of 27 international experts addressed the state of science information on future climate scenario development, integrated assessment modeling, SRM, CDR, observational needs, societal and ecological impacts, education and outreach, and ethics and governance. As a follow-up to the webinar series, the CCIS team convened the CCIS workshop in October 2020 with interdisciplinary and international participation of approximately 60% physical and biological scientists, and the remainder consisted of social scientists, communication and education specialists, local stakeholders, policymakers, and representatives from nonprofit organizations. Outcomes of the workshop included recommendations to 1) create seven science-themed working groups as part of the CCIS research framework, 2) develop a CCIS communication and resource hub to facilitate exchange between scientists, stakeholders, and policymakers, and 3) integrate communication and interdisciplinary research design specialists within working groups and the CCIS program at large. These outcomes will be the basis for synergizing existing climate intervention research, identifying research priorities and needs, and initiating future interdisciplinary projects.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24724</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:11:29.500260</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:03:25.383803</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -267,7 +268,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hannigan, James W.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-4269-1677"
+                                    xlink:title="Hannigan, James W."
+                                    xlink:actuate="onRequest">Hannigan, James W.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -347,7 +350,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Peroxyacetyl nitrate (PAN) is the main tropospheric reservoir of NOx (NO &#xfe; NO2). Its lifetime can reach several months in the upper cold troposphere. This enables the long-range transport of NOx radicals, under the form of PAN, far from the regions of emission. The subsequent release of NOx through the PAN thermal decomposition leads to the efficient formation of tropospheric ozone (O3), with important consequences for tropospheric oxidative capacity and air quality. The chemical properties of PAN have stimulated the progressive development of remote-sensing products by the satellite community, and recent additions open the prospect for the production of decadal and near-global time series. These products will provide new constraints on the distribution and evolution of this key trace gas in the Earth's atmosphere, but they will also require reliable measurements for validation and characterization of performance. We present an approach that has been developed to retrieve PAN total columns from ground-based high-resolution solar absorption Fourier transform infrared (FTIR) spectra. This strategy is applied to observations recorded at remote FTIR stations of the Network for the Detection of Atmospheric Composition Change (NDACC). The resulting data sets are compared with total column time series derived from IASI (Infrared Atmospheric Sounding Interferometer) satellite observations and to a global chemical transport model. The results are discussed in terms of their overall consistency, mutual agreement, and seasonal cycles. Noticeable is the fact that the FTIR data point to substantial deficiencies in the global model simulation over high latitudes, a poorly sampled region, with an underestimation of the PAN columns during spring, at the peak of the seasonal cycle. Finally, we suggest avenues for development that should make it possible to limit intra- or intersite biases and extend the retrieval of PAN to other NDACC stations that are more affected by water vapor interferences.</gco:CharacterString>
+            <gco:CharacterString>Peroxyacetyl nitrate (PAN) is the main tropospheric reservoir of NOx (NO þ NO2). Its lifetime can reach several months in the upper cold troposphere. This enables the long-range transport of NOx radicals, under the form of PAN, far from the regions of emission. The subsequent release of NOx through the PAN thermal decomposition leads to the efficient formation of tropospheric ozone (O3), with important consequences for tropospheric oxidative capacity and air quality. The chemical properties of PAN have stimulated the progressive development of remote-sensing products by the satellite community, and recent additions open the prospect for the production of decadal and near-global time series. These products will provide new constraints on the distribution and evolution of this key trace gas in the Earth's atmosphere, but they will also require reliable measurements for validation and characterization of performance. We present an approach that has been developed to retrieve PAN total columns from ground-based high-resolution solar absorption Fourier transform infrared (FTIR) spectra. This strategy is applied to observations recorded at remote FTIR stations of the Network for the Detection of Atmospheric Composition Change (NDACC). The resulting data sets are compared with total column time series derived from IASI (Infrared Atmospheric Sounding Interferometer) satellite observations and to a global chemical transport model. The results are discussed in terms of their overall consistency, mutual agreement, and seasonal cycles. Noticeable is the fact that the FTIR data point to substantial deficiencies in the global model simulation over high latitudes, a poorly sampled region, with an underestimation of the PAN columns during spring, at the peak of the seasonal cycle. Finally, we suggest avenues for development that should make it possible to limit intra- or intersite biases and extend the retrieval of PAN to other NDACC stations that are more affected by water vapor interferences.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

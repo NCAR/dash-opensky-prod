@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:12783</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-15T21:26:49.883512</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:43:37.871023</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Morrison, Hugh</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-8480-9787"
+                                    xlink:title="Morrison, Hugh"
+                                    xlink:actuate="onRequest">Morrison, Hugh</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gettelman, Andrew</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8284-2599"
+                                    xlink:title="Gettelman, Andrew"
+                                    xlink:actuate="onRequest">Gettelman, Andrew</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -157,7 +162,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Covariance between cloud and precipitation water in shallow marine boundary layer clouds is assessed using collocated satellite observations from CloudSat and the moderate resolution imaging spectroradiometer (MODIS) at spatial scales typical of global models. An analytic construct is presented, which suggests that global models that do not take subgrid scale cloud-precipitation covariance into account in their microphysical parameterizations may significantly underestimate grid mean microphysical process rates in warm clouds. The proposed framework indicates a mean bias in autoconversion rates of 129% when subgrid scale cloud water variability is neglected and bias in accretion rates of 60% when subgrid cloud-precipitation covariability is neglected at a model grid resolution of 141&#x2009;km. The bias in accretion rate is dependent on the significant correlation (&#x3c1;) found between cloud and precipitation, which in the global mean is found to be &#x3c1;&#x2009;=&#x2009;0.44. The regional distribution of the process rate biases is largely governed by the spatial pattern of cloud water variance. Specific areas of low cloud water variance are found in the subtropical eastern ocean basins and the high latitudes, whereas much of the tropics display relatively larger cloud water variance. These regional distinctions in cloud water variance are associated with commensurate regionality in the process rate biases. The magnitude of the bias has a scale dependence that is governed by the spatial scaling behavior of the cloud and precipitation variances, which follow a power law scaling with exponent of 2/3 at scales below about 10&#x2009;km and decreasing exponent above this length scale. While the parametric framework reduces biases in the accretion rate estimated from the grid-mean values of cloud and precipitation water, it is shown that it still undercorrects the accretion rate because it neglects the fact that the precipitation fractional area is less than the cloud fractional area and is preferentially colocated with the highest cloud water concentrations. These results imply that (1) predicting the appropriate balance of autoconversion to accretion in global models requires not only the subgrid scale cloud water variability but also the subgrid scale covariability of cloud and precipitation water and (2) the ability of a global model to calculate the correct regional variation in process rates depends crucially on the fidelity of that model to predict or diagnose the spatial distribution of the variance in cloud water.</gco:CharacterString>
+            <gco:CharacterString>Covariance between cloud and precipitation water in shallow marine boundary layer clouds is assessed using collocated satellite observations from CloudSat and the moderate resolution imaging spectroradiometer (MODIS) at spatial scales typical of global models. An analytic construct is presented, which suggests that global models that do not take subgrid scale cloud-precipitation covariance into account in their microphysical parameterizations may significantly underestimate grid mean microphysical process rates in warm clouds. The proposed framework indicates a mean bias in autoconversion rates of 129% when subgrid scale cloud water variability is neglected and bias in accretion rates of 60% when subgrid cloud-precipitation covariability is neglected at a model grid resolution of 141 km. The bias in accretion rate is dependent on the significant correlation (ρ) found between cloud and precipitation, which in the global mean is found to be ρ = 0.44. The regional distribution of the process rate biases is largely governed by the spatial pattern of cloud water variance. Specific areas of low cloud water variance are found in the subtropical eastern ocean basins and the high latitudes, whereas much of the tropics display relatively larger cloud water variance. These regional distinctions in cloud water variance are associated with commensurate regionality in the process rate biases. The magnitude of the bias has a scale dependence that is governed by the spatial scaling behavior of the cloud and precipitation variances, which follow a power law scaling with exponent of 2/3 at scales below about 10 km and decreasing exponent above this length scale. While the parametric framework reduces biases in the accretion rate estimated from the grid-mean values of cloud and precipitation water, it is shown that it still undercorrects the accretion rate because it neglects the fact that the precipitation fractional area is less than the cloud fractional area and is preferentially colocated with the highest cloud water concentrations. These results imply that (1) predicting the appropriate balance of autoconversion to accretion in global models requires not only the subgrid scale cloud water variability but also the subgrid scale covariability of cloud and precipitation water and (2) the ability of a global model to calculate the correct regional variation in process rates depends crucially on the fidelity of that model to predict or diagnose the spatial distribution of the variance in cloud water.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

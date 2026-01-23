@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:10580</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T14:48:28.697593</gco:DateTime>
+      <gco:DateTime>2025-12-26T13:36:35.373848</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -88,7 +89,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>Measurements of tropospheric HO&#x2082; and RO&#x2082; by oxygen dilution modulation and chemical ionization mass spectrometry</gco:CharacterString>
+                  <gco:CharacterString>Measurements of tropospheric HO₂ and RO₂ by oxygen dilution modulation and chemical ionization mass spectrometry</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -117,7 +118,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Hornbrook, Rebecca</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6304-6554"
+                                    xlink:title="Hornbrook, Rebecca"
+                                    xlink:actuate="onRequest">Hornbrook, Rebecca</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -137,7 +140,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Edwards, David P.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4342-1190"
+                                    xlink:title="Edwards, David P."
+                                    xlink:actuate="onRequest">Edwards, David P.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +182,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Cantrell, Chris A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-3844-1560"
+                                    xlink:title="Cantrell, Chris A."
+                                    xlink:actuate="onRequest">Cantrell, Chris A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +204,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>An improved method for the measurement of hydroperoxy radicals (HO&#x2082;) and organic peroxy radicals (RO&#x2082;, where R is any organic group) has been developed that combines two previous chemical conversion/chemical ionization mass spectrometry (CIMS)peroxy radical measurement techniques. Applicable to both ground-based and aircraft platforms, the method provides good separation between HO&#x2082; and RO&#x2082; and frequent measurement capability with observations of both HO&#x2082; and HO&#x2082;+RO&#x2082; amounts each minute. This allows for analyses of measured [HO&#x2082;]/[HO&#x2082;+RO&#x2082;] ratios on timescales relevant to tropospheric photochemistry. By varying both [NO] and [O&#x2082;] simultaneously in the chemical conversion region of the PeRCIMS (Peroxy Radical CIMS) inlet, the method exploits the changing conversion efficiency of RO&#x2082; to HO&#x2082; under different inlet [NO]/[O&#x2082;] to selectively observe either primarily HO&#x2082; or the sum of HO&#x2082; and RO&#x2082;. Two modes of operation have been established for ambient measurements: in the &#xfb01;rst half of the minute, RO2 radicals are measured at close to 100% efficiency along with HO&#x2082; radicals (low [NO]/[O&#x2082;]=2.53&#xd7;10-5) and in the second half of the minute, HO&#x2082; is detected while the majority of ambient RO&#x2082; radicals are measured with low efficiency, approximately 15% (high [NO]/[O&#x2082;]=6.80&#xd7;10-4). The method has been tested extensively in the laboratory under various conditions and for a variety of organic peroxy radicals relevant to the atmosphere and the results of these tests are presented. The modified PeRCIMS instrument has been deployed successfully using the new measurement technique on a number of aircraft campaigns, including on the NSF/NCAR C-130 during the MIRAGE-Mex and NASA INTEX-B &#xfb01;eld campaigns in the spring of 2006. A brief comparison of the peroxy radical measurements during these campaigns to a photochemical box model indicates good agreement under tropospheric conditions where NOx (NO+NO&#x2082;) concentrations are lower than 0.5 ppbV (parts per billion by volume).</gco:CharacterString>
+            <gco:CharacterString>An improved method for the measurement of hydroperoxy radicals (HO₂) and organic peroxy radicals (RO₂, where R is any organic group) has been developed that combines two previous chemical conversion/chemical ionization mass spectrometry (CIMS)peroxy radical measurement techniques. Applicable to both ground-based and aircraft platforms, the method provides good separation between HO₂ and RO₂ and frequent measurement capability with observations of both HO₂ and HO₂+RO₂ amounts each minute. This allows for analyses of measured [HO₂]/[HO₂+RO₂] ratios on timescales relevant to tropospheric photochemistry. By varying both [NO] and [O₂] simultaneously in the chemical conversion region of the PeRCIMS (Peroxy Radical CIMS) inlet, the method exploits the changing conversion efficiency of RO₂ to HO₂ under different inlet [NO]/[O₂] to selectively observe either primarily HO₂ or the sum of HO₂ and RO₂. Two modes of operation have been established for ambient measurements: in the ﬁrst half of the minute, RO2 radicals are measured at close to 100% efficiency along with HO₂ radicals (low [NO]/[O₂]=2.53×10-5) and in the second half of the minute, HO₂ is detected while the majority of ambient RO₂ radicals are measured with low efficiency, approximately 15% (high [NO]/[O₂]=6.80×10-4). The method has been tested extensively in the laboratory under various conditions and for a variety of organic peroxy radicals relevant to the atmosphere and the results of these tests are presented. The modified PeRCIMS instrument has been deployed successfully using the new measurement technique on a number of aircraft campaigns, including on the NSF/NCAR C-130 during the MIRAGE-Mex and NASA INTEX-B ﬁeld campaigns in the spring of 2006. A brief comparison of the peroxy radical measurements during these campaigns to a photochemical box model indicates good agreement under tropospheric conditions where NOx (NO+NO₂) concentrations are lower than 0.5 ppbV (parts per billion by volume).</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

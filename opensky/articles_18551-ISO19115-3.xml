@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18551</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T20:48:11.896712</gco:DateTime>
+      <gco:DateTime>2025-12-26T02:49:01.358910</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Pfister, Gabriele</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-9177-1315"
+                                    xlink:title="Pfister, Gabriele"
+                                    xlink:actuate="onRequest">Pfister, Gabriele</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -197,7 +200,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>In 2012, Colorado experienced one of its worst wildfire seasons of the past decade. The goal of this study was to investigate the relationship of local PM&#x2082;.&#x2085; levels, modeled using the Weather Research and Forecasting Model with Chemistry, with emergency department visits and acute hospitalizations for respiratory and cardiovascular outcomes during the 2012 Colorado wildfires. Conditional logistic regression was used to assess the relationship between both continuous and categorical PM&#x2082;.&#x2085; and emergency department visits during the wildfire period, from June 5th to July 6th 2012. For respiratory outcomes, we observed positive relationships between lag 0 PM&#x2082;.&#x2085; and asthma/wheeze (1 h max OR 1.01, 95 % CI (1.00, 1.01) per 10 &#x3bc;g/m&#xb3;; 24 h mean OR 1.04 95 % CI (1.02, 1.06) per 5 &#x3bc;g/m&#xb3;), and COPD (1 h max OR 1.01 95 % CI (1.00, 1.02) per 10 &#x3bc;g/m&#xb3;; 24 h mean OR 1.05 95 % CI (1.02, 1.08) per 5 &#x3bc;g/m&#xb3;). These associations were also positive for 2-day and 3-day moving average lag periods. When PM&#x2082;.&#x2085; was modeled as a categorical variable, bronchitis also showed elevated effect estimates over the referent groups for lag 0 24 h average concentration. Cardiovascular results were consistent with no association. Conclusions We observed positive associations between PM&#x2082;.&#x2085; from wildfire and respiratory diseases, supporting evidence from previous research that wildfire PM&#x2082;.&#x2085; is an important source for adverse respiratory health outcomes.</gco:CharacterString>
+            <gco:CharacterString>In 2012, Colorado experienced one of its worst wildfire seasons of the past decade. The goal of this study was to investigate the relationship of local PM₂.₅ levels, modeled using the Weather Research and Forecasting Model with Chemistry, with emergency department visits and acute hospitalizations for respiratory and cardiovascular outcomes during the 2012 Colorado wildfires. Conditional logistic regression was used to assess the relationship between both continuous and categorical PM₂.₅ and emergency department visits during the wildfire period, from June 5th to July 6th 2012. For respiratory outcomes, we observed positive relationships between lag 0 PM₂.₅ and asthma/wheeze (1 h max OR 1.01, 95 % CI (1.00, 1.01) per 10 μg/m³; 24 h mean OR 1.04 95 % CI (1.02, 1.06) per 5 μg/m³), and COPD (1 h max OR 1.01 95 % CI (1.00, 1.02) per 10 μg/m³; 24 h mean OR 1.05 95 % CI (1.02, 1.08) per 5 μg/m³). These associations were also positive for 2-day and 3-day moving average lag periods. When PM₂.₅ was modeled as a categorical variable, bronchitis also showed elevated effect estimates over the referent groups for lag 0 24 h average concentration. Cardiovascular results were consistent with no association. Conclusions We observed positive associations between PM₂.₅ from wildfire and respiratory diseases, supporting evidence from previous research that wildfire PM₂.₅ is an important source for adverse respiratory health outcomes.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

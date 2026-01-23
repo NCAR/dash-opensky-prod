@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:14518</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:03:39.039146</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:19:08.906355</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Fisher, Rosemary A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-3260-9227"
+                                    xlink:title="Fisher, Rosemary A."
+                                    xlink:actuate="onRequest">Fisher, Rosemary A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -237,7 +240,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>While a majority of global climate models project drier and longer dry seasons over the Amazon under higher CO&#x2082; levels, large uncertainties surround the response of vegetation to persistent droughts in both present-day and future climates. We propose a detailed evaluation of the ability of the ISBACC (Interaction Soil&#x2013;Biosphere&#x2013;Atmosphere Carbon Cycle) land surface model to capture drought effects on both water and carbon budgets, comparing fluxes and stocks at two recent throughfall exclusion (TFE) experiments performed in the Amazon. We also explore the model sensitivity to different water stress functions (WSFs) and to an idealized increase in CO&#x2082; concentration and/or temperature. In spite of a reasonable soil moisture simulation, ISBACC struggles to correctly simulate the vegetation response to TFE whose amplitude and timing is highly sensitive to the WSF. Under higher CO&#x2082; concentrations, the increased water-use efficiency (WUE) mitigates the sensitivity of ISBACC to drought. While one of the proposed WSF formulations improves the response of most ISBACC fluxes, except respiration, a parameterization of drought-induced tree mortality is missing for an accurate estimate of the vegetation response. Also, a better mechanistic understanding of the forest responses to drought under a warmer climate and higher CO&#x2082; concentration is clearly needed.</gco:CharacterString>
+            <gco:CharacterString>While a majority of global climate models project drier and longer dry seasons over the Amazon under higher CO₂ levels, large uncertainties surround the response of vegetation to persistent droughts in both present-day and future climates. We propose a detailed evaluation of the ability of the ISBACC (Interaction Soil–Biosphere–Atmosphere Carbon Cycle) land surface model to capture drought effects on both water and carbon budgets, comparing fluxes and stocks at two recent throughfall exclusion (TFE) experiments performed in the Amazon. We also explore the model sensitivity to different water stress functions (WSFs) and to an idealized increase in CO₂ concentration and/or temperature. In spite of a reasonable soil moisture simulation, ISBACC struggles to correctly simulate the vegetation response to TFE whose amplitude and timing is highly sensitive to the WSF. Under higher CO₂ concentrations, the increased water-use efficiency (WUE) mitigates the sensitivity of ISBACC to drought. While one of the proposed WSF formulations improves the response of most ISBACC fluxes, except respiration, a parameterization of drought-induced tree mortality is missing for an accurate estimate of the vegetation response. Also, a better mechanistic understanding of the forest responses to drought under a warmer climate and higher CO₂ concentration is clearly needed.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

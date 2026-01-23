@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:17343</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:56:07.358566</gco:DateTime>
+      <gco:DateTime>2025-12-26T16:24:08.088033</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Vivekanandan, Jothiram</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-0952-2169"
+                                    xlink:title="Vivekanandan, Jothiram"
+                                    xlink:actuate="onRequest">Vivekanandan, Jothiram</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Dry air, water vapor, hydrometeors, and other particulates (sand, dust, aerosols, and volcanic ash) in the atmosphere introduce microwave propagation delays. These delays must be properly characterized to achieve the highest accuracy in surveying and atmospheric sensing using Global Positioning System (GPS) signals. In this paper we review the theory of microwave propagation delays induced by the above atmospheric constituents and estimate their maximum delays. Because the structure of atmospheric refractivity can be highly complex and difficult to model, and because measurement tools are unavailable for characterizing most of the refractive components, we use simplified examples to illustrate its effects. Our results show that propagation delays due to water vapor, cloud liquid, rain, and sandstorms can be significant in high-accuracy GPS applications. For instance, propagation through 1 km of heavy rain can induce 15-mm delays in L1&#x2081; and because delays due to scattering are dispersive and alias as ionospheric delays in L&#x2083; processing, L&#x2083; range errors are magnified to 20 mm. Depending upon the distribution of precipitation relative to the configuration of GPS satellites, such unmodeled delays can induce horizontal and vertical errors of several centimeters.</gco:CharacterString>
+            <gco:CharacterString>Dry air, water vapor, hydrometeors, and other particulates (sand, dust, aerosols, and volcanic ash) in the atmosphere introduce microwave propagation delays. These delays must be properly characterized to achieve the highest accuracy in surveying and atmospheric sensing using Global Positioning System (GPS) signals. In this paper we review the theory of microwave propagation delays induced by the above atmospheric constituents and estimate their maximum delays. Because the structure of atmospheric refractivity can be highly complex and difficult to model, and because measurement tools are unavailable for characterizing most of the refractive components, we use simplified examples to illustrate its effects. Our results show that propagation delays due to water vapor, cloud liquid, rain, and sandstorms can be significant in high-accuracy GPS applications. For instance, propagation through 1 km of heavy rain can induce 15-mm delays in L1₁ and because delays due to scattering are dispersive and alias as ionospheric delays in L₃ processing, L₃ range errors are magnified to 20 mm. Depending upon the distribution of precipitation relative to the configuration of GPS satellites, such unmodeled delays can induce horizontal and vertical errors of several centimeters.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

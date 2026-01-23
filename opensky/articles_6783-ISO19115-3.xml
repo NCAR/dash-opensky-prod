@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6783</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:02:05.983537</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:36:39.465173</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Emery, Barbara A.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-8076-1971"
+                                    xlink:title="Emery, Barbara A."
+                                    xlink:actuate="onRequest">Emery, Barbara A.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -187,7 +190,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Global 30&#x2013;240 keV proton precipitation patterns during the 17-18 April 2002 magnetic storm events were generated using newly developed 3-hour data products of the medium energy proton and electron detector (MEPED) on board the NOAA-15 and -16 satellites. The observational data set was sorted in 1-degree corrected magnetic latitude (CML) and 8-min magnetic local time (MLT) bins. To achieve global coverage, the missing MLT data were filled by interpolation techniques in each 1-degree CML interval. The resulting global 30-240 keV proton precipitation maps, available on a 3-hour cadence, provide new information on the development and variability in the structure of incident high-energy protons on a timescale commensurate with the growth and decay of the plasma sheet and ring current. The change of energetic proton precipitation patterns in the April 2002 storms is quantified in terms of three aspects: hemispheric integrated total particle energy input, midnight proton oval equatorward boundary, and position of proton precipitation peak. In a general sense, as magnetospheric activity intensified, the midnight equatorward boundary tended to move to the lower latitude, while the precipitation peak moved equatorward and westward away from midnight, in agreement with ring current motion. It is well illustrated that energetic proton precipitation patterns can serve as a valuable diagnostic tool for investigating the inner magnetospheric activity.</gco:CharacterString>
+            <gco:CharacterString>Global 30–240 keV proton precipitation patterns during the 17-18 April 2002 magnetic storm events were generated using newly developed 3-hour data products of the medium energy proton and electron detector (MEPED) on board the NOAA-15 and -16 satellites. The observational data set was sorted in 1-degree corrected magnetic latitude (CML) and 8-min magnetic local time (MLT) bins. To achieve global coverage, the missing MLT data were filled by interpolation techniques in each 1-degree CML interval. The resulting global 30-240 keV proton precipitation maps, available on a 3-hour cadence, provide new information on the development and variability in the structure of incident high-energy protons on a timescale commensurate with the growth and decay of the plasma sheet and ring current. The change of energetic proton precipitation patterns in the April 2002 storms is quantified in terms of three aspects: hemispheric integrated total particle energy input, midnight proton oval equatorward boundary, and position of proton precipitation peak. In a general sense, as magnetospheric activity intensified, the midnight equatorward boundary tended to move to the lower latitude, while the precipitation peak moved equatorward and westward away from midnight, in agreement with ring current motion. It is well illustrated that energetic proton precipitation patterns can serve as a valuable diagnostic tool for investigating the inner magnetospheric activity.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

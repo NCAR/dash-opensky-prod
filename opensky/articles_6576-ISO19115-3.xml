@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6576</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T15:58:18.012074</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:22:04.395433</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Wang, Wenbin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6287-4542"
+                                    xlink:title="Wang, Wenbin"
+                                    xlink:actuate="onRequest">Wang, Wenbin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -167,7 +170,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Solomon, Stanley C.</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-5291-3034"
+                                    xlink:title="Solomon, Stanley C."
+                                    xlink:actuate="onRequest">Solomon, Stanley C.</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -217,7 +222,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>A new interactive M-I coupling model that describes the dynamic interaction between magnetospheric dispersive waves, compressional modes, and auroral electron precipitations is applied to investigate the geomagnetic electromagnetic pulsations observed in Earth's magnetosphere in terms of magnetospheric waves triggered by ionospheric feedback instability. Two new aspects of this work are that (1) we treat the full nonlinear MHD equations, i.e., include the full compressional modes and their coupling with shear Alfv&#xe9;n waves in the magnetosphere; and (2) the height-integrated Pedersen conductivity is treated as a dynamic parameter by electrodynamically coupling the 2D finite element wave model "TOPO" to the ionospheric ionization model "GLOW". It is shown that the feedback instability can be triggered by a very small-scale, small amplitude density perturbation; and the small-scale electromagnetic oscillations and their associated density fluctuations observed in magnetosphere can be attributed to the feedback instability. We demonstrate that, unlike in a field line resonance where the ponderomotive force causes the plasma to move mainly along the field line, the plasma in the feedback instability is distributed either as a bump or a cavity along a field line and leads to a multibanded structure in the radial direction. The nonlinear feedback instability model can successfully explain the formation of plasma density and electromagnetic perturbations with the same frequency, which disagree with current FLR scenario.</gco:CharacterString>
+            <gco:CharacterString>A new interactive M-I coupling model that describes the dynamic interaction between magnetospheric dispersive waves, compressional modes, and auroral electron precipitations is applied to investigate the geomagnetic electromagnetic pulsations observed in Earth's magnetosphere in terms of magnetospheric waves triggered by ionospheric feedback instability. Two new aspects of this work are that (1) we treat the full nonlinear MHD equations, i.e., include the full compressional modes and their coupling with shear Alfvén waves in the magnetosphere; and (2) the height-integrated Pedersen conductivity is treated as a dynamic parameter by electrodynamically coupling the 2D finite element wave model "TOPO" to the ionospheric ionization model "GLOW". It is shown that the feedback instability can be triggered by a very small-scale, small amplitude density perturbation; and the small-scale electromagnetic oscillations and their associated density fluctuations observed in magnetosphere can be attributed to the feedback instability. We demonstrate that, unlike in a field line resonance where the ponderomotive force causes the plasma to move mainly along the field line, the plasma in the feedback instability is distributed either as a bump or a cavity along a field line and leads to a multibanded structure in the radial direction. The nonlinear feedback instability model can successfully explain the formation of plasma density and electromagnetic perturbations with the same frequency, which disagree with current FLR scenario.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

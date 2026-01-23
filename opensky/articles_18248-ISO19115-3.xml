@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:18248</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-12T00:05:38.660925</gco:DateTime>
+      <gco:DateTime>2025-12-26T03:22:15.194723</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -327,7 +328,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lee-Taylor, Julia</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-0989-1113"
+                                    xlink:title="Lee-Taylor, Julia"
+                                    xlink:actuate="onRequest">Lee-Taylor, Julia</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -357,7 +360,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>We previously reported a significant association between higher UV radiation exposure before diagnosis and greater survival with melanoma in a population-based study in Connecticut. We sought to evaluate the hypothesis that sun exposure before diagnosis was associated with greater survival in a larger, international population-based study with more detailed exposure information. We conducted a multicenter, international population-based study in four countries--Australia, Italy, Canada, and the United States--with 3,578 cases of melanoma with an average of 7.4 years of follow-up. Measures of sun exposure included sunburn, intermittent exposure, hours of holiday sun exposure, hours of water-related outdoor activities, ambient ultraviolet B (280&#x2013;320 nm) dose, histologic solar elastosis, and season of diagnosis. Results were not strongly supportive of the earlier hypothesis. Having had any sunburn in 1 year within 10 years of diagnosis was inversely associated with survival; solar elastosis--a measure of lifetime cumulative exposure--was not. In addition, none of the intermittent exposure measures--water-related activities and sunny holidays--were associated with melanoma-specific survival. Estimated ambient UVB dose was not associated with survival. Although there was an apparent protective effect of sunburns within 10 years of diagnosis, there was only weak evidence in this large, international, population-based study of melanoma that sun exposure before diagnosis is associated with greater melanoma-specific survival. This study adds to the evidence that sun exposure before melanoma diagnosis has little effect on survival with melanoma.</gco:CharacterString>
+            <gco:CharacterString>We previously reported a significant association between higher UV radiation exposure before diagnosis and greater survival with melanoma in a population-based study in Connecticut. We sought to evaluate the hypothesis that sun exposure before diagnosis was associated with greater survival in a larger, international population-based study with more detailed exposure information. We conducted a multicenter, international population-based study in four countries--Australia, Italy, Canada, and the United States--with 3,578 cases of melanoma with an average of 7.4 years of follow-up. Measures of sun exposure included sunburn, intermittent exposure, hours of holiday sun exposure, hours of water-related outdoor activities, ambient ultraviolet B (280–320 nm) dose, histologic solar elastosis, and season of diagnosis. Results were not strongly supportive of the earlier hypothesis. Having had any sunburn in 1 year within 10 years of diagnosis was inversely associated with survival; solar elastosis--a measure of lifetime cumulative exposure--was not. In addition, none of the intermittent exposure measures--water-related activities and sunny holidays--were associated with melanoma-specific survival. Estimated ambient UVB dose was not associated with survival. Although there was an apparent protective effect of sunburns within 10 years of diagnosis, there was only weak evidence in this large, international, population-based study of melanoma that sun exposure before diagnosis is associated with greater melanoma-specific survival. This study adds to the evidence that sun exposure before melanoma diagnosis has little effect on survival with melanoma.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

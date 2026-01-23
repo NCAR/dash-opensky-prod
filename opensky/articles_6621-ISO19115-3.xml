@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:6621</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-17T17:03:14.478830</gco:DateTime>
+      <gco:DateTime>2025-12-26T15:39:33.913390</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -127,7 +128,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Chen, Fei</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-2573-3828"
+                                    xlink:title="Chen, Fei"
+                                    xlink:actuate="onRequest">Chen, Fei</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +210,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>examining the slopeAnalyses of daytime fair-weather aircraft and surface-flux tower data from the May-June 2002 International H&#x2082;O Project (IHOP_2002) and the April-May 1997 Cooperative Atmosphere Surface Exchange Study (CASES-97) are used to document the role of vegetation, soil moisture, and terrain in determining the horizontal variability of latent heat LE and sensible heat H along a 46-km flight track in southeast Kansas. Combining the two field experiments clearly reveals the strong influence of vegetation cover, with H maxima over sparse/dormant vegetation, and H minima over green vegetation; and, to a lesser extent, LE maxima over green vegetation, and LE minima over sparse/dormant vegetation. If the small number of cases is producing the correct trend, other effects of vegetation and the impact of soil moisture emerge through examining the slope &#x2206;xyLE/&#x2206;xyH for the best-fit straight line for plots of time-averaged LE as a function of time-averaged H over the area. Based on the surface energy balance, H + LE = Rnet &#x2212; Gsfc, where Rnet is the net radiation and Gsfc is the flux into the soil; Rnet &#x2212; Gsfc constant over the area implies an approximately &#x2212;1 slope. Right after rainfall, H and LE vary too little horizontally to define a slope. After sufficient drying to produce enough horizontal variation to define a slope, a steep (&#x223c;-2) slope emerges. The slope becomes shallower and better defined with time as H and LE horizontal variability increases. Similarly, the slope becomes more negative with moister soils. In addition, the slope can change with time of day due to phase differences in H and LE. These trends are based on land surface model (LSM) runs and observations collected under nearly clear skies; the vegetation is unstressed for the days examined. LSM runs suggest terrain may also play a role, but observational support is weak.</gco:CharacterString>
+            <gco:CharacterString>examining the slopeAnalyses of daytime fair-weather aircraft and surface-flux tower data from the May-June 2002 International H₂O Project (IHOP_2002) and the April-May 1997 Cooperative Atmosphere Surface Exchange Study (CASES-97) are used to document the role of vegetation, soil moisture, and terrain in determining the horizontal variability of latent heat LE and sensible heat H along a 46-km flight track in southeast Kansas. Combining the two field experiments clearly reveals the strong influence of vegetation cover, with H maxima over sparse/dormant vegetation, and H minima over green vegetation; and, to a lesser extent, LE maxima over green vegetation, and LE minima over sparse/dormant vegetation. If the small number of cases is producing the correct trend, other effects of vegetation and the impact of soil moisture emerge through examining the slope ∆xyLE/∆xyH for the best-fit straight line for plots of time-averaged LE as a function of time-averaged H over the area. Based on the surface energy balance, H + LE = Rnet − Gsfc, where Rnet is the net radiation and Gsfc is the flux into the soil; Rnet − Gsfc constant over the area implies an approximately −1 slope. Right after rainfall, H and LE vary too little horizontally to define a slope. After sufficient drying to produce enough horizontal variation to define a slope, a steep (∼-2) slope emerges. The slope becomes shallower and better defined with time as H and LE horizontal variability increases. Similarly, the slope becomes more negative with moister soils. In addition, the slope can change with time of day due to phase differences in H and LE. These trends are based on land surface model (LSM) runs and observations collected under nearly clear skies; the vegetation is unstressed for the days examined. LSM runs suggest terrain may also play a role, but observational support is weak.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>

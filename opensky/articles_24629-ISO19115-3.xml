@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gco="http://www.isotc211.org/2005/gco"
                  xmlns:gmd="http://www.isotc211.org/2005/gmd"
@@ -8,7 +8,8 @@
                  xmlns:gsr="http://www.isotc211.org/2005/gsr"
                  xmlns:gmi="http://www.isotc211.org/2005/gmi"
                  xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>edu.ucar.opensky::articles:24629</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -71,7 +72,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2025-07-11T16:12:33.184468</gco:DateTime>
+      <gco:DateTime>2025-12-24T23:05:33.172809</gco:DateTime>
    </gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -167,7 +168,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Gaubert, Benjamin</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6595-0686"
+                                    xlink:title="Gaubert, Benjamin"
+                                    xlink:actuate="onRequest">Gaubert, Benjamin</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -177,7 +180,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Brasseur, Guy</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0001-6794-9497"
+                                    xlink:title="Brasseur, Guy"
+                                    xlink:actuate="onRequest">Brasseur, Guy</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -207,7 +212,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Tilmes, Simone</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0002-6557-3569"
+                                    xlink:title="Tilmes, Simone"
+                                    xlink:actuate="onRequest">Tilmes, Simone</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -267,7 +274,9 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Lacey, Forrest</gco:CharacterString>
+                        <gmx:Anchor xlink:href="https://orcid.org/0000-0003-4578-8375"
+                                    xlink:title="Lacey, Forrest"
+                                    xlink:actuate="onRequest">Lacey, Forrest</gmx:Anchor>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -277,7 +286,7 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>M&#xfc;ller, J.</gco:CharacterString>
+                        <gco:CharacterString>Müller, J.</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
@@ -327,7 +336,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Using the CAM-chem Model, we simulate the response of chemical species in the free troposphere to scenarios of primary pollutant emission reductions during the COVID-19 pandemic. Zonally averaged ozone in the free troposphere during Northern Hemisphere spring and summer is found to be 5%-15% lower than 19-yr climatological values, in good agreement with observations. About one third of this anomaly is attributed to the reduction scenario of air traffic during the pandemic, another third to the reduction scenario of surface emissions, the remainder to 2020 meteorological conditions, including the exceptional springtime Arctic stratospheric ozone depletion. For the combined emission reductions, the overall COVID-19 reduction in northern hemisphere tropospheric ozone in June is less than 5 ppb below 400 hPa, but reaches 8 ppb at 250 hPa. In the Southern Hemisphere, COVID-19 related ozone reductions by 4%&#x2013;6% were masked by comparable ozone increases due to other changes in 2020.</gco:CharacterString>
+            <gco:CharacterString>Using the CAM-chem Model, we simulate the response of chemical species in the free troposphere to scenarios of primary pollutant emission reductions during the COVID-19 pandemic. Zonally averaged ozone in the free troposphere during Northern Hemisphere spring and summer is found to be 5%-15% lower than 19-yr climatological values, in good agreement with observations. About one third of this anomaly is attributed to the reduction scenario of air traffic during the pandemic, another third to the reduction scenario of surface emissions, the remainder to 2020 meteorological conditions, including the exceptional springtime Arctic stratospheric ozone depletion. For the combined emission reductions, the overall COVID-19 reduction in northern hemisphere tropospheric ozone in June is less than 5 ppb below 400 hPa, but reaches 8 ppb at 250 hPa. In the Southern Hemisphere, COVID-19 related ozone reductions by 4%–6% were masked by comparable ozone increases due to other changes in 2020.</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
